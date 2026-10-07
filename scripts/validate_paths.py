@@ -15,6 +15,11 @@ from pydantic import ValidationError
 from myroad_core.content.locale_rules import validate_locale_consistency
 from myroad_core.content.schema import validate_content_path
 
+try:  # added to the schema in MyRoad PR #33; skip quietly until it's on main
+    from myroad_core.content.schema import check_prerequisites
+except ImportError:  # pragma: no cover
+    check_prerequisites = None
+
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -25,6 +30,7 @@ def main() -> int:
         return 1
 
     errors: list[str] = []
+    loaded = []
     seen_ids: dict[str, Path] = {}
     for fp in files:
         rel = fp.relative_to(ROOT)
@@ -38,12 +44,18 @@ def main() -> int:
         except (ValidationError, ValueError) as exc:
             errors.append(f"{rel}: schema error:\n{exc}")
             continue
+        loaded.append(path)
         if path.id in seen_ids:
             errors.append(f"{rel}: duplicate path id {path.id!r} (also in {seen_ids[path.id]})")
         else:
             seen_ids[path.id] = rel
         for msg in validate_locale_consistency(path):
             errors.append(f"{rel}: locale: {msg}")
+
+    if check_prerequisites is not None:
+        errors.extend(f"prerequisites: {msg}" for msg in check_prerequisites(loaded))
+    else:
+        print("::notice::check_prerequisites is not on MyRoad main yet; skipped.")
 
     for e in errors:
         print(f"::error::{e}" if "\n" not in e else e)
