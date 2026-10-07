@@ -21,7 +21,14 @@ jobs:
           # from the repo tree, so a plain wheel install can't load them.
           git clone --depth 1 https://github.com/Eliot100/MyRoad.git /tmp/MyRoad
           python -m pip install --upgrade pip
-          pip install -e "/tmp/MyRoad/packages/core[api]"
+          pip install -e "/tmp/MyRoad/packages/core[dev,api]"
 
       - name: Validate every path JSON
         run: python scripts/validate_paths.py
+
+      - name: Run MyRoad core tests against this content
+        working-directory: /tmp/MyRoad/packages/core
+        run: |
+          mkdir -p /tmp/content
+          cp -R "$GITHUB_WORKSPACE/." /tmp/content/ && rm -rf /tmp/content/.git
+          CONTENT_DIR=/tmp/content pytest -q
