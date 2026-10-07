@@ -12,6 +12,7 @@ The platform repo (`Eliot100/MyRoad`) loads these files via:
 
 ```
 grade3/*.json   # ten demo paths (math, english, physics, piano)
+adult/*.json    # long paths for adults starting from zero (schema v2)
 ```
 
 Schema: `myroad_core.content.schema.ContentPath` in the platform package.

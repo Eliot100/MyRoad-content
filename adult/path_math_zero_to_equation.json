@@ -1,0 +1,1853 @@
+{
+  "id": "path_math_zero_to_equation",
+  "titles": {
+    "he": "מתמטיקה מאפס עד משוואה",
+    "en": "Math from zero to an equation"
+  },
+  "blurbs": {
+    "he": "מספרים, ארבע הפעולות, שליליים, שברים, עשרוניים, אחוזים וחזקות, ועד פתרון משוואה בנעלם אחד. תרגול קצר עם משוב מיידי, וחזרות מעורבות שחוזרות עם הזמן.",
+    "en": "Numbers, the four operations, negatives, fractions, decimals, percents and powers, up to solving a one-variable equation. Short practice with instant feedback and mixed reviews that come back over time."
+  },
+  "subject": "math",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "🧮",
+  "estimated_minutes": 240,
+  "topics": [
+    {
+      "id": "t_numbers",
+      "titles": {
+        "he": "מספרים וערך מקום",
+        "en": "Numbers and place value"
+      },
+      "emoji": "🔢",
+      "node_ids": [
+        "numbers_learn",
+        "numbers_place",
+        "numbers_compare"
+      ]
+    },
+    {
+      "id": "t_addsub",
+      "titles": {
+        "he": "חיבור וחיסור",
+        "en": "Addition and subtraction"
+      },
+      "emoji": "➕",
+      "node_ids": [
+        "addsub_learn",
+        "addsub_add",
+        "addsub_sub"
+      ]
+    },
+    {
+      "id": "t_muldiv",
+      "titles": {
+        "he": "כפל וחילוק",
+        "en": "Multiplication and division"
+      },
+      "emoji": "✖️",
+      "node_ids": [
+        "muldiv_learn",
+        "muldiv_fact",
+        "muldiv_rem",
+        "muldiv_mul"
+      ]
+    },
+    {
+      "id": "t_order",
+      "titles": {
+        "he": "סדר פעולות",
+        "en": "Order of operations"
+      },
+      "emoji": "🧭",
+      "node_ids": [
+        "order_learn",
+        "order_basic",
+        "order_ltr",
+        "order_check"
+      ]
+    },
+    {
+      "id": "t_negatives",
+      "titles": {
+        "he": "מספרים שליליים",
+        "en": "Negative numbers"
+      },
+      "emoji": "🌡️",
+      "node_ids": [
+        "neg_learn",
+        "neg_add",
+        "neg_sub",
+        "neg_mul",
+        "neg_power"
+      ]
+    },
+    {
+      "id": "t_review1",
+      "titles": {
+        "he": "חזרה מעורבת 1",
+        "en": "Mixed review 1"
+      },
+      "emoji": "🔁",
+      "node_ids": [
+        "rev1_a",
+        "rev1_b",
+        "rev1_c"
+      ]
+    },
+    {
+      "id": "t_factors",
+      "titles": {
+        "he": "גורמים, כפולות וראשוניים",
+        "en": "Factors, multiples, primes"
+      },
+      "emoji": "🧩",
+      "node_ids": [
+        "factors_learn",
+        "factors_prime",
+        "factors_lcm"
+      ]
+    },
+    {
+      "id": "t_fractions",
+      "titles": {
+        "he": "מה זה שבר",
+        "en": "What a fraction is"
+      },
+      "emoji": "🍕",
+      "node_ids": [
+        "frac_learn",
+        "frac_simplify",
+        "frac_compare"
+      ]
+    },
+    {
+      "id": "t_fracops",
+      "titles": {
+        "he": "פעולות בשברים",
+        "en": "Fraction operations"
+      },
+      "emoji": "🧮",
+      "node_ids": [
+        "fracops_learn",
+        "fracops_add",
+        "fracops_mul",
+        "fracops_div"
+      ]
+    },
+    {
+      "id": "t_decimals",
+      "titles": {
+        "he": "שברים עשרוניים",
+        "en": "Decimals"
+      },
+      "emoji": "🔟",
+      "node_ids": [
+        "dec_learn",
+        "dec_compare",
+        "dec_mul",
+        "dec_convert"
+      ]
+    },
+    {
+      "id": "t_review2",
+      "titles": {
+        "he": "חזרה מעורבת 2",
+        "en": "Mixed review 2"
+      },
+      "emoji": "🔁",
+      "node_ids": [
+        "rev2_a",
+        "rev2_b",
+        "rev2_c"
+      ]
+    },
+    {
+      "id": "t_percent",
+      "titles": {
+        "he": "אחוזים",
+        "en": "Percents"
+      },
+      "emoji": "💯",
+      "node_ids": [
+        "pct_learn",
+        "pct_of",
+        "pct_part",
+        "pct_change"
+      ]
+    },
+    {
+      "id": "t_powers",
+      "titles": {
+        "he": "חזקה ושורש",
+        "en": "Powers and roots"
+      },
+      "emoji": "📐",
+      "node_ids": [
+        "pow_learn",
+        "pow_cube",
+        "pow_root",
+        "pow_sumroot"
+      ]
+    },
+    {
+      "id": "t_expressions",
+      "titles": {
+        "he": "אות במקום מספר",
+        "en": "Variables and expressions"
+      },
+      "emoji": "🔤",
+      "node_ids": [
+        "expr_learn",
+        "expr_sub",
+        "expr_like",
+        "expr_unlike",
+        "expr_dist",
+        "expr_minus"
+      ]
+    },
+    {
+      "id": "t_review3",
+      "titles": {
+        "he": "חזרה מעורבת 3",
+        "en": "Mixed review 3"
+      },
+      "emoji": "🔁",
+      "node_ids": [
+        "rev3_a",
+        "rev3_b",
+        "rev3_c"
+      ]
+    },
+    {
+      "id": "t_balance",
+      "titles": {
+        "he": "משוואה כמאזניים",
+        "en": "An equation as a balance"
+      },
+      "emoji": "⚖️",
+      "node_ids": [
+        "bal_learn",
+        "bal_blank"
+      ]
+    },
+    {
+      "id": "t_equations",
+      "titles": {
+        "he": "פתרון משוואה",
+        "en": "Solving equations"
+      },
+      "emoji": "🎯",
+      "node_ids": [
+        "eq_learn",
+        "eq_one_add",
+        "eq_one_mul",
+        "eq_two",
+        "eq_both",
+        "eq_brackets",
+        "eq_negative",
+        "eq_verify"
+      ]
+    },
+    {
+      "id": "t_word",
+      "titles": {
+        "he": "בעיות מילוליות",
+        "en": "Word problems"
+      },
+      "emoji": "📝",
+      "node_ids": [
+        "word_learn",
+        "word_notebooks",
+        "word_number"
+      ]
+    },
+    {
+      "id": "t_final",
+      "titles": {
+        "he": "בדיקה מסכמת",
+        "en": "Final mixed check"
+      },
+      "emoji": "🏁",
+      "node_ids": [
+        "final_order",
+        "final_neg",
+        "final_frac",
+        "final_pct",
+        "final_eq",
+        "final_done"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "numbers_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "כל ספרה שווה לפי המקום שלה",
+      "body_he": "במספר 352 הספרה 3 שווה 300, הספרה 5 שווה 50, והספרה 2 שווה 2. אותה ספרה שווה יותר ככל שהיא יותר שמאלה. כדי להשוות שני מספרים, מתחילים מהספרה השמאלית."
+    },
+    {
+      "id": "numbers_place",
+      "type": "practice",
+      "title": "כמה שווה הספרה 5?",
+      "body_he": "במספר 4,582, כמה שווה הספרה 5?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "50"
+        },
+        {
+          "id": "c",
+          "label": "500"
+        },
+        {
+          "id": "d",
+          "label": "5,000"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "נכון. הספרה 5 נמצאת במקום המאות, אז היא שווה 500.",
+      "feedback_try": "ספור מימין: אחדות, עשרות, מאות. הספרה 5 במקום השלישי.",
+      "kind": "understanding"
+    },
+    {
+      "id": "numbers_compare",
+      "type": "practice",
+      "title": "מי גדול יותר?",
+      "body_he": "איזה מספר גדול יותר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1,099"
+        },
+        {
+          "id": "b",
+          "label": "1,909"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. באלפים שניהם 1, ובמאות 9 גדול מ-0.",
+      "feedback_try": "השווה ספרה אחרי ספרה משמאל. האלפים שווים, אז מסתכלים על המאות.",
+      "kind": "understanding"
+    },
+    {
+      "id": "addsub_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "חיבור וחיסור בעמודות",
+      "body_he": "כותבים את המספרים אחד מתחת לשני, אחדות מתחת לאחדות. מחברים מימין לשמאל. אם יצא 10 או יותר, מעבירים 1 לעמודה הבאה. בחיסור, אם הספרה למעלה קטנה מדי, לוקחים 1 מהעמודה שמשמאל."
+    },
+    {
+      "id": "addsub_add",
+      "type": "practice",
+      "title": "חיבור עם העברה",
+      "body_he": "487 + 256 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "633"
+        },
+        {
+          "id": "b",
+          "label": "743"
+        },
+        {
+          "id": "c",
+          "label": "733"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 7+6=13, כותבים 3 ומעבירים 1, וכך הלאה.",
+      "feedback_try": "חבר מימין: 7+6=13. כתוב 3 והעבר 1 לעשרות.",
+      "kind": "understanding"
+    },
+    {
+      "id": "addsub_sub",
+      "type": "practice",
+      "title": "חיסור עם פריטה",
+      "body_he": "1,000 − 367 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "633"
+        },
+        {
+          "id": "b",
+          "label": "743"
+        },
+        {
+          "id": "c",
+          "label": "767"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. בדיקה: 633 + 367 = 1,000.",
+      "feedback_try": "בדוק בחיבור: איזה מספר ועוד 367 נותן 1,000?",
+      "kind": "understanding"
+    },
+    {
+      "id": "muldiv_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "כפל הוא חיבור חוזר, חילוק הוא חלוקה שווה",
+      "body_he": "6 × 4 זה ארבע פעמים 6, כלומר 24. חילוק הוא הפעולה ההפוכה: 24 ÷ 4 = 6. כשהחלוקה לא יוצאת שווה, מה שנשאר הוא השארית. לוח הכפל עד 10 שווה לזכור בעל פה, כי כל השאר נשען עליו."
+    },
+    {
+      "id": "muldiv_fact",
+      "type": "practice",
+      "title": "לוח הכפל",
+      "body_he": "7 × 8 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "54"
+        },
+        {
+          "id": "b",
+          "label": "56"
+        },
+        {
+          "id": "c",
+          "label": "63"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון, 56.",
+      "feedback_try": "7 × 8 זה 7 × 4 פעמיים: 28 + 28.",
+      "kind": "understanding"
+    },
+    {
+      "id": "muldiv_rem",
+      "type": "practice",
+      "title": "חילוק עם שארית",
+      "body_he": "47 ÷ 5 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "9 שארית 2"
+        },
+        {
+          "id": "b",
+          "label": "8 שארית 7"
+        },
+        {
+          "id": "c",
+          "label": "9 שארית 3"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 5 × 9 = 45, ונשארו 2.",
+      "feedback_try": "כמה פעמים 5 נכנס ב-47 בלי לעבור? ואז כמה נשאר?",
+      "kind": "understanding"
+    },
+    {
+      "id": "muldiv_mul",
+      "type": "practice",
+      "title": "כפל במספר דו ספרתי",
+      "body_he": "6 × 25 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "125"
+        },
+        {
+          "id": "b",
+          "label": "150"
+        },
+        {
+          "id": "c",
+          "label": "155"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 4 × 25 = 100, ועוד 2 × 25 = 50.",
+      "feedback_try": "פרק: 6 × 20 ועוד 6 × 5.",
+      "kind": "understanding"
+    },
+    {
+      "id": "order_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "למה יש סדר פעולות",
+      "body_he": "זו הסכמה, כדי שכל אחד יקבל אותה תשובה מאותו תרגיל. קודם סוגריים, אחר כך חזקות, אחר כך כפל וחילוק, ובסוף חיבור וחיסור. כפל וחילוק שווים בדרגה ונעשים משמאל לימין. אותו דבר לחיבור וחיסור."
+    },
+    {
+      "id": "order_basic",
+      "type": "practice",
+      "title": "כפל לפני חיבור",
+      "body_he": "3 + 4 × 2 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "14"
+        },
+        {
+          "id": "b",
+          "label": "11"
+        },
+        {
+          "id": "c",
+          "label": "10"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. קודם 4 × 2 = 8, ואז 3 + 8.",
+      "feedback_try": "כפל לפני חיבור: חשב קודם 4 × 2.",
+      "kind": "understanding"
+    },
+    {
+      "id": "order_ltr",
+      "type": "practice",
+      "title": "משמאל לימין",
+      "body_he": "12 ÷ 3 × 2 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 12 ÷ 3 = 4, ואז 4 × 2 = 8.",
+      "feedback_try": "כפל וחילוק באותה דרגה, אז הולכים משמאל לימין.",
+      "kind": "understanding"
+    },
+    {
+      "id": "order_check",
+      "type": "check",
+      "title": "בדיקה",
+      "body_he": "20 − (3 + 2) × 3 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "45"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "12"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. סוגריים 5, כפול 3 זה 15, ו-20 − 15 = 5.",
+      "feedback_try": "סוגריים קודם, אחר כך הכפל, ורק בסוף החיסור.",
+      "kind": "understanding"
+    },
+    {
+      "id": "neg_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מתחת לאפס",
+      "body_he": "על ציר המספרים, השליליים משמאל לאפס, כמו טמפרטורה מתחת לאפס. להוסיף מספר חיובי זה לזוז ימינה. לחסר מספר שלילי זה כמו להוסיף: 5 − (−3) = 8. בכפל ובחילוק, שני סימנים זהים נותנים חיובי ושני סימנים שונים נותנים שלילי."
+    },
+    {
+      "id": "neg_add",
+      "type": "practice",
+      "title": "חיבור עם שלילי",
+      "body_he": "−3 + 5 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "−2"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. מתחילים ב-−3 וזזים 5 ימינה.",
+      "feedback_try": "התחל ב-−3 על הציר וזוז 5 צעדים ימינה.",
+      "kind": "understanding"
+    },
+    {
+      "id": "neg_sub",
+      "type": "practice",
+      "title": "חיסור של שלילי",
+      "body_he": "5 − (−3) = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "−8"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. מינוס של מינוס הוא פלוס: 5 + 3.",
+      "feedback_try": "לחסר שלילי זה להוסיף. 5 − (−3) = 5 + 3.",
+      "kind": "understanding"
+    },
+    {
+      "id": "neg_mul",
+      "type": "practice",
+      "title": "כפל שליליים",
+      "body_he": "(−4) × (−3) = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "12"
+        },
+        {
+          "id": "b",
+          "label": "−12"
+        },
+        {
+          "id": "c",
+          "label": "−7"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. שני סימנים זהים נותנים חיובי.",
+      "feedback_try": "שלילי כפול שלילי נותן חיובי.",
+      "kind": "understanding"
+    },
+    {
+      "id": "neg_power",
+      "type": "practice",
+      "title": "שלילי בחזקה",
+      "body_he": "כמה זה ‎−3²‎, בלי סוגריים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "9"
+        },
+        {
+          "id": "b",
+          "label": "−9"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. החזקה חלה רק על 3, והמינוס נשאר בחוץ. עם סוגריים, ‎(−3)²‎ = 9.",
+      "feedback_try": "בלי סוגריים, קודם מעלים את 3 בריבוע, ורק אחר כך שמים מינוס.",
+      "kind": "understanding"
+    },
+    {
+      "id": "rev1_a",
+      "type": "practice",
+      "title": "חזרה: שליליים וסדר פעולות",
+      "body_he": "2 × (−3) + 10 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "−16"
+        },
+        {
+          "id": "c",
+          "label": "16"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 2 × (−3) = −6, ו-−6 + 10 = 4.",
+      "feedback_try": "קודם הכפל: 2 × (−3). אחר כך הוסף 10.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_order",
+        "t_negatives"
+      ]
+    },
+    {
+      "id": "rev1_b",
+      "type": "practice",
+      "title": "חזרה: סדר פעולות וחילוק",
+      "body_he": "18 − 6 ÷ 3 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "16"
+        },
+        {
+          "id": "c",
+          "label": "12"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 6 ÷ 3 = 2, ו-18 − 2 = 16.",
+      "feedback_try": "חילוק לפני חיסור.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_order",
+        "t_muldiv"
+      ]
+    },
+    {
+      "id": "rev1_c",
+      "type": "practice",
+      "title": "חזרה: חיסור",
+      "body_he": "−7 − 5 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "−2"
+        },
+        {
+          "id": "b",
+          "label": "−12"
+        },
+        {
+          "id": "c",
+          "label": "12"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. מ-−7 זזים עוד 5 שמאלה.",
+      "feedback_try": "חיסור של חיובי זה לזוז שמאלה על הציר.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_negatives",
+        "t_addsub"
+      ]
+    },
+    {
+      "id": "factors_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "ממה מספר בנוי",
+      "body_he": "גורם של מספר הוא מספר שמחלק אותו בלי שארית. 3 הוא גורם של 12. כפולה היא מה שמקבלים כשכופלים: 12, 24 ו-36 הן כפולות של 12. מספר ראשוני מתחלק רק ב-1 ובעצמו, כמו 2, 3, 5, 7 ו-11. זה הכלי שצריך כדי לצמצם שברים ולמצוא מכנה משותף."
+    },
+    {
+      "id": "factors_prime",
+      "type": "practice",
+      "title": "מי ראשוני?",
+      "body_he": "איזה מהמספרים ראשוני?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "9"
+        },
+        {
+          "id": "b",
+          "label": "15"
+        },
+        {
+          "id": "c",
+          "label": "17"
+        },
+        {
+          "id": "d",
+          "label": "21"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "נכון. 17 מתחלק רק ב-1 ובעצמו.",
+      "feedback_try": "9 = 3 × 3, 15 = 3 × 5, 21 = 3 × 7. מה נשאר?",
+      "kind": "understanding"
+    },
+    {
+      "id": "factors_lcm",
+      "type": "practice",
+      "title": "הכפולה המשותפת הקטנה",
+      "body_he": "מה הכפולה המשותפת הקטנה ביותר של 4 ושל 6?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "24"
+        },
+        {
+          "id": "b",
+          "label": "12"
+        },
+        {
+          "id": "c",
+          "label": "2"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 12 הוא המספר הקטן ביותר שמתחלק גם ב-4 וגם ב-6.",
+      "feedback_try": "כתוב כפולות של 6: 6, 12, 18. איזו מהן מתחלקת ב-4?",
+      "kind": "understanding"
+    },
+    {
+      "id": "frac_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "חלק משלם",
+      "body_he": "בשבר ¾ המכנה (4) אומר לכמה חלקים שווים חילקנו את השלם, והמונה (3) אומר כמה חלקים לקחנו. ככל שהמכנה גדול יותר, כל חלק קטן יותר, אז ⅕ קטן מ-⅓. אפשר לכפול או לחלק את המונה והמכנה באותו מספר, והשבר נשאר אותו שבר."
+    },
+    {
+      "id": "frac_simplify",
+      "type": "practice",
+      "title": "צמצום",
+      "body_he": "צמצם את השבר 6/8.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3/4"
+        },
+        {
+          "id": "b",
+          "label": "2/3"
+        },
+        {
+          "id": "c",
+          "label": "6/4"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. חילקנו מונה ומכנה ב-2.",
+      "feedback_try": "חפש מספר שמחלק גם את 6 וגם את 8.",
+      "kind": "understanding"
+    },
+    {
+      "id": "frac_compare",
+      "type": "practice",
+      "title": "מי גדול יותר?",
+      "body_he": "איזה שבר גדול יותר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/3"
+        },
+        {
+          "id": "b",
+          "label": "1/5"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. שליש מפיצה גדול מחמישית, כי חילקו לפחות חלקים.",
+      "feedback_try": "מכנה גדול יותר אומר חלקים קטנים יותר.",
+      "kind": "understanding"
+    },
+    {
+      "id": "fracops_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "איך מחשבים עם שברים",
+      "body_he": "בכפל כופלים מונה במונה ומכנה במכנה. בחילוק הופכים את השבר השני וכופלים. בחיבור ובחיסור אסור לחבר מכנים: קודם מביאים למכנה משותף, ורק אז מחברים את המונים. ½ + ⅓ זה 3/6 + 2/6 = 5/6, לא 2/5."
+    },
+    {
+      "id": "fracops_add",
+      "type": "practice",
+      "title": "חיבור שברים",
+      "body_he": "1/2 + 1/3 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2/5"
+        },
+        {
+          "id": "b",
+          "label": "5/6"
+        },
+        {
+          "id": "c",
+          "label": "2/6"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. מכנה משותף 6: 3/6 + 2/6 = 5/6.",
+      "feedback_try": "אל תחבר את המכנים. הבא קודם את שניהם למכנה 6.",
+      "kind": "understanding"
+    },
+    {
+      "id": "fracops_mul",
+      "type": "practice",
+      "title": "כפל שברים",
+      "body_he": "2/3 × 3/4 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/2"
+        },
+        {
+          "id": "b",
+          "label": "5/7"
+        },
+        {
+          "id": "c",
+          "label": "8/9"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 6/12, ובצמצום 1/2.",
+      "feedback_try": "מונה כפול מונה, מכנה כפול מכנה, ואז צמצם.",
+      "kind": "understanding"
+    },
+    {
+      "id": "fracops_div",
+      "type": "practice",
+      "title": "חילוק שברים",
+      "body_he": "3/4 ÷ 1/2 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3/8"
+        },
+        {
+          "id": "b",
+          "label": "3/2"
+        },
+        {
+          "id": "c",
+          "label": "2/3"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 3/4 × 2/1 = 6/4 = 3/2.",
+      "feedback_try": "הפוך את 1/2 ל-2/1, ואז כפול.",
+      "kind": "understanding"
+    },
+    {
+      "id": "dec_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "עשיריות ומאיות",
+      "body_he": "0.3 הוא שלוש עשיריות, ו-0.25 הוא עשרים וחמש מאיות. כדי להשוות, משלימים אפסים: 0.30 מול 0.25, ואז רואים ש-0.3 גדול יותר. מספר ארוך יותר אחרי הנקודה הוא לא בהכרח גדול יותר. כפל במספר קטן מ-1 מקטין: 0.5 × 8 = 4."
+    },
+    {
+      "id": "dec_compare",
+      "type": "practice",
+      "title": "מי גדול יותר?",
+      "body_he": "איזה מספר גדול יותר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0.25"
+        },
+        {
+          "id": "b",
+          "label": "0.3"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 0.30 גדול מ-0.25.",
+      "feedback_try": "השלם אפס: 0.30 מול 0.25.",
+      "kind": "understanding"
+    },
+    {
+      "id": "dec_mul",
+      "type": "practice",
+      "title": "כפל בעשרוני",
+      "body_he": "0.5 × 8 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "40"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "0.4"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. חצי משמונה זה 4.",
+      "feedback_try": "0.5 זה חצי. כמה זה חצי מ-8?",
+      "kind": "understanding"
+    },
+    {
+      "id": "dec_convert",
+      "type": "practice",
+      "title": "משבר לעשרוני",
+      "body_he": "כתוב 3/4 כמספר עשרוני.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0.34"
+        },
+        {
+          "id": "b",
+          "label": "0.75"
+        },
+        {
+          "id": "c",
+          "label": "3.4"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 3 ÷ 4 = 0.75.",
+      "feedback_try": "3/4 זה שלושה רבעים, ורבע הוא 0.25.",
+      "kind": "understanding"
+    },
+    {
+      "id": "rev2_a",
+      "type": "practice",
+      "title": "חזרה: שברים",
+      "body_he": "1/4 + 1/2 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2/6"
+        },
+        {
+          "id": "b",
+          "label": "3/4"
+        },
+        {
+          "id": "c",
+          "label": "1/8"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 1/4 + 2/4 = 3/4.",
+      "feedback_try": "הבא את 1/2 למכנה 4.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_fracops",
+        "t_fractions"
+      ]
+    },
+    {
+      "id": "rev2_b",
+      "type": "practice",
+      "title": "חזרה: שליליים ועשרוניים",
+      "body_he": "−2.5 + 4 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "−6.5"
+        },
+        {
+          "id": "b",
+          "label": "1.5"
+        },
+        {
+          "id": "c",
+          "label": "6.5"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. מ-−2.5 זזים 4 ימינה.",
+      "feedback_try": "התחל ב-−2.5 וזוז ימינה 4.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_negatives",
+        "t_decimals"
+      ]
+    },
+    {
+      "id": "rev2_c",
+      "type": "practice",
+      "title": "חזרה: סדר פעולות ושברים",
+      "body_he": "6 + 1/2 × 4 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "26"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "13"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. קודם 1/2 × 4 = 2, ואז 6 + 2.",
+      "feedback_try": "כפל לפני חיבור.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_order",
+        "t_fracops"
+      ]
+    },
+    {
+      "id": "pct_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אחוז הוא חלק ממאה",
+      "body_he": "20% פירושו 20 מתוך 100, כלומר 0.2. כדי למצוא 20% מ-150 כופלים: 0.2 × 150 = 30. עלייה של 20% ואחריה ירידה של 20% לא מחזירה להתחלה, כי הירידה מחושבת מהמחיר החדש."
+    },
+    {
+      "id": "pct_of",
+      "type": "practice",
+      "title": "אחוז מכמות",
+      "body_he": "כמה זה 20% מ-150?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "30"
+        },
+        {
+          "id": "b",
+          "label": "20"
+        },
+        {
+          "id": "c",
+          "label": "75"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 10% זה 15, אז 20% זה 30.",
+      "feedback_try": "מצא קודם 10% (חלק ב-10), ואז הכפל ב-2.",
+      "kind": "understanding"
+    },
+    {
+      "id": "pct_part",
+      "type": "practice",
+      "title": "כמה אחוז זה?",
+      "body_he": "30 מתוך 120 זה כמה אחוזים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "25%"
+        },
+        {
+          "id": "b",
+          "label": "30%"
+        },
+        {
+          "id": "c",
+          "label": "40%"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 30/120 = 1/4 = 25%.",
+      "feedback_try": "צמצם את 30/120 לשבר פשוט.",
+      "kind": "understanding"
+    },
+    {
+      "id": "pct_change",
+      "type": "practice",
+      "title": "עלייה ואז ירידה",
+      "body_he": "מחיר של 100 ₪ עלה ב-20%, ואחר כך ירד ב-20%. מה המחיר עכשיו?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "100 ₪"
+        },
+        {
+          "id": "b",
+          "label": "96 ₪"
+        },
+        {
+          "id": "c",
+          "label": "104 ₪"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 100 עלה ל-120, ו-20% מ-120 זה 24, אז 96.",
+      "feedback_try": "הירידה היא 20% מ-120, לא מ-100.",
+      "kind": "understanding"
+    },
+    {
+      "id": "pow_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "כפל חוזר והפעולה ההפוכה",
+      "body_he": "2³ פירושו 2 × 2 × 2 = 8, לא 2 × 3. שורש ריבועי הוא המספר שבריבוע נותן את המספר: ‎√81 = 9‎ כי 9 × 9 = 81. שורש של סכום הוא לא סכום של שורשים: ‎√(9 + 16) = √25 = 5‎."
+    },
+    {
+      "id": "pow_cube",
+      "type": "practice",
+      "title": "חזקה",
+      "body_he": "2³ = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 2 × 2 × 2 = 8.",
+      "feedback_try": "זה 2 כפול עצמו שלוש פעמים, לא 2 × 3.",
+      "kind": "understanding"
+    },
+    {
+      "id": "pow_root",
+      "type": "practice",
+      "title": "שורש",
+      "body_he": "√81 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "9"
+        },
+        {
+          "id": "b",
+          "label": "40.5"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 9 × 9 = 81.",
+      "feedback_try": "איזה מספר כפול עצמו נותן 81?",
+      "kind": "understanding"
+    },
+    {
+      "id": "pow_sumroot",
+      "type": "practice",
+      "title": "שורש של סכום",
+      "body_he": "√(9 + 16) = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "25"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. קודם מחברים: √25 = 5.",
+      "feedback_try": "חבר קודם בתוך השורש, ורק אז הוצא שורש.",
+      "kind": "understanding"
+    },
+    {
+      "id": "expr_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מה זה נעלם",
+      "body_he": "x היא מקום למספר שעוד לא יודעים. 3x פירושו 3 × x. מחברים רק איברים מאותו סוג: 2x + 3x = 5x, אבל את 2x + 3 אי אפשר לקצר. מינוס לפני סוגריים הופך את הסימן של כל מה שבפנים: ‎−(x − 3) = −x + 3‎."
+    },
+    {
+      "id": "expr_sub",
+      "type": "practice",
+      "title": "הצבה",
+      "body_he": "אם x = 4, כמה זה 3x + 2?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "14"
+        },
+        {
+          "id": "b",
+          "label": "34"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 3 × 4 = 12, ועוד 2.",
+      "feedback_try": "3x זה 3 כפול x, לא הספרות 3 ו-4 צמודות.",
+      "kind": "understanding"
+    },
+    {
+      "id": "expr_like",
+      "type": "practice",
+      "title": "כינוס",
+      "body_he": "2x + 3x = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5x"
+        },
+        {
+          "id": "b",
+          "label": "5x²"
+        },
+        {
+          "id": "c",
+          "label": "6x"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. שני איברים של x מתחברים.",
+      "feedback_try": "כמו 2 תפוחים ועוד 3 תפוחים.",
+      "kind": "understanding"
+    },
+    {
+      "id": "expr_unlike",
+      "type": "practice",
+      "title": "מה אפשר לחבר?",
+      "body_he": "מה הצורה הקצרה ביותר של 2x + 3?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5x"
+        },
+        {
+          "id": "b",
+          "label": "2x + 3"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. x ומספר רגיל הם לא מאותו סוג, אז אין מה לכנס.",
+      "feedback_try": "אפשר לחבר רק x עם x, ומספר עם מספר.",
+      "kind": "understanding"
+    },
+    {
+      "id": "expr_dist",
+      "type": "practice",
+      "title": "פתיחת סוגריים",
+      "body_he": "3(x + 2) = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3x + 2"
+        },
+        {
+          "id": "b",
+          "label": "3x + 6"
+        },
+        {
+          "id": "c",
+          "label": "x + 6"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 3 כופל גם את x וגם את 2.",
+      "feedback_try": "המספר שמחוץ לסוגריים כופל כל איבר בפנים.",
+      "kind": "understanding"
+    },
+    {
+      "id": "expr_minus",
+      "type": "practice",
+      "title": "מינוס לפני סוגריים",
+      "body_he": "−(x − 3) = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "−x − 3"
+        },
+        {
+          "id": "b",
+          "label": "−x + 3"
+        },
+        {
+          "id": "c",
+          "label": "x + 3"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. כל סימן בפנים מתהפך.",
+      "feedback_try": "גם הסימן של 3 מתהפך.",
+      "kind": "understanding"
+    },
+    {
+      "id": "rev3_a",
+      "type": "practice",
+      "title": "חזרה: שלילי בחזקה",
+      "body_he": "(−2)³ = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "−8"
+        },
+        {
+          "id": "c",
+          "label": "−6"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. (−2) × (−2) × (−2) = −8.",
+      "feedback_try": "שלושה סימני מינוס בכפל נותנים מינוס.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_powers",
+        "t_negatives"
+      ]
+    },
+    {
+      "id": "rev3_b",
+      "type": "practice",
+      "title": "חזרה: אחוזים ושברים",
+      "body_he": "כמה זה חצי מ-40% מ-200?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "40"
+        },
+        {
+          "id": "b",
+          "label": "80"
+        },
+        {
+          "id": "c",
+          "label": "20"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 40% מ-200 זה 80, וחצי מזה 40.",
+      "feedback_try": "חשב קודם 40% מ-200.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_percent",
+        "t_fracops"
+      ]
+    },
+    {
+      "id": "rev3_c",
+      "type": "practice",
+      "title": "חזרה: עשרוניים ואחוזים",
+      "body_he": "כמה זה 0.15 באחוזים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1.5%"
+        },
+        {
+          "id": "b",
+          "label": "15%"
+        },
+        {
+          "id": "c",
+          "label": "150%"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 0.15 = 15/100 = 15%.",
+      "feedback_try": "אחוז הוא חלק ממאה. כמה מאיות יש ב-0.15?",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_percent",
+        "t_decimals"
+      ]
+    },
+    {
+      "id": "bal_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "סימן השוויון",
+      "body_he": "סימן = לא אומר שהתשובה באה עכשיו. הוא אומר ששני הצדדים שווים, כמו מאזניים מאוזנות. כל מה שעושים לצד אחד, חייבים לעשות גם לצד השני, אחרת המאזניים נוטות."
+    },
+    {
+      "id": "bal_blank",
+      "type": "practice",
+      "title": "מה חסר?",
+      "body_he": "8 + 4 = _ + 5. איזה מספר חסר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "12"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "17"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. שני הצדדים צריכים להיות 12, ו-7 + 5 = 12.",
+      "feedback_try": "הצד השמאלי שווה 12. מה ועוד 5 נותן 12?",
+      "kind": "understanding"
+    },
+    {
+      "id": "eq_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "לבודד את x",
+      "body_he": "המטרה היא להשאיר את x לבד בצד אחד. מבטלים פעולות בסדר הפוך: קודם מורידים חיבור או חיסור, אחר כך מבטלים כפל או חילוק. כל פעולה נעשית לשני הצדדים, ולכל האיברים. בסוף מציבים את התשובה במשוואה המקורית ובודקים ששני הצדדים יוצאים שווים."
+    },
+    {
+      "id": "eq_one_add",
+      "type": "practice",
+      "title": "צעד אחד",
+      "body_he": "x + 7 = 12. כמה זה x?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "19"
+        },
+        {
+          "id": "c",
+          "label": "−5"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. מחסרים 7 משני הצדדים.",
+      "feedback_try": "מה ועוד 7 נותן 12?",
+      "kind": "understanding"
+    },
+    {
+      "id": "eq_one_mul",
+      "type": "practice",
+      "title": "צעד אחד בכפל",
+      "body_he": "3x = 21. כמה זה x?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "18"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "63"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. מחלקים את שני הצדדים ב-3.",
+      "feedback_try": "חלק את שני הצדדים ב-3.",
+      "kind": "understanding"
+    },
+    {
+      "id": "eq_two",
+      "type": "practice",
+      "title": "שני צעדים",
+      "body_he": "2x + 6 = 10. כמה זה x?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "−1"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. מחסרים 6 ונשאר 2x = 4, ואז מחלקים ב-2.",
+      "feedback_try": "קודם חסר 6 משני הצדדים, ורק אחר כך חלק ב-2. אל תחלק רק חלק מהאיברים.",
+      "kind": "understanding"
+    },
+    {
+      "id": "eq_both",
+      "type": "practice",
+      "title": "x בשני הצדדים",
+      "body_he": "5x − 3 = 2x + 9. כמה זה x?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "12"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 3x = 12, אז x = 4.",
+      "feedback_try": "העבר את כל ה-x לצד אחד ואת המספרים לצד השני.",
+      "kind": "understanding"
+    },
+    {
+      "id": "eq_brackets",
+      "type": "practice",
+      "title": "עם סוגריים",
+      "body_he": "2(x − 1) = 10. כמה זה x?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "5.5"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 2x − 2 = 10, אז 2x = 12 ו-x = 6.",
+      "feedback_try": "פתח סוגריים: 2 כופל גם את x וגם את 1.",
+      "kind": "understanding"
+    },
+    {
+      "id": "eq_negative",
+      "type": "practice",
+      "title": "מקדם שלילי",
+      "body_he": "−3x + 4 = 19. כמה זה x?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "−5"
+        },
+        {
+          "id": "c",
+          "label": "7"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. −3x = 15, אז x = −5.",
+      "feedback_try": "אחרי שמחסרים 4 נשאר −3x = 15. חלק ב-−3.",
+      "kind": "understanding"
+    },
+    {
+      "id": "eq_verify",
+      "type": "check",
+      "title": "בדיקה בהצבה",
+      "body_he": "האם x = 4 הוא פתרון של 5x − 3 = 2x + 9?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כן"
+        },
+        {
+          "id": "b",
+          "label": "לא"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 5 × 4 − 3 = 17, וגם 2 × 4 + 9 = 17.",
+      "feedback_try": "הצב 4 בשני הצדדים וחשב כל צד בנפרד.",
+      "kind": "understanding"
+    },
+    {
+      "id": "word_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מסיפור למשוואה",
+      "body_he": "מסמנים את מה שלא יודעים ב-x, וכותבים את הסיפור כמשוואה, משפט אחרי משפט. \"קנתה 3 מחברות\" זה 3x. \"ועוד עט ב-5 ₪\" זה + 5. \"שילמה 26 ₪\" זה = 26. אחר כך פותרים כרגיל."
+    },
+    {
+      "id": "word_notebooks",
+      "type": "practice",
+      "title": "מחברות",
+      "body_he": "דנה קנתה 3 מחברות זהות ועט ב-5 ₪, ושילמה בסך הכול 26 ₪. כמה עולה מחברת?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "7 ₪"
+        },
+        {
+          "id": "b",
+          "label": "9 ₪"
+        },
+        {
+          "id": "c",
+          "label": "10.3 ₪"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 3x + 5 = 26, אז 3x = 21 ו-x = 7.",
+      "feedback_try": "כתוב 3x + 5 = 26 ופתור.",
+      "kind": "understanding"
+    },
+    {
+      "id": "word_number",
+      "type": "practice",
+      "title": "מספר נעלם",
+      "body_he": "כופלים מספר ב-4, מחסרים 6, ומקבלים 30. מה המספר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "9"
+        },
+        {
+          "id": "c",
+          "label": "36"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 4x − 6 = 30, אז 4x = 36 ו-x = 9.",
+      "feedback_try": "כתוב 4x − 6 = 30.",
+      "kind": "understanding"
+    },
+    {
+      "id": "final_order",
+      "type": "check",
+      "title": "סדר פעולות",
+      "body_he": "10 − 2 × 3 + 4 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "28"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 2 × 3 = 6, ואז 10 − 6 + 4 = 8.",
+      "feedback_try": "כפל קודם, ואחר כך חיבור וחיסור משמאל לימין.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_order"
+      ]
+    },
+    {
+      "id": "final_neg",
+      "type": "check",
+      "title": "שליליים",
+      "body_he": "−6 − (−10) = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "−16"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "16"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. מינוס של מינוס הוא פלוס: −6 + 10 = 4.",
+      "feedback_try": "לחסר שלילי זה להוסיף.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_negatives"
+      ]
+    },
+    {
+      "id": "final_frac",
+      "type": "check",
+      "title": "שברים",
+      "body_he": "2/3 + 1/6 = ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3/9"
+        },
+        {
+          "id": "b",
+          "label": "5/6"
+        },
+        {
+          "id": "c",
+          "label": "1/2"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 4/6 + 1/6 = 5/6.",
+      "feedback_try": "הבא את 2/3 למכנה 6.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_fracops"
+      ]
+    },
+    {
+      "id": "final_pct",
+      "type": "check",
+      "title": "אחוזים",
+      "body_he": "חולצה עלתה 80 ₪ ויש עליה 25% הנחה. כמה משלמים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "55 ₪"
+        },
+        {
+          "id": "b",
+          "label": "60 ₪"
+        },
+        {
+          "id": "c",
+          "label": "20 ₪"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 25% מ-80 זה 20, ו-80 − 20 = 60.",
+      "feedback_try": "מצא 25% מ-80, כלומר רבע, והחסר.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_percent"
+      ]
+    },
+    {
+      "id": "final_eq",
+      "type": "check",
+      "title": "משוואה",
+      "body_he": "4(x + 1) = 2x + 10. כמה זה x?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "4.5"
+        },
+        {
+          "id": "c",
+          "label": "2"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 4x + 4 = 2x + 10, אז 2x = 6 ו-x = 3.",
+      "feedback_try": "פתח סוגריים, ואז אסוף את ה-x לצד אחד.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_equations",
+        "t_expressions"
+      ]
+    },
+    {
+      "id": "final_done",
+      "type": "celebrate",
+      "title": "הגעת למשוואה",
+      "body_he": "סיימת את הדרך מאפס ועד משוואה בנעלם אחד. מעכשיו התרגילים המסכמים יחזרו מדי פעם, כדי לבדוק מה עדיין יושב ומה צריך רענון."
+    }
+  ]
+}
