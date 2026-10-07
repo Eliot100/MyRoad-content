@@ -1,0 +1,2077 @@
+{
+  "id": "path_math_bagrut_3_units",
+  "titles": {
+    "he": "מתמטיקה 3 יחידות, התוכנית החדשה",
+    "en": "Math 3 units, the new program"
+  },
+  "blurbs": {
+    "he": "הכנה לבגרות 3 יחידות לפי שלושת האשכולות של התוכנית החדשה: חברה ומדע, התמצאות במישור ובמרחב, ופיננסי כלכלי. קו ישר, פרבולה ומערכת משוואות נלמדים ככלים בדרך. שאלות יישומיות בסגנון שאלון 35172, וחזרות מעורבות שחוזרות עם הזמן.",
+    "en": "Bagrut 3-unit prep around the new program's three clusters: society and science, plane and space, and financial-economic. Lines, parabolas and systems are learned as tools along the way. Applied questions in the style of questionnaire 35172, with mixed reviews that come back over time."
+  },
+  "subject": "math",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "📊",
+  "estimated_minutes": 360,
+  "prerequisite_path_ids": [
+    "path_math_zero_to_equation"
+  ],
+  "topics": [
+    {
+      "id": "t_plane",
+      "titles": {
+        "he": "כלים: מערכת צירים וגרף",
+        "en": "Tools: the coordinate plane"
+      },
+      "emoji": "📈",
+      "node_ids": [
+        "plane_learn",
+        "plane_point",
+        "plane_flat"
+      ]
+    },
+    {
+      "id": "t_function",
+      "titles": {
+        "he": "כלים: מה זו פונקציה",
+        "en": "Tools: what a function is"
+      },
+      "emoji": "🔁",
+      "node_ids": [
+        "func_learn",
+        "func_eval",
+        "func_table"
+      ]
+    },
+    {
+      "id": "t_line",
+      "titles": {
+        "he": "כלים: הקו הישר",
+        "en": "Tools: the straight line"
+      },
+      "emoji": "📏",
+      "node_ids": [
+        "line_learn",
+        "line_slope",
+        "line_b",
+        "line_flat"
+      ]
+    },
+    {
+      "id": "t_system",
+      "titles": {
+        "he": "כלים: מערכת משוואות",
+        "en": "Tools: systems of equations"
+      },
+      "emoji": "✖️",
+      "node_ids": [
+        "sys_learn",
+        "sys_elim",
+        "sys_sub"
+      ]
+    },
+    {
+      "id": "t_quad",
+      "titles": {
+        "he": "כלים: משוואה ריבועית",
+        "en": "Tools: quadratic equations"
+      },
+      "emoji": "²",
+      "node_ids": [
+        "quad_learn",
+        "quad_pm",
+        "quad_zero",
+        "quad_factor"
+      ]
+    },
+    {
+      "id": "t_parabola",
+      "titles": {
+        "he": "כלים: פרבולה",
+        "en": "Tools: the parabola"
+      },
+      "emoji": "🏀",
+      "node_ids": [
+        "par_learn",
+        "par_time",
+        "par_height",
+        "par_min"
+      ]
+    },
+    {
+      "id": "t_review_tools",
+      "titles": {
+        "he": "חזרה מעורבת: כלים",
+        "en": "Mixed review: tools"
+      },
+      "emoji": "🔁",
+      "node_ids": [
+        "rt_func",
+        "rt_slope",
+        "rt_sys"
+      ]
+    },
+    {
+      "id": "t_graphs",
+      "titles": {
+        "he": "חברה ומדע: גרפים ומהירות",
+        "en": "Society and science: graphs and speed"
+      },
+      "emoji": "🚴",
+      "node_ids": [
+        "gr_learn",
+        "gr_speed",
+        "gr_total"
+      ]
+    },
+    {
+      "id": "t_probability",
+      "titles": {
+        "he": "חברה ומדע: הסתברות",
+        "en": "Society and science: probability"
+      },
+      "emoji": "🎲",
+      "node_ids": [
+        "prob_learn",
+        "prob_coins",
+        "prob_same",
+        "prob_sum8",
+        "prob_sum11",
+        "prob_gambler"
+      ]
+    },
+    {
+      "id": "t_stats",
+      "titles": {
+        "he": "חברה ומדע: ממוצע, שכיח וגרפים",
+        "en": "Society and science: mean, mode, charts"
+      },
+      "emoji": "📊",
+      "node_ids": [
+        "stats_learn",
+        "stats_mean",
+        "stats_mode",
+        "stats_add",
+        "stats_disc"
+      ]
+    },
+    {
+      "id": "t_review_c1",
+      "titles": {
+        "he": "חזרה מעורבת: חברה ומדע",
+        "en": "Mixed review: society and science"
+      },
+      "emoji": "🔁",
+      "node_ids": [
+        "rc1_speed",
+        "rc1_atleast",
+        "rc1_mean"
+      ]
+    },
+    {
+      "id": "t_triangle",
+      "titles": {
+        "he": "התמצאות במישור ובמרחב: משולש ופיתגורס",
+        "en": "Plane and space: triangles and Pythagoras"
+      },
+      "emoji": "📐",
+      "node_ids": [
+        "tri_learn",
+        "tri_hyp",
+        "tri_diag",
+        "tri_leg",
+        "tri_angles"
+      ]
+    },
+    {
+      "id": "t_area",
+      "titles": {
+        "he": "התמצאות במישור ובמרחב: שטח והיקף",
+        "en": "Plane and space: area and perimeter"
+      },
+      "emoji": "⬛",
+      "node_ids": [
+        "area_learn",
+        "area_sq",
+        "area_scale",
+        "area_perim"
+      ]
+    },
+    {
+      "id": "t_circle",
+      "titles": {
+        "he": "התמצאות במישור ובמרחב: מעגל",
+        "en": "Plane and space: circles"
+      },
+      "emoji": "⭕",
+      "node_ids": [
+        "circ_learn",
+        "circ_c",
+        "circ_r",
+        "circ_area",
+        "circ_wheel",
+        "circ_pct"
+      ]
+    },
+    {
+      "id": "t_review_c2",
+      "titles": {
+        "he": "חזרה מעורבת: מישור ומרחב",
+        "en": "Mixed review: plane and space"
+      },
+      "emoji": "🔁",
+      "node_ids": [
+        "rc2_area",
+        "rc2_pyth",
+        "rc2_side"
+      ]
+    },
+    {
+      "id": "t_money",
+      "titles": {
+        "he": "פיננסי כלכלי: הנחות ומע״מ",
+        "en": "Financial: discounts and VAT"
+      },
+      "emoji": "🏷️",
+      "node_ids": [
+        "money_learn",
+        "money_disc",
+        "money_vat",
+        "money_orig"
+      ]
+    },
+    {
+      "id": "t_interest",
+      "titles": {
+        "he": "פיננסי כלכלי: ריבית",
+        "en": "Financial: interest"
+      },
+      "emoji": "🏦",
+      "node_ids": [
+        "int_learn",
+        "int_simple",
+        "int_compound"
+      ]
+    },
+    {
+      "id": "t_compare",
+      "titles": {
+        "he": "פיננסי כלכלי: השוואת עלויות",
+        "en": "Financial: comparing costs"
+      },
+      "emoji": "🛒",
+      "node_ids": [
+        "cmp_learn",
+        "cmp_ship",
+        "cmp_equal",
+        "cmp_cheaper"
+      ]
+    },
+    {
+      "id": "t_budget",
+      "titles": {
+        "he": "פיננסי כלכלי: תקציב והכנסות",
+        "en": "Financial: budget and revenue"
+      },
+      "emoji": "💼",
+      "node_ids": [
+        "bud_learn",
+        "bud_left",
+        "bud_rev"
+      ]
+    },
+    {
+      "id": "t_review_c3",
+      "titles": {
+        "he": "חזרה מעורבת: פיננסי כלכלי",
+        "en": "Mixed review: financial"
+      },
+      "emoji": "🔁",
+      "node_ids": [
+        "rc3_twice",
+        "rc3_rent",
+        "rc3_taxi"
+      ]
+    },
+    {
+      "id": "t_final",
+      "titles": {
+        "he": "בדיקה מסכמת",
+        "en": "Final mixed check"
+      },
+      "emoji": "🏁",
+      "node_ids": [
+        "fin_slope",
+        "fin_circle",
+        "fin_prob",
+        "fin_mean",
+        "fin_pyth",
+        "fin_money",
+        "fin_done"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "plane_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "איך קוראים גרף",
+      "body_he": "כל נקודה כתובה כ-(x, y): קודם כמה ימינה או שמאלה, אחר כך כמה למעלה או למטה. בגרף של מרחק לפי זמן, קו שעולה אומר שמתרחקים, קו שיורד אומר שחוזרים, וקו אופקי אומר שעומדים במקום."
+    },
+    {
+      "id": "plane_point",
+      "type": "practice",
+      "title": "ערך y של נקודה",
+      "body_he": "מה ערך ה-y של הנקודה (4, 7)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "11"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. המספר השני הוא y.",
+      "feedback_try": "בנקודה (x, y) המספר הראשון הוא x והשני הוא y.",
+      "kind": "understanding"
+    },
+    {
+      "id": "plane_flat",
+      "type": "practice",
+      "title": "קו אופקי בגרף מרחק",
+      "body_he": "בגרף מרחק לפי זמן של רוכב, בין דקה 20 לדקה 30 הקו אופקי בגובה 6 ק״מ. מה הרוכב עשה?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "עמד במקום"
+        },
+        {
+          "id": "b",
+          "label": "רכב לאט"
+        },
+        {
+          "id": "c",
+          "label": "חזר הביתה"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. המרחק לא השתנה, אז הוא לא זז.",
+      "feedback_try": "אם המרחק נשאר 6 ק״מ כל הזמן הזה, האם הוא זז?",
+      "kind": "understanding"
+    },
+    {
+      "id": "func_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "קלט ופלט",
+      "body_he": "פונקציה היא כלל שלוקח מספר ומחזיר מספר אחד. f(x) = 2x + 1 אומר: כפול ב-2 והוסף 1. f(3) פירושו להציב 3 במקום x, לא f כפול 3. אפשר לראות פונקציה כטבלה, כנוסחה או כגרף."
+    },
+    {
+      "id": "func_eval",
+      "type": "practice",
+      "title": "הצבה בפונקציה",
+      "body_he": "f(x) = 2x + 1. כמה זה f(3)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "6"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 2 × 3 + 1 = 7.",
+      "feedback_try": "הצב 3 במקום x: 2 × 3 + 1.",
+      "kind": "understanding"
+    },
+    {
+      "id": "func_table",
+      "type": "practice",
+      "title": "המשך טבלה",
+      "body_he": "בטבלה: x = 1, 2, 3 נותן y = 5, 8, 11. מה y כש-x = 4?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "12"
+        },
+        {
+          "id": "b",
+          "label": "14"
+        },
+        {
+          "id": "c",
+          "label": "15"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. כל צעד מוסיף 3.",
+      "feedback_try": "בכמה y גדל בכל פעם ש-x עולה ב-1?",
+      "kind": "understanding"
+    },
+    {
+      "id": "line_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "שיפוע הוא קצב שינוי",
+      "body_he": "בקו y = mx + b, המספר m הוא השיפוע: בכמה y משתנה כש-x עולה ב-1. המספר b הוא איפה הקו חותך את ציר ה-y. שיפוע בין שתי נקודות הוא השינוי ב-y חלקי השינוי ב-x, באותו סדר למעלה ולמטה. קו שיורד הוא עם שיפוע שלילי, קו אופקי הוא עם שיפוע 0."
+    },
+    {
+      "id": "line_slope",
+      "type": "practice",
+      "title": "שיפוע משתי נקודות",
+      "body_he": "מה השיפוע של הקו שעובר דרך (1, 2) ו-(3, 8)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "1/3"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. (8 − 2) ÷ (3 − 1) = 6 ÷ 2 = 3.",
+      "feedback_try": "שינוי ב-y למעלה, שינוי ב-x למטה.",
+      "kind": "understanding"
+    },
+    {
+      "id": "line_b",
+      "type": "practice",
+      "title": "חיתוך עם ציר y",
+      "body_he": "איפה הקו y = 2x + 5 חותך את ציר ה-y?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ב-y = 5"
+        },
+        {
+          "id": "b",
+          "label": "ב-y = 2"
+        },
+        {
+          "id": "c",
+          "label": "ב-y = −2.5"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. כש-x = 0 נשאר y = 5.",
+      "feedback_try": "הצב x = 0.",
+      "kind": "understanding"
+    },
+    {
+      "id": "line_flat",
+      "type": "practice",
+      "title": "שיפוע של קו אופקי",
+      "body_he": "מה השיפוע של קו אופקי?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "אין לו שיפוע"
+        },
+        {
+          "id": "c",
+          "label": "1"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. y לא משתנה בכלל, אז השיפוע 0.",
+      "feedback_try": "בכמה y משתנה כשזזים ימינה על קו אופקי?",
+      "kind": "understanding"
+    },
+    {
+      "id": "sys_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "שתי משוואות, שני נעלמים",
+      "body_he": "מחפשים x ו-y שמקיימים את שתי המשוואות יחד. אפשר לחבר או לחסר את המשוואות כדי שנעלם אחד ייעלם, או לבודד נעלם באחת ולהציב בשנייה. בגרף זו נקודת החיתוך של שני קווים. לא עוצרים אחרי x, מוצאים גם את y."
+    },
+    {
+      "id": "sys_elim",
+      "type": "practice",
+      "title": "חיבור משוואות",
+      "body_he": "x + y = 10 וגם x − y = 4. מה הפתרון?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "x = 7, y = 3"
+        },
+        {
+          "id": "b",
+          "label": "x = 3, y = 7"
+        },
+        {
+          "id": "c",
+          "label": "x = 6, y = 4"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. חיבור נותן 2x = 14, אז x = 7, ו-y = 3.",
+      "feedback_try": "חבר את שתי המשוואות, ה-y נעלם.",
+      "kind": "understanding"
+    },
+    {
+      "id": "sys_sub",
+      "type": "practice",
+      "title": "הצבה",
+      "body_he": "y = 2x וגם x + y = 12. מה הפתרון?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "x = 4, y = 8"
+        },
+        {
+          "id": "b",
+          "label": "x = 6, y = 6"
+        },
+        {
+          "id": "c",
+          "label": "x = 8, y = 4"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. x + 2x = 12, אז x = 4 ו-y = 8.",
+      "feedback_try": "הצב 2x במקום y במשוואה השנייה.",
+      "kind": "understanding"
+    },
+    {
+      "id": "quad_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "שני פתרונות",
+      "body_he": "למשוואה עם x² יכולים להיות שני פתרונות. x² = 9 נותן x = 3 וגם x = −3. אסור לחלק ב-x, כי מאבדים את הפתרון x = 0. כשאפשר, מפרקים לכפל: אם מכפלה היא 0, אחד הגורמים הוא 0."
+    },
+    {
+      "id": "quad_pm",
+      "type": "practice",
+      "title": "שורש עם ±",
+      "body_he": "x² = 9. מה הפתרונות?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "רק 3"
+        },
+        {
+          "id": "b",
+          "label": "3 וגם −3"
+        },
+        {
+          "id": "c",
+          "label": "4.5"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. גם (−3)² = 9.",
+      "feedback_try": "איזה עוד מספר בריבוע נותן 9?",
+      "kind": "understanding"
+    },
+    {
+      "id": "quad_zero",
+      "type": "practice",
+      "title": "לא לאבד את 0",
+      "body_he": "x² − 5x = 0. מה הפתרונות?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "רק 5"
+        },
+        {
+          "id": "b",
+          "label": "0 וגם 5"
+        },
+        {
+          "id": "c",
+          "label": "−5"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. x(x − 5) = 0, אז x = 0 או x = 5.",
+      "feedback_try": "הוצא x כגורם משותף, אל תחלק בו.",
+      "kind": "understanding"
+    },
+    {
+      "id": "quad_factor",
+      "type": "practice",
+      "title": "פירוק",
+      "body_he": "x² − 5x + 6 = 0. מה הפתרונות?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2 וגם 3"
+        },
+        {
+          "id": "b",
+          "label": "−2 וגם −3"
+        },
+        {
+          "id": "c",
+          "label": "1 וגם 6"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. (x − 2)(x − 3) = 0.",
+      "feedback_try": "חפש שני מספרים שמכפלתם 6 וסכומם 5.",
+      "kind": "understanding"
+    },
+    {
+      "id": "par_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "שיא או שפל",
+      "body_he": "גרף של פונקציה ריבועית הוא פרבולה. אם המקדם של x² שלילי, היא נפתחת למטה ויש לה נקודת שיא, כמו כדור שנזרק. הקודקוד אומר שני דברים שונים: איפה זה קורה (x) ומה הערך שם (y). הקודקוד לא תמיד על ציר ה-y."
+    },
+    {
+      "id": "par_time",
+      "type": "practice",
+      "title": "מתי בשיא",
+      "body_he": "כדור נזרק, וגובהו במטרים הוא h = −5t² + 20t, כש-t בשניות. אחרי כמה שניות הוא בשיא?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "20"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. הקודקוד ב-t = −20 ÷ (2 × −5) = 2.",
+      "feedback_try": "הקודקוד ב-t = −b ÷ 2a, כאן a = −5 ו-b = 20.",
+      "kind": "understanding"
+    },
+    {
+      "id": "par_height",
+      "type": "practice",
+      "title": "מה הגובה בשיא",
+      "body_he": "באותה זריקה, מה הגובה המקסימלי?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "20 מטר"
+        },
+        {
+          "id": "b",
+          "label": "2 מטר"
+        },
+        {
+          "id": "c",
+          "label": "40 מטר"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. −5 × 4 + 20 × 2 = 20.",
+      "feedback_try": "הצב t = 2 בנוסחת הגובה.",
+      "kind": "understanding"
+    },
+    {
+      "id": "par_min",
+      "type": "practice",
+      "title": "ערך מינימלי",
+      "body_he": "y = (x − 2)² + 3. מה הערך הקטן ביותר של y?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "−2"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. הריבוע לפחות 0, אז y לפחות 3, וזה קורה ב-x = 2.",
+      "feedback_try": "מה הערך הקטן ביותר ש-(x − 2)² יכול לקבל?",
+      "kind": "understanding"
+    },
+    {
+      "id": "rt_func",
+      "type": "practice",
+      "title": "חזרה: פונקציה עם שלילי",
+      "body_he": "f(x) = x² − 1. כמה זה f(−3)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "−10"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. (−3)² = 9, ו-9 − 1 = 8.",
+      "feedback_try": "הצב −3 בסוגריים: (−3)² − 1.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_function",
+        "t_quad"
+      ]
+    },
+    {
+      "id": "rt_slope",
+      "type": "practice",
+      "title": "חזרה: שיפוע עם שליליים",
+      "body_he": "מה השיפוע בין (−1, 4) ל-(2, −2)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "−2"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "−1/2"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. (−2 − 4) ÷ (2 − (−1)) = −6 ÷ 3 = −2.",
+      "feedback_try": "שמור על אותו סדר למעלה ולמטה.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_line"
+      ]
+    },
+    {
+      "id": "rt_sys",
+      "type": "practice",
+      "title": "חזרה: מערכת",
+      "body_he": "2x + y = 7 וגם x + y = 4. מה הפתרון?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "x = 3, y = 1"
+        },
+        {
+          "id": "b",
+          "label": "x = 1, y = 3"
+        },
+        {
+          "id": "c",
+          "label": "x = 2, y = 2"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. חיסור המשוואות נותן x = 3, ואז y = 1.",
+      "feedback_try": "חסר את המשוואה השנייה מהראשונה.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_system"
+      ]
+    },
+    {
+      "id": "gr_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מרחק, זמן ומהירות",
+      "body_he": "מהירות היא מרחק חלקי זמן. אם הזמן בדקות והמהירות בקמ״ש, ממירים קודם לשעות. מרחק כולל הוא כל מה שעברת, גם הלוך וגם חזור. המרחק מהבית בסוף הוא משהו אחר."
+    },
+    {
+      "id": "gr_speed",
+      "type": "practice",
+      "title": "מהירות",
+      "body_he": "רוכב עבר 12 ק״מ ב-40 דקות. מה מהירותו בקמ״ש?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "18"
+        },
+        {
+          "id": "b",
+          "label": "30"
+        },
+        {
+          "id": "c",
+          "label": "0.3"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 40 דקות הן 2/3 שעה, ו-12 ÷ 2/3 = 18.",
+      "feedback_try": "המר 40 דקות לשעות לפני שמחלקים.",
+      "kind": "understanding"
+    },
+    {
+      "id": "gr_total",
+      "type": "practice",
+      "title": "מרחק כולל",
+      "body_he": "רוכב נסע 10 ק״מ מהבית וחזר הביתה. מה המרחק הכולל, ומה המרחק מהבית בסוף?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "20 ק״מ, 0 ק״מ"
+        },
+        {
+          "id": "b",
+          "label": "10 ק״מ, 10 ק״מ"
+        },
+        {
+          "id": "c",
+          "label": "0 ק״מ, 20 ק״מ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. הלוך וחזור 20, והוא חזר לנקודת ההתחלה.",
+      "feedback_try": "מרחק כולל סופר גם את החזרה.",
+      "kind": "understanding"
+    },
+    {
+      "id": "prob_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "סופרים תוצאות",
+      "body_he": "הסתברות היא מספר התוצאות הטובות חלקי מספר כל התוצאות, כשכולן סבירות באותה מידה. כששני אנשים מגרילים כל אחד פתק מ-1 עד 5, יש 25 זוגות, לא 9 סכומים. \"גם וגם\" מחשבים בכפל, לא בחיבור. אירוע שלא יכול לקרות הוא בהסתברות 0. ההסתברות שמשהו לא יקרה היא 1 פחות ההסתברות שיקרה."
+    },
+    {
+      "id": "prob_coins",
+      "type": "practice",
+      "title": "גם וגם",
+      "body_he": "מטילים שני מטבעות. מה הסיכוי ששניהם עץ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/4"
+        },
+        {
+          "id": "b",
+          "label": "1/2"
+        },
+        {
+          "id": "c",
+          "label": "1"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 1/2 × 1/2.",
+      "feedback_try": "גם וגם זה כפל.",
+      "kind": "understanding"
+    },
+    {
+      "id": "prob_same",
+      "type": "practice",
+      "title": "אותו מספר",
+      "body_he": "שני אנשים מגרילים כל אחד פתק מ-1 עד 5. מה הסיכוי ששניהם הגרילו אותו מספר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/5"
+        },
+        {
+          "id": "b",
+          "label": "1/25"
+        },
+        {
+          "id": "c",
+          "label": "1/10"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 5 זוגות זהים מתוך 25.",
+      "feedback_try": "כמה זוגות יש בסך הכול, וכמה מהם זהים?",
+      "kind": "understanding"
+    },
+    {
+      "id": "prob_sum8",
+      "type": "practice",
+      "title": "סכום 8",
+      "body_he": "באותה הגרלה, מה הסיכוי שהסכום יהיה 8?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3/25"
+        },
+        {
+          "id": "b",
+          "label": "1/9"
+        },
+        {
+          "id": "c",
+          "label": "3/5"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. (3,5), (4,4), (5,3): שלושה זוגות מתוך 25.",
+      "feedback_try": "רשום את כל הזוגות שסכומם 8.",
+      "kind": "understanding"
+    },
+    {
+      "id": "prob_sum11",
+      "type": "practice",
+      "title": "סכום 11",
+      "body_he": "באותה הגרלה, מה הסיכוי שהסכום יהיה 11?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "1/25"
+        },
+        {
+          "id": "c",
+          "label": "2/25"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. הסכום הגדול ביותר הוא 10, אז זה לא יכול לקרות.",
+      "feedback_try": "מה הסכום הכי גדול שאפשר לקבל?",
+      "kind": "understanding"
+    },
+    {
+      "id": "prob_gambler",
+      "type": "practice",
+      "title": "אחרי רצף",
+      "body_he": "מטבע הוגן יצא 5 פעמים ברצף עץ. מה הסיכוי שבהטלה הבאה ייצא פלי?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "יותר מחצי"
+        },
+        {
+          "id": "b",
+          "label": "בדיוק חצי"
+        },
+        {
+          "id": "c",
+          "label": "פחות מחצי"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. למטבע אין זיכרון.",
+      "feedback_try": "האם ההטלות הקודמות משנות את המטבע?",
+      "kind": "understanding"
+    },
+    {
+      "id": "stats_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "ממוצע ושכיח",
+      "body_he": "ממוצע הוא סכום כל הערכים חלקי מספר הערכים. כשמוסיפים ערך, מחשבים מחדש ולא מנחשים. שכיח הוא הערך שמופיע הכי הרבה, לא הגובה של העמודה. אם כל המחירים יורדים ב-20%, גם הממוצע יורד ב-20%. אם רק מחיר אחד יורד, הממוצע יורד פחות."
+    },
+    {
+      "id": "stats_mean",
+      "type": "practice",
+      "title": "ממוצע",
+      "body_he": "מה הממוצע של 4, 8, 6 ו-10?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "6"
+        },
+        {
+          "id": "c",
+          "label": "28"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 28 ÷ 4 = 7.",
+      "feedback_try": "חבר את כולם וחלק במספר הערכים.",
+      "kind": "understanding"
+    },
+    {
+      "id": "stats_mode",
+      "type": "practice",
+      "title": "שכיח",
+      "body_he": "בסקר, 2 בחרו אדום, 5 בחרו כחול ו-3 בחרו ירוק. מה השכיח?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כחול"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "ירוק"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. השכיח הוא הערך עצמו, כחול, לא מספר הבוחרים.",
+      "feedback_try": "השכיח הוא הצבע שנבחר הכי הרבה.",
+      "kind": "understanding"
+    },
+    {
+      "id": "stats_add",
+      "type": "practice",
+      "title": "ממוצע אחרי הוספה",
+      "body_he": "הממוצע של 4 מחירים הוא 10 ₪. מוסיפים מחיר של 20 ₪. מה הממוצע החדש?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "12 ₪"
+        },
+        {
+          "id": "b",
+          "label": "15 ₪"
+        },
+        {
+          "id": "c",
+          "label": "10 ₪"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. הסכום היה 40, עכשיו 60, חלקי 5.",
+      "feedback_try": "מצא קודם את הסכום הישן: 4 × 10.",
+      "kind": "understanding"
+    },
+    {
+      "id": "stats_disc",
+      "type": "practice",
+      "title": "הנחה על הכול",
+      "body_he": "ממוצע המחירים בחנות הוא 50 ₪. כל המחירים יורדים ב-20%. מה הממוצע החדש?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "40 ₪"
+        },
+        {
+          "id": "b",
+          "label": "30 ₪"
+        },
+        {
+          "id": "c",
+          "label": "50 ₪"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. כל מחיר הוא 80% ממה שהיה, אז גם הממוצע.",
+      "feedback_try": "20% מ-50 זה 10.",
+      "kind": "understanding"
+    },
+    {
+      "id": "rc1_speed",
+      "type": "practice",
+      "title": "חזרה: מהירות",
+      "body_he": "רוכב חזר 9 ק״מ ב-30 דקות. מה מהירותו בקמ״ש?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "18"
+        },
+        {
+          "id": "b",
+          "label": "4.5"
+        },
+        {
+          "id": "c",
+          "label": "0.3"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 9 ק״מ בחצי שעה זה 18 בשעה.",
+      "feedback_try": "30 דקות הן חצי שעה.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_graphs"
+      ]
+    },
+    {
+      "id": "rc1_atleast",
+      "type": "practice",
+      "title": "חזרה: לפחות אחד",
+      "body_he": "מטילים שני מטבעות. מה הסיכוי לקבל לפחות עץ אחד?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3/4"
+        },
+        {
+          "id": "b",
+          "label": "1/2"
+        },
+        {
+          "id": "c",
+          "label": "1/4"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 1 פחות הסיכוי לשני פלי: 1 − 1/4.",
+      "feedback_try": "חשב את ההפך: מה הסיכוי שאין אף עץ?",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_probability"
+      ]
+    },
+    {
+      "id": "rc1_mean",
+      "type": "practice",
+      "title": "חזרה: ממוצע",
+      "body_he": "ציונים 70, 80 ו-90. מה צריך לקבל במבחן הרביעי כדי שהממוצע יהיה 85?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "100"
+        },
+        {
+          "id": "b",
+          "label": "85"
+        },
+        {
+          "id": "c",
+          "label": "95"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. צריך סכום 340, ויש 240.",
+      "feedback_try": "ממוצע 85 בארבעה מבחנים זה סכום 340.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_stats"
+      ]
+    },
+    {
+      "id": "tri_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "פיתגורס רק במשולש ישר זווית",
+      "body_he": "במשולש ישר זווית, סכום הריבועים של שני הניצבים שווה לריבוע היתר: a² + b² = c². היתר הוא הצלע הארוכה, מול הזווית הישרה. אלכסון של מלבן יוצר משולש כזה. סכום הזוויות בכל משולש הוא 180°."
+    },
+    {
+      "id": "tri_hyp",
+      "type": "practice",
+      "title": "יתר",
+      "body_he": "ניצבים 6 ו-8. מה אורך היתר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "10"
+        },
+        {
+          "id": "b",
+          "label": "14"
+        },
+        {
+          "id": "c",
+          "label": "48"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 36 + 64 = 100, ושורש 100 הוא 10.",
+      "feedback_try": "חשב 6² + 8² והוצא שורש.",
+      "kind": "understanding"
+    },
+    {
+      "id": "tri_diag",
+      "type": "practice",
+      "title": "אלכסון של אריח",
+      "body_he": "אריח מלבני במידות 12 על 5 ס״מ. מה אורך האלכסון?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "13 ס״מ"
+        },
+        {
+          "id": "b",
+          "label": "17 ס״מ"
+        },
+        {
+          "id": "c",
+          "label": "7 ס״מ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 144 + 25 = 169, ושורש 169 הוא 13.",
+      "feedback_try": "האלכסון הוא היתר של משולש עם ניצבים 12 ו-5.",
+      "kind": "understanding"
+    },
+    {
+      "id": "tri_leg",
+      "type": "practice",
+      "title": "ניצב חסר",
+      "body_he": "היתר 13 וניצב אחד 5. מה הניצב השני?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "12"
+        },
+        {
+          "id": "b",
+          "label": "18"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 169 − 25 = 144.",
+      "feedback_try": "הפעם מחסרים: c² − a².",
+      "kind": "understanding"
+    },
+    {
+      "id": "tri_angles",
+      "type": "practice",
+      "title": "סכום זוויות",
+      "body_he": "שתי זוויות במשולש הן 50° ו-60°. מה הזווית השלישית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "70°"
+        },
+        {
+          "id": "b",
+          "label": "110°"
+        },
+        {
+          "id": "c",
+          "label": "90°"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 180 − 110 = 70.",
+      "feedback_try": "סכום הזוויות במשולש הוא 180°.",
+      "kind": "understanding"
+    },
+    {
+      "id": "area_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "שטח מול היקף",
+      "body_he": "היקף הוא אורך המסגרת, ונמדד בס״מ. שטח הוא כמה מקום יש בפנים, ונמדד בסמ״ר. כשצלע גדלה פי 2, ההיקף גדל פי 2 אבל השטח גדל פי 4."
+    },
+    {
+      "id": "area_sq",
+      "type": "practice",
+      "title": "מהיקף לשטח",
+      "body_he": "היקף של ריבוע הוא 20 ס״מ. מה השטח שלו?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "25 סמ״ר"
+        },
+        {
+          "id": "b",
+          "label": "20 סמ״ר"
+        },
+        {
+          "id": "c",
+          "label": "100 סמ״ר"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. כל צלע 5, ו-5 × 5 = 25.",
+      "feedback_try": "חלק את ההיקף ל-4 כדי למצוא צלע.",
+      "kind": "understanding"
+    },
+    {
+      "id": "area_scale",
+      "type": "practice",
+      "title": "פי כמה",
+      "body_he": "צלע של ריבוע גדלה פי 2. פי כמה גדל השטח?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "פי 2"
+        },
+        {
+          "id": "b",
+          "label": "פי 4"
+        },
+        {
+          "id": "c",
+          "label": "פי 8"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 2 × 2 = 4.",
+      "feedback_try": "נסה: צלע 1 נותנת שטח 1, צלע 2 נותנת שטח...",
+      "kind": "understanding"
+    },
+    {
+      "id": "area_perim",
+      "type": "practice",
+      "title": "היקף מלבן",
+      "body_he": "מה ההיקף של מלבן במידות 4 על 6 ס״מ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "24 ס״מ"
+        },
+        {
+          "id": "b",
+          "label": "20 ס״מ"
+        },
+        {
+          "id": "c",
+          "label": "10 ס״מ"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 4 + 6 + 4 + 6 = 20.",
+      "feedback_try": "היקף הוא סכום כל ארבע הצלעות, לא כפל.",
+      "kind": "understanding"
+    },
+    {
+      "id": "circ_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "רדיוס, קוטר, היקף ושטח",
+      "body_he": "הקוטר הוא פי 2 מהרדיוס. היקף המעגל הוא 2πr, ושטח העיגול הוא πr². כאן משתמשים ב-π ≈ 3.14. בכל סיבוב, גלגל עובר מרחק של ההיקף שלו."
+    },
+    {
+      "id": "circ_c",
+      "type": "practice",
+      "title": "היקף",
+      "body_he": "מה ההיקף של מעגל ברדיוס 10 ס״מ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "31.4 ס״מ"
+        },
+        {
+          "id": "b",
+          "label": "62.8 ס״מ"
+        },
+        {
+          "id": "c",
+          "label": "314 ס״מ"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 2 × 3.14 × 10 = 62.8.",
+      "feedback_try": "היקף הוא 2πr, לא πr².",
+      "kind": "understanding"
+    },
+    {
+      "id": "circ_r",
+      "type": "practice",
+      "title": "רדיוס מהיקף",
+      "body_he": "היקף מעגל הוא 31.4 ס״מ. מה הרדיוס?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5 ס״מ"
+        },
+        {
+          "id": "b",
+          "label": "10 ס״מ"
+        },
+        {
+          "id": "c",
+          "label": "2.5 ס״מ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 31.4 ÷ (2 × 3.14) = 5.",
+      "feedback_try": "חלק את ההיקף ב-2π.",
+      "kind": "understanding"
+    },
+    {
+      "id": "circ_area",
+      "type": "practice",
+      "title": "שטח",
+      "body_he": "מה השטח של עיגול ברדיוס 3 ס״מ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "28.26 סמ״ר"
+        },
+        {
+          "id": "b",
+          "label": "18.84 סמ״ר"
+        },
+        {
+          "id": "c",
+          "label": "9.42 סמ״ר"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 3.14 × 9 = 28.26.",
+      "feedback_try": "שטח הוא π כפול הרדיוס בריבוע.",
+      "kind": "understanding"
+    },
+    {
+      "id": "circ_wheel",
+      "type": "practice",
+      "title": "כמה גלגל עבר",
+      "body_he": "גלגל ברדיוס 30 ס״מ הסתובב 100 פעמים. כמה מטרים הוא עבר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "188.4 מטר"
+        },
+        {
+          "id": "b",
+          "label": "18,840 מטר"
+        },
+        {
+          "id": "c",
+          "label": "94.2 מטר"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. היקף 188.4 ס״מ, כפול 100 זה 18,840 ס״מ, שהם 188.4 מטר.",
+      "feedback_try": "מצא היקף, כפול במספר הסיבובים, ואל תשכח להמיר ס״מ למטרים.",
+      "kind": "understanding"
+    },
+    {
+      "id": "circ_pct",
+      "type": "practice",
+      "title": "בכמה אחוז קטן יותר",
+      "body_he": "רדיוס הגלגל הקדמי 25 ס״מ והאחורי 20 ס״מ. בכמה אחוזים האחורי קטן מהקדמי?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "20%"
+        },
+        {
+          "id": "b",
+          "label": "25%"
+        },
+        {
+          "id": "c",
+          "label": "5%"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. ההפרש 5, חלקי 25, שהוא הגלגל שמשווים אליו.",
+      "feedback_try": "מחלקים את ההפרש במה שמשווים אליו, כאן הקדמי.",
+      "kind": "understanding"
+    },
+    {
+      "id": "rc2_area",
+      "type": "practice",
+      "title": "חזרה: קוטר ושטח",
+      "body_he": "מה השטח של עיגול שקוטרו 8 ס״מ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "50.24 סמ״ר"
+        },
+        {
+          "id": "b",
+          "label": "200.96 סמ״ר"
+        },
+        {
+          "id": "c",
+          "label": "25.12 סמ״ר"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. הרדיוס 4, ו-3.14 × 16 = 50.24.",
+      "feedback_try": "קודם הפוך קוטר לרדיוס.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_circle"
+      ]
+    },
+    {
+      "id": "rc2_pyth",
+      "type": "practice",
+      "title": "חזרה: פיתגורס",
+      "body_he": "ניצבים 9 ו-12. מה היתר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "15"
+        },
+        {
+          "id": "b",
+          "label": "21"
+        },
+        {
+          "id": "c",
+          "label": "108"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 81 + 144 = 225.",
+      "feedback_try": "9² + 12², ואז שורש.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_triangle"
+      ]
+    },
+    {
+      "id": "rc2_side",
+      "type": "practice",
+      "title": "חזרה: צלע משטח",
+      "body_he": "אריח ריבועי בשטח 49 סמ״ר. מה אורך הצלע?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "7 ס״מ"
+        },
+        {
+          "id": "b",
+          "label": "24.5 ס״מ"
+        },
+        {
+          "id": "c",
+          "label": "12.25 ס״מ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 7 × 7 = 49. אורך הוא חיובי, אז −7 לא רלוונטי כאן.",
+      "feedback_try": "איזה מספר בריבוע נותן 49?",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_area",
+        "t_quad"
+      ]
+    },
+    {
+      "id": "money_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אחוזים על מחיר",
+      "body_he": "הנחה של 15% משאירה 85% מהמחיר. מע״מ של 18% מוסיף 18%, כלומר מכפילים ב-1.18. כדי למצוא את המחיר המקורי מתוך מחיר אחרי הנחה, מחלקים, לא מוסיפים בחזרה את האחוז."
+    },
+    {
+      "id": "money_disc",
+      "type": "practice",
+      "title": "הנחה",
+      "body_he": "מחיר 200 ₪, הנחה של 15%. כמה משלמים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "170 ₪"
+        },
+        {
+          "id": "b",
+          "label": "185 ₪"
+        },
+        {
+          "id": "c",
+          "label": "30 ₪"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 15% מ-200 זה 30.",
+      "feedback_try": "מצא 15% מ-200 והחסר.",
+      "kind": "understanding"
+    },
+    {
+      "id": "money_vat",
+      "type": "practice",
+      "title": "מע״מ",
+      "body_he": "מחיר לפני מע״מ 100 ₪. המע״מ 18%. מה המחיר הסופי?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "118 ₪"
+        },
+        {
+          "id": "b",
+          "label": "82 ₪"
+        },
+        {
+          "id": "c",
+          "label": "100.18 ₪"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 100 × 1.18.",
+      "feedback_try": "מוסיפים 18% מ-100.",
+      "kind": "understanding"
+    },
+    {
+      "id": "money_orig",
+      "type": "practice",
+      "title": "המחיר המקורי",
+      "body_he": "אחרי הנחה של 25% המחיר הוא 90 ₪. מה היה המחיר המקורי?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "120 ₪"
+        },
+        {
+          "id": "b",
+          "label": "112.5 ₪"
+        },
+        {
+          "id": "c",
+          "label": "115 ₪"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 90 הם 75% מהמקור, ו-90 ÷ 0.75 = 120.",
+      "feedback_try": "90 הם 75% מהמחיר המקורי. חלק ב-0.75.",
+      "kind": "understanding"
+    },
+    {
+      "id": "int_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "ריבית פשוטה וריבית דריבית",
+      "body_he": "בריבית פשוטה מקבלים כל שנה את אותו סכום, מחושב מהקרן ההתחלתית. בריבית דריבית הריבית מחושבת כל שנה מהסכום החדש, אז הוא גדל קצת יותר מהר. 10% דריבית לשנתיים זה כפול 1.1 פעמיים."
+    },
+    {
+      "id": "int_simple",
+      "type": "practice",
+      "title": "ריבית פשוטה",
+      "body_he": "הפקדת 1,000 ₪ בריבית פשוטה של 5% לשנה. כמה יהיה אחרי 3 שנים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1,150 ₪"
+        },
+        {
+          "id": "b",
+          "label": "1,157.63 ₪"
+        },
+        {
+          "id": "c",
+          "label": "1,015 ₪"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 50 ₪ בכל שנה, שלוש שנים.",
+      "feedback_try": "5% מ-1,000 זה 50 בכל שנה.",
+      "kind": "understanding"
+    },
+    {
+      "id": "int_compound",
+      "type": "practice",
+      "title": "ריבית דריבית",
+      "body_he": "הפקדת 1,000 ₪ בריבית דריבית של 10% לשנה. כמה יהיה אחרי שנתיים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1,200 ₪"
+        },
+        {
+          "id": "b",
+          "label": "1,210 ₪"
+        },
+        {
+          "id": "c",
+          "label": "1,100 ₪"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 1,000 × 1.1 = 1,100, ואז 1,100 × 1.1 = 1,210.",
+      "feedback_try": "בשנה השנייה הריבית היא 10% מ-1,100.",
+      "kind": "understanding"
+    },
+    {
+      "id": "cmp_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "קבוע ועוד לכל יחידה",
+      "body_he": "עלות של דמי משלוח קבועים ועוד מחיר לכל פריט היא קו ישר. כדי לדעת מתי שתי אפשרויות עולות אותו דבר, משווים את שתי הנוסחאות. בודקים אם התשלום הקבוע הוא להזמנה או לכל פריט."
+    },
+    {
+      "id": "cmp_ship",
+      "type": "practice",
+      "title": "משלוח להזמנה",
+      "body_he": "חולצה עולה 40 ₪, ומשלוח 15 ₪ להזמנה. כמה עולות 3 חולצות בהזמנה אחת?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "135 ₪"
+        },
+        {
+          "id": "b",
+          "label": "165 ₪"
+        },
+        {
+          "id": "c",
+          "label": "55 ₪"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 3 × 40 + 15.",
+      "feedback_try": "המשלוח משולם פעם אחת להזמנה, לא לכל חולצה.",
+      "kind": "understanding"
+    },
+    {
+      "id": "cmp_equal",
+      "type": "practice",
+      "title": "מתי שווה",
+      "body_he": "בחנות חולצה עולה 60 ₪. באתר היא עולה 50 ₪, ועוד 30 ₪ משלוח להזמנה. בכמה חולצות המחיר שווה?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "6"
+        },
+        {
+          "id": "c",
+          "label": "30"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 60n = 50n + 30, אז n = 3.",
+      "feedback_try": "כתוב 60n = 50n + 30 ופתור.",
+      "kind": "understanding"
+    },
+    {
+      "id": "cmp_cheaper",
+      "type": "practice",
+      "title": "מתי זול יותר",
+      "body_he": "באותן חנויות, מאיזו כמות האתר זול יותר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מ-4 חולצות ומעלה"
+        },
+        {
+          "id": "b",
+          "label": "עד 2 חולצות"
+        },
+        {
+          "id": "c",
+          "label": "תמיד"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. ב-3 שווה, ומעל זה כל חולצה באתר חוסכת 10 ₪.",
+      "feedback_try": "בדוק 4 חולצות: 240 בחנות מול 230 באתר.",
+      "kind": "understanding"
+    },
+    {
+      "id": "bud_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "חלוקה של הכנסה",
+      "body_he": "תקציב הוא חלוקה של הכנסה לפי אחוזים או סכומים. מה שנשאר הוא 100% פחות כל מה שהוצאת. הכנסה ממכירות היא כמות כפול מחיר, לכל מוצר בנפרד, ואז מחברים."
+    },
+    {
+      "id": "bud_left",
+      "type": "practice",
+      "title": "מה נשאר",
+      "body_he": "הכנסה חודשית 8,000 ₪. 30% לשכירות ו-25% לאוכל. כמה נשאר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3,600 ₪"
+        },
+        {
+          "id": "b",
+          "label": "4,400 ₪"
+        },
+        {
+          "id": "c",
+          "label": "2,400 ₪"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. נשארו 45%, ו-45% מ-8,000 זה 3,600.",
+      "feedback_try": "כמה אחוזים נשארו? 100 − 30 − 25.",
+      "kind": "understanding"
+    },
+    {
+      "id": "bud_rev",
+      "type": "practice",
+      "title": "הכנסה ממכירות",
+      "body_he": "נמכרו 12 ספרים ב-40 ₪ ו-8 ספרים ב-25 ₪. מה ההכנסה?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "680 ₪"
+        },
+        {
+          "id": "b",
+          "label": "1,300 ₪"
+        },
+        {
+          "id": "c",
+          "label": "520 ₪"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 480 + 200.",
+      "feedback_try": "חשב כל סוג בנפרד: כמות כפול מחיר.",
+      "kind": "understanding"
+    },
+    {
+      "id": "rc3_twice",
+      "type": "practice",
+      "title": "חזרה: שתי עליות",
+      "body_he": "מחיר 100 ₪ עלה ב-10%, ואחר כך שוב ב-10%. מה המחיר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "120 ₪"
+        },
+        {
+          "id": "b",
+          "label": "121 ₪"
+        },
+        {
+          "id": "c",
+          "label": "110 ₪"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נכון. 110, ו-10% מ-110 זה 11.",
+      "feedback_try": "העלייה השנייה מחושבת מ-110.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_money",
+        "t_interest"
+      ]
+    },
+    {
+      "id": "rc3_rent",
+      "type": "practice",
+      "title": "חזרה: אחוז שינוי",
+      "body_he": "שכירות עלתה מ-4,000 ₪ ל-4,500 ₪. בכמה אחוזים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "12.5%"
+        },
+        {
+          "id": "b",
+          "label": "11.1%"
+        },
+        {
+          "id": "c",
+          "label": "500%"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 500 ÷ 4,000.",
+      "feedback_try": "מחלקים את השינוי בערך המקורי, 4,000.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_money"
+      ]
+    },
+    {
+      "id": "rc3_taxi",
+      "type": "practice",
+      "title": "חזרה: השוואה",
+      "body_he": "מונית א׳: 10 ₪ ועוד 4 ₪ לק״מ. מונית ב׳: 20 ₪ ועוד 2 ₪ לק״מ. באיזה מרחק הן עולות אותו דבר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5 ק״מ"
+        },
+        {
+          "id": "b",
+          "label": "10 ק״מ"
+        },
+        {
+          "id": "c",
+          "label": "2.5 ק״מ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 10 + 4k = 20 + 2k, אז k = 5.",
+      "feedback_try": "השווה את שתי הנוסחאות.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_compare",
+        "t_system"
+      ]
+    },
+    {
+      "id": "fin_slope",
+      "type": "check",
+      "title": "שיפוע",
+      "body_he": "מה השיפוע של קו שעובר דרך (0, 3) ו-(2, 7)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "1/2"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 4 ÷ 2 = 2.",
+      "feedback_try": "שינוי ב-y חלקי שינוי ב-x.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_line"
+      ]
+    },
+    {
+      "id": "fin_circle",
+      "type": "check",
+      "title": "היקף מקוטר",
+      "body_he": "מה ההיקף של מעגל שקוטרו 20 ס״מ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "62.8 ס״מ"
+        },
+        {
+          "id": "b",
+          "label": "125.6 ס״מ"
+        },
+        {
+          "id": "c",
+          "label": "314 ס״מ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. רדיוס 10, ו-2 × 3.14 × 10 = 62.8.",
+      "feedback_try": "הקוטר הוא כבר 2r.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_circle"
+      ]
+    },
+    {
+      "id": "fin_prob",
+      "type": "check",
+      "title": "הסתברות",
+      "body_he": "מטילים קובייה. מה הסיכוי לקבל מספר גדול מ-4?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/3"
+        },
+        {
+          "id": "b",
+          "label": "1/2"
+        },
+        {
+          "id": "c",
+          "label": "2/3"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 5 או 6, שתיים מתוך שש.",
+      "feedback_try": "אילו מספרים בקובייה גדולים מ-4?",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_probability"
+      ]
+    },
+    {
+      "id": "fin_mean",
+      "type": "check",
+      "title": "ממוצע",
+      "body_he": "מה הממוצע של 12, 15 ו-18?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "15"
+        },
+        {
+          "id": "b",
+          "label": "45"
+        },
+        {
+          "id": "c",
+          "label": "14"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 45 ÷ 3.",
+      "feedback_try": "סכום חלקי מספר הערכים.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_stats"
+      ]
+    },
+    {
+      "id": "fin_pyth",
+      "type": "check",
+      "title": "פיתגורס",
+      "body_he": "סולם באורך 5 מטר נשען על קיר, ורגלו 3 מטר מהקיר. לאיזה גובה הוא מגיע?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4 מטר"
+        },
+        {
+          "id": "b",
+          "label": "2 מטר"
+        },
+        {
+          "id": "c",
+          "label": "8 מטר"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 25 − 9 = 16, ושורש 16 הוא 4.",
+      "feedback_try": "הסולם הוא היתר.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_triangle"
+      ]
+    },
+    {
+      "id": "fin_money",
+      "type": "check",
+      "title": "הנחה",
+      "body_he": "מוצר ב-300 ₪ בהנחה של 20%. כמה משלמים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "240 ₪"
+        },
+        {
+          "id": "b",
+          "label": "280 ₪"
+        },
+        {
+          "id": "c",
+          "label": "60 ₪"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 20% מ-300 זה 60.",
+      "feedback_try": "מצא 20% והחסר.",
+      "kind": "review",
+      "review_topic_ids": [
+        "t_money"
+      ]
+    },
+    {
+      "id": "fin_done",
+      "type": "celebrate",
+      "title": "סיימת את הדרך ל-3 יחידות",
+      "body_he": "עברת את שלושת האשכולות של התוכנית החדשה: חברה ומדע, התמצאות במישור ובמרחב, ופיננסי כלכלי. התרגילים המסכמים יחזרו מדי פעם כדי לבדוק מה עדיין יושב."
+    }
+  ]
+}
