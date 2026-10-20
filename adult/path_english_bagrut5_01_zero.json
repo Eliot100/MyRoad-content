@@ -2,11 +2,13 @@
   "id": "path_english_bagrut5_01_zero",
   "titles": {
     "he": "מאפס",
-    "en": "From zero"
+    "en": "First letters",
+    "ar": "الحروف الأولى"
   },
   "blurbs": {
     "he": "אותיות, צלילים, ומשפט עם am, is, are. זו הדרך שנפתחת כשהמבדק מראה בסיס רופף.",
-    "en": "Letters, sounds, and am, is, are."
+    "en": "Letters, sounds, and am, is, are.",
+    "ar": "حروف وأصوات وجملة مع am و is و are."
   },
   "subject": "english",
   "group_ids": [

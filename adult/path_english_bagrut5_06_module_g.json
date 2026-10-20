@@ -2,11 +2,13 @@
   "id": "path_english_bagrut5_06_module_g",
   "titles": {
     "he": "שאלון G",
-    "en": "Module G"
+    "en": "Module G",
+    "ar": "استبيان G"
   },
   "blurbs": {
     "he": "קטע ארוך יותר, ואז בחירה של פתיחה וגוף לחיבור דעה של 120 עד 140 מילים. המחוון: תוכן, ארגון, אוצר, ודיוק.",
-    "en": "A longer unseen, then an opinion essay judged on content, organization, vocabulary, and accuracy."
+    "en": "A longer unseen, then an opinion essay judged on content, organization, vocabulary, and accuracy.",
+    "ar": "نص أطول ثم إنشاء رأي من 120 إلى 140 كلمة."
   },
   "subject": "english",
   "group_ids": [

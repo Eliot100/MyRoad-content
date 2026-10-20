@@ -2,11 +2,13 @@
   "id": "path_english_bagrut5_07_literature_oral",
   "titles": {
     "he": "ספרות ודיבור",
-    "en": "Literature and speaking"
+    "en": "Literature and speaking",
+    "ar": "الأدب والكلام"
   },
   "blurbs": {
     "he": "גשר לסיפור ולשיר שנכתבו כאן, חיבור קצר על הטקסט, ושלוש אמירות בעל פה. לא מעתיקים יצירה מהרשימה.",
-    "en": "An original story, an original poem, a short essay on the text, and three spoken turns."
+    "en": "An original story, an original poem, a short essay on the text, and three spoken turns.",
+    "ar": "قصة وشعر أصليان، وإنشاء قصير، وثلاث جمل منطوقة."
   },
   "subject": "english",
   "group_ids": [

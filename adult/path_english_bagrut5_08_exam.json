@@ -2,11 +2,13 @@
   "id": "path_english_bagrut5_08_exam",
   "titles": {
     "he": "בחינה מלאה",
-    "en": "Full exam"
+    "en": "Full exam",
+    "ar": "امتحان كامل"
   },
   "blurbs": {
     "he": "ערבוב של קריאה, אוצר מילים, חיבור ודיבור. אין נושא חדש. זה התרגול לרמה של 100.",
-    "en": "Reading, vocabulary, writing, and speaking together. No new topic."
+    "en": "Reading, vocabulary, writing, and speaking together. No new topic.",
+    "ar": "قراءة ومفردات وكتابة وكلام معًا. بلا موضوع جديد."
   },
   "subject": "english",
   "group_ids": [

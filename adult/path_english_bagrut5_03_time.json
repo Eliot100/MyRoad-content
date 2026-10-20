@@ -2,11 +2,13 @@
   "id": "path_english_bagrut5_03_time",
   "titles": {
     "he": "זמן וסיפור",
-    "en": "Time and story"
+    "en": "Time and story",
+    "ar": "الزمن والقصة"
   },
   "blurbs": {
     "he": "עבר, עתיד, וקטע קצר עם רעיון מרכזי והסקה.",
-    "en": "Past, future, and a short story."
+    "en": "Past, future, and a short story.",
+    "ar": "الماضي والمستقبل وقصة قصيرة."
   },
   "subject": "english",
   "group_ids": [

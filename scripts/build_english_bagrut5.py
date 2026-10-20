@@ -448,7 +448,7 @@ def all_paths() -> list[dict]:
     place = "path_english_bagrut5_00_placement"
     docs = [placement()]
     docs.append(teach(
-        "path_english_bagrut5_01_zero", "מאפס", "From zero",
+        "path_english_bagrut5_01_zero", "מאפס", "First letters",
         "אותיות, צלילים, ומשפט עם am, is, are. זו הדרך שנפתחת כשהמבדק מראה בסיס רופף.",
         "Letters, sounds, and am, is, are.",
         "א", 90, place, "z",
@@ -739,7 +739,22 @@ def all_paths() -> list[dict]:
 
 
 def main() -> None:
+    # Arabic catalog chrome so a path that sorts first still satisfies the locale test on main.
+    ar = {
+        "path_english_bagrut5_00_placement": ("اختبار مستوى الإنجليزية", "بلا مادة جديدة. الأخطاء تفتح طريق الفجوة."),
+        "path_english_bagrut5_01_zero": ("الحروف الأولى", "حروف وأصوات وجملة مع am و is و are."),
+        "path_english_bagrut5_02_present": ("المضارع والحياة اليومية", "المضارع البسيط، و there is، والأسئلة."),
+        "path_english_bagrut5_03_time": ("الزمن والقصة", "الماضي والمستقبل وقصة قصيرة."),
+        "path_english_bagrut5_04_accuracy": ("الدقة", "أدوات التعريف، وترتيب الكلمات، والشرط الأول."),
+        "path_english_bagrut5_05_module_e": ("استبيان E", "نص غير مألوف وأسئلة الفهم. بلا إنشاء طويل."),
+        "path_english_bagrut5_06_module_g": ("استبيان G", "نص أطول ثم إنشاء رأي من 120 إلى 140 كلمة."),
+        "path_english_bagrut5_07_literature_oral": ("الأدب والكلام", "قصة وشعر أصليان، وإنشاء قصير، وثلاث جمل منطوقة."),
+        "path_english_bagrut5_08_exam": ("امتحان كامل", "قراءة ومفردات وكتابة وكلام معًا. بلا موضوع جديد."),
+    }
     for doc in all_paths():
+        title_ar, blurb_ar = ar[doc["id"]]
+        doc["titles"]["ar"] = title_ar
+        doc["blurbs"]["ar"] = blurb_ar
         path = OUT / f"{doc['id']}.json"
         path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(path.name, "topics", len(doc["topics"]), "nodes", len(doc["nodes"]))

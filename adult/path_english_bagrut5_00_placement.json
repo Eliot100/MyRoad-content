@@ -2,11 +2,13 @@
   "id": "path_english_bagrut5_00_placement",
   "titles": {
     "he": "מבדק רמה לאנגלית",
-    "en": "English level check"
+    "en": "English level check",
+    "ar": "اختبار مستوى الإنجليزية"
   },
   "blurbs": {
     "he": "ארבעה אזורים בלי חומר חדש: אותיות, הווה, זמן, וקטע. לפי הטעויות נפתחת הדרך שסוגרת את הפער.",
-    "en": "No new material. Letters, present, time, and a passage. Mistakes open the road that closes the gap."
+    "en": "No new material. Letters, present, time, and a passage. Mistakes open the road that closes the gap.",
+    "ar": "بلا مادة جديدة. الأخطاء تفتح طريق الفجوة."
   },
   "subject": "english",
   "group_ids": [

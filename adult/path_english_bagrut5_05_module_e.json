@@ -2,11 +2,13 @@
   "id": "path_english_bagrut5_05_module_e",
   "titles": {
     "he": "שאלון E",
-    "en": "Module E"
+    "en": "Module E",
+    "ar": "استبيان E"
   },
   "blurbs": {
     "he": "קטע לא מוכר, שאלות של רעיון, פרט, הסקה, מילה מהקשר, ומטרת הכותב. בלי חיבור ארוך.",
-    "en": "An unseen passage and the E question types. No long essay."
+    "en": "An unseen passage and the E question types. No long essay.",
+    "ar": "نص غير مألوف وأسئلة الفهم. بلا إنشاء طويل."
   },
   "subject": "english",
   "group_ids": [

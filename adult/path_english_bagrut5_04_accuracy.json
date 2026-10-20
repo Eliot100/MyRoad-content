@@ -2,11 +2,13 @@
   "id": "path_english_bagrut5_04_accuracy",
   "titles": {
     "he": "דיוק",
-    "en": "Accuracy"
+    "en": "Accuracy",
+    "ar": "الدقة"
   },
   "blurbs": {
     "he": "a ו-the, סדר מילים, Present Perfect מול עבר, ותנאי ראשון.",
-    "en": "Articles, word order, perfect versus past, and the first conditional."
+    "en": "Articles, word order, perfect versus past, and the first conditional.",
+    "ar": "أدوات التعريف، وترتيب الكلمات، والشرط الأول."
   },
   "subject": "english",
   "group_ids": [

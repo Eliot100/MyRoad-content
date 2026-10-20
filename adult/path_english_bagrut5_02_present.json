@@ -2,11 +2,13 @@
   "id": "path_english_bagrut5_02_present",
   "titles": {
     "he": "הווה ויום יום",
-    "en": "Present and daily life"
+    "en": "Present and daily life",
+    "ar": "المضارع والحياة اليومية"
   },
   "blurbs": {
     "he": "Present Simple, there is, ושאלות. קטע קצר בסוף.",
-    "en": "Present Simple, there is, and questions."
+    "en": "Present Simple, there is, and questions.",
+    "ar": "المضارع البسيط، و there is، والأسئلة."
   },
   "subject": "english",
   "group_ids": [
