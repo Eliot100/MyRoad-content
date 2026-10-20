@@ -14,18 +14,20 @@
 | [writing_rubric.md](writing_rubric.md) | מחוון הכתיבה של שאלון G ושל F החיצוני, בשפה של כותבי תוכן |
 | [grammar_and_tasks.md](grammar_and_tasks.md) | דקדוק לדוברי עברית, סוגי שאלות בקריאה, ספרות, ובעל פה |
 
-## סדר הדרכים שייכתב מהחבילה הזו
+## סדר הדרכים שנכתב מהחבילה הזו
+
+הקבצים הם `adult/path_english_bagrut5_*.json`. הם לא יושבים בתיקייה הזו, כי הטוען קורא כל JSON במאגר.
 
 | id | תפקיד |
 |---|---|
 | `path_english_bagrut5_00_placement` | מבדק רמה, בלי חומר חדש |
-| `path_english_bagrut5_01_zero` | אותיות, צלילים, מילים ראשונות |
+| `path_english_bagrut5_01_zero` | אותיות, צלילים, ומשפט עם am, is, are |
 | `path_english_bagrut5_02_present` | הווה וחיי יום יום |
-| `path_english_bagrut5_03_time` | עבר, עתיד, קריאה שגדלה |
-| `path_english_bagrut5_04_accuracy` | דיוק ופסקה |
-| `path_english_bagrut5_05_module_e` | שאלון E: קריאה ובנד |
+| `path_english_bagrut5_03_time` | עבר, עתיד, וסיפור |
+| `path_english_bagrut5_04_accuracy` | a/the, סדר מילים, perfect, ותנאי |
+| `path_english_bagrut5_05_module_e` | שאלון E: קריאה ואוצר מהקטע |
 | `path_english_bagrut5_06_module_g` | שאלון G: קריאה ארוכה וחיבור |
-| `path_english_bagrut5_07_literature_oral` | ספרות, F חיצוני, ו-COBE |
-| `path_english_bagrut5_08_exam_100` | סימולציה מלאה |
+| `path_english_bagrut5_07_literature_oral` | סיפור ושיר מקוריים, חיבור קצר, ודיבור |
+| `path_english_bagrut5_08_exam` | סימולציה מלאה, בלי נושא חדש |
 
-כל דרך: `subject: english`, `group_ids: ["adult"]`, `explain_locale: he`, `content_locale: en`, בלי מקף ארוך. 8 עד 14 נושאים. בכל נושא לימוד ואחריו 2 עד 5 תרגילים. חזרה מעורבת אחרי כל 3 נושאים. בסוף בדיקה ו-celebrate.
+כל הדרכים מלבד המבדק דורשות רק את המבדק כתנאי קדם. התקרה, איזו דרך נפתחת עכשיו, נקבעת בפלטפורמה לפי טעויות המבדק. כל דרך: `subject: english`, `group_ids: ["adult"]`, `explain_locale: he`, `content_locale: en`, בלי מקף ארוך. חזרה מעורבת אחרי כל שלושה נושאים. בסוף בדיקה ו-celebrate.

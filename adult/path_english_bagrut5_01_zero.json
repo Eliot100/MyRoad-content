@@ -1,0 +1,609 @@
+{
+  "id": "path_english_bagrut5_01_zero",
+  "titles": {
+    "he": "מאפס",
+    "en": "First letters",
+    "ar": "الحروف الأولى"
+  },
+  "blurbs": {
+    "he": "אותיות, צלילים, ומשפט עם am, is, are. זו הדרך שנפתחת כשהמבדק מראה בסיס רופף.",
+    "en": "Letters, sounds, and am, is, are.",
+    "ar": "حروف وأصوات وجملة مع am و is و are."
+  },
+  "subject": "english",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "א",
+  "explain_locale": "he",
+  "content_locale": "en",
+  "estimated_minutes": 90,
+  "prerequisite_path_ids": [
+    "path_english_bagrut5_00_placement"
+  ],
+  "topics": [
+    {
+      "id": "t_letters",
+      "titles": {
+        "he": "אותיות",
+        "en": "Letters"
+      },
+      "emoji": "א",
+      "node_ids": [
+        "z_t_letters_learn",
+        "z_t_letters_p1",
+        "z_t_letters_p2"
+      ]
+    },
+    {
+      "id": "t_be",
+      "titles": {
+        "he": "am is are",
+        "en": "am, is, are"
+      },
+      "emoji": "ב",
+      "node_ids": [
+        "z_t_be_learn",
+        "z_t_be_p1",
+        "z_t_be_p2"
+      ]
+    },
+    {
+      "id": "t_not",
+      "titles": {
+        "he": "שלילה",
+        "en": "not"
+      },
+      "emoji": "ג",
+      "node_ids": [
+        "z_t_not_learn",
+        "z_t_not_p1",
+        "z_t_not_p2"
+      ]
+    },
+    {
+      "id": "t_review_1",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "z_rev1_learn",
+        "z_rev1_q"
+      ]
+    },
+    {
+      "id": "t_you",
+      "titles": {
+        "he": "you ו-we",
+        "en": "you and we"
+      },
+      "emoji": "ד",
+      "node_ids": [
+        "z_t_you_learn",
+        "z_t_you_p1",
+        "z_t_you_p2"
+      ]
+    },
+    {
+      "id": "t_word",
+      "titles": {
+        "he": "מילה קצרה",
+        "en": "A short word"
+      },
+      "emoji": "ה",
+      "node_ids": [
+        "z_t_word_learn",
+        "z_t_word_p1",
+        "z_t_word_p2"
+      ]
+    },
+    {
+      "id": "t_sent",
+      "titles": {
+        "he": "משפט",
+        "en": "A sentence"
+      },
+      "emoji": "ו",
+      "node_ids": [
+        "z_t_sent_learn",
+        "z_t_sent_p1",
+        "z_t_sent_p2"
+      ]
+    },
+    {
+      "id": "t_review_2",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "z_rev2_learn",
+        "z_rev2_q"
+      ]
+    },
+    {
+      "id": "t_end",
+      "titles": {
+        "he": "סיום",
+        "en": "End"
+      },
+      "emoji": "✓",
+      "node_ids": [
+        "z_final_check",
+        "z_celebrate"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "z_t_letters_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אותיות",
+      "body_he": "אומרים את שם האות, ואז קוראים מילה קצרה.",
+      "body_content": "A, B, C."
+    },
+    {
+      "id": "z_t_letters_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "פתיחה",
+      "body_he": "במה נפתחת המילה?",
+      "body_content": "sun",
+      "choices": [
+        {
+          "id": "a",
+          "label": "s"
+        },
+        {
+          "id": "b",
+          "label": "n"
+        },
+        {
+          "id": "c",
+          "label": "u"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "s.",
+      "feedback_try": "הסוף הוא n."
+    },
+    {
+      "id": "z_t_letters_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סוף",
+      "body_he": "במה נגמרת?",
+      "body_content": "map",
+      "choices": [
+        {
+          "id": "a",
+          "label": "m"
+        },
+        {
+          "id": "b",
+          "label": "p"
+        },
+        {
+          "id": "c",
+          "label": "a"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "p.",
+      "feedback_try": "ההתחלה היא m."
+    },
+    {
+      "id": "z_t_be_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "am is are",
+      "body_he": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
+      "body_content": "I am a student."
+    },
+    {
+      "id": "z_t_be_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "I",
+      "body_he": "מה נכון?",
+      "body_content": "I ___ tired.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "I am.",
+      "feedback_try": "is לא בא אחרי I."
+    },
+    {
+      "id": "z_t_be_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "she",
+      "body_he": "מה נכון?",
+      "body_content": "She ___ at home.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "am"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "She is.",
+      "feedback_try": "are בא אחרי you או they."
+    },
+    {
+      "id": "z_t_not_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "שלילה",
+      "body_he": "שלילה: am not, is not, are not. לא מוסיפים do.",
+      "body_content": "She is not late."
+    },
+    {
+      "id": "z_t_not_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שלילה",
+      "body_he": "מה תקין?",
+      "body_content": "They ___ ready.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "are not"
+        },
+        {
+          "id": "b",
+          "label": "is not"
+        },
+        {
+          "id": "c",
+          "label": "am not"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "They are not.",
+      "feedback_try": "is לא הולך עם they."
+    },
+    {
+      "id": "z_t_not_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "I",
+      "body_he": "שלילה של I.",
+      "body_content": "I ___ hungry.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am not"
+        },
+        {
+          "id": "b",
+          "label": "is not"
+        },
+        {
+          "id": "c",
+          "label": "do not am"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "I am not.",
+      "feedback_try": "אין do לפני am."
+    },
+    {
+      "id": "z_rev1_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_letters",
+        "t_be",
+        "t_not"
+      ]
+    },
+    {
+      "id": "z_rev1_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "I ___ a student.",
+      "review_topic_ids": [
+        "t_letters",
+        "t_be",
+        "t_not"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "I am.",
+      "feedback_try": "אחרי I בא am."
+    },
+    {
+      "id": "z_t_you_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "you ו-we",
+      "body_he": "you, we, they הולכים עם are. לא עם am.",
+      "body_content": "You are ready. We are here."
+    },
+    {
+      "id": "z_t_you_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "we",
+      "body_he": "מה נכון?",
+      "body_content": "We ___ students.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "We are.",
+      "feedback_try": "am רק אחרי I."
+    },
+    {
+      "id": "z_t_you_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "they",
+      "body_he": "הם.",
+      "body_content": "They ___ at school.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "They are.",
+      "feedback_try": "is לא הולך עם they."
+    },
+    {
+      "id": "z_t_word_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילה קצרה",
+      "body_he": "קוראים את כל המילה, לא רק את האות הראשונה.",
+      "body_content": "sun, map, dog"
+    },
+    {
+      "id": "z_t_word_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "קריאה",
+      "body_he": "איזו מילה זו?",
+      "body_content": "s-u-n",
+      "choices": [
+        {
+          "id": "a",
+          "label": "sun"
+        },
+        {
+          "id": "b",
+          "label": "bus"
+        },
+        {
+          "id": "c",
+          "label": "son"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "sun.",
+      "feedback_try": "bus מתחיל ב-b."
+    },
+    {
+      "id": "z_t_word_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אות",
+      "body_he": "איזו אות חסרה?",
+      "body_content": "c_t",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "o"
+        },
+        {
+          "id": "c",
+          "label": "e"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "cat.",
+      "feedback_try": "המילה הקצרה היא cat."
+    },
+    {
+      "id": "z_t_sent_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "משפט",
+      "body_he": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
+      "body_content": "I am here."
+    },
+    {
+      "id": "z_t_sent_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שלם",
+      "body_he": "איזה משפט שלם?",
+      "body_content": "Choose.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "I am here."
+        },
+        {
+          "id": "b",
+          "label": "Am here."
+        },
+        {
+          "id": "c",
+          "label": "I here."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "יש I ויש am.",
+      "feedback_try": "בלי פועל זה לא משפט."
+    },
+    {
+      "id": "z_t_sent_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "גדולה",
+      "body_he": "איך פותחים משפט?",
+      "body_content": "___ am a student.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "I"
+        },
+        {
+          "id": "b",
+          "label": "i"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "I גדולה.",
+      "feedback_try": "i קטנה לא פותחת משפט."
+    },
+    {
+      "id": "z_rev2_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_you",
+        "t_word",
+        "t_sent"
+      ]
+    },
+    {
+      "id": "z_rev2_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "You ___ ready.",
+      "review_topic_ids": [
+        "t_you",
+        "t_word",
+        "t_sent"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "You are.",
+      "feedback_try": "am שייך רק ל-I."
+    },
+    {
+      "id": "z_final_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת סוף",
+      "body_he": "שאלה אחת על כל הדרך.",
+      "body_content": "They ___ not late.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "They are not.",
+      "feedback_try": "is לא הולך עם they."
+    },
+    {
+      "id": "z_celebrate",
+      "type": "celebrate",
+      "kind": "understanding",
+      "title": "סוף הדרך",
+      "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
+      "body_content": "This road is done."
+    }
+  ]
+}

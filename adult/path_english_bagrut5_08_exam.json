@@ -1,0 +1,567 @@
+{
+  "id": "path_english_bagrut5_08_exam",
+  "titles": {
+    "he": "בחינה מלאה",
+    "en": "Full exam",
+    "ar": "امتحان كامل"
+  },
+  "blurbs": {
+    "he": "ערבוב של קריאה, אוצר מילים, חיבור ודיבור. אין נושא חדש. זה התרגול לרמה של 100.",
+    "en": "Reading, vocabulary, writing, and speaking together. No new topic.",
+    "ar": "قراءة ومفردات وكتابة وكلام معًا. بلا موضوع جديد."
+  },
+  "subject": "english",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "ח",
+  "explain_locale": "he",
+  "content_locale": "en",
+  "estimated_minutes": 180,
+  "prerequisite_path_ids": [
+    "path_english_bagrut5_00_placement"
+  ],
+  "topics": [
+    {
+      "id": "t_mix",
+      "titles": {
+        "he": "קריאה מעורבת",
+        "en": "Mixed reading"
+      },
+      "emoji": "א",
+      "node_ids": [
+        "ex_t_mix_learn",
+        "ex_t_mix_idea",
+        "ex_t_mix_vocab"
+      ]
+    },
+    {
+      "id": "t_write",
+      "titles": {
+        "he": "חיבור",
+        "en": "Essay"
+      },
+      "emoji": "ב",
+      "node_ids": [
+        "ex_t_write_learn",
+        "ex_t_write_shape",
+        "ex_t_write_chk"
+      ]
+    },
+    {
+      "id": "t_oral",
+      "titles": {
+        "he": "דיבור אחרון",
+        "en": "Last spoken turn"
+      },
+      "emoji": "ג",
+      "node_ids": [
+        "ex_t_oral_learn",
+        "ex_t_oral_say"
+      ]
+    },
+    {
+      "id": "t_review_1",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "ex_rev1_learn",
+        "ex_rev1_q"
+      ]
+    },
+    {
+      "id": "t_read2",
+      "titles": {
+        "he": "הסקה בבחינה",
+        "en": "One inference"
+      },
+      "emoji": "ד",
+      "node_ids": [
+        "ex_t_read2_learn",
+        "ex_t_read2_p1",
+        "ex_t_read2_p2"
+      ]
+    },
+    {
+      "id": "t_write2",
+      "titles": {
+        "he": "אורך ודיוק",
+        "en": "Length and accuracy"
+      },
+      "emoji": "ה",
+      "node_ids": [
+        "ex_t_write2_learn",
+        "ex_t_write2_p1",
+        "ex_t_write2_p2"
+      ]
+    },
+    {
+      "id": "t_last",
+      "titles": {
+        "he": "משפט אחרון",
+        "en": "One last sentence"
+      },
+      "emoji": "ו",
+      "node_ids": [
+        "ex_t_last_learn",
+        "ex_t_last_p1",
+        "ex_t_last_chk"
+      ]
+    },
+    {
+      "id": "t_review_2",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "ex_rev2_learn",
+        "ex_rev2_q"
+      ]
+    },
+    {
+      "id": "t_end",
+      "titles": {
+        "he": "סיום",
+        "en": "End"
+      },
+      "emoji": "✓",
+      "node_ids": [
+        "ex_final_check",
+        "ex_celebrate"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ex_t_mix_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "קריאה מעורבת",
+      "body_he": "אותן שאלות כמו בשאלונים, על קטע שכבר מהסוג המוכר.",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street."
+    },
+    {
+      "id": "ex_t_mix_idea",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "רעיון",
+      "body_he": "בחרו את הרעיון.",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Moving the market helps the rent and hurts the buyers."
+        },
+        {
+          "id": "b",
+          "label": "Nira loves plastic."
+        },
+        {
+          "id": "c",
+          "label": "Rain is the only subject."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "השכירות עלתה, הקונים נפגעו.",
+      "feedback_try": "נירה מסרבת לפלסטיק."
+    },
+    {
+      "id": "ex_t_mix_vocab",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מילה",
+      "body_he": "higher price",
+      "body_content": "at a higher price",
+      "choices": [
+        {
+          "id": "a",
+          "label": "it costs more"
+        },
+        {
+          "id": "b",
+          "label": "it is closer"
+        },
+        {
+          "id": "c",
+          "label": "it is free"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "עולה יותר.",
+      "feedback_try": "closer הוא מרחק."
+    },
+    {
+      "id": "ex_t_write_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "חיבור",
+      "body_he": "פתחו בדעה, תנו סיבה מהקטע, וסיימו במשפט אחד. 120 עד 140 מילים כשזה חיבור מלא. כאן בודקים את הצורה.",
+      "body_content": "In my opinion, the stall should stay."
+    },
+    {
+      "id": "ex_t_write_shape",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "צורה",
+      "body_he": "איזו פיסקה מתאימה למחוון?",
+      "body_content": "Choose.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Opinion, one reason from the text, and a closing sentence."
+        },
+        {
+          "id": "b",
+          "label": "A list of prices only."
+        },
+        {
+          "id": "c",
+          "label": "Because because."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "דעה, סיבה, סיום.",
+      "feedback_try": "מחירון אינו חיבור."
+    },
+    {
+      "id": "ex_t_write_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה לא מורידים בקריאה לפי החוברת?",
+      "body_content": "Spelling in a reading answer.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Spelling alone does not remove the reading points."
+        },
+        {
+          "id": "b",
+          "label": "One spelling error zeros the paper."
+        },
+        {
+          "id": "c",
+          "label": "Grammar is ignored in the essay."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בכתיב בקריאה לא מורידים. בחיבור הדיוק כן נספר.",
+      "feedback_try": "בחיבור הדיוק כן נספר."
+    },
+    {
+      "id": "ex_t_oral_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דיבור אחרון",
+      "body_he": "תגובה אישית בלי לקרוא מהדף.",
+      "body_content": "I agree with Nira because customers should choose the fruit."
+    },
+    {
+      "id": "ex_t_oral_say",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "אמרו",
+      "body_he": "אמרו את עמדתכם וסיבה אחת.",
+      "body_content": "I agree with Nira because customers should choose the fruit.",
+      "speak_text": "I agree with Nira because customers should choose the fruit."
+    },
+    {
+      "id": "ex_rev1_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_mix",
+        "t_write",
+        "t_oral"
+      ]
+    },
+    {
+      "id": "ex_rev1_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "Choose the essay shape.",
+      "review_topic_ids": [
+        "t_mix",
+        "t_write",
+        "t_oral"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "Opinion, a reason, a closing sentence."
+        },
+        {
+          "id": "b",
+          "label": "A list of prices."
+        },
+        {
+          "id": "c",
+          "label": "Because because."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "דעה, סיבה, סיום.",
+      "feedback_try": "מחירון אינו חיבור."
+    },
+    {
+      "id": "ex_t_read2_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "הסקה בבחינה",
+      "body_he": "בבחינה ההסקה עדיין חייבת להישען על הקטע.",
+      "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention."
+    },
+    {
+      "id": "ex_t_read2_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "הסקה",
+      "body_he": "מה אפשר להסיק?",
+      "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A room with no duty did not last."
+        },
+        {
+          "id": "b",
+          "label": "Every carpenter leaves the town."
+        },
+        {
+          "id": "c",
+          "label": "Rent never changes."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בלי חובה החדר לא נשאר.",
+      "feedback_try": "לא כתוב שכולם עוזבים."
+    },
+    {
+      "id": "ex_t_read2_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מטרה",
+      "body_he": "מה המטרה של המשפט האחרון?",
+      "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "to say the room stays when someone pays attention"
+        },
+        {
+          "id": "b",
+          "label": "to sell a bench"
+        },
+        {
+          "id": "c",
+          "label": "to end without a point"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "החדר נשאר כשמישהו שם לב.",
+      "feedback_try": "זו לא מודעה."
+    },
+    {
+      "id": "ex_t_write2_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אורך ודיוק",
+      "body_he": "בחיבור הדיוק נספר. בקריאה כתיב לבדו לא מוריד. האורך הוא סעיף נפרד.",
+      "body_content": "Accuracy counts in the essay. Spelling in a reading answer does not."
+    },
+    {
+      "id": "ex_t_write2_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "דיוק",
+      "body_he": "איפה הדיוק נספר?",
+      "body_content": "Choose.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "in the essay"
+        },
+        {
+          "id": "b",
+          "label": "only in a one-word reading answer"
+        },
+        {
+          "id": "c",
+          "label": "nowhere"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בחיבור.",
+      "feedback_try": "בקריאה הקצרה הכתיב לא מוריד."
+    },
+    {
+      "id": "ex_t_write2_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אורך",
+      "body_he": "140 מילים כשהטווח הוא 120 עד 140.",
+      "body_content": "140 words",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It is inside the range."
+        },
+        {
+          "id": "b",
+          "label": "It is too long and scores zero."
+        },
+        {
+          "id": "c",
+          "label": "It is too short."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בתוך הטווח.",
+      "feedback_try": "140 הוא הקצה העליון, לא אפס."
+    },
+    {
+      "id": "ex_t_last_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "משפט אחרון",
+      "body_he": "סוגרים במשפט אחד שאפשר לומר גם בעל פה.",
+      "body_content": "I would keep the stall, because the buyers know the fruit."
+    },
+    {
+      "id": "ex_t_last_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משפט",
+      "body_he": "איזה משפט סוגר?",
+      "body_content": "Choose.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "I would keep the stall, because the buyers know the fruit."
+        },
+        {
+          "id": "b",
+          "label": "Because stall."
+        },
+        {
+          "id": "c",
+          "label": "Keep."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "דעה וסיבה.",
+      "feedback_try": "Because לבד אינו סיום."
+    },
+    {
+      "id": "ex_t_last_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "אין נושא חדש.",
+      "body_content": "This road",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It mixes reading, writing, and speaking. It teaches nothing new."
+        },
+        {
+          "id": "b",
+          "label": "It starts the alphabet."
+        },
+        {
+          "id": "c",
+          "label": "It replaces the placement."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ערבוב בלי נושא חדש.",
+      "feedback_try": "האותיות היו בדרך הראשונה."
+    },
+    {
+      "id": "ex_rev2_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_read2",
+        "t_write2",
+        "t_last"
+      ]
+    },
+    {
+      "id": "ex_rev2_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "higher price means",
+      "review_topic_ids": [
+        "t_read2",
+        "t_write2",
+        "t_last"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "it costs more"
+        },
+        {
+          "id": "b",
+          "label": "it is closer"
+        },
+        {
+          "id": "c",
+          "label": "it is free"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "עולה יותר.",
+      "feedback_try": "closer הוא מרחק."
+    },
+    {
+      "id": "ex_final_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת סוף",
+      "body_he": "שאלה אחת על כל הדרך.",
+      "body_content": "Spelling in a reading answer.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Spelling alone does not remove the reading points."
+        },
+        {
+          "id": "b",
+          "label": "One spelling error zeros the paper."
+        },
+        {
+          "id": "c",
+          "label": "Accuracy is ignored in the essay."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בכתיב בקריאה לא מורידים.",
+      "feedback_try": "בחיבור הדיוק כן נספר."
+    },
+    {
+      "id": "ex_celebrate",
+      "type": "celebrate",
+      "kind": "understanding",
+      "title": "סוף הדרך",
+      "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
+      "body_content": "This road is done."
+    }
+  ]
+}
