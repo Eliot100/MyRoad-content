@@ -1,0 +1,607 @@
+{
+  "id": "path_english_bagrut5_04_accuracy",
+  "titles": {
+    "he": "דיוק",
+    "en": "Accuracy"
+  },
+  "blurbs": {
+    "he": "a ו-the, סדר מילים, Present Perfect מול עבר, ותנאי ראשון.",
+    "en": "Articles, word order, perfect versus past, and the first conditional."
+  },
+  "subject": "english",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "ד",
+  "explain_locale": "he",
+  "content_locale": "en",
+  "estimated_minutes": 150,
+  "prerequisite_path_ids": [
+    "path_english_bagrut5_00_placement"
+  ],
+  "topics": [
+    {
+      "id": "t_art",
+      "titles": {
+        "he": "a ו-the",
+        "en": "a and the"
+      },
+      "emoji": "א",
+      "node_ids": [
+        "ac_t_art_learn",
+        "ac_t_art_p1",
+        "ac_t_art_p2"
+      ]
+    },
+    {
+      "id": "t_perf",
+      "titles": {
+        "he": "Perfect מול עבר",
+        "en": "Perfect and past"
+      },
+      "emoji": "ב",
+      "node_ids": [
+        "ac_t_perf_learn",
+        "ac_t_perf_p1",
+        "ac_t_perf_p2"
+      ]
+    },
+    {
+      "id": "t_if",
+      "titles": {
+        "he": "תנאי וסדר",
+        "en": "Conditional and order"
+      },
+      "emoji": "ג",
+      "node_ids": [
+        "ac_t_if_learn",
+        "ac_t_if_p1",
+        "ac_t_if_p2"
+      ]
+    },
+    {
+      "id": "t_review_1",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "ac_rev1_learn",
+        "ac_rev1_q"
+      ]
+    },
+    {
+      "id": "t_an",
+      "titles": {
+        "he": "an",
+        "en": "an"
+      },
+      "emoji": "ד",
+      "node_ids": [
+        "ac_t_an_learn",
+        "ac_t_an_p1",
+        "ac_t_an_p2"
+      ]
+    },
+    {
+      "id": "t_order",
+      "titles": {
+        "he": "סדר",
+        "en": "Word order"
+      },
+      "emoji": "ה",
+      "node_ids": [
+        "ac_t_order_learn",
+        "ac_t_order_p1",
+        "ac_t_order_p2"
+      ]
+    },
+    {
+      "id": "t_for",
+      "titles": {
+        "he": "for ו-since",
+        "en": "for and since"
+      },
+      "emoji": "ו",
+      "node_ids": [
+        "ac_t_for_learn",
+        "ac_t_for_p1",
+        "ac_t_for_p2"
+      ]
+    },
+    {
+      "id": "t_review_2",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "ac_rev2_learn",
+        "ac_rev2_q"
+      ]
+    },
+    {
+      "id": "t_end",
+      "titles": {
+        "he": "סיום",
+        "en": "End"
+      },
+      "emoji": "✓",
+      "node_ids": [
+        "ac_final_check",
+        "ac_celebrate"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "ac_t_art_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "a ו-the",
+      "body_he": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר.",
+      "body_content": "I saw a bird. The bird was blue."
+    },
+    {
+      "id": "ac_t_art_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ראשון",
+      "body_he": "פעם ראשונה.",
+      "body_content": "I saw ___ bird.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "the"
+        },
+        {
+          "id": "c",
+          "label": "an"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "a bird.",
+      "feedback_try": "the כשמדובר בציפור שכבר הזכרנו."
+    },
+    {
+      "id": "ac_t_art_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ידוע",
+      "body_he": "כבר דיברנו עליו.",
+      "body_content": "___ bird was blue.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "The"
+        },
+        {
+          "id": "c",
+          "label": "An"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "The bird.",
+      "feedback_try": "אחרי שהזכרנו, The."
+    },
+    {
+      "id": "ac_t_perf_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "Perfect מול עבר",
+      "body_he": "have ועבר שלישי כשאין זמן סגור. זמן כמו yesterday דורש עבר רגיל.",
+      "body_content": "I have seen this film. I saw it yesterday."
+    },
+    {
+      "id": "ac_t_perf_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ניסיון",
+      "body_he": "עד עכשיו.",
+      "body_content": "I ___ this film.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "have seen"
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "seen"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "have seen.",
+      "feedback_try": "saw צריך זמן כמו yesterday."
+    },
+    {
+      "id": "ac_t_perf_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אתמול",
+      "body_he": "זמן סגור.",
+      "body_content": "I ___ it yesterday.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "have seen"
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "seen"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "saw yesterday.",
+      "feedback_try": "עם yesterday לא משתמשים ב-have."
+    },
+    {
+      "id": "ac_t_if_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "תנאי וסדר",
+      "body_he": "If ועתיד אפשרי: will. always לפני הפועל.",
+      "body_content": "If it rains, we will stay home."
+    },
+    {
+      "id": "ac_t_if_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אם",
+      "body_he": "תנאי ראשון.",
+      "body_content": "If it rains, we ___ home.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "will stay"
+        },
+        {
+          "id": "b",
+          "label": "stayed"
+        },
+        {
+          "id": "c",
+          "label": "stays"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "will stay.",
+      "feedback_try": "אם אפשרי עכשיו: will."
+    },
+    {
+      "id": "ac_t_if_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סדר",
+      "body_he": "סדר מילים.",
+      "body_content": "Which order is English?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "I always drink water."
+        },
+        {
+          "id": "b",
+          "label": "I drink always water."
+        },
+        {
+          "id": "c",
+          "label": "Always I drink water the."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "always לפני הפועל.",
+      "feedback_try": "always לא נכנס בין הפועל למושא."
+    },
+    {
+      "id": "ac_rev1_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_art",
+        "t_perf",
+        "t_if"
+      ]
+    },
+    {
+      "id": "ac_rev1_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "I ___ this film yesterday.",
+      "review_topic_ids": [
+        "t_art",
+        "t_perf",
+        "t_if"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "saw"
+        },
+        {
+          "id": "b",
+          "label": "have seen"
+        },
+        {
+          "id": "c",
+          "label": "seen"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "saw yesterday.",
+      "feedback_try": "עם yesterday אין have."
+    },
+    {
+      "id": "ac_t_an_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "an",
+      "body_he": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university.",
+      "body_content": "I ate an apple."
+    },
+    {
+      "id": "ac_t_an_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "apple",
+      "body_he": "לפני apple.",
+      "body_content": "I want ___ apple.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "an"
+        },
+        {
+          "id": "b",
+          "label": "a"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "an apple.",
+      "feedback_try": "apple נפתח בתנועה."
+    },
+    {
+      "id": "ac_t_an_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "university",
+      "body_he": "הצליל, לא האות.",
+      "body_content": "She has ___ university nearby.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "an"
+        },
+        {
+          "id": "c",
+          "label": "the"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "a university.",
+      "feedback_try": "הצליל הראשון הוא y, כמו yes."
+    },
+    {
+      "id": "ac_t_order_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "סדר",
+      "body_he": "הנושא בא לפני הפועל. never ו-always לא נכנסים בין הפועל למושא.",
+      "body_content": "I never drink coffee at night."
+    },
+    {
+      "id": "ac_t_order_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "never",
+      "body_he": "איפה never?",
+      "body_content": "Choose.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "I never drink coffee."
+        },
+        {
+          "id": "b",
+          "label": "I drink never coffee."
+        },
+        {
+          "id": "c",
+          "label": "Never drink I coffee."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "לפני הפועל.",
+      "feedback_try": "never לא בין הפועל למושא."
+    },
+    {
+      "id": "ac_t_order_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נושא",
+      "body_he": "מה בא קודם?",
+      "body_content": "Choose the sentence.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The bird was blue."
+        },
+        {
+          "id": "b",
+          "label": "Was the blue bird sentence no."
+        },
+        {
+          "id": "c",
+          "label": "Blue was bird the."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נושא ואז פועל.",
+      "feedback_try": "השלישי אינו סדר אנגלי."
+    },
+    {
+      "id": "ac_t_for_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "for ו-since",
+      "body_he": "for עם משך: for two years. since עם נקודת התחלה: since 2020. yesterday לא הולך עם have.",
+      "body_content": "I have lived here for two years."
+    },
+    {
+      "id": "ac_t_for_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "for",
+      "body_he": "משך.",
+      "body_content": "I have known her ___ a year.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "for"
+        },
+        {
+          "id": "b",
+          "label": "since"
+        },
+        {
+          "id": "c",
+          "label": "ago"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "for a year.",
+      "feedback_try": "since צריך נקודה, לא משך."
+    },
+    {
+      "id": "ac_t_for_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "yesterday",
+      "body_he": "זמן סגור.",
+      "body_content": "I ___ her yesterday.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "saw"
+        },
+        {
+          "id": "b",
+          "label": "have seen"
+        },
+        {
+          "id": "c",
+          "label": "seen"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "saw.",
+      "feedback_try": "yesterday סוגר את הזמן."
+    },
+    {
+      "id": "ac_rev2_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_an",
+        "t_order",
+        "t_for"
+      ]
+    },
+    {
+      "id": "ac_rev2_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "If it rains, we ___ home.",
+      "review_topic_ids": [
+        "t_an",
+        "t_order",
+        "t_for"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "will stay"
+        },
+        {
+          "id": "b",
+          "label": "stayed"
+        },
+        {
+          "id": "c",
+          "label": "stays"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "will stay.",
+      "feedback_try": "תנאי אפשרי: will."
+    },
+    {
+      "id": "ac_final_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת סוף",
+      "body_he": "שאלה אחת על כל הדרך.",
+      "body_content": "If it rains, I ___ a coat.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "will take"
+        },
+        {
+          "id": "b",
+          "label": "took"
+        },
+        {
+          "id": "c",
+          "label": "taken"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "will take.",
+      "feedback_try": "תנאי ראשון: will."
+    },
+    {
+      "id": "ac_celebrate",
+      "type": "celebrate",
+      "kind": "understanding",
+      "title": "סוף הדרך",
+      "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
+      "body_content": "This road is done."
+    }
+  ]
+}

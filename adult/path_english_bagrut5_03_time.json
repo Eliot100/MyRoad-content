@@ -1,0 +1,607 @@
+{
+  "id": "path_english_bagrut5_03_time",
+  "titles": {
+    "he": "זמן וסיפור",
+    "en": "Time and story"
+  },
+  "blurbs": {
+    "he": "עבר, עתיד, וקטע קצר עם רעיון מרכזי והסקה.",
+    "en": "Past, future, and a short story."
+  },
+  "subject": "english",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "ג",
+  "explain_locale": "he",
+  "content_locale": "en",
+  "estimated_minutes": 140,
+  "prerequisite_path_ids": [
+    "path_english_bagrut5_00_placement"
+  ],
+  "topics": [
+    {
+      "id": "t_past",
+      "titles": {
+        "he": "Past Simple",
+        "en": "Past Simple"
+      },
+      "emoji": "א",
+      "node_ids": [
+        "tm_t_past_learn",
+        "tm_t_past_p1",
+        "tm_t_past_p2"
+      ]
+    },
+    {
+      "id": "t_fut",
+      "titles": {
+        "he": "עתיד",
+        "en": "Future"
+      },
+      "emoji": "ב",
+      "node_ids": [
+        "tm_t_fut_learn",
+        "tm_t_fut_p1",
+        "tm_t_fut_p2"
+      ]
+    },
+    {
+      "id": "t_story",
+      "titles": {
+        "he": "סיפור קצר",
+        "en": "A short story"
+      },
+      "emoji": "ג",
+      "node_ids": [
+        "tm_t_story_learn",
+        "tm_t_story_idea",
+        "tm_t_story_infer"
+      ]
+    },
+    {
+      "id": "t_review_1",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "tm_rev1_learn",
+        "tm_rev1_q"
+      ]
+    },
+    {
+      "id": "t_irreg",
+      "titles": {
+        "he": "עבר חריג",
+        "en": "went and saw"
+      },
+      "emoji": "ד",
+      "node_ids": [
+        "tm_t_irreg_learn",
+        "tm_t_irreg_p1",
+        "tm_t_irreg_p2"
+      ]
+    },
+    {
+      "id": "t_ago",
+      "titles": {
+        "he": "מתי",
+        "en": "ago and tomorrow"
+      },
+      "emoji": "ה",
+      "node_ids": [
+        "tm_t_ago_learn",
+        "tm_t_ago_p1",
+        "tm_t_ago_p2"
+      ]
+    },
+    {
+      "id": "t_who",
+      "titles": {
+        "he": "מי ואיפה",
+        "en": "Who and where"
+      },
+      "emoji": "ו",
+      "node_ids": [
+        "tm_t_who_learn",
+        "tm_t_who_p1",
+        "tm_t_who_p2"
+      ]
+    },
+    {
+      "id": "t_review_2",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "tm_rev2_learn",
+        "tm_rev2_q"
+      ]
+    },
+    {
+      "id": "t_end",
+      "titles": {
+        "he": "סיום",
+        "en": "End"
+      },
+      "emoji": "✓",
+      "node_ids": [
+        "tm_final_check",
+        "tm_celebrate"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "tm_t_past_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "Past Simple",
+      "body_he": "אתמול: פועל עם ed, או צורה חריגה כמו went ו-saw.",
+      "body_content": "Yesterday I walked home."
+    },
+    {
+      "id": "tm_t_past_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אתמול",
+      "body_he": "עבר רגיל.",
+      "body_content": "Yesterday he ___ the letter.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "sends"
+        },
+        {
+          "id": "b",
+          "label": "sent"
+        },
+        {
+          "id": "c",
+          "label": "will send"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "sent.",
+      "feedback_try": "sends הוא הווה."
+    },
+    {
+      "id": "tm_t_past_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שלילה",
+      "body_he": "שלילה בעבר.",
+      "body_content": "She ___ not go.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "did"
+        },
+        {
+          "id": "b",
+          "label": "does"
+        },
+        {
+          "id": "c",
+          "label": "is"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "did not go.",
+      "feedback_try": "אחרי did הפועל נשאר go, בלי ed."
+    },
+    {
+      "id": "tm_t_fut_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "עתיד",
+      "body_he": "מחר: will והפועל הבסיסי. תוכנית קרובה: am/is/are ו-ing.",
+      "body_content": "Tomorrow I will leave early."
+    },
+    {
+      "id": "tm_t_fut_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מחר",
+      "body_he": "עתיד.",
+      "body_content": "Tomorrow I ___ early.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "leave"
+        },
+        {
+          "id": "b",
+          "label": "will leave"
+        },
+        {
+          "id": "c",
+          "label": "left"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "will leave.",
+      "feedback_try": "left הוא אתמול."
+    },
+    {
+      "id": "tm_t_fut_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תוכנית",
+      "body_he": "תוכנית קרובה.",
+      "body_content": "We ___ the bus at seven.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "are catching"
+        },
+        {
+          "id": "b",
+          "label": "caught"
+        },
+        {
+          "id": "c",
+          "label": "catches"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "are catching.",
+      "feedback_try": "זו תוכנית מסודרת, לא עבר."
+    },
+    {
+      "id": "tm_t_story_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "סיפור קצר",
+      "body_he": "קראו וזהו את הרעיון ואת ההסקה.",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus."
+    },
+    {
+      "id": "tm_t_story_idea",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "רעיון",
+      "body_he": "מה קורה בסיפור?",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A stranger shares an orange, and Jonah returns the kindness."
+        },
+        {
+          "id": "b",
+          "label": "Jonah buys the pharmacy."
+        },
+        {
+          "id": "c",
+          "label": "The bus never stops."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נדיבות קטנה שחוזרת.",
+      "feedback_try": "הוא לא קונה את בית המרקחת."
+    },
+    {
+      "id": "tm_t_story_infer",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "הסקה",
+      "body_he": "למה הפתק קצר?",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "He does not need her name to return the kindness."
+        },
+        {
+          "id": "b",
+          "label": "He cannot write."
+        },
+        {
+          "id": "c",
+          "label": "The pharmacy is closed forever."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "הנדיבות לא צריכה שם.",
+      "feedback_try": "אין בטקסט שהוא לא יודע לכתוב."
+    },
+    {
+      "id": "tm_rev1_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_past",
+        "t_fut",
+        "t_story"
+      ]
+    },
+    {
+      "id": "tm_rev1_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "Yesterday he ___ home.",
+      "review_topic_ids": [
+        "t_past",
+        "t_fut",
+        "t_story"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "walked"
+        },
+        {
+          "id": "b",
+          "label": "walks"
+        },
+        {
+          "id": "c",
+          "label": "walking"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "walked.",
+      "feedback_try": "אתמול הוא עבר."
+    },
+    {
+      "id": "tm_t_irreg_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "עבר חריג",
+      "body_he": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
+      "body_content": "Yesterday I went home. I saw the bus."
+    },
+    {
+      "id": "tm_t_irreg_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "go",
+      "body_he": "אתמול.",
+      "body_content": "Yesterday she ___ home.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "went"
+        },
+        {
+          "id": "b",
+          "label": "goed"
+        },
+        {
+          "id": "c",
+          "label": "goes"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "went.",
+      "feedback_try": "אין goed."
+    },
+    {
+      "id": "tm_t_irreg_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "see",
+      "body_he": "ראה.",
+      "body_content": "I ___ the note.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "saw"
+        },
+        {
+          "id": "b",
+          "label": "seed"
+        },
+        {
+          "id": "c",
+          "label": "seen"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "saw.",
+      "feedback_try": "seen צריך have."
+    },
+    {
+      "id": "tm_t_ago_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מתי",
+      "body_he": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
+      "body_content": "I saw her two days ago."
+    },
+    {
+      "id": "tm_t_ago_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ago",
+      "body_he": "לפני יומיים.",
+      "body_content": "I met him two days ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ago"
+        },
+        {
+          "id": "b",
+          "label": "tomorrow"
+        },
+        {
+          "id": "c",
+          "label": "will"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ago.",
+      "feedback_try": "tomorrow הוא מחר."
+    },
+    {
+      "id": "tm_t_ago_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מחר",
+      "body_he": "כיוון.",
+      "body_content": "___ I will call.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Tomorrow"
+        },
+        {
+          "id": "b",
+          "label": "Ago"
+        },
+        {
+          "id": "c",
+          "label": "Yesterday"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Tomorrow.",
+      "feedback_try": "yesterday כבר עבר."
+    },
+    {
+      "id": "tm_t_who_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מי ואיפה",
+      "body_he": "who שואל על אדם. where שואל על מקום.",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus."
+    },
+    {
+      "id": "tm_t_who_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "who",
+      "body_he": "מי חיכה?",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Jonah"
+        },
+        {
+          "id": "b",
+          "label": "the driver"
+        },
+        {
+          "id": "c",
+          "label": "Mr. Cohen"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Jonah.",
+      "feedback_try": "אין נהג שמחכה."
+    },
+    {
+      "id": "tm_t_who_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "where",
+      "body_he": "איפה?",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "under the pharmacy light"
+        },
+        {
+          "id": "b",
+          "label": "in the library"
+        },
+        {
+          "id": "c",
+          "label": "on the bus"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מתחת לאור של בית המרקחת.",
+      "feedback_try": "האוטובוס כבר הלך."
+    },
+    {
+      "id": "tm_rev2_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_irreg",
+        "t_ago",
+        "t_who"
+      ]
+    },
+    {
+      "id": "tm_rev2_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "Tomorrow we ___ early.",
+      "review_topic_ids": [
+        "t_irreg",
+        "t_ago",
+        "t_who"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "will leave"
+        },
+        {
+          "id": "b",
+          "label": "left"
+        },
+        {
+          "id": "c",
+          "label": "leaves"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "will leave.",
+      "feedback_try": "left הוא אתמול."
+    },
+    {
+      "id": "tm_final_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת סוף",
+      "body_he": "שאלה אחת על כל הדרך.",
+      "body_content": "Tomorrow we ___ early.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "will leave"
+        },
+        {
+          "id": "b",
+          "label": "left"
+        },
+        {
+          "id": "c",
+          "label": "leaves"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "will leave.",
+      "feedback_try": "left הוא אתמול."
+    },
+    {
+      "id": "tm_celebrate",
+      "type": "celebrate",
+      "kind": "understanding",
+      "title": "סוף הדרך",
+      "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
+      "body_content": "This road is done."
+    }
+  ]
+}

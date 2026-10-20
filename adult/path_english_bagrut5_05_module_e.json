@@ -1,0 +1,633 @@
+{
+  "id": "path_english_bagrut5_05_module_e",
+  "titles": {
+    "he": "שאלון E",
+    "en": "Module E"
+  },
+  "blurbs": {
+    "he": "קטע לא מוכר, שאלות של רעיון, פרט, הסקה, מילה מהקשר, ומטרת הכותב. בלי חיבור ארוך.",
+    "en": "An unseen passage and the E question types. No long essay."
+  },
+  "subject": "english",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "ה",
+  "explain_locale": "he",
+  "content_locale": "en",
+  "estimated_minutes": 180,
+  "prerequisite_path_ids": [
+    "path_english_bagrut5_00_placement"
+  ],
+  "topics": [
+    {
+      "id": "t_read",
+      "titles": {
+        "he": "קטע E",
+        "en": "E passage"
+      },
+      "emoji": "א",
+      "node_ids": [
+        "e_t_read_learn",
+        "e_t_read_idea",
+        "e_t_read_purpose",
+        "e_t_read_word"
+      ]
+    },
+    {
+      "id": "t_vocab",
+      "titles": {
+        "he": "אוצר מילים",
+        "en": "Vocabulary"
+      },
+      "emoji": "ב",
+      "node_ids": [
+        "e_t_vocab_learn",
+        "e_t_vocab_p1",
+        "e_t_vocab_p2"
+      ]
+    },
+    {
+      "id": "t_ref",
+      "titles": {
+        "he": "מילת ייחוס",
+        "en": "Reference"
+      },
+      "emoji": "ג",
+      "node_ids": [
+        "e_t_ref_learn",
+        "e_t_ref_p1",
+        "e_t_ref_chk"
+      ]
+    },
+    {
+      "id": "t_review_1",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "e_rev1_learn",
+        "e_rev1_q"
+      ]
+    },
+    {
+      "id": "t_detail",
+      "titles": {
+        "he": "פרט",
+        "en": "A detail"
+      },
+      "emoji": "ד",
+      "node_ids": [
+        "e_t_detail_learn",
+        "e_t_detail_p1",
+        "e_t_detail_p2"
+      ]
+    },
+    {
+      "id": "t_infer",
+      "titles": {
+        "he": "הסקה",
+        "en": "Inference"
+      },
+      "emoji": "ה",
+      "node_ids": [
+        "e_t_infer_learn",
+        "e_t_infer_p1",
+        "e_t_infer_p2"
+      ]
+    },
+    {
+      "id": "t_band",
+      "titles": {
+        "he": "מילים מהקטע",
+        "en": "Words from the passage"
+      },
+      "emoji": "ו",
+      "node_ids": [
+        "e_t_band_learn",
+        "e_t_band_p1",
+        "e_t_band_p2"
+      ]
+    },
+    {
+      "id": "t_review_2",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "e_rev2_learn",
+        "e_rev2_q"
+      ]
+    },
+    {
+      "id": "t_end",
+      "titles": {
+        "he": "סיום",
+        "en": "End"
+      },
+      "emoji": "✓",
+      "node_ids": [
+        "e_final_check",
+        "e_celebrate"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "e_t_read_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "קטע E",
+      "body_he": "קראו פעם אחת בלי לעצור על כל מילה. אחר כך השאלות.",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street."
+    },
+    {
+      "id": "e_t_read_idea",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "רעיון מרכזי",
+      "body_he": "מה הטענה?",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A cleaner market can lose the people it was for."
+        },
+        {
+          "id": "b",
+          "label": "Plastic boxes are cheaper."
+        },
+        {
+          "id": "c",
+          "label": "The bus line closed."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "השוק הנקי איבד את הקונים.",
+      "feedback_try": "הקופסאות דווקא יקרות יותר."
+    },
+    {
+      "id": "e_t_read_purpose",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מטרת הכותב",
+      "body_he": "למה נכתב?",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "to show a cost of moving the market"
+        },
+        {
+          "id": "b",
+          "label": "to sell peaches"
+        },
+        {
+          "id": "c",
+          "label": "to give bus times"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "להראות מחיר של המעבר.",
+      "feedback_try": "זו לא מודעת מכירה."
+    },
+    {
+      "id": "e_t_read_word",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מהקשר",
+      "body_he": "מה פירוש stalls?",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "tables where people sell"
+        },
+        {
+          "id": "b",
+          "label": "bus tickets"
+        },
+        {
+          "id": "c",
+          "label": "plastic boxes"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "דוכנים.",
+      "feedback_try": "הכתב ספרה דוכנים ריקים."
+    },
+    {
+      "id": "e_t_vocab_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אוצר מילים",
+      "body_he": "המילה מהמשפט, לא מהמילון לבד.",
+      "body_content": "The hall is far from the bus."
+    },
+    {
+      "id": "e_t_vocab_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "far",
+      "body_he": "far כאן הוא",
+      "body_content": "far from the bus",
+      "choices": [
+        {
+          "id": "a",
+          "label": "not close"
+        },
+        {
+          "id": "b",
+          "label": "very cheap"
+        },
+        {
+          "id": "c",
+          "label": "already closed"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "לא קרוב.",
+      "feedback_try": "cheap הוא מחיר."
+    },
+    {
+      "id": "e_t_vocab_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "loose",
+      "body_he": "loose fruit",
+      "body_content": "loose fruit",
+      "choices": [
+        {
+          "id": "a",
+          "label": "not in a box"
+        },
+        {
+          "id": "b",
+          "label": "very expensive"
+        },
+        {
+          "id": "c",
+          "label": "already gone"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "לא בקופסה.",
+      "feedback_try": "הטקסט מנגיד את זה לקופסה."
+    },
+    {
+      "id": "e_t_ref_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילת ייחוס",
+      "body_he": "it ו-there מצביעים אחורה, לא קדימה אל ניחוש.",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street."
+    },
+    {
+      "id": "e_t_ref_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "it",
+      "body_he": "על מה it במשפט The hall is clean. It is also far?",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "the hall"
+        },
+        {
+          "id": "b",
+          "label": "the rain"
+        },
+        {
+          "id": "c",
+          "label": "the reporter"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "the hall.",
+      "feedback_try": "הגשם לא הנושא של המשפט הקודם."
+    },
+    {
+      "id": "e_t_ref_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מי מסרבת לקופסאות?",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Nira"
+        },
+        {
+          "id": "b",
+          "label": "the mayor"
+        },
+        {
+          "id": "c",
+          "label": "the reporter"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Nira.",
+      "feedback_try": "הכתבת סופרת, היא לא הדוכן."
+    },
+    {
+      "id": "e_rev1_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_read",
+        "t_vocab",
+        "t_ref"
+      ]
+    },
+    {
+      "id": "e_rev1_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "The hall is clean. It is also far.",
+      "review_topic_ids": [
+        "t_read",
+        "t_vocab",
+        "t_ref"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "It means the hall."
+        },
+        {
+          "id": "b",
+          "label": "It means the rain."
+        },
+        {
+          "id": "c",
+          "label": "It means the bus."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "it הוא האולם.",
+      "feedback_try": "הגשם אינו הנושא."
+    },
+    {
+      "id": "e_t_detail_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "פרט",
+      "body_he": "פרט הוא עובדה שכתובה, לא מסקנה שלנו.",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street."
+    },
+    {
+      "id": "e_t_detail_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שעה",
+      "body_he": "מתי הדוכנים ריקים?",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "before nine"
+        },
+        {
+          "id": "b",
+          "label": "at noon only"
+        },
+        {
+          "id": "c",
+          "label": "the text never says"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "לפני תשע.",
+      "feedback_try": "הכתבת ספרה לפני תשע."
+    },
+    {
+      "id": "e_t_detail_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אוטובוס",
+      "body_he": "למה קונים מבוגרים מפסיקים?",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The hall is far from the bus."
+        },
+        {
+          "id": "b",
+          "label": "The peaches are gone."
+        },
+        {
+          "id": "c",
+          "label": "The mayor closed Friday."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "רחוק מהאוטובוס.",
+      "feedback_try": "אין סגירה ביום שישי."
+    },
+    {
+      "id": "e_t_infer_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "הסקה",
+      "body_he": "הסקה נשענת על שתי עובדות בטקסט, לא על ניחוש.",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street."
+    },
+    {
+      "id": "e_t_infer_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "הצלחה",
+      "body_he": "למה המועצה קוראת לזה הצלחה?",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The rent is paid."
+        },
+        {
+          "id": "b",
+          "label": "More older buyers come."
+        },
+        {
+          "id": "c",
+          "label": "Nira likes the boxes."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "השכירות משולמת.",
+      "feedback_try": "הקונים המבוגרים דווקא פחתו."
+    },
+    {
+      "id": "e_t_infer_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נירה",
+      "body_he": "מה נירה רוצה?",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Customers who choose the fruit themselves."
+        },
+        {
+          "id": "b",
+          "label": "A higher rent."
+        },
+        {
+          "id": "c",
+          "label": "A closed hall."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "שהקונה יבחר.",
+      "feedback_try": "היא מסרבת לקופסה."
+    },
+    {
+      "id": "e_t_band_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילים מהקטע",
+      "body_he": "חמש מילים מתוך הקטע, במשפט חדש. לא רשימת משרד.",
+      "body_content": "The queue was at the loose fruit."
+    },
+    {
+      "id": "e_t_band_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "queue",
+      "body_he": "queue",
+      "body_content": "a queue at the stall",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a line of people waiting"
+        },
+        {
+          "id": "b",
+          "label": "a plastic box"
+        },
+        {
+          "id": "c",
+          "label": "a bus ticket"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "תור.",
+      "feedback_try": "הקופסה היא box."
+    },
+    {
+      "id": "e_t_band_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "refused",
+      "body_he": "refused",
+      "body_content": "She refused the boxes.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "said no"
+        },
+        {
+          "id": "b",
+          "label": "paid more"
+        },
+        {
+          "id": "c",
+          "label": "opened early"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "סירבה.",
+      "feedback_try": "היא לא שילמה יותר."
+    },
+    {
+      "id": "e_rev2_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_detail",
+        "t_infer",
+        "t_band"
+      ]
+    },
+    {
+      "id": "e_rev2_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "What does stalls mean here?",
+      "review_topic_ids": [
+        "t_detail",
+        "t_infer",
+        "t_band"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "tables where people sell"
+        },
+        {
+          "id": "b",
+          "label": "bus tickets"
+        },
+        {
+          "id": "c",
+          "label": "plastic boxes"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "דוכנים.",
+      "feedback_try": "הכתבת ספרה דוכנים."
+    },
+    {
+      "id": "e_final_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת סוף",
+      "body_he": "שאלה אחת על כל הדרך.",
+      "body_content": "What is the writer's point?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A clean hall can lose its buyers."
+        },
+        {
+          "id": "b",
+          "label": "Plastic is cheaper."
+        },
+        {
+          "id": "c",
+          "label": "The bus is the subject."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "האולם הנקי איבד קונים.",
+      "feedback_try": "הקופסה יקרה יותר, לא זולה."
+    },
+    {
+      "id": "e_celebrate",
+      "type": "celebrate",
+      "kind": "understanding",
+      "title": "סוף הדרך",
+      "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
+      "body_content": "This road is done."
+    }
+  ]
+}

@@ -1,0 +1,559 @@
+{
+  "id": "path_english_bagrut5_00_placement",
+  "titles": {
+    "he": "מבדק רמה לאנגלית",
+    "en": "English level check"
+  },
+  "blurbs": {
+    "he": "ארבעה אזורים בלי חומר חדש: אותיות, הווה, זמן, וקטע. לפי הטעויות נפתחת הדרך שסוגרת את הפער.",
+    "en": "No new material. Letters, present, time, and a passage. Mistakes open the road that closes the gap."
+  },
+  "subject": "english",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "🧭",
+  "explain_locale": "he",
+  "content_locale": "en",
+  "estimated_minutes": 40,
+  "prerequisite_path_ids": [],
+  "topics": [
+    {
+      "id": "t_letters",
+      "titles": {
+        "he": "אותיות וצלילים",
+        "en": "Letters and sounds"
+      },
+      "emoji": "א",
+      "node_ids": [
+        "plc_t_letters_learn",
+        "plc_t_letters_p1",
+        "plc_t_letters_chk"
+      ]
+    },
+    {
+      "id": "t_be",
+      "titles": {
+        "he": "יש לי am ו-are",
+        "en": "am, is, are"
+      },
+      "emoji": "ב",
+      "node_ids": [
+        "plc_t_be_learn",
+        "plc_t_be_p1",
+        "plc_t_be_chk"
+      ]
+    },
+    {
+      "id": "t_present",
+      "titles": {
+        "he": "הווה",
+        "en": "Present"
+      },
+      "emoji": "ג",
+      "node_ids": [
+        "plc_t_present_learn",
+        "plc_t_present_p1",
+        "plc_t_present_chk"
+      ]
+    },
+    {
+      "id": "t_time",
+      "titles": {
+        "he": "עבר ועתיד",
+        "en": "Past and future"
+      },
+      "emoji": "ד",
+      "node_ids": [
+        "plc_t_time_learn",
+        "plc_t_time_p1",
+        "plc_t_time_chk"
+      ]
+    },
+    {
+      "id": "t_read",
+      "titles": {
+        "he": "קטע של כמאתיים וחמישים מילים",
+        "en": "A longer passage"
+      },
+      "emoji": "ה",
+      "node_ids": [
+        "plc_t_read_learn",
+        "plc_t_read_idea",
+        "plc_t_read_detail",
+        "plc_t_read_infer",
+        "plc_t_read_word"
+      ]
+    },
+    {
+      "id": "t_write",
+      "titles": {
+        "he": "משפט כתוב",
+        "en": "A written sentence"
+      },
+      "emoji": "ו",
+      "node_ids": [
+        "plc_t_write_learn",
+        "plc_t_write_p1",
+        "plc_t_write_chk"
+      ]
+    },
+    {
+      "id": "t_speak",
+      "titles": {
+        "he": "משפט בקול",
+        "en": "One spoken sentence"
+      },
+      "emoji": "ז",
+      "node_ids": [
+        "plc_t_speak_learn",
+        "plc_t_speak_say"
+      ]
+    },
+    {
+      "id": "t_end",
+      "titles": {
+        "he": "מה יוצא מהמבדק",
+        "en": "What the check means"
+      },
+      "emoji": "ח",
+      "node_ids": [
+        "plc_t_end_learn",
+        "plc_t_end_done"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "plc_t_letters_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אותיות וצלילים",
+      "body_he": "אין כאן שיעור חדש. סמנו מה שכבר ברור. אם זה לא ברור, זו הרמה, לא כישלון.",
+      "body_content": "A is a letter."
+    },
+    {
+      "id": "plc_t_letters_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "האות הראשונה",
+      "body_he": "איזו אות פותחת את המילה?",
+      "body_content": "cat",
+      "choices": [
+        {
+          "id": "a",
+          "label": "c"
+        },
+        {
+          "id": "b",
+          "label": "t"
+        },
+        {
+          "id": "c",
+          "label": "a"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "המילה נפתחת ב-c.",
+      "feedback_try": "הצליל הראשון הוא c, לא a."
+    },
+    {
+      "id": "plc_t_letters_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "צליל בסוף",
+      "body_he": "איזו אות נשמעת בסוף?",
+      "body_content": "dog",
+      "choices": [
+        {
+          "id": "a",
+          "label": "g"
+        },
+        {
+          "id": "b",
+          "label": "d"
+        },
+        {
+          "id": "c",
+          "label": "o"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "הסוף הוא g.",
+      "feedback_try": "התחלה היא d. הסוף הוא g."
+    },
+    {
+      "id": "plc_t_be_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "יש לי am ו-are",
+      "body_he": "עדיין לא לומדים. רק בודקים אם המשפט עומד בלי חור.",
+      "body_content": "I am here."
+    },
+    {
+      "id": "plc_t_be_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "I",
+      "body_he": "מה חסר אחרי I?",
+      "body_content": "I ___ a student.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "אחרי I בא am.",
+      "feedback_try": "is הולך עם he או she. אחרי I בא am."
+    },
+    {
+      "id": "plc_t_be_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "you",
+      "body_he": "מה חסר אחרי you?",
+      "body_content": "You ___ ready.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "am"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "אחרי you בא are.",
+      "feedback_try": "am שייך רק ל-I."
+    },
+    {
+      "id": "plc_t_present_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "הווה",
+      "body_he": "בדיקה של הרגל: he מקבל s, ושאלה מתחילה ב-do או does.",
+      "body_content": "She works at home."
+    },
+    {
+      "id": "plc_t_present_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "he",
+      "body_he": "איזה משפט תקין?",
+      "body_content": "He ___ every day.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "work"
+        },
+        {
+          "id": "b",
+          "label": "works"
+        },
+        {
+          "id": "c",
+          "label": "working"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "אחרי he נוסיף s.",
+      "feedback_try": "אחרי he הפועל מקבל s: works."
+    },
+    {
+      "id": "plc_t_present_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "שאלה",
+      "body_he": "איזו שאלה תקינה?",
+      "body_content": "___ you live here?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "עם you שואלים Do.",
+      "feedback_try": "Does הולך עם he, she, it."
+    },
+    {
+      "id": "plc_t_time_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "עבר ועתיד",
+      "body_he": "בדיקה קצרה. לא מלמדים כאן את הצורה.",
+      "body_content": "Yesterday I walked home."
+    },
+    {
+      "id": "plc_t_time_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אתמול",
+      "body_he": "איזה משפט על אתמול?",
+      "body_content": "Yesterday she ___ the door.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "open"
+        },
+        {
+          "id": "b",
+          "label": "opened"
+        },
+        {
+          "id": "c",
+          "label": "opens"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "אתמול: opened.",
+      "feedback_try": "opens הוא הווה. אתמול צריך opened."
+    },
+    {
+      "id": "plc_t_time_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מחר",
+      "body_he": "איזה משפט על מחר?",
+      "body_content": "Tomorrow they ___ early.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "will leave"
+        },
+        {
+          "id": "b",
+          "label": "left"
+        },
+        {
+          "id": "c",
+          "label": "leaves"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מחר: will leave.",
+      "feedback_try": "left הוא עבר."
+    },
+    {
+      "id": "plc_t_read_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "קטע של כמאתיים וחמישים מילים",
+      "body_he": "קראו את הקטע. השאלות הן רעיון מרכזי, פרט, הסקה, ומילה מהקשר.",
+      "body_content": "The station library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry."
+    },
+    {
+      "id": "plc_t_read_idea",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "רעיון מרכזי",
+      "body_he": "על מה הקטע?",
+      "body_content": "The station library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Students kept a library open in the evening."
+        },
+        {
+          "id": "b",
+          "label": "The mayor closed the school."
+        },
+        {
+          "id": "c",
+          "label": "Maya bought the street."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "הסטודנטים השאירו את הספרייה פתוחה בערב.",
+      "feedback_try": "העירייה לא סגרה את בית הספר. הספרייה נפתחה לערב."
+    },
+    {
+      "id": "plc_t_read_detail",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "פרט",
+      "body_he": "מה מר כהן עושה?",
+      "body_content": "The station library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "He runs the desk."
+        },
+        {
+          "id": "b",
+          "label": "He listens and asks one question."
+        },
+        {
+          "id": "c",
+          "label": "He sells books."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "הוא מקשיב ושואל שאלה אחת.",
+      "feedback_try": "כתוב שהוא לא מנהל את הדלפק."
+    },
+    {
+      "id": "plc_t_read_infer",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "הסקה",
+      "body_he": "למה הספרייה שקטה בימי שישי?",
+      "body_content": "The station library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The text says school nights are full and Fridays are quiet."
+        },
+        {
+          "id": "b",
+          "label": "The mayor locked the door."
+        },
+        {
+          "id": "c",
+          "label": "There are no books."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בערבי לימודים מלא, ובימי שישי שקט.",
+      "feedback_try": "אין בטקסט נעילה ביום שישי."
+    },
+    {
+      "id": "plc_t_read_word",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מילה מהקשר",
+      "body_he": "מה פירוש neighbours כאן?",
+      "body_content": "The station library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "people who live nearby"
+        },
+        {
+          "id": "b",
+          "label": "library fines"
+        },
+        {
+          "id": "c",
+          "label": "bus drivers"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "שכנים, אנשים שגרים קרוב.",
+      "feedback_try": "הם הביאו ספרים משומשים, לא קנסות."
+    },
+    {
+      "id": "plc_t_write_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "משפט כתוב",
+      "body_he": "עוד אין חיבור. רק משפט אחד תקין שאפשר להרחיב אחר כך.",
+      "body_content": "I think the library should stay open."
+    },
+    {
+      "id": "plc_t_write_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משפט דעה",
+      "body_he": "איזה משפט עומד לבד?",
+      "body_content": "Choose the sentence that is complete.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "I think the library should stay open."
+        },
+        {
+          "id": "b",
+          "label": "Because the library."
+        },
+        {
+          "id": "c",
+          "label": "Should stay."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "יש נושא ופועל ודעה.",
+      "feedback_try": "Because לבד הוא לא משפט."
+    },
+    {
+      "id": "plc_t_write_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "אורך",
+      "body_he": "איזה משפט מתאים לפתיחת חיבור קצר?",
+      "body_content": "Choose a clear opening.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "In my opinion, evening hours help students."
+        },
+        {
+          "id": "b",
+          "label": "Hours students help."
+        },
+        {
+          "id": "c",
+          "label": "Opinion because."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "פתיחה ברורה.",
+      "feedback_try": "השני והשלישי לא משפטים."
+    },
+    {
+      "id": "plc_t_speak_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "משפט בקול",
+      "body_he": "אמרו את המשפט. אין רשימת מילים חדשה.",
+      "body_content": "I am ready."
+    },
+    {
+      "id": "plc_t_speak_say",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "אמרו",
+      "body_he": "אמרו את המשפט לאט, ואז סמנו שהמשכתם.",
+      "body_content": "I am ready.",
+      "speak_text": "I am ready."
+    },
+    {
+      "id": "plc_t_end_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מה יוצא מהמבדק",
+      "body_he": "אם היו הרבה טעויות, השרשרת פותחת את הדרך מההתחלה. אם היו מעט, היא פותחת מזמן וסיפור. אם עברתם נקי, היא פותחת משאלון E. הדרכים שמעל הפער נשארות סגורות עד שסוגרים אותו.",
+      "body_content": "The chain opens at the weak band."
+    },
+    {
+      "id": "plc_t_end_done",
+      "type": "celebrate",
+      "kind": "understanding",
+      "title": "סיום המבדק",
+      "body_he": "המבדק נגמר. חזרו לשרשרת. הדרך עם הסימון התחילו כאן היא הפער, לא עונש.",
+      "body_content": "Start at the marked road."
+    }
+  ]
+}
