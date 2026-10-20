@@ -1,6 +1,6 @@
 # MyRoad-content
 
-Public **path CONTENT** for [MyRoad](https://github.com/Eliot100/MyRoad): sample Grade-3 learning paths as JSON.
+Public **path CONTENT** for [MyRoad](https://github.com/Eliot100/MyRoad): sample Grade-3 learning paths as JSON, plus long adult paths.
 
 The platform repo (`Eliot100/MyRoad`) loads these files via:
 
@@ -11,11 +11,16 @@ The platform repo (`Eliot100/MyRoad`) loads these files via:
 ## Layout
 
 ```
-grade3/*.json   # ten demo paths (math, english, physics, piano)
-adult/*.json    # long paths for adults starting from zero (schema v2)
+grade3/*.json                 # demo paths (math, english, physics, piano)
+adult/*.json                  # long paths for adults starting from zero (schema v2)
+adult/english_bagrut5/*.md    # source pack for the 5-point English Bagrut series
 ```
 
+Only `*.json` files are loaded as paths. The loader validates every JSON file as a `ContentPath`, so notes, band maps, and rubrics stay in Markdown.
+
 Schema: `myroad_core.content.schema.ContentPath` in the platform package.
+
+The English 5-point source pack is in [adult/english_bagrut5/README.md](adult/english_bagrut5/README.md). It cites the Ministry of Education documents and does not copy their word lists.
 
 ## Clone next to MyRoad (Windows PowerShell)
 
@@ -35,3 +40,4 @@ uvicorn myroad_core.ui.app:app --reload --port 8765
 ## License
 
 Sample educational content for the MyRoad POC.
+Official exam specifications and lexical bands remain the property of the Ministry of Education.
