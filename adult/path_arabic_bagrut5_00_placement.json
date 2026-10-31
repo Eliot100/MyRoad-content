@@ -1,0 +1,1516 @@
+{
+  "id": "path_arabic_bagrut5_00_placement",
+  "titles": {
+    "he": "מבדק רמה לערבית",
+    "en": "Arabic level check",
+    "ar": "اختبار مستوى العربية"
+  },
+  "blurbs": {
+    "he": "מי שלא קורא אותיות ערביות עובר ישר לדרך 01. השאר: כתב, מילים, משפט, פועל, תחביר, קריאה ודיבור.",
+    "en": "If you cannot read Arabic letters, go straight to road 01. Otherwise: script, words, sentence, verb, syntax, reading, speaking.",
+    "ar": "من لا يقرأ الحروف العربية ينتقل مباشرة إلى الطريق 01."
+  },
+  "subject": "general",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "🧭",
+  "explain_locale": "he",
+  "content_locale": "ar",
+  "estimated_minutes": 40,
+  "prerequisite_path_ids": [],
+  "topics": [
+    {
+      "id": "t_zero",
+      "titles": {
+        "he": "מתחילים מאפס?",
+        "en": "Starting from zero?"
+      },
+      "emoji": "🧭",
+      "node_ids": [
+        "plc_zero_learn__a1w0",
+        "plc_zero_learn__a0w0",
+        "plc_zero_learn__a1w1",
+        "plc_zero_learn__a0w1",
+        "plc_zero_q__a1w0",
+        "plc_zero_q__a0w0",
+        "plc_zero_q__a1w1",
+        "plc_zero_q__a0w1"
+      ]
+    },
+    {
+      "id": "t_script",
+      "titles": {
+        "he": "כתב",
+        "en": "Script"
+      },
+      "emoji": "✍️",
+      "node_ids": [
+        "plc_script_p1__a1w0",
+        "plc_script_p1__a0w0",
+        "plc_script_p1__a1w1",
+        "plc_script_p1__a0w1",
+        "plc_script_chk__a1w0",
+        "plc_script_chk__a0w0",
+        "plc_script_chk__a1w1",
+        "plc_script_chk__a0w1"
+      ]
+    },
+    {
+      "id": "t_words",
+      "titles": {
+        "he": "מילים",
+        "en": "Words"
+      },
+      "emoji": "📚",
+      "node_ids": [
+        "plc_words_p1__a1w0",
+        "plc_words_p1__a0w0",
+        "plc_words_p1__a1w1",
+        "plc_words_p1__a0w1",
+        "plc_words_chk__a1w0",
+        "plc_words_chk__a0w0",
+        "plc_words_chk__a1w1",
+        "plc_words_chk__a0w1"
+      ]
+    },
+    {
+      "id": "t_noun",
+      "titles": {
+        "he": "משפט שמני",
+        "en": "Nominal sentence"
+      },
+      "emoji": "🧱",
+      "node_ids": [
+        "plc_noun_chk__a1w0",
+        "plc_noun_chk__a0w0",
+        "plc_noun_chk__a1w1",
+        "plc_noun_chk__a0w1"
+      ]
+    },
+    {
+      "id": "t_verb",
+      "titles": {
+        "he": "פועל",
+        "en": "Verb"
+      },
+      "emoji": "⚙️",
+      "node_ids": [
+        "plc_verb_p1__a1w0",
+        "plc_verb_p1__a0w0",
+        "plc_verb_p1__a1w1",
+        "plc_verb_p1__a0w1",
+        "plc_verb_chk__a1w0",
+        "plc_verb_chk__a0w0",
+        "plc_verb_chk__a1w1",
+        "plc_verb_chk__a0w1"
+      ]
+    },
+    {
+      "id": "t_syntax",
+      "titles": {
+        "he": "תחביר",
+        "en": "Syntax"
+      },
+      "emoji": "🔗",
+      "node_ids": [
+        "plc_syntax_chk__a1w0",
+        "plc_syntax_chk__a0w0",
+        "plc_syntax_chk__a1w1",
+        "plc_syntax_chk__a0w1"
+      ]
+    },
+    {
+      "id": "t_read",
+      "titles": {
+        "he": "קריאה",
+        "en": "Reading"
+      },
+      "emoji": "📰",
+      "node_ids": [
+        "plc_read_chk__a1w0",
+        "plc_read_chk__a0w0",
+        "plc_read_chk__a1w1",
+        "plc_read_chk__a0w1"
+      ]
+    },
+    {
+      "id": "t_speak",
+      "titles": {
+        "he": "ערבית מדוברת",
+        "en": "Spoken Arabic"
+      },
+      "emoji": "🗣️",
+      "node_ids": [
+        "plc_speak_p1__a1w0",
+        "plc_speak_p1__a0w0",
+        "plc_speak_p1__a1w1",
+        "plc_speak_p1__a0w1",
+        "plc_speak_say__a1w0",
+        "plc_speak_say__a0w0"
+      ]
+    },
+    {
+      "id": "t_result",
+      "titles": {
+        "he": "תוצאה",
+        "en": "Result"
+      },
+      "emoji": "🏁",
+      "node_ids": [
+        "plc_result__a1w0",
+        "plc_result__a0w0"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "plc_zero_learn__a1w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "לפני שמתחילים",
+      "body_he": "זה מבדק בלי חומר חדש. אם אתם לא קוראים אותיות ערביות בכלל, אין צורך במבדק: עברו ישר לדרך 01, ערבית מאפס. מי שלמד קצת ערבית בבית ספר ממשיך כאן.",
+      "body_content": "مَرْحَبًا",
+      "speak_text": "مَرْحَبًا"
+    },
+    {
+      "id": "plc_zero_learn__a0w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "לפני שמתחילים (בלי שמע)",
+      "body_he": "זה מבדק בלי חומר חדש. אם אתם לא קוראים אותיות ערביות בכלל, אין צורך במבדק: עברו ישר לדרך 01, ערבית מאפס. מי שלמד קצת ערבית בבית ספר ממשיך כאן. בלי שמע, כך זה נשמע: מַרְחַבַּא (שלום)",
+      "body_content": "مَرْحَبًا"
+    },
+    {
+      "id": "plc_zero_learn__a1w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "לפני שמתחילים (בכתיבה)",
+      "body_he": "זה מבדק בלי חומר חדש. אם אתם לא קוראים אותיות ערביות בכלל, אין צורך במבדק: עברו ישר לדרך 01, ערבית מאפס. מי שלמד קצת ערבית בבית ספר ממשיך כאן. העתיקו ביד על דף שלוש פעמים.",
+      "body_content": "مَرْحَبًا",
+      "speak_text": "مَرْحَبًا"
+    },
+    {
+      "id": "plc_zero_learn__a0w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "לפני שמתחילים (בלי שמע, בכתיבה)",
+      "body_he": "זה מבדק בלי חומר חדש. אם אתם לא קוראים אותיות ערביות בכלל, אין צורך במבדק: עברו ישר לדרך 01, ערבית מאפס. מי שלמד קצת ערבית בבית ספר ממשיך כאן. העתיקו ביד על דף שלוש פעמים. בלי שמע, כך זה נשמע: מַרְחַבַּא (שלום)",
+      "body_content": "مَرْحَبًا"
+    },
+    {
+      "id": "plc_zero_q__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "האות הזו מוכרת לכם?",
+      "body_he": "בחרו תשובה כנה. שתי התשובות נכונות. אם בחרתם מאפס, סגרו את המבדק ופתחו את דרך 01.",
+      "body_content": "ب",
+      "speak_text": "ب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כן, אני מזהה אותה"
+        },
+        {
+          "id": "b",
+          "label": "לא, אני מתחיל מאפס"
+        }
+      ],
+      "correct": [
+        "a",
+        "b"
+      ],
+      "feedback_ok": "תודה. מאפס: עוברים לדרך 01. מזהים: ממשיכים במבדק.",
+      "feedback_try": "עוד ניסיון. הסתכלו שוב על הנקודות והצורה."
+    },
+    {
+      "id": "plc_zero_q__a0w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "האות הזו מוכרת לכם? (בלי שמע)",
+      "body_he": "בחרו תשובה כנה. שתי התשובות נכונות. אם בחרתם מאפס, סגרו את המבדק ופתחו את דרך 01. בלי שמע, כך זה נשמע: בּ",
+      "body_content": "ب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כן, אני מזהה אותה"
+        },
+        {
+          "id": "b",
+          "label": "לא, אני מתחיל מאפס"
+        }
+      ],
+      "correct": [
+        "a",
+        "b"
+      ],
+      "feedback_ok": "תודה. מאפס: עוברים לדרך 01. מזהים: ממשיכים במבדק.",
+      "feedback_try": "עוד ניסיון. הסתכלו שוב על הנקודות והצורה."
+    },
+    {
+      "id": "plc_zero_q__a1w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "האות הזו מוכרת לכם? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. בחרו תשובה כנה. שתי התשובות נכונות. אם בחרתם מאפס, סגרו את המבדק ופתחו את דרך 01.",
+      "body_content": "ب",
+      "speak_text": "ب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כן, אני מזהה אותה"
+        },
+        {
+          "id": "b",
+          "label": "לא, אני מתחיל מאפס"
+        }
+      ],
+      "correct": [
+        "a",
+        "b"
+      ],
+      "feedback_ok": "תודה. מאפס: עוברים לדרך 01. מזהים: ממשיכים במבדק.",
+      "feedback_try": "עוד ניסיון. הסתכלו שוב על הנקודות והצורה."
+    },
+    {
+      "id": "plc_zero_q__a0w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "האות הזו מוכרת לכם? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. בחרו תשובה כנה. שתי התשובות נכונות. אם בחרתם מאפס, סגרו את המבדק ופתחו את דרך 01. בלי שמע, כך זה נשמע: בּ",
+      "body_content": "ب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כן, אני מזהה אותה"
+        },
+        {
+          "id": "b",
+          "label": "לא, אני מתחיל מאפס"
+        }
+      ],
+      "correct": [
+        "a",
+        "b"
+      ],
+      "feedback_ok": "תודה. מאפס: עוברים לדרך 01. מזהים: ממשיכים במבדק.",
+      "feedback_try": "עוד ניסיון. הסתכלו שוב על הנקודות והצורה."
+    },
+    {
+      "id": "plc_script_p1__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איזו אות?",
+      "body_he": "איזו אות היא ت (ת)?",
+      "body_content": "ب ت ث ن",
+      "speak_text": "ب ت ث ن",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ت"
+        },
+        {
+          "id": "b",
+          "label": "ب"
+        },
+        {
+          "id": "c",
+          "label": "ث"
+        },
+        {
+          "id": "d",
+          "label": "ن"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ت: שתי נקודות למעלה.",
+      "feedback_try": "ب נקודה למטה, ن נקודה אחת למעלה, ث שלוש. ت שתיים למעלה."
+    },
+    {
+      "id": "plc_script_p1__a0w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איזו אות? (בלי שמע)",
+      "body_he": "איזו אות היא ت (ת)? בלי שמע, כך זה נשמע: תּ",
+      "body_content": "ب ت ث ن",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ت"
+        },
+        {
+          "id": "b",
+          "label": "ب"
+        },
+        {
+          "id": "c",
+          "label": "ث"
+        },
+        {
+          "id": "d",
+          "label": "ن"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ت: שתי נקודות למעלה.",
+      "feedback_try": "ب נקודה למטה, ن נקודה אחת למעלה, ث שלוש. ت שתיים למעלה."
+    },
+    {
+      "id": "plc_script_p1__a1w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איזו אות? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות היא ت (ת)?",
+      "body_content": "ب ت ث ن",
+      "speak_text": "ب ت ث ن",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ت"
+        },
+        {
+          "id": "b",
+          "label": "ب"
+        },
+        {
+          "id": "c",
+          "label": "ث"
+        },
+        {
+          "id": "d",
+          "label": "ن"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ت: שתי נקודות למעלה.",
+      "feedback_try": "ب נקודה למטה, ن נקודה אחת למעלה, ث שלוש. ت שתיים למעלה."
+    },
+    {
+      "id": "plc_script_p1__a0w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איזו אות? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות היא ت (ת)? בלי שמע, כך זה נשמע: תּ",
+      "body_content": "ب ت ث ن",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ت"
+        },
+        {
+          "id": "b",
+          "label": "ب"
+        },
+        {
+          "id": "c",
+          "label": "ث"
+        },
+        {
+          "id": "d",
+          "label": "ن"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ت: שתי נקודות למעלה.",
+      "feedback_try": "ب נקודה למטה, ن נקודה אחת למעלה, ث שלוש. ت שתיים למעלה."
+    },
+    {
+      "id": "plc_script_chk__a1w0",
+      "type": "check",
+      "kind": "understanding",
+      "title": "קריאת מילה",
+      "body_he": "איך קוראים את המילה?",
+      "body_content": "بَاب",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "באב"
+        },
+        {
+          "id": "b",
+          "label": "תאב"
+        },
+        {
+          "id": "c",
+          "label": "נאב"
+        },
+        {
+          "id": "d",
+          "label": "באן"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בַּאבּ, דלת.",
+      "feedback_try": "שתי האותיות הן ب, נקודה אחת למטה."
+    },
+    {
+      "id": "plc_script_chk__a0w0",
+      "type": "check",
+      "kind": "understanding",
+      "title": "קריאת מילה (בלי שמע)",
+      "body_he": "איך קוראים את המילה? בלי שמע, כך זה נשמע: בַּאבּ",
+      "body_content": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "באב"
+        },
+        {
+          "id": "b",
+          "label": "תאב"
+        },
+        {
+          "id": "c",
+          "label": "נאב"
+        },
+        {
+          "id": "d",
+          "label": "באן"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בַּאבּ, דלת.",
+      "feedback_try": "שתי האותיות הן ب, נקודה אחת למטה."
+    },
+    {
+      "id": "plc_script_chk__a1w1",
+      "type": "check",
+      "kind": "understanding",
+      "title": "קריאת מילה (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איך קוראים את המילה?",
+      "body_content": "بَاب",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "באב"
+        },
+        {
+          "id": "b",
+          "label": "תאב"
+        },
+        {
+          "id": "c",
+          "label": "נאב"
+        },
+        {
+          "id": "d",
+          "label": "באן"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בַּאבּ, דלת.",
+      "feedback_try": "שתי האותיות הן ب, נקודה אחת למטה."
+    },
+    {
+      "id": "plc_script_chk__a0w1",
+      "type": "check",
+      "kind": "understanding",
+      "title": "קריאת מילה (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איך קוראים את המילה? בלי שמע, כך זה נשמע: בַּאבּ",
+      "body_content": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "באב"
+        },
+        {
+          "id": "b",
+          "label": "תאב"
+        },
+        {
+          "id": "c",
+          "label": "נאב"
+        },
+        {
+          "id": "d",
+          "label": "באן"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בַּאבּ, דלת.",
+      "feedback_try": "שתי האותיות הן ب, נקודה אחת למטה."
+    },
+    {
+      "id": "plc_words_p1__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה פירוש המילה?",
+      "body_he": "בחרו תרגום.",
+      "body_content": "كِتَاب",
+      "speak_text": "كِتَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ספר"
+        },
+        {
+          "id": "b",
+          "label": "כותב"
+        },
+        {
+          "id": "c",
+          "label": "מכתב"
+        },
+        {
+          "id": "d",
+          "label": "שולחן"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "كتاب הוא ספר.",
+      "feedback_try": "כותב הוא كاتب, מכתב הוא رسالة. كتاب הוא ספר."
+    },
+    {
+      "id": "plc_words_p1__a0w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה פירוש המילה? (בלי שמע)",
+      "body_he": "בחרו תרגום. בלי שמע, כך זה נשמע: כִּתַאבּ",
+      "body_content": "كِتَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ספר"
+        },
+        {
+          "id": "b",
+          "label": "כותב"
+        },
+        {
+          "id": "c",
+          "label": "מכתב"
+        },
+        {
+          "id": "d",
+          "label": "שולחן"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "كتاب הוא ספר.",
+      "feedback_try": "כותב הוא كاتب, מכתב הוא رسالة. كتاب הוא ספר."
+    },
+    {
+      "id": "plc_words_p1__a1w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה פירוש המילה? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. בחרו תרגום.",
+      "body_content": "كِتَاب",
+      "speak_text": "كِتَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ספר"
+        },
+        {
+          "id": "b",
+          "label": "כותב"
+        },
+        {
+          "id": "c",
+          "label": "מכתב"
+        },
+        {
+          "id": "d",
+          "label": "שולחן"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "كتاب הוא ספר.",
+      "feedback_try": "כותב הוא كاتب, מכתב הוא رسالة. كتاب הוא ספר."
+    },
+    {
+      "id": "plc_words_p1__a0w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה פירוש המילה? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. בחרו תרגום. בלי שמע, כך זה נשמע: כִּתַאבּ",
+      "body_content": "كِتَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ספר"
+        },
+        {
+          "id": "b",
+          "label": "כותב"
+        },
+        {
+          "id": "c",
+          "label": "מכתב"
+        },
+        {
+          "id": "d",
+          "label": "שולחן"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "كتاب הוא ספר.",
+      "feedback_try": "כותב הוא كاتب, מכתב הוא رسالة. كتاب הוא ספר."
+    },
+    {
+      "id": "plc_words_chk__a1w0",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מילה בלי ניקוד",
+      "body_he": "בחרו תרגום. בבחינה אין ניקוד.",
+      "body_content": "بيت",
+      "speak_text": "بيت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בית"
+        },
+        {
+          "id": "b",
+          "label": "בת"
+        },
+        {
+          "id": "c",
+          "label": "בן"
+        },
+        {
+          "id": "d",
+          "label": "דלת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "بيت הוא בית.",
+      "feedback_try": "בת היא بنت, בן ابن. بيت הוא בית."
+    },
+    {
+      "id": "plc_words_chk__a0w0",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מילה בלי ניקוד (בלי שמע)",
+      "body_he": "בחרו תרגום. בבחינה אין ניקוד. בלי שמע, כך זה נשמע: בֵּית",
+      "body_content": "بيت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בית"
+        },
+        {
+          "id": "b",
+          "label": "בת"
+        },
+        {
+          "id": "c",
+          "label": "בן"
+        },
+        {
+          "id": "d",
+          "label": "דלת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "بيت הוא בית.",
+      "feedback_try": "בת היא بنت, בן ابن. بيت הוא בית."
+    },
+    {
+      "id": "plc_words_chk__a1w1",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מילה בלי ניקוד (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. בחרו תרגום. בבחינה אין ניקוד.",
+      "body_content": "بيت",
+      "speak_text": "بيت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בית"
+        },
+        {
+          "id": "b",
+          "label": "בת"
+        },
+        {
+          "id": "c",
+          "label": "בן"
+        },
+        {
+          "id": "d",
+          "label": "דלת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "بيت הוא בית.",
+      "feedback_try": "בת היא بنت, בן ابن. بيت הוא בית."
+    },
+    {
+      "id": "plc_words_chk__a0w1",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מילה בלי ניקוד (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. בחרו תרגום. בבחינה אין ניקוד. בלי שמע, כך זה נשמע: בֵּית",
+      "body_content": "بيت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בית"
+        },
+        {
+          "id": "b",
+          "label": "בת"
+        },
+        {
+          "id": "c",
+          "label": "בן"
+        },
+        {
+          "id": "d",
+          "label": "דלת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "بيت הוא בית.",
+      "feedback_try": "בת היא بنت, בן ابن. بيت הוא בית."
+    },
+    {
+      "id": "plc_noun_chk__a1w0",
+      "type": "check",
+      "kind": "understanding",
+      "title": "משפט בלי פועל",
+      "body_he": "מה פירוש המשפט?",
+      "body_content": "الْبَيْتُ كَبِيرٌ",
+      "speak_text": "الْبَيْتُ كَبِيرٌ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הבית גדול"
+        },
+        {
+          "id": "b",
+          "label": "בית גדול"
+        },
+        {
+          "id": "c",
+          "label": "הבית הגדול"
+        },
+        {
+          "id": "d",
+          "label": "הבתים גדולים"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "יידוע בנושא, בלי יידוע בנשוא: משפט שלם.",
+      "feedback_try": "الْبَيْتُ مיודע ו كَبِيرٌ לא: זה משפט, הבית גדול."
+    },
+    {
+      "id": "plc_noun_chk__a0w0",
+      "type": "check",
+      "kind": "understanding",
+      "title": "משפט בלי פועל (בלי שמע)",
+      "body_he": "מה פירוש המשפט? בלי שמע, כך זה נשמע: אַלְבַּיְתֻ כַּבִּירֻן",
+      "body_content": "الْبَيْتُ كَبِيرٌ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הבית גדול"
+        },
+        {
+          "id": "b",
+          "label": "בית גדול"
+        },
+        {
+          "id": "c",
+          "label": "הבית הגדול"
+        },
+        {
+          "id": "d",
+          "label": "הבתים גדולים"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "יידוע בנושא, בלי יידוע בנשוא: משפט שלם.",
+      "feedback_try": "الْبَيْتُ مיודע ו كَبِيرٌ לא: זה משפט, הבית גדול."
+    },
+    {
+      "id": "plc_noun_chk__a1w1",
+      "type": "check",
+      "kind": "understanding",
+      "title": "משפט בלי פועל (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה פירוש המשפט?",
+      "body_content": "الْبَيْتُ كَبِيرٌ",
+      "speak_text": "الْبَيْتُ كَبِيرٌ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הבית גדול"
+        },
+        {
+          "id": "b",
+          "label": "בית גדול"
+        },
+        {
+          "id": "c",
+          "label": "הבית הגדול"
+        },
+        {
+          "id": "d",
+          "label": "הבתים גדולים"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "יידוע בנושא, בלי יידוע בנשוא: משפט שלם.",
+      "feedback_try": "الْبَيْتُ مיודע ו كَبِيرٌ לא: זה משפט, הבית גדול."
+    },
+    {
+      "id": "plc_noun_chk__a0w1",
+      "type": "check",
+      "kind": "understanding",
+      "title": "משפט בלי פועל (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה פירוש המשפט? בלי שמע, כך זה נשמע: אַלְבַּיְתֻ כַּבִּירֻן",
+      "body_content": "الْبَيْتُ كَبِيرٌ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הבית גדול"
+        },
+        {
+          "id": "b",
+          "label": "בית גדול"
+        },
+        {
+          "id": "c",
+          "label": "הבית הגדול"
+        },
+        {
+          "id": "d",
+          "label": "הבתים גדולים"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "יידוע בנושא, בלי יידוע בנשוא: משפט שלם.",
+      "feedback_try": "الْبَيْتُ مיודע ו كَبِيرٌ לא: זה משפט, הבית גדול."
+    },
+    {
+      "id": "plc_verb_p1__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שורש",
+      "body_he": "מה השורש של הפועל?",
+      "body_content": "كَتَبَ",
+      "speak_text": "كَتَبَ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ك ت ب"
+        },
+        {
+          "id": "b",
+          "label": "ك ت ا"
+        },
+        {
+          "id": "c",
+          "label": "ت ب ك"
+        },
+        {
+          "id": "d",
+          "label": "ك ب ت"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "כ ת ב, כמו בעברית.",
+      "feedback_try": "קוראים את האותיות לפי הסדר: ك ت ب."
+    },
+    {
+      "id": "plc_verb_p1__a0w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שורש (בלי שמע)",
+      "body_he": "מה השורש של הפועל? בלי שמע, כך זה נשמע: כַּתַבַּ",
+      "body_content": "كَتَبَ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ك ت ب"
+        },
+        {
+          "id": "b",
+          "label": "ك ت ا"
+        },
+        {
+          "id": "c",
+          "label": "ت ب ك"
+        },
+        {
+          "id": "d",
+          "label": "ك ب ت"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "כ ת ב, כמו בעברית.",
+      "feedback_try": "קוראים את האותיות לפי הסדר: ك ت ب."
+    },
+    {
+      "id": "plc_verb_p1__a1w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שורש (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה השורש של הפועל?",
+      "body_content": "كَتَبَ",
+      "speak_text": "كَتَبَ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ك ت ب"
+        },
+        {
+          "id": "b",
+          "label": "ك ت ا"
+        },
+        {
+          "id": "c",
+          "label": "ت ب ك"
+        },
+        {
+          "id": "d",
+          "label": "ك ب ت"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "כ ת ב, כמו בעברית.",
+      "feedback_try": "קוראים את האותיות לפי הסדר: ك ت ب."
+    },
+    {
+      "id": "plc_verb_p1__a0w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שורש (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה השורש של הפועל? בלי שמע, כך זה נשמע: כַּתַבַּ",
+      "body_content": "كَتَبَ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ك ت ب"
+        },
+        {
+          "id": "b",
+          "label": "ك ت ا"
+        },
+        {
+          "id": "c",
+          "label": "ت ب ك"
+        },
+        {
+          "id": "d",
+          "label": "ك ب ت"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "כ ת ב, כמו בעברית.",
+      "feedback_try": "קוראים את האותיות לפי הסדר: ك ت ب."
+    },
+    {
+      "id": "plc_verb_chk__a1w0",
+      "type": "check",
+      "kind": "understanding",
+      "title": "זמן וגוף",
+      "body_he": "מה פירוש הפועל?",
+      "body_content": "يَكْتُبُ",
+      "speak_text": "يَكْتُبُ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הוא כותב"
+        },
+        {
+          "id": "b",
+          "label": "הוא כתב"
+        },
+        {
+          "id": "c",
+          "label": "אני כותב"
+        },
+        {
+          "id": "d",
+          "label": "היא כותבת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ي בהתחלה: הוא, בהווה.",
+      "feedback_try": "ي בהתחלה אומרת הוא; كَتَبَ זה עבר. يَكْتُبُ: הוא כותב."
+    },
+    {
+      "id": "plc_verb_chk__a0w0",
+      "type": "check",
+      "kind": "understanding",
+      "title": "זמן וגוף (בלי שמע)",
+      "body_he": "מה פירוש הפועל? בלי שמע, כך זה נשמע: יַכְּתֻבֻּ",
+      "body_content": "يَكْتُبُ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הוא כותב"
+        },
+        {
+          "id": "b",
+          "label": "הוא כתב"
+        },
+        {
+          "id": "c",
+          "label": "אני כותב"
+        },
+        {
+          "id": "d",
+          "label": "היא כותבת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ي בהתחלה: הוא, בהווה.",
+      "feedback_try": "ي בהתחלה אומרת הוא; كَتَبَ זה עבר. يَكْتُبُ: הוא כותב."
+    },
+    {
+      "id": "plc_verb_chk__a1w1",
+      "type": "check",
+      "kind": "understanding",
+      "title": "זמן וגוף (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה פירוש הפועל?",
+      "body_content": "يَكْتُبُ",
+      "speak_text": "يَكْتُبُ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הוא כותב"
+        },
+        {
+          "id": "b",
+          "label": "הוא כתב"
+        },
+        {
+          "id": "c",
+          "label": "אני כותב"
+        },
+        {
+          "id": "d",
+          "label": "היא כותבת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ي בהתחלה: הוא, בהווה.",
+      "feedback_try": "ي בהתחלה אומרת הוא; كَتَبَ זה עבר. يَكْتُبُ: הוא כותב."
+    },
+    {
+      "id": "plc_verb_chk__a0w1",
+      "type": "check",
+      "kind": "understanding",
+      "title": "זמן וגוף (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה פירוש הפועל? בלי שמע, כך זה נשמע: יַכְּתֻבֻּ",
+      "body_content": "يَكْتُبُ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הוא כותב"
+        },
+        {
+          "id": "b",
+          "label": "הוא כתב"
+        },
+        {
+          "id": "c",
+          "label": "אני כותב"
+        },
+        {
+          "id": "d",
+          "label": "היא כותבת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ي בהתחלה: הוא, בהווה.",
+      "feedback_try": "ي בהתחלה אומרת הוא; كَتَبَ זה עבר. يَكْتُبُ: הוא כותב."
+    },
+    {
+      "id": "plc_syntax_chk__a1w0",
+      "type": "check",
+      "kind": "understanding",
+      "title": "כאן ואחיותיה",
+      "body_he": "מה פירוש המשפט?",
+      "body_content": "كَانَ الْجَوُّ بَارِدًا",
+      "speak_text": "كَانَ الْجَوُّ بَارِدًا",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מזג האוויר היה קר"
+        },
+        {
+          "id": "b",
+          "label": "מזג האוויר קר"
+        },
+        {
+          "id": "c",
+          "label": "מזג האוויר יהיה קר"
+        },
+        {
+          "id": "d",
+          "label": "מזג האוויר לא קר"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "كان: היה.",
+      "feedback_try": "كان מעביר את המשפט לעבר: היה קר."
+    },
+    {
+      "id": "plc_syntax_chk__a0w0",
+      "type": "check",
+      "kind": "understanding",
+      "title": "כאן ואחיותיה (בלי שמע)",
+      "body_he": "מה פירוש המשפט? בלי שמע, כך זה נשמע: כַּאנַ אלְגַ'וֻּ בַּארִדַן",
+      "body_content": "كَانَ الْجَوُّ بَارِدًا",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מזג האוויר היה קר"
+        },
+        {
+          "id": "b",
+          "label": "מזג האוויר קר"
+        },
+        {
+          "id": "c",
+          "label": "מזג האוויר יהיה קר"
+        },
+        {
+          "id": "d",
+          "label": "מזג האוויר לא קר"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "كان: היה.",
+      "feedback_try": "كان מעביר את המשפט לעבר: היה קר."
+    },
+    {
+      "id": "plc_syntax_chk__a1w1",
+      "type": "check",
+      "kind": "understanding",
+      "title": "כאן ואחיותיה (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה פירוש המשפט?",
+      "body_content": "كَانَ الْجَوُّ بَارِدًا",
+      "speak_text": "كَانَ الْجَوُّ بَارِدًا",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מזג האוויר היה קר"
+        },
+        {
+          "id": "b",
+          "label": "מזג האוויר קר"
+        },
+        {
+          "id": "c",
+          "label": "מזג האוויר יהיה קר"
+        },
+        {
+          "id": "d",
+          "label": "מזג האוויר לא קר"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "كان: היה.",
+      "feedback_try": "كان מעביר את המשפט לעבר: היה קר."
+    },
+    {
+      "id": "plc_syntax_chk__a0w1",
+      "type": "check",
+      "kind": "understanding",
+      "title": "כאן ואחיותיה (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה פירוש המשפט? בלי שמע, כך זה נשמע: כַּאנַ אלְגַ'וֻּ בַּארִדַן",
+      "body_content": "كَانَ الْجَوُّ بَارِدًا",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מזג האוויר היה קר"
+        },
+        {
+          "id": "b",
+          "label": "מזג האוויר קר"
+        },
+        {
+          "id": "c",
+          "label": "מזג האוויר יהיה קר"
+        },
+        {
+          "id": "d",
+          "label": "מזג האוויר לא קר"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "كان: היה.",
+      "feedback_try": "كان מעביר את המשפט לעבר: היה קר."
+    },
+    {
+      "id": "plc_read_chk__a1w0",
+      "type": "check",
+      "kind": "understanding",
+      "title": "קטע קצר",
+      "body_he": "קראו בלי ניקוד וענו: איפה סמיר גר?",
+      "body_content": "سمير طالب في الجامعة. هو يسكن في حيفا مع أخيه ويعمل في مطعم.",
+      "speak_text": "سمير طالب في الجامعة. هو يسكن في حيفا مع أخيه ويعمل في مطعم.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בחיפה"
+        },
+        {
+          "id": "b",
+          "label": "באוניברסיטה"
+        },
+        {
+          "id": "c",
+          "label": "במסעדה"
+        },
+        {
+          "id": "d",
+          "label": "אצל אחיו בעיר אחרת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "يسكن في حيفا: גר בחיפה.",
+      "feedback_try": "באוניברסיטה הוא לומד, במסעדה הוא עובד. يسكن הוא גר: בחיפה."
+    },
+    {
+      "id": "plc_read_chk__a0w0",
+      "type": "check",
+      "kind": "understanding",
+      "title": "קטע קצר (בלי שמע)",
+      "body_he": "קראו בלי ניקוד וענו: איפה סמיר גר? בלי שמע, כך זה נשמע: סַמִיר טַאלִבּ פִי אלְגַ'אמִעַה. הֻוַ יַסְכֻּן פִי חֵיפַא מַעַ אַח'יהִ וַיַעְמַל פִי מַטְעַם.",
+      "body_content": "سمير طالب في الجامعة. هو يسكن في حيفا مع أخيه ويعمل في مطعم.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בחיפה"
+        },
+        {
+          "id": "b",
+          "label": "באוניברסיטה"
+        },
+        {
+          "id": "c",
+          "label": "במסעדה"
+        },
+        {
+          "id": "d",
+          "label": "אצל אחיו בעיר אחרת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "يسكن في حيفا: גר בחיפה.",
+      "feedback_try": "באוניברסיטה הוא לומד, במסעדה הוא עובד. يسكن הוא גר: בחיפה."
+    },
+    {
+      "id": "plc_read_chk__a1w1",
+      "type": "check",
+      "kind": "understanding",
+      "title": "קטע קצר (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. קראו בלי ניקוד וענו: איפה סמיר גר?",
+      "body_content": "سمير طالب في الجامعة. هو يسكن في حيفا مع أخيه ويعمل في مطعم.",
+      "speak_text": "سمير طالب في الجامعة. هو يسكن في حيفا مع أخيه ويعمل في مطعم.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בחיפה"
+        },
+        {
+          "id": "b",
+          "label": "באוניברסיטה"
+        },
+        {
+          "id": "c",
+          "label": "במסעדה"
+        },
+        {
+          "id": "d",
+          "label": "אצל אחיו בעיר אחרת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "يسكن في حيفا: גר בחיפה.",
+      "feedback_try": "באוניברסיטה הוא לומד, במסעדה הוא עובד. يسكن הוא גר: בחיפה."
+    },
+    {
+      "id": "plc_read_chk__a0w1",
+      "type": "check",
+      "kind": "understanding",
+      "title": "קטע קצר (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. קראו בלי ניקוד וענו: איפה סמיר גר? בלי שמע, כך זה נשמע: סַמִיר טַאלִבּ פִי אלְגַ'אמִעַה. הֻוַ יַסְכֻּן פִי חֵיפַא מַעַ אַח'יהִ וַיַעְמַל פִי מַטְעַם.",
+      "body_content": "سمير طالب في الجامعة. هو يسكن في حيفا مع أخيه ويعمل في مطعم.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בחיפה"
+        },
+        {
+          "id": "b",
+          "label": "באוניברסיטה"
+        },
+        {
+          "id": "c",
+          "label": "במסעדה"
+        },
+        {
+          "id": "d",
+          "label": "אצל אחיו בעיר אחרת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "يسكن في حيفا: גר בחיפה.",
+      "feedback_try": "באוניברסיטה הוא לומד, במסעדה הוא עובד. يسكن הוא גר: בחיפה."
+    },
+    {
+      "id": "plc_speak_p1__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תשובה בשיחה",
+      "body_he": "חבר שואל אתכם בערבית מדוברת. מה עונים?",
+      "body_content": "كيفك؟",
+      "speak_text": "كيفك؟",
+      "choices": [
+        {
+          "id": "a",
+          "label": "منيح، الحمد لله"
+        },
+        {
+          "id": "b",
+          "label": "اسمي إليوت"
+        },
+        {
+          "id": "c",
+          "label": "من حيفا"
+        },
+        {
+          "id": "d",
+          "label": "مع السلامة"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מְנִיח, אַלְחַמְדֻלִלַּה: טוב, תודה לאל.",
+      "feedback_try": "كيفك שואל מה שלומך. منيح: טוב."
+    },
+    {
+      "id": "plc_speak_p1__a0w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תשובה בשיחה (בלי שמע)",
+      "body_he": "חבר שואל אתכם בערבית מדוברת. מה עונים? בלי שמע, כך זה נשמע: כִּיפַכּ?",
+      "body_content": "كيفك؟",
+      "choices": [
+        {
+          "id": "a",
+          "label": "منيح، الحمد لله"
+        },
+        {
+          "id": "b",
+          "label": "اسمي إليوت"
+        },
+        {
+          "id": "c",
+          "label": "من حيفا"
+        },
+        {
+          "id": "d",
+          "label": "مع السلامة"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מְנִיח, אַלְחַמְדֻלִלַּה: טוב, תודה לאל.",
+      "feedback_try": "كيفك שואל מה שלומך. منيح: טוב."
+    },
+    {
+      "id": "plc_speak_p1__a1w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תשובה בשיחה (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. חבר שואל אתכם בערבית מדוברת. מה עונים?",
+      "body_content": "كيفك؟",
+      "speak_text": "كيفك؟",
+      "choices": [
+        {
+          "id": "a",
+          "label": "منيح، الحمد لله"
+        },
+        {
+          "id": "b",
+          "label": "اسمي إليوت"
+        },
+        {
+          "id": "c",
+          "label": "من حيفا"
+        },
+        {
+          "id": "d",
+          "label": "مع السلامة"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מְנִיח, אַלְחַמְדֻלִלַּה: טוב, תודה לאל.",
+      "feedback_try": "كيفك שואל מה שלומך. منيح: טוב."
+    },
+    {
+      "id": "plc_speak_p1__a0w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תשובה בשיחה (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. חבר שואל אתכם בערבית מדוברת. מה עונים? בלי שמע, כך זה נשמע: כִּיפַכּ?",
+      "body_content": "كيفك؟",
+      "choices": [
+        {
+          "id": "a",
+          "label": "منيح، الحمد لله"
+        },
+        {
+          "id": "b",
+          "label": "اسمي إليوت"
+        },
+        {
+          "id": "c",
+          "label": "من حيفا"
+        },
+        {
+          "id": "d",
+          "label": "مع السلامة"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מְנִיח, אַלְחַמְדֻלִלַּה: טוב, תודה לאל.",
+      "feedback_try": "كيفك שואל מה שלומך. منيح: טוב."
+    },
+    {
+      "id": "plc_speak_say__a1w0",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "אמרו בקול",
+      "body_he": "הציגו את עצמכם במשפט אחד בערבית מדוברת: שם ומאיפה אתם. סמנו לעצמכם אם הצלחתם.",
+      "body_content": "اسمي ... أنا من ...",
+      "speak_text": "اسمي إليوت. أنا من تل أبيب.",
+      "record": true
+    },
+    {
+      "id": "plc_speak_say__a0w0",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "אמרו בקול (בלי שמע)",
+      "body_he": "הציגו את עצמכם במשפט אחד בערבית מדוברת: שם ומאיפה אתם. סמנו לעצמכם אם הצלחתם. בלי שמע, כך זה נשמע: אִסְמִי ... אַנַא מִן ...",
+      "body_content": "اسمي ... أنا من ...",
+      "record": true
+    },
+    {
+      "id": "plc_result__a1w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מה עושים עם הטעויות",
+      "body_he": "הנושא הראשון שבו טעיתם פעמיים או יותר הוא הפער. כתב: דרך 01. מילים: דרך 02. משפט שמני: דרך 03. פועל: דרכים 04 ו 05. תחביר: דרך 06. קריאה: דרך 07. דיבור: דרך 08. כרגע נבנתה רק דרך 01; השאר בהמשך.",
+      "body_content": "بِالتَّوْفِيق",
+      "speak_text": "بِالتَّوْفِيق"
+    },
+    {
+      "id": "plc_result__a0w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מה עושים עם הטעויות (בלי שמע)",
+      "body_he": "הנושא הראשון שבו טעיתם פעמיים או יותר הוא הפער. כתב: דרך 01. מילים: דרך 02. משפט שמני: דרך 03. פועל: דרכים 04 ו 05. תחביר: דרך 06. קריאה: דרך 07. דיבור: דרך 08. כרגע נבנתה רק דרך 01; השאר בהמשך. בלי שמע, כך זה נשמע: בִּאלתַּוְפִיק (בהצלחה)",
+      "body_content": "بِالتَّوْفِيق"
+    }
+  ]
+}

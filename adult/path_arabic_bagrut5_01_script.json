@@ -1,0 +1,3158 @@
+{
+  "id": "path_arabic_bagrut5_01_script",
+  "titles": {
+    "he": "ערבית מאפס",
+    "en": "Arabic first letters",
+    "ar": "العربية من الصفر"
+  },
+  "blurbs": {
+    "he": "כתב ערבי מהיום הראשון: כיוון, אותיות ראשונות, מילים ראשונות, ושלום בערבית מדוברת.",
+    "en": "Arabic script from day one: direction, first letters, first words, and hello in spoken Arabic.",
+    "ar": "الخط العربي من اليوم الأول: الحروف والكلمات الأولى والتحية."
+  },
+  "subject": "general",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "🌱",
+  "explain_locale": "he",
+  "content_locale": "ar",
+  "estimated_minutes": 90,
+  "prerequisite_path_ids": [],
+  "topics": [
+    {
+      "id": "s0_start",
+      "titles": {
+        "he": "שלב 0: מתחילים",
+        "en": "Stage 0: start"
+      },
+      "emoji": "🌱",
+      "node_ids": [
+        "z0_dir_learn__a1w0",
+        "z0_dir_learn__a0w0",
+        "z0_dir_learn__a1w1",
+        "z0_dir_learn__a0w1",
+        "z0_dir_p1__a1w0",
+        "z0_dir_p1__a0w0",
+        "z0_dir_p1__a1w1",
+        "z0_dir_p1__a0w1",
+        "z0_join_learn__a1w0",
+        "z0_join_learn__a0w0",
+        "z0_join_learn__a1w1",
+        "z0_join_learn__a0w1",
+        "z0_join_p1__a1w0",
+        "z0_join_p1__a0w0",
+        "z0_join_p1__a1w1",
+        "z0_join_p1__a0w1",
+        "z0_hello_learn__a1w0",
+        "z0_hello_learn__a0w0",
+        "z0_hello_learn__a1w1",
+        "z0_hello_learn__a0w1",
+        "z0_hello_speak__a1w0",
+        "z0_hello_speak__a0w0",
+        "z0_hello_p1__a1w0",
+        "z0_hello_p1__a0w0",
+        "z0_hello_p1__a1w1",
+        "z0_hello_p1__a0w1"
+      ]
+    },
+    {
+      "id": "s1_letters",
+      "titles": {
+        "he": "שלב 1: שש אותיות ראשונות",
+        "en": "Stage 1: first six letters"
+      },
+      "emoji": "ب",
+      "node_ids": [
+        "z1_letters_learn__a1w0",
+        "z1_letters_learn__a0w0",
+        "z1_letters_learn__a1w1",
+        "z1_letters_learn__a0w1",
+        "z1_dots_p1__a1w0",
+        "z1_dots_p1__a0w0",
+        "z1_dots_p1__a1w1",
+        "z1_dots_p1__a0w1",
+        "z1_dots_p2__a1w0",
+        "z1_dots_p2__a0w0",
+        "z1_dots_p2__a1w1",
+        "z1_dots_p2__a0w1",
+        "z1_sound_p1__a1w0",
+        "z1_sound_p1__a0w0",
+        "z1_sound_p1__a1w1",
+        "z1_sound_p1__a0w1",
+        "z1_sound_p2__a1w0",
+        "z1_sound_p2__a0w0",
+        "z1_sound_p2__a1w1",
+        "z1_sound_p2__a0w1",
+        "z1_word_learn__a1w0",
+        "z1_word_learn__a0w0",
+        "z1_word_learn__a1w1",
+        "z1_word_learn__a0w1",
+        "z1_word_p1__a1w0",
+        "z1_word_p1__a0w0",
+        "z1_word_p1__a1w1",
+        "z1_word_p1__a0w1",
+        "z1_word_p2__a1w0",
+        "z1_word_p2__a0w0",
+        "z1_word_p2__a1w1",
+        "z1_word_p2__a0w1",
+        "z1_name_learn__a1w0",
+        "z1_name_learn__a0w0",
+        "z1_name_learn__a1w1",
+        "z1_name_learn__a0w1",
+        "z1_name_speak__a1w0",
+        "z1_name_speak__a0w0",
+        "z1_chk__a1w0",
+        "z1_chk__a0w0",
+        "z1_chk__a1w1",
+        "z1_chk__a0w1"
+      ]
+    },
+    {
+      "id": "s2_letters",
+      "titles": {
+        "he": "שלב 2: עוד שש אותיות",
+        "en": "Stage 2: six more letters"
+      },
+      "emoji": "ك",
+      "node_ids": [
+        "z2_letters_learn__a1w0",
+        "z2_letters_learn__a0w0",
+        "z2_letters_learn__a1w1",
+        "z2_letters_learn__a0w1",
+        "z2_shape_p1__a1w0",
+        "z2_shape_p1__a0w0",
+        "z2_shape_p1__a1w1",
+        "z2_shape_p1__a0w1",
+        "z2_shape_p2__a1w0",
+        "z2_shape_p2__a0w0",
+        "z2_shape_p2__a1w1",
+        "z2_shape_p2__a0w1",
+        "z2_sound_p1__a1w0",
+        "z2_sound_p1__a0w0",
+        "z2_sound_p1__a1w1",
+        "z2_sound_p1__a0w1",
+        "z2_nojoin_learn__a1w0",
+        "z2_nojoin_learn__a0w0",
+        "z2_nojoin_learn__a1w1",
+        "z2_nojoin_learn__a0w1",
+        "z2_nojoin_p1__a1w0",
+        "z2_nojoin_p1__a0w0",
+        "z2_nojoin_p1__a1w1",
+        "z2_nojoin_p1__a0w1",
+        "z2_word_p1__a1w0",
+        "z2_word_p1__a0w0",
+        "z2_word_p1__a1w1",
+        "z2_word_p1__a0w1",
+        "z2_word_p2__a1w0",
+        "z2_word_p2__a0w0",
+        "z2_word_p2__a1w1",
+        "z2_word_p2__a0w1",
+        "z2_how_learn__a1w0",
+        "z2_how_learn__a0w0",
+        "z2_how_learn__a1w1",
+        "z2_how_learn__a0w1",
+        "z2_how_speak__a1w0",
+        "z2_how_speak__a0w0",
+        "z2_how_p1__a1w0",
+        "z2_how_p1__a0w0",
+        "z2_how_p1__a1w1",
+        "z2_how_p1__a0w1"
+      ]
+    },
+    {
+      "id": "s2_review",
+      "titles": {
+        "he": "חזרה",
+        "en": "Review"
+      },
+      "emoji": "🔁",
+      "node_ids": [
+        "z_rev_learn__a1w0",
+        "z_rev_learn__a0w0",
+        "z_rev_learn__a1w1",
+        "z_rev_learn__a0w1",
+        "z_rev_p1__a1w0",
+        "z_rev_p1__a0w0",
+        "z_rev_p1__a1w1",
+        "z_rev_p1__a0w1",
+        "z_rev_p2__a1w0",
+        "z_rev_p2__a0w0",
+        "z_rev_p2__a1w1",
+        "z_rev_p2__a0w1",
+        "z_rev_p3__a1w0",
+        "z_rev_p3__a0w0",
+        "z_rev_p3__a1w1",
+        "z_rev_p3__a0w1",
+        "z_rev_chk__a1w0",
+        "z_rev_chk__a0w0",
+        "z_rev_chk__a1w1",
+        "z_rev_chk__a0w1"
+      ]
+    },
+    {
+      "id": "s2_done",
+      "titles": {
+        "he": "סיום שלב 2",
+        "en": "Stage 2 done"
+      },
+      "emoji": "🎉",
+      "node_ids": [
+        "z_done"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "z0_dir_learn__a1w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מימין לשמאל, כמו בעברית",
+      "body_he": "ערבית נכתבת מימין לשמאל, כמו עברית. אין אותיות גדולות. רוב האותיות מתחברות זו לזו בתוך מילה, ולכן לאות יש צורה קצת אחרת בהתחלה, באמצע ובסוף.",
+      "body_content": "عَرَبِيّ",
+      "speak_text": "عَرَبِيّ"
+    },
+    {
+      "id": "z0_dir_learn__a0w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מימין לשמאל, כמו בעברית (בלי שמע)",
+      "body_he": "ערבית נכתבת מימין לשמאל, כמו עברית. אין אותיות גדולות. רוב האותיות מתחברות זו לזו בתוך מילה, ולכן לאות יש צורה קצת אחרת בהתחלה, באמצע ובסוף. בלי שמע, כך זה נשמע: עַרַבִּיּ (ערבי)",
+      "body_content": "عَرَبِيّ"
+    },
+    {
+      "id": "z0_dir_learn__a1w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מימין לשמאל, כמו בעברית (בכתיבה)",
+      "body_he": "ערבית נכתבת מימין לשמאל, כמו עברית. אין אותיות גדולות. רוב האותיות מתחברות זו לזו בתוך מילה, ולכן לאות יש צורה קצת אחרת בהתחלה, באמצע ובסוף. העתיקו ביד על דף שלוש פעמים.",
+      "body_content": "عَرَبِيّ",
+      "speak_text": "عَرَبِيّ"
+    },
+    {
+      "id": "z0_dir_learn__a0w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מימין לשמאל, כמו בעברית (בלי שמע, בכתיבה)",
+      "body_he": "ערבית נכתבת מימין לשמאל, כמו עברית. אין אותיות גדולות. רוב האותיות מתחברות זו לזו בתוך מילה, ולכן לאות יש צורה קצת אחרת בהתחלה, באמצע ובסוף. העתיקו ביד על דף שלוש פעמים. בלי שמע, כך זה נשמע: עַרַבִּיּ (ערבי)",
+      "body_content": "عَرَبِيّ"
+    },
+    {
+      "id": "z0_dir_p1__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מאיזה צד מתחילים?",
+      "body_he": "מאיפה מתחילים לקרוא את המילה?",
+      "body_content": "عَرَبِيّ",
+      "speak_text": "عَرَبِيّ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מימין"
+        },
+        {
+          "id": "b",
+          "label": "משמאל"
+        },
+        {
+          "id": "c",
+          "label": "מלמעלה"
+        },
+        {
+          "id": "d",
+          "label": "מהאמצע"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מימין, כמו בעברית.",
+      "feedback_try": "כמו בעברית: מימין לשמאל."
+    },
+    {
+      "id": "z0_dir_p1__a0w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מאיזה צד מתחילים? (בלי שמע)",
+      "body_he": "מאיפה מתחילים לקרוא את המילה? בלי שמע, כך זה נשמע: עַרַבִּיּ",
+      "body_content": "عَرَبِيّ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מימין"
+        },
+        {
+          "id": "b",
+          "label": "משמאל"
+        },
+        {
+          "id": "c",
+          "label": "מלמעלה"
+        },
+        {
+          "id": "d",
+          "label": "מהאמצע"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מימין, כמו בעברית.",
+      "feedback_try": "כמו בעברית: מימין לשמאל."
+    },
+    {
+      "id": "z0_dir_p1__a1w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מאיזה צד מתחילים? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מאיפה מתחילים לקרוא את המילה?",
+      "body_content": "عَرَبِيّ",
+      "speak_text": "عَرَبِيّ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מימין"
+        },
+        {
+          "id": "b",
+          "label": "משמאל"
+        },
+        {
+          "id": "c",
+          "label": "מלמעלה"
+        },
+        {
+          "id": "d",
+          "label": "מהאמצע"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מימין, כמו בעברית.",
+      "feedback_try": "כמו בעברית: מימין לשמאל."
+    },
+    {
+      "id": "z0_dir_p1__a0w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מאיזה צד מתחילים? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מאיפה מתחילים לקרוא את המילה? בלי שמע, כך זה נשמע: עַרַבִּיּ",
+      "body_content": "عَرَبِيّ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מימין"
+        },
+        {
+          "id": "b",
+          "label": "משמאל"
+        },
+        {
+          "id": "c",
+          "label": "מלמעלה"
+        },
+        {
+          "id": "d",
+          "label": "מהאמצע"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מימין, כמו בעברית.",
+      "feedback_try": "כמו בעברית: מימין לשמאל."
+    },
+    {
+      "id": "z0_join_learn__a1w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אותיות מחוברות",
+      "body_he": "המילה באב (דלת) כתובה מ ب ו ا ו ب. האות ب מתחברת לאות שאחריה; האות ا לא.",
+      "body_content": "ب + ا + ب = بَاب",
+      "speak_text": "بَاب"
+    },
+    {
+      "id": "z0_join_learn__a0w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אותיות מחוברות (בלי שמע)",
+      "body_he": "המילה באב (דלת) כתובה מ ب ו ا ו ب. האות ب מתחברת לאות שאחריה; האות ا לא. בלי שמע, כך זה נשמע: בַּאבּ (דלת)",
+      "body_content": "ب + ا + ب = بَاب"
+    },
+    {
+      "id": "z0_join_learn__a1w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אותיות מחוברות (בכתיבה)",
+      "body_he": "המילה באב (דלת) כתובה מ ب ו ا ו ب. האות ب מתחברת לאות שאחריה; האות ا לא. העתיקו ביד על דף שלוש פעמים.",
+      "body_content": "ب + ا + ب = بَاب",
+      "speak_text": "بَاب"
+    },
+    {
+      "id": "z0_join_learn__a0w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אותיות מחוברות (בלי שמע, בכתיבה)",
+      "body_he": "המילה באב (דלת) כתובה מ ب ו ا ו ب. האות ب מתחברת לאות שאחריה; האות ا לא. העתיקו ביד על דף שלוש פעמים. בלי שמע, כך זה נשמע: בַּאבּ (דלת)",
+      "body_content": "ب + ا + ب = بَاب"
+    },
+    {
+      "id": "z0_join_p1__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כמה אותיות?",
+      "body_he": "כמה אותיות יש במילה?",
+      "body_content": "بَاب",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ب ا ب: שלוש.",
+      "feedback_try": "ב, א, ב. שלוש אותיות."
+    },
+    {
+      "id": "z0_join_p1__a0w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כמה אותיות? (בלי שמע)",
+      "body_he": "כמה אותיות יש במילה? בלי שמע, כך זה נשמע: בַּאבּ",
+      "body_content": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ب ا ب: שלוש.",
+      "feedback_try": "ב, א, ב. שלוש אותיות."
+    },
+    {
+      "id": "z0_join_p1__a1w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כמה אותיות? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. כמה אותיות יש במילה?",
+      "body_content": "بَاب",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ب ا ب: שלוש.",
+      "feedback_try": "ב, א, ב. שלוש אותיות."
+    },
+    {
+      "id": "z0_join_p1__a0w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כמה אותיות? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. כמה אותיות יש במילה? בלי שמע, כך זה נשמע: בַּאבּ",
+      "body_content": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ب ا ب: שלוש.",
+      "feedback_try": "ב, א, ב. שלוש אותיות."
+    },
+    {
+      "id": "z0_hello_learn__a1w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילה ראשונה בדיבור",
+      "body_he": "בערבית מדוברת אומרים מַרְחַבַּא לשלום, ועונים אַהְלַן או מַרְחַבְּתֵין. שוּכְּרַן היא תודה.",
+      "body_content": "مَرْحَبًا ، أَهْلًا ، شُكْرًا",
+      "speak_text": "مَرْحَبًا ، أَهْلًا ، شُكْرًا"
+    },
+    {
+      "id": "z0_hello_learn__a0w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילה ראשונה בדיבור (בלי שמע)",
+      "body_he": "בערבית מדוברת אומרים מַרְחַבַּא לשלום, ועונים אַהְלַן או מַרְחַבְּתֵין. שוּכְּרַן היא תודה. בלי שמע, כך זה נשמע: מַרְחַבַּא, אַהְלַן, שֻׁכְּרַן",
+      "body_content": "مَرْحَبًا ، أَهْلًا ، شُكْرًا"
+    },
+    {
+      "id": "z0_hello_learn__a1w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילה ראשונה בדיבור (בכתיבה)",
+      "body_he": "בערבית מדוברת אומרים מַרְחַבַּא לשלום, ועונים אַהְלַן או מַרְחַבְּתֵין. שוּכְּרַן היא תודה. העתיקו ביד על דף שלוש פעמים.",
+      "body_content": "مَرْحَبًا ، أَهْلًا ، شُكْرًا",
+      "speak_text": "مَرْحَبًا ، أَهْلًا ، شُكْرًا"
+    },
+    {
+      "id": "z0_hello_learn__a0w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילה ראשונה בדיבור (בלי שמע, בכתיבה)",
+      "body_he": "בערבית מדוברת אומרים מַרְחַבַּא לשלום, ועונים אַהְלַן או מַרְחַבְּתֵין. שוּכְּרַן היא תודה. העתיקו ביד על דף שלוש פעמים. בלי שמע, כך זה נשמע: מַרְחַבַּא, אַהְלַן, שֻׁכְּרַן",
+      "body_content": "مَرْحَبًا ، أَهْلًا ، شُكْرًا"
+    },
+    {
+      "id": "z0_hello_speak__a1w0",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "אמרו שלום",
+      "body_he": "אמרו בקול: שלום, ואחר כך תודה. סמנו לעצמכם שאמרתם.",
+      "body_content": "مَرْحَبًا ... شُكْرًا",
+      "speak_text": "مَرْحَبًا ... شُكْرًا",
+      "record": true
+    },
+    {
+      "id": "z0_hello_speak__a0w0",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "אמרו שלום (בלי שמע)",
+      "body_he": "אמרו בקול: שלום, ואחר כך תודה. סמנו לעצמכם שאמרתם. בלי שמע, כך זה נשמע: מַרְחַבַּא ... שֻׁכְּרַן",
+      "body_content": "مَرْحَبًا ... شُكْرًا",
+      "record": true
+    },
+    {
+      "id": "z0_hello_p1__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה עונים?",
+      "body_he": "מישהו אומר לכם מַרְחַבַּא. מה עונים?",
+      "body_content": "مَرْحَبًا",
+      "speak_text": "مَرْحَبًا",
+      "choices": [
+        {
+          "id": "a",
+          "label": "أَهْلًا"
+        },
+        {
+          "id": "b",
+          "label": "شُكْرًا"
+        },
+        {
+          "id": "c",
+          "label": "لَا"
+        },
+        {
+          "id": "d",
+          "label": "بَاب"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "אַהְלַן, ברוך הבא.",
+      "feedback_try": "שֻׁכְּרַן זה תודה. על שלום עונים אַהְלַן."
+    },
+    {
+      "id": "z0_hello_p1__a0w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה עונים? (בלי שמע)",
+      "body_he": "מישהו אומר לכם מַרְחַבַּא. מה עונים? בלי שמע, כך זה נשמע: מַרְחַבַּא",
+      "body_content": "مَرْحَبًا",
+      "choices": [
+        {
+          "id": "a",
+          "label": "أَهْلًا"
+        },
+        {
+          "id": "b",
+          "label": "شُكْرًا"
+        },
+        {
+          "id": "c",
+          "label": "لَا"
+        },
+        {
+          "id": "d",
+          "label": "بَاب"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "אַהְלַן, ברוך הבא.",
+      "feedback_try": "שֻׁכְּרַן זה תודה. על שלום עונים אַהְלַן."
+    },
+    {
+      "id": "z0_hello_p1__a1w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה עונים? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מישהו אומר לכם מַרְחַבַּא. מה עונים?",
+      "body_content": "مَرْحَبًا",
+      "speak_text": "مَرْحَبًا",
+      "choices": [
+        {
+          "id": "a",
+          "label": "أَهْلًا"
+        },
+        {
+          "id": "b",
+          "label": "شُكْرًا"
+        },
+        {
+          "id": "c",
+          "label": "لَا"
+        },
+        {
+          "id": "d",
+          "label": "بَاب"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "אַהְלַן, ברוך הבא.",
+      "feedback_try": "שֻׁכְּרַן זה תודה. על שלום עונים אַהְלַן."
+    },
+    {
+      "id": "z0_hello_p1__a0w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה עונים? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מישהו אומר לכם מַרְחַבַּא. מה עונים? בלי שמע, כך זה נשמע: מַרְחַבַּא",
+      "body_content": "مَرْحَبًا",
+      "choices": [
+        {
+          "id": "a",
+          "label": "أَهْلًا"
+        },
+        {
+          "id": "b",
+          "label": "شُكْرًا"
+        },
+        {
+          "id": "c",
+          "label": "لَا"
+        },
+        {
+          "id": "d",
+          "label": "بَاب"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "אַהְלַן, ברוך הבא.",
+      "feedback_try": "שֻׁכְּרַן זה תודה. על שלום עונים אַהְלַן."
+    },
+    {
+      "id": "z1_letters_learn__a1w0",
+      "type": "learn",
+      "kind": "review",
+      "title": "שש אותיות ראשונות",
+      "body_he": "ا אַלִף (א, וגם תנועה א ארוכה). ب בַּא (ב דגושה, תמיד b). ت תַּא (ת). ن נוּן (נ). م מִים (מ). ل לַאם (ל). שימו לב לנקודות: ب אחת למטה, ت שתיים למעלה, ن אחת למעלה.",
+      "body_content": "ا ب ت ن م ل",
+      "speak_text": "ا ب ت ن م ل"
+    },
+    {
+      "id": "z1_letters_learn__a0w0",
+      "type": "learn",
+      "kind": "review",
+      "title": "שש אותיות ראשונות (בלי שמע)",
+      "body_he": "ا אַלִף (א, וגם תנועה א ארוכה). ب בַּא (ב דגושה, תמיד b). ت תַּא (ת). ن נוּן (נ). م מִים (מ). ل לַאם (ל). שימו לב לנקודות: ب אחת למטה, ت שתיים למעלה, ن אחת למעלה. בלי שמע, כך זה נשמע: אַלִף, בַּא, תַּא, נוּן, מִים, לַאם",
+      "body_content": "ا ب ت ن م ل"
+    },
+    {
+      "id": "z1_letters_learn__a1w1",
+      "type": "learn",
+      "kind": "review",
+      "title": "שש אותיות ראשונות (בכתיבה)",
+      "body_he": "ا אַלִף (א, וגם תנועה א ארוכה). ب בַּא (ב דגושה, תמיד b). ت תַּא (ת). ن נוּן (נ). م מִים (מ). ل לַאם (ל). שימו לב לנקודות: ب אחת למטה, ت שתיים למעלה, ن אחת למעלה. העתיקו ביד על דף שלוש פעמים.",
+      "body_content": "ا ب ت ن م ل",
+      "speak_text": "ا ب ت ن م ل"
+    },
+    {
+      "id": "z1_letters_learn__a0w1",
+      "type": "learn",
+      "kind": "review",
+      "title": "שש אותיות ראשונות (בלי שמע, בכתיבה)",
+      "body_he": "ا אַלִף (א, וגם תנועה א ארוכה). ب בַּא (ב דגושה, תמיד b). ت תַּא (ת). ن נוּן (נ). م מִים (מ). ل לַאם (ל). שימו לב לנקודות: ب אחת למטה, ت שתיים למעלה, ن אחת למעלה. העתיקו ביד על דף שלוש פעמים. בלי שמע, כך זה נשמע: אַלִף, בַּא, תַּא, נוּן, מִים, לַאם",
+      "body_content": "ا ب ت ن م ل"
+    },
+    {
+      "id": "z1_dots_p1__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות?",
+      "body_he": "איזו אות היא ב?",
+      "body_content": "ب ت ن ي",
+      "speak_text": "ب ت ن ي",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ب"
+        },
+        {
+          "id": "b",
+          "label": "ت"
+        },
+        {
+          "id": "c",
+          "label": "ن"
+        },
+        {
+          "id": "d",
+          "label": "ي"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ב: נקודה אחת למטה.",
+      "feedback_try": "ت שתי נקודות למעלה, ن אחת למעלה, ي שתיים למטה. ב: אחת למטה."
+    },
+    {
+      "id": "z1_dots_p1__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות? (בלי שמע)",
+      "body_he": "איזו אות היא ב? בלי שמע, כך זה נשמע: בּ",
+      "body_content": "ب ت ن ي",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ب"
+        },
+        {
+          "id": "b",
+          "label": "ت"
+        },
+        {
+          "id": "c",
+          "label": "ن"
+        },
+        {
+          "id": "d",
+          "label": "ي"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ב: נקודה אחת למטה.",
+      "feedback_try": "ت שתי נקודות למעלה, ن אחת למעלה, ي שתיים למטה. ב: אחת למטה."
+    },
+    {
+      "id": "z1_dots_p1__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות היא ב?",
+      "body_content": "ب ت ن ي",
+      "speak_text": "ب ت ن ي",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ب"
+        },
+        {
+          "id": "b",
+          "label": "ت"
+        },
+        {
+          "id": "c",
+          "label": "ن"
+        },
+        {
+          "id": "d",
+          "label": "ي"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ב: נקודה אחת למטה.",
+      "feedback_try": "ت שתי נקודות למעלה, ن אחת למעלה, ي שתיים למטה. ב: אחת למטה."
+    },
+    {
+      "id": "z1_dots_p1__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות היא ב? בלי שמע, כך זה נשמע: בּ",
+      "body_content": "ب ت ن ي",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ب"
+        },
+        {
+          "id": "b",
+          "label": "ت"
+        },
+        {
+          "id": "c",
+          "label": "ن"
+        },
+        {
+          "id": "d",
+          "label": "ي"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ב: נקודה אחת למטה.",
+      "feedback_try": "ت שתי נקודות למעלה, ن אחת למעלה, ي שתיים למטה. ב: אחת למטה."
+    },
+    {
+      "id": "z1_dots_p2__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות?",
+      "body_he": "איזו אות היא נ?",
+      "body_content": "ن ب ت ل",
+      "speak_text": "ن ب ت ل",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ن"
+        },
+        {
+          "id": "b",
+          "label": "ب"
+        },
+        {
+          "id": "c",
+          "label": "ت"
+        },
+        {
+          "id": "d",
+          "label": "ل"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נ: קערה עם נקודה אחת למעלה.",
+      "feedback_try": "נוּן היא קערה עמוקה עם נקודה אחת למעלה."
+    },
+    {
+      "id": "z1_dots_p2__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות? (בלי שמע)",
+      "body_he": "איזו אות היא נ? בלי שמע, כך זה נשמע: נ",
+      "body_content": "ن ب ت ل",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ن"
+        },
+        {
+          "id": "b",
+          "label": "ب"
+        },
+        {
+          "id": "c",
+          "label": "ت"
+        },
+        {
+          "id": "d",
+          "label": "ل"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נ: קערה עם נקודה אחת למעלה.",
+      "feedback_try": "נוּן היא קערה עמוקה עם נקודה אחת למעלה."
+    },
+    {
+      "id": "z1_dots_p2__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות היא נ?",
+      "body_content": "ن ب ت ل",
+      "speak_text": "ن ب ت ل",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ن"
+        },
+        {
+          "id": "b",
+          "label": "ب"
+        },
+        {
+          "id": "c",
+          "label": "ت"
+        },
+        {
+          "id": "d",
+          "label": "ل"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נ: קערה עם נקודה אחת למעלה.",
+      "feedback_try": "נוּן היא קערה עמוקה עם נקודה אחת למעלה."
+    },
+    {
+      "id": "z1_dots_p2__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות היא נ? בלי שמע, כך זה נשמע: נ",
+      "body_content": "ن ب ت ل",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ن"
+        },
+        {
+          "id": "b",
+          "label": "ب"
+        },
+        {
+          "id": "c",
+          "label": "ت"
+        },
+        {
+          "id": "d",
+          "label": "ل"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נ: קערה עם נקודה אחת למעלה.",
+      "feedback_try": "נוּן היא קערה עמוקה עם נקודה אחת למעלה."
+    },
+    {
+      "id": "z1_sound_p1__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזה צליל?",
+      "body_he": "מה הצליל של האות?",
+      "body_content": "م",
+      "speak_text": "م",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מ"
+        },
+        {
+          "id": "b",
+          "label": "ל"
+        },
+        {
+          "id": "c",
+          "label": "ה"
+        },
+        {
+          "id": "d",
+          "label": "ס"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "م היא מִים, מ.",
+      "feedback_try": "م היא עיגול קטן עם זנב: מ."
+    },
+    {
+      "id": "z1_sound_p1__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזה צליל? (בלי שמע)",
+      "body_he": "מה הצליל של האות? בלי שמע, כך זה נשמע: מ",
+      "body_content": "م",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מ"
+        },
+        {
+          "id": "b",
+          "label": "ל"
+        },
+        {
+          "id": "c",
+          "label": "ה"
+        },
+        {
+          "id": "d",
+          "label": "ס"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "م היא מִים, מ.",
+      "feedback_try": "م היא עיגול קטן עם זנב: מ."
+    },
+    {
+      "id": "z1_sound_p1__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזה צליל? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה הצליל של האות?",
+      "body_content": "م",
+      "speak_text": "م",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מ"
+        },
+        {
+          "id": "b",
+          "label": "ל"
+        },
+        {
+          "id": "c",
+          "label": "ה"
+        },
+        {
+          "id": "d",
+          "label": "ס"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "م היא מִים, מ.",
+      "feedback_try": "م היא עיגול קטן עם זנב: מ."
+    },
+    {
+      "id": "z1_sound_p1__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזה צליל? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה הצליל של האות? בלי שמע, כך זה נשמע: מ",
+      "body_content": "م",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מ"
+        },
+        {
+          "id": "b",
+          "label": "ל"
+        },
+        {
+          "id": "c",
+          "label": "ה"
+        },
+        {
+          "id": "d",
+          "label": "ס"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "م היא מִים, מ.",
+      "feedback_try": "م היא עיגול קטן עם זנב: מ."
+    },
+    {
+      "id": "z1_sound_p2__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזה צליל?",
+      "body_he": "מה הצליל של האות?",
+      "body_content": "ل",
+      "speak_text": "ل",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ל"
+        },
+        {
+          "id": "b",
+          "label": "א"
+        },
+        {
+          "id": "c",
+          "label": "כ"
+        },
+        {
+          "id": "d",
+          "label": "נ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ل היא לַאם, ל.",
+      "feedback_try": "ا היא קו ישר בלי זנב. ل יורדת ומתעקלת שמאלה: ל."
+    },
+    {
+      "id": "z1_sound_p2__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזה צליל? (בלי שמע)",
+      "body_he": "מה הצליל של האות? בלי שמע, כך זה נשמע: ל",
+      "body_content": "ل",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ל"
+        },
+        {
+          "id": "b",
+          "label": "א"
+        },
+        {
+          "id": "c",
+          "label": "כ"
+        },
+        {
+          "id": "d",
+          "label": "נ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ل היא לַאם, ל.",
+      "feedback_try": "ا היא קו ישר בלי זנב. ل יורדת ומתעקלת שמאלה: ל."
+    },
+    {
+      "id": "z1_sound_p2__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזה צליל? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה הצליל של האות?",
+      "body_content": "ل",
+      "speak_text": "ل",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ל"
+        },
+        {
+          "id": "b",
+          "label": "א"
+        },
+        {
+          "id": "c",
+          "label": "כ"
+        },
+        {
+          "id": "d",
+          "label": "נ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ل היא לַאם, ל.",
+      "feedback_try": "ا היא קו ישר בלי זנב. ل יורדת ומתעקלת שמאלה: ל."
+    },
+    {
+      "id": "z1_sound_p2__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזה צליל? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה הצליל של האות? בלי שמע, כך זה נשמע: ל",
+      "body_content": "ل",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ל"
+        },
+        {
+          "id": "b",
+          "label": "א"
+        },
+        {
+          "id": "c",
+          "label": "כ"
+        },
+        {
+          "id": "d",
+          "label": "נ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ل היא לַאם, ל.",
+      "feedback_try": "ا היא קו ישר בלי זנב. ل יורדת ומתעקלת שמאלה: ל."
+    },
+    {
+      "id": "z1_word_learn__a1w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילים משש האותיות",
+      "body_he": "בִּנְת היא בת. לַבַּן הוא לבן (יוגורט). אִבְּן הוא בן. שימו לב: ب ו ت ו ن נראות אחרת בהתחלה ובאמצע: רק שן קטנה עם הנקודות שלה.",
+      "body_content": "بِنْت ، لَبَن ، اِبْن",
+      "speak_text": "بِنْت ، لَبَن ، اِبْن"
+    },
+    {
+      "id": "z1_word_learn__a0w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילים משש האותיות (בלי שמע)",
+      "body_he": "בִּנְת היא בת. לַבַּן הוא לבן (יוגורט). אִבְּן הוא בן. שימו לב: ب ו ت ו ن נראות אחרת בהתחלה ובאמצע: רק שן קטנה עם הנקודות שלה. בלי שמע, כך זה נשמע: בִּנְת, לַבַּן, אִבְּן",
+      "body_content": "بِنْت ، لَبَن ، اِبْن"
+    },
+    {
+      "id": "z1_word_learn__a1w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילים משש האותיות (בכתיבה)",
+      "body_he": "בִּנְת היא בת. לַבַּן הוא לבן (יוגורט). אִבְּן הוא בן. שימו לב: ب ו ت ו ن נראות אחרת בהתחלה ובאמצע: רק שן קטנה עם הנקודות שלה. העתיקו ביד על דף שלוש פעמים.",
+      "body_content": "بِنْت ، لَبَن ، اِبْن",
+      "speak_text": "بِنْت ، لَبَن ، اِبْن"
+    },
+    {
+      "id": "z1_word_learn__a0w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילים משש האותיות (בלי שמע, בכתיבה)",
+      "body_he": "בִּנְת היא בת. לַבַּן הוא לבן (יוגורט). אִבְּן הוא בן. שימו לב: ب ו ت ו ن נראות אחרת בהתחלה ובאמצע: רק שן קטנה עם הנקודות שלה. העתיקו ביד על דף שלוש פעמים. בלי שמע, כך זה נשמע: בִּנְת, לַבַּן, אִבְּן",
+      "body_content": "بِنْت ، لَبَن ، اِبْن"
+    },
+    {
+      "id": "z1_word_p1__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "קריאת מילה",
+      "body_he": "איך קוראים את המילה?",
+      "body_content": "بِنْت",
+      "speak_text": "بِنْت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בִּנְת"
+        },
+        {
+          "id": "b",
+          "label": "תִּבְּן"
+        },
+        {
+          "id": "c",
+          "label": "נִבְּת"
+        },
+        {
+          "id": "d",
+          "label": "בִּית"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בִּנְת, בת.",
+      "feedback_try": "מימין: ب (נקודה למטה), ن (למעלה), ت (שתיים למעלה)."
+    },
+    {
+      "id": "z1_word_p1__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "קריאת מילה (בלי שמע)",
+      "body_he": "איך קוראים את המילה? בלי שמע, כך זה נשמע: בִּנְת",
+      "body_content": "بِنْت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בִּנְת"
+        },
+        {
+          "id": "b",
+          "label": "תִּבְּן"
+        },
+        {
+          "id": "c",
+          "label": "נִבְּת"
+        },
+        {
+          "id": "d",
+          "label": "בִּית"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בִּנְת, בת.",
+      "feedback_try": "מימין: ب (נקודה למטה), ن (למעלה), ت (שתיים למעלה)."
+    },
+    {
+      "id": "z1_word_p1__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "קריאת מילה (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איך קוראים את המילה?",
+      "body_content": "بِنْت",
+      "speak_text": "بِنْت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בִּנְת"
+        },
+        {
+          "id": "b",
+          "label": "תִּבְּן"
+        },
+        {
+          "id": "c",
+          "label": "נִבְּת"
+        },
+        {
+          "id": "d",
+          "label": "בִּית"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בִּנְת, בת.",
+      "feedback_try": "מימין: ب (נקודה למטה), ن (למעלה), ت (שתיים למעלה)."
+    },
+    {
+      "id": "z1_word_p1__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "קריאת מילה (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איך קוראים את המילה? בלי שמע, כך זה נשמע: בִּנְת",
+      "body_content": "بِنْت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בִּנְת"
+        },
+        {
+          "id": "b",
+          "label": "תִּבְּן"
+        },
+        {
+          "id": "c",
+          "label": "נִבְּת"
+        },
+        {
+          "id": "d",
+          "label": "בִּית"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בִּנְת, בת.",
+      "feedback_try": "מימין: ب (נקודה למטה), ن (למעלה), ت (שתיים למעלה)."
+    },
+    {
+      "id": "z1_word_p2__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "מה פירוש המילה?",
+      "body_he": "בחרו תרגום.",
+      "body_content": "لَبَن",
+      "speak_text": "لَبَن",
+      "choices": [
+        {
+          "id": "a",
+          "label": "לבן (יוגורט)"
+        },
+        {
+          "id": "b",
+          "label": "בן"
+        },
+        {
+          "id": "c",
+          "label": "בת"
+        },
+        {
+          "id": "d",
+          "label": "דלת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "לַבַּן, כמו בעברית.",
+      "feedback_try": "ל, ב, נ: לַבַּן."
+    },
+    {
+      "id": "z1_word_p2__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "מה פירוש המילה? (בלי שמע)",
+      "body_he": "בחרו תרגום. בלי שמע, כך זה נשמע: לַבַּן",
+      "body_content": "لَبَن",
+      "choices": [
+        {
+          "id": "a",
+          "label": "לבן (יוגורט)"
+        },
+        {
+          "id": "b",
+          "label": "בן"
+        },
+        {
+          "id": "c",
+          "label": "בת"
+        },
+        {
+          "id": "d",
+          "label": "דלת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "לַבַּן, כמו בעברית.",
+      "feedback_try": "ל, ב, נ: לַבַּן."
+    },
+    {
+      "id": "z1_word_p2__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "מה פירוש המילה? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. בחרו תרגום.",
+      "body_content": "لَبَن",
+      "speak_text": "لَبَن",
+      "choices": [
+        {
+          "id": "a",
+          "label": "לבן (יוגורט)"
+        },
+        {
+          "id": "b",
+          "label": "בן"
+        },
+        {
+          "id": "c",
+          "label": "בת"
+        },
+        {
+          "id": "d",
+          "label": "דלת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "לַבַּן, כמו בעברית.",
+      "feedback_try": "ל, ב, נ: לַבַּן."
+    },
+    {
+      "id": "z1_word_p2__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "מה פירוש המילה? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. בחרו תרגום. בלי שמע, כך זה נשמע: לַבַּן",
+      "body_content": "لَبَن",
+      "choices": [
+        {
+          "id": "a",
+          "label": "לבן (יוגורט)"
+        },
+        {
+          "id": "b",
+          "label": "בן"
+        },
+        {
+          "id": "c",
+          "label": "בת"
+        },
+        {
+          "id": "d",
+          "label": "דלת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "לַבַּן, כמו בעברית.",
+      "feedback_try": "ל, ב, נ: לַבַּן."
+    },
+    {
+      "id": "z1_name_learn__a1w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "איך קוראים לך?",
+      "body_he": "בערבית מדוברת שואלים שוּ אִסְמַכּ? (לגבר) או שוּ אִסְמֵכּ? (לאישה). עונים אִסְמִי ואת השם.",
+      "body_content": "شُو اِسْمَك؟ اِسْمِي ...",
+      "speak_text": "شُو اِسْمَك؟ اِسْمِي ..."
+    },
+    {
+      "id": "z1_name_learn__a0w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "איך קוראים לך? (בלי שמע)",
+      "body_he": "בערבית מדוברת שואלים שוּ אִסְמַכּ? (לגבר) או שוּ אִסְמֵכּ? (לאישה). עונים אִסְמִי ואת השם. בלי שמע, כך זה נשמע: שׁוּ אִסְמַכּ? אִסְמִי ...",
+      "body_content": "شُو اِسْمَك؟ اِسْمِي ..."
+    },
+    {
+      "id": "z1_name_learn__a1w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "איך קוראים לך? (בכתיבה)",
+      "body_he": "בערבית מדוברת שואלים שוּ אִסְמַכּ? (לגבר) או שוּ אִסְמֵכּ? (לאישה). עונים אִסְמִי ואת השם. העתיקו ביד על דף שלוש פעמים.",
+      "body_content": "شُو اِسْمَك؟ اِسْمِي ...",
+      "speak_text": "شُو اِسْمَك؟ اِسْمِي ..."
+    },
+    {
+      "id": "z1_name_learn__a0w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "איך קוראים לך? (בלי שמע, בכתיבה)",
+      "body_he": "בערבית מדוברת שואלים שוּ אִסְמַכּ? (לגבר) או שוּ אִסְמֵכּ? (לאישה). עונים אִסְמִי ואת השם. העתיקו ביד על דף שלוש פעמים. בלי שמע, כך זה נשמע: שׁוּ אִסְמַכּ? אִסְמִי ...",
+      "body_content": "شُو اِسْمَك؟ اِسْمِي ..."
+    },
+    {
+      "id": "z1_name_speak__a1w0",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "הציגו את עצמכם",
+      "body_he": "אמרו בקול: אִסְמִי ואת השם שלכם. סמנו לעצמכם שאמרתם.",
+      "body_content": "اِسْمِي ...",
+      "speak_text": "اِسْمِي إِلْيُوت",
+      "record": true
+    },
+    {
+      "id": "z1_name_speak__a0w0",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "הציגו את עצמכם (בלי שמע)",
+      "body_he": "אמרו בקול: אִסְמִי ואת השם שלכם. סמנו לעצמכם שאמרתם. בלי שמע, כך זה נשמע: אִסְמִי ...",
+      "body_content": "اِسْمِي ...",
+      "record": true
+    },
+    {
+      "id": "z1_chk__a1w0",
+      "type": "check",
+      "kind": "review",
+      "title": "בדיקה",
+      "body_he": "איזו מילה היא אִבְּן (בן)?",
+      "body_content": "أَيّ كَلِمَة؟",
+      "speak_text": "أَيّ كَلِمَة؟",
+      "choices": [
+        {
+          "id": "a",
+          "label": "اِبْن"
+        },
+        {
+          "id": "b",
+          "label": "بِنْت"
+        },
+        {
+          "id": "c",
+          "label": "لَبَن"
+        },
+        {
+          "id": "d",
+          "label": "بَاب"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ا ب ن: אִבְּן.",
+      "feedback_try": "מחפשים ا בהתחלה ו ن בסוף."
+    },
+    {
+      "id": "z1_chk__a0w0",
+      "type": "check",
+      "kind": "review",
+      "title": "בדיקה (בלי שמע)",
+      "body_he": "איזו מילה היא אִבְּן (בן)? בלי שמע, כך זה נשמע: אִבְּן",
+      "body_content": "أَيّ كَلِمَة؟",
+      "choices": [
+        {
+          "id": "a",
+          "label": "اِبْن"
+        },
+        {
+          "id": "b",
+          "label": "بِنْت"
+        },
+        {
+          "id": "c",
+          "label": "لَبَن"
+        },
+        {
+          "id": "d",
+          "label": "بَاب"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ا ب ن: אִבְּן.",
+      "feedback_try": "מחפשים ا בהתחלה ו ن בסוף."
+    },
+    {
+      "id": "z1_chk__a1w1",
+      "type": "check",
+      "kind": "review",
+      "title": "בדיקה (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו מילה היא אִבְּן (בן)?",
+      "body_content": "أَيّ كَلِمَة؟",
+      "speak_text": "أَيّ كَلِمَة؟",
+      "choices": [
+        {
+          "id": "a",
+          "label": "اِبْن"
+        },
+        {
+          "id": "b",
+          "label": "بِنْت"
+        },
+        {
+          "id": "c",
+          "label": "لَبَن"
+        },
+        {
+          "id": "d",
+          "label": "بَاب"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ا ب ن: אִבְּן.",
+      "feedback_try": "מחפשים ا בהתחלה ו ن בסוף."
+    },
+    {
+      "id": "z1_chk__a0w1",
+      "type": "check",
+      "kind": "review",
+      "title": "בדיקה (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו מילה היא אִבְּן (בן)? בלי שמע, כך זה נשמע: אִבְּן",
+      "body_content": "أَيّ كَلِمَة؟",
+      "choices": [
+        {
+          "id": "a",
+          "label": "اِبْن"
+        },
+        {
+          "id": "b",
+          "label": "بِنْت"
+        },
+        {
+          "id": "c",
+          "label": "لَبَن"
+        },
+        {
+          "id": "d",
+          "label": "بَاب"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ا ب ن: אִבְּן.",
+      "feedback_try": "מחפשים ا בהתחלה ו ن בסוף."
+    },
+    {
+      "id": "z2_letters_learn__a1w0",
+      "type": "learn",
+      "kind": "review",
+      "title": "עוד שש אותיות",
+      "body_he": "ي יַא (י, וגם תנועה אִי ארוכה). و וַאו (w, וגם תנועה אוּ ארוכה). س סִין (ס). ر רַא (ר מתגלגלת). د דַּאל (ד). ك כַּאף (כּ, תמיד k).",
+      "body_content": "ي و س ر د ك",
+      "speak_text": "ي و س ر د ك"
+    },
+    {
+      "id": "z2_letters_learn__a0w0",
+      "type": "learn",
+      "kind": "review",
+      "title": "עוד שש אותיות (בלי שמע)",
+      "body_he": "ي יַא (י, וגם תנועה אִי ארוכה). و וַאו (w, וגם תנועה אוּ ארוכה). س סִין (ס). ر רַא (ר מתגלגלת). د דַּאל (ד). ك כַּאף (כּ, תמיד k). בלי שמע, כך זה נשמע: יַא, וַאו, סִין, רַא, דַּאל, כַּאף",
+      "body_content": "ي و س ر د ك"
+    },
+    {
+      "id": "z2_letters_learn__a1w1",
+      "type": "learn",
+      "kind": "review",
+      "title": "עוד שש אותיות (בכתיבה)",
+      "body_he": "ي יַא (י, וגם תנועה אִי ארוכה). و וַאו (w, וגם תנועה אוּ ארוכה). س סִין (ס). ر רַא (ר מתגלגלת). د דַּאל (ד). ك כַּאף (כּ, תמיד k). העתיקו ביד על דף שלוש פעמים.",
+      "body_content": "ي و س ر د ك",
+      "speak_text": "ي و س ر د ك"
+    },
+    {
+      "id": "z2_letters_learn__a0w1",
+      "type": "learn",
+      "kind": "review",
+      "title": "עוד שש אותיות (בלי שמע, בכתיבה)",
+      "body_he": "ي יַא (י, וגם תנועה אִי ארוכה). و וַאו (w, וגם תנועה אוּ ארוכה). س סִין (ס). ر רַא (ר מתגלגלת). د דַּאל (ד). ك כַּאף (כּ, תמיד k). העתיקו ביד על דף שלוש פעמים. בלי שמע, כך זה נשמע: יַא, וַאו, סִין, רַא, דַּאל, כַּאף",
+      "body_content": "ي و س ر د ك"
+    },
+    {
+      "id": "z2_shape_p1__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות?",
+      "body_he": "איזו אות היא ר?",
+      "body_content": "ر د و ز",
+      "speak_text": "ر د و ز",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ر"
+        },
+        {
+          "id": "b",
+          "label": "د"
+        },
+        {
+          "id": "c",
+          "label": "و"
+        },
+        {
+          "id": "d",
+          "label": "ز"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ر יורדת מתחת לשורה.",
+      "feedback_try": "د נשארת על השורה, و יש לה ראש עגול, ز יש לה נקודה. ر: בלי נקודה, יורדת."
+    },
+    {
+      "id": "z2_shape_p1__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות? (בלי שמע)",
+      "body_he": "איזו אות היא ר? בלי שמע, כך זה נשמע: ר",
+      "body_content": "ر د و ز",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ر"
+        },
+        {
+          "id": "b",
+          "label": "د"
+        },
+        {
+          "id": "c",
+          "label": "و"
+        },
+        {
+          "id": "d",
+          "label": "ز"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ر יורדת מתחת לשורה.",
+      "feedback_try": "د נשארת על השורה, و יש לה ראש עגול, ز יש לה נקודה. ر: בלי נקודה, יורדת."
+    },
+    {
+      "id": "z2_shape_p1__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות היא ר?",
+      "body_content": "ر د و ز",
+      "speak_text": "ر د و ز",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ر"
+        },
+        {
+          "id": "b",
+          "label": "د"
+        },
+        {
+          "id": "c",
+          "label": "و"
+        },
+        {
+          "id": "d",
+          "label": "ز"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ر יורדת מתחת לשורה.",
+      "feedback_try": "د נשארת על השורה, و יש לה ראש עגול, ز יש לה נקודה. ر: בלי נקודה, יורדת."
+    },
+    {
+      "id": "z2_shape_p1__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות היא ר? בלי שמע, כך זה נשמע: ר",
+      "body_content": "ر د و ز",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ر"
+        },
+        {
+          "id": "b",
+          "label": "د"
+        },
+        {
+          "id": "c",
+          "label": "و"
+        },
+        {
+          "id": "d",
+          "label": "ز"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ر יורדת מתחת לשורה.",
+      "feedback_try": "د נשארת על השורה, و יש לה ראש עגול, ز יש לה נקודה. ر: בלי נקודה, יורדת."
+    },
+    {
+      "id": "z2_shape_p2__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות?",
+      "body_he": "איזו אות היא ס?",
+      "body_content": "س ش ص ي",
+      "speak_text": "س ش ص ي",
+      "choices": [
+        {
+          "id": "a",
+          "label": "س"
+        },
+        {
+          "id": "b",
+          "label": "ش"
+        },
+        {
+          "id": "c",
+          "label": "ص"
+        },
+        {
+          "id": "d",
+          "label": "ي"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ס: שלוש שיניים בלי נקודות.",
+      "feedback_try": "ش יש לה שלוש נקודות, ص יש לה לולאה. س: שיניים בלי נקודות."
+    },
+    {
+      "id": "z2_shape_p2__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות? (בלי שמע)",
+      "body_he": "איזו אות היא ס? בלי שמע, כך זה נשמע: ס",
+      "body_content": "س ش ص ي",
+      "choices": [
+        {
+          "id": "a",
+          "label": "س"
+        },
+        {
+          "id": "b",
+          "label": "ش"
+        },
+        {
+          "id": "c",
+          "label": "ص"
+        },
+        {
+          "id": "d",
+          "label": "ي"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ס: שלוש שיניים בלי נקודות.",
+      "feedback_try": "ش יש לה שלוש נקודות, ص יש לה לולאה. س: שיניים בלי נקודות."
+    },
+    {
+      "id": "z2_shape_p2__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות היא ס?",
+      "body_content": "س ش ص ي",
+      "speak_text": "س ش ص ي",
+      "choices": [
+        {
+          "id": "a",
+          "label": "س"
+        },
+        {
+          "id": "b",
+          "label": "ش"
+        },
+        {
+          "id": "c",
+          "label": "ص"
+        },
+        {
+          "id": "d",
+          "label": "ي"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ס: שלוש שיניים בלי נקודות.",
+      "feedback_try": "ش יש לה שלוש נקודות, ص יש לה לולאה. س: שיניים בלי נקודות."
+    },
+    {
+      "id": "z2_shape_p2__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות היא ס? בלי שמע, כך זה נשמע: ס",
+      "body_content": "س ش ص ي",
+      "choices": [
+        {
+          "id": "a",
+          "label": "س"
+        },
+        {
+          "id": "b",
+          "label": "ش"
+        },
+        {
+          "id": "c",
+          "label": "ص"
+        },
+        {
+          "id": "d",
+          "label": "ي"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ס: שלוש שיניים בלי נקודות.",
+      "feedback_try": "ش יש לה שלוש נקודות, ص יש לה לולאה. س: שיניים בלי נקודות."
+    },
+    {
+      "id": "z2_sound_p1__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזה צליל?",
+      "body_he": "מה הצליל של האות?",
+      "body_content": "ك",
+      "speak_text": "ك",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כּ (k)"
+        },
+        {
+          "id": "b",
+          "label": "ל"
+        },
+        {
+          "id": "c",
+          "label": "ח"
+        },
+        {
+          "id": "d",
+          "label": "ק עמוקה"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ك היא כּ, תמיד k.",
+      "feedback_try": "ل בלי הקו הקטן בפנים. ك: כּ."
+    },
+    {
+      "id": "z2_sound_p1__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזה צליל? (בלי שמע)",
+      "body_he": "מה הצליל של האות? בלי שמע, כך זה נשמע: כּ",
+      "body_content": "ك",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כּ (k)"
+        },
+        {
+          "id": "b",
+          "label": "ל"
+        },
+        {
+          "id": "c",
+          "label": "ח"
+        },
+        {
+          "id": "d",
+          "label": "ק עמוקה"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ك היא כּ, תמיד k.",
+      "feedback_try": "ل בלי הקו הקטן בפנים. ك: כּ."
+    },
+    {
+      "id": "z2_sound_p1__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזה צליל? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה הצליל של האות?",
+      "body_content": "ك",
+      "speak_text": "ك",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כּ (k)"
+        },
+        {
+          "id": "b",
+          "label": "ל"
+        },
+        {
+          "id": "c",
+          "label": "ח"
+        },
+        {
+          "id": "d",
+          "label": "ק עמוקה"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ك היא כּ, תמיד k.",
+      "feedback_try": "ل בלי הקו הקטן בפנים. ك: כּ."
+    },
+    {
+      "id": "z2_sound_p1__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזה צליל? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה הצליל של האות? בלי שמע, כך זה נשמע: כּ",
+      "body_content": "ك",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כּ (k)"
+        },
+        {
+          "id": "b",
+          "label": "ל"
+        },
+        {
+          "id": "c",
+          "label": "ח"
+        },
+        {
+          "id": "d",
+          "label": "ק עמוקה"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ك היא כּ, תמיד k.",
+      "feedback_try": "ل בלי הקו הקטן בפנים. ك: כּ."
+    },
+    {
+      "id": "z2_nojoin_learn__a1w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אותיות שלא מתחברות לשמאל",
+      "body_he": "ا د ر و לא מתחברות לאות שאחריהן. אחריהן יש רווח קטן בתוך המילה, וזה לא סוף המילה. למשל וַלַד (ילד): و לא מתחברת, ואחריה لد מחוברות.",
+      "body_content": "وَلَد ، دَرْس ، بَيْت",
+      "speak_text": "وَلَد ، دَرْس ، بَيْت"
+    },
+    {
+      "id": "z2_nojoin_learn__a0w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אותיות שלא מתחברות לשמאל (בלי שמע)",
+      "body_he": "ا د ر و לא מתחברות לאות שאחריהן. אחריהן יש רווח קטן בתוך המילה, וזה לא סוף המילה. למשל וַלַד (ילד): و לא מתחברת, ואחריה لد מחוברות. בלי שמע, כך זה נשמע: וַלַד (ילד), דַּרְס (שיעור), בַּיְת (בית)",
+      "body_content": "وَلَد ، دَرْس ، بَيْت"
+    },
+    {
+      "id": "z2_nojoin_learn__a1w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אותיות שלא מתחברות לשמאל (בכתיבה)",
+      "body_he": "ا د ر و לא מתחברות לאות שאחריהן. אחריהן יש רווח קטן בתוך המילה, וזה לא סוף המילה. למשל וַלַד (ילד): و לא מתחברת, ואחריה لد מחוברות. העתיקו ביד על דף שלוש פעמים.",
+      "body_content": "وَلَد ، دَرْس ، بَيْت",
+      "speak_text": "وَلَد ، دَرْس ، بَيْت"
+    },
+    {
+      "id": "z2_nojoin_learn__a0w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אותיות שלא מתחברות לשמאל (בלי שמע, בכתיבה)",
+      "body_he": "ا د ر و לא מתחברות לאות שאחריהן. אחריהן יש רווח קטן בתוך המילה, וזה לא סוף המילה. למשל וַלַד (ילד): و לא מתחברת, ואחריה لد מחוברות. העתיקו ביד על דף שלוש פעמים. בלי שמע, כך זה נשמע: וַלַד (ילד), דַּרְס (שיעור), בַּיְת (בית)",
+      "body_content": "وَلَد ، دَرْس ، بَيْت"
+    },
+    {
+      "id": "z2_nojoin_p1__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מי לא מתחברת?",
+      "body_he": "איזו אות לא מתחברת לאות שאחריה?",
+      "body_content": "د ب ن ت",
+      "speak_text": "د ب ن ت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "د"
+        },
+        {
+          "id": "b",
+          "label": "ب"
+        },
+        {
+          "id": "c",
+          "label": "ن"
+        },
+        {
+          "id": "d",
+          "label": "ت"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "د לא מתחברת שמאלה.",
+      "feedback_try": "ب ت ن מתחברות. ا د ر و לא."
+    },
+    {
+      "id": "z2_nojoin_p1__a0w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מי לא מתחברת? (בלי שמע)",
+      "body_he": "איזו אות לא מתחברת לאות שאחריה? בלי שמע, כך זה נשמע: דּ",
+      "body_content": "د ب ن ت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "د"
+        },
+        {
+          "id": "b",
+          "label": "ب"
+        },
+        {
+          "id": "c",
+          "label": "ن"
+        },
+        {
+          "id": "d",
+          "label": "ت"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "د לא מתחברת שמאלה.",
+      "feedback_try": "ب ت ن מתחברות. ا د ر و לא."
+    },
+    {
+      "id": "z2_nojoin_p1__a1w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מי לא מתחברת? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות לא מתחברת לאות שאחריה?",
+      "body_content": "د ب ن ت",
+      "speak_text": "د ب ن ت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "د"
+        },
+        {
+          "id": "b",
+          "label": "ب"
+        },
+        {
+          "id": "c",
+          "label": "ن"
+        },
+        {
+          "id": "d",
+          "label": "ت"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "د לא מתחברת שמאלה.",
+      "feedback_try": "ب ت ن מתחברות. ا د ر و לא."
+    },
+    {
+      "id": "z2_nojoin_p1__a0w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מי לא מתחברת? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות לא מתחברת לאות שאחריה? בלי שמע, כך זה נשמע: דּ",
+      "body_content": "د ب ن ت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "د"
+        },
+        {
+          "id": "b",
+          "label": "ب"
+        },
+        {
+          "id": "c",
+          "label": "ن"
+        },
+        {
+          "id": "d",
+          "label": "ت"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "د לא מתחברת שמאלה.",
+      "feedback_try": "ب ت ن מתחברות. ا د ر و לא."
+    },
+    {
+      "id": "z2_word_p1__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "קריאת מילה",
+      "body_he": "איך קוראים את המילה?",
+      "body_content": "كِتَاب",
+      "speak_text": "كِتَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כִּתַאבּ"
+        },
+        {
+          "id": "b",
+          "label": "כַּאתִבּ"
+        },
+        {
+          "id": "c",
+          "label": "בִּתַאכּ"
+        },
+        {
+          "id": "d",
+          "label": "כִּנַאבּ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "כִּתַאבּ, ספר.",
+      "feedback_try": "ك ت ا ب: כִּתַאבּ. ا באמצע היא א ארוכה."
+    },
+    {
+      "id": "z2_word_p1__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "קריאת מילה (בלי שמע)",
+      "body_he": "איך קוראים את המילה? בלי שמע, כך זה נשמע: כִּתַאבּ",
+      "body_content": "كِتَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כִּתַאבּ"
+        },
+        {
+          "id": "b",
+          "label": "כַּאתִבּ"
+        },
+        {
+          "id": "c",
+          "label": "בִּתַאכּ"
+        },
+        {
+          "id": "d",
+          "label": "כִּנַאבּ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "כִּתַאבּ, ספר.",
+      "feedback_try": "ك ت ا ب: כִּתַאבּ. ا באמצע היא א ארוכה."
+    },
+    {
+      "id": "z2_word_p1__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "קריאת מילה (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איך קוראים את המילה?",
+      "body_content": "كِتَاب",
+      "speak_text": "كِتَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כִּתַאבּ"
+        },
+        {
+          "id": "b",
+          "label": "כַּאתִבּ"
+        },
+        {
+          "id": "c",
+          "label": "בִּתַאכּ"
+        },
+        {
+          "id": "d",
+          "label": "כִּנַאבּ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "כִּתַאבּ, ספר.",
+      "feedback_try": "ك ت ا ب: כִּתַאבּ. ا באמצע היא א ארוכה."
+    },
+    {
+      "id": "z2_word_p1__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "קריאת מילה (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איך קוראים את המילה? בלי שמע, כך זה נשמע: כִּתַאבּ",
+      "body_content": "كِتَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כִּתַאבּ"
+        },
+        {
+          "id": "b",
+          "label": "כַּאתִבּ"
+        },
+        {
+          "id": "c",
+          "label": "בִּתַאכּ"
+        },
+        {
+          "id": "d",
+          "label": "כִּנַאבּ"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "כִּתַאבּ, ספר.",
+      "feedback_try": "ك ت ا ب: כִּתַאבּ. ا באמצע היא א ארוכה."
+    },
+    {
+      "id": "z2_word_p2__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "מה פירוש המילה?",
+      "body_he": "בחרו תרגום.",
+      "body_content": "وَلَد",
+      "speak_text": "وَلَد",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ילד"
+        },
+        {
+          "id": "b",
+          "label": "יד"
+        },
+        {
+          "id": "c",
+          "label": "בת"
+        },
+        {
+          "id": "d",
+          "label": "שיעור"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "وَلَد, ילד.",
+      "feedback_try": "יד היא يَد, שיעור دَرْس. وَلَد: ילד."
+    },
+    {
+      "id": "z2_word_p2__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "מה פירוש המילה? (בלי שמע)",
+      "body_he": "בחרו תרגום. בלי שמע, כך זה נשמע: וַלַד",
+      "body_content": "وَلَد",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ילד"
+        },
+        {
+          "id": "b",
+          "label": "יד"
+        },
+        {
+          "id": "c",
+          "label": "בת"
+        },
+        {
+          "id": "d",
+          "label": "שיעור"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "وَلَد, ילד.",
+      "feedback_try": "יד היא يَد, שיעור دَرْس. وَلَد: ילד."
+    },
+    {
+      "id": "z2_word_p2__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "מה פירוש המילה? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. בחרו תרגום.",
+      "body_content": "وَلَد",
+      "speak_text": "وَلَد",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ילד"
+        },
+        {
+          "id": "b",
+          "label": "יד"
+        },
+        {
+          "id": "c",
+          "label": "בת"
+        },
+        {
+          "id": "d",
+          "label": "שיעור"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "وَلَد, ילד.",
+      "feedback_try": "יד היא يَد, שיעור دَرْس. وَلَد: ילד."
+    },
+    {
+      "id": "z2_word_p2__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "מה פירוש המילה? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. בחרו תרגום. בלי שמע, כך זה נשמע: וַלַד",
+      "body_content": "وَلَد",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ילד"
+        },
+        {
+          "id": "b",
+          "label": "יד"
+        },
+        {
+          "id": "c",
+          "label": "בת"
+        },
+        {
+          "id": "d",
+          "label": "שיעור"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "وَلَد, ילד.",
+      "feedback_try": "יד היא يَد, שיעור دَرْس. وَلَد: ילד."
+    },
+    {
+      "id": "z2_how_learn__a1w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מה שלומך?",
+      "body_he": "בערבית מדוברת שואלים כִּיפַכּ? (לגבר) או כִּיפֵכּ? (לאישה). עונים מְנִיח (טוב) או מְנִיחַה (לאישה), ומוסיפים אַלְחַמְדֻלִלַּה.",
+      "body_content": "كِيفَك؟ مْنِيح، الْحَمْدُ لِلّه",
+      "speak_text": "كِيفَك؟ مْنِيح، الْحَمْدُ لِلّه"
+    },
+    {
+      "id": "z2_how_learn__a0w0",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מה שלומך? (בלי שמע)",
+      "body_he": "בערבית מדוברת שואלים כִּיפַכּ? (לגבר) או כִּיפֵכּ? (לאישה). עונים מְנִיח (טוב) או מְנִיחַה (לאישה), ומוסיפים אַלְחַמְדֻלִלַּה. בלי שמע, כך זה נשמע: כִּיפַכּ? מְנִיח, אַלְחַמְדֻלִלַּה",
+      "body_content": "كِيفَك؟ مْنِيح، الْحَمْدُ لِلّه"
+    },
+    {
+      "id": "z2_how_learn__a1w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מה שלומך? (בכתיבה)",
+      "body_he": "בערבית מדוברת שואלים כִּיפַכּ? (לגבר) או כִּיפֵכּ? (לאישה). עונים מְנִיח (טוב) או מְנִיחַה (לאישה), ומוסיפים אַלְחַמְדֻלִלַּה. העתיקו ביד על דף שלוש פעמים.",
+      "body_content": "كِيفَك؟ مْنِيح، الْحَمْدُ لِلّه",
+      "speak_text": "كِيفَك؟ مْنِيح، الْحَمْدُ لِلّه"
+    },
+    {
+      "id": "z2_how_learn__a0w1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מה שלומך? (בלי שמע, בכתיבה)",
+      "body_he": "בערבית מדוברת שואלים כִּיפַכּ? (לגבר) או כִּיפֵכּ? (לאישה). עונים מְנִיח (טוב) או מְנִיחַה (לאישה), ומוסיפים אַלְחַמְדֻלִלַּה. העתיקו ביד על דף שלוש פעמים. בלי שמע, כך זה נשמע: כִּיפַכּ? מְנִיח, אַלְחַמְדֻלִלַּה",
+      "body_content": "كِيفَك؟ مْنِيح، الْحَمْدُ لِلّه"
+    },
+    {
+      "id": "z2_how_speak__a1w0",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "שיחה קצרה",
+      "body_he": "אמרו בקול שאלה ותשובה: כִּיפַכּ? מְנִיח, אַלְחַמְדֻלִלַּה. סמנו לעצמכם שאמרתם.",
+      "body_content": "كِيفَك؟ مْنِيح، الْحَمْدُ لِلّه",
+      "speak_text": "كِيفَك؟ مْنِيح، الْحَمْدُ لِلّه",
+      "record": true
+    },
+    {
+      "id": "z2_how_speak__a0w0",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "שיחה קצרה (בלי שמע)",
+      "body_he": "אמרו בקול שאלה ותשובה: כִּיפַכּ? מְנִיח, אַלְחַמְדֻלִלַּה. סמנו לעצמכם שאמרתם. בלי שמע, כך זה נשמע: כִּיפַכּ? מְנִיח, אַלְחַמְדֻלִלַּה",
+      "body_content": "كِيفَك؟ مْنِيح، الْحَمْدُ لِلّه",
+      "record": true
+    },
+    {
+      "id": "z2_how_p1__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה עונים?",
+      "body_he": "שואלים אתכם כִּיפַכּ? מה עונים?",
+      "body_content": "كِيفَك؟",
+      "speak_text": "كِيفَك؟",
+      "choices": [
+        {
+          "id": "a",
+          "label": "مْنِيح"
+        },
+        {
+          "id": "b",
+          "label": "اِسْمِي دَان"
+        },
+        {
+          "id": "c",
+          "label": "مَرْحَبًا"
+        },
+        {
+          "id": "d",
+          "label": "شُكْرًا"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מְנִיח: טוב.",
+      "feedback_try": "כִּיפַכּ היא מה שלומך. עונים מְנִיח."
+    },
+    {
+      "id": "z2_how_p1__a0w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה עונים? (בלי שמע)",
+      "body_he": "שואלים אתכם כִּיפַכּ? מה עונים? בלי שמע, כך זה נשמע: כִּיפַכּ?",
+      "body_content": "كِيفَك؟",
+      "choices": [
+        {
+          "id": "a",
+          "label": "مْنِيح"
+        },
+        {
+          "id": "b",
+          "label": "اِسْمِي دَان"
+        },
+        {
+          "id": "c",
+          "label": "مَرْحَبًا"
+        },
+        {
+          "id": "d",
+          "label": "شُكْرًا"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מְנִיח: טוב.",
+      "feedback_try": "כִּיפַכּ היא מה שלומך. עונים מְנִיח."
+    },
+    {
+      "id": "z2_how_p1__a1w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה עונים? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. שואלים אתכם כִּיפַכּ? מה עונים?",
+      "body_content": "كِيفَك؟",
+      "speak_text": "كِيفَك؟",
+      "choices": [
+        {
+          "id": "a",
+          "label": "مْنِيح"
+        },
+        {
+          "id": "b",
+          "label": "اِسْمِي دَان"
+        },
+        {
+          "id": "c",
+          "label": "مَرْحَبًا"
+        },
+        {
+          "id": "d",
+          "label": "شُكْرًا"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מְנִיח: טוב.",
+      "feedback_try": "כִּיפַכּ היא מה שלומך. עונים מְנִיח."
+    },
+    {
+      "id": "z2_how_p1__a0w1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה עונים? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. שואלים אתכם כִּיפַכּ? מה עונים? בלי שמע, כך זה נשמע: כִּיפַכּ?",
+      "body_content": "كِيفَك؟",
+      "choices": [
+        {
+          "id": "a",
+          "label": "مْنِيح"
+        },
+        {
+          "id": "b",
+          "label": "اِسْمِي دَان"
+        },
+        {
+          "id": "c",
+          "label": "مَرْحَبًا"
+        },
+        {
+          "id": "d",
+          "label": "شُكْرًا"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מְנִיח: טוב.",
+      "feedback_try": "כִּיפַכּ היא מה שלומך. עונים מְנִיח."
+    },
+    {
+      "id": "z_rev_learn__a1w0",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "שתים עשרה אותיות עד עכשיו. ב ת נ י נבדלות רק בנקודות. ا د ر و לא מתחברות שמאלה.",
+      "body_content": "ا ب ت ن م ل ي و س ر د ك",
+      "speak_text": "ا ب ت ن م ل ي و س ر د ك",
+      "review_topic_ids": [
+        "s1_letters",
+        "s2_letters"
+      ]
+    },
+    {
+      "id": "z_rev_learn__a0w0",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה (בלי שמע)",
+      "body_he": "שתים עשרה אותיות עד עכשיו. ב ת נ י נבדלות רק בנקודות. ا د ر و לא מתחברות שמאלה. בלי שמע, כך זה נשמע: אַלִף, בַּא, תַּא, נוּן, מִים, לַאם, יַא, וַאו, סִין, רַא, דַּאל, כַּאף",
+      "body_content": "ا ب ت ن م ل ي و س ر د ك",
+      "review_topic_ids": [
+        "s1_letters",
+        "s2_letters"
+      ]
+    },
+    {
+      "id": "z_rev_learn__a1w1",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה (בכתיבה)",
+      "body_he": "שתים עשרה אותיות עד עכשיו. ב ת נ י נבדלות רק בנקודות. ا د ر و לא מתחברות שמאלה. העתיקו ביד על דף שלוש פעמים.",
+      "body_content": "ا ب ت ن م ل ي و س ر د ك",
+      "speak_text": "ا ب ت ن م ل ي و س ر د ك",
+      "review_topic_ids": [
+        "s1_letters",
+        "s2_letters"
+      ]
+    },
+    {
+      "id": "z_rev_learn__a0w1",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה (בלי שמע, בכתיבה)",
+      "body_he": "שתים עשרה אותיות עד עכשיו. ב ת נ י נבדלות רק בנקודות. ا د ر و לא מתחברות שמאלה. העתיקו ביד על דף שלוש פעמים. בלי שמע, כך זה נשמע: אַלִף, בַּא, תַּא, נוּן, מִים, לַאם, יַא, וַאו, סִין, רַא, דַּאל, כַּאף",
+      "body_content": "ا ب ت ن م ل ي و س ر د ك",
+      "review_topic_ids": [
+        "s1_letters",
+        "s2_letters"
+      ]
+    },
+    {
+      "id": "z_rev_p1__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: איזו אות?",
+      "body_he": "איזו אות היא ת?",
+      "body_content": "ت ث ب ن",
+      "speak_text": "ت ث ب ن",
+      "review_topic_ids": [
+        "s1_letters"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "ت"
+        },
+        {
+          "id": "b",
+          "label": "ث"
+        },
+        {
+          "id": "c",
+          "label": "ب"
+        },
+        {
+          "id": "d",
+          "label": "ن"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ת: שתי נקודות למעלה.",
+      "feedback_try": "ث שלוש נקודות. ت שתיים."
+    },
+    {
+      "id": "z_rev_p1__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: איזו אות? (בלי שמע)",
+      "body_he": "איזו אות היא ת? בלי שמע, כך זה נשמע: תּ",
+      "body_content": "ت ث ب ن",
+      "review_topic_ids": [
+        "s1_letters"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "ت"
+        },
+        {
+          "id": "b",
+          "label": "ث"
+        },
+        {
+          "id": "c",
+          "label": "ب"
+        },
+        {
+          "id": "d",
+          "label": "ن"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ת: שתי נקודות למעלה.",
+      "feedback_try": "ث שלוש נקודות. ت שתיים."
+    },
+    {
+      "id": "z_rev_p1__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: איזו אות? (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות היא ת?",
+      "body_content": "ت ث ب ن",
+      "speak_text": "ت ث ب ن",
+      "review_topic_ids": [
+        "s1_letters"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "ت"
+        },
+        {
+          "id": "b",
+          "label": "ث"
+        },
+        {
+          "id": "c",
+          "label": "ب"
+        },
+        {
+          "id": "d",
+          "label": "ن"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ת: שתי נקודות למעלה.",
+      "feedback_try": "ث שלוש נקודות. ت שתיים."
+    },
+    {
+      "id": "z_rev_p1__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: איזו אות? (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איזו אות היא ת? בלי שמע, כך זה נשמע: תּ",
+      "body_content": "ت ث ب ن",
+      "review_topic_ids": [
+        "s1_letters"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "ت"
+        },
+        {
+          "id": "b",
+          "label": "ث"
+        },
+        {
+          "id": "c",
+          "label": "ب"
+        },
+        {
+          "id": "d",
+          "label": "ن"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ת: שתי נקודות למעלה.",
+      "feedback_try": "ث שלוש נקודות. ت שתיים."
+    },
+    {
+      "id": "z_rev_p2__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: מילה",
+      "body_he": "איך קוראים את המילה?",
+      "body_content": "بَيْت",
+      "speak_text": "بَيْت",
+      "review_topic_ids": [
+        "s1_letters",
+        "s2_letters"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "בַּיְת"
+        },
+        {
+          "id": "b",
+          "label": "בִּנְת"
+        },
+        {
+          "id": "c",
+          "label": "תַּיְבּ"
+        },
+        {
+          "id": "d",
+          "label": "נַיְת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בַּיְת, בית.",
+      "feedback_try": "ب ي ت: ב, י, ת. בִּנְת היא بِنْت."
+    },
+    {
+      "id": "z_rev_p2__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: מילה (בלי שמע)",
+      "body_he": "איך קוראים את המילה? בלי שמע, כך זה נשמע: בַּיְת",
+      "body_content": "بَيْت",
+      "review_topic_ids": [
+        "s1_letters",
+        "s2_letters"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "בַּיְת"
+        },
+        {
+          "id": "b",
+          "label": "בִּנְת"
+        },
+        {
+          "id": "c",
+          "label": "תַּיְבּ"
+        },
+        {
+          "id": "d",
+          "label": "נַיְת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בַּיְת, בית.",
+      "feedback_try": "ب ي ت: ב, י, ת. בִּנְת היא بِنْت."
+    },
+    {
+      "id": "z_rev_p2__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: מילה (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איך קוראים את המילה?",
+      "body_content": "بَيْت",
+      "speak_text": "بَيْت",
+      "review_topic_ids": [
+        "s1_letters",
+        "s2_letters"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "בַּיְת"
+        },
+        {
+          "id": "b",
+          "label": "בִּנְת"
+        },
+        {
+          "id": "c",
+          "label": "תַּיְבּ"
+        },
+        {
+          "id": "d",
+          "label": "נַיְת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בַּיְת, בית.",
+      "feedback_try": "ب ي ت: ב, י, ת. בִּנְת היא بِنْت."
+    },
+    {
+      "id": "z_rev_p2__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: מילה (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. איך קוראים את המילה? בלי שמע, כך זה נשמע: בַּיְת",
+      "body_content": "بَيْت",
+      "review_topic_ids": [
+        "s1_letters",
+        "s2_letters"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "בַּיְת"
+        },
+        {
+          "id": "b",
+          "label": "בִּנְת"
+        },
+        {
+          "id": "c",
+          "label": "תַּיְבּ"
+        },
+        {
+          "id": "d",
+          "label": "נַיְת"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "בַּיְת, בית.",
+      "feedback_try": "ب ي ت: ב, י, ת. בִּנְת היא بِنْت."
+    },
+    {
+      "id": "z_rev_p3__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: בדיבור",
+      "body_he": "מה אומרים כשנפגשים?",
+      "body_content": "أَيّ كَلِمَة؟",
+      "speak_text": "أَيّ كَلِمَة؟",
+      "review_topic_ids": [
+        "s0_start"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "مَرْحَبًا"
+        },
+        {
+          "id": "b",
+          "label": "مْنِيح"
+        },
+        {
+          "id": "c",
+          "label": "اِسْمِي"
+        },
+        {
+          "id": "d",
+          "label": "لَبَن"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מַרְחַבַּא, שלום.",
+      "feedback_try": "שלום זה מַרְחַבַּא."
+    },
+    {
+      "id": "z_rev_p3__a0w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: בדיבור (בלי שמע)",
+      "body_he": "מה אומרים כשנפגשים? בלי שמע, כך זה נשמע: מַרְחַבַּא",
+      "body_content": "أَيّ كَلِمَة؟",
+      "review_topic_ids": [
+        "s0_start"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "مَرْحَبًا"
+        },
+        {
+          "id": "b",
+          "label": "مْنِيح"
+        },
+        {
+          "id": "c",
+          "label": "اِسْمِي"
+        },
+        {
+          "id": "d",
+          "label": "لَبَن"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מַרְחַבַּא, שלום.",
+      "feedback_try": "שלום זה מַרְחַבַּא."
+    },
+    {
+      "id": "z_rev_p3__a1w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: בדיבור (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה אומרים כשנפגשים?",
+      "body_content": "أَيّ كَلِمَة؟",
+      "speak_text": "أَيّ كَلِمَة؟",
+      "review_topic_ids": [
+        "s0_start"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "مَرْحَبًا"
+        },
+        {
+          "id": "b",
+          "label": "مْنِيح"
+        },
+        {
+          "id": "c",
+          "label": "اِسْمِي"
+        },
+        {
+          "id": "d",
+          "label": "لَبَن"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מַרְחַבַּא, שלום.",
+      "feedback_try": "שלום זה מַרְחַבַּא."
+    },
+    {
+      "id": "z_rev_p3__a0w1",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: בדיבור (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה אומרים כשנפגשים? בלי שמע, כך זה נשמע: מַרְחַבַּא",
+      "body_content": "أَيّ كَلِمَة؟",
+      "review_topic_ids": [
+        "s0_start"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "مَرْحَبًا"
+        },
+        {
+          "id": "b",
+          "label": "مْنِيح"
+        },
+        {
+          "id": "c",
+          "label": "اِسْمِي"
+        },
+        {
+          "id": "d",
+          "label": "لَبَن"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מַרְחַבַּא, שלום.",
+      "feedback_try": "שלום זה מַרְחַבַּא."
+    },
+    {
+      "id": "z_rev_chk__a1w0",
+      "type": "check",
+      "kind": "review",
+      "title": "בדיקת סוף שלב 2",
+      "body_he": "מה פירוש המילה?",
+      "body_content": "دَرْس",
+      "speak_text": "دَرْس",
+      "review_topic_ids": [
+        "s2_letters"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "שיעור"
+        },
+        {
+          "id": "b",
+          "label": "דלת"
+        },
+        {
+          "id": "c",
+          "label": "ילד"
+        },
+        {
+          "id": "d",
+          "label": "בית"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "دَرْس, שיעור.",
+      "feedback_try": "د ر س: דַּרְס, שיעור."
+    },
+    {
+      "id": "z_rev_chk__a0w0",
+      "type": "check",
+      "kind": "review",
+      "title": "בדיקת סוף שלב 2 (בלי שמע)",
+      "body_he": "מה פירוש המילה? בלי שמע, כך זה נשמע: דַּרְס",
+      "body_content": "دَرْس",
+      "review_topic_ids": [
+        "s2_letters"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "שיעור"
+        },
+        {
+          "id": "b",
+          "label": "דלת"
+        },
+        {
+          "id": "c",
+          "label": "ילד"
+        },
+        {
+          "id": "d",
+          "label": "בית"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "دَرْس, שיעור.",
+      "feedback_try": "د ر س: דַּרְס, שיעור."
+    },
+    {
+      "id": "z_rev_chk__a1w1",
+      "type": "check",
+      "kind": "review",
+      "title": "בדיקת סוף שלב 2 (בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה פירוש המילה?",
+      "body_content": "دَرْس",
+      "speak_text": "دَرْس",
+      "review_topic_ids": [
+        "s2_letters"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "שיעור"
+        },
+        {
+          "id": "b",
+          "label": "דלת"
+        },
+        {
+          "id": "c",
+          "label": "ילד"
+        },
+        {
+          "id": "d",
+          "label": "בית"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "دَرْس, שיעור.",
+      "feedback_try": "د ر س: דַּרְס, שיעור."
+    },
+    {
+      "id": "z_rev_chk__a0w1",
+      "type": "check",
+      "kind": "review",
+      "title": "בדיקת סוף שלב 2 (בלי שמע, בכתיבה)",
+      "body_he": "קודם כתבו ביד על דף. מה פירוש המילה? בלי שמע, כך זה נשמע: דַּרְס",
+      "body_content": "دَرْس",
+      "review_topic_ids": [
+        "s2_letters"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "שיעור"
+        },
+        {
+          "id": "b",
+          "label": "דלת"
+        },
+        {
+          "id": "c",
+          "label": "ילד"
+        },
+        {
+          "id": "d",
+          "label": "בית"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "دَرْس, שיעור.",
+      "feedback_try": "د ر س: דַּרְס, שיעור."
+    },
+    {
+      "id": "z_done",
+      "type": "celebrate",
+      "kind": "understanding",
+      "title": "שלב 2 הושלם",
+      "body_he": "קראתם את המילים הראשונות שלכם בערבית ואמרתם שלום, שם ומה שלומך. השלב הבא: אותיות בלי מקבילה בעברית.",
+      "body_content": "أَحْسَنْت!"
+    }
+  ]
+}
