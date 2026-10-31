@@ -127,8 +127,8 @@
     {
       "id": "t_end",
       "titles": {
-        "he": "סיום",
-        "en": "End"
+        "he": "בדיקה",
+        "en": "Check"
       },
       "emoji": "✓",
       "node_ids": [
@@ -201,7 +201,7 @@
       "type": "learn",
       "kind": "understanding",
       "title": "חיבור דעה",
-      "body_he": "120 עד 140 מילים. פתיחה עם דעה, שתי סיבות, ומשפט סיום. לא מתחילים ב-Because.",
+      "body_he": "120 עד 140 מילים. פתיחה עם דעה, שתי סיבות, ומשפט סיום. לא מתחילים בBecause.",
       "body_content": "In my opinion, a shared workshop should charge a small fee."
     },
     {
@@ -329,7 +329,7 @@
       "id": "g_rev1_q",
       "type": "practice",
       "kind": "review",
-      "title": "חזרה",
+      "title": "תרגול",
       "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "Choose a reason, not a repeat.",
       "review_topic_ids": [
@@ -546,7 +546,7 @@
       "id": "g_rev2_q",
       "type": "practice",
       "kind": "review",
-      "title": "חזרה",
+      "title": "תרגול",
       "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "Which workshops lasted?",
       "review_topic_ids": [
@@ -601,7 +601,7 @@
       "id": "g_celebrate",
       "type": "celebrate",
       "kind": "understanding",
-      "title": "סוף הדרך",
+      "title": "סיום דרך",
       "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
       "body_content": "This road is done."
     }

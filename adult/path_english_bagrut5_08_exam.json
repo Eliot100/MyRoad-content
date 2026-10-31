@@ -126,8 +126,8 @@
     {
       "id": "t_end",
       "titles": {
-        "he": "סיום",
-        "en": "End"
+        "he": "בדיקה",
+        "en": "Check"
       },
       "emoji": "✓",
       "node_ids": [
@@ -287,7 +287,7 @@
       "id": "ex_rev1_q",
       "type": "practice",
       "kind": "review",
-      "title": "חזרה",
+      "title": "תרגול",
       "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "Choose the essay shape.",
       "review_topic_ids": [
@@ -504,7 +504,7 @@
       "id": "ex_rev2_q",
       "type": "practice",
       "kind": "review",
-      "title": "חזרה",
+      "title": "תרגול",
       "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "higher price means",
       "review_topic_ids": [
@@ -559,7 +559,7 @@
       "id": "ex_celebrate",
       "type": "celebrate",
       "kind": "understanding",
-      "title": "סוף הדרך",
+      "title": "סיום דרך",
       "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
       "body_content": "This road is done."
     }

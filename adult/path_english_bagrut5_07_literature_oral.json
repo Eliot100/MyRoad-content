@@ -127,8 +127,8 @@
     {
       "id": "t_end",
       "titles": {
-        "he": "סיום",
-        "en": "End"
+        "he": "בדיקה",
+        "en": "Check"
       },
       "emoji": "✓",
       "node_ids": [
@@ -297,7 +297,7 @@
       "id": "lit_rev1_q",
       "type": "practice",
       "kind": "review",
-      "title": "חזרה",
+      "title": "תרגול",
       "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "What changes in the story?",
       "review_topic_ids": [
@@ -482,7 +482,7 @@
       "id": "lit_rev2_q",
       "type": "practice",
       "kind": "review",
-      "title": "חזרה",
+      "title": "תרגול",
       "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "What do the stairs do?",
       "review_topic_ids": [
@@ -537,7 +537,7 @@
       "id": "lit_celebrate",
       "type": "celebrate",
       "kind": "understanding",
-      "title": "סוף הדרך",
+      "title": "סיום דרך",
       "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
       "body_content": "This road is done."
     }

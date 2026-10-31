@@ -6,7 +6,7 @@
     "ar": "الحروف الأولى"
   },
   "blurbs": {
-    "he": "אותיות, צלילים, ומשפט עם am, is, are. זו הדרך שנפתחת כשהמבדק מראה בסיס רופף.",
+    "he": "אותיות, צלילים, ומשפט עם am, is, are. זו הדרך שנפתחת כשהמבדק מראה שהפער מתחיל כאן.",
     "en": "Letters, sounds, and am, is, are.",
     "ar": "حروف وأصوات وجملة مع am و is و are."
   },
@@ -76,7 +76,7 @@
     {
       "id": "t_you",
       "titles": {
-        "he": "you ו-we",
+        "he": "you וwe",
         "en": "you and we"
       },
       "emoji": "ד",
@@ -127,8 +127,8 @@
     {
       "id": "t_end",
       "titles": {
-        "he": "סיום",
-        "en": "End"
+        "he": "בדיקה",
+        "en": "Check"
       },
       "emoji": "✓",
       "node_ids": [
@@ -329,7 +329,7 @@
       "id": "z_rev1_q",
       "type": "practice",
       "kind": "review",
-      "title": "חזרה",
+      "title": "תרגול",
       "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "I ___ a student.",
       "review_topic_ids": [
@@ -359,7 +359,7 @@
       "id": "z_t_you_learn",
       "type": "learn",
       "kind": "understanding",
-      "title": "you ו-we",
+      "title": "you וwe",
       "body_he": "you, we, they הולכים עם are. לא עם am.",
       "body_content": "You are ready. We are here."
     },
@@ -444,7 +444,7 @@
       ],
       "correct": "a",
       "feedback_ok": "sun.",
-      "feedback_try": "bus מתחיל ב-b."
+      "feedback_try": "bus מתחיל באות b."
     },
     {
       "id": "z_t_word_p2",
@@ -452,7 +452,7 @@
       "kind": "understanding",
       "title": "אות",
       "body_he": "איזו אות חסרה?",
-      "body_content": "c_t",
+      "body_content": "c_t: a small pet that says meow",
       "choices": [
         {
           "id": "a",
@@ -464,12 +464,12 @@
         },
         {
           "id": "c",
-          "label": "e"
+          "label": "u"
         }
       ],
       "correct": "a",
       "feedback_ok": "cat.",
-      "feedback_try": "המילה הקצרה היא cat."
+      "feedback_try": "cot היא מיטה וcut הוא חיתוך. החיה היא cat."
     },
     {
       "id": "z_t_sent_learn",
@@ -546,7 +546,7 @@
       "id": "z_rev2_q",
       "type": "practice",
       "kind": "review",
-      "title": "חזרה",
+      "title": "תרגול",
       "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "You ___ ready.",
       "review_topic_ids": [
@@ -570,7 +570,7 @@
       ],
       "correct": "a",
       "feedback_ok": "You are.",
-      "feedback_try": "am שייך רק ל-I."
+      "feedback_try": "am שייך רק לI."
     },
     {
       "id": "z_final_check",
@@ -601,7 +601,7 @@
       "id": "z_celebrate",
       "type": "celebrate",
       "kind": "understanding",
-      "title": "סוף הדרך",
+      "title": "סיום דרך",
       "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
       "body_content": "This road is done."
     }

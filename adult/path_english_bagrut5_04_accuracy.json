@@ -6,8 +6,8 @@
     "ar": "الدقة"
   },
   "blurbs": {
-    "he": "a ו-the, סדר מילים, Present Perfect מול עבר, ותנאי ראשון.",
-    "en": "Articles, word order, perfect versus past, and the first conditional.",
+    "he": "מילות יידוע, זמן סגור מול זמן פתוח, תנאי ראשון, סדר מילים, for וsince. זו הדרך שנפתחת כשבנושא הדיוק במבדק היו שתי טעויות.",
+    "en": "Articles, perfect versus past, the first conditional, word order, for and since.",
     "ar": "أدوات التعريف، وترتيب الكلمات، والشرط الأول."
   },
   "subject": "english",
@@ -25,40 +25,43 @@
     {
       "id": "t_art",
       "titles": {
-        "he": "a ו-the",
+        "he": "a וthe",
         "en": "a and the"
       },
       "emoji": "א",
       "node_ids": [
         "ac_t_art_learn",
         "ac_t_art_p1",
-        "ac_t_art_p2"
+        "ac_t_art_p2",
+        "ac_t_art_p3"
       ]
     },
     {
       "id": "t_perf",
       "titles": {
-        "he": "Perfect מול עבר",
+        "he": "זמן פתוח וזמן סגור",
         "en": "Perfect and past"
       },
       "emoji": "ב",
       "node_ids": [
         "ac_t_perf_learn",
         "ac_t_perf_p1",
-        "ac_t_perf_p2"
+        "ac_t_perf_p2",
+        "ac_t_perf_p3"
       ]
     },
     {
       "id": "t_if",
       "titles": {
-        "he": "תנאי וסדר",
-        "en": "Conditional and order"
+        "he": "תנאי ראשון",
+        "en": "First conditional"
       },
       "emoji": "ג",
       "node_ids": [
         "ac_t_if_learn",
         "ac_t_if_p1",
-        "ac_t_if_p2"
+        "ac_t_if_p2",
+        "ac_t_if_p3"
       ]
     },
     {
@@ -83,33 +86,36 @@
       "node_ids": [
         "ac_t_an_learn",
         "ac_t_an_p1",
-        "ac_t_an_p2"
+        "ac_t_an_p2",
+        "ac_t_an_p3"
       ]
     },
     {
       "id": "t_order",
       "titles": {
-        "he": "סדר",
+        "he": "סדר מילים",
         "en": "Word order"
       },
       "emoji": "ה",
       "node_ids": [
         "ac_t_order_learn",
         "ac_t_order_p1",
-        "ac_t_order_p2"
+        "ac_t_order_p2",
+        "ac_t_order_p3"
       ]
     },
     {
       "id": "t_for",
       "titles": {
-        "he": "for ו-since",
+        "he": "for וsince",
         "en": "for and since"
       },
       "emoji": "ו",
       "node_ids": [
         "ac_t_for_learn",
         "ac_t_for_p1",
-        "ac_t_for_p2"
+        "ac_t_for_p2",
+        "ac_t_for_p3"
       ]
     },
     {
@@ -127,8 +133,8 @@
     {
       "id": "t_end",
       "titles": {
-        "he": "סיום",
-        "en": "End"
+        "he": "בדיקה",
+        "en": "Check"
       },
       "emoji": "✓",
       "node_ids": [
@@ -142,9 +148,9 @@
       "id": "ac_t_art_learn",
       "type": "learn",
       "kind": "understanding",
-      "title": "a ו-the",
-      "body_he": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר.",
-      "body_content": "I saw a bird. The bird was blue."
+      "title": "a וthe",
+      "body_he": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
+      "body_content": "I saw a bird. The bird was blue. Birds need water."
     },
     {
       "id": "ac_t_art_p1",
@@ -169,7 +175,7 @@
       ],
       "correct": "a",
       "feedback_ok": "a bird.",
-      "feedback_try": "the כשמדובר בציפור שכבר הזכרנו."
+      "feedback_try": "the מתאים לציפור שכבר הזכרנו."
     },
     {
       "id": "ac_t_art_p2",
@@ -197,11 +203,36 @@
       "feedback_try": "אחרי שהזכרנו, The."
     },
     {
+      "id": "ac_t_art_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "בלי מילה",
+      "body_he": "דבר כללי ברבים.",
+      "body_content": "Choose the sentence about all dogs, not one group.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Dogs need water."
+        },
+        {
+          "id": "b",
+          "label": "The dogs need water."
+        },
+        {
+          "id": "c",
+          "label": "A dogs need water."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "על כלבים בכלל לא שמים מילת יידוע.",
+      "feedback_try": "a לא בא לפני רבים. the מצביע על כלבים מסוימים."
+    },
+    {
       "id": "ac_t_perf_learn",
       "type": "learn",
       "kind": "understanding",
-      "title": "Perfect מול עבר",
-      "body_he": "have ועבר שלישי כשאין זמן סגור. זמן כמו yesterday דורש עבר רגיל.",
+      "title": "זמן פתוח וזמן סגור",
+      "body_he": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
       "body_content": "I have seen this film. I saw it yesterday."
     },
     {
@@ -218,48 +249,73 @@
         },
         {
           "id": "b",
-          "label": "saw"
+          "label": "seen"
         },
         {
           "id": "c",
-          "label": "seen"
+          "label": "has seen"
         }
       ],
       "correct": "a",
       "feedback_ok": "have seen.",
-      "feedback_try": "saw צריך זמן כמו yesterday."
+      "feedback_try": "seen לבד אינו פועל שלם, וhas הולך עם he או she."
     },
     {
       "id": "ac_t_perf_p2",
       "type": "practice",
       "kind": "understanding",
-      "title": "אתמול",
-      "body_he": "זמן סגור.",
-      "body_content": "I ___ it yesterday.",
+      "title": "זמן סגור",
+      "body_he": "זמן שנגמר.",
+      "body_content": "We ___ to Eilat in 2019.",
       "choices": [
         {
           "id": "a",
-          "label": "have seen"
+          "label": "went"
         },
         {
           "id": "b",
-          "label": "saw"
+          "label": "have gone"
         },
         {
           "id": "c",
-          "label": "seen"
+          "label": "have went"
         }
       ],
-      "correct": "b",
-      "feedback_ok": "saw yesterday.",
-      "feedback_try": "עם yesterday לא משתמשים ב-have."
+      "correct": "a",
+      "feedback_ok": "went.",
+      "feedback_try": "שנה שנגמרה סוגרת את הזמן, לכן עבר רגיל."
+    },
+    {
+      "id": "ac_t_perf_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד לא",
+      "body_he": "שאלה עד עכשיו.",
+      "body_content": "___ you ever eaten sushi?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Have"
+        },
+        {
+          "id": "b",
+          "label": "Did"
+        },
+        {
+          "id": "c",
+          "label": "Has"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Have you ever eaten.",
+      "feedback_try": "ever עד עכשיו הולך עם Have. Has הולך עם he או she."
     },
     {
       "id": "ac_t_if_learn",
       "type": "learn",
       "kind": "understanding",
-      "title": "תנאי וסדר",
-      "body_he": "If ועתיד אפשרי: will. always לפני הפועל.",
+      "title": "תנאי ראשון",
+      "body_he": "אחרי if בא הווה. בחלק של התוצאה בא will.",
       "body_content": "If it rains, we will stay home."
     },
     {
@@ -285,32 +341,57 @@
       ],
       "correct": "a",
       "feedback_ok": "will stay.",
-      "feedback_try": "אם אפשרי עכשיו: will."
+      "feedback_try": "אם זה אפשרי, בחלק השני בא will."
     },
     {
       "id": "ac_t_if_p2",
       "type": "practice",
       "kind": "understanding",
-      "title": "סדר",
-      "body_he": "סדר מילים.",
-      "body_content": "Which order is English?",
+      "title": "אחרי if",
+      "body_he": "מה בא אחרי if?",
+      "body_content": "If she ___ early, she will call.",
       "choices": [
         {
           "id": "a",
-          "label": "I always drink water."
+          "label": "finishes"
         },
         {
           "id": "b",
-          "label": "I drink always water."
+          "label": "will finish"
         },
         {
           "id": "c",
-          "label": "Always I drink water the."
+          "label": "finished"
         }
       ],
       "correct": "a",
-      "feedback_ok": "always לפני הפועל.",
-      "feedback_try": "always לא נכנס בין הפועל למושא."
+      "feedback_ok": "If she finishes.",
+      "feedback_try": "אחרי if לא שמים will. ההווה מספיק."
+    },
+    {
+      "id": "ac_t_if_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סדר",
+      "body_he": "אפשר להתחיל בכל חלק.",
+      "body_content": "Choose the correct sentence.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "We will stay home if it rains."
+        },
+        {
+          "id": "b",
+          "label": "We stay home if it will rain."
+        },
+        {
+          "id": "c",
+          "label": "If it rains, we stayed home."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "will בחלק של התוצאה.",
+      "feedback_try": "will לא נכנס לחלק של if."
     },
     {
       "id": "ac_rev1_learn",
@@ -329,9 +410,9 @@
       "id": "ac_rev1_q",
       "type": "practice",
       "kind": "review",
-      "title": "חזרה",
+      "title": "תרגול",
       "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
-      "body_content": "I ___ this film yesterday.",
+      "body_content": "She bought ___ umbrella. ___ umbrella was red.",
       "review_topic_ids": [
         "t_art",
         "t_perf",
@@ -340,27 +421,27 @@
       "choices": [
         {
           "id": "a",
-          "label": "saw"
+          "label": "an, The"
         },
         {
           "id": "b",
-          "label": "have seen"
+          "label": "a, An"
         },
         {
           "id": "c",
-          "label": "seen"
+          "label": "the, A"
         }
       ],
       "correct": "a",
-      "feedback_ok": "saw yesterday.",
-      "feedback_try": "עם yesterday אין have."
+      "feedback_ok": "an umbrella, ואז The umbrella.",
+      "feedback_try": "בפעם הראשונה an לפני תנועה. אחר כך The."
     },
     {
       "id": "ac_t_an_learn",
       "type": "learn",
       "kind": "understanding",
       "title": "an",
-      "body_he": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university.",
+      "body_he": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
       "body_content": "I ate an apple."
     },
     {
@@ -381,12 +462,12 @@
         },
         {
           "id": "c",
-          "label": "the"
+          "label": "the many"
         }
       ],
       "correct": "a",
       "feedback_ok": "an apple.",
-      "feedback_try": "apple נפתח בתנועה."
+      "feedback_try": "apple נפתח בצליל תנועה."
     },
     {
       "id": "ac_t_an_p2",
@@ -394,7 +475,7 @@
       "kind": "understanding",
       "title": "university",
       "body_he": "הצליל, לא האות.",
-      "body_content": "She has ___ university nearby.",
+      "body_content": "She studies at ___ university.",
       "choices": [
         {
           "id": "a",
@@ -406,7 +487,7 @@
         },
         {
           "id": "c",
-          "label": "the"
+          "label": "the a"
         }
       ],
       "correct": "a",
@@ -414,20 +495,70 @@
       "feedback_try": "הצליל הראשון הוא y, כמו yes."
     },
     {
+      "id": "ac_t_an_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "hour",
+      "body_he": "h שקטה.",
+      "body_content": "We waited ___ hour.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "an"
+        },
+        {
+          "id": "b",
+          "label": "a"
+        },
+        {
+          "id": "c",
+          "label": "the an"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "an hour.",
+      "feedback_try": "בhour לא שומעים h. הצליל הראשון הוא תנועה."
+    },
+    {
       "id": "ac_t_order_learn",
       "type": "learn",
       "kind": "understanding",
-      "title": "סדר",
-      "body_he": "הנושא בא לפני הפועל. never ו-always לא נכנסים בין הפועל למושא.",
-      "body_content": "I never drink coffee at night."
+      "title": "סדר מילים",
+      "body_he": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
+      "body_content": "I never drink cold coffee."
     },
     {
       "id": "ac_t_order_p1",
       "type": "practice",
       "kind": "understanding",
+      "title": "תואר",
+      "body_he": "איפה התואר?",
+      "body_content": "Choose the sentence.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "She has a red car."
+        },
+        {
+          "id": "b",
+          "label": "She has a car red."
+        },
+        {
+          "id": "c",
+          "label": "She has red a car."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "התואר לפני השם.",
+      "feedback_try": "באנגלית התואר לא בא אחרי השם."
+    },
+    {
+      "id": "ac_t_order_p2",
+      "type": "practice",
+      "kind": "understanding",
       "title": "never",
       "body_he": "איפה never?",
-      "body_content": "Choose.",
+      "body_content": "Choose the sentence.",
       "choices": [
         {
           "id": "a",
@@ -443,40 +574,40 @@
         }
       ],
       "correct": "a",
-      "feedback_ok": "לפני הפועל.",
-      "feedback_try": "never לא בין הפועל למושא."
+      "feedback_ok": "never לפני הפועל.",
+      "feedback_try": "never לא נכנס בין הפועל למושא."
     },
     {
-      "id": "ac_t_order_p2",
+      "id": "ac_t_order_p3",
       "type": "practice",
       "kind": "understanding",
-      "title": "נושא",
-      "body_he": "מה בא קודם?",
+      "title": "מושא",
+      "body_he": "מה בא אחרי הפועל?",
       "body_content": "Choose the sentence.",
       "choices": [
         {
           "id": "a",
-          "label": "The bird was blue."
+          "label": "Dana reads the paper every morning."
         },
         {
           "id": "b",
-          "label": "Was the blue bird sentence no."
+          "label": "Dana reads every morning the paper."
         },
         {
           "id": "c",
-          "label": "Blue was bird the."
+          "label": "The paper Dana every morning reads."
         }
       ],
       "correct": "a",
-      "feedback_ok": "נושא ואז פועל.",
-      "feedback_try": "השלישי אינו סדר אנגלי."
+      "feedback_ok": "פועל, מושא, ואז זמן.",
+      "feedback_try": "הזמן לא נכנס בין הפועל למושא."
     },
     {
       "id": "ac_t_for_learn",
       "type": "learn",
       "kind": "understanding",
-      "title": "for ו-since",
-      "body_he": "for עם משך: for two years. since עם נקודת התחלה: since 2020. yesterday לא הולך עם have.",
+      "title": "for וsince",
+      "body_he": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
       "body_content": "I have lived here for two years."
     },
     {
@@ -502,32 +633,57 @@
       ],
       "correct": "a",
       "feedback_ok": "for a year.",
-      "feedback_try": "since צריך נקודה, לא משך."
+      "feedback_try": "since צריך נקודת התחלה, לא משך."
     },
     {
       "id": "ac_t_for_p2",
       "type": "practice",
       "kind": "understanding",
-      "title": "yesterday",
-      "body_he": "זמן סגור.",
-      "body_content": "I ___ her yesterday.",
+      "title": "since",
+      "body_he": "נקודת התחלה.",
+      "body_content": "He has worked here ___ March.",
       "choices": [
         {
           "id": "a",
-          "label": "saw"
+          "label": "since"
         },
         {
           "id": "b",
-          "label": "have seen"
+          "label": "for"
         },
         {
           "id": "c",
-          "label": "seen"
+          "label": "ago"
         }
       ],
       "correct": "a",
-      "feedback_ok": "saw.",
-      "feedback_try": "yesterday סוגר את הזמן."
+      "feedback_ok": "since March.",
+      "feedback_try": "March היא נקודה בזמן, לא משך."
+    },
+    {
+      "id": "ac_t_for_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שאלה",
+      "body_he": "כמה זמן.",
+      "body_content": "How long ___ you lived in Haifa?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "have"
+        },
+        {
+          "id": "b",
+          "label": "did"
+        },
+        {
+          "id": "c",
+          "label": "are"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "שואלים עם have, כי הזמן עוד פתוח.",
+      "feedback_try": "השאלה היא עד עכשיו, לכן have."
     },
     {
       "id": "ac_rev2_learn",
@@ -546,9 +702,9 @@
       "id": "ac_rev2_q",
       "type": "practice",
       "kind": "review",
-      "title": "חזרה",
+      "title": "תרגול",
       "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
-      "body_content": "If it rains, we ___ home.",
+      "body_content": "I have lived here ___ 2020, and I met Dana two years ___.",
       "review_topic_ids": [
         "t_an",
         "t_order",
@@ -557,20 +713,20 @@
       "choices": [
         {
           "id": "a",
-          "label": "will stay"
+          "label": "since, ago"
         },
         {
           "id": "b",
-          "label": "stayed"
+          "label": "for, since"
         },
         {
           "id": "c",
-          "label": "stays"
+          "label": "ago, for"
         }
       ],
       "correct": "a",
-      "feedback_ok": "will stay.",
-      "feedback_try": "תנאי אפשרי: will."
+      "feedback_ok": "since לנקודת התחלה, ago לאחור.",
+      "feedback_try": "for בא עם משך כמו two years, לא עם שנה אחת."
     },
     {
       "id": "ac_final_check",
@@ -578,30 +734,30 @@
       "kind": "understanding",
       "title": "בדיקת סוף",
       "body_he": "שאלה אחת על כל הדרך.",
-      "body_content": "If it rains, I ___ a coat.",
+      "body_content": "The small library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.\n\nWhich sentence is correct English about the text?",
       "choices": [
         {
           "id": "a",
-          "label": "will take"
+          "label": "Last winter the city kept the library open until eight."
         },
         {
           "id": "b",
-          "label": "took"
+          "label": "Last winter the city has kept library open until eight."
         },
         {
           "id": "c",
-          "label": "taken"
+          "label": "The last winter a city kept the library open until eight."
         }
       ],
       "correct": "a",
-      "feedback_ok": "will take.",
-      "feedback_try": "תנאי ראשון: will."
+      "feedback_ok": "זמן סגור, עבר רגיל, וthe לספרייה שכבר ידועה.",
+      "feedback_try": "עם last winter לא משתמשים בhave, וlast winter בא בלי The."
     },
     {
       "id": "ac_celebrate",
       "type": "celebrate",
       "kind": "understanding",
-      "title": "סוף הדרך",
+      "title": "סיום דרך",
       "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
       "body_content": "This road is done."
     }

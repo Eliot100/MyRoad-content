@@ -127,8 +127,8 @@
     {
       "id": "t_end",
       "titles": {
-        "he": "סיום",
-        "en": "End"
+        "he": "בדיקה",
+        "en": "Check"
       },
       "emoji": "✓",
       "node_ids": [
@@ -329,7 +329,7 @@
       "id": "pr_rev1_q",
       "type": "practice",
       "kind": "review",
-      "title": "חזרה",
+      "title": "תרגול",
       "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "She ___ at home.",
       "review_topic_ids": [
@@ -476,7 +476,7 @@
       "type": "learn",
       "kind": "understanding",
       "title": "תדירות",
-      "body_he": "always ו-never יושבים לפני הפועל העיקרי.",
+      "body_he": "always וnever יושבים לפני הפועל העיקרי.",
       "body_content": "Maya always starts at eight."
     },
     {
@@ -546,7 +546,7 @@
       "id": "pr_rev2_q",
       "type": "practice",
       "kind": "review",
-      "title": "חזרה",
+      "title": "תרגול",
       "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "There ___ two books.",
       "review_topic_ids": [
@@ -601,7 +601,7 @@
       "id": "pr_celebrate",
       "type": "celebrate",
       "kind": "understanding",
-      "title": "סוף הדרך",
+      "title": "סיום דרך",
       "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
       "body_content": "This road is done."
     }
