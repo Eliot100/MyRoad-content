@@ -6,8 +6,8 @@
     "ar": "اختبار مستوى الإنجليزية"
   },
   "blurbs": {
-    "he": "ארבעה אזורים בלי חומר חדש: אותיות, הווה, זמן, וקטע. לפי הטעויות נפתחת הדרך שסוגרת את הפער.",
-    "en": "No new material. Letters, present, time, and a passage. Mistakes open the road that closes the gap.",
+    "he": "בלי חומר חדש: אותיות, הווה, זמן, דיוק, קטע, כתיבה ודיבור. לפי הטעויות נפתחת הדרך שסוגרת את הפער.",
+    "en": "No new material. Letters, present, time, accuracy, a passage, writing, and speaking. Mistakes open the road that closes the gap.",
     "ar": "بلا مادة جديدة. الأخطاء تفتح طريق الفجوة."
   },
   "subject": "english",
@@ -36,7 +36,7 @@
     {
       "id": "t_be",
       "titles": {
-        "he": "יש לי am ו-are",
+        "he": "am, is, are",
         "en": "am, is, are"
       },
       "emoji": "ב",
@@ -73,12 +73,25 @@
       ]
     },
     {
+      "id": "t_accuracy",
+      "titles": {
+        "he": "דיוק",
+        "en": "Accuracy"
+      },
+      "emoji": "ה",
+      "node_ids": [
+        "plc_t_accuracy_learn",
+        "plc_t_accuracy_p1",
+        "plc_t_accuracy_chk"
+      ]
+    },
+    {
       "id": "t_read",
       "titles": {
         "he": "קטע של כמאתיים וחמישים מילים",
         "en": "A longer passage"
       },
-      "emoji": "ה",
+      "emoji": "ו",
       "node_ids": [
         "plc_t_read_learn",
         "plc_t_read_idea",
@@ -93,7 +106,7 @@
         "he": "משפט כתוב",
         "en": "A written sentence"
       },
-      "emoji": "ו",
+      "emoji": "ז",
       "node_ids": [
         "plc_t_write_learn",
         "plc_t_write_p1",
@@ -106,7 +119,7 @@
         "he": "משפט בקול",
         "en": "One spoken sentence"
       },
-      "emoji": "ז",
+      "emoji": "ח",
       "node_ids": [
         "plc_t_speak_learn",
         "plc_t_speak_say"
@@ -118,7 +131,7 @@
         "he": "מה יוצא מהמבדק",
         "en": "What the check means"
       },
-      "emoji": "ח",
+      "emoji": "ט",
       "node_ids": [
         "plc_t_end_learn",
         "plc_t_end_done"
@@ -156,7 +169,7 @@
         }
       ],
       "correct": "a",
-      "feedback_ok": "המילה נפתחת ב-c.",
+      "feedback_ok": "המילה נפתחת באות c.",
       "feedback_try": "הצליל הראשון הוא c, לא a."
     },
     {
@@ -188,7 +201,7 @@
       "id": "plc_t_be_learn",
       "type": "learn",
       "kind": "understanding",
-      "title": "יש לי am ו-are",
+      "title": "am, is, are",
       "body_he": "עדיין לא לומדים. רק בודקים אם המשפט עומד בלי חור.",
       "body_content": "I am here."
     },
@@ -240,14 +253,14 @@
       ],
       "correct": "c",
       "feedback_ok": "אחרי you בא are.",
-      "feedback_try": "am שייך רק ל-I."
+      "feedback_try": "am שייך רק לI."
     },
     {
       "id": "plc_t_present_learn",
       "type": "learn",
       "kind": "understanding",
       "title": "הווה",
-      "body_he": "בדיקה של הרגל: he מקבל s, ושאלה מתחילה ב-do או does.",
+      "body_he": "בדיקה של הרגל: אחרי he הפועל מקבל s, ושאלה מתחילה בdo או בdoes.",
       "body_content": "She works at home."
     },
     {
@@ -359,12 +372,70 @@
       "feedback_try": "left הוא עבר."
     },
     {
+      "id": "plc_t_accuracy_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דיוק",
+      "body_he": "בדיקה של דיוק: מילת יידוע, וזמן סגור מול זמן פתוח.",
+      "body_content": "I saw a bird. The bird was blue."
+    },
+    {
+      "id": "plc_t_accuracy_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "a או the",
+      "body_he": "מה חסר?",
+      "body_content": "I saw a dog. ___ dog was black.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The"
+        },
+        {
+          "id": "b",
+          "label": "A"
+        },
+        {
+          "id": "c",
+          "label": "An"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "כבר הזכרנו את הכלב, לכן The.",
+      "feedback_try": "A פותח משהו חדש. הכלב כבר הוזכר."
+    },
+    {
+      "id": "plc_t_accuracy_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "זמן סגור",
+      "body_he": "איזה משפט תקין?",
+      "body_content": "Choose the correct sentence.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "I lost my key last week."
+        },
+        {
+          "id": "b",
+          "label": "I have lost my key last week."
+        },
+        {
+          "id": "c",
+          "label": "I lose my key last week."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "last week סוגר את הזמן, לכן lost.",
+      "feedback_try": "עם last week לא משתמשים בhave."
+    },
+    {
       "id": "plc_t_read_learn",
       "type": "learn",
       "kind": "understanding",
       "title": "קטע של כמאתיים וחמישים מילים",
       "body_he": "קראו את הקטע. השאלות הן רעיון מרכזי, פרט, הסקה, ומילה מהקשר.",
-      "body_content": "The station library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry."
+      "body_content": "The small library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry."
     },
     {
       "id": "plc_t_read_idea",
@@ -372,7 +443,7 @@
       "kind": "understanding",
       "title": "רעיון מרכזי",
       "body_he": "על מה הקטע?",
-      "body_content": "The station library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
+      "body_content": "The small library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
       "choices": [
         {
           "id": "a",
@@ -397,7 +468,7 @@
       "kind": "understanding",
       "title": "פרט",
       "body_he": "מה מר כהן עושה?",
-      "body_content": "The station library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
+      "body_content": "The small library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
       "choices": [
         {
           "id": "a",
@@ -422,7 +493,7 @@
       "kind": "understanding",
       "title": "הסקה",
       "body_he": "למה הספרייה שקטה בימי שישי?",
-      "body_content": "The station library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
+      "body_content": "The small library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
       "choices": [
         {
           "id": "a",
@@ -447,7 +518,7 @@
       "kind": "understanding",
       "title": "מילה מהקשר",
       "body_he": "מה פירוש neighbours כאן?",
-      "body_content": "The station library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
+      "body_content": "The small library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
       "choices": [
         {
           "id": "a",
@@ -546,8 +617,8 @@
       "type": "learn",
       "kind": "understanding",
       "title": "מה יוצא מהמבדק",
-      "body_he": "אם היו הרבה טעויות, השרשרת פותחת את הדרך מההתחלה. אם היו מעט, היא פותחת מזמן וסיפור. אם עברתם נקי, היא פותחת משאלון E. הדרכים שמעל הפער נשארות סגורות עד שסוגרים אותו.",
-      "body_content": "The chain opens at the weak band."
+      "body_he": "כל נושא במבדק שייך לדרך אחת. אותיות וam is are שייכים לדרך מאפס. הווה שייך להווה ויום יום. עבר ועתיד שייכים לזמן וסיפור. דיוק שייך לדרך דיוק. הקטע שייך לשאלון E. המשפט הכתוב שייך לשאלון G. הדיבור שייך לספרות ודיבור. הדרך הראשונה שבה היו שתי טעויות היא הפער, והשרשרת פותחת אותה. בלי טעויות כאלה הפער הוא הבחינה. הדרכים שאחרי הפער נעולות עד שסוגרים אותו.",
+      "body_content": "Your start is marked on the chain."
     },
     {
       "id": "plc_t_end_done",

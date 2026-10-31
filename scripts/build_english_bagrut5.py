@@ -17,7 +17,7 @@ PASSAGE_SHORT = (
     "Some days she talks to a client. She stops at four and walks to the park."
 )
 PASSAGE_250 = (
-    "The station library on Herzl Street used to close at noon. Last winter the city "
+    "The small library on Herzl Street used to close at noon. Last winter the city "
     "kept it open until eight, after a group of students wrote a letter to the mayor. "
     "They said the afternoon was the only time they could study, because the school "
     "building locked its doors at two. The mayor agreed, but she asked for a plan. "
@@ -181,25 +181,25 @@ def placement() -> dict:
             "A is a letter.",
             [
                 mc("p1", "האות הראשונה", "איזו אות פותחת את המילה?", "cat",
-                   [("a", "c"), ("b", "t"), ("c", "a")], "a", "המילה נפתחת ב-c.", "הצליל הראשון הוא c, לא a."),
+                   [("a", "c"), ("b", "t"), ("c", "a")], "a", "המילה נפתחת באות c.", "הצליל הראשון הוא c, לא a."),
                 mc("chk", "צליל בסוף", "איזו אות נשמעת בסוף?", "dog",
                    [("a", "g"), ("b", "d"), ("c", "o")], "a", "הסוף הוא g.", "התחלה היא d. הסוף הוא g.", ntype="check"),
             ],
         ),
         (
-            "t_be", "יש לי am ו-are", "am, is, are", "ב",
+            "t_be", "am, is, are", "am, is, are", "ב",
             "עדיין לא לומדים. רק בודקים אם המשפט עומד בלי חור.",
             "I am here.",
             [
                 mc("p1", "I", "מה חסר אחרי I?", "I ___ a student.",
                    [("a", "am"), ("b", "is"), ("c", "are")], "a", "אחרי I בא am.", "is הולך עם he או she. אחרי I בא am."),
                 mc("chk", "you", "מה חסר אחרי you?", "You ___ ready.",
-                   [("a", "is"), ("b", "am"), ("c", "are")], "c", "אחרי you בא are.", "am שייך רק ל-I.", ntype="check"),
+                   [("a", "is"), ("b", "am"), ("c", "are")], "c", "אחרי you בא are.", "am שייך רק לI.", ntype="check"),
             ],
         ),
         (
             "t_present", "הווה", "Present", "ג",
-            "בדיקה של הרגל: he מקבל s, ושאלה מתחילה ב-do או does.",
+            "בדיקה של הרגל: אחרי he הפועל מקבל s, ושאלה מתחילה בdo או בdoes.",
             "She works at home.",
             [
                 mc("p1", "he", "איזה משפט תקין?", "He ___ every day.",
@@ -220,7 +220,19 @@ def placement() -> dict:
             ],
         ),
         (
-            "t_read", "קטע של כמאתיים וחמישים מילים", "A longer passage", "ה",
+            "t_accuracy", "דיוק", "Accuracy", "ה",
+            "בדיקה של דיוק: מילת יידוע, וזמן סגור מול זמן פתוח.",
+            "I saw a bird. The bird was blue.",
+            [
+                mc("p1", "a או the", "מה חסר?", "I saw a dog. ___ dog was black.",
+                   [("a", "The"), ("b", "A"), ("c", "An")], "a", "כבר הזכרנו את הכלב, לכן The.", "A פותח משהו חדש. הכלב כבר הוזכר."),
+                mc("chk", "זמן סגור", "איזה משפט תקין?", "Choose the correct sentence.",
+                   [("a", "I lost my key last week."), ("b", "I have lost my key last week."), ("c", "I lose my key last week.")],
+                   "a", "last week סוגר את הזמן, לכן lost.", "עם last week לא משתמשים בhave.", ntype="check"),
+            ],
+        ),
+        (
+            "t_read", "קטע של כמאתיים וחמישים מילים", "A longer passage", "ו",
             "קראו את הקטע. השאלות הן רעיון מרכזי, פרט, הסקה, ומילה מהקשר.",
             PASSAGE_250,
             [
@@ -239,7 +251,7 @@ def placement() -> dict:
             ],
         ),
         (
-            "t_write", "משפט כתוב", "A written sentence", "ו",
+            "t_write", "משפט כתוב", "A written sentence", "ז",
             "עוד אין חיבור. רק משפט אחד תקין שאפשר להרחיב אחר כך.",
             "I think the library should stay open.",
             [
@@ -252,7 +264,7 @@ def placement() -> dict:
             ],
         ),
         (
-            "t_speak", "משפט בקול", "One spoken sentence", "ז",
+            "t_speak", "משפט בקול", "One spoken sentence", "ח",
             "אמרו את המשפט. אין רשימת מילים חדשה.",
             "I am ready.",
             [
@@ -263,9 +275,9 @@ def placement() -> dict:
             ],
         ),
         (
-            "t_end", "מה יוצא מהמבדק", "What the check means", "ח",
-            "אם היו הרבה טעויות, השרשרת פותחת את הדרך מההתחלה. אם היו מעט, היא פותחת מזמן וסיפור. אם עברתם נקי, היא פותחת משאלון E. הדרכים שמעל הפער נשארות סגורות עד שסוגרים אותו.",
-            "The chain opens at the weak band.",
+            "t_end", "מה יוצא מהמבדק", "What the check means", "ט",
+            "כל נושא במבדק שייך לדרך אחת. אותיות וam is are שייכים לדרך מאפס. הווה שייך להווה ויום יום. עבר ועתיד שייכים לזמן וסיפור. דיוק שייך לדרך דיוק. הקטע שייך לשאלון E. המשפט הכתוב שייך לשאלון G. הדיבור שייך לספרות ודיבור. הדרך הראשונה שבה היו שתי טעויות היא הפער, והשרשרת פותחת אותה. בלי טעויות כאלה הפער הוא הבחינה. הדרכים שאחרי הפער נעולות עד שסוגרים אותו.",
+            "Your start is marked on the chain.",
             [],
         ),
     ]
@@ -285,8 +297,8 @@ def placement() -> dict:
         "path_english_bagrut5_00_placement",
         "מבדק רמה לאנגלית",
         "English level check",
-        "ארבעה אזורים בלי חומר חדש: אותיות, הווה, זמן, וקטע. לפי הטעויות נפתחת הדרך שסוגרת את הפער.",
-        "No new material. Letters, present, time, and a passage. Mistakes open the road that closes the gap.",
+        "בלי חומר חדש: אותיות, הווה, זמן, דיוק, קטע, כתיבה ודיבור. לפי הטעויות נפתחת הדרך שסוגרת את הפער.",
+        "No new material. Letters, present, time, accuracy, a passage, writing, and speaking. Mistakes open the road that closes the gap.",
         "🧭",
         40,
         [],
@@ -311,7 +323,7 @@ def _review_block(prefix: str, n: int, review_ids: list[str]) -> tuple[dict, lis
         node(
             f"{prefix}_rev{n}_q",
             "practice",
-            "חזרה",
+            "תרגול",
             "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
             content,
             kind="review",
@@ -351,12 +363,12 @@ def teach(pid: str, he: str, en: str, blurb_he: str, blurb_en: str, emoji: str, 
             options=final_options, correct=final_correct, ok=final_ok, try_=final_try,
         ),
         node(
-            f"{prefix}_celebrate", "celebrate", "סוף הדרך",
+            f"{prefix}_celebrate", "celebrate", "סיום דרך",
             "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
             "This road is done.",
         ),
     ]
-    end_topic = topic("t_end", "סיום", "End", "✓", end)
+    end_topic = topic("t_end", "בדיקה", "Check", "✓", end)
     built_topics.append(end_topic)
     built_nodes.extend(end)
     return path_doc(pid, he, en, blurb_he, blurb_en, emoji, minutes, [prereq], built_topics, built_nodes)
@@ -383,25 +395,26 @@ FUT = [
     mc("p2", "תוכנית", "תוכנית קרובה.", "We ___ the bus at seven.", [("a", "are catching"), ("b", "caught"), ("c", "catches")], "a", "are catching.", "זו תוכנית מסודרת, לא עבר."),
 ]
 ART = [
-    mc("p1", "ראשון", "פעם ראשונה.", "I saw ___ bird.", [("a", "a"), ("b", "the"), ("c", "an")], "a", "a bird.", "the כשמדובר בציפור שכבר הזכרנו."),
+    mc("p1", "ראשון", "פעם ראשונה.", "I saw ___ bird.", [("a", "a"), ("b", "the"), ("c", "an")], "a", "a bird.", "the מתאים לציפור שכבר הזכרנו."),
     mc("p2", "ידוע", "כבר דיברנו עליו.", "___ bird was blue.", [("a", "A"), ("b", "The"), ("c", "An")], "b", "The bird.", "אחרי שהזכרנו, The."),
+    mc("p3", "בלי מילה", "דבר כללי ברבים.", "Choose the sentence about all dogs, not one group.", [("a", "Dogs need water."), ("b", "The dogs need water."), ("c", "A dogs need water.")], "a", "על כלבים בכלל לא שמים מילת יידוע.", "a לא בא לפני רבים. the מצביע על כלבים מסוימים."),
 ]
 PERF = [
-    mc("p1", "ניסיון", "עד עכשיו.", "I ___ this film.", [("a", "have seen"), ("b", "saw"), ("c", "seen")], "a", "have seen.", "saw צריך זמן כמו yesterday."),
-    mc("p2", "אתמול", "זמן סגור.", "I ___ it yesterday.", [("a", "have seen"), ("b", "saw"), ("c", "seen")], "b", "saw yesterday.", "עם yesterday לא משתמשים ב-have."),
+    mc("p1", "ניסיון", "עד עכשיו.", "I ___ this film.", [("a", "have seen"), ("b", "seen"), ("c", "has seen")], "a", "have seen.", "seen לבד אינו פועל שלם, וhas הולך עם he או she."),
+    mc("p2", "זמן סגור", "זמן שנגמר.", "We ___ to Eilat in 2019.", [("a", "went"), ("b", "have gone"), ("c", "have went")], "a", "went.", "שנה שנגמרה סוגרת את הזמן, לכן עבר רגיל."),
+    mc("p3", "עוד לא", "שאלה עד עכשיו.", "___ you ever eaten sushi?", [("a", "Have"), ("b", "Did"), ("c", "Has")], "a", "Have you ever eaten.", "ever עד עכשיו הולך עם Have. Has הולך עם he או she."),
 ]
 COND = [
-    mc("p1", "אם", "תנאי ראשון.", "If it rains, we ___ home.", [("a", "will stay"), ("b", "stayed"), ("c", "stays")], "a", "will stay.", "אם אפשרי עכשיו: will."),
-    mc("p2", "סדר", "סדר מילים.", "Which order is English?",
-       [("a", "I always drink water."), ("b", "I drink always water."), ("c", "Always I drink water the.")],
-       "a", "always לפני הפועל.", "always לא נכנס בין הפועל למושא."),
+    mc("p1", "אם", "תנאי ראשון.", "If it rains, we ___ home.", [("a", "will stay"), ("b", "stayed"), ("c", "stays")], "a", "will stay.", "אם זה אפשרי, בחלק השני בא will."),
+    mc("p2", "אחרי if", "מה בא אחרי if?", "If she ___ early, she will call.", [("a", "finishes"), ("b", "will finish"), ("c", "finished")], "a", "If she finishes.", "אחרי if לא שמים will. ההווה מספיק."),
+    mc("p3", "סדר", "אפשר להתחיל בכל חלק.", "Choose the correct sentence.", [("a", "We will stay home if it rains."), ("b", "We stay home if it will rain."), ("c", "If it rains, we stayed home.")], "a", "will בחלק של התוצאה.", "will לא נכנס לחלק של if."),
 ]
 
 # Review item and final check, one per road. They reuse the road's own sentences.
 REV = {
     "z": [
         ("I ___ a student.", [("a", "am"), ("b", "is"), ("c", "are")], "a", "I am.", "אחרי I בא am."),
-        ("You ___ ready.", [("a", "are"), ("b", "is"), ("c", "am")], "a", "You are.", "am שייך רק ל-I."),
+        ("You ___ ready.", [("a", "are"), ("b", "is"), ("c", "am")], "a", "You are.", "am שייך רק לI."),
     ],
     "pr": [
         ("She ___ at home.", [("a", "work"), ("b", "works"), ("c", "working")], "b", "works.", "אחרי she יש s."),
@@ -412,8 +425,8 @@ REV = {
         ("Tomorrow we ___ early.", [("a", "will leave"), ("b", "left"), ("c", "leaves")], "a", "will leave.", "left הוא אתמול."),
     ],
     "ac": [
-        ("I ___ this film yesterday.", [("a", "saw"), ("b", "have seen"), ("c", "seen")], "a", "saw yesterday.", "עם yesterday אין have."),
-        ("If it rains, we ___ home.", [("a", "will stay"), ("b", "stayed"), ("c", "stays")], "a", "will stay.", "תנאי אפשרי: will."),
+        ("She bought ___ umbrella. ___ umbrella was red.", [("a", "an, The"), ("b", "a, An"), ("c", "the, A")], "a", "an umbrella, ואז The umbrella.", "בפעם הראשונה an לפני תנועה. אחר כך The."),
+        ("I have lived here ___ 2020, and I met Dana two years ___.", [("a", "since, ago"), ("b", "for, since"), ("c", "ago, for")], "a", "since לנקודת התחלה, ago לאחור.", "for בא עם משך כמו two years, לא עם שנה אחת."),
     ],
     "e": [
         ("The hall is clean. It is also far.", [("a", "It means the hall."), ("b", "It means the rain."), ("c", "It means the bus.")], "a", "it הוא האולם.", "הגשם אינו הנושא."),
@@ -436,7 +449,7 @@ FIN = {
     "z": ("They ___ not late.", [("a", "are"), ("b", "is"), ("c", "am")], "a", "They are not.", "is לא הולך עם they."),
     "pr": ("___ there a book on the desk?", [("a", "Is"), ("b", "Are"), ("c", "Do")], "a", "Is there a book.", "a book הוא אחד."),
     "tm": ("Tomorrow we ___ early.", [("a", "will leave"), ("b", "left"), ("c", "leaves")], "a", "will leave.", "left הוא אתמול."),
-    "ac": ("If it rains, I ___ a coat.", [("a", "will take"), ("b", "took"), ("c", "taken")], "a", "will take.", "תנאי ראשון: will."),
+    "ac": (PASSAGE_250 + "\n\nWhich sentence is correct English about the text?", [("a", "Last winter the city kept the library open until eight."), ("b", "Last winter the city has kept library open until eight."), ("c", "The last winter a city kept the library open until eight.")], "a", "זמן סגור, עבר רגיל, וthe לספרייה שכבר ידועה.", "עם last winter לא משתמשים בhave, וlast winter בא בלי The."),
     "e": ("What is the writer's point?", [("a", "A clean hall can lose its buyers."), ("b", "Plastic is cheaper."), ("c", "The bus is the subject.")], "a", "האולם הנקי איבד קונים.", "הקופסה יקרה יותר, לא זולה."),
     "g": ("A 70-word essay when the range is 120 to 140.", [("a", "Length loses points. Content can still earn some."), ("b", "The whole paper is zero."), ("c", "Length is ignored.")], "a", "אורך לחוד, תוכן לחוד.", "לא מאפסים הכל בגלל אורך."),
     "lit": ("How does the poem sound?", [("a", "Quiet and a little strict."), ("b", "A joke."), ("c", "A shopping list.")], "a", "שקט וקצת קשוח.", "אין בדיחה."),
@@ -449,7 +462,7 @@ def all_paths() -> list[dict]:
     docs = [placement()]
     docs.append(teach(
         "path_english_bagrut5_01_zero", "מאפס", "First letters",
-        "אותיות, צלילים, ומשפט עם am, is, are. זו הדרך שנפתחת כשהמבדק מראה בסיס רופף.",
+        "אותיות, צלילים, ומשפט עם am, is, are. זו הדרך שנפתחת כשהמבדק מראה שהפער מתחיל כאן.",
         "Letters, sounds, and am, is, are.",
         "א", 90, place, "z",
         [
@@ -461,12 +474,12 @@ def all_paths() -> list[dict]:
             ("t_not", "שלילה", "not", "ג", "שלילה: am not, is not, are not. לא מוסיפים do.", "She is not late.",
              [mc("p1", "שלילה", "מה תקין?", "They ___ ready.", [("a", "are not"), ("b", "is not"), ("c", "am not")], "a", "They are not.", "is לא הולך עם they."),
               mc("p2", "I", "שלילה של I.", "I ___ hungry.", [("a", "am not"), ("b", "is not"), ("c", "do not am")], "a", "I am not.", "אין do לפני am.")]),
-            ("t_you", "you ו-we", "you and we", "ד", "you, we, they הולכים עם are. לא עם am.", "You are ready. We are here.",
+            ("t_you", "you וwe", "you and we", "ד", "you, we, they הולכים עם are. לא עם am.", "You are ready. We are here.",
              [mc("p1", "we", "מה נכון?", "We ___ students.", [("a", "are"), ("b", "is"), ("c", "am")], "a", "We are.", "am רק אחרי I."),
               mc("p2", "they", "הם.", "They ___ at school.", [("a", "are"), ("b", "is"), ("c", "am")], "a", "They are.", "is לא הולך עם they.")]),
             ("t_word", "מילה קצרה", "A short word", "ה", "קוראים את כל המילה, לא רק את האות הראשונה.", "sun, map, dog",
-             [mc("p1", "קריאה", "איזו מילה זו?", "s-u-n", [("a", "sun"), ("b", "bus"), ("c", "son")], "a", "sun.", "bus מתחיל ב-b."),
-              mc("p2", "אות", "איזו אות חסרה?", "c_t", [("a", "a"), ("b", "o"), ("c", "e")], "a", "cat.", "המילה הקצרה היא cat.")]),
+             [mc("p1", "קריאה", "איזו מילה זו?", "s-u-n", [("a", "sun"), ("b", "bus"), ("c", "son")], "a", "sun.", "bus מתחיל באות b."),
+              mc("p2", "אות", "איזו אות חסרה?", "c_t: a small pet that says meow", [("a", "a"), ("b", "o"), ("c", "u")], "a", "cat.", "cot היא מיטה וcut הוא חיתוך. החיה היא cat.")]),
             ("t_sent", "משפט", "A sentence", "ו", "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.", "I am here.",
              [mc("p1", "שלם", "איזה משפט שלם?", "Choose.",
                  [("a", "I am here."), ("b", "Am here."), ("c", "I here.")], "a", "יש I ויש am.", "בלי פועל זה לא משפט."),
@@ -497,7 +510,7 @@ def all_paths() -> list[dict]:
             ("t_neg", "שלילה בהווה", "don't and doesn't", "ה", "שלילה: do not או does not, והפועל בלי s.", "She does not work on Friday.",
              [mc("p1", "she", "שלילה.", "She ___ like coffee.", [("a", "does not"), ("b", "do not"), ("c", "is not")], "a", "does not.", "עם she יש does."),
               mc("p2", "they", "רבים.", "They ___ live here.", [("a", "do not"), ("b", "does not"), ("c", "are not work")], "a", "do not.", "they הולך עם do.")]),
-            ("t_freq", "תדירות", "always and never", "ו", "always ו-never יושבים לפני הפועל העיקרי.", "Maya always starts at eight.",
+            ("t_freq", "תדירות", "always and never", "ו", "always וnever יושבים לפני הפועל העיקרי.", "Maya always starts at eight.",
              [mc("p1", "always", "איפה always?", "Choose the English order.",
                  [("a", "She always walks."), ("b", "She walks always."), ("c", "Always she walks the.")], "a", "לפני הפועל.", "always לא אחרי הפועל."),
               mc("p2", "never", "שלילה רכה.", "He ___ late.", [("a", "is never"), ("b", "never is"), ("c", "does never")], "a", "is never.", "אחרי am/is/are התדירות באה מיד.")]),
@@ -509,9 +522,9 @@ def all_paths() -> list[dict]:
         "Past, future, and a short story.",
         "ג", 140, place, "tm",
         [
-            ("t_past", "Past Simple", "Past Simple", "א", "אתמול: פועל עם ed, או צורה חריגה כמו went ו-saw.", "Yesterday I walked home.",
+            ("t_past", "Past Simple", "Past Simple", "א", "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.", "Yesterday I walked home.",
              PAST),
-            ("t_fut", "עתיד", "Future", "ב", "מחר: will והפועל הבסיסי. תוכנית קרובה: am/is/are ו-ing.", "Tomorrow I will leave early.",
+            ("t_fut", "עתיד", "Future", "ב", "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.", "Tomorrow I will leave early.",
              FUT),
             ("t_story", "סיפור קצר", "A short story", "ג", "קראו וזהו את הרעיון ואת ההסקה.", STORY,
              [mc("idea", "רעיון", "מה קורה בסיפור?", STORY,
@@ -535,27 +548,31 @@ def all_paths() -> list[dict]:
     ))
     docs.append(teach(
         "path_english_bagrut5_04_accuracy", "דיוק", "Accuracy",
-        "a ו-the, סדר מילים, Present Perfect מול עבר, ותנאי ראשון.",
-        "Articles, word order, perfect versus past, and the first conditional.",
+        "מילות יידוע, זמן סגור מול זמן פתוח, תנאי ראשון, סדר מילים, for וsince. זו הדרך שנפתחת כשבנושא הדיוק במבדק היו שתי טעויות.",
+        "Articles, perfect versus past, the first conditional, word order, for and since.",
         "ד", 150, place, "ac",
         [
-            ("t_art", "a ו-the", "a and the", "א", "a בפעם הראשונה. the כשכבר יודעים על מה מדובר.", "I saw a bird. The bird was blue.",
+            ("t_art", "a וthe", "a and the", "א", "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.", "I saw a bird. The bird was blue. Birds need water.",
              ART),
-            ("t_perf", "Perfect מול עבר", "Perfect and past", "ב", "have ועבר שלישי כשאין זמן סגור. זמן כמו yesterday דורש עבר רגיל.", "I have seen this film. I saw it yesterday.",
+            ("t_perf", "זמן פתוח וזמן סגור", "Perfect and past", "ב", "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.", "I have seen this film. I saw it yesterday.",
              PERF),
-            ("t_if", "תנאי וסדר", "Conditional and order", "ג", "If ועתיד אפשרי: will. always לפני הפועל.", "If it rains, we will stay home.",
+            ("t_if", "תנאי ראשון", "First conditional", "ג", "אחרי if בא הווה. בחלק של התוצאה בא will.", "If it rains, we will stay home.",
              COND),
-            ("t_an", "an", "an", "ד", "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university.", "I ate an apple.",
-             [mc("p1", "apple", "לפני apple.", "I want ___ apple.", [("a", "an"), ("b", "a"), ("c", "the")], "a", "an apple.", "apple נפתח בתנועה."),
-              mc("p2", "university", "הצליל, לא האות.", "She has ___ university nearby.", [("a", "a"), ("b", "an"), ("c", "the")], "a", "a university.", "הצליל הראשון הוא y, כמו yes.")]),
-            ("t_order", "סדר", "Word order", "ה", "הנושא בא לפני הפועל. never ו-always לא נכנסים בין הפועל למושא.", "I never drink coffee at night.",
-             [mc("p1", "never", "איפה never?", "Choose.",
-                 [("a", "I never drink coffee."), ("b", "I drink never coffee."), ("c", "Never drink I coffee.")], "a", "לפני הפועל.", "never לא בין הפועל למושא."),
-              mc("p2", "נושא", "מה בא קודם?", "Choose the sentence.",
-                 [("a", "The bird was blue."), ("b", "Was the blue bird sentence no."), ("c", "Blue was bird the.")], "a", "נושא ואז פועל.", "השלישי אינו סדר אנגלי.")]),
-            ("t_for", "for ו-since", "for and since", "ו", "for עם משך: for two years. since עם נקודת התחלה: since 2020. yesterday לא הולך עם have.", "I have lived here for two years.",
-             [mc("p1", "for", "משך.", "I have known her ___ a year.", [("a", "for"), ("b", "since"), ("c", "ago")], "a", "for a year.", "since צריך נקודה, לא משך."),
-              mc("p2", "yesterday", "זמן סגור.", "I ___ her yesterday.", [("a", "saw"), ("b", "have seen"), ("c", "seen")], "a", "saw.", "yesterday סוגר את הזמן.")]),
+            ("t_an", "an", "an", "ד", "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.", "I ate an apple.",
+             [mc("p1", "apple", "לפני apple.", "I want ___ apple.", [("a", "an"), ("b", "a"), ("c", "the many")], "a", "an apple.", "apple נפתח בצליל תנועה."),
+              mc("p2", "university", "הצליל, לא האות.", "She studies at ___ university.", [("a", "a"), ("b", "an"), ("c", "the a")], "a", "a university.", "הצליל הראשון הוא y, כמו yes."),
+              mc("p3", "hour", "h שקטה.", "We waited ___ hour.", [("a", "an"), ("b", "a"), ("c", "the an")], "a", "an hour.", "בhour לא שומעים h. הצליל הראשון הוא תנועה.")]),
+            ("t_order", "סדר מילים", "Word order", "ה", "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.", "I never drink cold coffee.",
+             [mc("p1", "תואר", "איפה התואר?", "Choose the sentence.",
+                 [("a", "She has a red car."), ("b", "She has a car red."), ("c", "She has red a car.")], "a", "התואר לפני השם.", "באנגלית התואר לא בא אחרי השם."),
+              mc("p2", "never", "איפה never?", "Choose the sentence.",
+                 [("a", "I never drink coffee."), ("b", "I drink never coffee."), ("c", "Never drink I coffee.")], "a", "never לפני הפועל.", "never לא נכנס בין הפועל למושא."),
+              mc("p3", "מושא", "מה בא אחרי הפועל?", "Choose the sentence.",
+                 [("a", "Dana reads the paper every morning."), ("b", "Dana reads every morning the paper."), ("c", "The paper Dana every morning reads.")], "a", "פועל, מושא, ואז זמן.", "הזמן לא נכנס בין הפועל למושא.")]),
+            ("t_for", "for וsince", "for and since", "ו", "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.", "I have lived here for two years.",
+             [mc("p1", "for", "משך.", "I have known her ___ a year.", [("a", "for"), ("b", "since"), ("c", "ago")], "a", "for a year.", "since צריך נקודת התחלה, לא משך."),
+              mc("p2", "since", "נקודת התחלה.", "He has worked here ___ March.", [("a", "since"), ("b", "for"), ("c", "ago")], "a", "since March.", "March היא נקודה בזמן, לא משך."),
+              mc("p3", "שאלה", "כמה זמן.", "How long ___ you lived in Haifa?", [("a", "have"), ("b", "did"), ("c", "are")], "a", "שואלים עם have, כי הזמן עוד פתוח.", "השאלה היא עד עכשיו, לכן have.")]),
         ],
     ))
     docs.append(teach(
@@ -579,7 +596,7 @@ def all_paths() -> list[dict]:
                  [("a", "not close"), ("b", "very cheap"), ("c", "already closed")], "a", "לא קרוב.", "cheap הוא מחיר."),
               mc("p2", "loose", "loose fruit", "loose fruit",
                  [("a", "not in a box"), ("b", "very expensive"), ("c", "already gone")], "a", "לא בקופסה.", "הטקסט מנגיד את זה לקופסה.")]),
-            ("t_ref", "מילת ייחוס", "Reference", "ג", "it ו-there מצביעים אחורה, לא קדימה אל ניחוש.", PASSAGE_E,
+            ("t_ref", "מילת ייחוס", "Reference", "ג", "it וthere מצביעים אחורה, לא קדימה אל ניחוש.", PASSAGE_E,
              [mc("p1", "it", "על מה it במשפט The hall is clean. It is also far?", PASSAGE_E,
                  [("a", "the hall"), ("b", "the rain"), ("c", "the reporter")], "a", "the hall.", "הגשם לא הנושא של המשפט הקודם."),
               mc("chk", "בדיקה", "מי מסרבת לקופסאות?", PASSAGE_E,
@@ -614,7 +631,7 @@ def all_paths() -> list[dict]:
               mc("purpose", "מטרה", "למה הפסקה על המבקרים?", PASSAGE_G,
                  [("a", "to answer the claim that help makes people wait"), ("b", "to sell tools"), ("c", "to list bus times")],
                  "a", "תשובה לטענה.", "אין רשימת אוטובוסים.")]),
-            ("t_essay", "חיבור דעה", "Opinion essay", "ב", "120 עד 140 מילים. פתיחה עם דעה, שתי סיבות, ומשפט סיום. לא מתחילים ב-Because.", "In my opinion, a shared workshop should charge a small fee.",
+            ("t_essay", "חיבור דעה", "Opinion essay", "ב", "120 עד 140 מילים. פתיחה עם דעה, שתי סיבות, ומשפט סיום. לא מתחילים בBecause.", "In my opinion, a shared workshop should charge a small fee.",
              [mc("open", "פתיחה", "איזו פתיחה עומדת?", "Choose an opening.",
                  [("a", "In my opinion, a small fee keeps the room open."), ("b", "Because a fee."), ("c", "Fee room open people.")],
                  "a", "יש דעה ומשפט שלם.", "Because אינו פתיחה."),
