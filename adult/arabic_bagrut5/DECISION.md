@@ -31,3 +31,10 @@ Routing from 00 to roads lives in screen text only (no route_path_id). Writing v
 
 ## How to switch
 Edit scripts/build_arabic_bagrut5.py (VARIANTS, tile()) and rerun; JSON is generated.
+
+## Update 31.10.2026: variant_of and placement routing (issue #17)
+MyRoad#173 merged variant_of, variant_when {audio, writing}, placement_route {from_placement, band_min, band_max} and subject arabic. Used:
+- Every non base node: variant_of = <base>__a1w0, variant_when = {audio, writing} of that variant (134 nodes: 38 in 00, 96 in 01). The app shows one step per base, so the 4 in a row limit above is gone.
+- Road 01: placement_route from path_arabic_bagrut5_00_placement, band 1 to 3. placement_band (core english_bagrut.py) gives 1 for needsPractice or 4+ mistakes, 3 for 1 to 3 mistakes, 5 for none. 01 is the only built road, so both low bands route there; band 5 stays unrouted until 02+ exist. When 02 is built: 01 keeps band 1, 02 takes band 3.
+- subject general -> arabic.
+- 00 result text no longer lists topic to road mappings; it says the app opens the right road.

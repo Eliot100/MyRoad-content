@@ -10,7 +10,7 @@
     "en": "If you cannot read Arabic letters, go straight to road 01. Otherwise: script, words, sentence, verb, syntax, reading, speaking.",
     "ar": "من لا يقرأ الحروف العربية ينتقل مباشرة إلى الطريق 01."
   },
-  "subject": "general",
+  "subject": "arabic",
   "group_ids": [
     "adult"
   ],
@@ -179,7 +179,12 @@
       "kind": "understanding",
       "title": "לפני שמתחילים (בלי שמע)",
       "body_he": "זה מבדק בלי חומר חדש. אם אתם לא קוראים אותיות ערביות בכלל, אין צורך במבדק: עברו ישר לדרך 01, ערבית מאפס. מי שלמד קצת ערבית בבית ספר ממשיך כאן. בלי שמע, כך זה נשמע: מַרְחַבַּא (שלום)",
-      "body_content": "مَرْحَبًا"
+      "body_content": "مَرْحَبًا",
+      "variant_of": "plc_zero_learn__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      }
     },
     {
       "id": "plc_zero_learn__a1w1",
@@ -188,6 +193,11 @@
       "title": "לפני שמתחילים (בכתיבה)",
       "body_he": "זה מבדק בלי חומר חדש. אם אתם לא קוראים אותיות ערביות בכלל, אין צורך במבדק: עברו ישר לדרך 01, ערבית מאפס. מי שלמד קצת ערבית בבית ספר ממשיך כאן. העתיקו ביד על דף שלוש פעמים.",
       "body_content": "مَرْحَبًا",
+      "variant_of": "plc_zero_learn__a1w0",
+      "variant_when": {
+        "audio": true,
+        "writing": true
+      },
       "speak_text": "مَرْحَبًا"
     },
     {
@@ -196,7 +206,12 @@
       "kind": "understanding",
       "title": "לפני שמתחילים (בלי שמע, בכתיבה)",
       "body_he": "זה מבדק בלי חומר חדש. אם אתם לא קוראים אותיות ערביות בכלל, אין צורך במבדק: עברו ישר לדרך 01, ערבית מאפס. מי שלמד קצת ערבית בבית ספר ממשיך כאן. העתיקו ביד על דף שלוש פעמים. בלי שמע, כך זה נשמע: מַרְחַבַּא (שלום)",
-      "body_content": "مَرْحَبًا"
+      "body_content": "مَرْحَبًا",
+      "variant_of": "plc_zero_learn__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": true
+      }
     },
     {
       "id": "plc_zero_q__a1w0",
@@ -230,6 +245,11 @@
       "title": "האות הזו מוכרת לכם? (בלי שמע)",
       "body_he": "בחרו תשובה כנה. שתי התשובות נכונות. אם בחרתם מאפס, סגרו את המבדק ופתחו את דרך 01. בלי שמע, כך זה נשמע: בּ",
       "body_content": "ب",
+      "variant_of": "plc_zero_q__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      },
       "choices": [
         {
           "id": "a",
@@ -254,6 +274,11 @@
       "title": "האות הזו מוכרת לכם? (בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. בחרו תשובה כנה. שתי התשובות נכונות. אם בחרתם מאפס, סגרו את המבדק ופתחו את דרך 01.",
       "body_content": "ب",
+      "variant_of": "plc_zero_q__a1w0",
+      "variant_when": {
+        "audio": true,
+        "writing": true
+      },
       "speak_text": "ب",
       "choices": [
         {
@@ -279,6 +304,11 @@
       "title": "האות הזו מוכרת לכם? (בלי שמע, בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. בחרו תשובה כנה. שתי התשובות נכונות. אם בחרתם מאפס, סגרו את המבדק ופתחו את דרך 01. בלי שמע, כך זה נשמע: בּ",
       "body_content": "ب",
+      "variant_of": "plc_zero_q__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": true
+      },
       "choices": [
         {
           "id": "a",
@@ -333,6 +363,11 @@
       "title": "איזו אות? (בלי שמע)",
       "body_he": "איזו אות היא ت (ת)? בלי שמע, כך זה נשמע: תּ",
       "body_content": "ب ت ث ن",
+      "variant_of": "plc_script_p1__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      },
       "choices": [
         {
           "id": "a",
@@ -362,6 +397,11 @@
       "title": "איזו אות? (בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. איזו אות היא ت (ת)?",
       "body_content": "ب ت ث ن",
+      "variant_of": "plc_script_p1__a1w0",
+      "variant_when": {
+        "audio": true,
+        "writing": true
+      },
       "speak_text": "ب ت ث ن",
       "choices": [
         {
@@ -392,6 +432,11 @@
       "title": "איזו אות? (בלי שמע, בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. איזו אות היא ت (ת)? בלי שמע, כך זה נשמע: תּ",
       "body_content": "ب ت ث ن",
+      "variant_of": "plc_script_p1__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": true
+      },
       "choices": [
         {
           "id": "a",
@@ -451,6 +496,11 @@
       "title": "קריאת מילה (בלי שמע)",
       "body_he": "איך קוראים את המילה? בלי שמע, כך זה נשמע: בַּאבּ",
       "body_content": "بَاب",
+      "variant_of": "plc_script_chk__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      },
       "choices": [
         {
           "id": "a",
@@ -480,6 +530,11 @@
       "title": "קריאת מילה (בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. איך קוראים את המילה?",
       "body_content": "بَاب",
+      "variant_of": "plc_script_chk__a1w0",
+      "variant_when": {
+        "audio": true,
+        "writing": true
+      },
       "speak_text": "بَاب",
       "choices": [
         {
@@ -510,6 +565,11 @@
       "title": "קריאת מילה (בלי שמע, בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. איך קוראים את המילה? בלי שמע, כך זה נשמע: בַּאבּ",
       "body_content": "بَاب",
+      "variant_of": "plc_script_chk__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": true
+      },
       "choices": [
         {
           "id": "a",
@@ -569,6 +629,11 @@
       "title": "מה פירוש המילה? (בלי שמע)",
       "body_he": "בחרו תרגום. בלי שמע, כך זה נשמע: כִּתַאבּ",
       "body_content": "كِتَاب",
+      "variant_of": "plc_words_p1__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      },
       "choices": [
         {
           "id": "a",
@@ -598,6 +663,11 @@
       "title": "מה פירוש המילה? (בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. בחרו תרגום.",
       "body_content": "كِتَاب",
+      "variant_of": "plc_words_p1__a1w0",
+      "variant_when": {
+        "audio": true,
+        "writing": true
+      },
       "speak_text": "كِتَاب",
       "choices": [
         {
@@ -628,6 +698,11 @@
       "title": "מה פירוש המילה? (בלי שמע, בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. בחרו תרגום. בלי שמע, כך זה נשמע: כִּתַאבּ",
       "body_content": "كِتَاب",
+      "variant_of": "plc_words_p1__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": true
+      },
       "choices": [
         {
           "id": "a",
@@ -687,6 +762,11 @@
       "title": "מילה בלי ניקוד (בלי שמע)",
       "body_he": "בחרו תרגום. בבחינה אין ניקוד. בלי שמע, כך זה נשמע: בֵּית",
       "body_content": "بيت",
+      "variant_of": "plc_words_chk__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      },
       "choices": [
         {
           "id": "a",
@@ -716,6 +796,11 @@
       "title": "מילה בלי ניקוד (בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. בחרו תרגום. בבחינה אין ניקוד.",
       "body_content": "بيت",
+      "variant_of": "plc_words_chk__a1w0",
+      "variant_when": {
+        "audio": true,
+        "writing": true
+      },
       "speak_text": "بيت",
       "choices": [
         {
@@ -746,6 +831,11 @@
       "title": "מילה בלי ניקוד (בלי שמע, בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. בחרו תרגום. בבחינה אין ניקוד. בלי שמע, כך זה נשמע: בֵּית",
       "body_content": "بيت",
+      "variant_of": "plc_words_chk__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": true
+      },
       "choices": [
         {
           "id": "a",
@@ -805,6 +895,11 @@
       "title": "משפט בלי פועל (בלי שמע)",
       "body_he": "מה פירוש המשפט? בלי שמע, כך זה נשמע: אַלְבַּיְתֻ כַּבִּירֻן",
       "body_content": "الْبَيْتُ كَبِيرٌ",
+      "variant_of": "plc_noun_chk__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      },
       "choices": [
         {
           "id": "a",
@@ -834,6 +929,11 @@
       "title": "משפט בלי פועל (בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. מה פירוש המשפט?",
       "body_content": "الْبَيْتُ كَبِيرٌ",
+      "variant_of": "plc_noun_chk__a1w0",
+      "variant_when": {
+        "audio": true,
+        "writing": true
+      },
       "speak_text": "الْبَيْتُ كَبِيرٌ",
       "choices": [
         {
@@ -864,6 +964,11 @@
       "title": "משפט בלי פועל (בלי שמע, בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. מה פירוש המשפט? בלי שמע, כך זה נשמע: אַלְבַּיְתֻ כַּבִּירֻן",
       "body_content": "الْبَيْتُ كَبِيرٌ",
+      "variant_of": "plc_noun_chk__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": true
+      },
       "choices": [
         {
           "id": "a",
@@ -923,6 +1028,11 @@
       "title": "שורש (בלי שמע)",
       "body_he": "מה השורש של הפועל? בלי שמע, כך זה נשמע: כַּתַבַּ",
       "body_content": "كَتَبَ",
+      "variant_of": "plc_verb_p1__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      },
       "choices": [
         {
           "id": "a",
@@ -952,6 +1062,11 @@
       "title": "שורש (בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. מה השורש של הפועל?",
       "body_content": "كَتَبَ",
+      "variant_of": "plc_verb_p1__a1w0",
+      "variant_when": {
+        "audio": true,
+        "writing": true
+      },
       "speak_text": "كَتَبَ",
       "choices": [
         {
@@ -982,6 +1097,11 @@
       "title": "שורש (בלי שמע, בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. מה השורש של הפועל? בלי שמע, כך זה נשמע: כַּתַבַּ",
       "body_content": "كَتَبَ",
+      "variant_of": "plc_verb_p1__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": true
+      },
       "choices": [
         {
           "id": "a",
@@ -1041,6 +1161,11 @@
       "title": "זמן וגוף (בלי שמע)",
       "body_he": "מה פירוש הפועל? בלי שמע, כך זה נשמע: יַכְּתֻבֻּ",
       "body_content": "يَكْتُبُ",
+      "variant_of": "plc_verb_chk__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      },
       "choices": [
         {
           "id": "a",
@@ -1070,6 +1195,11 @@
       "title": "זמן וגוף (בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. מה פירוש הפועל?",
       "body_content": "يَكْتُبُ",
+      "variant_of": "plc_verb_chk__a1w0",
+      "variant_when": {
+        "audio": true,
+        "writing": true
+      },
       "speak_text": "يَكْتُبُ",
       "choices": [
         {
@@ -1100,6 +1230,11 @@
       "title": "זמן וגוף (בלי שמע, בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. מה פירוש הפועל? בלי שמע, כך זה נשמע: יַכְּתֻבֻּ",
       "body_content": "يَكْتُبُ",
+      "variant_of": "plc_verb_chk__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": true
+      },
       "choices": [
         {
           "id": "a",
@@ -1159,6 +1294,11 @@
       "title": "כאן ואחיותיה (בלי שמע)",
       "body_he": "מה פירוש המשפט? בלי שמע, כך זה נשמע: כַּאנַ אלְגַ'וֻּ בַּארִדַן",
       "body_content": "كَانَ الْجَوُّ بَارِدًا",
+      "variant_of": "plc_syntax_chk__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      },
       "choices": [
         {
           "id": "a",
@@ -1188,6 +1328,11 @@
       "title": "כאן ואחיותיה (בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. מה פירוש המשפט?",
       "body_content": "كَانَ الْجَوُّ بَارِدًا",
+      "variant_of": "plc_syntax_chk__a1w0",
+      "variant_when": {
+        "audio": true,
+        "writing": true
+      },
       "speak_text": "كَانَ الْجَوُّ بَارِدًا",
       "choices": [
         {
@@ -1218,6 +1363,11 @@
       "title": "כאן ואחיותיה (בלי שמע, בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. מה פירוש המשפט? בלי שמע, כך זה נשמע: כַּאנַ אלְגַ'וֻּ בַּארִדַן",
       "body_content": "كَانَ الْجَوُّ بَارِدًا",
+      "variant_of": "plc_syntax_chk__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": true
+      },
       "choices": [
         {
           "id": "a",
@@ -1277,6 +1427,11 @@
       "title": "קטע קצר (בלי שמע)",
       "body_he": "קראו בלי ניקוד וענו: איפה סמיר גר? בלי שמע, כך זה נשמע: סַמִיר טַאלִבּ פִי אלְגַ'אמִעַה. הֻוַ יַסְכֻּן פִי חֵיפַא מַעַ אַח'יהִ וַיַעְמַל פִי מַטְעַם.",
       "body_content": "سمير طالب في الجامعة. هو يسكن في حيفا مع أخيه ويعمل في مطعم.",
+      "variant_of": "plc_read_chk__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      },
       "choices": [
         {
           "id": "a",
@@ -1306,6 +1461,11 @@
       "title": "קטע קצר (בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. קראו בלי ניקוד וענו: איפה סמיר גר?",
       "body_content": "سمير طالب في الجامعة. هو يسكن في حيفا مع أخيه ويعمل في مطعم.",
+      "variant_of": "plc_read_chk__a1w0",
+      "variant_when": {
+        "audio": true,
+        "writing": true
+      },
       "speak_text": "سمير طالب في الجامعة. هو يسكن في حيفا مع أخيه ويعمل في مطعم.",
       "choices": [
         {
@@ -1336,6 +1496,11 @@
       "title": "קטע קצר (בלי שמע, בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. קראו בלי ניקוד וענו: איפה סמיר גר? בלי שמע, כך זה נשמע: סַמִיר טַאלִבּ פִי אלְגַ'אמִעַה. הֻוַ יַסְכֻּן פִי חֵיפַא מַעַ אַח'יהִ וַיַעְמַל פִי מַטְעַם.",
       "body_content": "سمير طالب في الجامعة. هو يسكن في حيفا مع أخيه ويعمل في مطعم.",
+      "variant_of": "plc_read_chk__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": true
+      },
       "choices": [
         {
           "id": "a",
@@ -1395,6 +1560,11 @@
       "title": "תשובה בשיחה (בלי שמע)",
       "body_he": "חבר שואל אתכם בערבית מדוברת. מה עונים? בלי שמע, כך זה נשמע: כִּיפַכּ?",
       "body_content": "كيفك؟",
+      "variant_of": "plc_speak_p1__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      },
       "choices": [
         {
           "id": "a",
@@ -1424,6 +1594,11 @@
       "title": "תשובה בשיחה (בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. חבר שואל אתכם בערבית מדוברת. מה עונים?",
       "body_content": "كيفك؟",
+      "variant_of": "plc_speak_p1__a1w0",
+      "variant_when": {
+        "audio": true,
+        "writing": true
+      },
       "speak_text": "كيفك؟",
       "choices": [
         {
@@ -1454,6 +1629,11 @@
       "title": "תשובה בשיחה (בלי שמע, בכתיבה)",
       "body_he": "קודם כתבו ביד על דף. חבר שואל אתכם בערבית מדוברת. מה עונים? בלי שמע, כך זה נשמע: כִּיפַכּ?",
       "body_content": "كيفك؟",
+      "variant_of": "plc_speak_p1__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": true
+      },
       "choices": [
         {
           "id": "a",
@@ -1493,6 +1673,11 @@
       "title": "אמרו בקול (בלי שמע)",
       "body_he": "הציגו את עצמכם במשפט אחד בערבית מדוברת: שם ומאיפה אתם. סמנו לעצמכם אם הצלחתם. בלי שמע, כך זה נשמע: אִסְמִי ... אַנַא מִן ...",
       "body_content": "اسمي ... أنا من ...",
+      "variant_of": "plc_speak_say__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      },
       "record": true
     },
     {
@@ -1500,7 +1685,7 @@
       "type": "learn",
       "kind": "understanding",
       "title": "מה עושים עם הטעויות",
-      "body_he": "הנושא הראשון שבו טעיתם פעמיים או יותר הוא הפער. כתב: דרך 01. מילים: דרך 02. משפט שמני: דרך 03. פועל: דרכים 04 ו 05. תחביר: דרך 06. קריאה: דרך 07. דיבור: דרך 08. כרגע נבנתה רק דרך 01; השאר בהמשך.",
+      "body_he": "בסיום המבדק המערכת פותחת לכם את הדרך המתאימה. כרגע נבנתה רק דרך 01, ואליה מגיעים מי שהתחילו מאפס או טעו בכמה שאלות. מי שענה הכול נכון יקבל את הדרכים הבאות כשייבנו.",
       "body_content": "بِالتَّوْفِيق",
       "speak_text": "بِالتَّوْفِيق"
     },
@@ -1509,8 +1694,13 @@
       "type": "learn",
       "kind": "understanding",
       "title": "מה עושים עם הטעויות (בלי שמע)",
-      "body_he": "הנושא הראשון שבו טעיתם פעמיים או יותר הוא הפער. כתב: דרך 01. מילים: דרך 02. משפט שמני: דרך 03. פועל: דרכים 04 ו 05. תחביר: דרך 06. קריאה: דרך 07. דיבור: דרך 08. כרגע נבנתה רק דרך 01; השאר בהמשך. בלי שמע, כך זה נשמע: בִּאלתַּוְפִיק (בהצלחה)",
-      "body_content": "بِالتَّوْفِيق"
+      "body_he": "בסיום המבדק המערכת פותחת לכם את הדרך המתאימה. כרגע נבנתה רק דרך 01, ואליה מגיעים מי שהתחילו מאפס או טעו בכמה שאלות. מי שענה הכול נכון יקבל את הדרכים הבאות כשייבנו. בלי שמע, כך זה נשמע: בִּאלתַּוְפִיק (בהצלחה)",
+      "body_content": "بِالتَّوْفِيق",
+      "variant_of": "plc_result__a1w0",
+      "variant_when": {
+        "audio": false,
+        "writing": false
+      }
     }
   ]
 }

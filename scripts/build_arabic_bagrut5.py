@@ -4,9 +4,10 @@
 Explanations are Hebrew (body_he). The Arabic being learned is in body_content and speak_text.
 
 Variants (decided in Eliot100/MyRoad#161, #171): every tile exists with and without audio and
-with and without writing. The schema on MyRoad main has no variant_of yet, so each variant is a
-sibling node. Id suffix: __a1w0 (audio, no writing: the base), __a0w0, __a1w1, __a0w1.
-When variant_of lands, every node with a suffix other than __a1w0 gets variant_of=<base id>.
+with and without writing. Each variant is a
+node with the same base. Id suffix: __a1w0 (audio, no writing: the base), __a0w0, __a1w1, __a0w1.
+Every non base node has variant_of=<base>__a1w0 and variant_when {audio, writing} (MyRoad#173);
+the app shows one step per base.
 Audio variants carry speak_text (TTS). No audio variants carry a Hebrew transliteration in body_he.
 Writing variants ask the learner to write by hand on paper before choosing.
 
@@ -70,6 +71,9 @@ def tile(
             "body_he": b,
             "body_content": content,
         }
+        if suffix != "a1w0":
+            row["variant_of"] = f"{base}__a1w0"
+            row["variant_when"] = {"audio": audio, "writing": write}
         if audio:
             row["speak_text"] = say or content
         if review:
@@ -89,12 +93,12 @@ def topic(tid: str, he: str, en: str, emoji: str, nodes: list[dict]) -> dict:
     return {"id": tid, "titles": {"he": he, "en": en}, "emoji": emoji, "node_ids": [n["id"] for n in nodes]}
 
 
-def doc(pid, titles, blurbs, emoji, minutes, prereq, topics, nodes) -> dict:
-    return {
+def doc(pid, titles, blurbs, emoji, minutes, prereq, topics, nodes, route=None) -> dict:
+    d = {
         "id": pid,
         "titles": titles,
         "blurbs": blurbs,
-        "subject": "general",  # no "arabic" SubjectId on main yet (design 9.2.1)
+        "subject": "arabic",
         "group_ids": ["adult"],
         "emoji": emoji,
         "explain_locale": "he",
@@ -104,6 +108,9 @@ def doc(pid, titles, blurbs, emoji, minutes, prereq, topics, nodes) -> dict:
         "topics": topics,
         "nodes": nodes,
     }
+    if route:
+        d["placement_route"] = route
+    return d
 
 
 def build(spec: list[tuple]) -> tuple[list[dict], list[dict]]:
@@ -194,9 +201,8 @@ def placement() -> dict:
         ]),
         ("t_result", "תוצאה", "Result", "🏁", [
             tile("plc_result", "learn", "מה עושים עם הטעויות",
-                 "הנושא הראשון שבו טעיתם פעמיים או יותר הוא הפער. כתב: דרך 01. מילים: דרך 02. "
-                 "משפט שמני: דרך 03. פועל: דרכים 04 ו 05. תחביר: דרך 06. קריאה: דרך 07. "
-                 "דיבור: דרך 08. כרגע נבנתה רק דרך 01; השאר בהמשך.",
+                 "בסיום המבדק המערכת פותחת לכם את הדרך המתאימה. כרגע נבנתה רק דרך 01, ואליה מגיעים מי שהתחילו "
+                 "מאפס או טעו בכמה שאלות. מי שענה הכול נכון יקבל את הדרכים הבאות כשייבנו.",
                  "بِالتَّوْفِيق", translit="בִּאלתַּוְפִיק (בהצלחה)", writing=False),
         ]),
     ]
@@ -373,6 +379,7 @@ def zero() -> dict:
          "en": "Arabic script from day one: direction, first letters, first words, and hello in spoken Arabic.",
          "ar": "الخط العربي من اليوم الأول: الحروف والكلمات الأولى والتحية."},
         "🌱", 90, [], topics, nodes,
+        route={"from_placement": P00, "band_min": 1, "band_max": 3},
     )
 
 
