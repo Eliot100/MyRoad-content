@@ -1,0 +1,609 @@
+{
+  "id": "path_english_bagrut5_06_module_g",
+  "titles": {
+    "he": "שאלון G",
+    "en": "Module G",
+    "ar": "استبيان G"
+  },
+  "blurbs": {
+    "he": "קטע ארוך יותר, ואז בחירה של פתיחה וגוף לחיבור דעה של 120 עד 140 מילים. המחוון: תוכן, ארגון, אוצר, ודיוק.",
+    "en": "A longer unseen, then an opinion essay judged on content, organization, vocabulary, and accuracy.",
+    "ar": "نص أطول ثم إنشاء رأي من 120 إلى 140 كلمة."
+  },
+  "subject": "english",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "ו",
+  "explain_locale": "he",
+  "content_locale": "en",
+  "estimated_minutes": 200,
+  "prerequisite_path_ids": [
+    "path_english_bagrut5_00_placement"
+  ],
+  "topics": [
+    {
+      "id": "t_read",
+      "titles": {
+        "he": "קטע G",
+        "en": "G passage"
+      },
+      "emoji": "א",
+      "node_ids": [
+        "g_t_read_learn",
+        "g_t_read_idea",
+        "g_t_read_purpose"
+      ]
+    },
+    {
+      "id": "t_essay",
+      "titles": {
+        "he": "חיבור דעה",
+        "en": "Opinion essay"
+      },
+      "emoji": "ב",
+      "node_ids": [
+        "g_t_essay_learn",
+        "g_t_essay_open",
+        "g_t_essay_org"
+      ]
+    },
+    {
+      "id": "t_rubric",
+      "titles": {
+        "he": "מחוון",
+        "en": "Rubric"
+      },
+      "emoji": "ג",
+      "node_ids": [
+        "g_t_rubric_learn",
+        "g_t_rubric_len",
+        "g_t_rubric_chk"
+      ]
+    },
+    {
+      "id": "t_review_1",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "g_rev1_learn",
+        "g_rev1_q"
+      ]
+    },
+    {
+      "id": "t_body",
+      "titles": {
+        "he": "גוף החיבור",
+        "en": "Two reasons"
+      },
+      "emoji": "ד",
+      "node_ids": [
+        "g_t_body_learn",
+        "g_t_body_p1",
+        "g_t_body_p2"
+      ]
+    },
+    {
+      "id": "t_close",
+      "titles": {
+        "he": "סיום",
+        "en": "A closing sentence"
+      },
+      "emoji": "ה",
+      "node_ids": [
+        "g_t_close_learn",
+        "g_t_close_p1",
+        "g_t_close_p2"
+      ]
+    },
+    {
+      "id": "t_words",
+      "titles": {
+        "he": "אוצר לחיבור",
+        "en": "Words for the essay"
+      },
+      "emoji": "ו",
+      "node_ids": [
+        "g_t_words_learn",
+        "g_t_words_p1",
+        "g_t_words_p2"
+      ]
+    },
+    {
+      "id": "t_review_2",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "g_rev2_learn",
+        "g_rev2_q"
+      ]
+    },
+    {
+      "id": "t_end",
+      "titles": {
+        "he": "סיום",
+        "en": "End"
+      },
+      "emoji": "✓",
+      "node_ids": [
+        "g_final_check",
+        "g_celebrate"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "g_t_read_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "קטע G",
+      "body_he": "הכותב לא אומר שהסדנה היא צדקה. הוא אומר שהיא נשארת כשיש חובה ותשלום קטן.",
+      "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention."
+    },
+    {
+      "id": "g_t_read_idea",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "רעיון",
+      "body_he": "מה נשאר פתוח?",
+      "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Workshops with a fee and a duty."
+        },
+        {
+          "id": "b",
+          "label": "Free rooms with no duty."
+        },
+        {
+          "id": "c",
+          "label": "Higher rent."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "דמי שימוש וחובת הוראה.",
+      "feedback_try": "החינם בלי חובה נסגר."
+    },
+    {
+      "id": "g_t_read_purpose",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מטרה",
+      "body_he": "למה הפסקה על המבקרים?",
+      "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "to answer the claim that help makes people wait"
+        },
+        {
+          "id": "b",
+          "label": "to sell tools"
+        },
+        {
+          "id": "c",
+          "label": "to list bus times"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "תשובה לטענה.",
+      "feedback_try": "אין רשימת אוטובוסים."
+    },
+    {
+      "id": "g_t_essay_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "חיבור דעה",
+      "body_he": "120 עד 140 מילים. פתיחה עם דעה, שתי סיבות, ומשפט סיום. לא מתחילים ב-Because.",
+      "body_content": "In my opinion, a shared workshop should charge a small fee."
+    },
+    {
+      "id": "g_t_essay_open",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "פתיחה",
+      "body_he": "איזו פתיחה עומדת?",
+      "body_content": "Choose an opening.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "In my opinion, a small fee keeps the room open."
+        },
+        {
+          "id": "b",
+          "label": "Because a fee."
+        },
+        {
+          "id": "c",
+          "label": "Fee room open people."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "יש דעה ומשפט שלם.",
+      "feedback_try": "Because אינו פתיחה."
+    },
+    {
+      "id": "g_t_essay_org",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ארגון",
+      "body_he": "מה חסר בפסקה שהיא רק דוגמה?",
+      "body_content": "A paragraph of one story and no point.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a reason that ties the story to the opinion"
+        },
+        {
+          "id": "b",
+          "label": "another city name"
+        },
+        {
+          "id": "c",
+          "label": "a date"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "צריך סיבה, לא עוד שם.",
+      "feedback_try": "תאריך לא מחליף נימוק."
+    },
+    {
+      "id": "g_t_rubric_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מחוון",
+      "body_he": "תוכן ושכנוע, ארגון, אוצר מילים, ודיוק. אורך קצר מדי יורד לחוד, לא במקום התוכן.",
+      "body_content": "Content, organization, vocabulary, accuracy, and length."
+    },
+    {
+      "id": "g_t_rubric_len",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אורך",
+      "body_he": "חיבור של 70 מילים כשהטווח הוא 120 עד 140.",
+      "body_content": "70 words",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It loses points for length and can still earn content points."
+        },
+        {
+          "id": "b",
+          "label": "It gets zero for everything."
+        },
+        {
+          "id": "c",
+          "label": "Length is ignored."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "אורך לחוד, תוכן לחוד.",
+      "feedback_try": "לא מאפסים את כל החיבור בגלל אורך."
+    },
+    {
+      "id": "g_t_rubric_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "איזה משפט הוא נימוק ולא חזרה?",
+      "body_content": "Choose a reason.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A fee gives the city a reason to keep the lease."
+        },
+        {
+          "id": "b",
+          "label": "A fee is a fee."
+        },
+        {
+          "id": "c",
+          "label": "Because fee fee."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "זה נימוק.",
+      "feedback_try": "חזרה על המילה אינה נימוק."
+    },
+    {
+      "id": "g_rev1_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_read",
+        "t_essay",
+        "t_rubric"
+      ]
+    },
+    {
+      "id": "g_rev1_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "Choose a reason, not a repeat.",
+      "review_topic_ids": [
+        "t_read",
+        "t_essay",
+        "t_rubric"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "A fee gives a reason to keep the lease."
+        },
+        {
+          "id": "b",
+          "label": "A fee is a fee."
+        },
+        {
+          "id": "c",
+          "label": "Because fee."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "זה נימוק.",
+      "feedback_try": "חזרה אינה נימוק."
+    },
+    {
+      "id": "g_t_body_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "גוף החיבור",
+      "body_he": "אחרי הפתיחה באות שתי סיבות. כל סיבה במשפט שלם, לא ברשימת מילים.",
+      "body_content": "A small fee keeps the lease. A duty keeps the skill moving."
+    },
+    {
+      "id": "g_t_body_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סיבה",
+      "body_he": "איזו סיבה עומדת?",
+      "body_content": "Choose.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A duty means every member teaches one hour."
+        },
+        {
+          "id": "b",
+          "label": "Duty duty hour."
+        },
+        {
+          "id": "c",
+          "label": "Because duty."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "משפט עם סיבה.",
+      "feedback_try": "השלישי אינו משפט."
+    },
+    {
+      "id": "g_t_body_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שתיים",
+      "body_he": "כמה סיבות לפני הסיום?",
+      "body_content": "120 to 140 words",
+      "choices": [
+        {
+          "id": "a",
+          "label": "two reasons, then a closing sentence"
+        },
+        {
+          "id": "b",
+          "label": "one word, ten times"
+        },
+        {
+          "id": "c",
+          "label": "no opinion at all"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "שתי סיבות וסיום.",
+      "feedback_try": "בלי דעה אין חיבור."
+    },
+    {
+      "id": "g_t_close_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "סיום",
+      "body_he": "הסיום חוזר לדעה בלי להעתיק את הפתיחה מילה במילה.",
+      "body_content": "That is why the room should not be free."
+    },
+    {
+      "id": "g_t_close_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סיום",
+      "body_he": "איזה סיום מתאים?",
+      "body_content": "Choose a close.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "For these reasons, a small fee is worth keeping."
+        },
+        {
+          "id": "b",
+          "label": "Because reasons reasons."
+        },
+        {
+          "id": "c",
+          "label": "Fee."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "משפט סיום.",
+      "feedback_try": "מילה אחת אינה סיום."
+    },
+    {
+      "id": "g_t_close_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "העתקה",
+      "body_he": "מה חלש?",
+      "body_content": "The last sentence copies the first, word for word.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It adds nothing new."
+        },
+        {
+          "id": "b",
+          "label": "It is the best ending."
+        },
+        {
+          "id": "c",
+          "label": "Length no longer counts."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "אין בו חידוש.",
+      "feedback_try": "העתקה אינה סיום."
+    },
+    {
+      "id": "g_t_words_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אוצר לחיבור",
+      "body_he": "שלוש מילים מהקטע, לשימוש בחיבור. לא רשימה רשמית.",
+      "body_content": "lease, duty, fee"
+    },
+    {
+      "id": "g_t_words_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "lease",
+      "body_he": "lease",
+      "body_content": "The city holds the lease.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "the right to use the room"
+        },
+        {
+          "id": "b",
+          "label": "a free tool"
+        },
+        {
+          "id": "c",
+          "label": "a bus line"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "הזכות להשתמש בחדר.",
+      "feedback_try": "זה לא אוטובוס."
+    },
+    {
+      "id": "g_t_words_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "duty",
+      "body_he": "duty",
+      "body_content": "a duty to teach one hour",
+      "choices": [
+        {
+          "id": "a",
+          "label": "something you must do"
+        },
+        {
+          "id": "b",
+          "label": "a higher price only"
+        },
+        {
+          "id": "c",
+          "label": "a closed door"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "חובה.",
+      "feedback_try": "מחיר לבד הוא fee."
+    },
+    {
+      "id": "g_rev2_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_body",
+        "t_close",
+        "t_words"
+      ]
+    },
+    {
+      "id": "g_rev2_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "Which workshops lasted?",
+      "review_topic_ids": [
+        "t_body",
+        "t_close",
+        "t_words"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "Ones with a fee and a duty."
+        },
+        {
+          "id": "b",
+          "label": "Free rooms with no duty."
+        },
+        {
+          "id": "c",
+          "label": "Rooms with double rent."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "דמי שימוש וחובה.",
+      "feedback_try": "החינם בלי חובה נסגר."
+    },
+    {
+      "id": "g_final_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת סוף",
+      "body_he": "שאלה אחת על כל הדרך.",
+      "body_content": "A 70-word essay when the range is 120 to 140.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Length loses points. Content can still earn some."
+        },
+        {
+          "id": "b",
+          "label": "The whole paper is zero."
+        },
+        {
+          "id": "c",
+          "label": "Length is ignored."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "אורך לחוד, תוכן לחוד.",
+      "feedback_try": "לא מאפסים הכל בגלל אורך."
+    },
+    {
+      "id": "g_celebrate",
+      "type": "celebrate",
+      "kind": "understanding",
+      "title": "סוף הדרך",
+      "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
+      "body_content": "This road is done."
+    }
+  ]
+}

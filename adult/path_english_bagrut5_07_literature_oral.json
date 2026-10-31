@@ -1,0 +1,545 @@
+{
+  "id": "path_english_bagrut5_07_literature_oral",
+  "titles": {
+    "he": "ספרות ודיבור",
+    "en": "Literature and speaking",
+    "ar": "الأدب والكلام"
+  },
+  "blurbs": {
+    "he": "גשר לסיפור ולשיר שנכתבו כאן, חיבור קצר על הטקסט, ושלוש אמירות בעל פה. לא מעתיקים יצירה מהרשימה.",
+    "en": "An original story, an original poem, a short essay on the text, and three spoken turns.",
+    "ar": "قصة وشعر أصليان، وإنشاء قصير، وثلاث جمل منطوقة."
+  },
+  "subject": "english",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "ז",
+  "explain_locale": "he",
+  "content_locale": "en",
+  "estimated_minutes": 180,
+  "prerequisite_path_ids": [
+    "path_english_bagrut5_00_placement"
+  ],
+  "topics": [
+    {
+      "id": "t_story",
+      "titles": {
+        "he": "סיפור קצר",
+        "en": "A short story"
+      },
+      "emoji": "א",
+      "node_ids": [
+        "lit_t_story_learn",
+        "lit_t_story_change",
+        "lit_t_story_who"
+      ]
+    },
+    {
+      "id": "t_poem",
+      "titles": {
+        "he": "שיר קצר",
+        "en": "A short poem"
+      },
+      "emoji": "ב",
+      "node_ids": [
+        "lit_t_poem_learn",
+        "lit_t_poem_image",
+        "lit_t_poem_tone"
+      ]
+    },
+    {
+      "id": "t_speak",
+      "titles": {
+        "he": "דיבור",
+        "en": "Speaking"
+      },
+      "emoji": "ג",
+      "node_ids": [
+        "lit_t_speak_learn",
+        "lit_t_speak_s1",
+        "lit_t_speak_s2"
+      ]
+    },
+    {
+      "id": "t_review_1",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "lit_rev1_learn",
+        "lit_rev1_q"
+      ]
+    },
+    {
+      "id": "t_essay",
+      "titles": {
+        "he": "חיבור על הטקסט",
+        "en": "A short essay on the text"
+      },
+      "emoji": "ד",
+      "node_ids": [
+        "lit_t_essay_learn",
+        "lit_t_essay_p1",
+        "lit_t_essay_p2"
+      ]
+    },
+    {
+      "id": "t_poem2",
+      "titles": {
+        "he": "שורה",
+        "en": "One line"
+      },
+      "emoji": "ה",
+      "node_ids": [
+        "lit_t_poem2_learn",
+        "lit_t_poem2_p1",
+        "lit_t_poem2_p2"
+      ]
+    },
+    {
+      "id": "t_turn",
+      "titles": {
+        "he": "פנייה שלישית",
+        "en": "A third spoken turn"
+      },
+      "emoji": "ו",
+      "node_ids": [
+        "lit_t_turn_learn",
+        "lit_t_turn_s3",
+        "lit_t_turn_s4"
+      ]
+    },
+    {
+      "id": "t_review_2",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "lit_rev2_learn",
+        "lit_rev2_q"
+      ]
+    },
+    {
+      "id": "t_end",
+      "titles": {
+        "he": "סיום",
+        "en": "End"
+      },
+      "emoji": "✓",
+      "node_ids": [
+        "lit_final_check",
+        "lit_celebrate"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "lit_t_story_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "סיפור קצר",
+      "body_he": "מי עושה מה, ומה משתנה בסוף. לא צריך את שם המחבר.",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus."
+    },
+    {
+      "id": "lit_t_story_change",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שינוי",
+      "body_he": "מה משתנה?",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Jonah gives back what he was given."
+        },
+        {
+          "id": "b",
+          "label": "The bus arrives at once."
+        },
+        {
+          "id": "c",
+          "label": "The woman moves away."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "הוא מחזיר את החסד.",
+      "feedback_try": "האוטובוס כבר הלך."
+    },
+    {
+      "id": "lit_t_story_who",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "דמות",
+      "body_he": "מי נותן את התפוז?",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a woman he does not know"
+        },
+        {
+          "id": "b",
+          "label": "the driver"
+        },
+        {
+          "id": "c",
+          "label": "Mr. Cohen"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "אישה שהוא לא מכיר.",
+      "feedback_try": "אין נהג שנותן תפוז."
+    },
+    {
+      "id": "lit_t_poem_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "שיר קצר",
+      "body_he": "חפץ עושה משהו שאדם עושה. זו התמונה, לא חידה עם תשובה אחת.",
+      "body_content": "The stair remembers every late key.\nIt does not forgive, and it does not tell.\nIt only keeps the dark one step longer\nthan the hand that finds the rail."
+    },
+    {
+      "id": "lit_t_poem_image",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תמונה",
+      "body_he": "מה המדרגות עושות?",
+      "body_content": "The stair remembers every late key.\nIt does not forgive, and it does not tell.\nIt only keeps the dark one step longer\nthan the hand that finds the rail.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "They keep the dark a little longer."
+        },
+        {
+          "id": "b",
+          "label": "They forgive the key."
+        },
+        {
+          "id": "c",
+          "label": "They call the police."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "החושך נשאר עוד רגע.",
+      "feedback_try": "כתוב שהן לא סולחות ולא מספרות."
+    },
+    {
+      "id": "lit_t_poem_tone",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "טון",
+      "body_he": "איך נשמע השיר?",
+      "body_content": "The stair remembers every late key.\nIt does not forgive, and it does not tell.\nIt only keeps the dark one step longer\nthan the hand that finds the rail.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "quiet and a little strict"
+        },
+        {
+          "id": "b",
+          "label": "a joke about buses"
+        },
+        {
+          "id": "c",
+          "label": "a shopping list"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "שקט וקצת קשוח.",
+      "feedback_try": "אין בדיחה על אוטובוס."
+    },
+    {
+      "id": "lit_t_speak_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דיבור",
+      "body_he": "שלוש פניות: תגובה אישית, סיבה אחת, ומשפט על הטקסט. אומרים, לא קוראים רשימה.",
+      "body_content": "I think Jonah is fair because he returns the kindness."
+    },
+    {
+      "id": "lit_t_speak_s1",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "תגובה",
+      "body_he": "אמרו משפט אחד: מה דעתכם על יונה.",
+      "body_content": "I think Jonah is fair.",
+      "speak_text": "I think Jonah is fair."
+    },
+    {
+      "id": "lit_t_speak_s2",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "סיבה",
+      "body_he": "אמרו למה, עם because.",
+      "body_content": "He is fair because he returns the kindness.",
+      "speak_text": "He is fair because he returns the kindness."
+    },
+    {
+      "id": "lit_rev1_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_story",
+        "t_poem",
+        "t_speak"
+      ]
+    },
+    {
+      "id": "lit_rev1_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "What changes in the story?",
+      "review_topic_ids": [
+        "t_story",
+        "t_poem",
+        "t_speak"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "Jonah returns the kindness."
+        },
+        {
+          "id": "b",
+          "label": "The bus comes back."
+        },
+        {
+          "id": "c",
+          "label": "The poem locks the door."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "החסד חוזר.",
+      "feedback_try": "האוטובוס כבר הלך."
+    },
+    {
+      "id": "lit_t_essay_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "חיבור על הטקסט",
+      "body_he": "100 עד 120 מילים על הטקסט: מה קורה, מה אתם חושבים, וסיבה מהסיפור. לא ביוגרפיה.",
+      "body_content": "Jonah is fair because he leaves the oranges."
+    },
+    {
+      "id": "lit_t_essay_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "על הטקסט",
+      "body_he": "איזו פתיחה על הסיפור?",
+      "body_content": "Choose.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Jonah pays the woman back, and I think that is fair."
+        },
+        {
+          "id": "b",
+          "label": "The author was born in."
+        },
+        {
+          "id": "c",
+          "label": "Because orange."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "על המעשה ועל הדעה.",
+      "feedback_try": "אין כאן ביוגרפיה."
+    },
+    {
+      "id": "lit_t_essay_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ראיה",
+      "body_he": "מאיפה הסיבה?",
+      "body_content": "Choose.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "from something Jonah does in the story"
+        },
+        {
+          "id": "b",
+          "label": "from a fact that is not in the story"
+        },
+        {
+          "id": "c",
+          "label": "from the poem's stair"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מתוך הסיפור.",
+      "feedback_try": "המדרגות הן שיר אחר."
+    },
+    {
+      "id": "lit_t_poem2_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "שורה",
+      "body_he": "בוחרים שורה ואומרים מה היא עושה, לא מה היא 'באמת אומרת' במשפט אחד סגור.",
+      "body_content": "The stair remembers every late key.\nIt does not forgive, and it does not tell.\nIt only keeps the dark one step longer\nthan the hand that finds the rail."
+    },
+    {
+      "id": "lit_t_poem2_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שורה",
+      "body_he": "איזו קריאה צמודה לשורה?",
+      "body_content": "The stair remembers every late key.\nIt does not forgive, and it does not tell.\nIt only keeps the dark one step longer\nthan the hand that finds the rail.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The stair keeps a secret: it does not tell."
+        },
+        {
+          "id": "b",
+          "label": "The stair is a bus."
+        },
+        {
+          "id": "c",
+          "label": "The key is a mayor."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "היא לא מספרת.",
+      "feedback_try": "אין אוטובוס בשיר."
+    },
+    {
+      "id": "lit_t_poem2_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לא חידה",
+      "body_he": "מה לא נכון לשיר?",
+      "body_content": "The stair remembers every late key.\nIt does not forgive, and it does not tell.\nIt only keeps the dark one step longer\nthan the hand that finds the rail.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "There is one hidden answer and no picture."
+        },
+        {
+          "id": "b",
+          "label": "An object acts like a person."
+        },
+        {
+          "id": "c",
+          "label": "The tone is quiet."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "זו תמונה, לא חידה עם פתרון יחיד.",
+      "feedback_try": "החפץ כן פועל כמו אדם."
+    },
+    {
+      "id": "lit_t_turn_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "פנייה שלישית",
+      "body_he": "הפנייה השלישית קושרת אתכם לטקסט במשפט אחד, בלי לקרוא רשימה.",
+      "body_content": "The story matters to me because a small gift can come back."
+    },
+    {
+      "id": "lit_t_turn_s3",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "עליכם",
+      "body_he": "אמרו למה הסיפור נוגע בכם, במשפט אחד.",
+      "body_content": "The story matters to me because a small gift can come back.",
+      "speak_text": "The story matters to me because a small gift can come back."
+    },
+    {
+      "id": "lit_t_turn_s4",
+      "type": "speak",
+      "kind": "understanding",
+      "title": "על השיר",
+      "body_he": "אמרו משפט אחד על המדרגות.",
+      "body_content": "The stairs keep the dark a little longer.",
+      "speak_text": "The stairs keep the dark a little longer."
+    },
+    {
+      "id": "lit_rev2_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_essay",
+        "t_poem2",
+        "t_turn"
+      ]
+    },
+    {
+      "id": "lit_rev2_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "What do the stairs do?",
+      "review_topic_ids": [
+        "t_essay",
+        "t_poem2",
+        "t_turn"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "They keep the dark a little longer."
+        },
+        {
+          "id": "b",
+          "label": "They forgive the key."
+        },
+        {
+          "id": "c",
+          "label": "They call someone."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "החושך נשאר עוד רגע.",
+      "feedback_try": "כתוב שהן לא סולחות."
+    },
+    {
+      "id": "lit_final_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת סוף",
+      "body_he": "שאלה אחת על כל הדרך.",
+      "body_content": "How does the poem sound?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Quiet and a little strict."
+        },
+        {
+          "id": "b",
+          "label": "A joke."
+        },
+        {
+          "id": "c",
+          "label": "A shopping list."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "שקט וקצת קשוח.",
+      "feedback_try": "אין בדיחה."
+    },
+    {
+      "id": "lit_celebrate",
+      "type": "celebrate",
+      "kind": "understanding",
+      "title": "סוף הדרך",
+      "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
+      "body_content": "This road is done."
+    }
+  ]
+}

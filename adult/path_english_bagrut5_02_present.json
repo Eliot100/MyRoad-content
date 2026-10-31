@@ -1,0 +1,609 @@
+{
+  "id": "path_english_bagrut5_02_present",
+  "titles": {
+    "he": "הווה ויום יום",
+    "en": "Present and daily life",
+    "ar": "المضارع والحياة اليومية"
+  },
+  "blurbs": {
+    "he": "Present Simple, there is, ושאלות. קטע קצר בסוף.",
+    "en": "Present Simple, there is, and questions.",
+    "ar": "المضارع البسيط، و there is، والأسئلة."
+  },
+  "subject": "english",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "ב",
+  "explain_locale": "he",
+  "content_locale": "en",
+  "estimated_minutes": 120,
+  "prerequisite_path_ids": [
+    "path_english_bagrut5_00_placement"
+  ],
+  "topics": [
+    {
+      "id": "t_simple",
+      "titles": {
+        "he": "Present Simple",
+        "en": "Present Simple"
+      },
+      "emoji": "א",
+      "node_ids": [
+        "pr_t_simple_learn",
+        "pr_t_simple_p1",
+        "pr_t_simple_p2"
+      ]
+    },
+    {
+      "id": "t_there",
+      "titles": {
+        "he": "there is",
+        "en": "there is"
+      },
+      "emoji": "ב",
+      "node_ids": [
+        "pr_t_there_learn",
+        "pr_t_there_p1",
+        "pr_t_there_p2"
+      ]
+    },
+    {
+      "id": "t_q",
+      "titles": {
+        "he": "שאלות",
+        "en": "Questions"
+      },
+      "emoji": "ג",
+      "node_ids": [
+        "pr_t_q_learn",
+        "pr_t_q_p1",
+        "pr_t_q_p2"
+      ]
+    },
+    {
+      "id": "t_review_1",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "pr_rev1_learn",
+        "pr_rev1_q"
+      ]
+    },
+    {
+      "id": "t_day",
+      "titles": {
+        "he": "יום רגיל",
+        "en": "A normal day"
+      },
+      "emoji": "ד",
+      "node_ids": [
+        "pr_t_day_learn",
+        "pr_t_day_idea",
+        "pr_t_day_detail"
+      ]
+    },
+    {
+      "id": "t_neg",
+      "titles": {
+        "he": "שלילה בהווה",
+        "en": "don't and doesn't"
+      },
+      "emoji": "ה",
+      "node_ids": [
+        "pr_t_neg_learn",
+        "pr_t_neg_p1",
+        "pr_t_neg_p2"
+      ]
+    },
+    {
+      "id": "t_freq",
+      "titles": {
+        "he": "תדירות",
+        "en": "always and never"
+      },
+      "emoji": "ו",
+      "node_ids": [
+        "pr_t_freq_learn",
+        "pr_t_freq_p1",
+        "pr_t_freq_p2"
+      ]
+    },
+    {
+      "id": "t_review_2",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review"
+      },
+      "emoji": "↻",
+      "node_ids": [
+        "pr_rev2_learn",
+        "pr_rev2_q"
+      ]
+    },
+    {
+      "id": "t_end",
+      "titles": {
+        "he": "סיום",
+        "en": "End"
+      },
+      "emoji": "✓",
+      "node_ids": [
+        "pr_final_check",
+        "pr_celebrate"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "pr_t_simple_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "Present Simple",
+      "body_he": "הרגל. אחרי he, she, it הפועל מקבל s.",
+      "body_content": "She works at home."
+    },
+    {
+      "id": "pr_t_simple_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "he",
+      "body_he": "השלימו.",
+      "body_content": "He ___ coffee.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "drink"
+        },
+        {
+          "id": "b",
+          "label": "drinks"
+        },
+        {
+          "id": "c",
+          "label": "drinking"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "drinks.",
+      "feedback_try": "אחרי he יש s."
+    },
+    {
+      "id": "pr_t_simple_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "they",
+      "body_he": "בלי s.",
+      "body_content": "They ___ early.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "starts"
+        },
+        {
+          "id": "b",
+          "label": "start"
+        },
+        {
+          "id": "c",
+          "label": "starting"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "start.",
+      "feedback_try": "they לא מקבל s."
+    },
+    {
+      "id": "pr_t_there_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "there is",
+      "body_he": "יש אחד: there is. יש כמה: there are.",
+      "body_content": "There is a book on the desk."
+    },
+    {
+      "id": "pr_t_there_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אחד",
+      "body_he": "שם אחד.",
+      "body_content": "There ___ a book.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "There is a book.",
+      "feedback_try": "a book הוא אחד, לכן is."
+    },
+    {
+      "id": "pr_t_there_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כמה",
+      "body_he": "יותר מאחד.",
+      "body_content": "There ___ two books.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "There are two books.",
+      "feedback_try": "two צריך are."
+    },
+    {
+      "id": "pr_t_q_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "שאלות",
+      "body_he": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
+      "body_content": "Do you live here?"
+    },
+    {
+      "id": "pr_t_q_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "you",
+      "body_he": "שאלה עם you.",
+      "body_content": "___ you work here?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Is"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Do you.",
+      "feedback_try": "Does לא הולך עם you."
+    },
+    {
+      "id": "pr_t_q_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "she",
+      "body_he": "שאלה עם she.",
+      "body_content": "___ she live here?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Are"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "Does she.",
+      "feedback_try": "עם she שואלים Does, בלי s על הפועל."
+    },
+    {
+      "id": "pr_rev1_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_simple",
+        "t_there",
+        "t_q"
+      ]
+    },
+    {
+      "id": "pr_rev1_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "She ___ at home.",
+      "review_topic_ids": [
+        "t_simple",
+        "t_there",
+        "t_q"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "work"
+        },
+        {
+          "id": "b",
+          "label": "works"
+        },
+        {
+          "id": "c",
+          "label": "working"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "works.",
+      "feedback_try": "אחרי she יש s."
+    },
+    {
+      "id": "pr_t_day_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "יום רגיל",
+      "body_he": "always יושב לפני הפועל העיקרי.",
+      "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. Some days she talks to a client. She stops at four and walks to the park."
+    },
+    {
+      "id": "pr_t_day_idea",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "רעיון",
+      "body_he": "מה מאיה עושה?",
+      "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. Some days she talks to a client. She stops at four and walks to the park.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "She works at home."
+        },
+        {
+          "id": "b",
+          "label": "She closes the library."
+        },
+        {
+          "id": "c",
+          "label": "She drives a bus."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "היא עובדת מהבית.",
+      "feedback_try": "אין אוטובוס בקטע."
+    },
+    {
+      "id": "pr_t_day_detail",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שעה",
+      "body_he": "מתי היא מתחילה?",
+      "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. Some days she talks to a client. She stops at four and walks to the park.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "at eight"
+        },
+        {
+          "id": "b",
+          "label": "at four"
+        },
+        {
+          "id": "c",
+          "label": "at noon"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "at eight.",
+      "feedback_try": "at four היא עוצרת."
+    },
+    {
+      "id": "pr_t_neg_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "שלילה בהווה",
+      "body_he": "שלילה: do not או does not, והפועל בלי s.",
+      "body_content": "She does not work on Friday."
+    },
+    {
+      "id": "pr_t_neg_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "she",
+      "body_he": "שלילה.",
+      "body_content": "She ___ like coffee.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "does not"
+        },
+        {
+          "id": "b",
+          "label": "do not"
+        },
+        {
+          "id": "c",
+          "label": "is not"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "does not.",
+      "feedback_try": "עם she יש does."
+    },
+    {
+      "id": "pr_t_neg_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "they",
+      "body_he": "רבים.",
+      "body_content": "They ___ live here.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "do not"
+        },
+        {
+          "id": "b",
+          "label": "does not"
+        },
+        {
+          "id": "c",
+          "label": "are not work"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "do not.",
+      "feedback_try": "they הולך עם do."
+    },
+    {
+      "id": "pr_t_freq_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "תדירות",
+      "body_he": "always ו-never יושבים לפני הפועל העיקרי.",
+      "body_content": "Maya always starts at eight."
+    },
+    {
+      "id": "pr_t_freq_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "always",
+      "body_he": "איפה always?",
+      "body_content": "Choose the English order.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "She always walks."
+        },
+        {
+          "id": "b",
+          "label": "She walks always."
+        },
+        {
+          "id": "c",
+          "label": "Always she walks the."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "לפני הפועל.",
+      "feedback_try": "always לא אחרי הפועל."
+    },
+    {
+      "id": "pr_t_freq_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "never",
+      "body_he": "שלילה רכה.",
+      "body_content": "He ___ late.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "is never"
+        },
+        {
+          "id": "b",
+          "label": "never is"
+        },
+        {
+          "id": "c",
+          "label": "does never"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "is never.",
+      "feedback_try": "אחרי am/is/are התדירות באה מיד."
+    },
+    {
+      "id": "pr_rev2_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "חזרה מעורבת",
+      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_content": "Review only.",
+      "review_topic_ids": [
+        "t_day",
+        "t_neg",
+        "t_freq"
+      ]
+    },
+    {
+      "id": "pr_rev2_q",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_content": "There ___ two books.",
+      "review_topic_ids": [
+        "t_day",
+        "t_neg",
+        "t_freq"
+      ],
+      "choices": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "am"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "There are.",
+      "feedback_try": "two צריך are."
+    },
+    {
+      "id": "pr_final_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת סוף",
+      "body_he": "שאלה אחת על כל הדרך.",
+      "body_content": "___ there a book on the desk?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Is"
+        },
+        {
+          "id": "b",
+          "label": "Are"
+        },
+        {
+          "id": "c",
+          "label": "Do"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Is there a book.",
+      "feedback_try": "a book הוא אחד."
+    },
+    {
+      "id": "pr_celebrate",
+      "type": "celebrate",
+      "kind": "understanding",
+      "title": "סוף הדרך",
+      "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
+      "body_content": "This road is done."
+    }
+  ]
+}
