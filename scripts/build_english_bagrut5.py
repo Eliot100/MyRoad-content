@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "adult"
+PLACEMENT = "path_english_bagrut5_00_placement"
 
 PASSAGE_SHORT = (
     "Maya works at home. She starts at eight. She drinks water and opens her mail. "
@@ -276,7 +277,7 @@ def placement() -> dict:
         ),
         (
             "t_end", "מה יוצא מהמבדק", "What the check means", "ט",
-            "כל נושא במבדק שייך לדרך אחת. אותיות וam is are שייכים לדרך מאפס. הווה שייך להווה ויום יום. עבר ועתיד שייכים לזמן וסיפור. דיוק שייך לדרך דיוק. הקטע שייך לשאלון E. המשפט הכתוב שייך לשאלון G. הדיבור שייך לספרות ודיבור. הדרך הראשונה שבה היו שתי טעויות היא הפער, והשרשרת פותחת אותה. בלי טעויות כאלה הפער הוא הבחינה. הדרכים שאחרי הפער נעולות עד שסוגרים אותו.",
+            "בסיום המבדק האפליקציה פותחת את הדרך שמתאימה לכם, לפי מספר הטעויות. הדרכים שלפניה פתוחות לחזרה. הדרכים שאחריה נעולות עד שמסיימים אותה.",
             "Your start is marked on the chain.",
             [],
         ),
@@ -772,6 +773,10 @@ def main() -> None:
         title_ar, blurb_ar = ar[doc["id"]]
         doc["titles"]["ar"] = title_ar
         doc["blurbs"]["ar"] = blurb_ar
+        # Band = road index, as core placement_band and SERIES use it (bands 1, 3, 5 today).
+        idx = int(doc["id"].split("_")[3])
+        if idx >= 1:
+            doc["placement_route"] = {"from_placement": PLACEMENT, "band_min": idx, "band_max": idx}
         path = OUT / f"{doc['id']}.json"
         path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(path.name, "topics", len(doc["topics"]), "nodes", len(doc["nodes"]))

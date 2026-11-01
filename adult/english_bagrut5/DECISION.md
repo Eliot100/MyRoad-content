@@ -22,3 +22,9 @@ Known limits: routing lives only in screen text; the two mistakes threshold is s
 How to switch: edit scripts/build_english_bagrut5.py (placement() or the 04 teach block) and run it; JSON is generated.
 
 Schema gaps: no field mapping a placement topic to a road id; no mistake threshold field; no free text answer for essays.
+
+## Update 1.11.2026: placement routing as data (issue #19)
+Every road 01 to 08 carries placement_route {from_placement: path_english_bagrut5_00_placement, band_min = band_max = road index}. This copies core: placement_band gives 1 (needs practice or 4+ mistakes), 3 (1 to 3 mistakes), 5 (none), and SERIES[band] is the road. route_by_band on these files gives 1 -> 01, 3 -> 03, 5 -> 05, same as SERIES.
+Options: A (chosen) one band per road index, matches SERIES exactly, future bands need no content change. B ranges (01: 1 to 2, 03: 3 to 4, 05: 5 to 8): same result today, hides 02, 04, 06 to 08. C only 01, 03, 05: fewest fields, roads without a route look unroutable.
+00 t_end text no longer maps topics to roads (that was screen text only and disagreed with the band rule); it says the app opens the right road.
+Known limits: schema has no route_path_id or first tile field, so the app starts at the road's first step. Core placement_api still uses SERIES for this placement id, not placement_route; the data is ready when Dev switches.
