@@ -92,7 +92,7 @@
       "type": "practice",
       "title": "בחרו: שלום",
       "title_en": "Pick: Hello",
-      "body_he": "מה אומרים באנגלית כדי להגיד שלום?",
+      "body_he": "מה אומרים באנגלית כדי להגיד שלום?\nהסבר: כשנפגשים אומרים Hello, וכשנפרדים אומרים Goodbye.",
       "body_en": "Which English word do we use to greet someone?",
       "body_content": "Hello",
       "speak_text": "Hello!",
@@ -115,14 +115,14 @@
       ],
       "correct": "b",
       "feedback_ok": "יפה! Hello = שלום.",
-      "feedback_try": "שלום באנגלית: Hello."
+      "feedback_try": "נסו שוב. שלום כשנפגשים הוא Hello. Goodbye הוא להתראות."
     },
     {
       "id": "practice_goodbye",
       "type": "practice",
       "title": "בחרו: פרידה",
       "title_en": "Pick: Goodbye",
-      "body_he": "כשנפרדים אומרים באנגלית…",
+      "body_he": "כשנפרדים אומרים באנגלית…\nהסבר: כשנפגשים אומרים Hello, וכשנפרדים אומרים Goodbye.",
       "body_en": "When we leave we say in English…",
       "body_content": "Goodbye",
       "speak_text": "Goodbye! Bye bye!",
@@ -145,7 +145,7 @@
       ],
       "correct": "b",
       "feedback_ok": "מעולה! Goodbye = להתראות.",
-      "feedback_try": "פרידה באנגלית: Goodbye."
+      "feedback_try": "נסו שוב. כשנפרדים אומרים Goodbye, להתראות."
     },
     {
       "id": "speak_thanks",
@@ -164,7 +164,7 @@
       "type": "practice",
       "title": "בחרו: בבקשה",
       "title_en": "Pick: Please",
-      "body_he": "מילה מנומסת לבקשה באנגלית היא…",
+      "body_he": "מילה מנומסת לבקשה באנגלית היא…\nהסבר: כשמבקשים משהו יפה מוסיפים Please, בבקשה.",
       "body_en": "A polite English word for asking is…",
       "body_content": "Please",
       "speak_text": "Please. Please!",
@@ -187,7 +187,7 @@
       ],
       "correct": "a",
       "feedback_ok": "יפה! Please = בבקשה.",
-      "feedback_try": "בבקשה באנגלית: Please."
+      "feedback_try": "נסו שוב. Please היא בבקשה. Happy הוא שמח וSad הוא עצוב."
     },
     {
       "id": "learn_feelings",
@@ -204,7 +204,7 @@
       "type": "practice",
       "title": "מה אומר Happy?",
       "title_en": "What does Happy mean?",
-      "body_he": "מה המשמעות של המילה באנגלית למטה?",
+      "body_he": "מה המשמעות של המילה באנגלית למטה?\nהסבר: קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
       "body_en": "What does the English word below mean?",
       "body_content": "Happy",
       "speak_text": "Happy!",
@@ -226,15 +226,15 @@
         }
       ],
       "correct": "b",
-      "feedback_ok": "נכון — Happy = שמח!",
-      "feedback_try": "Happy זה שמח."
+      "feedback_ok": "נכון, Happy = שמח!",
+      "feedback_try": "נסו שוב. Happy הוא שמח, כמו כשמחייכים."
     },
     {
       "id": "check_sad",
       "type": "check",
       "title": "מה אומר Sad?",
       "title_en": "What does Sad mean?",
-      "body_he": "אם מישהו מרגיש כך (מילה באנגלית למטה), הוא…",
+      "body_he": "אם מישהו מרגיש כך (מילה באנגלית למטה), הוא…\nהסבר: קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
       "body_en": "If someone feels like the English word below, they are…",
       "body_content": "Sad",
       "speak_text": "Sad",
@@ -256,15 +256,15 @@
         }
       ],
       "correct": "b",
-      "feedback_ok": "נכון — Sad = עצוב.",
-      "feedback_try": "Sad זה עצוב."
+      "feedback_ok": "נכון, Sad = עצוב.",
+      "feedback_try": "נסו שוב. Sad הוא עצוב, כמו כשבוכים."
     },
     {
       "id": "check_tired",
       "type": "check",
       "title": "מה אומר Tired?",
       "title_en": "What does Tired mean?",
-      "body_he": "מה המשמעות של המילה באנגלית למטה?",
+      "body_he": "מה המשמעות של המילה באנגלית למטה?\nהסבר: קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
       "body_en": "What does the English word below mean?",
       "body_content": "Tired",
       "speak_text": "Tired. I am tired.",
@@ -286,8 +286,8 @@
         }
       ],
       "correct": "a",
-      "feedback_ok": "נכון — Tired = עייף.",
-      "feedback_try": "Tired זה עייף."
+      "feedback_ok": "נכון, Tired = עייף.",
+      "feedback_try": "נסו שוב. Tired הוא עייף, כשרוצים לישון."
     },
     {
       "id": "celebrate",
