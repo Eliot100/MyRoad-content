@@ -151,7 +151,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "רעיון",
-      "body_he": "מה נשאר פתוח?\nהסבר: מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "body_he": "מה נשאר פתוח?",
       "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention.",
       "choices": [
         {
@@ -160,23 +160,27 @@
         },
         {
           "id": "b",
-          "label": "Free rooms with no duty."
+          "label": "Free rooms with no duty.",
+          "feedback": "לפי הקטע חדרים בלי חובה לא החזיקו."
         },
         {
           "id": "c",
-          "label": "Higher rent."
+          "label": "Higher rent.",
+          "feedback": "הקטע לא אומר את זה. חפשו בקטע את המשפט שעונה."
         }
       ],
       "correct": "a",
       "feedback_ok": "דמי שימוש וחובת הוראה.",
-      "feedback_try": "כתוב שהסדנאות שנשארו גבו תשלום קטן וביקשו מכל חבר ללמד שעה. החינמיות בלי חובה נסגרו. לכן Workshops with a fee and a duty."
+      "feedback_try": "כתוב שהסדנאות שנשארו גבו תשלום קטן וביקשו מכל חבר ללמד שעה. החינמיות בלי חובה נסגרו. לכן Workshops with a fee and a duty.",
+      "worked_method": "מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "hint": "חפשו בקטע אילו סדנאות נשארו פתוחות."
     },
     {
       "id": "g_t_read_purpose",
       "type": "practice",
       "kind": "understanding",
       "title": "מטרה",
-      "body_he": "למה הפסקה על המבקרים?\nהסבר: שואלים מה החלק הזה עושה לטענה של הכותב: מוסיף סיבה, דוגמה או תשובה למי שחולק.",
+      "body_he": "למה הפסקה על המבקרים?",
       "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention.",
       "choices": [
         {
@@ -185,16 +189,20 @@
         },
         {
           "id": "b",
-          "label": "to sell tools"
+          "label": "to sell tools",
+          "feedback": "הקטע לא מוכר כלים."
         },
         {
           "id": "c",
-          "label": "to list bus times"
+          "label": "to list bus times",
+          "feedback": "אין בקטע זמני אוטובוס."
         }
       ],
       "correct": "a",
       "feedback_ok": "תשובה לטענה.",
-      "feedback_try": "המבקרים אומרים שעזרה מלמדת לחכות, והכותב עונה להם מהנתונים. לכן to answer the claim that help makes people wait."
+      "feedback_try": "המבקרים אומרים שעזרה מלמדת לחכות, והכותב עונה להם מהנתונים. לכן to answer the claim that help makes people wait.",
+      "worked_method": "שואלים מה החלק הזה עושה לטענה של הכותב: מוסיף סיבה, דוגמה או תשובה למי שחולק.",
+      "hint": "מה המבקרים טוענים, ואיך הכותב עונה?"
     },
     {
       "id": "g_t_essay_learn",
@@ -209,7 +217,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "פתיחה",
-      "body_he": "איזו פתיחה עומדת?\nהסבר: חיבור דעה בנוי כך: פתיחה עם דעה, שתי סיבות עם דוגמה, ומשפט סיום. כל חלק הוא משפט שלם.",
+      "body_he": "איזו פתיחה עומדת?",
       "body_content": "Choose an opening.",
       "choices": [
         {
@@ -218,23 +226,27 @@
         },
         {
           "id": "b",
-          "label": "Because a fee."
+          "label": "Because a fee.",
+          "feedback": "אין פועל. זה לא משפט שלם."
         },
         {
           "id": "c",
-          "label": "Fee room open people."
+          "label": "Fee room open people.",
+          "feedback": "סדר המילים שבור ואין פועל."
         }
       ],
       "correct": "a",
       "feedback_ok": "יש דעה ומשפט שלם.",
-      "feedback_try": "In my opinion, a small fee keeps the room open הוא משפט שלם עם דעה. השאר אינם משפטים."
+      "feedback_try": "In my opinion, a small fee keeps the room open הוא משפט שלם עם דעה. השאר אינם משפטים.",
+      "worked_method": "חיבור דעה בנוי כך: פתיחה עם דעה, שתי סיבות עם דוגמה, ומשפט סיום. כל חלק הוא משפט שלם.",
+      "hint": "פתיחה טובה היא משפט שלם עם דעה."
     },
     {
       "id": "g_t_essay_org",
       "type": "practice",
       "kind": "understanding",
       "title": "ארגון",
-      "body_he": "מה חסר בפסקה שהיא רק דוגמה?\nהסבר: חיבור דעה בנוי כך: פתיחה עם דעה, שתי סיבות עם דוגמה, ומשפט סיום. כל חלק הוא משפט שלם.",
+      "body_he": "מה חסר בפסקה שהיא רק דוגמה?",
       "body_content": "A paragraph of one story and no point.",
       "choices": [
         {
@@ -243,16 +255,20 @@
         },
         {
           "id": "b",
-          "label": "another city name"
+          "label": "another city name",
+          "feedback": "עוד שם של עיר לא מסביר את הדוגמה."
         },
         {
           "id": "c",
-          "label": "a date"
+          "label": "a date",
+          "feedback": "תאריך לא מחבר את הדוגמה לדעה."
         }
       ],
       "correct": "a",
       "feedback_ok": "צריך סיבה, לא עוד שם.",
-      "feedback_try": "דוגמה לבד לא מוכיחה. צריך נימוק שמחבר את הסיפור לדעה."
+      "feedback_try": "דוגמה לבד לא מוכיחה. צריך נימוק שמחבר את הסיפור לדעה.",
+      "worked_method": "חיבור דעה בנוי כך: פתיחה עם דעה, שתי סיבות עם דוגמה, ומשפט סיום. כל חלק הוא משפט שלם.",
+      "hint": "דוגמה צריכה לחזור לדעה."
     },
     {
       "id": "g_t_rubric_learn",
@@ -267,7 +283,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "אורך",
-      "body_he": "חיבור של 70 מילים כשהטווח הוא 120 עד 140.\nהסבר: במחוון אורך הוא רק חלק אחד מהציון. חיבור קצר מדי מפסיד נקודות אורך, ותוכן טוב עדיין מקבל נקודות.",
+      "body_he": "חיבור של 70 מילים כשהטווח הוא 120 עד 140.",
       "body_content": "70 words",
       "choices": [
         {
@@ -276,23 +292,27 @@
         },
         {
           "id": "b",
-          "label": "It gets zero for everything."
+          "label": "It gets zero for everything.",
+          "feedback": "חיבור קצר מאבד נקודות אורך, לא את כל הציון."
         },
         {
           "id": "c",
-          "label": "Length is ignored."
+          "label": "Length is ignored.",
+          "feedback": "האורך נספר במחוון."
         }
       ],
       "correct": "a",
       "feedback_ok": "אורך לחוד, תוכן לחוד.",
-      "feedback_try": "70 מילים קצר מהטווח, לכן יורדות נקודות אורך. התוכן עדיין נבדק ויכול לקבל נקודות."
+      "feedback_try": "70 מילים קצר מהטווח, לכן יורדות נקודות אורך. התוכן עדיין נבדק ויכול לקבל נקודות.",
+      "worked_method": "במחוון אורך הוא רק חלק אחד מהציון. חיבור קצר מדי מפסיד נקודות אורך, ותוכן טוב עדיין מקבל נקודות.",
+      "hint": "לפי המחוון, אורך הוא רק חלק אחד מהציון."
     },
     {
       "id": "g_t_rubric_chk",
       "type": "check",
       "kind": "understanding",
       "title": "בדיקה",
-      "body_he": "איזה משפט הוא נימוק ולא חזרה?\nהסבר: נימוק אומר למה, ומוסיף מידע חדש. חזרה על אותה מילה אינה נימוק.",
+      "body_he": "איזה משפט הוא נימוק ולא חזרה?",
       "body_content": "Choose a reason.",
       "choices": [
         {
@@ -301,16 +321,20 @@
         },
         {
           "id": "b",
-          "label": "A fee is a fee."
+          "label": "A fee is a fee.",
+          "feedback": "זו חזרה על אותה מילה בלי סיבה."
         },
         {
           "id": "c",
-          "label": "Because fee fee."
+          "label": "Because fee fee.",
+          "feedback": "אין כאן משפט ואין סיבה."
         }
       ],
       "correct": "a",
       "feedback_ok": "זה נימוק.",
-      "feedback_try": "A fee gives the city a reason to keep the lease אומר למה התשלום טוב. השניים האחרים רק חוזרים על fee."
+      "feedback_try": "A fee gives the city a reason to keep the lease אומר למה התשלום טוב. השניים האחרים רק חוזרים על fee.",
+      "worked_method": "נימוק אומר למה, ומוסיף מידע חדש. חזרה על אותה מילה אינה נימוק.",
+      "hint": "נימוק אומר למה. חזרה אומרת שוב את אותו דבר."
     },
     {
       "id": "g_rev1_learn",
@@ -330,7 +354,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: נימוק אומר למה, ומוסיף מידע חדש. חזרה על אותה מילה אינה נימוק.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "Choose a reason, not a repeat.",
       "review_topic_ids": [
         "t_read",
@@ -344,16 +368,20 @@
         },
         {
           "id": "b",
-          "label": "A fee is a fee."
+          "label": "A fee is a fee.",
+          "feedback": "זו חזרה בלי סיבה."
         },
         {
           "id": "c",
-          "label": "Because fee."
+          "label": "Because fee.",
+          "feedback": "זה לא משפט שלם."
         }
       ],
       "correct": "a",
       "feedback_ok": "זה נימוק.",
-      "feedback_try": "A fee gives a reason to keep the lease מסביר למה. A fee is a fee רק חוזר."
+      "feedback_try": "A fee gives a reason to keep the lease מסביר למה. A fee is a fee רק חוזר.",
+      "worked_method": "נימוק אומר למה, ומוסיף מידע חדש. חזרה על אותה מילה אינה נימוק.",
+      "hint": "נימוק אומר למה."
     },
     {
       "id": "g_t_body_learn",
@@ -368,7 +396,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "סיבה",
-      "body_he": "איזו סיבה עומדת?\nהסבר: חיבור דעה בנוי כך: פתיחה עם דעה, שתי סיבות עם דוגמה, ומשפט סיום. כל חלק הוא משפט שלם.",
+      "body_he": "איזו סיבה עומדת?",
       "body_content": "Choose.",
       "choices": [
         {
@@ -377,23 +405,27 @@
         },
         {
           "id": "b",
-          "label": "Duty duty hour."
+          "label": "Duty duty hour.",
+          "feedback": "אין פועל, זו רשימת מילים."
         },
         {
           "id": "c",
-          "label": "Because duty."
+          "label": "Because duty.",
+          "feedback": "Because לבד לא מסביר כלום."
         }
       ],
       "correct": "a",
       "feedback_ok": "משפט עם סיבה.",
-      "feedback_try": "A duty means every member teaches one hour הוא משפט שלם שנותן סיבה ברורה."
+      "feedback_try": "A duty means every member teaches one hour הוא משפט שלם שנותן סיבה ברורה.",
+      "worked_method": "חיבור דעה בנוי כך: פתיחה עם דעה, שתי סיבות עם דוגמה, ומשפט סיום. כל חלק הוא משפט שלם.",
+      "hint": "סיבה טובה היא משפט שלם שמסביר."
     },
     {
       "id": "g_t_body_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "שתיים",
-      "body_he": "כמה סיבות לפני הסיום?\nהסבר: חיבור דעה בנוי כך: פתיחה עם דעה, שתי סיבות עם דוגמה, ומשפט סיום. כל חלק הוא משפט שלם.",
+      "body_he": "כמה סיבות לפני הסיום?",
       "body_content": "120 to 140 words",
       "choices": [
         {
@@ -402,16 +434,20 @@
         },
         {
           "id": "b",
-          "label": "one word, ten times"
+          "label": "one word, ten times",
+          "feedback": "חזרה על מילה אחת לא נותנת נימוק."
         },
         {
           "id": "c",
-          "label": "no opinion at all"
+          "label": "no opinion at all",
+          "feedback": "חיבור דעה צריך דעה."
         }
       ],
       "correct": "a",
       "feedback_ok": "שתי סיבות וסיום.",
-      "feedback_try": "בחיבור של 120 עד 140 מילים יש מקום לשתי סיבות ואחריהן משפט סיום."
+      "feedback_try": "בחיבור של 120 עד 140 מילים יש מקום לשתי סיבות ואחריהן משפט סיום.",
+      "worked_method": "חיבור דעה בנוי כך: פתיחה עם דעה, שתי סיבות עם דוגמה, ומשפט סיום. כל חלק הוא משפט שלם.",
+      "hint": "חיבור של 120 עד 140 מילים צריך כמה סיבות ומשפט סיום."
     },
     {
       "id": "g_t_close_learn",
@@ -426,7 +462,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "סיום",
-      "body_he": "איזה סיום מתאים?\nהסבר: משפט סיום חוזר על הדעה במילים חדשות, למשל עם For these reasons.",
+      "body_he": "איזה סיום מתאים?",
       "body_content": "Choose a close.",
       "choices": [
         {
@@ -435,23 +471,27 @@
         },
         {
           "id": "b",
-          "label": "Because reasons reasons."
+          "label": "Because reasons reasons.",
+          "feedback": "אין כאן משפט שלם."
         },
         {
           "id": "c",
-          "label": "Fee."
+          "label": "Fee.",
+          "feedback": "מילה אחת לא סוגרת חיבור."
         }
       ],
       "correct": "a",
       "feedback_ok": "משפט סיום.",
-      "feedback_try": "For these reasons, a small fee is worth keeping סוגר את הדעה במשפט שלם."
+      "feedback_try": "For these reasons, a small fee is worth keeping סוגר את הדעה במשפט שלם.",
+      "worked_method": "משפט סיום חוזר על הדעה במילים חדשות, למשל עם For these reasons.",
+      "hint": "סיום טוב סוגר את הדעה במשפט שלם."
     },
     {
       "id": "g_t_close_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "העתקה",
-      "body_he": "מה חלש?\nהסבר: סיום טוב אומר את הדעה שוב במילים אחרות, לא מעתיק את הפתיחה.",
+      "body_he": "מה חלש?",
       "body_content": "The last sentence copies the first, word for word.",
       "choices": [
         {
@@ -460,16 +500,20 @@
         },
         {
           "id": "b",
-          "label": "It is the best ending."
+          "label": "It is the best ending.",
+          "feedback": "העתקה מילה במילה לא מוסיפה רעיון."
         },
         {
           "id": "c",
-          "label": "Length no longer counts."
+          "label": "Length no longer counts.",
+          "feedback": "האורך עדיין נספר."
         }
       ],
       "correct": "a",
       "feedback_ok": "אין בו חידוש.",
-      "feedback_try": "משפט שמעתיק את הפתיחה מילה במילה לא מוסיף כלום, לכן הוא חלש."
+      "feedback_try": "משפט שמעתיק את הפתיחה מילה במילה לא מוסיף כלום, לכן הוא חלש.",
+      "worked_method": "סיום טוב אומר את הדעה שוב במילים אחרות, לא מעתיק את הפתיחה.",
+      "hint": "האם סיום שמעתיק את הפתיחה מוסיף משהו?"
     },
     {
       "id": "g_t_words_learn",
@@ -484,7 +528,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "lease",
-      "body_he": "lease\nהסבר: קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "body_he": "lease",
       "body_content": "The city holds the lease.",
       "choices": [
         {
@@ -493,23 +537,27 @@
         },
         {
           "id": "b",
-          "label": "a free tool"
+          "label": "a free tool",
+          "feedback": "lease לא קשור לכלים."
         },
         {
           "id": "c",
-          "label": "a bus line"
+          "label": "a bus line",
+          "feedback": "lease לא קשור לאוטובוס."
         }
       ],
       "correct": "a",
       "feedback_ok": "הזכות להשתמש בחדר.",
-      "feedback_try": "a lease the city holds: העירייה מחזיקה בזכות להשתמש בחדר. lease הוא the right to use the room."
+      "feedback_try": "a lease the city holds: העירייה מחזיקה בזכות להשתמש בחדר. lease הוא the right to use the room.",
+      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "hint": "lease הוא חוזה שמאפשר להשתמש במקום."
     },
     {
       "id": "g_t_words_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "duty",
-      "body_he": "duty\nהסבר: קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "body_he": "duty",
       "body_content": "a duty to teach one hour",
       "choices": [
         {
@@ -518,16 +566,20 @@
         },
         {
           "id": "b",
-          "label": "a higher price only"
+          "label": "a higher price only",
+          "feedback": "duty לא אומר מחיר."
         },
         {
           "id": "c",
-          "label": "a closed door"
+          "label": "a closed door",
+          "feedback": "duty לא קשור לדלת."
         }
       ],
       "correct": "a",
       "feedback_ok": "חובה.",
-      "feedback_try": "a duty to teach one hour: משהו שחייבים לעשות. duty הוא something you must do."
+      "feedback_try": "a duty to teach one hour: משהו שחייבים לעשות. duty הוא something you must do.",
+      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "hint": "duty הוא משהו שמוטל עליכם."
     },
     {
       "id": "g_rev2_learn",
@@ -547,7 +599,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "Which workshops lasted?",
       "review_topic_ids": [
         "t_body",
@@ -561,23 +613,27 @@
         },
         {
           "id": "b",
-          "label": "Free rooms with no duty."
+          "label": "Free rooms with no duty.",
+          "feedback": "לפי הקטע חדרים בלי חובה לא החזיקו."
         },
         {
           "id": "c",
-          "label": "Rooms with double rent."
+          "label": "Rooms with double rent.",
+          "feedback": "הקטע לא אומר את זה. חפשו בקטע את המשפט שעונה."
         }
       ],
       "correct": "a",
       "feedback_ok": "דמי שימוש וחובה.",
-      "feedback_try": "כתוב The workshops that lasted charged a small fee and asked every member to teach. לכן Ones with a fee and a duty."
+      "feedback_try": "כתוב The workshops that lasted charged a small fee and asked every member to teach. לכן Ones with a fee and a duty.",
+      "worked_method": "מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "hint": "חפשו בקטע אילו חדרים החזיקו."
     },
     {
       "id": "g_final_check",
       "type": "check",
       "kind": "understanding",
       "title": "בדיקת סוף",
-      "body_he": "שאלה אחת על כל הדרך.\nהסבר: במחוון אורך הוא רק חלק אחד מהציון. חיבור קצר מדי מפסיד נקודות אורך, ותוכן טוב עדיין מקבל נקודות.",
+      "body_he": "שאלה אחת על כל הדרך.",
       "body_content": "A 70-word essay when the range is 120 to 140.",
       "choices": [
         {
@@ -586,16 +642,20 @@
         },
         {
           "id": "b",
-          "label": "The whole paper is zero."
+          "label": "The whole paper is zero.",
+          "feedback": "חיבור קצר מאבד נקודות אורך, לא את כל הציון."
         },
         {
           "id": "c",
-          "label": "Length is ignored."
+          "label": "Length is ignored.",
+          "feedback": "האורך נספר במחוון."
         }
       ],
       "correct": "a",
       "feedback_ok": "אורך לחוד, תוכן לחוד.",
-      "feedback_try": "70 מילים קצר מ120, לכן יורדות נקודות אורך, והתוכן עדיין יכול לקבל נקודות."
+      "feedback_try": "70 מילים קצר מ120, לכן יורדות נקודות אורך, והתוכן עדיין יכול לקבל נקודות.",
+      "worked_method": "במחוון אורך הוא רק חלק אחד מהציון. חיבור קצר מדי מפסיד נקודות אורך, ותוכן טוב עדיין מקבל נקודות.",
+      "hint": "לפי המחוון, אורך הוא רק חלק אחד מהציון."
     },
     {
       "id": "g_celebrate",

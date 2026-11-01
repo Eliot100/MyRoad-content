@@ -91,7 +91,7 @@
       "type": "practice",
       "title": "בחרו את הצבע",
       "title_en": "Pick the color",
-      "body_he": "איזו מילה באנגלית אומרת אדום?\nהסבר: נזכרים איך אומרים כל צבע באנגלית, ובוחרים את המילה המתאימה.",
+      "body_he": "איזו מילה באנגלית אומרת אדום?",
       "body_en": "Which English word means red?",
       "body_content": "red",
       "speak_text": "Red",
@@ -100,7 +100,8 @@
           "id": "a",
           "label": "blue",
           "label_en": "blue",
-          "emoji": "🔵"
+          "emoji": "🔵",
+          "feedback": "blue הוא כחול."
         },
         {
           "id": "b",
@@ -112,19 +113,22 @@
           "id": "c",
           "label": "green",
           "label_en": "green",
-          "emoji": "🟢"
+          "emoji": "🟢",
+          "feedback": "green הוא ירוק."
         }
       ],
       "correct": "b",
       "feedback_ok": "נכון! Red = אדום.",
-      "feedback_try": "נסו שוב. אדום באנגלית הוא red. blue הוא כחול וgreen הוא ירוק."
+      "feedback_try": "נסו שוב. אדום באנגלית הוא red. blue הוא כחול וgreen הוא ירוק.",
+      "worked_method": "נזכרים איך אומרים כל צבע באנגלית, ובוחרים את המילה המתאימה.",
+      "hint": "אדום הוא צבע של עגבנייה."
     },
     {
       "id": "practice_blue",
       "type": "practice",
       "title": "צבע השמים",
       "title_en": "Sky color",
-      "body_he": "מה הצבע של השמים ביום בהיר? בחרו את המילה באנגלית.\nהסבר: קודם חושבים איזה צבע זה בעברית, ואז בוחרים את המילה באנגלית.",
+      "body_he": "מה הצבע של השמים ביום בהיר? בחרו את המילה באנגלית.",
       "body_en": "What color is a clear sky? Pick the English word.",
       "body_content": "blue",
       "speak_text": "The sky is blue. Blue!",
@@ -139,18 +143,22 @@
           "id": "b",
           "label": "yellow",
           "label_en": "yellow",
-          "emoji": "🟡"
+          "emoji": "🟡",
+          "feedback": "yellow הוא צהוב, כמו השמש."
         },
         {
           "id": "c",
           "label": "black",
           "label_en": "black",
-          "emoji": "⚫"
+          "emoji": "⚫",
+          "feedback": "black הוא שחור, כמו הלילה."
         }
       ],
       "correct": "a",
       "feedback_ok": "מעולה! Blue = כחול.",
-      "feedback_try": "נסו שוב. השמיים ביום בהיר כחולים, וכחול באנגלית הוא blue."
+      "feedback_try": "נסו שוב. השמיים ביום בהיר כחולים, וכחול באנגלית הוא blue.",
+      "worked_method": "קודם חושבים איזה צבע זה בעברית, ואז בוחרים את המילה באנגלית.",
+      "hint": "תחשבו על השמיים ביום בהיר."
     },
     {
       "id": "speak_green",
@@ -161,15 +169,14 @@
       "body_en": "Listen to the English word below, then tap 🎤. No score — just practice!",
       "body_content": "Green",
       "speak_text": "Green. Green. Your turn — say green!",
-      "record": true,
-      "media_hint": "green"
+      "record": true
     },
     {
       "id": "practice_yellow",
       "type": "practice",
       "title": "צבע השמש",
       "title_en": "Sun color",
-      "body_he": "מה הצבע של השמש באנגלית?\nהסבר: קודם חושבים איזה צבע זה בעברית, ואז בוחרים את המילה באנגלית.",
+      "body_he": "מה הצבע של השמש באנגלית?",
       "body_en": "What color is the sun in English?",
       "body_content": "yellow",
       "speak_text": "The sun is yellow!",
@@ -184,18 +191,22 @@
           "id": "b",
           "label": "green",
           "label_en": "green",
-          "emoji": "🟢"
+          "emoji": "🟢",
+          "feedback": "green הוא ירוק."
         },
         {
           "id": "c",
           "label": "black",
           "label_en": "black",
-          "emoji": "⚫"
+          "emoji": "⚫",
+          "feedback": "black הוא שחור."
         }
       ],
       "correct": "a",
       "feedback_ok": "מעולה! Yellow = צהוב.",
-      "feedback_try": "נסו שוב. השמש צהובה, וצהוב באנגלית הוא yellow."
+      "feedback_try": "נסו שוב. השמש צהובה, וצהוב באנגלית הוא yellow.",
+      "worked_method": "קודם חושבים איזה צבע זה בעברית, ואז בוחרים את המילה באנגלית.",
+      "hint": "השמש צהובה. איזו מילה אומרת צהוב?"
     },
     {
       "id": "learn_more",
@@ -212,7 +223,7 @@
       "type": "practice",
       "title": "בחרו כתום",
       "title_en": "Find orange",
-      "body_he": "איזו מילה באנגלית אומרת כתום?\nהסבר: נזכרים איך אומרים כל צבע באנגלית, ובוחרים את המילה המתאימה.",
+      "body_he": "איזו מילה באנגלית אומרת כתום?",
       "body_en": "Which English word means orange?",
       "body_content": "orange",
       "speak_text": "Orange. Which one is orange?",
@@ -221,7 +232,8 @@
           "id": "a",
           "label": "purple",
           "label_en": "purple",
-          "emoji": "🟣"
+          "emoji": "🟣",
+          "feedback": "purple הוא סגול."
         },
         {
           "id": "b",
@@ -233,19 +245,22 @@
           "id": "c",
           "label": "white",
           "label_en": "white",
-          "emoji": "⚪"
+          "emoji": "⚪",
+          "feedback": "white הוא לבן."
         }
       ],
       "correct": "b",
       "feedback_ok": "נכון! Orange = כתום.",
-      "feedback_try": "נסו שוב. כתום באנגלית הוא orange, כמו התפוז. purple הוא סגול."
+      "feedback_try": "נסו שוב. כתום באנגלית הוא orange, כמו התפוז. purple הוא סגול.",
+      "worked_method": "נזכרים איך אומרים כל צבע באנגלית, ובוחרים את המילה המתאימה.",
+      "hint": "כתום הוא גם שם של פרי."
     },
     {
       "id": "check_purple",
       "type": "check",
       "title": "מה הצבע?",
       "title_en": "Which color?",
-      "body_he": "מה המשמעות של המילה באנגלית למטה?\nהסבר: קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "body_he": "מה המשמעות של המילה באנגלית למטה?",
       "body_en": "What does the English word below mean?",
       "body_content": "purple",
       "speak_text": "Purple",
@@ -253,7 +268,8 @@
         {
           "id": "a",
           "label": "אדום",
-          "label_en": "red"
+          "label_en": "red",
+          "feedback": "אדום הוא red."
         },
         {
           "id": "b",
@@ -263,19 +279,22 @@
         {
           "id": "c",
           "label": "ירוק",
-          "label_en": "green"
+          "label_en": "green",
+          "feedback": "ירוק הוא green."
         }
       ],
       "correct": "b",
       "feedback_ok": "מעולה! Purple = סגול.",
-      "feedback_try": "נסו שוב. purple הוא סגול."
+      "feedback_try": "נסו שוב. purple הוא סגול.",
+      "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "hint": "זה צבע של ענבים כהים."
     },
     {
       "id": "check_mix",
       "type": "check",
       "title": "בחרו נכון",
       "title_en": "Pick the right color",
-      "body_he": "מה המשמעות של המילה באנגלית למטה?\nהסבר: קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "body_he": "מה המשמעות של המילה באנגלית למטה?",
       "body_en": "What does the English word below mean?",
       "body_content": "green",
       "speak_text": "Green",
@@ -283,12 +302,14 @@
         {
           "id": "a",
           "label": "אדום",
-          "label_en": "red"
+          "label_en": "red",
+          "feedback": "אדום הוא red."
         },
         {
           "id": "b",
           "label": "כחול",
-          "label_en": "blue"
+          "label_en": "blue",
+          "feedback": "כחול הוא blue."
         },
         {
           "id": "c",
@@ -298,7 +319,9 @@
       ],
       "correct": "c",
       "feedback_ok": "מעולה! Green = ירוק.",
-      "feedback_try": "נסו שוב. green הוא ירוק, הצבע של הדשא."
+      "feedback_try": "נסו שוב. green הוא ירוק, הצבע של הדשא.",
+      "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "hint": "זה צבע של דשא."
     },
     {
       "id": "celebrate",

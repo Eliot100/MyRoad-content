@@ -151,7 +151,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "שינוי",
-      "body_he": "מה משתנה?\nהסבר: משווים את ההתחלה לסוף: מה הדמות קיבלה ומה היא עושה אחר כך.",
+      "body_he": "מה משתנה?",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
       "choices": [
         {
@@ -160,23 +160,27 @@
         },
         {
           "id": "b",
-          "label": "The bus arrives at once."
+          "label": "The bus arrives at once.",
+          "feedback": "הוא פספס את האוטובוס האחרון."
         },
         {
           "id": "c",
-          "label": "The woman moves away."
+          "label": "The woman moves away.",
+          "feedback": "הקטע לא אומר את זה. חפשו בקטע את המשפט שעונה."
         }
       ],
       "correct": "a",
       "feedback_ok": "הוא מחזיר את החסד.",
-      "feedback_try": "בהתחלה ג'ונה מקבל חצי תפוז. בסוף הוא משאיר שקית תפוזים. הוא מחזיר את מה שקיבל."
+      "feedback_try": "בהתחלה ג'ונה מקבל חצי תפוז. בסוף הוא משאיר שקית תפוזים. הוא מחזיר את מה שקיבל.",
+      "worked_method": "משווים את ההתחלה לסוף: מה הדמות קיבלה ומה היא עושה אחר כך.",
+      "hint": "מה יונה מקבל בהתחלה, ומה הוא עושה בסוף?"
     },
     {
       "id": "lit_t_story_who",
       "type": "practice",
       "kind": "understanding",
       "title": "דמות",
-      "body_he": "מי נותן את התפוז?\nהסבר: מחפשים בסיפור את המשפט שעונה על השאלה ובוחרים תשובה שכתובה שם.",
+      "body_he": "מי נותן את התפוז?",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
       "choices": [
         {
@@ -185,16 +189,20 @@
         },
         {
           "id": "b",
-          "label": "the driver"
+          "label": "the driver",
+          "feedback": "אין נהג בסיפור. חפשו מי מציעה את התפוז."
         },
         {
           "id": "c",
-          "label": "Mr. Cohen"
+          "label": "Mr. Cohen",
+          "feedback": "מר כהן לא נמצא בסיפור הזה."
         }
       ],
       "correct": "a",
       "feedback_ok": "אישה שהוא לא מכיר.",
-      "feedback_try": "כתוב A woman he did not know offered him half her orange. אישה שהוא לא מכיר."
+      "feedback_try": "כתוב A woman he did not know offered him half her orange. אישה שהוא לא מכיר.",
+      "worked_method": "מחפשים בסיפור את המשפט שעונה על השאלה ובוחרים תשובה שכתובה שם.",
+      "hint": "חפשו בקטע את המילה orange."
     },
     {
       "id": "lit_t_poem_learn",
@@ -209,7 +217,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "תמונה",
-      "body_he": "מה המדרגות עושות?\nהסבר: קוראים את השורה מילה במילה. בשיר הזה חפץ, המדרגה, פועל כמו אדם: זוכר, לא סולח, לא מספר.",
+      "body_he": "מה המדרגות עושות?",
       "body_content": "The stair remembers every late key.\nIt does not forgive, and it does not tell.\nIt only keeps the dark one step longer\nthan the hand that finds the rail.",
       "choices": [
         {
@@ -218,23 +226,27 @@
         },
         {
           "id": "b",
-          "label": "They forgive the key."
+          "label": "They forgive the key.",
+          "feedback": "השיר אומר שהמדרגות לא סולחות."
         },
         {
           "id": "c",
-          "label": "They call the police."
+          "label": "They call the police.",
+          "feedback": "אין משטרה בשיר."
         }
       ],
       "correct": "a",
       "feedback_ok": "החושך נשאר עוד רגע.",
-      "feedback_try": "המדרגה זוכרת כל מפתח מאוחר ולא מספרת. היא שומרת את החושך עוד קצת: They keep the dark a little longer."
+      "feedback_try": "המדרגה זוכרת כל מפתח מאוחר ולא מספרת. היא שומרת את החושך עוד קצת: They keep the dark a little longer.",
+      "worked_method": "קוראים את השורה מילה במילה. בשיר הזה חפץ, המדרגה, פועל כמו אדם: זוכר, לא סולח, לא מספר.",
+      "hint": "קראו את השורה השלישית של השיר."
     },
     {
       "id": "lit_t_poem_tone",
       "type": "practice",
       "kind": "understanding",
       "title": "טון",
-      "body_he": "איך נשמע השיר?\nהסבר: הטון הוא איך השיר נשמע. בודקים את המילים: שקטות או צוחקות, רכות או קשות.",
+      "body_he": "איך נשמע השיר?",
       "body_content": "The stair remembers every late key.\nIt does not forgive, and it does not tell.\nIt only keeps the dark one step longer\nthan the hand that finds the rail.",
       "choices": [
         {
@@ -243,16 +255,20 @@
         },
         {
           "id": "b",
-          "label": "a joke about buses"
+          "label": "a joke about buses",
+          "feedback": "אין בשיר אוטובוס או בדיחה."
         },
         {
           "id": "c",
-          "label": "a shopping list"
+          "label": "a shopping list",
+          "feedback": "זה שיר, לא רשימה."
         }
       ],
       "correct": "a",
       "feedback_ok": "שקט וקצת קשוח.",
-      "feedback_try": "does not forgive נשמע קשה, וdoes not tell נשמע שקט. לכן quiet and a little strict."
+      "feedback_try": "does not forgive נשמע קשה, וdoes not tell נשמע שקט. לכן quiet and a little strict.",
+      "worked_method": "הטון הוא איך השיר נשמע. בודקים את המילים: שקטות או צוחקות, רכות או קשות.",
+      "hint": "איך השיר מרגיש כשקוראים אותו בשקט?"
     },
     {
       "id": "lit_t_speak_learn",
@@ -298,7 +314,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: משווים את ההתחלה לסוף: מה הדמות קיבלה ומה היא עושה אחר כך.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "What changes in the story?",
       "review_topic_ids": [
         "t_story",
@@ -312,16 +328,20 @@
         },
         {
           "id": "b",
-          "label": "The bus comes back."
+          "label": "The bus comes back.",
+          "feedback": "האוטובוס לא חוזר בסיפור."
         },
         {
           "id": "c",
-          "label": "The poem locks the door."
+          "label": "The poem locks the door.",
+          "feedback": "השיר הוא טקסט אחר, לא הסיפור."
         }
       ],
       "correct": "a",
       "feedback_ok": "החסד חוזר.",
-      "feedback_try": "ג'ונה קיבל תפוז ומחזיר שקית תפוזים: Jonah returns the kindness."
+      "feedback_try": "ג'ונה קיבל תפוז ומחזיר שקית תפוזים: Jonah returns the kindness.",
+      "worked_method": "משווים את ההתחלה לסוף: מה הדמות קיבלה ומה היא עושה אחר כך.",
+      "hint": "מה יונה עושה בסוף הסיפור?"
     },
     {
       "id": "lit_t_essay_learn",
@@ -336,7 +356,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "על הטקסט",
-      "body_he": "איזו פתיחה על הסיפור?\nהסבר: פתיחה על סיפור אומרת מה קורה בו ומה הדעה שלך, במשפט שלם.",
+      "body_he": "איזו פתיחה על הסיפור?",
       "body_content": "Choose.",
       "choices": [
         {
@@ -345,23 +365,27 @@
         },
         {
           "id": "b",
-          "label": "The author was born in."
+          "label": "The author was born in.",
+          "feedback": "זה משפט לא גמור ולא על הסיפור."
         },
         {
           "id": "c",
-          "label": "Because orange."
+          "label": "Because orange.",
+          "feedback": "אין כאן משפט ואין דעה."
         }
       ],
       "correct": "a",
       "feedback_ok": "על המעשה ועל הדעה.",
-      "feedback_try": "Jonah pays the woman back, and I think that is fair אומר מה קרה ומה אני חושב."
+      "feedback_try": "Jonah pays the woman back, and I think that is fair אומר מה קרה ומה אני חושב.",
+      "worked_method": "פתיחה על סיפור אומרת מה קורה בו ומה הדעה שלך, במשפט שלם.",
+      "hint": "פתיחה על הסיפור אומרת דעה על מה שקורה בו."
     },
     {
       "id": "lit_t_essay_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "ראיה",
-      "body_he": "מאיפה הסיבה?\nהסבר: בחיבור על סיפור הסיבה באה ממה שקורה בסיפור עצמו.",
+      "body_he": "מאיפה הסיבה?",
       "body_content": "Choose.",
       "choices": [
         {
@@ -370,16 +394,20 @@
         },
         {
           "id": "b",
-          "label": "from a fact that is not in the story"
+          "label": "from a fact that is not in the story",
+          "feedback": "נימוק צריך לבוא מהטקסט עצמו."
         },
         {
           "id": "c",
-          "label": "from the poem's stair"
+          "label": "from the poem's stair",
+          "feedback": "המדרגות הן מהשיר, לא מהסיפור."
         }
       ],
       "correct": "a",
       "feedback_ok": "מתוך הסיפור.",
-      "feedback_try": "הסיבה צריכה לבוא ממשהו שג'ונה עושה בסיפור, למשל השקית שהוא משאיר."
+      "feedback_try": "הסיבה צריכה לבוא ממשהו שג'ונה עושה בסיפור, למשל השקית שהוא משאיר.",
+      "worked_method": "בחיבור על סיפור הסיבה באה ממה שקורה בסיפור עצמו.",
+      "hint": "נימוק על סיפור בא מתוך הסיפור."
     },
     {
       "id": "lit_t_poem2_learn",
@@ -394,7 +422,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "שורה",
-      "body_he": "איזו קריאה צמודה לשורה?\nהסבר: קוראים את השורה מילה במילה. בשיר הזה חפץ, המדרגה, פועל כמו אדם: זוכר, לא סולח, לא מספר.",
+      "body_he": "איזו קריאה צמודה לשורה?",
       "body_content": "The stair remembers every late key.\nIt does not forgive, and it does not tell.\nIt only keeps the dark one step longer\nthan the hand that finds the rail.",
       "choices": [
         {
@@ -403,23 +431,27 @@
         },
         {
           "id": "b",
-          "label": "The stair is a bus."
+          "label": "The stair is a bus.",
+          "feedback": "אין בשיר אוטובוס."
         },
         {
           "id": "c",
-          "label": "The key is a mayor."
+          "label": "The key is a mayor.",
+          "feedback": "אין בשיר ראש עיר."
         }
       ],
       "correct": "a",
       "feedback_ok": "היא לא מספרת.",
-      "feedback_try": "it does not tell פירושו שהמדרגה לא מספרת, כלומר שומרת סוד."
+      "feedback_try": "it does not tell פירושו שהמדרגה לא מספרת, כלומר שומרת סוד.",
+      "worked_method": "קוראים את השורה מילה במילה. בשיר הזה חפץ, המדרגה, פועל כמו אדם: זוכר, לא סולח, לא מספר.",
+      "hint": "מה המדרגות עושות בשיר? הן מספרות?"
     },
     {
       "id": "lit_t_poem2_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "לא חידה",
-      "body_he": "מה לא נכון לשיר?\nהסבר: בשאלת מה לא נכון בודקים כל תשובה מול השיר ומחפשים את זו שהשיר סותר.",
+      "body_he": "מה לא נכון לשיר?",
       "body_content": "The stair remembers every late key.\nIt does not forgive, and it does not tell.\nIt only keeps the dark one step longer\nthan the hand that finds the rail.",
       "choices": [
         {
@@ -428,16 +460,20 @@
         },
         {
           "id": "b",
-          "label": "An object acts like a person."
+          "label": "An object acts like a person.",
+          "feedback": "זה נכון לשיר, המדרגות זוכרות כמו אדם."
         },
         {
           "id": "c",
-          "label": "The tone is quiet."
+          "label": "The tone is quiet.",
+          "feedback": "זה נכון לשיר, הטון שקט."
         }
       ],
       "correct": "a",
       "feedback_ok": "זו תמונה, לא חידה עם פתרון יחיד.",
-      "feedback_try": "בשיר יש תמונה ברורה של מדרגה ומפתח, לכן המשפט שאין בו תמונה אינו נכון. השניים האחרים נכונים."
+      "feedback_try": "בשיר יש תמונה ברורה של מדרגה ומפתח, לכן המשפט שאין בו תמונה אינו נכון. השניים האחרים נכונים.",
+      "worked_method": "בשאלת מה לא נכון בודקים כל תשובה מול השיר ומחפשים את זו שהשיר סותר.",
+      "hint": "השאלה היא מה לא נכון. בדקו כל משפט מול השיר."
     },
     {
       "id": "lit_t_turn_learn",
@@ -483,7 +519,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: קוראים את השורה מילה במילה. בשיר הזה חפץ, המדרגה, פועל כמו אדם: זוכר, לא סולח, לא מספר.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "What do the stairs do?",
       "review_topic_ids": [
         "t_essay",
@@ -497,23 +533,27 @@
         },
         {
           "id": "b",
-          "label": "They forgive the key."
+          "label": "They forgive the key.",
+          "feedback": "השיר אומר שהמדרגות לא סולחות."
         },
         {
           "id": "c",
-          "label": "They call someone."
+          "label": "They call someone.",
+          "feedback": "המדרגות לא קוראות לאף אחד."
         }
       ],
       "correct": "a",
       "feedback_ok": "החושך נשאר עוד רגע.",
-      "feedback_try": "המדרגה לא סולחת ולא מספרת, כלומר שומרת את החושך: They keep the dark a little longer."
+      "feedback_try": "המדרגה לא סולחת ולא מספרת, כלומר שומרת את החושך: They keep the dark a little longer.",
+      "worked_method": "קוראים את השורה מילה במילה. בשיר הזה חפץ, המדרגה, פועל כמו אדם: זוכר, לא סולח, לא מספר.",
+      "hint": "קראו את השורה השלישית של השיר."
     },
     {
       "id": "lit_final_check",
       "type": "check",
       "kind": "understanding",
       "title": "בדיקת סוף",
-      "body_he": "שאלה אחת על כל הדרך.\nהסבר: הטון הוא איך השיר נשמע. בודקים את המילים: שקטות או צוחקות, רכות או קשות.",
+      "body_he": "שאלה אחת על כל הדרך.",
       "body_content": "How does the poem sound?",
       "choices": [
         {
@@ -522,16 +562,20 @@
         },
         {
           "id": "b",
-          "label": "A joke."
+          "label": "A joke.",
+          "feedback": "אין בשיר בדיחה."
         },
         {
           "id": "c",
-          "label": "A shopping list."
+          "label": "A shopping list.",
+          "feedback": "זה שיר, לא רשימה."
         }
       ],
       "correct": "a",
       "feedback_ok": "שקט וקצת קשוח.",
-      "feedback_try": "המילים does not forgive וdoes not tell שקטות וקצת קשות: Quiet and a little strict."
+      "feedback_try": "המילים does not forgive וdoes not tell שקטות וקצת קשות: Quiet and a little strict.",
+      "worked_method": "הטון הוא איך השיר נשמע. בודקים את המילים: שקטות או צוחקות, רכות או קשות.",
+      "hint": "איך השיר מרגיש כשקוראים אותו?"
     },
     {
       "id": "lit_celebrate",
