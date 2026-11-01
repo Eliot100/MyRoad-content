@@ -151,7 +151,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "אתמול",
-      "body_he": "עבר רגיל.",
+      "body_he": "עבר רגיל.\nהסבר: מילת הזמן קובעת. yesterday היא עבר. פועל רגיל בעבר מקבל ed, למשל walked, ויש פעלים שמשתנים, למשל go נהיה went.",
       "body_content": "Yesterday he ___ the letter.",
       "choices": [
         {
@@ -169,14 +169,14 @@
       ],
       "correct": "b",
       "feedback_ok": "sent.",
-      "feedback_try": "sends הוא הווה."
+      "feedback_try": "Yesterday היא עבר. send בעבר הוא sent: Yesterday he sent the letter."
     },
     {
       "id": "tm_t_past_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "שלילה",
-      "body_he": "שלילה בעבר.",
+      "body_he": "שלילה בעבר.\nהסבר: שלילה בעבר: did not ואחריו הפועל בלי שינוי. למשל I did not see.",
       "body_content": "She ___ not go.",
       "choices": [
         {
@@ -194,7 +194,7 @@
       ],
       "correct": "a",
       "feedback_ok": "did not go.",
-      "feedback_try": "אחרי did הפועל נשאר go, בלי ed."
+      "feedback_try": "זה עבר, לכן did: She did not go."
     },
     {
       "id": "tm_t_fut_learn",
@@ -209,7 +209,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "מחר",
-      "body_he": "עתיד.",
+      "body_he": "עתיד.\nהסבר: tomorrow היא עתיד. כותבים will ואחריו הפועל בלי שינוי. למשל will go.",
       "body_content": "Tomorrow I ___ early.",
       "choices": [
         {
@@ -227,14 +227,14 @@
       ],
       "correct": "b",
       "feedback_ok": "will leave.",
-      "feedback_try": "left הוא אתמול."
+      "feedback_try": "Tomorrow היא מחר, לכן will leave: Tomorrow I will leave early."
     },
     {
       "id": "tm_t_fut_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "תוכנית",
-      "body_he": "תוכנית קרובה.",
+      "body_he": "תוכנית קרובה.\nהסבר: לתוכנית קרובה שכבר סגורה משתמשים בam, is, are ופועל עם ing. למשל I am meeting her at six.",
       "body_content": "We ___ the bus at seven.",
       "choices": [
         {
@@ -252,7 +252,7 @@
       ],
       "correct": "a",
       "feedback_ok": "are catching.",
-      "feedback_try": "זו תוכנית מסודרת, לא עבר."
+      "feedback_try": "זו תוכנית קבועה לשבע. עם We בא are, ואחריו catching: We are catching the bus at seven."
     },
     {
       "id": "tm_t_story_learn",
@@ -267,7 +267,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "רעיון",
-      "body_he": "מה קורה בסיפור?",
+      "body_he": "מה קורה בסיפור?\nהסבר: הרעיון המרכזי מסכם את כל הסיפור: מה קרה בהתחלה ומה בסוף.",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
       "choices": [
         {
@@ -285,14 +285,14 @@
       ],
       "correct": "a",
       "feedback_ok": "נדיבות קטנה שחוזרת.",
-      "feedback_try": "הוא לא קונה את בית המרקחת."
+      "feedback_try": "בהתחלה אישה זרה נותנת לג'ונה חצי תפוז. בבוקר הוא משאיר שקית תפוזים. כלומר הוא מחזיר טובה."
     },
     {
       "id": "tm_t_story_infer",
       "type": "practice",
       "kind": "understanding",
       "title": "הסקה",
-      "body_he": "למה הפתק קצר?",
+      "body_he": "למה הפתק קצר?\nהסבר: בשאלת למה מחברים פרטים מהקטע לסיבה שהגיונית לפיהם.",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
       "choices": [
         {
@@ -310,7 +310,7 @@
       ],
       "correct": "a",
       "feedback_ok": "הנדיבות לא צריכה שם.",
-      "feedback_try": "אין בטקסט שהוא לא יודע לכתוב."
+      "feedback_try": "ג'ונה לא יודע את שם האישה, אבל רוצה להחזיר טובה. לכן מספיק for the bus. אין בקטע שהוא לא יודע לכתוב."
     },
     {
       "id": "tm_rev1_learn",
@@ -330,7 +330,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: מילת הזמן קובעת. yesterday היא עבר. פועל רגיל בעבר מקבל ed, למשל walked, ויש פעלים שמשתנים, למשל go נהיה went.",
       "body_content": "Yesterday he ___ home.",
       "review_topic_ids": [
         "t_past",
@@ -353,7 +353,7 @@
       ],
       "correct": "a",
       "feedback_ok": "walked.",
-      "feedback_try": "אתמול הוא עבר."
+      "feedback_try": "Yesterday היא עבר. walk בעבר הוא walked: Yesterday he walked home."
     },
     {
       "id": "tm_t_irreg_learn",
@@ -368,7 +368,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "go",
-      "body_he": "אתמול.",
+      "body_he": "אתמול.\nהסבר: מילת הזמן קובעת. yesterday היא עבר. פועל רגיל בעבר מקבל ed, למשל walked, ויש פעלים שמשתנים, למשל go נהיה went.",
       "body_content": "Yesterday she ___ home.",
       "choices": [
         {
@@ -386,14 +386,14 @@
       ],
       "correct": "a",
       "feedback_ok": "went.",
-      "feedback_try": "אין goed."
+      "feedback_try": "go משתנה בעבר לwent: Yesterday she went home. אין מילה goed."
     },
     {
       "id": "tm_t_irreg_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "see",
-      "body_he": "ראה.",
+      "body_he": "ראה.\nהסבר: יש פעלים שמשתנים בעבר. see נהיה saw. seen בא רק אחרי have.",
       "body_content": "I ___ the note.",
       "choices": [
         {
@@ -411,7 +411,7 @@
       ],
       "correct": "a",
       "feedback_ok": "saw.",
-      "feedback_try": "seen צריך have."
+      "feedback_try": "see בעבר הוא saw: I saw the note."
     },
     {
       "id": "tm_t_ago_learn",
@@ -426,7 +426,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "ago",
-      "body_he": "לפני יומיים.",
+      "body_he": "לפני יומיים.\nהסבר: ago בא אחרי משך זמן ומשמעו לפני. למשל three years ago.",
       "body_content": "I met him two days ___.",
       "choices": [
         {
@@ -444,14 +444,14 @@
       ],
       "correct": "a",
       "feedback_ok": "ago.",
-      "feedback_try": "tomorrow הוא מחר."
+      "feedback_try": "two days ago פירושו לפני יומיים: I met him two days ago."
     },
     {
       "id": "tm_t_ago_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "מחר",
-      "body_he": "כיוון.",
+      "body_he": "כיוון.\nהסבר: will הוא עתיד, לכן מילת הזמן צריכה להיות על משהו שעוד יקרה.",
       "body_content": "___ I will call.",
       "choices": [
         {
@@ -469,7 +469,7 @@
       ],
       "correct": "a",
       "feedback_ok": "Tomorrow.",
-      "feedback_try": "yesterday כבר עבר."
+      "feedback_try": "I will call הוא עתיד, לכן Tomorrow: Tomorrow I will call."
     },
     {
       "id": "tm_t_who_learn",
@@ -484,7 +484,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "who",
-      "body_he": "מי חיכה?",
+      "body_he": "מי חיכה?\nהסבר: מחפשים בקטע את המילים מהשאלה ובוחרים תשובה שכתובה שם, לא ניחוש.",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
       "choices": [
         {
@@ -502,14 +502,14 @@
       ],
       "correct": "a",
       "feedback_ok": "Jonah.",
-      "feedback_try": "אין נהג שמחכה."
+      "feedback_try": "כתוב Jonah missed the last bus and waited. מי שחיכה הוא Jonah."
     },
     {
       "id": "tm_t_who_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "where",
-      "body_he": "איפה?",
+      "body_he": "איפה?\nהסבר: מחפשים בקטע את המילים מהשאלה ובוחרים תשובה שכתובה שם, לא ניחוש.",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
       "choices": [
         {
@@ -527,7 +527,7 @@
       ],
       "correct": "a",
       "feedback_ok": "מתחת לאור של בית המרקחת.",
-      "feedback_try": "האוטובוס כבר הלך."
+      "feedback_try": "כתוב waited under the pharmacy light, כלומר מתחת לאור של בית המרקחת."
     },
     {
       "id": "tm_rev2_learn",
@@ -547,7 +547,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: tomorrow היא עתיד. כותבים will ואחריו הפועל בלי שינוי. למשל will go.",
       "body_content": "Tomorrow we ___ early.",
       "review_topic_ids": [
         "t_irreg",
@@ -570,14 +570,14 @@
       ],
       "correct": "a",
       "feedback_ok": "will leave.",
-      "feedback_try": "left הוא אתמול."
+      "feedback_try": "Tomorrow היא מחר, לכן will leave: Tomorrow we will leave early."
     },
     {
       "id": "tm_final_check",
       "type": "check",
       "kind": "understanding",
       "title": "בדיקת סוף",
-      "body_he": "שאלה אחת על כל הדרך.",
+      "body_he": "שאלה אחת על כל הדרך.\nהסבר: tomorrow היא עתיד. כותבים will ואחריו הפועל בלי שינוי. למשל will go.",
       "body_content": "Tomorrow we ___ early.",
       "choices": [
         {
@@ -595,7 +595,7 @@
       ],
       "correct": "a",
       "feedback_ok": "will leave.",
-      "feedback_try": "left הוא אתמול."
+      "feedback_try": "Tomorrow היא מחר, לכן will leave: Tomorrow we will leave early."
     },
     {
       "id": "tm_celebrate",

@@ -7,7 +7,11 @@ Run from anywhere. Writes adult/path_english_bagrut5_*.json next to this script'
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import apply_methods  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "adult"
@@ -777,6 +781,8 @@ def main() -> None:
         idx = int(doc["id"].split("_")[3])
         if idx >= 1:
             doc["placement_route"] = {"from_placement": PLACEMENT, "band_min": idx, "band_max": idx}
+        missing = apply_methods.apply_doc(doc)  # method in body_he, worked answer in feedback_try
+        assert not missing, missing
         path = OUT / f"{doc['id']}.json"
         path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(path.name, "topics", len(doc["topics"]), "nodes", len(doc["nodes"]))
