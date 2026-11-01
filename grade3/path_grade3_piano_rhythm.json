@@ -57,8 +57,7 @@
       "title": "מחאו והקליטו (רשות)",
       "body_he": "מחאו בקול את הדפוס ● ● ○ ● ואפשר להקליט. זה תרגול — אין ציון.",
       "speak_text": "מחאו: טאק טאק שקט טאק.",
-      "record": true,
-      "media_hint": "clap_pattern"
+      "record": true
     },
     {
       "type": "celebrate",
