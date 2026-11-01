@@ -563,5 +563,10 @@
       "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
       "body_content": "This road is done."
     }
-  ]
+  ],
+  "placement_route": {
+    "from_placement": "path_english_bagrut5_00_placement",
+    "band_min": 8,
+    "band_max": 8
+  }
 }
