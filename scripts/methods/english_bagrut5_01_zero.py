@@ -1,0 +1,27 @@
+"""Methods and worked wrong answer explanations. Keyed by node id."""
+BE = "הסבר: I הולך עם am, he או she עם is, you, we, they עם are."
+M = {
+    "z_t_letters_p1": ("הסבר: אומרים את המילה לאט ומקשיבים לצליל הראשון. למשל map נפתחת בm.",
+                       "אומרים sun לאט: s, u, n. הצליל הראשון הוא s."),
+    "z_t_letters_p2": ("הסבר: אומרים את המילה לאט ומקשיבים לצליל האחרון. למשל sun נגמרת בn.",
+                       "אומרים map לאט: m, a, p. הצליל האחרון הוא p."),
+    "z_t_be_p1": (BE, "במשפט יש I, לכן am: I am tired."),
+    "z_t_be_p2": (BE, "במשפט יש She, לכן is: She is at home."),
+    "z_t_not_p1": ("הסבר: שלילה עם am, is, are: כותבים not מיד אחריהם. למשל he is not.",
+                   "במשפט יש They, ועם they בא are. מוסיפים not: They are not ready."),
+    "z_t_not_p2": ("הסבר: שלילה עם am, is, are: מוסיפים not אחריהם, בלי do.",
+                   "עם I בא am, ומוסיפים not: I am not hungry."),
+    "z_rev1_q": (BE, "במשפט יש I, לכן am: I am a student."),
+    "z_t_you_p1": (BE, "במשפט יש We, ועם we בא are: We are students."),
+    "z_t_you_p2": (BE, "במשפט יש They, ועם they בא are: They are at school."),
+    "z_t_word_p1": ("הסבר: מחברים את האותיות לפי הסדר, צליל אחרי צליל. למשל m, a, p נותן map.",
+                    "s, u, n יחד נותנים sun. bus מתחיל בb וson כתוב עם o."),
+    "z_t_word_p2": ("הסבר: מנסים כל אות במקום החסר ובודקים איזו מילה מתאימה לרמז.",
+                    "חיה קטנה שאומרת מיאו היא cat, לכן האות החסרה היא a."),
+    "z_t_sent_p1": ("הסבר: משפט שלם צריך מי (I, she...) ופועל (am, is...). למשל She is here.",
+                    "I am here יש בו מי (I) ופועל (am). בשניים האחרים חסר אחד מהם."),
+    "z_t_sent_p2": ("הסבר: משפט נפתח באות גדולה, וI תמיד כתובה גדולה.",
+                    "לפני am צריך מי שעושה, וזה I באות גדולה: I am a student."),
+    "z_rev2_q": (BE, "במשפט יש You, לכן are: You are ready."),
+    "z_final_check": (BE, "במשפט יש They, ועם they בא are: They are not late."),
+}

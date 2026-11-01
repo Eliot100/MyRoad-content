@@ -151,7 +151,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "he",
-      "body_he": "השלימו.",
+      "body_he": "השלימו.\nהסבר: בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. אחרי I, you, we, they לא מוסיפים. למשל she reads, they read.",
       "body_content": "He ___ coffee.",
       "choices": [
         {
@@ -169,14 +169,14 @@
       ],
       "correct": "b",
       "feedback_ok": "drinks.",
-      "feedback_try": "אחרי he יש s."
+      "feedback_try": "במשפט יש He, לכן מוסיפים s: He drinks coffee."
     },
     {
       "id": "pr_t_simple_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "they",
-      "body_he": "בלי s.",
+      "body_he": "בלי s.\nהסבר: בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. אחרי I, you, we, they לא מוסיפים. למשל she reads, they read.",
       "body_content": "They ___ early.",
       "choices": [
         {
@@ -194,7 +194,7 @@
       ],
       "correct": "b",
       "feedback_ok": "start.",
-      "feedback_try": "they לא מקבל s."
+      "feedback_try": "במשפט יש They, לכן בלי s: They start early."
     },
     {
       "id": "pr_t_there_learn",
@@ -209,7 +209,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "אחד",
-      "body_he": "שם אחד.",
+      "body_he": "שם אחד.\nהסבר: There is לדבר אחד, There are ליותר מאחד. למשל There is a cup, There are two cups.",
       "body_content": "There ___ a book.",
       "choices": [
         {
@@ -227,14 +227,14 @@
       ],
       "correct": "a",
       "feedback_ok": "There is a book.",
-      "feedback_try": "a book הוא אחד, לכן is."
+      "feedback_try": "a book הוא ספר אחד, לכן There is a book."
     },
     {
       "id": "pr_t_there_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "כמה",
-      "body_he": "יותר מאחד.",
+      "body_he": "יותר מאחד.\nהסבר: There is לדבר אחד, There are ליותר מאחד. למשל There is a cup, There are two cups.",
       "body_content": "There ___ two books.",
       "choices": [
         {
@@ -252,7 +252,7 @@
       ],
       "correct": "b",
       "feedback_ok": "There are two books.",
-      "feedback_try": "two צריך are."
+      "feedback_try": "two books הם שני ספרים, לכן There are two books."
     },
     {
       "id": "pr_t_q_learn",
@@ -267,7 +267,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "you",
-      "body_he": "שאלה עם you.",
+      "body_he": "שאלה עם you.\nהסבר: שאלה בהווה פותחים בDo עם I, you, we, they, ובDoes עם he, she, it. הפועל נשאר בלי s.",
       "body_content": "___ you work here?",
       "choices": [
         {
@@ -285,14 +285,14 @@
       ],
       "correct": "a",
       "feedback_ok": "Do you.",
-      "feedback_try": "Does לא הולך עם you."
+      "feedback_try": "במשפט יש you, לכן Do: Do you work here?"
     },
     {
       "id": "pr_t_q_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "she",
-      "body_he": "שאלה עם she.",
+      "body_he": "שאלה עם she.\nהסבר: שאלה בהווה פותחים בDo עם I, you, we, they, ובDoes עם he, she, it. הפועל נשאר בלי s.",
       "body_content": "___ she live here?",
       "choices": [
         {
@@ -310,7 +310,7 @@
       ],
       "correct": "b",
       "feedback_ok": "Does she.",
-      "feedback_try": "עם she שואלים Does, בלי s על הפועל."
+      "feedback_try": "במשפט יש she, לכן Does, והפועל live בלי s: Does she live here?"
     },
     {
       "id": "pr_rev1_learn",
@@ -330,7 +330,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. אחרי I, you, we, they לא מוסיפים. למשל she reads, they read.",
       "body_content": "She ___ at home.",
       "review_topic_ids": [
         "t_simple",
@@ -353,7 +353,7 @@
       ],
       "correct": "b",
       "feedback_ok": "works.",
-      "feedback_try": "אחרי she יש s."
+      "feedback_try": "במשפט יש She, לכן מוסיפים s: She works at home."
     },
     {
       "id": "pr_t_day_learn",
@@ -368,7 +368,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "רעיון",
-      "body_he": "מה מאיה עושה?",
+      "body_he": "מה מאיה עושה?\nהסבר: קוראים את המשפט הראשון. לרוב הוא אומר על מה כל הקטע.",
       "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. Some days she talks to a client. She stops at four and walks to the park.",
       "choices": [
         {
@@ -386,14 +386,14 @@
       ],
       "correct": "a",
       "feedback_ok": "היא עובדת מהבית.",
-      "feedback_try": "אין אוטובוס בקטע."
+      "feedback_try": "המשפט הראשון: Maya works at home. כל השאר מתאר את יום העבודה שלה בבית."
     },
     {
       "id": "pr_t_day_detail",
       "type": "practice",
       "kind": "understanding",
       "title": "שעה",
-      "body_he": "מתי היא מתחילה?",
+      "body_he": "מתי היא מתחילה?\nהסבר: מחפשים בקטע את המילה starts ואת השעה שאחריה.",
       "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. Some days she talks to a client. She stops at four and walks to the park.",
       "choices": [
         {
@@ -411,7 +411,7 @@
       ],
       "correct": "a",
       "feedback_ok": "at eight.",
-      "feedback_try": "at four היא עוצרת."
+      "feedback_try": "כתוב She starts at eight, כלומר בשמונה. at four היא השעה שבה היא עוצרת."
     },
     {
       "id": "pr_t_neg_learn",
@@ -426,7 +426,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "she",
-      "body_he": "שלילה.",
+      "body_he": "שלילה.\nהסבר: שלילה בהווה: does not עם he, she, it, וdo not עם I, you, we, they. הפועל בלי s.",
       "body_content": "She ___ like coffee.",
       "choices": [
         {
@@ -444,14 +444,14 @@
       ],
       "correct": "a",
       "feedback_ok": "does not.",
-      "feedback_try": "עם she יש does."
+      "feedback_try": "במשפט יש She, לכן does not: She does not like coffee."
     },
     {
       "id": "pr_t_neg_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "they",
-      "body_he": "רבים.",
+      "body_he": "רבים.\nהסבר: שלילה בהווה: do not עם I, you, we, they, וdoes not עם he, she, it.",
       "body_content": "They ___ live here.",
       "choices": [
         {
@@ -469,7 +469,7 @@
       ],
       "correct": "a",
       "feedback_ok": "do not.",
-      "feedback_try": "they הולך עם do."
+      "feedback_try": "במשפט יש They, לכן do not: They do not live here."
     },
     {
       "id": "pr_t_freq_learn",
@@ -484,7 +484,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "always",
-      "body_he": "איפה always?",
+      "body_he": "איפה always?\nהסבר: מילים כמו always, never באות לפני פועל רגיל. למשל I always read.",
       "body_content": "Choose the English order.",
       "choices": [
         {
@@ -502,14 +502,14 @@
       ],
       "correct": "a",
       "feedback_ok": "לפני הפועל.",
-      "feedback_try": "always לא אחרי הפועל."
+      "feedback_try": "walks הוא פועל רגיל, לכן always בא לפניו: She always walks."
     },
     {
       "id": "pr_t_freq_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "never",
-      "body_he": "שלילה רכה.",
+      "body_he": "שלילה רכה.\nהסבר: עם am, is, are מילים כמו never באות אחריהם. למשל She is always happy.",
       "body_content": "He ___ late.",
       "choices": [
         {
@@ -527,7 +527,7 @@
       ],
       "correct": "a",
       "feedback_ok": "is never.",
-      "feedback_try": "אחרי am/is/are התדירות באה מיד."
+      "feedback_try": "עם he בא is, וnever בא אחריו: He is never late."
     },
     {
       "id": "pr_rev2_learn",
@@ -547,7 +547,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: There is לדבר אחד, There are ליותר מאחד. למשל There is a cup, There are two cups.",
       "body_content": "There ___ two books.",
       "review_topic_ids": [
         "t_day",
@@ -570,14 +570,14 @@
       ],
       "correct": "a",
       "feedback_ok": "There are.",
-      "feedback_try": "two צריך are."
+      "feedback_try": "two books הם יותר מאחד, לכן There are two books."
     },
     {
       "id": "pr_final_check",
       "type": "check",
       "kind": "understanding",
       "title": "בדיקת סוף",
-      "body_he": "שאלה אחת על כל הדרך.",
+      "body_he": "שאלה אחת על כל הדרך.\nהסבר: בשאלה עם there מחליפים סדר: Is there לדבר אחד, Are there ליותר מאחד.",
       "body_content": "___ there a book on the desk?",
       "choices": [
         {
@@ -595,7 +595,7 @@
       ],
       "correct": "a",
       "feedback_ok": "Is there a book.",
-      "feedback_try": "a book הוא אחד."
+      "feedback_try": "a book הוא ספר אחד, לכן Is there a book on the desk?"
     },
     {
       "id": "pr_celebrate",

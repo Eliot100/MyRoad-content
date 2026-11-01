@@ -150,7 +150,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "רעיון",
-      "body_he": "בחרו את הרעיון.",
+      "body_he": "בחרו את הרעיון.\nהסבר: הרעיון המרכזי מחבר את כל הקטע: מה טוב ומה רע בשינוי.",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
       "choices": [
         {
@@ -168,14 +168,14 @@
       ],
       "correct": "a",
       "feedback_ok": "השכירות עלתה, הקונים נפגעו.",
-      "feedback_try": "נירה מסרבת לפלסטיק."
+      "feedback_try": "המועצה מרוצה כי שכר הדירה משולם, אבל הקונים המבוגרים מפסיקים לבוא. לכן Moving the market helps the rent and hurts the buyers."
     },
     {
       "id": "ex_t_mix_vocab",
       "type": "practice",
       "kind": "understanding",
       "title": "מילה",
-      "body_he": "higher price",
+      "body_he": "higher price\nהסבר: קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
       "body_content": "at a higher price",
       "choices": [
         {
@@ -193,7 +193,7 @@
       ],
       "correct": "a",
       "feedback_ok": "עולה יותר.",
-      "feedback_try": "closer הוא מרחק."
+      "feedback_try": "at a higher price פירושו במחיר גבוה יותר, כלומר it costs more."
     },
     {
       "id": "ex_t_write_learn",
@@ -208,7 +208,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "צורה",
-      "body_he": "איזו פיסקה מתאימה למחוון?",
+      "body_he": "איזו פיסקה מתאימה למחוון?\nהסבר: חיבור דעה בנוי כך: פתיחה עם דעה, סיבה מהקטע, ומשפט סיום.",
       "body_content": "Choose.",
       "choices": [
         {
@@ -226,14 +226,14 @@
       ],
       "correct": "a",
       "feedback_ok": "דעה, סיבה, סיום.",
-      "feedback_try": "מחירון אינו חיבור."
+      "feedback_try": "Opinion, one reason from the text, and a closing sentence הם שלושת החלקים של חיבור."
     },
     {
       "id": "ex_t_write_chk",
       "type": "check",
       "kind": "understanding",
       "title": "בדיקה",
-      "body_he": "מה לא מורידים בקריאה לפי החוברת?",
+      "body_he": "מה לא מורידים בקריאה לפי החוברת?\nהסבר: בתשובת קריאה בודקים אם הבנת. כתיב לבד לא מוריד שם נקודות. בחיבור הדיוק כן נספר.",
       "body_content": "Spelling in a reading answer.",
       "choices": [
         {
@@ -251,7 +251,7 @@
       ],
       "correct": "a",
       "feedback_ok": "בכתיב בקריאה לא מורידים. בחיבור הדיוק כן נספר.",
-      "feedback_try": "בחיבור הדיוק כן נספר."
+      "feedback_try": "בתשובת קריאה כתיב לבד לא מוריד את נקודות הקריאה. לכן התשובה הראשונה."
     },
     {
       "id": "ex_t_oral_learn",
@@ -288,7 +288,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: חיבור דעה בנוי כך: פתיחה עם דעה, סיבה מהקטע, ומשפט סיום.",
       "body_content": "Choose the essay shape.",
       "review_topic_ids": [
         "t_mix",
@@ -311,7 +311,7 @@
       ],
       "correct": "a",
       "feedback_ok": "דעה, סיבה, סיום.",
-      "feedback_try": "מחירון אינו חיבור."
+      "feedback_try": "דעה, סיבה ומשפט סיום: Opinion, a reason, a closing sentence."
     },
     {
       "id": "ex_t_read2_learn",
@@ -326,7 +326,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "הסקה",
-      "body_he": "מה אפשר להסיק?",
+      "body_he": "מה אפשר להסיק?\nהסבר: מסיקים רק ממה שכתוב בקטע, בלי להוסיף דברים שאין בו.",
       "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention.",
       "choices": [
         {
@@ -344,14 +344,14 @@
       ],
       "correct": "a",
       "feedback_ok": "בלי חובה החדר לא נשאר.",
-      "feedback_try": "לא כתוב שכולם עוזבים."
+      "feedback_try": "כתוב שהסדנאות החינמיות בלי חובה נסגרו תוך שנה. לכן A room with no duty did not last."
     },
     {
       "id": "ex_t_read2_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "מטרה",
-      "body_he": "מה המטרה של המשפט האחרון?",
+      "body_he": "מה המטרה של המשפט האחרון?\nהסבר: המשפט האחרון בקטע מסכם לרוב את הטענה.",
       "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention.",
       "choices": [
         {
@@ -369,7 +369,7 @@
       ],
       "correct": "a",
       "feedback_ok": "החדר נשאר כשמישהו שם לב.",
-      "feedback_try": "זו לא מודעה."
+      "feedback_try": "the room stays when someone besides the learner pays attention: החדר נשאר כשמישהו שם לב. זו המטרה."
     },
     {
       "id": "ex_t_write2_learn",
@@ -384,7 +384,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "דיוק",
-      "body_he": "איפה הדיוק נספר?",
+      "body_he": "איפה הדיוק נספר?\nהסבר: בתשובת קריאה בודקים אם הבנת. כתיב לבד לא מוריד שם נקודות. בחיבור הדיוק כן נספר.",
       "body_content": "Choose.",
       "choices": [
         {
@@ -402,14 +402,14 @@
       ],
       "correct": "a",
       "feedback_ok": "בחיבור.",
-      "feedback_try": "בקריאה הקצרה הכתיב לא מוריד."
+      "feedback_try": "הדיוק נספר בחיבור. בתשובת קריאה קצרה הכתיב לבד לא מוריד."
     },
     {
       "id": "ex_t_write2_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "אורך",
-      "body_he": "140 מילים כשהטווח הוא 120 עד 140.",
+      "body_he": "140 מילים כשהטווח הוא 120 עד 140.\nהסבר: הטווח כולל את שני הקצוות. 120 עד 140 פירושו כל מספר מ120 ועד 140.",
       "body_content": "140 words",
       "choices": [
         {
@@ -427,7 +427,7 @@
       ],
       "correct": "a",
       "feedback_ok": "בתוך הטווח.",
-      "feedback_try": "140 הוא הקצה העליון, לא אפס."
+      "feedback_try": "140 הוא הקצה העליון של הטווח, לכן החיבור בתוך הטווח."
     },
     {
       "id": "ex_t_last_learn",
@@ -442,7 +442,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "משפט",
-      "body_he": "איזה משפט סוגר?",
+      "body_he": "איזה משפט סוגר?\nהסבר: משפט סיום אומר את הדעה וסיבה קצרה במשפט שלם.",
       "body_content": "Choose.",
       "choices": [
         {
@@ -460,14 +460,14 @@
       ],
       "correct": "a",
       "feedback_ok": "דעה וסיבה.",
-      "feedback_try": "Because לבד אינו סיום."
+      "feedback_try": "I would keep the stall, because the buyers know the fruit הוא משפט שלם עם דעה וסיבה."
     },
     {
       "id": "ex_t_last_chk",
       "type": "check",
       "kind": "understanding",
       "title": "בדיקה",
-      "body_he": "אין נושא חדש.",
+      "body_he": "אין נושא חדש.\nהסבר: הדרך האחרונה היא מבחן חוזר: היא מערבבת את מה שלמדנו ואין בה נושא חדש.",
       "body_content": "This road",
       "choices": [
         {
@@ -485,7 +485,7 @@
       ],
       "correct": "a",
       "feedback_ok": "ערבוב בלי נושא חדש.",
-      "feedback_try": "האותיות היו בדרך הראשונה."
+      "feedback_try": "הדרך הזו מערבבת קריאה, כתיבה ודיבור ולא מלמדת נושא חדש. האותיות היו בדרך הראשונה."
     },
     {
       "id": "ex_rev2_learn",
@@ -505,7 +505,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
       "body_content": "higher price means",
       "review_topic_ids": [
         "t_read2",
@@ -528,14 +528,14 @@
       ],
       "correct": "a",
       "feedback_ok": "עולה יותר.",
-      "feedback_try": "closer הוא מרחק."
+      "feedback_try": "higher price פירושו מחיר גבוה יותר: it costs more."
     },
     {
       "id": "ex_final_check",
       "type": "check",
       "kind": "understanding",
       "title": "בדיקת סוף",
-      "body_he": "שאלה אחת על כל הדרך.",
+      "body_he": "שאלה אחת על כל הדרך.\nהסבר: בתשובת קריאה בודקים אם הבנת. כתיב לבד לא מוריד שם נקודות. בחיבור הדיוק כן נספר.",
       "body_content": "Spelling in a reading answer.",
       "choices": [
         {
@@ -553,7 +553,7 @@
       ],
       "correct": "a",
       "feedback_ok": "בכתיב בקריאה לא מורידים.",
-      "feedback_try": "בחיבור הדיוק כן נספר."
+      "feedback_try": "בתשובת קריאה כתיב לבד לא מוריד נקודות. לכן Spelling alone does not remove the reading points."
     },
     {
       "id": "ex_celebrate",
