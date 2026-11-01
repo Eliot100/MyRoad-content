@@ -92,7 +92,7 @@
       "type": "practice",
       "title": "בחרו: שלום",
       "title_en": "Pick: Hello",
-      "body_he": "מה אומרים באנגלית כדי להגיד שלום?\nהסבר: כשנפגשים אומרים Hello, וכשנפרדים אומרים Goodbye.",
+      "body_he": "מה אומרים באנגלית כדי להגיד שלום?",
       "body_en": "Which English word do we use to greet someone?",
       "body_content": "Hello",
       "speak_text": "Hello!",
@@ -100,7 +100,8 @@
         {
           "id": "a",
           "label": "Goodbye",
-          "label_en": "Goodbye"
+          "label_en": "Goodbye",
+          "feedback": "Goodbye אומרים כשנפרדים."
         },
         {
           "id": "b",
@@ -110,19 +111,22 @@
         {
           "id": "c",
           "label": "Sorry",
-          "label_en": "Sorry"
+          "label_en": "Sorry",
+          "feedback": "Sorry אומרים כשמבקשים סליחה."
         }
       ],
       "correct": "b",
       "feedback_ok": "יפה! Hello = שלום.",
-      "feedback_try": "נסו שוב. שלום כשנפגשים הוא Hello. Goodbye הוא להתראות."
+      "feedback_try": "נסו שוב. שלום כשנפגשים הוא Hello. Goodbye הוא להתראות.",
+      "worked_method": "כשנפגשים אומרים Hello, וכשנפרדים אומרים Goodbye.",
+      "hint": "זו המילה שאומרים כשנפגשים."
     },
     {
       "id": "practice_goodbye",
       "type": "practice",
       "title": "בחרו: פרידה",
       "title_en": "Pick: Goodbye",
-      "body_he": "כשנפרדים אומרים באנגלית…\nהסבר: כשנפגשים אומרים Hello, וכשנפרדים אומרים Goodbye.",
+      "body_he": "כשנפרדים אומרים באנגלית…",
       "body_en": "When we leave we say in English…",
       "body_content": "Goodbye",
       "speak_text": "Goodbye! Bye bye!",
@@ -130,7 +134,8 @@
         {
           "id": "a",
           "label": "Hello",
-          "label_en": "Hello"
+          "label_en": "Hello",
+          "feedback": "Hello אומרים כשנפגשים."
         },
         {
           "id": "b",
@@ -140,12 +145,15 @@
         {
           "id": "c",
           "label": "Please",
-          "label_en": "Please"
+          "label_en": "Please",
+          "feedback": "Please אומרים כשמבקשים."
         }
       ],
       "correct": "b",
       "feedback_ok": "מעולה! Goodbye = להתראות.",
-      "feedback_try": "נסו שוב. כשנפרדים אומרים Goodbye, להתראות."
+      "feedback_try": "נסו שוב. כשנפרדים אומרים Goodbye, להתראות.",
+      "worked_method": "כשנפגשים אומרים Hello, וכשנפרדים אומרים Goodbye.",
+      "hint": "זו המילה שאומרים כשהולכים."
     },
     {
       "id": "speak_thanks",
@@ -156,15 +164,14 @@
       "body_en": "The English phrase for thank you is below. Listen and record.",
       "body_content": "Thank you",
       "speak_text": "Thank you. Thank you!",
-      "record": true,
-      "media_hint": "thank you"
+      "record": true
     },
     {
       "id": "practice_please",
       "type": "practice",
       "title": "בחרו: בבקשה",
       "title_en": "Pick: Please",
-      "body_he": "מילה מנומסת לבקשה באנגלית היא…\nהסבר: כשמבקשים משהו יפה מוסיפים Please, בבקשה.",
+      "body_he": "מילה מנומסת לבקשה באנגלית היא…",
       "body_en": "A polite English word for asking is…",
       "body_content": "Please",
       "speak_text": "Please. Please!",
@@ -177,17 +184,21 @@
         {
           "id": "b",
           "label": "Happy",
-          "label_en": "Happy"
+          "label_en": "Happy",
+          "feedback": "Happy פירושו שמח."
         },
         {
           "id": "c",
           "label": "Sad",
-          "label_en": "Sad"
+          "label_en": "Sad",
+          "feedback": "Sad פירושו עצוב."
         }
       ],
       "correct": "a",
       "feedback_ok": "יפה! Please = בבקשה.",
-      "feedback_try": "נסו שוב. Please היא בבקשה. Happy הוא שמח וSad הוא עצוב."
+      "feedback_try": "נסו שוב. Please היא בבקשה. Happy הוא שמח וSad הוא עצוב.",
+      "worked_method": "כשמבקשים משהו יפה מוסיפים Please, בבקשה.",
+      "hint": "זו המילה שמוסיפים לבקשה."
     },
     {
       "id": "learn_feelings",
@@ -204,7 +215,7 @@
       "type": "practice",
       "title": "מה אומר Happy?",
       "title_en": "What does Happy mean?",
-      "body_he": "מה המשמעות של המילה באנגלית למטה?\nהסבר: קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "body_he": "מה המשמעות של המילה באנגלית למטה?",
       "body_en": "What does the English word below mean?",
       "body_content": "Happy",
       "speak_text": "Happy!",
@@ -212,7 +223,8 @@
         {
           "id": "a",
           "label": "עצוב 😢",
-          "label_en": "sad 😢"
+          "label_en": "sad 😢",
+          "feedback": "עצוב הוא sad."
         },
         {
           "id": "b",
@@ -222,19 +234,22 @@
         {
           "id": "c",
           "label": "עייף 😴",
-          "label_en": "tired 😴"
+          "label_en": "tired 😴",
+          "feedback": "עייף הוא tired."
         }
       ],
       "correct": "b",
       "feedback_ok": "נכון, Happy = שמח!",
-      "feedback_try": "נסו שוב. Happy הוא שמח, כמו כשמחייכים."
+      "feedback_try": "נסו שוב. Happy הוא שמח, כמו כשמחייכים.",
+      "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "hint": "תחשבו על פרצוף מחייך."
     },
     {
       "id": "check_sad",
       "type": "check",
       "title": "מה אומר Sad?",
       "title_en": "What does Sad mean?",
-      "body_he": "אם מישהו מרגיש כך (מילה באנגלית למטה), הוא…\nהסבר: קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "body_he": "אם מישהו מרגיש כך (מילה באנגלית למטה), הוא…",
       "body_en": "If someone feels like the English word below, they are…",
       "body_content": "Sad",
       "speak_text": "Sad",
@@ -242,7 +257,8 @@
         {
           "id": "a",
           "label": "שמח",
-          "label_en": "happy"
+          "label_en": "happy",
+          "feedback": "שמח הוא happy."
         },
         {
           "id": "b",
@@ -252,19 +268,22 @@
         {
           "id": "c",
           "label": "רעב",
-          "label_en": "hungry"
+          "label_en": "hungry",
+          "feedback": "רעב הוא hungry."
         }
       ],
       "correct": "b",
       "feedback_ok": "נכון, Sad = עצוב.",
-      "feedback_try": "נסו שוב. Sad הוא עצוב, כמו כשבוכים."
+      "feedback_try": "נסו שוב. Sad הוא עצוב, כמו כשבוכים.",
+      "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "hint": "זו ההרגשה כשבוכים."
     },
     {
       "id": "check_tired",
       "type": "check",
       "title": "מה אומר Tired?",
       "title_en": "What does Tired mean?",
-      "body_he": "מה המשמעות של המילה באנגלית למטה?\nהסבר: קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "body_he": "מה המשמעות של המילה באנגלית למטה?",
       "body_en": "What does the English word below mean?",
       "body_content": "Tired",
       "speak_text": "Tired. I am tired.",
@@ -277,17 +296,21 @@
         {
           "id": "b",
           "label": "שמח 😊",
-          "label_en": "happy 😊"
+          "label_en": "happy 😊",
+          "feedback": "שמח הוא happy."
         },
         {
           "id": "c",
           "label": "רעב 🍎",
-          "label_en": "hungry 🍎"
+          "label_en": "hungry 🍎",
+          "feedback": "רעב הוא hungry."
         }
       ],
       "correct": "a",
       "feedback_ok": "נכון, Tired = עייף.",
-      "feedback_try": "נסו שוב. Tired הוא עייף, כשרוצים לישון."
+      "feedback_try": "נסו שוב. Tired הוא עייף, כשרוצים לישון.",
+      "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "hint": "זו ההרגשה כשרוצים לישון."
     },
     {
       "id": "celebrate",

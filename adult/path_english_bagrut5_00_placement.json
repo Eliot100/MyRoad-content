@@ -152,7 +152,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "האות הראשונה",
-      "body_he": "איזו אות פותחת את המילה?\nהסבר: אומרים את המילה לאט ומקשיבים לצליל הראשון. למשל bed נפתחת בצליל b.",
+      "body_he": "איזו אות פותחת את המילה?",
       "body_content": "cat",
       "choices": [
         {
@@ -161,23 +161,27 @@
         },
         {
           "id": "b",
-          "label": "t"
+          "label": "t",
+          "feedback": "t היא האות האחרונה במילה, לא הראשונה."
         },
         {
           "id": "c",
-          "label": "a"
+          "label": "a",
+          "feedback": "a היא האות שבאמצע, לא בהתחלה."
         }
       ],
       "correct": "a",
       "feedback_ok": "המילה נפתחת באות c.",
-      "feedback_try": "אומרים cat לאט: c, a, t. הצליל הראשון הוא c, לכן התשובה c."
+      "feedback_try": "אומרים cat לאט: c, a, t. הצליל הראשון הוא c, לכן התשובה c.",
+      "worked_method": "אומרים את המילה לאט ומקשיבים לצליל הראשון. למשל bed נפתחת בצליל b.",
+      "hint": "אמרו את המילה לאט ושימו לב לצליל הראשון."
     },
     {
       "id": "plc_t_letters_chk",
       "type": "check",
       "kind": "understanding",
       "title": "צליל בסוף",
-      "body_he": "איזו אות נשמעת בסוף?\nהסבר: אומרים את המילה לאט ומקשיבים לצליל האחרון. למשל pen נגמרת בצליל n.",
+      "body_he": "איזו אות נשמעת בסוף?",
       "body_content": "dog",
       "choices": [
         {
@@ -186,16 +190,20 @@
         },
         {
           "id": "b",
-          "label": "d"
+          "label": "d",
+          "feedback": "d פותחת את המילה, והשאלה היא על הסוף."
         },
         {
           "id": "c",
-          "label": "o"
+          "label": "o",
+          "feedback": "o באמצע המילה, לא בסוף."
         }
       ],
       "correct": "a",
       "feedback_ok": "הסוף הוא g.",
-      "feedback_try": "אומרים dog לאט: d, o, g. הצליל האחרון הוא g, לכן התשובה g."
+      "feedback_try": "אומרים dog לאט: d, o, g. הצליל האחרון הוא g, לכן התשובה g.",
+      "worked_method": "אומרים את המילה לאט ומקשיבים לצליל האחרון. למשל pen נגמרת בצליל n.",
+      "hint": "אמרו את המילה ושימו לב לצליל האחרון."
     },
     {
       "id": "plc_t_be_learn",
@@ -210,7 +218,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "I",
-      "body_he": "מה חסר אחרי I?\nהסבר: בוחרים לפי מי שבמשפט. I הולך עם am, he או she עם is, you, we, they עם are.",
+      "body_he": "מה חסר אחרי I?",
       "body_content": "I ___ a student.",
       "choices": [
         {
@@ -219,32 +227,38 @@
         },
         {
           "id": "b",
-          "label": "is"
+          "label": "is",
+          "feedback": "is הולך עם he, she, it. עם I אומרים am."
         },
         {
           "id": "c",
-          "label": "are"
+          "label": "are",
+          "feedback": "are הולך עם you, we, they. עם I אומרים am."
         }
       ],
       "correct": "a",
       "feedback_ok": "אחרי I בא am.",
-      "feedback_try": "במשפט יש I, ואחרי I תמיד בא am: I am a student."
+      "feedback_try": "במשפט יש I, ואחרי I תמיד בא am: I am a student.",
+      "worked_method": "בוחרים לפי מי שבמשפט. I הולך עם am, he או she עם is, you, we, they עם are.",
+      "hint": "לכל גוף יש צורה משלו של to be. מה הולך עם I?"
     },
     {
       "id": "plc_t_be_chk",
       "type": "check",
       "kind": "understanding",
       "title": "you",
-      "body_he": "מה חסר אחרי you?\nהסבר: I הולך עם am, he או she עם is, you, we, they עם are.",
+      "body_he": "מה חסר אחרי you?",
       "body_content": "You ___ ready.",
       "choices": [
         {
           "id": "a",
-          "label": "is"
+          "label": "is",
+          "feedback": "is הולך עם גוף אחד כמו he או she, לא עם you."
         },
         {
           "id": "b",
-          "label": "am"
+          "label": "am",
+          "feedback": "am הולך רק עם I."
         },
         {
           "id": "c",
@@ -253,7 +267,9 @@
       ],
       "correct": "c",
       "feedback_ok": "אחרי you בא are.",
-      "feedback_try": "במשפט יש You, ואחרי you בא are: You are ready."
+      "feedback_try": "במשפט יש You, ואחרי you בא are: You are ready.",
+      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "hint": "איזו צורה של to be הולכת עם you?"
     },
     {
       "id": "plc_t_present_learn",
@@ -268,12 +284,13 @@
       "type": "practice",
       "kind": "understanding",
       "title": "he",
-      "body_he": "איזה משפט תקין?\nהסבר: בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. למשל she reads.",
+      "body_he": "איזה משפט תקין?",
       "body_content": "He ___ every day.",
       "choices": [
         {
           "id": "a",
-          "label": "work"
+          "label": "work",
+          "feedback": "עם he בהווה מוסיפים s לפועל: works."
         },
         {
           "id": "b",
@@ -281,19 +298,22 @@
         },
         {
           "id": "c",
-          "label": "working"
+          "label": "working",
+          "feedback": "working צריך לפניו is. בלי is המשפט לא שלם."
         }
       ],
       "correct": "b",
       "feedback_ok": "אחרי he נוסיף s.",
-      "feedback_try": "במשפט יש He, לכן מוסיפים s: He works every day. work בלי s מתאים לI או they."
+      "feedback_try": "במשפט יש He, לכן מוסיפים s: He works every day. work בלי s מתאים לI או they.",
+      "worked_method": "בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. למשל she reads.",
+      "hint": "He הוא גוף שלישי יחיד. מה קורה לפועל בהווה?"
     },
     {
       "id": "plc_t_present_chk",
       "type": "check",
       "kind": "understanding",
       "title": "שאלה",
-      "body_he": "איזו שאלה תקינה?\nהסבר: שאלה בהווה פותחים בDo עם I, you, we, they, ובDoes עם he, she, it.",
+      "body_he": "איזו שאלה תקינה?",
       "body_content": "___ you live here?",
       "choices": [
         {
@@ -302,16 +322,20 @@
         },
         {
           "id": "b",
-          "label": "Does"
+          "label": "Does",
+          "feedback": "Does הולך עם he, she, it. עם you אומרים Do."
         },
         {
           "id": "c",
-          "label": "Are"
+          "label": "Are",
+          "feedback": "Are בא עם תואר או עם ing, וכאן יש פועל רגיל live."
         }
       ],
       "correct": "a",
       "feedback_ok": "עם you שואלים Do.",
-      "feedback_try": "במשפט יש you, לכן פותחים בDo: Do you live here?"
+      "feedback_try": "במשפט יש you, לכן פותחים בDo: Do you live here?",
+      "worked_method": "שאלה בהווה פותחים בDo עם I, you, we, they, ובDoes עם he, she, it.",
+      "hint": "זו שאלה בהווה עם you. איזו מילת עזר פותחת אותה?"
     },
     {
       "id": "plc_t_time_learn",
@@ -326,12 +350,13 @@
       "type": "practice",
       "kind": "understanding",
       "title": "אתמול",
-      "body_he": "איזה משפט על אתמול?\nהסבר: מילת הזמן קובעת. yesterday היא עבר, ופועל רגיל בעבר מקבל ed. למשל walked.",
+      "body_he": "איזה משפט על אתמול?",
       "body_content": "Yesterday she ___ the door.",
       "choices": [
         {
           "id": "a",
-          "label": "open"
+          "label": "open",
+          "feedback": "open היא צורת הווה, ו yesterday דורש עבר."
         },
         {
           "id": "b",
@@ -339,19 +364,22 @@
         },
         {
           "id": "c",
-          "label": "opens"
+          "label": "opens",
+          "feedback": "opens היא הווה עם she, לא עבר."
         }
       ],
       "correct": "b",
       "feedback_ok": "אתמול: opened.",
-      "feedback_try": "Yesterday היא אתמול, עבר. open בעבר הוא opened: Yesterday she opened the door."
+      "feedback_try": "Yesterday היא אתמול, עבר. open בעבר הוא opened: Yesterday she opened the door.",
+      "worked_method": "מילת הזמן קובעת. yesterday היא עבר, ופועל רגיל בעבר מקבל ed. למשל walked.",
+      "hint": "Yesterday אומר עבר. איזו צורה של הפועל מתאימה?"
     },
     {
       "id": "plc_t_time_chk",
       "type": "check",
       "kind": "understanding",
       "title": "מחר",
-      "body_he": "איזה משפט על מחר?\nהסבר: tomorrow היא עתיד. בעתיד כותבים will ואחריו הפועל בלי שינוי. למשל will go.",
+      "body_he": "איזה משפט על מחר?",
       "body_content": "Tomorrow they ___ early.",
       "choices": [
         {
@@ -360,16 +388,20 @@
         },
         {
           "id": "b",
-          "label": "left"
+          "label": "left",
+          "feedback": "left היא צורת עבר, ו tomorrow דורש עתיד."
         },
         {
           "id": "c",
-          "label": "leaves"
+          "label": "leaves",
+          "feedback": "leaves היא הווה, ולמחר צריך will."
         }
       ],
       "correct": "a",
       "feedback_ok": "מחר: will leave.",
-      "feedback_try": "Tomorrow היא מחר, עתיד. לכן will leave: Tomorrow they will leave early."
+      "feedback_try": "Tomorrow היא מחר, עתיד. לכן will leave: Tomorrow they will leave early.",
+      "worked_method": "tomorrow היא עתיד. בעתיד כותבים will ואחריו הפועל בלי שינוי. למשל will go.",
+      "hint": "Tomorrow אומר עתיד. איזו מילה מסמנת עתיד?"
     },
     {
       "id": "plc_t_accuracy_learn",
@@ -384,7 +416,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "a או the",
-      "body_he": "מה חסר?\nהסבר: a או an בפעם הראשונה שמזכירים משהו. the כשהוא כבר הוזכר.",
+      "body_he": "מה חסר?",
       "body_content": "I saw a dog. ___ dog was black.",
       "choices": [
         {
@@ -393,23 +425,27 @@
         },
         {
           "id": "b",
-          "label": "A"
+          "label": "A",
+          "feedback": "A באה לפני דבר שמוזכר בפעם הראשונה. כאן הכלב כבר מוכר."
         },
         {
           "id": "c",
-          "label": "An"
+          "label": "An",
+          "feedback": "An באה לפני צליל של תנועה, וגם כאן הכלב כבר מוכר."
         }
       ],
       "correct": "a",
       "feedback_ok": "כבר הזכרנו את הכלב, לכן The.",
-      "feedback_try": "הכלב כבר הוזכר במשפט הראשון (a dog). בפעם השנייה כותבים The: The dog was black."
+      "feedback_try": "הכלב כבר הוזכר במשפט הראשון (a dog). בפעם השנייה כותבים The: The dog was black.",
+      "worked_method": "a או an בפעם הראשונה שמזכירים משהו. the כשהוא כבר הוזכר.",
+      "hint": "הכלב כבר הוזכר במשפט הקודם. איזו מילה באה לפני דבר מוכר?"
     },
     {
       "id": "plc_t_accuracy_chk",
       "type": "check",
       "kind": "understanding",
       "title": "זמן סגור",
-      "body_he": "איזה משפט תקין?\nהסבר: זמן גמור בעבר כמו last week או yesterday הולך עם עבר רגיל, בלי have.",
+      "body_he": "איזה משפט תקין?",
       "body_content": "Choose the correct sentence.",
       "choices": [
         {
@@ -418,16 +454,20 @@
         },
         {
           "id": "b",
-          "label": "I have lost my key last week."
+          "label": "I have lost my key last week.",
+          "feedback": "have lost לא הולך עם זמן שנגמר כמו last week. צריך עבר רגיל."
         },
         {
           "id": "c",
-          "label": "I lose my key last week."
+          "label": "I lose my key last week.",
+          "feedback": "lose הוא הווה, ו last week דורש עבר."
         }
       ],
       "correct": "a",
       "feedback_ok": "last week סוגר את הזמן, לכן lost.",
-      "feedback_try": "יש last week, זמן גמור. לכן עבר רגיל: I lost my key last week. have lost לא הולך עם last week."
+      "feedback_try": "יש last week, זמן גמור. לכן עבר רגיל: I lost my key last week. have lost לא הולך עם last week.",
+      "worked_method": "זמן גמור בעבר כמו last week או yesterday הולך עם עבר רגיל, בלי have.",
+      "hint": "last week הוא זמן שנגמר. איזה זמן מתאים לו?"
     },
     {
       "id": "plc_t_read_learn",
@@ -442,7 +482,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "רעיון מרכזי",
-      "body_he": "על מה הקטע?\nהסבר: הרעיון המרכזי עונה על השאלה מה קרה בכל הקטע, לא פרט אחד.",
+      "body_he": "על מה הקטע?",
       "body_content": "The small library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
       "choices": [
         {
@@ -451,28 +491,33 @@
         },
         {
           "id": "b",
-          "label": "The mayor closed the school."
+          "label": "The mayor closed the school.",
+          "feedback": "הקטע לא אומר את זה. חפשו בקטע את המשפט שעונה."
         },
         {
           "id": "c",
-          "label": "Maya bought the street."
+          "label": "Maya bought the street.",
+          "feedback": "הקטע לא אומר את זה. חפשו בקטע את המשפט שעונה."
         }
       ],
       "correct": "a",
       "feedback_ok": "הסטודנטים השאירו את הספרייה פתוחה בערב.",
-      "feedback_try": "הקטע מספר שתלמידים כתבו מכתב והספרייה נשארה פתוחה עד שמונה בערב. לכן התשובה: Students kept a library open in the evening."
+      "feedback_try": "הקטע מספר שתלמידים כתבו מכתב והספרייה נשארה פתוחה עד שמונה בערב. לכן התשובה: Students kept a library open in the evening.",
+      "worked_method": "הרעיון המרכזי עונה על השאלה מה קרה בכל הקטע, לא פרט אחד.",
+      "hint": "חפשו מה התלמידים עשו בקטע ומה קרה לספרייה."
     },
     {
       "id": "plc_t_read_detail",
       "type": "practice",
       "kind": "understanding",
       "title": "פרט",
-      "body_he": "מה מר כהן עושה?\nהסבר: מחפשים בקטע את השם ומה כתוב עליו מיד אחריו.",
+      "body_he": "מה מר כהן עושה?",
       "body_content": "The small library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
       "choices": [
         {
           "id": "a",
-          "label": "He runs the desk."
+          "label": "He runs the desk.",
+          "feedback": "הקטע אומר במפורש שהוא לא מנהל את הדלפק."
         },
         {
           "id": "b",
@@ -480,19 +525,22 @@
         },
         {
           "id": "c",
-          "label": "He sells books."
+          "label": "He sells books.",
+          "feedback": "הקטע לא אומר שמר כהן מוכר ספרים."
         }
       ],
       "correct": "b",
       "feedback_ok": "הוא מקשיב ושואל שאלה אחת.",
-      "feedback_try": "בקטע כתוב שמר כהן לא מנהל את הדלפק, אלא מקשיב ושואל שאלה אחת. לכן He listens and asks one question."
+      "feedback_try": "בקטע כתוב שמר כהן לא מנהל את הדלפק, אלא מקשיב ושואל שאלה אחת. לכן He listens and asks one question.",
+      "worked_method": "מחפשים בקטע את השם ומה כתוב עליו מיד אחריו.",
+      "hint": "חפשו בקטע את המשפט שבו מופיע מר כהן."
     },
     {
       "id": "plc_t_read_infer",
       "type": "practice",
       "kind": "understanding",
       "title": "הסקה",
-      "body_he": "למה הספרייה שקטה בימי שישי?\nהסבר: בשאלת למה מחפשים בקטע משפט שנותן סיבה, ובוחרים תשובה שנשענת עליו.",
+      "body_he": "למה הספרייה שקטה בימי שישי?",
       "body_content": "The small library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
       "choices": [
         {
@@ -501,23 +549,27 @@
         },
         {
           "id": "b",
-          "label": "The mayor locked the door."
+          "label": "The mayor locked the door.",
+          "feedback": "הקטע לא אומר את זה. חפשו בקטע את המשפט שעונה."
         },
         {
           "id": "c",
-          "label": "There are no books."
+          "label": "There are no books.",
+          "feedback": "יש ספרים בספרייה. התשובה נמצאת במה שהקטע אומר על ימי שישי."
         }
       ],
       "correct": "a",
       "feedback_ok": "בערבי לימודים מלא, ובימי שישי שקט.",
-      "feedback_try": "הקטע אומר שבערבי לימודים הספרייה מלאה ובימי שישי שקט. אין בו נעילה או חוסר בספרים. לכן התשובה הראשונה."
+      "feedback_try": "הקטע אומר שבערבי לימודים הספרייה מלאה ובימי שישי שקט. אין בו נעילה או חוסר בספרים. לכן התשובה הראשונה.",
+      "worked_method": "בשאלת למה מחפשים בקטע משפט שנותן סיבה, ובוחרים תשובה שנשענת עליו.",
+      "hint": "חפשו בקטע מה נאמר על ימי שישי ועל ערבי לימודים."
     },
     {
       "id": "plc_t_read_word",
       "type": "check",
       "kind": "understanding",
       "title": "מילה מהקשר",
-      "body_he": "מה פירוש neighbours כאן?\nהסבר: קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "body_he": "מה פירוש neighbours כאן?",
       "body_content": "The small library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two. The mayor agreed, but she asked for a plan. The students offered to shelve books and to sit with younger children during homework hour. A retired teacher, Mr. Cohen, joined them on Mondays. He does not run the desk. He listens, and he asks one question before he gives an answer. Not everyone was pleased. Two shop owners said the evening light made the street noisy. The library staff counted the visitors for a month. On school nights the room was full. On Fridays it was quiet. The city did not add money for new books, so the students collected used ones from their neighbours. The rule is simple: a book can leave for two weeks, and a dictionary stays in the room. Maya, who works nearby, comes after four and reads the paper. She says the library is not a school and not a shop. It is the one room on the street where nobody asks her to hurry.",
       "choices": [
         {
@@ -526,16 +578,20 @@
         },
         {
           "id": "b",
-          "label": "library fines"
+          "label": "library fines",
+          "feedback": "במשפט מדובר באנשים, לא בקנסות."
         },
         {
           "id": "c",
-          "label": "bus drivers"
+          "label": "bus drivers",
+          "feedback": "במשפט לא מדובר בנהגים. neighbours הם אנשים שגרים קרוב."
         }
       ],
       "correct": "a",
       "feedback_ok": "שכנים, אנשים שגרים קרוב.",
-      "feedback_try": "neighbours הביאו ספרים משומשים, כלומר אנשים שגרים קרוב. people who live nearby."
+      "feedback_try": "neighbours הביאו ספרים משומשים, כלומר אנשים שגרים קרוב. people who live nearby.",
+      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "hint": "קראו את המשפט שבו מופיעה המילה ונסו לנחש לפי ההקשר."
     },
     {
       "id": "plc_t_write_learn",
@@ -550,7 +606,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "משפט דעה",
-      "body_he": "איזה משפט עומד לבד?\nהסבר: משפט שלם צריך מי שעושה ופועל, ורעיון שנגמר. Because לבד משאיר את הרעיון פתוח.",
+      "body_he": "איזה משפט עומד לבד?",
       "body_content": "Choose the sentence that is complete.",
       "choices": [
         {
@@ -559,23 +615,27 @@
         },
         {
           "id": "b",
-          "label": "Because the library."
+          "label": "Because the library.",
+          "feedback": "Because פותח סיבה, אבל אין כאן פועל. המשפט לא שלם."
         },
         {
           "id": "c",
-          "label": "Should stay."
+          "label": "Should stay.",
+          "feedback": "אין כאן מי שעושה. חסר נושא למשפט."
         }
       ],
       "correct": "a",
       "feedback_ok": "יש נושא ופועל ודעה.",
-      "feedback_try": "רק I think the library should stay open יש בו מי (I), פועל (think) ורעיון שלם."
+      "feedback_try": "רק I think the library should stay open יש בו מי (I), פועל (think) ורעיון שלם.",
+      "worked_method": "משפט שלם צריך מי שעושה ופועל, ורעיון שנגמר. Because לבד משאיר את הרעיון פתוח.",
+      "hint": "משפט שלם צריך מי שעושה ופועל, ורעיון שלם."
     },
     {
       "id": "plc_t_write_chk",
       "type": "check",
       "kind": "understanding",
       "title": "אורך",
-      "body_he": "איזה משפט מתאים לפתיחת חיבור קצר?\nהסבר: פתיחה טובה אומרת את הדעה במשפט שלם אחד. In my opinion היא פתיחה נפוצה.",
+      "body_he": "איזה משפט מתאים לפתיחת חיבור קצר?",
       "body_content": "Choose a clear opening.",
       "choices": [
         {
@@ -584,16 +644,20 @@
         },
         {
           "id": "b",
-          "label": "Hours students help."
+          "label": "Hours students help.",
+          "feedback": "סדר המילים שבור, ואין כאן דעה ברורה."
         },
         {
           "id": "c",
-          "label": "Opinion because."
+          "label": "Opinion because.",
+          "feedback": "שתי מילים בלי פועל. זה לא משפט."
         }
       ],
       "correct": "a",
       "feedback_ok": "פתיחה ברורה.",
-      "feedback_try": "In my opinion, evening hours help students הוא משפט שלם עם דעה ברורה. השניים האחרים הם מילים בלי סדר."
+      "feedback_try": "In my opinion, evening hours help students הוא משפט שלם עם דעה ברורה. השניים האחרים הם מילים בלי סדר.",
+      "worked_method": "פתיחה טובה אומרת את הדעה במשפט שלם אחד. In my opinion היא פתיחה נפוצה.",
+      "hint": "פתיחה טובה אומרת את הדעה שלכם במשפט שלם."
     },
     {
       "id": "plc_t_speak_learn",

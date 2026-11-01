@@ -151,7 +151,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "פתיחה",
-      "body_he": "במה נפתחת המילה?\nהסבר: אומרים את המילה לאט ומקשיבים לצליל הראשון. למשל map נפתחת בm.",
+      "body_he": "במה נפתחת המילה?",
       "body_content": "sun",
       "choices": [
         {
@@ -160,28 +160,33 @@
         },
         {
           "id": "b",
-          "label": "n"
+          "label": "n",
+          "feedback": "n בסוף המילה, לא בהתחלה."
         },
         {
           "id": "c",
-          "label": "u"
+          "label": "u",
+          "feedback": "u באמצע המילה."
         }
       ],
       "correct": "a",
       "feedback_ok": "s.",
-      "feedback_try": "אומרים sun לאט: s, u, n. הצליל הראשון הוא s."
+      "feedback_try": "אומרים sun לאט: s, u, n. הצליל הראשון הוא s.",
+      "worked_method": "אומרים את המילה לאט ומקשיבים לצליל הראשון. למשל map נפתחת בm.",
+      "hint": "אמרו את המילה ושימו לב לצליל הראשון."
     },
     {
       "id": "z_t_letters_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "סוף",
-      "body_he": "במה נגמרת?\nהסבר: אומרים את המילה לאט ומקשיבים לצליל האחרון. למשל sun נגמרת בn.",
+      "body_he": "במה נגמרת?",
       "body_content": "map",
       "choices": [
         {
           "id": "a",
-          "label": "m"
+          "label": "m",
+          "feedback": "m פותחת את המילה, והשאלה היא על הסוף."
         },
         {
           "id": "b",
@@ -189,12 +194,15 @@
         },
         {
           "id": "c",
-          "label": "a"
+          "label": "a",
+          "feedback": "a באמצע המילה."
         }
       ],
       "correct": "b",
       "feedback_ok": "p.",
-      "feedback_try": "אומרים map לאט: m, a, p. הצליל האחרון הוא p."
+      "feedback_try": "אומרים map לאט: m, a, p. הצליל האחרון הוא p.",
+      "worked_method": "אומרים את המילה לאט ומקשיבים לצליל האחרון. למשל sun נגמרת בn.",
+      "hint": "אמרו את המילה ושימו לב לצליל האחרון."
     },
     {
       "id": "z_t_be_learn",
@@ -209,7 +217,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "I",
-      "body_he": "מה נכון?\nהסבר: I הולך עם am, he או she עם is, you, we, they עם are.",
+      "body_he": "מה נכון?",
       "body_content": "I ___ tired.",
       "choices": [
         {
@@ -218,32 +226,38 @@
         },
         {
           "id": "b",
-          "label": "is"
+          "label": "is",
+          "feedback": "is הולך עם he, she, it. עם I אומרים am."
         },
         {
           "id": "c",
-          "label": "are"
+          "label": "are",
+          "feedback": "are הולך עם you, we, they."
         }
       ],
       "correct": "a",
       "feedback_ok": "I am.",
-      "feedback_try": "במשפט יש I, לכן am: I am tired."
+      "feedback_try": "במשפט יש I, לכן am: I am tired.",
+      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "hint": "איזו צורה של to be הולכת עם I?"
     },
     {
       "id": "z_t_be_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "she",
-      "body_he": "מה נכון?\nהסבר: I הולך עם am, he או she עם is, you, we, they עם are.",
+      "body_he": "מה נכון?",
       "body_content": "She ___ at home.",
       "choices": [
         {
           "id": "a",
-          "label": "are"
+          "label": "are",
+          "feedback": "are הולך עם you, we, they, לא עם she."
         },
         {
           "id": "b",
-          "label": "am"
+          "label": "am",
+          "feedback": "am הולך רק עם I."
         },
         {
           "id": "c",
@@ -252,7 +266,9 @@
       ],
       "correct": "c",
       "feedback_ok": "She is.",
-      "feedback_try": "במשפט יש She, לכן is: She is at home."
+      "feedback_try": "במשפט יש She, לכן is: She is at home.",
+      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "hint": "She היא גוף אחד. איזו צורה הולכת איתה?"
     },
     {
       "id": "z_t_not_learn",
@@ -267,7 +283,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "שלילה",
-      "body_he": "מה תקין?\nהסבר: שלילה עם am, is, are: כותבים not מיד אחריהם. למשל he is not.",
+      "body_he": "מה תקין?",
       "body_content": "They ___ ready.",
       "choices": [
         {
@@ -276,23 +292,27 @@
         },
         {
           "id": "b",
-          "label": "is not"
+          "label": "is not",
+          "feedback": "is הולך עם גוף אחד, ו they הם רבים."
         },
         {
           "id": "c",
-          "label": "am not"
+          "label": "am not",
+          "feedback": "am הולך רק עם I."
         }
       ],
       "correct": "a",
       "feedback_ok": "They are not.",
-      "feedback_try": "במשפט יש They, ועם they בא are. מוסיפים not: They are not ready."
+      "feedback_try": "במשפט יש They, ועם they בא are. מוסיפים not: They are not ready.",
+      "worked_method": "שלילה עם am, is, are: כותבים not מיד אחריהם. למשל he is not.",
+      "hint": "They הם רבים. בחרו את הצורה של רבים ואחריה not."
     },
     {
       "id": "z_t_not_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "I",
-      "body_he": "שלילה של I.\nהסבר: שלילה עם am, is, are: מוסיפים not אחריהם, בלי do.",
+      "body_he": "שלילה של I.",
       "body_content": "I ___ hungry.",
       "choices": [
         {
@@ -301,16 +321,20 @@
         },
         {
           "id": "b",
-          "label": "is not"
+          "label": "is not",
+          "feedback": "is לא הולך עם I."
         },
         {
           "id": "c",
-          "label": "do not am"
+          "label": "do not am",
+          "feedback": "do not לא בא לפני am. אומרים am not."
         }
       ],
       "correct": "a",
       "feedback_ok": "I am not.",
-      "feedback_try": "עם I בא am, ומוסיפים not: I am not hungry."
+      "feedback_try": "עם I בא am, ומוסיפים not: I am not hungry.",
+      "worked_method": "שלילה עם am, is, are: מוסיפים not אחריהם, בלי do.",
+      "hint": "שלילה עם I: הצורה של to be ואחריה not."
     },
     {
       "id": "z_rev1_learn",
@@ -330,7 +354,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: I הולך עם am, he או she עם is, you, we, they עם are.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "I ___ a student.",
       "review_topic_ids": [
         "t_letters",
@@ -344,16 +368,20 @@
         },
         {
           "id": "b",
-          "label": "is"
+          "label": "is",
+          "feedback": "is הולך עם he, she, it."
         },
         {
           "id": "c",
-          "label": "are"
+          "label": "are",
+          "feedback": "are הולך עם you, we, they."
         }
       ],
       "correct": "a",
       "feedback_ok": "I am.",
-      "feedback_try": "במשפט יש I, לכן am: I am a student."
+      "feedback_try": "במשפט יש I, לכן am: I am a student.",
+      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "hint": "איזו צורה של to be הולכת עם I?"
     },
     {
       "id": "z_t_you_learn",
@@ -368,7 +396,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "we",
-      "body_he": "מה נכון?\nהסבר: I הולך עם am, he או she עם is, you, we, they עם are.",
+      "body_he": "מה נכון?",
       "body_content": "We ___ students.",
       "choices": [
         {
@@ -377,23 +405,27 @@
         },
         {
           "id": "b",
-          "label": "is"
+          "label": "is",
+          "feedback": "is הולך עם גוף אחד, ו we הם רבים."
         },
         {
           "id": "c",
-          "label": "am"
+          "label": "am",
+          "feedback": "am הולך רק עם I."
         }
       ],
       "correct": "a",
       "feedback_ok": "We are.",
-      "feedback_try": "במשפט יש We, ועם we בא are: We are students."
+      "feedback_try": "במשפט יש We, ועם we בא are: We are students.",
+      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "hint": "We הם רבים. איזו צורה הולכת איתם?"
     },
     {
       "id": "z_t_you_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "they",
-      "body_he": "הם.\nהסבר: I הולך עם am, he או she עם is, you, we, they עם are.",
+      "body_he": "הם.",
       "body_content": "They ___ at school.",
       "choices": [
         {
@@ -402,16 +434,20 @@
         },
         {
           "id": "b",
-          "label": "is"
+          "label": "is",
+          "feedback": "is הולך עם גוף אחד."
         },
         {
           "id": "c",
-          "label": "am"
+          "label": "am",
+          "feedback": "am הולך רק עם I."
         }
       ],
       "correct": "a",
       "feedback_ok": "They are.",
-      "feedback_try": "במשפט יש They, ועם they בא are: They are at school."
+      "feedback_try": "במשפט יש They, ועם they בא are: They are at school.",
+      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "hint": "They הם רבים. איזו צורה הולכת איתם?"
     },
     {
       "id": "z_t_word_learn",
@@ -426,7 +462,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "קריאה",
-      "body_he": "איזו מילה זו?\nהסבר: מחברים את האותיות לפי הסדר, צליל אחרי צליל. למשל m, a, p נותן map.",
+      "body_he": "איזו מילה זו?",
       "body_content": "s-u-n",
       "choices": [
         {
@@ -435,23 +471,27 @@
         },
         {
           "id": "b",
-          "label": "bus"
+          "label": "bus",
+          "feedback": "bus פותחת ב b, והאותיות כאן פותחות ב s."
         },
         {
           "id": "c",
-          "label": "son"
+          "label": "son",
+          "feedback": "son כתובה עם o, והאות האמצעית כאן היא u."
         }
       ],
       "correct": "a",
       "feedback_ok": "sun.",
-      "feedback_try": "s, u, n יחד נותנים sun. bus מתחיל בb וson כתוב עם o."
+      "feedback_try": "s, u, n יחד נותנים sun. bus מתחיל בb וson כתוב עם o.",
+      "worked_method": "מחברים את האותיות לפי הסדר, צליל אחרי צליל. למשל m, a, p נותן map.",
+      "hint": "חברו את האותיות לפי הסדר."
     },
     {
       "id": "z_t_word_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "אות",
-      "body_he": "איזו אות חסרה?\nהסבר: מנסים כל אות במקום החסר ובודקים איזו מילה מתאימה לרמז.",
+      "body_he": "איזו אות חסרה?",
       "body_content": "c_t: a small pet that says meow",
       "choices": [
         {
@@ -460,16 +500,20 @@
         },
         {
           "id": "b",
-          "label": "o"
+          "label": "o",
+          "feedback": "cot היא מיטה קטנה, לא חיה."
         },
         {
           "id": "c",
-          "label": "u"
+          "label": "u",
+          "feedback": "cut פירושו לחתוך, לא חיה."
         }
       ],
       "correct": "a",
       "feedback_ok": "cat.",
-      "feedback_try": "חיה קטנה שאומרת מיאו היא cat, לכן האות החסרה היא a."
+      "feedback_try": "חיה קטנה שאומרת מיאו היא cat, לכן האות החסרה היא a.",
+      "worked_method": "מנסים כל אות במקום החסר ובודקים איזו מילה מתאימה לרמז.",
+      "hint": "איזו חיה עושה meow? אמרו את שמה באנגלית."
     },
     {
       "id": "z_t_sent_learn",
@@ -484,7 +528,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "שלם",
-      "body_he": "איזה משפט שלם?\nהסבר: משפט שלם צריך מי (I, she...) ופועל (am, is...). למשל She is here.",
+      "body_he": "איזה משפט שלם?",
       "body_content": "Choose.",
       "choices": [
         {
@@ -493,23 +537,27 @@
         },
         {
           "id": "b",
-          "label": "Am here."
+          "label": "Am here.",
+          "feedback": "חסר מי שעושה. צריך I בהתחלה."
         },
         {
           "id": "c",
-          "label": "I here."
+          "label": "I here.",
+          "feedback": "חסר הפועל am."
         }
       ],
       "correct": "a",
       "feedback_ok": "יש I ויש am.",
-      "feedback_try": "I am here יש בו מי (I) ופועל (am). בשניים האחרים חסר אחד מהם."
+      "feedback_try": "I am here יש בו מי (I) ופועל (am). בשניים האחרים חסר אחד מהם.",
+      "worked_method": "משפט שלם צריך מי (I, she...) ופועל (am, is...). למשל She is here.",
+      "hint": "משפט שלם צריך מי שעושה ופועל."
     },
     {
       "id": "z_t_sent_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "גדולה",
-      "body_he": "איך פותחים משפט?\nהסבר: משפט נפתח באות גדולה, וI תמיד כתובה גדולה.",
+      "body_he": "איך פותחים משפט?",
       "body_content": "___ am a student.",
       "choices": [
         {
@@ -518,16 +566,20 @@
         },
         {
           "id": "b",
-          "label": "i"
+          "label": "i",
+          "feedback": "את I כותבים תמיד באות גדולה."
         },
         {
           "id": "c",
-          "label": "am"
+          "label": "am",
+          "feedback": "am כבר נמצא במשפט. חסר מי שעושה."
         }
       ],
       "correct": "a",
       "feedback_ok": "I גדולה.",
-      "feedback_try": "לפני am צריך מי שעושה, וזה I באות גדולה: I am a student."
+      "feedback_try": "לפני am צריך מי שעושה, וזה I באות גדולה: I am a student.",
+      "worked_method": "משפט נפתח באות גדולה, וI תמיד כתובה גדולה.",
+      "hint": "I היא המילה שאומרת אני. איך כותבים אותה תמיד?"
     },
     {
       "id": "z_rev2_learn",
@@ -547,7 +599,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: I הולך עם am, he או she עם is, you, we, they עם are.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "You ___ ready.",
       "review_topic_ids": [
         "t_you",
@@ -561,23 +613,27 @@
         },
         {
           "id": "b",
-          "label": "is"
+          "label": "is",
+          "feedback": "is הולך עם גוף אחד כמו she."
         },
         {
           "id": "c",
-          "label": "am"
+          "label": "am",
+          "feedback": "am הולך רק עם I."
         }
       ],
       "correct": "a",
       "feedback_ok": "You are.",
-      "feedback_try": "במשפט יש You, לכן are: You are ready."
+      "feedback_try": "במשפט יש You, לכן are: You are ready.",
+      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "hint": "איזו צורה של to be הולכת עם you?"
     },
     {
       "id": "z_final_check",
       "type": "check",
       "kind": "understanding",
       "title": "בדיקת סוף",
-      "body_he": "שאלה אחת על כל הדרך.\nהסבר: I הולך עם am, he או she עם is, you, we, they עם are.",
+      "body_he": "שאלה אחת על כל הדרך.",
       "body_content": "They ___ not late.",
       "choices": [
         {
@@ -586,16 +642,20 @@
         },
         {
           "id": "b",
-          "label": "is"
+          "label": "is",
+          "feedback": "is הולך עם גוף אחד."
         },
         {
           "id": "c",
-          "label": "am"
+          "label": "am",
+          "feedback": "am הולך רק עם I."
         }
       ],
       "correct": "a",
       "feedback_ok": "They are not.",
-      "feedback_try": "במשפט יש They, ועם they בא are: They are not late."
+      "feedback_try": "במשפט יש They, ועם they בא are: They are not late.",
+      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "hint": "They הם רבים. איזו צורה של to be באה לפני not?"
     },
     {
       "id": "z_celebrate",

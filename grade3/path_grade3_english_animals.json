@@ -91,7 +91,7 @@
       "type": "practice",
       "title": "איזו חיה?",
       "title_en": "Which animal?",
-      "body_he": "איזו חיה מתאימה למילה באנגלית למטה?\nהסבר: קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "body_he": "איזו חיה מתאימה למילה באנגלית למטה?",
       "body_en": "Which animal matches the English word below?",
       "body_content": "dog",
       "speak_text": "Dog. Which animal is a dog?",
@@ -106,25 +106,29 @@
           "id": "b",
           "label": "חתול",
           "label_en": "cat",
-          "emoji": "🐱"
+          "emoji": "🐱",
+          "feedback": "חתול הוא cat."
         },
         {
           "id": "c",
           "label": "דג",
           "label_en": "fish",
-          "emoji": "🐟"
+          "emoji": "🐟",
+          "feedback": "דג הוא fish."
         }
       ],
       "correct": "a",
       "feedback_ok": "נכון! Dog = כלב.",
-      "feedback_try": "נסו שוב. dog היא החיה שנובחת, כלב."
+      "feedback_try": "נסו שוב. dog היא החיה שנובחת, כלב.",
+      "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "hint": "זו החיה שנובחת הב הב."
     },
     {
       "id": "practice_cat",
       "type": "practice",
       "title": "איזו חיה?",
       "title_en": "Which animal?",
-      "body_he": "איזו חיה מתאימה למילה באנגלית למטה?\nהסבר: קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "body_he": "איזו חיה מתאימה למילה באנגלית למטה?",
       "body_en": "Which animal matches the English word below?",
       "body_content": "cat",
       "speak_text": "Cat. Meow!",
@@ -133,7 +137,8 @@
           "id": "a",
           "label": "ציפור",
           "label_en": "bird",
-          "emoji": "🐦"
+          "emoji": "🐦",
+          "feedback": "ציפור היא bird."
         },
         {
           "id": "b",
@@ -145,12 +150,15 @@
           "id": "c",
           "label": "פרה",
           "label_en": "cow",
-          "emoji": "🐮"
+          "emoji": "🐮",
+          "feedback": "פרה היא cow."
         }
       ],
       "correct": "b",
       "feedback_ok": "נכון! Cat = חתול.",
-      "feedback_try": "נסו שוב. cat היא החיה שאומרת מיאו, חתול."
+      "feedback_try": "נסו שוב. cat היא החיה שאומרת מיאו, חתול.",
+      "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "hint": "זו החיה שאומרת מיאו."
     },
     {
       "id": "speak_bird",
@@ -161,15 +169,14 @@
       "body_en": "Listen to the English word below, then tap the mic.",
       "body_content": "Bird",
       "speak_text": "Bird. Bird. Say bird!",
-      "record": true,
-      "media_hint": "bird"
+      "record": true
     },
     {
       "id": "check_fish",
       "type": "check",
       "title": "איפה חיה?",
       "title_en": "Where does it live?",
-      "body_he": "איפה חיה החיה שבמילה באנגלית למטה?\nהסבר: קודם מבינים איזו חיה זו, ואז חושבים איפה היא חיה.",
+      "body_he": "איפה חיה החיה שבמילה באנגלית למטה?",
       "body_en": "Where does the animal named below live?",
       "body_content": "fish",
       "speak_text": "Where does a fish live?",
@@ -182,17 +189,21 @@
         {
           "id": "b",
           "label": "בעצים 🌳",
-          "label_en": "in trees 🌳"
+          "label_en": "in trees 🌳",
+          "feedback": "בעצים חיות ציפורים, לא דגים."
         },
         {
           "id": "c",
           "label": "בעננים ☁️",
-          "label_en": "in clouds ☁️"
+          "label_en": "in clouds ☁️",
+          "feedback": "דג לא חי בעננים."
         }
       ],
       "correct": "a",
       "feedback_ok": "נכון! Fish חיים במים.",
-      "feedback_try": "נסו שוב. fish הוא דג, ודגים חיים במים."
+      "feedback_try": "נסו שוב. fish הוא דג, ודגים חיים במים.",
+      "worked_method": "קודם מבינים איזו חיה זו, ואז חושבים איפה היא חיה.",
+      "hint": "fish הוא דג. איפה דג חי?"
     },
     {
       "id": "learn_farm",
@@ -209,7 +220,7 @@
       "type": "practice",
       "title": "איזו חיה?",
       "title_en": "Which animal?",
-      "body_he": "איזו חיה מתאימה למילה באנגלית למטה?\nהסבר: קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "body_he": "איזו חיה מתאימה למילה באנגלית למטה?",
       "body_en": "Which animal matches the English word below?",
       "body_content": "cow",
       "speak_text": "Cow. Moo!",
@@ -218,7 +229,8 @@
           "id": "a",
           "label": "סוס",
           "label_en": "horse",
-          "emoji": "🐴"
+          "emoji": "🐴",
+          "feedback": "סוס הוא horse."
         },
         {
           "id": "b",
@@ -230,19 +242,22 @@
           "id": "c",
           "label": "כלב",
           "label_en": "dog",
-          "emoji": "🐶"
+          "emoji": "🐶",
+          "feedback": "כלב הוא dog."
         }
       ],
       "correct": "b",
       "feedback_ok": "נכון! Cow = פרה.",
-      "feedback_try": "נסו שוב. cow היא החיה שנותנת חלב, פרה."
+      "feedback_try": "נסו שוב. cow היא החיה שנותנת חלב, פרה.",
+      "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "hint": "זו החיה שאומרת מו."
     },
     {
       "id": "practice_horse",
       "type": "practice",
       "title": "איזו חיה?",
       "title_en": "Which animal?",
-      "body_he": "איזו חיה מתאימה למילה באנגלית למטה?\nהסבר: קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "body_he": "איזו חיה מתאימה למילה באנגלית למטה?",
       "body_en": "Which animal matches the English word below?",
       "body_content": "horse",
       "speak_text": "Horse. Neigh!",
@@ -257,25 +272,29 @@
           "id": "b",
           "label": "דג",
           "label_en": "fish",
-          "emoji": "🐟"
+          "emoji": "🐟",
+          "feedback": "דג הוא fish."
         },
         {
           "id": "c",
           "label": "חתול",
           "label_en": "cat",
-          "emoji": "🐱"
+          "emoji": "🐱",
+          "feedback": "חתול הוא cat."
         }
       ],
       "correct": "a",
       "feedback_ok": "נכון! Horse = סוס.",
-      "feedback_try": "נסו שוב. horse היא החיה שרוכבים עליה, סוס."
+      "feedback_try": "נסו שוב. horse היא החיה שרוכבים עליה, סוס.",
+      "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
+      "hint": "זו החיה שרוכבים עליה."
     },
     {
       "id": "check_mix",
       "type": "check",
       "title": "איפה עפה?",
       "title_en": "Where does it fly?",
-      "body_he": "איפה עפה החיה שבמילה באנגלית למטה?\nהסבר: קודם מבינים איזו חיה זו, ואז חושבים איפה היא עפה.",
+      "body_he": "איפה עפה החיה שבמילה באנגלית למטה?",
       "body_en": "Where does the animal named below fly?",
       "body_content": "bird",
       "speak_text": "A bird flies in the sky.",
@@ -283,7 +302,8 @@
         {
           "id": "a",
           "label": "מים",
-          "label_en": "water"
+          "label_en": "water",
+          "feedback": "במים שוחים דגים."
         },
         {
           "id": "b",
@@ -293,12 +313,15 @@
         {
           "id": "c",
           "label": "אדמה",
-          "label_en": "ground"
+          "label_en": "ground",
+          "feedback": "על האדמה הולכים, לא עפים."
         }
       ],
       "correct": "b",
       "feedback_ok": "נכון, ציפורים עפות בשמיים!",
-      "feedback_try": "נסו שוב. bird היא ציפור, וציפורים עפות בשמיים."
+      "feedback_try": "נסו שוב. bird היא ציפור, וציפורים עפות בשמיים.",
+      "worked_method": "קודם מבינים איזו חיה זו, ואז חושבים איפה היא עפה.",
+      "hint": "bird היא ציפור. איפה ציפור עפה?"
     },
     {
       "id": "celebrate",

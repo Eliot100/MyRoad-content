@@ -152,7 +152,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "רעיון מרכזי",
-      "body_he": "מה הטענה?\nהסבר: הרעיון המרכזי מחבר את ההתחלה והסוף של הקטע, לא פרט אחד.",
+      "body_he": "מה הטענה?",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
       "choices": [
         {
@@ -161,23 +161,27 @@
         },
         {
           "id": "b",
-          "label": "Plastic boxes are cheaper."
+          "label": "Plastic boxes are cheaper.",
+          "feedback": "הקופסאות הן פרט, לא הרעיון."
         },
         {
           "id": "c",
-          "label": "The bus line closed."
+          "label": "The bus line closed.",
+          "feedback": "הקטע לא אומר את זה. חפשו בקטע את המשפט שעונה."
         }
       ],
       "correct": "a",
       "feedback_ok": "השוק הנקי איבד את הקונים.",
-      "feedback_try": "הקטע אומר שהאולם נקי אבל רחוק ויקר, והקונים המבוגרים מפסיקים לבוא. לכן: A cleaner market can lose the people it was for."
+      "feedback_try": "הקטע אומר שהאולם נקי אבל רחוק ויקר, והקונים המבוגרים מפסיקים לבוא. לכן: A cleaner market can lose the people it was for.",
+      "worked_method": "הרעיון המרכזי מחבר את ההתחלה והסוף של הקטע, לא פרט אחד.",
+      "hint": "מה הקטע אומר שקורה לקונים אחרי המעבר?"
     },
     {
       "id": "e_t_read_purpose",
       "type": "practice",
       "kind": "understanding",
       "title": "מטרת הכותב",
-      "body_he": "למה נכתב?\nהסבר: שואלים מה הכותב רוצה שנבין בסוף הקטע.",
+      "body_he": "למה נכתב?",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
       "choices": [
         {
@@ -186,23 +190,27 @@
         },
         {
           "id": "b",
-          "label": "to sell peaches"
+          "label": "to sell peaches",
+          "feedback": "הקטע לא מנסה למכור."
         },
         {
           "id": "c",
-          "label": "to give bus times"
+          "label": "to give bus times",
+          "feedback": "זמני האוטובוס לא נמסרים בקטע."
         }
       ],
       "correct": "a",
       "feedback_ok": "להראות מחיר של המעבר.",
-      "feedback_try": "הקטע מראה מה הפסידו כשהשוק עבר לאולם: מחיר גבוה, מרחק מהאוטובוס, דוכנים ריקים. לכן to show a cost of moving the market."
+      "feedback_try": "הקטע מראה מה הפסידו כשהשוק עבר לאולם: מחיר גבוה, מרחק מהאוטובוס, דוכנים ריקים. לכן to show a cost of moving the market.",
+      "worked_method": "שואלים מה הכותב רוצה שנבין בסוף הקטע.",
+      "hint": "שאלו את עצמכם מה הכותב רוצה שנבין."
     },
     {
       "id": "e_t_read_word",
       "type": "practice",
       "kind": "understanding",
       "title": "מהקשר",
-      "body_he": "מה פירוש stalls?\nהסבר: קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "body_he": "מה פירוש stalls?",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
       "choices": [
         {
@@ -211,16 +219,20 @@
         },
         {
           "id": "b",
-          "label": "bus tickets"
+          "label": "bus tickets",
+          "feedback": "בשוק מדובר במקום שמוכרים בו, לא בכרטיסים."
         },
         {
           "id": "c",
-          "label": "plastic boxes"
+          "label": "plastic boxes",
+          "feedback": "הקופסאות הן מילה אחרת בקטע."
         }
       ],
       "correct": "a",
       "feedback_ok": "דוכנים.",
-      "feedback_try": "הכתבת ספרה stalls ריקים ותור בstall אחד שמוכר פירות. לכן אלה שולחנות שמוכרים בהם."
+      "feedback_try": "הכתבת ספרה stalls ריקים ותור בstall אחד שמוכר פירות. לכן אלה שולחנות שמוכרים בהם.",
+      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "hint": "קראו את המשפט ונחשו לפי מה שקורה בשוק."
     },
     {
       "id": "e_t_vocab_learn",
@@ -235,7 +247,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "far",
-      "body_he": "far כאן הוא\nהסבר: קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "body_he": "far כאן הוא",
       "body_content": "far from the bus",
       "choices": [
         {
@@ -244,23 +256,27 @@
         },
         {
           "id": "b",
-          "label": "very cheap"
+          "label": "very cheap",
+          "feedback": "far לא קשור למחיר."
         },
         {
           "id": "c",
-          "label": "already closed"
+          "label": "already closed",
+          "feedback": "far לא קשור לסגירה."
         }
       ],
       "correct": "a",
       "feedback_ok": "לא קרוב.",
-      "feedback_try": "far from the bus פירושו רחוק מהאוטובוס, כלומר not close."
+      "feedback_try": "far from the bus פירושו רחוק מהאוטובוס, כלומר not close.",
+      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "hint": "far הפוך מ close."
     },
     {
       "id": "e_t_vocab_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "loose",
-      "body_he": "loose fruit\nהסבר: קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "body_he": "loose fruit",
       "body_content": "loose fruit",
       "choices": [
         {
@@ -269,16 +285,20 @@
         },
         {
           "id": "b",
-          "label": "very expensive"
+          "label": "very expensive",
+          "feedback": "loose לא קשור למחיר."
         },
         {
           "id": "c",
-          "label": "already gone"
+          "label": "already gone",
+          "feedback": "loose לא אומר שהפרי נגמר."
         }
       ],
       "correct": "a",
       "feedback_ok": "לא בקופסה.",
-      "feedback_try": "loose fruit בא מול plastic boxes, כלומר פרי שלא בתוך קופסה."
+      "feedback_try": "loose fruit בא מול plastic boxes, כלומר פרי שלא בתוך קופסה.",
+      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "hint": "loose פירושו לא קשור ולא סגור."
     },
     {
       "id": "e_t_ref_learn",
@@ -293,7 +313,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "it",
-      "body_he": "על מה it במשפט The hall is clean. It is also far?\nהסבר: מילה כמו it או she מחליפה שם שכבר הופיע. מחפשים את השם במשפט שלפניה.",
+      "body_he": "על מה it במשפט The hall is clean. It is also far?",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
       "choices": [
         {
@@ -302,23 +322,27 @@
         },
         {
           "id": "b",
-          "label": "the rain"
+          "label": "the rain",
+          "feedback": "הגשם לא מופיע במשפט הזה."
         },
         {
           "id": "c",
-          "label": "the reporter"
+          "label": "the reporter",
+          "feedback": "הכתב לא מופיע במשפט הזה."
         }
       ],
       "correct": "a",
       "feedback_ok": "the hall.",
-      "feedback_try": "במשפט שלפני כתוב The hall is clean. לכן It is also far מדבר על the hall."
+      "feedback_try": "במשפט שלפני כתוב The hall is clean. לכן It is also far מדבר על the hall.",
+      "worked_method": "מילה כמו it או she מחליפה שם שכבר הופיע. מחפשים את השם במשפט שלפניה.",
+      "hint": "it מחליף שם שבא קודם במשפט."
     },
     {
       "id": "e_t_ref_chk",
       "type": "check",
       "kind": "understanding",
       "title": "בדיקה",
-      "body_he": "מי מסרבת לקופסאות?\nהסבר: מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "body_he": "מי מסרבת לקופסאות?",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
       "choices": [
         {
@@ -327,16 +351,20 @@
         },
         {
           "id": "b",
-          "label": "the mayor"
+          "label": "the mayor",
+          "feedback": "הקטע לא אומר את זה. חפשו בקטע את המשפט שעונה."
         },
         {
           "id": "c",
-          "label": "the reporter"
+          "label": "the reporter",
+          "feedback": "הקטע לא אומר את זה. חפשו בקטע את המשפט שעונה."
         }
       ],
       "correct": "a",
       "feedback_ok": "Nira.",
-      "feedback_try": "כתוב The owner, Nira, refused the plastic boxes. מי שמסרבת היא Nira."
+      "feedback_try": "כתוב The owner, Nira, refused the plastic boxes. מי שמסרבת היא Nira.",
+      "worked_method": "מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "hint": "חפשו בקטע את המילה refused."
     },
     {
       "id": "e_rev1_learn",
@@ -356,7 +384,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: מילה כמו it או she מחליפה שם שכבר הופיע. מחפשים את השם במשפט שלפניה.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "The hall is clean. It is also far.",
       "review_topic_ids": [
         "t_read",
@@ -370,16 +398,20 @@
         },
         {
           "id": "b",
-          "label": "It means the rain."
+          "label": "It means the rain.",
+          "feedback": "הגשם לא מופיע במשפט."
         },
         {
           "id": "c",
-          "label": "It means the bus."
+          "label": "It means the bus.",
+          "feedback": "האוטובוס לא מופיע במשפט."
         }
       ],
       "correct": "a",
       "feedback_ok": "it הוא האולם.",
-      "feedback_try": "It בא אחרי The hall is clean, לכן הוא the hall."
+      "feedback_try": "It בא אחרי The hall is clean, לכן הוא the hall.",
+      "worked_method": "מילה כמו it או she מחליפה שם שכבר הופיע. מחפשים את השם במשפט שלפניה.",
+      "hint": "it מחליף שם שבא קודם."
     },
     {
       "id": "e_t_detail_learn",
@@ -394,7 +426,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "שעה",
-      "body_he": "מתי הדוכנים ריקים?\nהסבר: מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "body_he": "מתי הדוכנים ריקים?",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
       "choices": [
         {
@@ -403,23 +435,27 @@
         },
         {
           "id": "b",
-          "label": "at noon only"
+          "label": "at noon only",
+          "feedback": "הקטע לא אומר רק בצהריים."
         },
         {
           "id": "c",
-          "label": "the text never says"
+          "label": "the text never says",
+          "feedback": "הקטע כן אומר. חפשו את nine."
         }
       ],
       "correct": "a",
       "feedback_ok": "לפני תשע.",
-      "feedback_try": "כתוב She counted empty stalls before nine, כלומר לפני תשע."
+      "feedback_try": "כתוב She counted empty stalls before nine, כלומר לפני תשע.",
+      "worked_method": "מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "hint": "חפשו בקטע את המילה nine."
     },
     {
       "id": "e_t_detail_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "אוטובוס",
-      "body_he": "למה קונים מבוגרים מפסיקים?\nהסבר: מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "body_he": "למה קונים מבוגרים מפסיקים?",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
       "choices": [
         {
@@ -428,16 +464,20 @@
         },
         {
           "id": "b",
-          "label": "The peaches are gone."
+          "label": "The peaches are gone.",
+          "feedback": "הקטע לא אומר את זה. חפשו בקטע את המשפט שעונה."
         },
         {
           "id": "c",
-          "label": "The mayor closed Friday."
+          "label": "The mayor closed Friday.",
+          "feedback": "הקטע לא אומר את זה. חפשו בקטע את המשפט שעונה."
         }
       ],
       "correct": "a",
       "feedback_ok": "רחוק מהאוטובוס.",
-      "feedback_try": "כתוב It is also far from the bus, so older buyers stop coming. הסיבה היא המרחק מהאוטובוס."
+      "feedback_try": "כתוב It is also far from the bus, so older buyers stop coming. הסיבה היא המרחק מהאוטובוס.",
+      "worked_method": "מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "hint": "חפשו בקטע מה נאמר על הקונים המבוגרים."
     },
     {
       "id": "e_t_infer_learn",
@@ -452,7 +492,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "הצלחה",
-      "body_he": "למה המועצה קוראת לזה הצלחה?\nהסבר: מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "body_he": "למה המועצה קוראת לזה הצלחה?",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
       "choices": [
         {
@@ -461,23 +501,27 @@
         },
         {
           "id": "b",
-          "label": "More older buyers come."
+          "label": "More older buyers come.",
+          "feedback": "הקטע אומר שקונים מבוגרים מפסיקים לבוא."
         },
         {
           "id": "c",
-          "label": "Nira likes the boxes."
+          "label": "Nira likes the boxes.",
+          "feedback": "נירה מסרבת לקופסאות."
         }
       ],
       "correct": "a",
       "feedback_ok": "השכירות משולמת.",
-      "feedback_try": "כתוב The council calls the hall a success because the rent is paid. לכן The rent is paid."
+      "feedback_try": "כתוב The council calls the hall a success because the rent is paid. לכן The rent is paid.",
+      "worked_method": "מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "hint": "לפי מה המועצה מודדת הצלחה?"
     },
     {
       "id": "e_t_infer_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "נירה",
-      "body_he": "מה נירה רוצה?\nהסבר: מחברים מה הדמות עושה ומה היא אומרת כדי להבין מה היא רוצה.",
+      "body_he": "מה נירה רוצה?",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
       "choices": [
         {
@@ -486,16 +530,20 @@
         },
         {
           "id": "b",
-          "label": "A higher rent."
+          "label": "A higher rent.",
+          "feedback": "נירה לא מבקשת שכר דירה גבוה יותר."
         },
         {
           "id": "c",
-          "label": "A closed hall."
+          "label": "A closed hall.",
+          "feedback": "נירה לא מבקשת אולם סגור."
         }
       ],
       "correct": "a",
       "feedback_ok": "שהקונה יבחר.",
-      "feedback_try": "נירה מסרבת לקופסאות ואומרת שהלקוחות יודעים לבחור אפרסק. היא רוצה לקוחות שבוחרים את הפרי בעצמם."
+      "feedback_try": "נירה מסרבת לקופסאות ואומרת שהלקוחות יודעים לבחור אפרסק. היא רוצה לקוחות שבוחרים את הפרי בעצמם.",
+      "worked_method": "מחברים מה הדמות עושה ומה היא אומרת כדי להבין מה היא רוצה.",
+      "hint": "מה נירה עושה עם הקופסאות, ולמה?"
     },
     {
       "id": "e_t_band_learn",
@@ -510,7 +558,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "queue",
-      "body_he": "queue\nהסבר: קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "body_he": "queue",
       "body_content": "a queue at the stall",
       "choices": [
         {
@@ -519,23 +567,27 @@
         },
         {
           "id": "b",
-          "label": "a plastic box"
+          "label": "a plastic box",
+          "feedback": "זו מילה אחרת, box."
         },
         {
           "id": "c",
-          "label": "a bus ticket"
+          "label": "a bus ticket",
+          "feedback": "זה ticket, לא queue."
         }
       ],
       "correct": "a",
       "feedback_ok": "תור.",
-      "feedback_try": "a queue at the stall הוא תור של אנשים שמחכים ליד הדוכן."
+      "feedback_try": "a queue at the stall הוא תור של אנשים שמחכים ליד הדוכן.",
+      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "hint": "תחשבו על אנשים שעומדים אחד אחרי השני."
     },
     {
       "id": "e_t_band_p2",
       "type": "practice",
       "kind": "understanding",
       "title": "refused",
-      "body_he": "refused\nהסבר: קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "body_he": "refused",
       "body_content": "She refused the boxes.",
       "choices": [
         {
@@ -544,16 +596,20 @@
         },
         {
           "id": "b",
-          "label": "paid more"
+          "label": "paid more",
+          "feedback": "refused לא קשור לכסף."
         },
         {
           "id": "c",
-          "label": "opened early"
+          "label": "opened early",
+          "feedback": "refused לא קשור לשעה."
         }
       ],
       "correct": "a",
       "feedback_ok": "סירבה.",
-      "feedback_try": "She refused the boxes: היא אמרה לא לקופסאות. refused פירושו said no."
+      "feedback_try": "She refused the boxes: היא אמרה לא לקופסאות. refused פירושו said no.",
+      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "hint": "refused הוא ההפך מ agreed."
     },
     {
       "id": "e_rev2_learn",
@@ -573,7 +629,7 @@
       "type": "practice",
       "kind": "review",
       "title": "תרגול",
-      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.\nהסבר: קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "body_he": "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
       "body_content": "What does stalls mean here?",
       "review_topic_ids": [
         "t_detail",
@@ -587,23 +643,27 @@
         },
         {
           "id": "b",
-          "label": "bus tickets"
+          "label": "bus tickets",
+          "feedback": "בשוק מדובר במקום מכירה."
         },
         {
           "id": "c",
-          "label": "plastic boxes"
+          "label": "plastic boxes",
+          "feedback": "הקופסאות הן מילה אחרת."
         }
       ],
       "correct": "a",
       "feedback_ok": "דוכנים.",
-      "feedback_try": "stalls ריקים שמוכרים בהם פירות הם tables where people sell."
+      "feedback_try": "stalls ריקים שמוכרים בהם פירות הם tables where people sell.",
+      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "hint": "בשוק, איפה המוכרים עומדים?"
     },
     {
       "id": "e_final_check",
       "type": "check",
       "kind": "understanding",
       "title": "בדיקת סוף",
-      "body_he": "שאלה אחת על כל הדרך.\nהסבר: הנקודה של הכותב היא מה שכל הקטע מוביל אליו, בעיקר המשפטים האחרונים.",
+      "body_he": "שאלה אחת על כל הדרך.",
       "body_content": "What is the writer's point?",
       "choices": [
         {
@@ -612,16 +672,20 @@
         },
         {
           "id": "b",
-          "label": "Plastic is cheaper."
+          "label": "Plastic is cheaper.",
+          "feedback": "הפלסטיק הוא פרט, לא הטענה."
         },
         {
           "id": "c",
-          "label": "The bus is the subject."
+          "label": "The bus is the subject.",
+          "feedback": "האוטובוס הוא סיבה בתוך הקטע, לא הנושא."
         }
       ],
       "correct": "a",
       "feedback_ok": "האולם הנקי איבד קונים.",
-      "feedback_try": "האולם נקי, אבל רחוק ויקר וקונים מפסיקים לבוא. לכן A clean hall can lose its buyers."
+      "feedback_try": "האולם נקי, אבל רחוק ויקר וקונים מפסיקים לבוא. לכן A clean hall can lose its buyers.",
+      "worked_method": "הנקודה של הכותב היא מה שכל הקטע מוביל אליו, בעיקר המשפטים האחרונים.",
+      "hint": "מה הכותב רוצה שנבין על המעבר לאולם?"
     },
     {
       "id": "e_celebrate",
