@@ -17,7 +17,11 @@ Run: python scripts/build_arabic_bagrut5.py
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import apply_methods  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "adult"
@@ -385,6 +389,8 @@ def zero() -> dict:
 
 def main() -> None:
     for d in (placement(), zero()):
+        missing = apply_methods.apply_doc(d)  # method in body_he, worked answer in feedback_try
+        assert not missing, missing
         fp = OUT / f"{d['id']}.json"
         fp.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(fp.relative_to(ROOT), len(d["nodes"]), "nodes")

@@ -27,7 +27,7 @@ def load(name: str) -> dict:
 
 def apply_doc(d: dict, name: str | None = None) -> list[str]:
     """Apply scripts/methods/<name>.py to one path doc in place. Returns base step ids with no row.
-    Variant steps (variant_of) get a row only if the table has one."""
+    A variant step (variant_of) uses its own row, or else the row of its base."""
     table = load(name or d["id"].removeprefix("path_"))
     missing = []
     for n in d["nodes"]:
@@ -36,7 +36,7 @@ def apply_doc(d: dict, name: str | None = None) -> list[str]:
                 n[k] = HYPHEN.sub(" ", n[k])
         if n["type"] not in ("practice", "check"):
             continue
-        row = table.get(n["id"])
+        row = table.get(n["id"]) or table.get(n.get("variant_of") or "")
         if not row:
             if not n.get("variant_of"):
                 missing.append(n["id"])
