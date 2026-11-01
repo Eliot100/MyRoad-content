@@ -14,7 +14,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MARK = "\nהסבר: "
-HYPHEN = re.compile(r"(?<=[\u0590-\u05FF])-(?=\S)")  # "מ-150" -> "מ 150" (no dashes rule)
+HYPHEN = re.compile(r"(?<=[\u0590-\u05FF])[-\u05BE](?=\S)")  # also maqaf
+LONG_DASH = re.compile(r"\s*[\u2014\u2013]\s*")  # long dashes become a comma
 
 
 def load(name: str) -> dict:
@@ -30,16 +31,19 @@ def apply_doc(d: dict, name: str | None = None) -> list[str]:
     A variant step (variant_of) uses its own row, or else the row of its base."""
     table = load(name or d["id"].removeprefix("path_"))
     missing = []
+    step = 0
     for n in d["nodes"]:
-        for k in ("body_he", "feedback_ok", "feedback_try", "title"):
-            if n.get(k):
-                n[k] = HYPHEN.sub(" ", n[k])
         if n["type"] not in ("practice", "check"):
             continue
-        row = table.get(n["id"]) or table.get(n.get("variant_of") or "")
+        for k in ("body_he", "feedback_ok", "feedback_try", "title"):
+            if n.get(k):
+                n[k] = LONG_DASH.sub(", ", HYPHEN.sub(" ", n[k]))
+        step += 1
+        nid = n.get("id") or f"#{step}"  # some grade3 nodes have no id: key "#n" = n-th practice/check step
+        row = table.get(nid) or table.get(n.get("variant_of") or "")
         if not row:
             if not n.get("variant_of"):
-                missing.append(n["id"])
+                missing.append(nid)
             continue
         method, why = row
         q = n["body_he"].split(MARK)[0]
