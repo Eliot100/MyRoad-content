@@ -84,7 +84,8 @@
       "body_he": "נלמד שמות של חיות באנגלית. המילים מופיעות למטה.",
       "body_en": "We will learn animal names in English. The words are below.",
       "body_content": "dog · cat · bird · fish",
-      "speak_text": "Animals: dog, cat, bird, fish."
+      "speak_text": "Animals: dog, cat, bird, fish.",
+      "can_do": "להכיר שמות של חיות באנגלית"
     },
     {
       "id": "practice_dog",
@@ -121,7 +122,8 @@
       "feedback_ok": "נכון! Dog = כלב.",
       "feedback_try": "נסו שוב. dog היא החיה שנובחת, כלב.",
       "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
-      "hint": "זו החיה שנובחת הב הב."
+      "hint": "זו החיה שנובחת הב הב.",
+      "can_do": "לזהות את dog"
     },
     {
       "id": "practice_cat",
@@ -158,7 +160,8 @@
       "feedback_ok": "נכון! Cat = חתול.",
       "feedback_try": "נסו שוב. cat היא החיה שאומרת מיאו, חתול.",
       "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
-      "hint": "זו החיה שאומרת מיאו."
+      "hint": "זו החיה שאומרת מיאו.",
+      "can_do": "לזהות את cat"
     },
     {
       "id": "speak_bird",
@@ -169,7 +172,8 @@
       "body_en": "Listen to the English word below, then tap the mic.",
       "body_content": "Bird",
       "speak_text": "Bird. Bird. Say bird!",
-      "record": true
+      "record": true,
+      "can_do": "להגיד bird בקול"
     },
     {
       "id": "check_fish",
@@ -203,7 +207,8 @@
       "feedback_ok": "נכון! Fish חיים במים.",
       "feedback_try": "נסו שוב. fish הוא דג, ודגים חיים במים.",
       "worked_method": "קודם מבינים איזו חיה זו, ואז חושבים איפה היא חיה.",
-      "hint": "fish הוא דג. איפה דג חי?"
+      "hint": "fish הוא דג. איפה דג חי?",
+      "can_do": "לדעת איפה חי fish"
     },
     {
       "id": "learn_farm",
@@ -213,7 +218,8 @@
       "body_he": "בחווה יש עוד חיות. שמותיהן באנגלית למטה.",
       "body_en": "On the farm we meet more animals. Their English names are below.",
       "body_content": "cow · horse",
-      "speak_text": "Cow. Horse. Farm animals: cow and horse."
+      "speak_text": "Cow. Horse. Farm animals: cow and horse.",
+      "can_do": "להכיר שמות של חיות בחווה"
     },
     {
       "id": "practice_cow",
@@ -250,7 +256,8 @@
       "feedback_ok": "נכון! Cow = פרה.",
       "feedback_try": "נסו שוב. cow היא החיה שנותנת חלב, פרה.",
       "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
-      "hint": "זו החיה שאומרת מו."
+      "hint": "זו החיה שאומרת מו.",
+      "can_do": "לזהות את cow"
     },
     {
       "id": "practice_horse",
@@ -287,7 +294,8 @@
       "feedback_ok": "נכון! Horse = סוס.",
       "feedback_try": "נסו שוב. horse היא החיה שרוכבים עליה, סוס.",
       "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
-      "hint": "זו החיה שרוכבים עליה."
+      "hint": "זו החיה שרוכבים עליה.",
+      "can_do": "לזהות את horse"
     },
     {
       "id": "check_mix",
@@ -321,7 +329,8 @@
       "feedback_ok": "נכון, ציפורים עפות בשמיים!",
       "feedback_try": "נסו שוב. bird היא ציפור, וציפורים עפות בשמיים.",
       "worked_method": "קודם מבינים איזו חיה זו, ואז חושבים איפה היא עפה.",
-      "hint": "bird היא ציפור. איפה ציפור עפה?"
+      "hint": "bird היא ציפור. איפה ציפור עפה?",
+      "can_do": "לדעת איפה עף bird"
     },
     {
       "id": "celebrate",
@@ -331,7 +340,8 @@
       "body_he": "כל הכבוד! יש לכם חברים חדשים באנגלית.",
       "body_en": "Wonderful! You have new English animal friends.",
       "body_content": "dog, cat, bird, fish, cow, horse",
-      "speak_text": "Wonderful animals! Great job!"
+      "speak_text": "Wonderful animals! Great job!",
+      "can_do": "לקרוא שש מילים של חיות באנגלית"
     }
   ]
 }
