@@ -144,7 +144,7 @@
       "type": "learn",
       "kind": "understanding",
       "title": "אותיות וצלילים",
-      "body_he": "אין כאן שיעור חדש. סמנו מה שכבר ברור. אם זה לא ברור, זו הרמה, לא כישלון.",
+      "body_he": "אין כאן חומר חדש. סמנו מה שכבר ברור. אם זה לא ברור, זו הרמה, לא כישלון.",
       "body_content": "A is a letter."
     },
     {
@@ -210,7 +210,7 @@
       "type": "learn",
       "kind": "understanding",
       "title": "am, is, are",
-      "body_he": "עדיין לא לומדים. רק בודקים אם המשפט עומד בלי חור.",
+      "body_he": "עדיין לא לומדים. רק בודקים אם חסרה מילה במשפט.",
       "body_content": "I am here."
     },
     {
@@ -276,7 +276,7 @@
       "type": "learn",
       "kind": "understanding",
       "title": "הווה",
-      "body_he": "בדיקה של הרגל: אחרי he הפועל מקבל s, ושאלה מתחילה בdo או בdoes.",
+      "body_he": "בדיקה של הרגל: אחרי he הפועל מקבל s, ושאלה מתחילה ב do או ב does.",
       "body_content": "She works at home."
     },
     {
@@ -304,7 +304,7 @@
       ],
       "correct": "b",
       "feedback_ok": "אחרי he נוסיף s.",
-      "feedback_try": "במשפט יש He, לכן מוסיפים s: He works every day. work בלי s מתאים לI או they.",
+      "feedback_try": "במשפט יש He, לכן מוסיפים s: He works every day. work בלי s מתאים ל I או they.",
       "worked_method": "בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. למשל she reads.",
       "hint": "He הוא גוף שלישי יחיד. מה קורה לפועל בהווה?"
     },
@@ -333,8 +333,8 @@
       ],
       "correct": "a",
       "feedback_ok": "עם you שואלים Do.",
-      "feedback_try": "במשפט יש you, לכן פותחים בDo: Do you live here?",
-      "worked_method": "שאלה בהווה פותחים בDo עם I, you, we, they, ובDoes עם he, she, it.",
+      "feedback_try": "במשפט יש you, לכן פותחים ב Do: Do you live here?",
+      "worked_method": "שאלה בהווה פותחים ב Do עם I, you, we, they, ובDoes עם he, she, it.",
       "hint": "זו שאלה בהווה עם you. איזו מילת עזר פותחת אותה?"
     },
     {
@@ -621,11 +621,11 @@
         {
           "id": "c",
           "label": "Should stay.",
-          "feedback": "אין כאן מי שעושה. חסר נושא למשפט."
+          "feedback": "אין כאן מי שעושה. משפט צריך מי שעושה ופועל."
         }
       ],
       "correct": "a",
-      "feedback_ok": "יש נושא ופועל ודעה.",
+      "feedback_ok": "יש מי שעושה, פועל ודעה.",
       "feedback_try": "רק I think the library should stay open יש בו מי (I), פועל (think) ורעיון שלם.",
       "worked_method": "משפט שלם צריך מי שעושה ופועל, ורעיון שנגמר. Because לבד משאיר את הרעיון פתוח.",
       "hint": "משפט שלם צריך מי שעושה ופועל, ורעיון שלם."
@@ -689,7 +689,7 @@
       "type": "celebrate",
       "kind": "understanding",
       "title": "סיום המבדק",
-      "body_he": "המבדק נגמר. חזרו לשרשרת. הדרך עם הסימון התחילו כאן היא הפער, לא עונש.",
+      "body_he": "המבדק נגמר. חזרו לשרשרת. הדרך שנפתחה לכם היא הפער, לא עונש.",
       "body_content": "Start at the marked road."
     }
   ]

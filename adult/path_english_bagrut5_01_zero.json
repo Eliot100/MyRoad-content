@@ -76,7 +76,7 @@
     {
       "id": "t_you",
       "titles": {
-        "he": "you וwe",
+        "he": "you ו we",
         "en": "you and we"
       },
       "emoji": "ד",
@@ -172,7 +172,7 @@
       "correct": "a",
       "feedback_ok": "s.",
       "feedback_try": "אומרים sun לאט: s, u, n. הצליל הראשון הוא s.",
-      "worked_method": "אומרים את המילה לאט ומקשיבים לצליל הראשון. למשל map נפתחת בm.",
+      "worked_method": "אומרים את המילה לאט ומקשיבים לצליל הראשון. למשל map נפתחת ב m.",
       "hint": "אמרו את המילה ושימו לב לצליל הראשון."
     },
     {
@@ -180,7 +180,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "סוף",
-      "body_he": "במה נגמרת?",
+      "body_he": "באיזו אות נגמרת המילה?",
       "body_content": "map",
       "choices": [
         {
@@ -201,7 +201,7 @@
       "correct": "b",
       "feedback_ok": "p.",
       "feedback_try": "אומרים map לאט: m, a, p. הצליל האחרון הוא p.",
-      "worked_method": "אומרים את המילה לאט ומקשיבים לצליל האחרון. למשל sun נגמרת בn.",
+      "worked_method": "אומרים את המילה לאט ומקשיבים לצליל האחרון. למשל sun נגמרת ב n.",
       "hint": "אמרו את המילה ושימו לב לצליל האחרון."
     },
     {
@@ -341,7 +341,7 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
       "body_content": "Review only.",
       "review_topic_ids": [
         "t_letters",
@@ -387,7 +387,7 @@
       "id": "z_t_you_learn",
       "type": "learn",
       "kind": "understanding",
-      "title": "you וwe",
+      "title": "you ו we",
       "body_he": "you, we, they הולכים עם are. לא עם am.",
       "body_content": "You are ready. We are here."
     },
@@ -425,7 +425,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "they",
-      "body_he": "הם.",
+      "body_he": "השלימו עם they.",
       "body_content": "They ___ at school.",
       "choices": [
         {
@@ -482,7 +482,7 @@
       ],
       "correct": "a",
       "feedback_ok": "sun.",
-      "feedback_try": "s, u, n יחד נותנים sun. bus מתחיל בb וson כתוב עם o.",
+      "feedback_try": "s, u, n יחד נותנים sun. bus מתחיל ב b ו son כתוב עם o.",
       "worked_method": "מחברים את האותיות לפי הסדר, צליל אחרי צליל. למשל m, a, p נותן map.",
       "hint": "חברו את האותיות לפי הסדר."
     },
@@ -578,7 +578,7 @@
       "correct": "a",
       "feedback_ok": "I גדולה.",
       "feedback_try": "לפני am צריך מי שעושה, וזה I באות גדולה: I am a student.",
-      "worked_method": "משפט נפתח באות גדולה, וI תמיד כתובה גדולה.",
+      "worked_method": "משפט נפתח באות גדולה, ו I תמיד כתובה גדולה.",
       "hint": "I היא המילה שאומרת אני. איך כותבים אותה תמיד?"
     },
     {
@@ -586,7 +586,7 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
       "body_content": "Review only.",
       "review_topic_ids": [
         "t_you",

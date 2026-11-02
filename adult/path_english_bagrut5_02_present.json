@@ -151,7 +151,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "he",
-      "body_he": "השלימו.",
+      "body_he": "השלימו עם he.",
       "body_content": "He ___ coffee.",
       "choices": [
         {
@@ -180,7 +180,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "they",
-      "body_he": "בלי s.",
+      "body_he": "השלימו עם they.",
       "body_content": "They ___ early.",
       "choices": [
         {
@@ -217,7 +217,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "אחד",
-      "body_he": "שם אחד.",
+      "body_he": "יש ספר אחד. מה חסר?",
       "body_content": "There ___ a book.",
       "choices": [
         {
@@ -246,7 +246,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "כמה",
-      "body_he": "יותר מאחד.",
+      "body_he": "יש שני ספרים. מה חסר?",
       "body_content": "There ___ two books.",
       "choices": [
         {
@@ -304,7 +304,7 @@
       "correct": "a",
       "feedback_ok": "Do you.",
       "feedback_try": "במשפט יש you, לכן Do: Do you work here?",
-      "worked_method": "שאלה בהווה פותחים בDo עם I, you, we, they, ובDoes עם he, she, it. הפועל נשאר בלי s.",
+      "worked_method": "שאלה בהווה פותחים ב Do עם I, you, we, they, ובDoes עם he, she, it. הפועל נשאר בלי s.",
       "hint": "שאלה עם פועל רגיל ו you. איזו מילת עזר?"
     },
     {
@@ -333,7 +333,7 @@
       "correct": "b",
       "feedback_ok": "Does she.",
       "feedback_try": "במשפט יש she, לכן Does, והפועל live בלי s: Does she live here?",
-      "worked_method": "שאלה בהווה פותחים בDo עם I, you, we, they, ובDoes עם he, she, it. הפועל נשאר בלי s.",
+      "worked_method": "שאלה בהווה פותחים ב Do עם I, you, we, they, ובDoes עם he, she, it. הפועל נשאר בלי s.",
       "hint": "שאלה עם she ופועל רגיל. איזו מילת עזר?"
     },
     {
@@ -341,7 +341,7 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
       "body_content": "Review only.",
       "review_topic_ids": [
         "t_simple",
@@ -388,7 +388,7 @@
       "type": "learn",
       "kind": "understanding",
       "title": "יום רגיל",
-      "body_he": "always יושב לפני הפועל העיקרי.",
+      "body_he": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
       "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. Some days she talks to a client. She stops at four and walks to the park."
     },
     {
@@ -462,7 +462,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "she",
-      "body_he": "שלילה.",
+      "body_he": "השלימו שלילה עם she.",
       "body_content": "She ___ like coffee.",
       "choices": [
         {
@@ -483,7 +483,7 @@
       "correct": "a",
       "feedback_ok": "does not.",
       "feedback_try": "במשפט יש She, לכן does not: She does not like coffee.",
-      "worked_method": "שלילה בהווה: does not עם he, she, it, וdo not עם I, you, we, they. הפועל בלי s.",
+      "worked_method": "שלילה בהווה: does not עם he, she, it, ו do not עם I, you, we, they. הפועל בלי s.",
       "hint": "שלילה עם she ופועל רגיל. איזו מילת עזר?"
     },
     {
@@ -491,7 +491,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "they",
-      "body_he": "רבים.",
+      "body_he": "השלימו שלילה עם they.",
       "body_content": "They ___ live here.",
       "choices": [
         {
@@ -512,7 +512,7 @@
       "correct": "a",
       "feedback_ok": "do not.",
       "feedback_try": "במשפט יש They, לכן do not: They do not live here.",
-      "worked_method": "שלילה בהווה: do not עם I, you, we, they, וdoes not עם he, she, it.",
+      "worked_method": "שלילה בהווה: do not עם I, you, we, they, ו does not עם he, she, it.",
       "hint": "They הם רבים. איזו שלילה הולכת איתם?"
     },
     {
@@ -520,7 +520,7 @@
       "type": "learn",
       "kind": "understanding",
       "title": "תדירות",
-      "body_he": "always וnever יושבים לפני הפועל העיקרי.",
+      "body_he": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
       "body_content": "Maya always starts at eight."
     },
     {
@@ -557,7 +557,7 @@
       "type": "practice",
       "kind": "understanding",
       "title": "never",
-      "body_he": "שלילה רכה.",
+      "body_he": "איפה never במשפט?",
       "body_content": "He ___ late.",
       "choices": [
         {
@@ -577,7 +577,7 @@
       ],
       "correct": "a",
       "feedback_ok": "is never.",
-      "feedback_try": "עם he בא is, וnever בא אחריו: He is never late.",
+      "feedback_try": "עם he בא is, ו never בא אחריו: He is never late.",
       "worked_method": "עם am, is, are מילים כמו never באות אחריהם. למשל She is always happy.",
       "hint": "never בא אחרי is ולפני השאר."
     },
@@ -586,7 +586,7 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
       "body_content": "Review only.",
       "review_topic_ids": [
         "t_day",
