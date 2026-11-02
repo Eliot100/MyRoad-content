@@ -182,7 +182,7 @@ def placement() -> dict:
     spec = [
         (
             "t_letters", "אותיות וצלילים", "Letters and sounds", "א",
-            "אין כאן שיעור חדש. סמנו מה שכבר ברור. אם זה לא ברור, זו הרמה, לא כישלון.",
+            "אין כאן חומר חדש. סמנו מה שכבר ברור. אם זה לא ברור, זו הרמה, לא כישלון.",
             "A is a letter.",
             [
                 mc("p1", "האות הראשונה", "איזו אות פותחת את המילה?", "cat",
@@ -193,7 +193,7 @@ def placement() -> dict:
         ),
         (
             "t_be", "am, is, are", "am, is, are", "ב",
-            "עדיין לא לומדים. רק בודקים אם המשפט עומד בלי חור.",
+            "עדיין לא לומדים. רק בודקים אם חסרה מילה במשפט.",
             "I am here.",
             [
                 mc("p1", "I", "מה חסר אחרי I?", "I ___ a student.",
@@ -204,7 +204,7 @@ def placement() -> dict:
         ),
         (
             "t_present", "הווה", "Present", "ג",
-            "בדיקה של הרגל: אחרי he הפועל מקבל s, ושאלה מתחילה בdo או בdoes.",
+            "בדיקה של הרגל: אחרי he הפועל מקבל s, ושאלה מתחילה ב do או ב does.",
             "She works at home.",
             [
                 mc("p1", "he", "איזה משפט תקין?", "He ___ every day.",
@@ -262,7 +262,7 @@ def placement() -> dict:
             [
                 mc("p1", "משפט דעה", "איזה משפט עומד לבד?", "Choose the sentence that is complete.",
                    [("a", "I think the library should stay open."), ("b", "Because the library."), ("c", "Should stay.")],
-                   "a", "יש נושא ופועל ודעה.", "Because לבד הוא לא משפט."),
+                   "a", "יש מי שעושה, פועל ודעה.", "Because לבד הוא לא משפט."),
                 mc("chk", "אורך", "איזה משפט מתאים לפתיחת חיבור קצר?", "Choose a clear opening.",
                    [("a", "In my opinion, evening hours help students."), ("b", "Hours students help."), ("c", "Opinion because.")],
                    "a", "פתיחה ברורה.", "השני והשלישי לא משפטים.", ntype="check"),
@@ -293,7 +293,7 @@ def placement() -> dict:
             "plc_t_end_done",
             "celebrate",
             "סיום המבדק",
-            "המבדק נגמר. חזרו לשרשרת. הדרך עם הסימון התחילו כאן היא הפער, לא עונש.",
+            "המבדק נגמר. חזרו לשרשרת. הדרך שנפתחה לכם היא הפער, לא עונש.",
             "Start at the marked road.",
         )
     )
@@ -320,7 +320,7 @@ def _review_block(prefix: str, n: int, review_ids: list[str]) -> tuple[dict, lis
             f"{prefix}_rev{n}_learn",
             "learn",
             "חזרה מעורבת",
-            "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+            "שאלות על מה שכבר למדתם. אין מילה חדשה.",
             "Review only.",
             kind="review",
             review=review_ids,
@@ -384,8 +384,8 @@ BE = [
     mc("p2", "she", "מה נכון?", "She ___ at home.", [("a", "are"), ("b", "am"), ("c", "is")], "c", "She is.", "are בא אחרי you או they."),
 ]
 THERE = [
-    mc("p1", "אחד", "שם אחד.", "There ___ a book.", [("a", "is"), ("b", "are"), ("c", "am")], "a", "There is a book.", "a book הוא אחד, לכן is."),
-    mc("p2", "כמה", "יותר מאחד.", "There ___ two books.", [("a", "is"), ("b", "are"), ("c", "am")], "b", "There are two books.", "two צריך are."),
+    mc("p1", "אחד", "יש ספר אחד. מה חסר?", "There ___ a book.", [("a", "is"), ("b", "are"), ("c", "am")], "a", "There is a book.", "a book הוא אחד, לכן is."),
+    mc("p2", "כמה", "יש שני ספרים. מה חסר?", "There ___ two books.", [("a", "is"), ("b", "are"), ("c", "am")], "b", "There are two books.", "two צריך are."),
 ]
 QUEST = [
     mc("p1", "you", "שאלה עם you.", "___ you work here?", [("a", "Do"), ("b", "Does"), ("c", "Is")], "a", "Do you.", "Does לא הולך עם you."),
@@ -473,15 +473,15 @@ def all_paths() -> list[dict]:
         [
             ("t_letters", "אותיות", "Letters", "א", "אומרים את שם האות, ואז קוראים מילה קצרה.", "A, B, C.",
              [mc("p1", "פתיחה", "במה נפתחת המילה?", "sun", [("a", "s"), ("b", "n"), ("c", "u")], "a", "s.", "הסוף הוא n."),
-              mc("p2", "סוף", "במה נגמרת?", "map", [("a", "m"), ("b", "p"), ("c", "a")], "b", "p.", "ההתחלה היא m.")]),
+              mc("p2", "סוף", "באיזו אות נגמרת המילה?", "map", [("a", "m"), ("b", "p"), ("c", "a")], "b", "p.", "ההתחלה היא m.")]),
             ("t_be", "am is are", "am, is, are", "ב", "I הולך עם am. He, she, it עם is. You, we, they עם are.", "I am a student.",
              BE),
             ("t_not", "שלילה", "not", "ג", "שלילה: am not, is not, are not. לא מוסיפים do.", "She is not late.",
              [mc("p1", "שלילה", "מה תקין?", "They ___ ready.", [("a", "are not"), ("b", "is not"), ("c", "am not")], "a", "They are not.", "is לא הולך עם they."),
               mc("p2", "I", "שלילה של I.", "I ___ hungry.", [("a", "am not"), ("b", "is not"), ("c", "do not am")], "a", "I am not.", "אין do לפני am.")]),
-            ("t_you", "you וwe", "you and we", "ד", "you, we, they הולכים עם are. לא עם am.", "You are ready. We are here.",
+            ("t_you", "you ו we", "you and we", "ד", "you, we, they הולכים עם are. לא עם am.", "You are ready. We are here.",
              [mc("p1", "we", "מה נכון?", "We ___ students.", [("a", "are"), ("b", "is"), ("c", "am")], "a", "We are.", "am רק אחרי I."),
-              mc("p2", "they", "הם.", "They ___ at school.", [("a", "are"), ("b", "is"), ("c", "am")], "a", "They are.", "is לא הולך עם they.")]),
+              mc("p2", "they", "השלימו עם they.", "They ___ at school.", [("a", "are"), ("b", "is"), ("c", "am")], "a", "They are.", "is לא הולך עם they.")]),
             ("t_word", "מילה קצרה", "A short word", "ה", "קוראים את כל המילה, לא רק את האות הראשונה.", "sun, map, dog",
              [mc("p1", "קריאה", "איזו מילה זו?", "s-u-n", [("a", "sun"), ("b", "bus"), ("c", "son")], "a", "sun.", "bus מתחיל באות b."),
               mc("p2", "אות", "איזו אות חסרה?", "c_t: a small pet that says meow", [("a", "a"), ("b", "o"), ("c", "u")], "a", "cat.", "cot היא מיטה וcut הוא חיתוך. החיה היא cat.")]),
@@ -499,13 +499,13 @@ def all_paths() -> list[dict]:
         "ב", 120, place, "pr",
         [
             ("t_simple", "Present Simple", "Present Simple", "א", "הרגל. אחרי he, she, it הפועל מקבל s.", "She works at home.",
-             [mc("p1", "he", "השלימו.", "He ___ coffee.", [("a", "drink"), ("b", "drinks"), ("c", "drinking")], "b", "drinks.", "אחרי he יש s."),
-              mc("p2", "they", "בלי s.", "They ___ early.", [("a", "starts"), ("b", "start"), ("c", "starting")], "b", "start.", "they לא מקבל s.")]),
+             [mc("p1", "he", "השלימו עם he.", "He ___ coffee.", [("a", "drink"), ("b", "drinks"), ("c", "drinking")], "b", "drinks.", "אחרי he יש s."),
+              mc("p2", "they", "השלימו עם they.", "They ___ early.", [("a", "starts"), ("b", "start"), ("c", "starting")], "b", "start.", "they לא מקבל s.")]),
             ("t_there", "there is", "there is", "ב", "יש אחד: there is. יש כמה: there are.", "There is a book on the desk.",
              THERE),
             ("t_q", "שאלות", "Questions", "ג", "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.", "Do you live here?",
              QUEST),
-            ("t_day", "יום רגיל", "A normal day", "ד", "always יושב לפני הפועל העיקרי.", PASSAGE_SHORT,
+            ("t_day", "יום רגיל", "A normal day", "ד", "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.", PASSAGE_SHORT,
              [mc("idea", "רעיון", "מה מאיה עושה?", PASSAGE_SHORT,
                  [("a", "She works at home."), ("b", "She closes the library."), ("c", "She drives a bus.")],
                  "a", "היא עובדת מהבית.", "אין אוטובוס בקטע."),
@@ -513,12 +513,12 @@ def all_paths() -> list[dict]:
                  [("a", "at eight"), ("b", "at four"), ("c", "at noon")],
                  "a", "at eight.", "at four היא עוצרת.")]),
             ("t_neg", "שלילה בהווה", "don't and doesn't", "ה", "שלילה: do not או does not, והפועל בלי s.", "She does not work on Friday.",
-             [mc("p1", "she", "שלילה.", "She ___ like coffee.", [("a", "does not"), ("b", "do not"), ("c", "is not")], "a", "does not.", "עם she יש does."),
-              mc("p2", "they", "רבים.", "They ___ live here.", [("a", "do not"), ("b", "does not"), ("c", "are not work")], "a", "do not.", "they הולך עם do.")]),
-            ("t_freq", "תדירות", "always and never", "ו", "always וnever יושבים לפני הפועל העיקרי.", "Maya always starts at eight.",
+             [mc("p1", "she", "השלימו שלילה עם she.", "She ___ like coffee.", [("a", "does not"), ("b", "do not"), ("c", "is not")], "a", "does not.", "עם she יש does."),
+              mc("p2", "they", "השלימו שלילה עם they.", "They ___ live here.", [("a", "do not"), ("b", "does not"), ("c", "are not work")], "a", "do not.", "they הולך עם do.")]),
+            ("t_freq", "תדירות", "always and never", "ו", "always ו never באים לפני הפועל העיקרי, ואחרי is.", "Maya always starts at eight.",
              [mc("p1", "always", "איפה always?", "Choose the English order.",
                  [("a", "She always walks."), ("b", "She walks always."), ("c", "Always she walks the.")], "a", "לפני הפועל.", "always לא אחרי הפועל."),
-              mc("p2", "never", "שלילה רכה.", "He ___ late.", [("a", "is never"), ("b", "never is"), ("c", "does never")], "a", "is never.", "אחרי am/is/are התדירות באה מיד.")]),
+              mc("p2", "never", "איפה never במשפט?", "He ___ late.", [("a", "is never"), ("b", "never is"), ("c", "does never")], "a", "is never.", "אחרי am/is/are התדירות באה מיד.")]),
         ],
     ))
     docs.append(teach(

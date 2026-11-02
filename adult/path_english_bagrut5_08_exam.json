@@ -291,7 +291,7 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
       "body_content": "Review only.",
       "review_topic_ids": [
         "t_mix",
@@ -536,7 +536,7 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות ממה שכבר נגמר. אין מילה חדשה.",
+      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
       "body_content": "Review only.",
       "review_topic_ids": [
         "t_read2",
