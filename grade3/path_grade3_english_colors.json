@@ -84,7 +84,8 @@
       "body_he": "היום נלמד שמות של צבעים באנגלית. לחצו על 🔊 כדי לשמוע, ואחר כך בחרו.",
       "body_en": "Today we learn color words in English. Tap 🔊 to listen, then choose.",
       "body_content": "red · blue · green · yellow",
-      "speak_text": "Hello! Today we learn colors. Red, blue, green, yellow."
+      "speak_text": "Hello! Today we learn colors. Red, blue, green, yellow.",
+      "can_do": "להכיר שמות של צבעים באנגלית"
     },
     {
       "id": "practice_red",
@@ -121,7 +122,8 @@
       "feedback_ok": "נכון! Red = אדום.",
       "feedback_try": "נסו שוב. אדום באנגלית הוא red. blue הוא כחול וgreen הוא ירוק.",
       "worked_method": "נזכרים איך אומרים כל צבע באנגלית, ובוחרים את המילה המתאימה.",
-      "hint": "אדום הוא צבע של עגבנייה."
+      "hint": "אדום הוא צבע של עגבנייה.",
+      "can_do": "לזהות את red"
     },
     {
       "id": "practice_blue",
@@ -158,7 +160,8 @@
       "feedback_ok": "מעולה! Blue = כחול.",
       "feedback_try": "נסו שוב. השמיים ביום בהיר כחולים, וכחול באנגלית הוא blue.",
       "worked_method": "קודם חושבים איזה צבע זה בעברית, ואז בוחרים את המילה באנגלית.",
-      "hint": "תחשבו על השמיים ביום בהיר."
+      "hint": "תחשבו על השמיים ביום בהיר.",
+      "can_do": "לזהות את blue"
     },
     {
       "id": "speak_green",
@@ -169,7 +172,8 @@
       "body_en": "Listen to the English word below, then tap 🎤. No score — just practice!",
       "body_content": "Green",
       "speak_text": "Green. Green. Your turn — say green!",
-      "record": true
+      "record": true,
+      "can_do": "להגיד green בקול"
     },
     {
       "id": "practice_yellow",
@@ -206,7 +210,8 @@
       "feedback_ok": "מעולה! Yellow = צהוב.",
       "feedback_try": "נסו שוב. השמש צהובה, וצהוב באנגלית הוא yellow.",
       "worked_method": "קודם חושבים איזה צבע זה בעברית, ואז בוחרים את המילה באנגלית.",
-      "hint": "השמש צהובה. איזו מילה אומרת צהוב?"
+      "hint": "השמש צהובה. איזו מילה אומרת צהוב?",
+      "can_do": "לזהות את yellow"
     },
     {
       "id": "learn_more",
@@ -216,7 +221,8 @@
       "body_he": "עוד שני צבעים באנגלית: כמו תפוז, וכמו ענבים.",
       "body_en": "Two more English colors: like an orange fruit, and like grapes.",
       "body_content": "orange · purple",
-      "speak_text": "Orange. Purple. Orange is like a fruit. Purple is like grapes."
+      "speak_text": "Orange. Purple. Orange is like a fruit. Purple is like grapes.",
+      "can_do": "להכיר את orange ואת purple"
     },
     {
       "id": "practice_orange",
@@ -253,7 +259,8 @@
       "feedback_ok": "נכון! Orange = כתום.",
       "feedback_try": "נסו שוב. כתום באנגלית הוא orange, כמו התפוז. purple הוא סגול.",
       "worked_method": "נזכרים איך אומרים כל צבע באנגלית, ובוחרים את המילה המתאימה.",
-      "hint": "כתום הוא גם שם של פרי."
+      "hint": "כתום הוא גם שם של פרי.",
+      "can_do": "לזהות את orange"
     },
     {
       "id": "check_purple",
@@ -287,7 +294,8 @@
       "feedback_ok": "מעולה! Purple = סגול.",
       "feedback_try": "נסו שוב. purple הוא סגול.",
       "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
-      "hint": "זה צבע של ענבים כהים."
+      "hint": "זה צבע של ענבים כהים.",
+      "can_do": "להבין את purple"
     },
     {
       "id": "check_mix",
@@ -321,7 +329,8 @@
       "feedback_ok": "מעולה! Green = ירוק.",
       "feedback_try": "נסו שוב. green הוא ירוק, הצבע של הדשא.",
       "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
-      "hint": "זה צבע של דשא."
+      "hint": "זה צבע של דשא.",
+      "can_do": "להבין את green"
     },
     {
       "id": "celebrate",
@@ -331,7 +340,8 @@
       "body_he": "כל הכבוד! אתם יודעים שמות של צבעים באנגלית.",
       "body_en": "Great job! You know color words in English.",
       "body_content": "red, blue, green, yellow, orange, purple",
-      "speak_text": "Great job with colors! You are a color star!"
+      "speak_text": "Great job with colors! You are a color star!",
+      "can_do": "לקרוא שמות של שבעה צבעים באנגלית"
     }
   ]
 }

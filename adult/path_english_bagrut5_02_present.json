@@ -144,7 +144,8 @@
       "kind": "understanding",
       "title": "Present Simple",
       "body_he": "הרגל. אחרי he, she, it הפועל מקבל s.",
-      "body_content": "She works at home."
+      "body_content": "She works at home.",
+      "can_do": "לתאר הרגל בהווה"
     },
     {
       "id": "pr_t_simple_p1",
@@ -172,6 +173,7 @@
       "correct": "b",
       "feedback_ok": "drinks.",
       "feedback_try": "במשפט יש He, לכן מוסיפים s: He drinks coffee.",
+      "can_do": "להוסיף s לפועל עם he",
       "worked_method": "בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. אחרי I, you, we, they לא מוסיפים. למשל she reads, they read.",
       "hint": "He הוא גוף שלישי יחיד. מה מוסיפים לפועל בהווה?"
     },
@@ -201,6 +203,7 @@
       "correct": "b",
       "feedback_ok": "start.",
       "feedback_try": "במשפט יש They, לכן בלי s: They start early.",
+      "can_do": "להשאיר פועל בלי s עם they",
       "worked_method": "בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. אחרי I, you, we, they לא מוסיפים. למשל she reads, they read.",
       "hint": "They הם רבים. האם מוסיפים s?"
     },
@@ -210,7 +213,8 @@
       "kind": "understanding",
       "title": "there is",
       "body_he": "יש אחד: there is. יש כמה: there are.",
-      "body_content": "There is a book on the desk."
+      "body_content": "There is a book on the desk.",
+      "can_do": "לתאר מה יש עם there is ו there are"
     },
     {
       "id": "pr_t_there_p1",
@@ -238,6 +242,7 @@
       "correct": "a",
       "feedback_ok": "There is a book.",
       "feedback_try": "a book הוא ספר אחד, לכן There is a book.",
+      "can_do": "להגיד There is על דבר אחד",
       "worked_method": "There is לדבר אחד, There are ליותר מאחד. למשל There is a cup, There are two cups.",
       "hint": "יש ספר אחד. איזו צורה הולכת עם דבר אחד?"
     },
@@ -267,6 +272,7 @@
       "correct": "b",
       "feedback_ok": "There are two books.",
       "feedback_try": "two books הם שני ספרים, לכן There are two books.",
+      "can_do": "להגיד There are על כמה דברים",
       "worked_method": "There is לדבר אחד, There are ליותר מאחד. למשל There is a cup, There are two cups.",
       "hint": "יש שני ספרים. איזו צורה הולכת עם רבים?"
     },
@@ -276,7 +282,8 @@
       "kind": "understanding",
       "title": "שאלות",
       "body_he": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
-      "body_content": "Do you live here?"
+      "body_content": "Do you live here?",
+      "can_do": "לשאול שאלה בהווה עם Do או Does"
     },
     {
       "id": "pr_t_q_p1",
@@ -304,6 +311,7 @@
       "correct": "a",
       "feedback_ok": "Do you.",
       "feedback_try": "במשפט יש you, לכן Do: Do you work here?",
+      "can_do": "לשאול שאלה עם Do you",
       "worked_method": "שאלה בהווה פותחים ב Do עם I, you, we, they, ובDoes עם he, she, it. הפועל נשאר בלי s.",
       "hint": "שאלה עם פועל רגיל ו you. איזו מילת עזר?"
     },
@@ -333,6 +341,7 @@
       "correct": "b",
       "feedback_ok": "Does she.",
       "feedback_try": "במשפט יש she, לכן Does, והפועל live בלי s: Does she live here?",
+      "can_do": "לשאול שאלה עם Does she",
       "worked_method": "שאלה בהווה פותחים ב Do עם I, you, we, they, ובDoes עם he, she, it. הפועל נשאר בלי s.",
       "hint": "שאלה עם she ופועל רגיל. איזו מילת עזר?"
     },
@@ -347,7 +356,8 @@
         "t_simple",
         "t_there",
         "t_q"
-      ]
+      ],
+      "can_do": "לחזור על הווה, there is ושאלות"
     },
     {
       "id": "pr_rev1_q",
@@ -380,6 +390,7 @@
       "correct": "b",
       "feedback_ok": "works.",
       "feedback_try": "במשפט יש She, לכן מוסיפים s: She works at home.",
+      "can_do": "להוסיף s לפועל עם she בלי רמז",
       "worked_method": "בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. אחרי I, you, we, they לא מוסיפים. למשל she reads, they read.",
       "hint": "She היא גוף שלישי יחיד. מה קורה לפועל?"
     },
@@ -389,7 +400,8 @@
       "kind": "understanding",
       "title": "יום רגיל",
       "body_he": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
-      "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. Some days she talks to a client. She stops at four and walks to the park."
+      "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. Some days she talks to a client. She stops at four and walks to the park.",
+      "can_do": "לקרוא קטע קצר על יום עבודה"
     },
     {
       "id": "pr_t_day_idea",
@@ -417,6 +429,7 @@
       "correct": "a",
       "feedback_ok": "היא עובדת מהבית.",
       "feedback_try": "המשפט הראשון: Maya works at home. כל השאר מתאר את יום העבודה שלה בבית.",
+      "can_do": "להבין את הרעיון של קטע קצר",
       "worked_method": "קוראים את המשפט הראשון. לרוב הוא אומר על מה כל הקטע.",
       "hint": "קראו את המשפט הראשון בקטע."
     },
@@ -446,6 +459,7 @@
       "correct": "a",
       "feedback_ok": "at eight.",
       "feedback_try": "כתוב She starts at eight, כלומר בשמונה. at four היא השעה שבה היא עוצרת.",
+      "can_do": "למצוא שעה בתוך קטע",
       "worked_method": "מחפשים בקטע את המילה starts ואת השעה שאחריה.",
       "hint": "חפשו בקטע את המילה starts."
     },
@@ -455,7 +469,8 @@
       "kind": "understanding",
       "title": "שלילה בהווה",
       "body_he": "שלילה: do not או does not, והפועל בלי s.",
-      "body_content": "She does not work on Friday."
+      "body_content": "She does not work on Friday.",
+      "can_do": "לשלול בהווה עם do not ו does not"
     },
     {
       "id": "pr_t_neg_p1",
@@ -483,6 +498,7 @@
       "correct": "a",
       "feedback_ok": "does not.",
       "feedback_try": "במשפט יש She, לכן does not: She does not like coffee.",
+      "can_do": "לשלול עם she does not",
       "worked_method": "שלילה בהווה: does not עם he, she, it, ו do not עם I, you, we, they. הפועל בלי s.",
       "hint": "שלילה עם she ופועל רגיל. איזו מילת עזר?"
     },
@@ -512,6 +528,7 @@
       "correct": "a",
       "feedback_ok": "do not.",
       "feedback_try": "במשפט יש They, לכן do not: They do not live here.",
+      "can_do": "לשלול עם they do not",
       "worked_method": "שלילה בהווה: do not עם I, you, we, they, ו does not עם he, she, it.",
       "hint": "They הם רבים. איזו שלילה הולכת איתם?"
     },
@@ -521,7 +538,8 @@
       "kind": "understanding",
       "title": "תדירות",
       "body_he": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
-      "body_content": "Maya always starts at eight."
+      "body_content": "Maya always starts at eight.",
+      "can_do": "למקם always ו never במשפט"
     },
     {
       "id": "pr_t_freq_p1",
@@ -549,6 +567,7 @@
       "correct": "a",
       "feedback_ok": "לפני הפועל.",
       "feedback_try": "walks הוא פועל רגיל, לכן always בא לפניו: She always walks.",
+      "can_do": "לשים always לפני הפועל",
       "worked_method": "מילים כמו always, never באות לפני פועל רגיל. למשל I always read.",
       "hint": "מילים כמו always באות לפני הפועל הרגיל."
     },
@@ -578,6 +597,7 @@
       "correct": "a",
       "feedback_ok": "is never.",
       "feedback_try": "עם he בא is, ו never בא אחריו: He is never late.",
+      "can_do": "לשים never אחרי is",
       "worked_method": "עם am, is, are מילים כמו never באות אחריהם. למשל She is always happy.",
       "hint": "never בא אחרי is ולפני השאר."
     },
@@ -592,7 +612,8 @@
         "t_day",
         "t_neg",
         "t_freq"
-      ]
+      ],
+      "can_do": "לחזור על שלילה ותדירות"
     },
     {
       "id": "pr_rev2_q",
@@ -625,6 +646,7 @@
       "correct": "a",
       "feedback_ok": "There are.",
       "feedback_try": "two books הם יותר מאחד, לכן There are two books.",
+      "can_do": "לבחור there are לרבים בלי רמז",
       "worked_method": "There is לדבר אחד, There are ליותר מאחד. למשל There is a cup, There are two cups.",
       "hint": "כמה ספרים יש? אחד או יותר?"
     },
@@ -654,6 +676,7 @@
       "correct": "a",
       "feedback_ok": "Is there a book.",
       "feedback_try": "a book הוא ספר אחד, לכן Is there a book on the desk?",
+      "can_do": "לשאול Is there על דבר אחד",
       "worked_method": "בשאלה עם there מחליפים סדר: Is there לדבר אחד, Are there ליותר מאחד.",
       "hint": "זו שאלה על ספר אחד עם there."
     },
@@ -663,7 +686,8 @@
       "kind": "understanding",
       "title": "סיום דרך",
       "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
-      "body_content": "This road is done."
+      "body_content": "This road is done.",
+      "can_do": "לתאר יום רגיל בהווה"
     }
   ],
   "placement_route": {

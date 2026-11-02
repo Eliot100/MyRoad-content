@@ -85,7 +85,8 @@
       "body_en": "We will learn to say hello, goodbye, and how we feel — using English words.",
       "body_content": "Hello · Goodbye · How are you?",
       "speak_text": "Hello! How are you?",
-      "speak_ui": "נלמד שלום ופרידה באנגלית."
+      "speak_ui": "נלמד שלום ופרידה באנגלית.",
+      "can_do": "להגיד שלום ולהיפרד באנגלית"
     },
     {
       "id": "practice_hello",
@@ -119,7 +120,8 @@
       "feedback_ok": "יפה! Hello = שלום.",
       "feedback_try": "נסו שוב. שלום כשנפגשים הוא Hello. Goodbye הוא להתראות.",
       "worked_method": "כשנפגשים אומרים Hello, וכשנפרדים אומרים Goodbye.",
-      "hint": "זו המילה שאומרים כשנפגשים."
+      "hint": "זו המילה שאומרים כשנפגשים.",
+      "can_do": "להגיד Hello"
     },
     {
       "id": "practice_goodbye",
@@ -153,7 +155,8 @@
       "feedback_ok": "מעולה! Goodbye = להתראות.",
       "feedback_try": "נסו שוב. כשנפרדים אומרים Goodbye, להתראות.",
       "worked_method": "כשנפגשים אומרים Hello, וכשנפרדים אומרים Goodbye.",
-      "hint": "זו המילה שאומרים כשהולכים."
+      "hint": "זו המילה שאומרים כשהולכים.",
+      "can_do": "להגיד Goodbye"
     },
     {
       "id": "speak_thanks",
@@ -164,7 +167,8 @@
       "body_en": "The English phrase for thank you is below. Listen and record.",
       "body_content": "Thank you",
       "speak_text": "Thank you. Thank you!",
-      "record": true
+      "record": true,
+      "can_do": "להגיד Thank you בקול"
     },
     {
       "id": "practice_please",
@@ -198,7 +202,8 @@
       "feedback_ok": "יפה! Please = בבקשה.",
       "feedback_try": "נסו שוב. Please היא בבקשה. Happy הוא שמח וSad הוא עצוב.",
       "worked_method": "כשמבקשים משהו יפה מוסיפים Please, בבקשה.",
-      "hint": "זו המילה שמוסיפים לבקשה."
+      "hint": "זו המילה שמוסיפים לבקשה.",
+      "can_do": "לבקש בנימוס עם Please"
     },
     {
       "id": "learn_feelings",
@@ -208,7 +213,8 @@
       "body_he": "שלוש מילות רגש באנגלית מופיעות למטה. בואו נתרגל!",
       "body_en": "Three feeling words in English are below. Let's practice!",
       "body_content": "Happy · Sad · Tired",
-      "speak_text": "Happy. Sad. Tired. How are you today?"
+      "speak_text": "Happy. Sad. Tired. How are you today?",
+      "can_do": "להכיר מילים של רגש באנגלית"
     },
     {
       "id": "practice_happy",
@@ -242,7 +248,8 @@
       "feedback_ok": "נכון, Happy = שמח!",
       "feedback_try": "נסו שוב. Happy הוא שמח, כמו כשמחייכים.",
       "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
-      "hint": "תחשבו על פרצוף מחייך."
+      "hint": "תחשבו על פרצוף מחייך.",
+      "can_do": "להבין את Happy"
     },
     {
       "id": "check_sad",
@@ -276,7 +283,8 @@
       "feedback_ok": "נכון, Sad = עצוב.",
       "feedback_try": "נסו שוב. Sad הוא עצוב, כמו כשבוכים.",
       "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
-      "hint": "זו ההרגשה כשבוכים."
+      "hint": "זו ההרגשה כשבוכים.",
+      "can_do": "להבין את Sad"
     },
     {
       "id": "check_tired",
@@ -310,7 +318,8 @@
       "feedback_ok": "נכון, Tired = עייף.",
       "feedback_try": "נסו שוב. Tired הוא עייף, כשרוצים לישון.",
       "worked_method": "קוראים את המילה באנגלית ונזכרים מה היא אומרת בעברית.",
-      "hint": "זו ההרגשה כשרוצים לישון."
+      "hint": "זו ההרגשה כשרוצים לישון.",
+      "can_do": "להבין את Tired"
     },
     {
       "id": "celebrate",
@@ -320,7 +329,8 @@
       "body_he": "כל הכבוד! למדתם מילות ברכה ורגש באנגלית.",
       "body_en": "Great job! You learned greeting and feeling words in English.",
       "body_content": "Hello, goodbye, thank you, please, happy, sad, tired",
-      "speak_text": "Nice to meet you! Bye bye!"
+      "speak_text": "Nice to meet you! Bye bye!",
+      "can_do": "לברך ולתאר הרגשה באנגלית"
     }
   ]
 }

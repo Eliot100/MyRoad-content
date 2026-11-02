@@ -150,7 +150,8 @@
       "kind": "understanding",
       "title": "a וthe",
       "body_he": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
-      "body_content": "I saw a bird. The bird was blue. Birds need water."
+      "body_content": "I saw a bird. The bird was blue. Birds need water.",
+      "can_do": "לבחור בין a, the ובלי מילה"
     },
     {
       "id": "ac_t_art_p1",
@@ -178,6 +179,7 @@
       "correct": "a",
       "feedback_ok": "a bird.",
       "feedback_try": "זו הפעם הראשונה שמזכירים את הציפור, וbird נפתח בצליל b. לכן a: I saw a bird.",
+      "can_do": "להשתמש ב a בפעם הראשונה",
       "worked_method": "a או an כשמזכירים משהו בפעם הראשונה. the כשהוא כבר הוזכר או ששני הצדדים יודעים על מה מדובר.",
       "hint": "ציפור שמוזכרת בפעם הראשונה. ו bird פותחת בעיצור."
     },
@@ -207,6 +209,7 @@
       "correct": "b",
       "feedback_ok": "The bird.",
       "feedback_try": "הציפור כבר הוזכרה, לכן The: The bird was blue.",
+      "can_do": "להשתמש ב the לדבר שכבר הוזכר",
       "worked_method": "a או an כשמזכירים משהו בפעם הראשונה. the כשהוא כבר הוזכר או ששני הצדדים יודעים על מה מדובר.",
       "hint": "הציפור כבר הוזכרה. איזו מילה באה לפני דבר מוכר?"
     },
@@ -236,6 +239,7 @@
       "correct": "a",
       "feedback_ok": "על כלבים בכלל לא שמים מילת יידוע.",
       "feedback_try": "המשפט על כל הכלבים, לכן בלי the: Dogs need water. a לא בא לפני רבים.",
+      "can_do": "לדבר על משהו כללי ברבים בלי the",
       "worked_method": "על כל הסוג ברבים כותבים את השם בלי מילה לפניו. למשל Cats like milk.",
       "hint": "כשמדברים על כל הכלבים בכלל, צריך מילה לפני dogs?"
     },
@@ -245,7 +249,8 @@
       "kind": "understanding",
       "title": "זמן פתוח וזמן סגור",
       "body_he": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
-      "body_content": "I have seen this film. I saw it yesterday."
+      "body_content": "I have seen this film. I saw it yesterday.",
+      "can_do": "להבחין בין זמן פתוח לזמן סגור"
     },
     {
       "id": "ac_t_perf_p1",
@@ -273,6 +278,7 @@
       "correct": "a",
       "feedback_ok": "have seen.",
       "feedback_try": "במשפט יש I, לכן have, ואחריו seen: I have seen this film.",
+      "can_do": "לספר על ניסיון עם have והצורה השלישית",
       "worked_method": "have או has ואחריו צורת עבר שלישית (seen, eaten) מתארים משהו עד עכשיו. have עם I, you, we, they, וhas עם he, she, it.",
       "hint": "ניסיון עד עכשיו: have או has ואחריהם הצורה השלישית."
     },
@@ -302,6 +308,7 @@
       "correct": "a",
       "feedback_ok": "went.",
       "feedback_try": "in 2019 היא שנה שנגמרה, לכן עבר רגיל: We went to Eilat in 2019.",
+      "can_do": "לבחור עבר רגיל לשנה שנגמרה",
       "worked_method": "זמן שנגמר, כמו in 2019 או last year, הולך עם עבר רגיל, בלי have.",
       "hint": "in 2019 הוא זמן שנגמר. איזה זמן מתאים?"
     },
@@ -331,6 +338,7 @@
       "correct": "a",
       "feedback_ok": "Have you ever eaten.",
       "feedback_try": "השאלה עם ever היא עד עכשיו, ועם you בא Have: Have you ever eaten sushi?",
+      "can_do": "לשאול Have you ever",
       "worked_method": "have או has ואחריו צורת עבר שלישית (seen, eaten) מתארים משהו עד עכשיו. have עם I, you, we, they, וhas עם he, she, it.",
       "hint": "eaten היא הצורה השלישית. מה בא לפניה עם you?"
     },
@@ -340,7 +348,8 @@
       "kind": "understanding",
       "title": "תנאי ראשון",
       "body_he": "אחרי if בא הווה. בחלק של התוצאה בא will.",
-      "body_content": "If it rains, we will stay home."
+      "body_content": "If it rains, we will stay home.",
+      "can_do": "לבנות תנאי ראשון עם if ו will"
     },
     {
       "id": "ac_t_if_p1",
@@ -368,6 +377,7 @@
       "correct": "a",
       "feedback_ok": "will stay.",
       "feedback_try": "החלק עם if כבר בהווה (rains), לכן בחלק השני will: we will stay home.",
+      "can_do": "לשים will בחלק של התוצאה",
       "worked_method": "בתנאי ראשון: אחרי if הווה, ובחלק השני will. למשל If it is hot, we will swim.",
       "hint": "בתנאי ראשון, אחרי הפסיק בא will."
     },
@@ -397,6 +407,7 @@
       "correct": "a",
       "feedback_ok": "If she finishes.",
       "feedback_try": "אחרי if כותבים הווה, ועם she מוסיפים es: If she finishes early, she will call.",
+      "can_do": "להשאיר הווה אחרי if",
       "worked_method": "בתנאי ראשון: אחרי if הווה, ובחלק השני will. למשל If it is hot, we will swim.",
       "hint": "אחרי if לא בא will. איזו צורה של הווה עם she?"
     },
@@ -426,6 +437,7 @@
       "correct": "a",
       "feedback_ok": "will בחלק של התוצאה.",
       "feedback_try": "if it rains בהווה, וwe will stay home עם will. לכן We will stay home if it rains.",
+      "can_do": "לבנות תנאי ראשון בכל סדר",
       "worked_method": "בתנאי ראשון: אחרי if הווה, ובחלק השני will. למשל If it is hot, we will swim. אפשר להתחיל בכל אחד מהחלקים.",
       "hint": "will בא בחלק של התוצאה, לא בחלק של if."
     },
@@ -440,7 +452,8 @@
         "t_art",
         "t_perf",
         "t_if"
-      ]
+      ],
+      "can_do": "לחזור על מילות יידוע, זמן פתוח ותנאי"
     },
     {
       "id": "ac_rev1_q",
@@ -473,6 +486,7 @@
       "correct": "a",
       "feedback_ok": "an umbrella, ואז The umbrella.",
       "feedback_try": "בפעם הראשונה umbrella, שנפתח בצליל תנועה, לכן an. בפעם השנייה כבר הוזכר, לכן The.",
+      "can_do": "לבחור an ו The ברצף",
       "worked_method": "a או an כשמזכירים משהו בפעם הראשונה. the כשהוא כבר הוזכר או ששני הצדדים יודעים על מה מדובר. an לפני צליל תנועה.",
       "hint": "פעם ראשונה ופעם שנייה. ו umbrella פותחת בצליל תנועה."
     },
@@ -482,7 +496,8 @@
       "kind": "understanding",
       "title": "an",
       "body_he": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
-      "body_content": "I ate an apple."
+      "body_content": "I ate an apple.",
+      "can_do": "לבחור a או an לפי הצליל"
     },
     {
       "id": "ac_t_an_p1",
@@ -510,6 +525,7 @@
       "correct": "a",
       "feedback_ok": "an apple.",
       "feedback_try": "apple נפתח בצליל a, תנועה. לכן an apple.",
+      "can_do": "להגיד an לפני צליל תנועה",
       "worked_method": "בוחרים לפי הצליל הראשון, לא לפי האות. an לפני צליל תנועה (a, e, i, o, u), וa לפני צליל אחר.",
       "hint": "apple פותחת בצליל תנועה."
     },
@@ -539,6 +555,7 @@
       "correct": "a",
       "feedback_ok": "a university.",
       "feedback_try": "university נשמע בהתחלה כמו yes, צליל y. לכן a university.",
+      "can_do": "להגיד a university לפי הצליל",
       "worked_method": "בוחרים לפי הצליל הראשון, לא לפי האות. an לפני צליל תנועה (a, e, i, o, u), וa לפני צליל אחר.",
       "hint": "אמרו university בקול. באיזה צליל היא נפתחת?"
     },
@@ -568,6 +585,7 @@
       "correct": "a",
       "feedback_ok": "an hour.",
       "feedback_try": "בhour הh שקטה, והצליל הראשון הוא תנועה. לכן an hour.",
+      "can_do": "להגיד an hour כש h שקטה",
       "worked_method": "בוחרים לפי הצליל הראשון, לא לפי האות. an לפני צליל תנועה (a, e, i, o, u), וa לפני צליל אחר.",
       "hint": "ב hour האות h לא נשמעת. באיזה צליל המילה נפתחת?"
     },
@@ -577,7 +595,8 @@
       "kind": "understanding",
       "title": "סדר מילים",
       "body_he": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
-      "body_content": "I never drink cold coffee."
+      "body_content": "I never drink cold coffee.",
+      "can_do": "לסדר מילים במשפט באנגלית"
     },
     {
       "id": "ac_t_order_p1",
@@ -605,6 +624,7 @@
       "correct": "a",
       "feedback_ok": "התואר לפני השם.",
       "feedback_try": "התואר red בא לפני השם car: She has a red car.",
+      "can_do": "לשים תואר לפני שם העצם",
       "worked_method": "הסדר באנגלית: מי, פועל, מושא, ואחר כך מקום וזמן. תואר בא לפני השם, וnever או always לפני הפועל.",
       "hint": "באנגלית התואר בא לפני שם העצם."
     },
@@ -634,6 +654,7 @@
       "correct": "a",
       "feedback_ok": "never לפני הפועל.",
       "feedback_try": "never בא לפני הפועל drink: I never drink coffee.",
+      "can_do": "לשים never לפני הפועל",
       "worked_method": "הסדר באנגלית: מי, פועל, מושא, ואחר כך מקום וזמן. תואר בא לפני השם, וnever או always לפני הפועל.",
       "hint": "never בא לפני הפועל הרגיל."
     },
@@ -663,6 +684,7 @@
       "correct": "a",
       "feedback_ok": "פועל, מושא, ואז זמן.",
       "feedback_try": "מי Dana, פועל reads, מושא the paper, ובסוף זמן every morning.",
+      "can_do": "לשים את המושא מיד אחרי הפועל",
       "worked_method": "הסדר באנגלית: מי, פועל, מושא, ואחר כך מקום וזמן. תואר בא לפני השם, וnever או always לפני הפועל.",
       "hint": "מה שהפועל פועל עליו בא מיד אחריו, והזמן בסוף."
     },
@@ -672,7 +694,8 @@
       "kind": "understanding",
       "title": "for וsince",
       "body_he": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
-      "body_content": "I have lived here for two years."
+      "body_content": "I have lived here for two years.",
+      "can_do": "להבחין בין for ל since"
     },
     {
       "id": "ac_t_for_p1",
@@ -700,6 +723,7 @@
       "correct": "a",
       "feedback_ok": "for a year.",
       "feedback_try": "a year הוא משך זמן, לכן for: I have known her for a year.",
+      "can_do": "להשתמש ב for עם משך זמן",
       "worked_method": "for עם משך זמן (a year, two weeks). since עם נקודת התחלה (March, 2020). ago עם עבר רגיל ומשמעו לפני.",
       "hint": "a year הוא משך זמן."
     },
@@ -729,6 +753,7 @@
       "correct": "a",
       "feedback_ok": "since March.",
       "feedback_try": "March היא נקודת התחלה, לכן since: He has worked here since March.",
+      "can_do": "להשתמש ב since עם נקודת התחלה",
       "worked_method": "for עם משך זמן (a year, two weeks). since עם נקודת התחלה (March, 2020). ago עם עבר רגיל ומשמעו לפני.",
       "hint": "March היא נקודת התחלה."
     },
@@ -758,6 +783,7 @@
       "correct": "a",
       "feedback_ok": "שואלים עם have, כי הזמן עוד פתוח.",
       "feedback_try": "lived היא צורת עבר שלישית, והשאלה היא עד עכשיו. עם you בא have: How long have you lived in Haifa?",
+      "can_do": "לשאול How long have you",
       "worked_method": "How long עם עד עכשיו שואלים עם have או has ואחריו צורת עבר שלישית.",
       "hint": "lived כאן היא הצורה השלישית עד עכשיו."
     },
@@ -772,7 +798,8 @@
         "t_an",
         "t_order",
         "t_for"
-      ]
+      ],
+      "can_do": "לחזור על a או an, סדר מילים ו for או since"
     },
     {
       "id": "ac_rev2_q",
@@ -805,6 +832,7 @@
       "correct": "a",
       "feedback_ok": "since לנקודת התחלה, ago לאחור.",
       "feedback_try": "2020 היא נקודת התחלה, לכן since. two years ago פירושו לפני שנתיים, לכן ago.",
+      "can_do": "לבחור since ו ago באותו משפט",
       "worked_method": "for עם משך זמן (a year, two weeks). since עם נקודת התחלה (March, 2020). ago עם עבר רגיל ומשמעו לפני.",
       "hint": "2020 היא נקודת התחלה. two years הוא משך בעבר."
     },
@@ -834,6 +862,7 @@
       "correct": "a",
       "feedback_ok": "זמן סגור, עבר רגיל, וthe לספרייה שכבר ידועה.",
       "feedback_try": "Last winter זמן שנגמר, לכן kept. the library כי זו הספרייה שכבר הוזכרה. המשפט הנכון הוא הראשון.",
+      "can_do": "לתקן משפט עם זמן ומילת יידוע",
       "worked_method": "עם last winter, זמן שנגמר, משתמשים בעבר רגיל בלי have. last בא בלי the לפניו.",
       "hint": "last winter הוא זמן שנגמר. בדקו גם את the לפני library."
     },
@@ -843,7 +872,8 @@
       "kind": "understanding",
       "title": "סיום דרך",
       "body_he": "הדרך הזו נגמרה. חזרו לשרשרת. אם זו הייתה דרך הפער, הדרך הבאה נפתחת.",
-      "body_content": "This road is done."
+      "body_content": "This road is done.",
+      "can_do": "לכתוב משפטים מדויקים בזמן ובמילות יידוע"
     }
   ],
   "placement_route": {

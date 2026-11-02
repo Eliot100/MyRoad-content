@@ -38,9 +38,18 @@ def apply_doc(d: dict, name: str | None = None) -> list[str]:
     body_he: the question only. feedback_try: the worked answer.
     hint: a nudge before answering. choices[].feedback: why that wrong choice is wrong."""
     name = name or d["id"].removeprefix("path_")
-    table = load(name)
+    table = load(name) or {}
     hints = load(name, "hints", "H") or {}
+    can = load(name, "can_do", "C")
     missing = []
+    if can is not None:  # scripts/can_do/<name>.py: the 'now you can' line, on every step
+        for i, n in enumerate(d["nodes"], 1):
+            key, base = n.get("id") or f"@{i}", n.get("variant_of") or ""
+            phrase = can.get(key) or can.get(base)
+            if phrase:
+                n["can_do"] = phrase
+            elif not base:
+                missing.append(f"{key} (can_do)")
     step = 0
     for n in d["nodes"]:
         if n["type"] not in ("practice", "check"):
@@ -53,7 +62,7 @@ def apply_doc(d: dict, name: str | None = None) -> list[str]:
         base = n.get("variant_of") or ""
         row = table.get(nid) or table.get(base)
         if not row:
-            if not base:
+            if table and not base:
                 missing.append(nid)
             continue
         method, why = row
@@ -85,7 +94,7 @@ def main() -> int:
         d = json.loads(fp.read_text(encoding="utf-8"))
         for n in d["nodes"]:
             n.pop("media_hint", None)  # not shown by the app
-        missing = apply_doc(d, fp.stem.removeprefix("path_")) if load(fp.stem.removeprefix("path_")) else []
+        missing = apply_doc(d, fp.stem.removeprefix("path_"))
         fp.write_text(json.dumps(d, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(arg, "missing:", missing)
         bad += bool(missing)
