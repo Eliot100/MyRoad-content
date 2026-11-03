@@ -31,6 +31,7 @@
       "emoji": "א",
       "node_ids": [
         "ex_t_mix_learn",
+        "ex_t_mix_ex1",
         "ex_t_mix_idea",
         "ex_t_mix_vocab"
       ]
@@ -145,6 +146,15 @@
       "body_he": "אותן שאלות כמו בשאלונים, על קטע שכבר מהסוג המוכר.",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
       "can_do": "לענות על שאלות קריאה כמו בשאלון"
+    },
+    {
+      "id": "ex_t_mix_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: פרט על נירה",
+      "body_he": "למה נירה סירבה לקופסאות? היא אמרה שהלקוחות שלה יודעים לבחור אפרסק. זו עובדה כתובה בקטע.",
+      "body_content": "The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach.",
+      "can_do": "למצוא סיבה כתובה בקטע"
     },
     {
       "id": "ex_t_mix_idea",

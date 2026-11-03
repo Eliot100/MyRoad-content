@@ -31,6 +31,9 @@
       "emoji": "א",
       "node_ids": [
         "ac_t_art_learn",
+        "ac_t_art_ex1",
+        "ac_t_art_ex2",
+        "ac_t_art_ex3",
         "ac_t_art_p1",
         "ac_t_art_p2",
         "ac_t_art_p3"
@@ -45,6 +48,9 @@
       "emoji": "ב",
       "node_ids": [
         "ac_t_perf_learn",
+        "ac_t_perf_ex1",
+        "ac_t_perf_ex2",
+        "ac_t_perf_ex3",
         "ac_t_perf_p1",
         "ac_t_perf_p2",
         "ac_t_perf_p3"
@@ -59,6 +65,9 @@
       "emoji": "ג",
       "node_ids": [
         "ac_t_if_learn",
+        "ac_t_if_ex1",
+        "ac_t_if_ex2",
+        "ac_t_if_ex3",
         "ac_t_if_p1",
         "ac_t_if_p2",
         "ac_t_if_p3"
@@ -85,6 +94,9 @@
       "emoji": "ד",
       "node_ids": [
         "ac_t_an_learn",
+        "ac_t_an_ex1",
+        "ac_t_an_ex2",
+        "ac_t_an_ex3",
         "ac_t_an_p1",
         "ac_t_an_p2",
         "ac_t_an_p3"
@@ -99,6 +111,9 @@
       "emoji": "ה",
       "node_ids": [
         "ac_t_order_learn",
+        "ac_t_order_ex1",
+        "ac_t_order_ex2",
+        "ac_t_order_ex3",
         "ac_t_order_p1",
         "ac_t_order_p2",
         "ac_t_order_p3"
@@ -113,6 +128,9 @@
       "emoji": "ו",
       "node_ids": [
         "ac_t_for_learn",
+        "ac_t_for_ex1",
+        "ac_t_for_ex2",
+        "ac_t_for_ex3",
         "ac_t_for_p1",
         "ac_t_for_p2",
         "ac_t_for_p3"
@@ -152,6 +170,33 @@
       "body_he": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
       "body_content": "I saw a bird. The bird was blue. Birds need water.",
       "can_do": "לבחור בין a, the ובלי מילה"
+    },
+    {
+      "id": "ac_t_art_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: a בפעם הראשונה",
+      "body_he": "מדברים על המפתח בפעם הראשונה. לכן a. We found a key.",
+      "body_content": "We found a key.",
+      "can_do": "להשתמש ב a בפעם הראשונה"
+    },
+    {
+      "id": "ac_t_art_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: the כשכבר יודעים",
+      "body_he": "עכשיו כבר יודעים על איזה מפתח מדובר. לכן the. The key was under the mat.",
+      "body_content": "We found a key. The key was under the mat.",
+      "can_do": "להשתמש ב the בפעם השנייה"
+    },
+    {
+      "id": "ac_t_art_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: the על כללי",
+      "body_he": "טעות נפוצה: The cats like milk, כשמדברים על כל החתולים. על דבר כללי ברבים לא שמים מילה. נכון: Cats like milk.",
+      "body_content": "Cats like milk.",
+      "can_do": "לכתוב רבים כלליים בלי the"
     },
     {
       "id": "ac_t_art_p1",
@@ -253,6 +298,33 @@
       "can_do": "להבחין בין זמן פתוח לזמן סגור"
     },
     {
+      "id": "ac_t_perf_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: has ועוד צורה שלישית",
+      "body_he": "הזמן עוד פתוח, עד עכשיו. עם she אומרים has. She has visited London twice.",
+      "body_content": "She has visited London twice.",
+      "can_do": "לספר על ניסיון עם has"
+    },
+    {
+      "id": "ac_t_perf_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: last year",
+      "body_he": "last year זמן שנגמר, לכן עבר רגיל. She visited London last year.",
+      "body_content": "She visited London last year.",
+      "can_do": "לבחור עבר רגיל עם זמן שנגמר"
+    },
+    {
+      "id": "ac_t_perf_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: have עם last night",
+      "body_he": "טעות נפוצה: We have finished it last night. last night זמן שנגמר. נכון: We finished it last night.",
+      "body_content": "We finished it last night.",
+      "can_do": "לא לשים have עם זמן שנגמר"
+    },
+    {
       "id": "ac_t_perf_p1",
       "type": "practice",
       "kind": "understanding",
@@ -350,6 +422,33 @@
       "body_he": "אחרי if בא הווה. בחלק של התוצאה בא will.",
       "body_content": "If it rains, we will stay home.",
       "can_do": "לבנות תנאי ראשון עם if ו will"
+    },
+    {
+      "id": "ac_t_if_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: if עם are",
+      "body_he": "אחרי if בא הווה: are. בתוצאה בא will. If you are late, we will wait.",
+      "body_content": "If you are late, we will wait.",
+      "can_do": "לבנות תנאי ראשון עם are"
+    },
+    {
+      "id": "ac_t_if_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: התוצאה קודם",
+      "body_he": "אפשר להתחיל בתוצאה. גם כך אחרי if בא הווה. We will go out if the sun shines.",
+      "body_content": "We will go out if the sun shines.",
+      "can_do": "לכתוב תנאי שמתחיל בתוצאה"
+    },
+    {
+      "id": "ac_t_if_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: will אחרי if",
+      "body_he": "טעות נפוצה: If he will come, we will eat. אחרי if לא כותבים will. נכון: If he comes, we will eat.",
+      "body_content": "If he comes, we will eat.",
+      "can_do": "להוריד will מהחלק של if"
     },
     {
       "id": "ac_t_if_p1",
@@ -500,6 +599,33 @@
       "can_do": "לבחור a או an לפי הצליל"
     },
     {
+      "id": "ac_t_an_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: an egg",
+      "body_he": "egg נפתחת בצליל תנועה. לכן an. She ate an egg.",
+      "body_content": "She ate an egg.",
+      "can_do": "לכתוב an לפני צליל תנועה"
+    },
+    {
+      "id": "ac_t_an_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: a house",
+      "body_he": "ב house שומעים את h. זה צליל עיצור, לכן a. They live in a house.",
+      "body_content": "They live in a house.",
+      "can_do": "לכתוב a כש h נשמעת"
+    },
+    {
+      "id": "ac_t_an_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: a orange",
+      "body_he": "טעות נפוצה: I want a orange. orange נפתחת בצליל תנועה. נכון: I want an orange.",
+      "body_content": "I want an orange.",
+      "can_do": "לתקן a ל an לפני תנועה"
+    },
+    {
       "id": "ac_t_an_p1",
       "type": "practice",
       "kind": "understanding",
@@ -599,6 +725,33 @@
       "can_do": "לסדר מילים במשפט באנגלית"
     },
     {
+      "id": "ac_t_order_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: נושא, פועל, מושא",
+      "body_he": "Dan הוא הנושא, bought הפועל, a phone המושא. Dan bought a phone.",
+      "body_content": "Dan bought a phone.",
+      "can_do": "לסדר נושא, פועל ומושא"
+    },
+    {
+      "id": "ac_t_order_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: תואר לפני השם",
+      "body_he": "התואר small בא לפני השם flat. We live in a small flat.",
+      "body_content": "We live in a small flat.",
+      "can_do": "לשים תואר לפני השם"
+    },
+    {
+      "id": "ac_t_order_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: תואר אחרי השם",
+      "body_he": "טעות נפוצה: He has a house big. באנגלית התואר בא לפני השם. נכון: He has a big house.",
+      "body_content": "He has a big house.",
+      "can_do": "לתקן תואר שבא אחרי השם"
+    },
+    {
       "id": "ac_t_order_p1",
       "type": "practice",
       "kind": "understanding",
@@ -696,6 +849,33 @@
       "body_he": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
       "body_content": "I have lived here for two years.",
       "can_do": "להבחין בין for ל since"
+    },
+    {
+      "id": "ac_t_for_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: for עם משך",
+      "body_he": "six months זה משך. לכן for. She has worked here for six months.",
+      "body_content": "She has worked here for six months.",
+      "can_do": "להשתמש ב for עם משך"
+    },
+    {
+      "id": "ac_t_for_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: since עם נקודה",
+      "body_he": "2015 זו נקודת התחלה. לכן since. We have known them since 2015.",
+      "body_content": "We have known them since 2015.",
+      "can_do": "להשתמש ב since עם נקודת התחלה"
+    },
+    {
+      "id": "ac_t_for_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: since עם משך",
+      "body_he": "טעות נפוצה: I have lived here since five years. five years זה משך. נכון: I have lived here for five years.",
+      "body_content": "I have lived here for five years.",
+      "can_do": "לתקן since ל for לפני משך"
     },
     {
       "id": "ac_t_for_p1",

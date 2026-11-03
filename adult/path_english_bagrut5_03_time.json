@@ -31,6 +31,9 @@
       "emoji": "א",
       "node_ids": [
         "tm_t_past_learn",
+        "tm_t_past_ex1",
+        "tm_t_past_ex2",
+        "tm_t_past_ex3",
         "tm_t_past_p1",
         "tm_t_past_p2"
       ]
@@ -44,6 +47,9 @@
       "emoji": "ב",
       "node_ids": [
         "tm_t_fut_learn",
+        "tm_t_fut_ex1",
+        "tm_t_fut_ex2",
+        "tm_t_fut_ex3",
         "tm_t_fut_p1",
         "tm_t_fut_p2"
       ]
@@ -57,6 +63,9 @@
       "emoji": "ג",
       "node_ids": [
         "tm_t_story_learn",
+        "tm_t_story_ex1",
+        "tm_t_story_ex2",
+        "tm_t_story_ex3",
         "tm_t_story_idea",
         "tm_t_story_infer"
       ]
@@ -82,6 +91,9 @@
       "emoji": "ד",
       "node_ids": [
         "tm_t_irreg_learn",
+        "tm_t_irreg_ex1",
+        "tm_t_irreg_ex2",
+        "tm_t_irreg_ex3",
         "tm_t_irreg_p1",
         "tm_t_irreg_p2"
       ]
@@ -95,6 +107,9 @@
       "emoji": "ה",
       "node_ids": [
         "tm_t_ago_learn",
+        "tm_t_ago_ex1",
+        "tm_t_ago_ex2",
+        "tm_t_ago_ex3",
         "tm_t_ago_p1",
         "tm_t_ago_p2"
       ]
@@ -108,6 +123,9 @@
       "emoji": "ו",
       "node_ids": [
         "tm_t_who_learn",
+        "tm_t_who_ex1",
+        "tm_t_who_ex2",
+        "tm_t_who_ex3",
         "tm_t_who_p1",
         "tm_t_who_p2"
       ]
@@ -146,6 +164,33 @@
       "body_he": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
       "body_content": "Yesterday I walked home.",
       "can_do": "לספר מה קרה אתמול"
+    },
+    {
+      "id": "tm_t_past_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: ed אחרי הפועל",
+      "body_he": "זה קרה אתמול. מוסיפים ed לפועל. Yesterday she cooked dinner.",
+      "body_content": "Yesterday she cooked dinner.",
+      "can_do": "להוסיף ed לפועל בעבר"
+    },
+    {
+      "id": "tm_t_past_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: עבר עם last night",
+      "body_he": "last night זה עבר. לכן played עם ed. We played cards last night.",
+      "body_content": "We played cards last night.",
+      "can_do": "לזהות מילת זמן של עבר"
+    },
+    {
+      "id": "tm_t_past_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: הווה עם yesterday",
+      "body_he": "טעות נפוצה: Yesterday he open the door. yesterday דורש עבר. נכון: Yesterday he opened the door.",
+      "body_content": "Yesterday he opened the door.",
+      "can_do": "לתקן הווה לעבר אחרי yesterday"
     },
     {
       "id": "tm_t_past_p1",
@@ -217,6 +262,33 @@
       "can_do": "לדבר על מחר ועל תוכנית קרובה"
     },
     {
+      "id": "tm_t_fut_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: will",
+      "body_he": "מחר. will ואחריו הפועל הבסיסי. Tomorrow she will call her mom.",
+      "body_content": "Tomorrow she will call her mom.",
+      "can_do": "לדבר על מחר עם will"
+    },
+    {
+      "id": "tm_t_fut_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: תוכנית קרובה",
+      "body_he": "יש תוכנית ליום שני. are ועוד ing. We are meeting Dana on Monday.",
+      "body_content": "We are meeting Dana on Monday.",
+      "can_do": "לתאר תוכנית קרובה עם are ועוד ing"
+    },
+    {
+      "id": "tm_t_fut_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: s אחרי will",
+      "body_he": "טעות נפוצה: Tomorrow he will goes. אחרי will בא הפועל הבסיסי, בלי s. נכון: Tomorrow he will go.",
+      "body_content": "Tomorrow he will go.",
+      "can_do": "לכתוב פועל בסיסי אחרי will"
+    },
+    {
       "id": "tm_t_fut_p1",
       "type": "practice",
       "kind": "understanding",
@@ -284,6 +356,33 @@
       "body_he": "קראו וזהו את הרעיון ואת ההסקה.",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
       "can_do": "לקרוא סיפור קצר בעבר"
+    },
+    {
+      "id": "tm_t_story_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: פרט בסיפור",
+      "body_he": "שאלה: What did the woman give Jonah? קראו את המשפט השני: offered him half her orange. התשובה: half her orange.",
+      "body_content": "A woman he did not know offered him half her orange.",
+      "can_do": "למצוא פרט בסיפור"
+    },
+    {
+      "id": "tm_t_story_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: הסקה על הזמן",
+      "body_he": "שאלה: Was it day or night? בסיפור כתוב last bus ו pharmacy light, ובהמשך In the morning. לכן זה היה בלילה.",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light.",
+      "can_do": "להסיק את הזמן מרמזים בסיפור"
+    },
+    {
+      "id": "tm_t_story_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: להוסיף מה שלא כתוב",
+      "body_he": "טעות נפוצה: רואים pharmacy וחושבים ש Jonah עובד שם. הסיפור לא אומר את זה. הוא רק חיכה ליד האור שלה.",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light.",
+      "can_do": "לענות רק לפי מה שכתוב בסיפור"
     },
     {
       "id": "tm_t_story_idea",
@@ -404,6 +503,33 @@
       "can_do": "להשתמש בעבר של פעלים חריגים"
     },
     {
+      "id": "tm_t_irreg_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: came",
+      "body_he": "לא כל עבר הוא ed. come נהיה came. She came home late.",
+      "body_content": "She came home late.",
+      "can_do": "להגיד came בעבר"
+    },
+    {
+      "id": "tm_t_irreg_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: had",
+      "body_he": "have נהיה had. We had a long day.",
+      "body_content": "We had a long day.",
+      "can_do": "להגיד had בעבר"
+    },
+    {
+      "id": "tm_t_irreg_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: buyed",
+      "body_he": "טעות נפוצה: He buyed bread. buy הוא פועל חריג. נכון: He bought bread.",
+      "body_content": "He bought bread.",
+      "can_do": "לתקן עבר חריג שנכתב עם ed"
+    },
+    {
       "id": "tm_t_irreg_p1",
       "type": "practice",
       "kind": "understanding",
@@ -473,6 +599,33 @@
       "can_do": "לסמן זמן עם ago ו tomorrow"
     },
     {
+      "id": "tm_t_ago_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: ago בסוף",
+      "body_he": "ago בא אחרי משך הזמן ומסתכל אחורה. The bus left ten minutes ago.",
+      "body_content": "The bus left ten minutes ago.",
+      "can_do": "להגיד לפני כמה זמן משהו קרה"
+    },
+    {
+      "id": "tm_t_ago_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: tomorrow עם will",
+      "body_he": "tomorrow מסתכל קדימה, לכן will. Tomorrow we will visit Dana.",
+      "body_content": "Tomorrow we will visit Dana.",
+      "can_do": "להתאים tomorrow לעתיד"
+    },
+    {
+      "id": "tm_t_ago_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: ago עם will",
+      "body_he": "טעות נפוצה: We will meet three days ago. ago הולך עם עבר. נכון: We met three days ago.",
+      "body_content": "We met three days ago.",
+      "can_do": "לא לערבב ago עם will"
+    },
+    {
       "id": "tm_t_ago_p1",
       "type": "practice",
       "kind": "understanding",
@@ -540,6 +693,33 @@
       "body_he": "who שואל על אדם. where שואל על מקום.",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
       "can_do": "לענות על who ועל where"
+    },
+    {
+      "id": "tm_t_who_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: who על אדם",
+      "body_he": "שאלה: Who offered Jonah half her orange? who שואל על אדם. התשובה: a woman he did not know.",
+      "body_content": "A woman he did not know offered him half her orange.",
+      "can_do": "לענות על שאלת who מתוך סיפור"
+    },
+    {
+      "id": "tm_t_who_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: who ו he",
+      "body_he": "שאלה: Who took the orange? בסיפור כתוב He took it. he הוא Jonah. התשובה: Jonah.",
+      "body_content": "He took it.",
+      "can_do": "להבין למי מתכוון he"
+    },
+    {
+      "id": "tm_t_who_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: אדם במקום מקום",
+      "body_he": "טעות נפוצה: Where did Jonah leave the oranges? ועונים Jonah. where שואל על מקום. התשובה: at the pharmacy.",
+      "body_content": "In the morning he left a bag of oranges at the pharmacy.",
+      "can_do": "לענות על where עם מקום"
     },
     {
       "id": "tm_t_who_p1",

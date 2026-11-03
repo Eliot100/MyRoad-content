@@ -31,6 +31,8 @@
       "emoji": "א",
       "node_ids": [
         "g_t_read_learn",
+        "g_t_read_ex1",
+        "g_t_read_ex2",
         "g_t_read_idea",
         "g_t_read_purpose"
       ]
@@ -146,6 +148,24 @@
       "body_he": "הכותב לא אומר שהסדנה היא צדקה. הוא אומר שהיא נשארת כשיש חובה ותשלום קטן.",
       "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention.",
       "can_do": "לקרוא טיעון בקטע של מודול G"
+    },
+    {
+      "id": "g_t_read_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: איפה הבעיה",
+      "body_he": "בערים רבות החדר הוא מה שנכשל. נגר יכול לשאול כלים, אבל לא שכר דירה שמוכפל בתוך שנה.",
+      "body_content": "In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year.",
+      "can_do": "למצוא את הבעיה שהכותב מציג"
+    },
+    {
+      "id": "g_t_read_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: לא צדקה",
+      "body_he": "הכותב אומר במפורש שזו לא צדקה. העיר שומרת אצלה עובד שאחרת היה עוזב עם המקצוע שלו.",
+      "body_content": "The idea is not charity. The city keeps a worker who would otherwise take the skill to another place.",
+      "can_do": "להבין מה הכותב טוען ומה לא"
     },
     {
       "id": "g_t_read_idea",
