@@ -760,6 +760,31 @@ def all_paths() -> list[dict]:
     return docs
 
 
+# Adaptive placement (MyRoad#211): area + difficulty (1PL b, -4..4) per scored placement item.
+# Scale: road order. Letters -3, be -2, present -1, time 0, accuracy 1, writing 1.5, reading 1..2.5.
+# Within a topic the chk item sits half a step above p1.
+PLACEMENT_TAGS = {
+    "plc_t_letters_p1": ("vocabulary", -3.0), "plc_t_letters_chk": ("vocabulary", -2.5),
+    "plc_t_be_p1": ("grammar", -2.0), "plc_t_be_chk": ("grammar", -1.5),
+    "plc_t_present_p1": ("grammar", -1.0), "plc_t_present_chk": ("grammar", -0.5),
+    "plc_t_time_p1": ("grammar", 0.0), "plc_t_time_chk": ("grammar", 0.5),
+    "plc_t_accuracy_p1": ("grammar", 1.0), "plc_t_accuracy_chk": ("grammar", 1.5),
+    "plc_t_read_idea": ("reading", 1.0), "plc_t_read_word": ("vocabulary", 1.5),
+    "plc_t_read_detail": ("reading", 2.0), "plc_t_read_infer": ("reading", 2.5),
+    "plc_t_write_p1": ("writing", 1.5), "plc_t_write_chk": ("writing", 2.0),
+}
+
+
+def tag_placement(doc: dict) -> None:
+    if doc["id"] != PLACEMENT:
+        return
+    for n in doc["nodes"]:
+        if n.get("id") in PLACEMENT_TAGS:
+            n["area"], n["difficulty"] = PLACEMENT_TAGS[n["id"]]
+    scored = [n["id"] for n in doc["nodes"] if n["type"] in ("practice", "check") and n.get("choices")]
+    assert sorted(scored) == sorted(PLACEMENT_TAGS), set(scored) ^ set(PLACEMENT_TAGS)
+
+
 def add_examples(doc: dict) -> int:
     """Insert scripts/examples/<name>.py rows as learn steps right after each topic's learn step."""
     table = apply_methods.load(doc["id"].removeprefix("path_"), "examples", "E") or {}
@@ -800,6 +825,7 @@ def main() -> None:
         if idx >= 1:
             doc["placement_route"] = {"from_placement": PLACEMENT, "band_min": idx, "band_max": idx}
         add_examples(doc)
+        tag_placement(doc)
         missing = apply_methods.apply_doc(doc)  # method in body_he, worked answer in feedback_try
         assert not missing, missing
         path = OUT / f"{doc['id']}.json"
