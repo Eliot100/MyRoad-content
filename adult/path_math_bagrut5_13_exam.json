@@ -1,0 +1,748 @@
+{
+  "id": "path_math_bagrut5_13_exam",
+  "titles": {
+    "he": "בחינת סיום",
+    "en": "Closing check",
+    "ar": "فحص الختام"
+  },
+  "blurbs": {
+    "he": "בדיקה אחרונה בלי נושא חדש. נפתחת רק אחרי מעריכית ולוגריתם. מערבבת את שלבי הדרך.",
+    "en": "A last check with no new topic. It opens only after the exponential road. It mixes the stages.",
+    "ar": "فحص أخير بلا موضوع جديد. يفتح بعد طريق الأسي."
+  },
+  "subject": "math",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "✅",
+  "explain_locale": "he",
+  "content_locale": "he",
+  "estimated_minutes": 68,
+  "prerequisite_path_ids": [
+    "path_math_bagrut5_12_exp_log"
+  ],
+  "topics": [
+    {
+      "id": "ex_algebra",
+      "titles": {
+        "he": "אלגברה",
+        "en": "אלגברה",
+        "ar": "אלגברה"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "exam_learn",
+        "ex_algebra_q"
+      ]
+    },
+    {
+      "id": "ex_geometry",
+      "titles": {
+        "he": "גיאומטריה",
+        "en": "גיאומטריה",
+        "ar": "גיאומטריה"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "ex_geometry_q"
+      ]
+    },
+    {
+      "id": "ex_trig",
+      "titles": {
+        "he": "טריגונומטריה",
+        "en": "טריגונומטריה",
+        "ar": "טריגונומטריה"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "ex_trig_q"
+      ]
+    },
+    {
+      "id": "ex_sequences",
+      "titles": {
+        "he": "סדרות",
+        "en": "סדרות",
+        "ar": "סדרות"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "ex_sequences_q"
+      ]
+    },
+    {
+      "id": "ex_probability",
+      "titles": {
+        "he": "הסתברות",
+        "en": "הסתברות",
+        "ar": "הסתברות"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "ex_probability_q"
+      ]
+    },
+    {
+      "id": "ex_functions",
+      "titles": {
+        "he": "פונקציות",
+        "en": "פונקציות",
+        "ar": "פונקציות"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "ex_functions_q"
+      ]
+    },
+    {
+      "id": "ex_extrema",
+      "titles": {
+        "he": "קיצון",
+        "en": "קיצון",
+        "ar": "קיצון"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "ex_extrema_q"
+      ]
+    },
+    {
+      "id": "ex_integrals",
+      "titles": {
+        "he": "אינטגרלים",
+        "en": "אינטגרלים",
+        "ar": "אינטגרלים"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "ex_integrals_q"
+      ]
+    },
+    {
+      "id": "ex_analytic",
+      "titles": {
+        "he": "אנליטית",
+        "en": "אנליטית",
+        "ar": "אנליטית"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "ex_analytic_q"
+      ]
+    },
+    {
+      "id": "ex_vectors",
+      "titles": {
+        "he": "וקטורים",
+        "en": "וקטורים",
+        "ar": "וקטורים"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "ex_vectors_q"
+      ]
+    },
+    {
+      "id": "ex_complex",
+      "titles": {
+        "he": "מרוכבים",
+        "en": "מרוכבים",
+        "ar": "מרוכבים"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "ex_complex_q"
+      ]
+    },
+    {
+      "id": "ex_growth",
+      "titles": {
+        "he": "גידול ודעיכה",
+        "en": "גידול ודעיכה",
+        "ar": "גידול ודעיכה"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "ex_growth_q"
+      ]
+    },
+    {
+      "id": "ex_mix",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review",
+        "ar": "مراجعة"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "exam_rev_1",
+        "exam_rev_2",
+        "exam_rev_3",
+        "exam_rev_4"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "exam_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "לפני הבחינה",
+      "body_he": "אין כאן נושא חדש. כל שאלה בודקת רעיון שכבר הופיע בדרך. עבדו לאט, פתחו את שיטת הפתרון אם נתקעתם, ואחר כך נסו שוב בלי להציץ. בסוף יש חזרה שמערבבת כמה תחומים.",
+      "can_do": "אפשר לגשת לבדיקת הסיום אחרי שכל השלבים נגמרו."
+    },
+    {
+      "id": "ex_algebra_q",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בחינה, שורש כפול",
+      "body_he": "עבור איזה m למשוואה x^2 - 10x + m = 0 יש שורש כפול?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "24"
+        },
+        {
+          "id": "b",
+          "label": "25"
+        },
+        {
+          "id": "c",
+          "label": "27"
+        },
+        {
+          "id": "d",
+          "label": "26"
+        }
+      ],
+      "correct": "b",
+      "hint": "שורש כפול כאשר הדיסקרימיננטה אפס.",
+      "worked_method": "10 בריבוע פחות 4m שווה אפס, לכן m = 25. השורש הוא 5.",
+      "can_do": "אפשר לבחור פרמטר לשורש כפול.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שורש כפול כאשר הדיסקרימיננטה אפס."
+    },
+    {
+      "id": "ex_geometry_q",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בחינה, יחס שטחים",
+      "body_he": "שני מצולעים דומים. יחס צלעות מתאימות הוא 3 ל 1. שטח הקטן הוא 4. מה שטח הגדול?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "40"
+        },
+        {
+          "id": "b",
+          "label": "12"
+        },
+        {
+          "id": "c",
+          "label": "37"
+        },
+        {
+          "id": "d",
+          "label": "36"
+        }
+      ],
+      "correct": "d",
+      "hint": "יחס השטחים הוא ריבוע יחס הצלעות.",
+      "worked_method": "(3/1) בריבוע כפול 4 שווה 36. לא כופלים את השטח ביחס עצמו.",
+      "can_do": "אפשר לעבור מיחס צלעות ליחס שטחים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "יחס השטחים הוא ריבוע יחס הצלעות."
+    },
+    {
+      "id": "ex_trig_q",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בחינה, שטח",
+      "body_he": "במשולש שתי צלעות הן 12 ו 10, והסינוס של הזווית ביניהן הוא 1/2. מה השטח?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "30"
+        },
+        {
+          "id": "b",
+          "label": "31"
+        },
+        {
+          "id": "c",
+          "label": "29"
+        },
+        {
+          "id": "d",
+          "label": "32"
+        }
+      ],
+      "correct": "a",
+      "hint": "שטח הוא חצי ab sin C.",
+      "worked_method": "חצי כפול 12 כפול 10 כפול 1/2 שווה 30.",
+      "can_do": "אפשר לחשב שטח משתי צלעות וסינוס הזווית שביניהן.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שטח הוא חצי ab sin C."
+    },
+    {
+      "id": "ex_sequences_q",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בחינה, סכום אינסופי",
+      "body_he": "סדרה הנדסית אינסופית מתחילה ב 12 והמנה היא 1/3. מה הסכום?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "19"
+        },
+        {
+          "id": "b",
+          "label": "17"
+        },
+        {
+          "id": "c",
+          "label": "18"
+        },
+        {
+          "id": "d",
+          "label": "20"
+        }
+      ],
+      "correct": "c",
+      "hint": "כשהמנה בין 1- ל 1, הסכום הוא האיבר הראשון חלקי (1 פחות המנה).",
+      "worked_method": "12 חלקי (1 - 1/3) שווה 18.",
+      "can_do": "אפשר לסכום סדרה הנדסית אינסופית כשהמנה קטנה בערכה המוחלט מ 1.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כשהמנה בין 1- ל 1, הסכום הוא האיבר הראשון חלקי (1 פחות המנה)."
+    },
+    {
+      "id": "ex_probability_q",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בחינה, לפחות עץ",
+      "body_he": "מטילים 6 מטבעות הוגנים. מה ההסתברות לקבל לפחות עץ אחד?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/64"
+        },
+        {
+          "id": "b",
+          "label": "63/64"
+        },
+        {
+          "id": "c",
+          "label": "63/6"
+        },
+        {
+          "id": "d",
+          "label": "6/64"
+        }
+      ],
+      "correct": "b",
+      "hint": "נוח דרך המשלים: 1 פחות ההסתברות שכל המטבעות יוצאים פלי.",
+      "worked_method": "יש 64 תוצאות. רק אחת היא כולה פלי. נשאר 63/64, כלומר 63/64.",
+      "can_do": "אפשר לחשב 'לפחות אחד' דרך המשלים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "נוח דרך המשלים: 1 פחות ההסתברות שכל המטבעות יוצאים פלי."
+    },
+    {
+      "id": "ex_functions_q",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בחינה, משיק",
+      "body_he": "מה משוואת המשיק ל y = x^2 בנקודה שבה x = 3?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "y = 6x"
+        },
+        {
+          "id": "b",
+          "label": "y = 3x"
+        },
+        {
+          "id": "c",
+          "label": "y = 6x + 9"
+        },
+        {
+          "id": "d",
+          "label": "y = 6x - 9"
+        }
+      ],
+      "correct": "d",
+      "hint": "השיפוע הוא הנגזרת בנקודה, והישר עובר בנקודה שעל הגרף.",
+      "worked_method": "הנגזרת 2x שווה 6 ב x = 3. הנקודה היא (3, 9). מתקבל y = 6x - 9.",
+      "can_do": "אפשר לכתוב משיק לפרבולה בנקודה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "השיפוע הוא הנגזרת בנקודה, והישר עובר בנקודה שעל הגרף."
+    },
+    {
+      "id": "ex_extrema_q",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בחינה, קודקוד",
+      "body_he": "לפרבולה y = x^2 - 10x + 21, באיזה x יש נקודת קיצון?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "6"
+        }
+      ],
+      "correct": "c",
+      "hint": "בפרבולה הנגזרת מתאפסת ב x = -b חלקי 2a.",
+      "worked_method": "הנגזרת היא 2x - 10. היא אפס כאשר x = 5. הערך שם הוא -4.",
+      "can_do": "אפשר למצוא את מקום הקודקוד של פרבולה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "בפרבולה הנגזרת מתאפסת ב x = -b חלקי 2a."
+    },
+    {
+      "id": "ex_integrals_q",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בחינה, אינטגרל",
+      "body_he": "חשבו את האינטגרל המסוים של 6x^2 מ 1 עד 2.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "13"
+        },
+        {
+          "id": "b",
+          "label": "15"
+        },
+        {
+          "id": "c",
+          "label": "16"
+        },
+        {
+          "id": "d",
+          "label": "14"
+        }
+      ],
+      "correct": "d",
+      "hint": "מוצאים פונקציה קדומה, מציבים את הגבול העליון ואת התחתון, ומחסרים.",
+      "worked_method": "הקדומה היא 6/3 x^3. 16 פחות 2 שווה 14.",
+      "can_do": "אפשר לחשב אינטגרל מסוים של חזקה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מוצאים פונקציה קדומה, מציבים את הגבול העליון ואת התחתון, ומחסרים."
+    },
+    {
+      "id": "ex_analytic_q",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בחינה, מרחק",
+      "body_he": "מה המרחק בין (2, -1) ל (6, 2)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "7"
+        }
+      ],
+      "correct": "c",
+      "hint": "שורש של ריבוע הפרש x ועוד ריבוע הפרש y.",
+      "worked_method": "(4) בריבוע ועוד (3) בריבוע הם 25. השורש הוא 5.",
+      "can_do": "אפשר לחשב מרחק בין שתי נקודות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שורש של ריבוע הפרש x ועוד ריבוע הפרש y."
+    },
+    {
+      "id": "ex_vectors_q",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בחינה, סקלרית",
+      "body_he": "מה המכפלה הסקלרית של (3, -2) ו (4, 6)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-1"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "1"
+        },
+        {
+          "id": "d",
+          "label": "0"
+        }
+      ],
+      "correct": "d",
+      "hint": "כופלים רכיב ברכיב ומחברים.",
+      "worked_method": "3 כפול 4 ועוד -2 כפול 6 שווה 0.",
+      "can_do": "אפשר לחשב מכפלה סקלרית במישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים רכיב ברכיב ומחברים."
+    },
+    {
+      "id": "ex_complex_q",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בחינה, כפל",
+      "body_he": "חשבו את (2 + 1i)(1 + -1i).",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3 + -2i"
+        },
+        {
+          "id": "b",
+          "label": "3 - 1i"
+        },
+        {
+          "id": "c",
+          "label": "3 + 0i"
+        },
+        {
+          "id": "d",
+          "label": "1 + -1i"
+        }
+      ],
+      "correct": "b",
+      "hint": "i בריבוע הוא 1-. כופלים כמו בינום.",
+      "worked_method": "החלק הממשי הוא 2·1 - 1·-1 = 3. החלק המדומה הוא 2·-1 + 1·1 = -1.",
+      "can_do": "אפשר לכפול שני מספרים מרוכבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i בריבוע הוא 1-. כופלים כמו בינום."
+    },
+    {
+      "id": "ex_growth_q",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בחינה, מחצית",
+      "body_he": "אחרי 5 זמני מחצית, איזה חלק נשאר מהכמות המקורית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5/2"
+        },
+        {
+          "id": "b",
+          "label": "1/32"
+        },
+        {
+          "id": "c",
+          "label": "1/10"
+        },
+        {
+          "id": "d",
+          "label": "1/5"
+        }
+      ],
+      "correct": "b",
+      "hint": "בכל זמן מחצית הכמות מוכפלת ב 1/2.",
+      "worked_method": "(1/2) בחזקת 5 שווה 1/32.",
+      "can_do": "אפשר לחשב דעיכה במספר שלם של זמני מחצית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "בכל זמן מחצית הכמות מוכפלת ב 1/2."
+    },
+    {
+      "id": "exam_rev_1",
+      "type": "check",
+      "kind": "review",
+      "title": "חזרת בחינה, משוואה",
+      "body_he": "פתרו. 9x - 4 = 23. מהו x?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "3"
+        }
+      ],
+      "correct": "d",
+      "hint": "העבירו את המספר החופשי, ואז חלקו במקדם של x.",
+      "worked_method": "מחברים 4: 9x = 27. מחלקים ב 9. x = 3. בדיקה: 9 כפול 3 ועוד -4 שווה 23.",
+      "can_do": "אפשר לפתור משוואה לינארית עם מספרים אחרים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "העבירו את המספר החופשי, ואז חלקו במקדם של x.",
+      "review_topic_ids": [
+        "ex_algebra",
+        "ex_geometry",
+        "ex_trig",
+        "ex_sequences",
+        "ex_probability",
+        "ex_functions",
+        "ex_extrema",
+        "ex_integrals",
+        "ex_analytic",
+        "ex_vectors",
+        "ex_complex",
+        "ex_growth"
+      ]
+    },
+    {
+      "id": "exam_rev_2",
+      "type": "check",
+      "kind": "review",
+      "title": "חזרת בחינה, פיתגורס",
+      "body_he": "במשולש ישר זווית הניצבים הם 8 ו 15. מה אורך היתר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "16"
+        },
+        {
+          "id": "b",
+          "label": "17"
+        },
+        {
+          "id": "c",
+          "label": "18"
+        },
+        {
+          "id": "d",
+          "label": "19"
+        }
+      ],
+      "correct": "b",
+      "hint": "פיתגורס: ריבוע היתר שווה לסכום ריבועי הניצבים.",
+      "worked_method": "8 בריבוע הוא 64. 15 בריבוע הוא 225. הסכום 289 הוא 17 בריבוע.",
+      "can_do": "אפשר לחשב יתר משני ניצבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "פיתגורס: ריבוע היתר שווה לסכום ריבועי הניצבים.",
+      "review_topic_ids": [
+        "ex_algebra",
+        "ex_geometry",
+        "ex_trig",
+        "ex_sequences",
+        "ex_probability",
+        "ex_functions",
+        "ex_extrema",
+        "ex_integrals",
+        "ex_analytic",
+        "ex_vectors",
+        "ex_complex",
+        "ex_growth"
+      ]
+    },
+    {
+      "id": "exam_rev_3",
+      "type": "check",
+      "kind": "review",
+      "title": "חזרת בחינה, סכום",
+      "body_he": "סדרה חשבונית מתחילה ב 5 עם הפרש 2. מה סכום 8 האיברים הראשונים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "96"
+        },
+        {
+          "id": "b",
+          "label": "98"
+        },
+        {
+          "id": "c",
+          "label": "95"
+        },
+        {
+          "id": "d",
+          "label": "97"
+        }
+      ],
+      "correct": "a",
+      "hint": "קודם האיבר האחרון, אחר כך n/2 כפול סכום הקצוות.",
+      "worked_method": "האיבר ה 8 הוא 19. הסכום הוא 8/2 כפול (5 + 19) = 96.",
+      "can_do": "אפשר לסכום סדרה חשבונית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "קודם האיבר האחרון, אחר כך n/2 כפול סכום הקצוות.",
+      "review_topic_ids": [
+        "ex_algebra",
+        "ex_geometry",
+        "ex_trig",
+        "ex_sequences",
+        "ex_probability",
+        "ex_functions",
+        "ex_extrema",
+        "ex_integrals",
+        "ex_analytic",
+        "ex_vectors",
+        "ex_complex",
+        "ex_growth"
+      ]
+    },
+    {
+      "id": "exam_rev_4",
+      "type": "check",
+      "kind": "review",
+      "title": "חזרת בחינה, קוביות",
+      "body_he": "מטילים שתי קוביות הוגנות. מה ההסתברות שסכום התוצאות הוא 7?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6/6"
+        },
+        {
+          "id": "b",
+          "label": "1/12"
+        },
+        {
+          "id": "c",
+          "label": "7/36"
+        },
+        {
+          "id": "d",
+          "label": "1/6"
+        }
+      ],
+      "correct": "d",
+      "hint": "יש 36 תוצאות שוות סיכוי. סופרים כמה זוגות נותנים את הסכום.",
+      "worked_method": "יש 6 זוגות מתוך 36. אחרי צמצום: 1/6.",
+      "can_do": "אפשר לחשב הסתברות של סכום שתי קוביות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "יש 36 תוצאות שוות סיכוי. סופרים כמה זוגות נותנים את הסכום.",
+      "review_topic_ids": [
+        "ex_algebra",
+        "ex_geometry",
+        "ex_trig",
+        "ex_sequences",
+        "ex_probability",
+        "ex_functions",
+        "ex_extrema",
+        "ex_integrals",
+        "ex_analytic",
+        "ex_vectors",
+        "ex_complex",
+        "ex_growth"
+      ]
+    }
+  ]
+}
