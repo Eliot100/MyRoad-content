@@ -1,5 +1,8 @@
 """can_do: the short "עכשיו אפשר" ability line per step. C = {id or "@n" (n-th node): phrase}."""
-C = {'z_t_letters_learn': 'לקרוא שם של אות ומילה קצרה',
+C = {'z_t_letters_ex1': 'להבדיל בין שם האות לצליל שלה',
+ 'z_t_letters_ex2': 'למצוא צליל ראשון במילה',
+ 'z_t_letters_ex3': 'למצוא צליל אחרון במילה',
+ 'z_t_letters_learn': 'לקרוא שם של אות ומילה קצרה',
  'z_t_letters_p1': 'לזהות את האות הראשונה במילה',
  'z_t_letters_p2': 'לזהות את האות האחרונה במילה',
  'z_t_be_learn': 'להתאים am, is, are לכל גוף',
