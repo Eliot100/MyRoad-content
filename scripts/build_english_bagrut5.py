@@ -760,6 +760,24 @@ def all_paths() -> list[dict]:
     return docs
 
 
+def add_examples(doc: dict) -> int:
+    """Insert scripts/examples/<name>.py rows as learn steps right after each topic's learn step."""
+    table = apply_methods.load(doc["id"].removeprefix("path_"), "examples", "E") or {}
+    added = 0
+    for t in doc["topics"]:
+        rows = table.get(t["id"])
+        if not rows:
+            continue
+        learn_id = t["node_ids"][0]
+        base = learn_id.removesuffix("_learn")
+        new = [node(f"{base}_ex{k}", "learn", title, body, content) for k, (title, body, content) in enumerate(rows, 1)]
+        at = next(i for i, n in enumerate(doc["nodes"]) if n["id"] == learn_id) + 1
+        doc["nodes"][at:at] = new
+        t["node_ids"][1:1] = [n["id"] for n in new]
+        added += len(new)
+    return added
+
+
 def main() -> None:
     # Arabic catalog chrome so a path that sorts first still satisfies the locale test on main.
     ar = {
@@ -781,6 +799,7 @@ def main() -> None:
         idx = int(doc["id"].split("_")[3])
         if idx >= 1:
             doc["placement_route"] = {"from_placement": PLACEMENT, "band_min": idx, "band_max": idx}
+        add_examples(doc)
         missing = apply_methods.apply_doc(doc)  # method in body_he, worked answer in feedback_try
         assert not missing, missing
         path = OUT / f"{doc['id']}.json"

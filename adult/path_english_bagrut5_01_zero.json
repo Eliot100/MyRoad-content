@@ -31,6 +31,9 @@
       "emoji": "א",
       "node_ids": [
         "z_t_letters_learn",
+        "z_t_letters_ex1",
+        "z_t_letters_ex2",
+        "z_t_letters_ex3",
         "z_t_letters_p1",
         "z_t_letters_p2"
       ]
@@ -146,6 +149,33 @@
       "body_he": "אומרים את שם האות, ואז קוראים מילה קצרה.",
       "body_content": "A, B, C.",
       "can_do": "לקרוא שם של אות ומילה קצרה"
+    },
+    {
+      "id": "z_t_letters_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: שם וצליל",
+      "body_he": "לאות יש שם ויש צליל. השם של b הוא בי, והצליל שלה הוא ב, כמו בתחילת bed.",
+      "body_content": "b: bed, bag, bus",
+      "can_do": "להבדיל בין שם האות לצליל שלה"
+    },
+    {
+      "id": "z_t_letters_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: צליל ראשון",
+      "body_he": "אומרים dog לאט: d, o, g. הצליל הראשון הוא d, לכן המילה נפתחת באות d.",
+      "body_content": "dog: d o g",
+      "can_do": "למצוא צליל ראשון במילה"
+    },
+    {
+      "id": "z_t_letters_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: צליל אחרון",
+      "body_he": "אומרים cup לאט: c, u, p. הצליל האחרון הוא p, לכן המילה נגמרת באות p.",
+      "body_content": "cup: c u p",
+      "can_do": "למצוא צליל אחרון במילה"
     },
     {
       "id": "z_t_letters_p1",
