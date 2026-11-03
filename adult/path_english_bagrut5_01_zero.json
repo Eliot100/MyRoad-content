@@ -47,6 +47,9 @@
       "emoji": "ב",
       "node_ids": [
         "z_t_be_learn",
+        "z_t_be_ex1",
+        "z_t_be_ex2",
+        "z_t_be_ex3",
         "z_t_be_p1",
         "z_t_be_p2"
       ]
@@ -60,6 +63,9 @@
       "emoji": "ג",
       "node_ids": [
         "z_t_not_learn",
+        "z_t_not_ex1",
+        "z_t_not_ex2",
+        "z_t_not_ex3",
         "z_t_not_p1",
         "z_t_not_p2"
       ]
@@ -85,6 +91,9 @@
       "emoji": "ד",
       "node_ids": [
         "z_t_you_learn",
+        "z_t_you_ex1",
+        "z_t_you_ex2",
+        "z_t_you_ex3",
         "z_t_you_p1",
         "z_t_you_p2"
       ]
@@ -98,6 +107,9 @@
       "emoji": "ה",
       "node_ids": [
         "z_t_word_learn",
+        "z_t_word_ex1",
+        "z_t_word_ex2",
+        "z_t_word_ex3",
         "z_t_word_p1",
         "z_t_word_p2"
       ]
@@ -111,6 +123,9 @@
       "emoji": "ו",
       "node_ids": [
         "z_t_sent_learn",
+        "z_t_sent_ex1",
+        "z_t_sent_ex2",
+        "z_t_sent_ex3",
         "z_t_sent_p1",
         "z_t_sent_p2"
       ]
@@ -247,6 +262,33 @@
       "can_do": "להתאים am, is, are לכל גוף"
     },
     {
+      "id": "z_t_be_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: I עם am",
+      "body_he": "המשפט מדבר על I. עם I תמיד אומרים am. לכן: I am a dad.",
+      "body_content": "I am a dad.",
+      "can_do": "להגיד I am על עצמי"
+    },
+    {
+      "id": "z_t_be_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: she עם is",
+      "body_he": "she פירושה היא. עם he, she, it אומרים is. לכן: She is ill.",
+      "body_content": "She is ill.",
+      "can_do": "להגיד She is על אישה אחת"
+    },
+    {
+      "id": "z_t_be_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות עם he",
+      "body_he": "טעות נפוצה: He am sad. am הולך רק עם I. עם he אומרים is. נכון: He is sad.",
+      "body_content": "He is sad.",
+      "can_do": "לתקן am ל is אחרי he"
+    },
+    {
       "id": "z_t_be_p1",
       "type": "practice",
       "kind": "understanding",
@@ -314,6 +356,33 @@
       "body_he": "שלילה: am not, is not, are not. לא מוסיפים do.",
       "body_content": "She is not late.",
       "can_do": "לשלול עם am not, is not, are not"
+    },
+    {
+      "id": "z_t_not_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: am not",
+      "body_he": "שמים not אחרי am. I am sad. בשלילה: I am not sad.",
+      "body_content": "I am not sad.",
+      "can_do": "לשלול עם I am not"
+    },
+    {
+      "id": "z_t_not_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: is not",
+      "body_he": "שמים not אחרי is. It is big. בשלילה: It is not big.",
+      "body_content": "It is not big.",
+      "can_do": "לשלול עם it is not"
+    },
+    {
+      "id": "z_t_not_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: do בשלילה",
+      "body_he": "טעות נפוצה: He do not is ill. לא מוסיפים do. שמים not אחרי is. נכון: He is not ill.",
+      "body_content": "He is not ill.",
+      "can_do": "לשלול בלי להוסיף do"
     },
     {
       "id": "z_t_not_p1",
@@ -434,6 +503,33 @@
       "can_do": "להשתמש ב are עם you, we, they"
     },
     {
+      "id": "z_t_you_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: you עם are",
+      "body_he": "you פירושו אתה או את, וגם אתם או אתן. עם you תמיד אומרים are. You are kind.",
+      "body_content": "You are kind.",
+      "can_do": "לבחור are אחרי you"
+    },
+    {
+      "id": "z_t_you_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: we עם are",
+      "body_he": "we פירושו אנחנו. עם we אומרים are. We are at home.",
+      "body_content": "We are at home.",
+      "can_do": "לבחור are אחרי we"
+    },
+    {
+      "id": "z_t_you_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות עם they",
+      "body_he": "טעות נפוצה: They is sad. they פירושו הם או הן, וזה רבים. עם they אומרים are. נכון: They are sad.",
+      "body_content": "They are sad.",
+      "can_do": "לתקן is ל are אחרי they"
+    },
+    {
       "id": "z_t_you_p1",
       "type": "practice",
       "kind": "understanding",
@@ -503,6 +599,33 @@
       "can_do": "לקרוא מילה קצרה שלמה"
     },
     {
+      "id": "z_t_word_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: מחברים צלילים",
+      "body_he": "קראו כל אות לפי הצליל שלה: h, a, t. חברו את הצלילים יחד. יוצאת המילה hat.",
+      "body_content": "h-a-t: hat",
+      "can_do": "לחבר שלושה צלילים למילה"
+    },
+    {
+      "id": "z_t_word_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: מילה עם e",
+      "body_he": "קראו p, e, n לאט, ואז מהר יותר. יוצאת המילה pen.",
+      "body_content": "p-e-n: pen",
+      "can_do": "לקרוא מילה קצרה עם e"
+    },
+    {
+      "id": "z_t_word_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: רק האות הראשונה",
+      "body_he": "טעות נפוצה: רואים b ומנחשים bus. קראו את כל האותיות: b, o, x. המילה היא box.",
+      "body_content": "b-o-x: box",
+      "can_do": "לקרוא את כל המילה בלי לנחש"
+    },
+    {
       "id": "z_t_word_p1",
       "type": "practice",
       "kind": "understanding",
@@ -570,6 +693,33 @@
       "body_he": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
       "body_content": "I am here.",
       "can_do": "לבנות משפט עם מי שעושה ופועל"
+    },
+    {
+      "id": "z_t_sent_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: משפט שלם",
+      "body_he": "He is a cook. יש מישהו: He. יש פועל: is. יש אות גדולה בהתחלה ונקודה בסוף.",
+      "body_content": "He is a cook.",
+      "can_do": "לזהות משפט שלם"
+    },
+    {
+      "id": "z_t_sent_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: אות גדולה ונקודה",
+      "body_he": "המשפט it is hot נפתח באות קטנה ואין בו נקודה. מתקנים: It is hot.",
+      "body_content": "It is hot.",
+      "can_do": "לפתוח משפט באות גדולה ולסגור בנקודה"
+    },
+    {
+      "id": "z_t_sent_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: חסר פועל",
+      "body_he": "טעות נפוצה: Dan sad. חסר הפועל. Dan הוא אדם אחד, לכן is. נכון: Dan is sad.",
+      "body_content": "Dan is sad.",
+      "can_do": "להשלים פועל חסר במשפט"
     },
     {
       "id": "z_t_sent_p1",

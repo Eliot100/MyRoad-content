@@ -1,5 +1,6 @@
 """can_do: the short "עכשיו אפשר" ability line per step. C = {id or "@n" (n-th node): phrase}."""
 C = {'ex_t_mix_learn': 'לענות על שאלות קריאה כמו בשאלון',
+ 'ex_t_mix_ex1': 'למצוא סיבה כתובה בקטע',
  'ex_t_mix_idea': 'לזהות את הרעיון בקטע של בחינה',
  'ex_t_mix_vocab': 'להבין צירוף כמו higher price',
  'ex_t_write_learn': 'לבנות פסקה לפי המחוון',

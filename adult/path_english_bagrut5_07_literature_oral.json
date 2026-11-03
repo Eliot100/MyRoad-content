@@ -44,6 +44,8 @@
       "emoji": "ב",
       "node_ids": [
         "lit_t_poem_learn",
+        "lit_t_poem_ex1",
+        "lit_t_poem_ex2",
         "lit_t_poem_image",
         "lit_t_poem_tone"
       ]
@@ -215,6 +217,24 @@
       "body_he": "חפץ עושה משהו שאדם עושה. זו התמונה, לא חידה עם תשובה אחת.",
       "body_content": "The stair remembers every late key.\nIt does not forgive, and it does not tell.\nIt only keeps the dark one step longer\nthan the hand that finds the rail.",
       "can_do": "לקרוא שיר קצר עם תמונה"
+    },
+    {
+      "id": "lit_t_poem_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: המדרגה זוכרת",
+      "body_he": "The stair remembers every late key. המדרגה זוכרת, כמו אדם. חפץ עושה פעולה של אדם. זו התמונה.",
+      "body_content": "The stair remembers every late key.",
+      "can_do": "לזהות חפץ שפועל כמו אדם בשיר"
+    },
+    {
+      "id": "lit_t_poem_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: לא סולחת ולא מספרת",
+      "body_he": "המדרגה לא סולחת ולא מספרת. זו תמונה, לא חידה עם תשובה אחת.",
+      "body_content": "It does not forgive, and it does not tell.",
+      "can_do": "לקרוא שורה בשיר כתמונה"
     },
     {
       "id": "lit_t_poem_image",

@@ -1,5 +1,7 @@
 """can_do: the short "עכשיו אפשר" ability line per step. C = {id or "@n" (n-th node): phrase}."""
 C = {'g_t_read_learn': 'לקרוא טיעון בקטע של מודול G',
+ 'g_t_read_ex1': 'למצוא את הבעיה שהכותב מציג',
+ 'g_t_read_ex2': 'להבין מה הכותב טוען ומה לא',
  'g_t_read_idea': 'למצוא בקטע מה החזיק לאורך זמן',
  'g_t_read_purpose': 'להבין למה הכותב מביא את המבקרים',
  'g_t_essay_learn': 'לתכנן חיבור דעה של 120 עד 140 מילים',

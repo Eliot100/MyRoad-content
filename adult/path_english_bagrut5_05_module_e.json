@@ -31,6 +31,8 @@
       "emoji": "א",
       "node_ids": [
         "e_t_read_learn",
+        "e_t_read_ex1",
+        "e_t_read_ex2",
         "e_t_read_idea",
         "e_t_read_purpose",
         "e_t_read_word"
@@ -58,6 +60,7 @@
       "emoji": "ג",
       "node_ids": [
         "e_t_ref_learn",
+        "e_t_ref_ex1",
         "e_t_ref_p1",
         "e_t_ref_chk"
       ]
@@ -83,6 +86,7 @@
       "emoji": "ד",
       "node_ids": [
         "e_t_detail_learn",
+        "e_t_detail_ex1",
         "e_t_detail_p1",
         "e_t_detail_p2"
       ]
@@ -96,6 +100,7 @@
       "emoji": "ה",
       "node_ids": [
         "e_t_infer_learn",
+        "e_t_infer_ex1",
         "e_t_infer_p1",
         "e_t_infer_p2"
       ]
@@ -109,6 +114,7 @@
       "emoji": "ו",
       "node_ids": [
         "e_t_band_learn",
+        "e_t_band_ex1",
         "e_t_band_p1",
         "e_t_band_p2"
       ]
@@ -147,6 +153,24 @@
       "body_he": "קראו פעם אחת בלי לעצור על כל מילה. אחר כך השאלות.",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
       "can_do": "לקרוא קטע של מודול E ברצף"
+    },
+    {
+      "id": "e_t_read_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: רעיון מרכזי",
+      "body_he": "קראו את המשפט הראשון. הוא מציג את הרעיון המרכזי: המעבר פותר את הגשם, אבל יוצר בעיה חדשה.",
+      "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem.",
+      "can_do": "למצוא רעיון מרכזי במשפט הפתיחה"
+    },
+    {
+      "id": "e_t_read_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: פרט שתומך",
+      "body_he": "מצאו את המשפט על העגבניות. אותן עגבניות נמכרות בקופסאות פלסטיק במחיר גבוה יותר. זה פרט שתומך ברעיון.",
+      "body_content": "People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price.",
+      "can_do": "למצוא פרט שתומך ברעיון"
     },
     {
       "id": "e_t_read_idea",
@@ -317,6 +341,15 @@
       "can_do": "לזהות למה it מתייחס"
     },
     {
+      "id": "e_t_ref_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: She",
+      "body_he": "She counted empty stalls. חפשו אחורה את האישה האחרונה שהוזכרה. She היא A reporter.",
+      "body_content": "A reporter spent three Saturdays there. She counted empty stalls before nine.",
+      "can_do": "להבין למי מתכוונת she"
+    },
+    {
       "id": "e_t_ref_p1",
       "type": "practice",
       "kind": "understanding",
@@ -435,6 +468,15 @@
       "can_do": "להבחין בין פרט כתוב למסקנה"
     },
     {
+      "id": "e_t_detail_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: שלוש שבתות",
+      "body_he": "כמה זמן הכתבת הייתה שם? כתוב three Saturdays. זה פרט כתוב, לא מסקנה.",
+      "body_content": "A reporter spent three Saturdays there.",
+      "can_do": "למצוא פרט של זמן בקטע"
+    },
+    {
       "id": "e_t_detail_p1",
       "type": "practice",
       "kind": "understanding",
@@ -504,6 +546,15 @@
       "can_do": "להסיק מסקנה משתי עובדות בקטע"
     },
     {
+      "id": "e_t_infer_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: הבעיה החדשה",
+      "body_he": "מה הבעיה החדשה? העגבניות יקרות יותר, והאולם רחוק מהאוטובוס. משתי העובדות מסיקים: חלק מהקונים מפסיקים לבוא.",
+      "body_content": "People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. It is also far from the bus, so older buyers stop coming.",
+      "can_do": "להסיק מסקנה משתי עובדות"
+    },
+    {
       "id": "e_t_infer_p1",
       "type": "practice",
       "kind": "understanding",
@@ -571,6 +622,15 @@
       "body_he": "חמש מילים מתוך הקטע, במשפט חדש. לא רשימת משרד.",
       "body_content": "The queue was at the loose fruit.",
       "can_do": "להשתמש במילים מהקטע במשפט חדש"
+    },
+    {
+      "id": "e_t_band_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: משפט חדש",
+      "body_he": "בחרו חמש מילים מהקטע: tomatoes, plastic, boxes, higher, price. כתבו משפט חדש משלכם.",
+      "body_content": "People buy tomatoes in plastic boxes at a higher price.",
+      "can_do": "לכתוב משפט חדש עם מילים מהקטע"
     },
     {
       "id": "e_t_band_p1",

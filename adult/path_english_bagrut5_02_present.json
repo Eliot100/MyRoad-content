@@ -31,6 +31,9 @@
       "emoji": "א",
       "node_ids": [
         "pr_t_simple_learn",
+        "pr_t_simple_ex1",
+        "pr_t_simple_ex2",
+        "pr_t_simple_ex3",
         "pr_t_simple_p1",
         "pr_t_simple_p2"
       ]
@@ -44,6 +47,9 @@
       "emoji": "ב",
       "node_ids": [
         "pr_t_there_learn",
+        "pr_t_there_ex1",
+        "pr_t_there_ex2",
+        "pr_t_there_ex3",
         "pr_t_there_p1",
         "pr_t_there_p2"
       ]
@@ -57,6 +63,9 @@
       "emoji": "ג",
       "node_ids": [
         "pr_t_q_learn",
+        "pr_t_q_ex1",
+        "pr_t_q_ex2",
+        "pr_t_q_ex3",
         "pr_t_q_p1",
         "pr_t_q_p2"
       ]
@@ -82,6 +91,9 @@
       "emoji": "ד",
       "node_ids": [
         "pr_t_day_learn",
+        "pr_t_day_ex1",
+        "pr_t_day_ex2",
+        "pr_t_day_ex3",
         "pr_t_day_idea",
         "pr_t_day_detail"
       ]
@@ -95,6 +107,9 @@
       "emoji": "ה",
       "node_ids": [
         "pr_t_neg_learn",
+        "pr_t_neg_ex1",
+        "pr_t_neg_ex2",
+        "pr_t_neg_ex3",
         "pr_t_neg_p1",
         "pr_t_neg_p2"
       ]
@@ -108,6 +123,9 @@
       "emoji": "ו",
       "node_ids": [
         "pr_t_freq_learn",
+        "pr_t_freq_ex1",
+        "pr_t_freq_ex2",
+        "pr_t_freq_ex3",
         "pr_t_freq_p1",
         "pr_t_freq_p2"
       ]
@@ -146,6 +164,33 @@
       "body_he": "הרגל. אחרי he, she, it הפועל מקבל s.",
       "body_content": "She works at home.",
       "can_do": "לתאר הרגל בהווה"
+    },
+    {
+      "id": "pr_t_simple_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: he עם s",
+      "body_he": "זה הרגל. אחרי he מוסיפים s לפועל. He reads every day.",
+      "body_content": "He reads every day.",
+      "can_do": "להוסיף s לפועל אחרי he"
+    },
+    {
+      "id": "pr_t_simple_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: we בלי s",
+      "body_he": "אחרי I, you, we, they לא מוסיפים s. We cook at home.",
+      "body_content": "We cook at home.",
+      "can_do": "להשאיר פועל בלי s אחרי we"
+    },
+    {
+      "id": "pr_t_simple_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: שם של אדם",
+      "body_he": "טעות נפוצה: Dana walk to work. Dana היא she, לכן מוסיפים s. נכון: Dana walks to work.",
+      "body_content": "Dana walks to work.",
+      "can_do": "להוסיף s אחרי שם של אדם אחד"
     },
     {
       "id": "pr_t_simple_p1",
@@ -217,6 +262,33 @@
       "can_do": "לתאר מה יש עם there is ו there are"
     },
     {
+      "id": "pr_t_there_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: there is",
+      "body_he": "יש כוס אחת. לכן there is. There is a cup on the table.",
+      "body_content": "There is a cup on the table.",
+      "can_do": "להגיד There is על דבר אחד"
+    },
+    {
+      "id": "pr_t_there_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: there are",
+      "body_he": "יש שלושה כיסאות. לכן there are. There are three chairs in the room.",
+      "body_content": "There are three chairs in the room.",
+      "can_do": "להגיד There are על כמה דברים"
+    },
+    {
+      "id": "pr_t_there_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: is עם רבים",
+      "body_he": "טעות נפוצה: There is two cats. יש שני חתולים, וזה רבים. נכון: There are two cats.",
+      "body_content": "There are two cats.",
+      "can_do": "לתקן there is ל there are ברבים"
+    },
+    {
       "id": "pr_t_there_p1",
       "type": "practice",
       "kind": "understanding",
@@ -284,6 +356,33 @@
       "body_he": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
       "body_content": "Do you live here?",
       "can_do": "לשאול שאלה בהווה עם Do או Does"
+    },
+    {
+      "id": "pr_t_q_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: Do they",
+      "body_he": "שאלה על they. Do בהתחלה, והפועל בלי s. Do they eat here?",
+      "body_content": "Do they eat here?",
+      "can_do": "לשאול שאלה עם Do they"
+    },
+    {
+      "id": "pr_t_q_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: Does he",
+      "body_he": "שאלה על he. Does בהתחלה, והפועל בלי s. Does he drive to work?",
+      "body_content": "Does he drive to work?",
+      "can_do": "לשאול שאלה עם Does he"
+    },
+    {
+      "id": "pr_t_q_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: Do עם she",
+      "body_he": "טעות נפוצה: Do she like tea? עם he, she, it שואלים Does. נכון: Does she like tea?",
+      "body_content": "Does she like tea?",
+      "can_do": "לתקן Do ל Does עם she"
     },
     {
       "id": "pr_t_q_p1",
@@ -404,6 +503,33 @@
       "can_do": "לקרוא קטע קצר על יום עבודה"
     },
     {
+      "id": "pr_t_day_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: מה היא עושה בבוקר",
+      "body_he": "שאלה: What does Maya do after eight? קראו את המשפט שבא אחרי She starts at eight. התשובה: She drinks water and opens her mail.",
+      "body_content": "She drinks water and opens her mail.",
+      "can_do": "למצוא בקטע מה קורה אחרי שעה מסוימת"
+    },
+    {
+      "id": "pr_t_day_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: לאן היא הולכת",
+      "body_he": "שאלה: Where does Maya walk at four? המשפט האחרון עונה: She stops at four and walks to the park. התשובה: to the park.",
+      "body_content": "She stops at four and walks to the park.",
+      "can_do": "למצוא מקום בתוך קטע"
+    },
+    {
+      "id": "pr_t_day_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: מילה אחת בלי הקשר",
+      "body_he": "טעות נפוצה: רואים client וחושבים שמאיה מדברת עם לקוח כל יום. בקטע כתוב Some days. לכן רק בחלק מהימים.",
+      "body_content": "Some days she talks to a client.",
+      "can_do": "לשים לב למילים כמו some days"
+    },
+    {
       "id": "pr_t_day_idea",
       "type": "practice",
       "kind": "understanding",
@@ -473,6 +599,33 @@
       "can_do": "לשלול בהווה עם do not ו does not"
     },
     {
+      "id": "pr_t_neg_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: does not",
+      "body_he": "שלילה על he. does not, והפועל בלי s. He does not eat meat.",
+      "body_content": "He does not eat meat.",
+      "can_do": "לשלול עם he does not"
+    },
+    {
+      "id": "pr_t_neg_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: do not",
+      "body_he": "שלילה על we. do not, והפועל בלי s. We do not drive to work.",
+      "body_content": "We do not drive to work.",
+      "can_do": "לשלול עם we do not"
+    },
+    {
+      "id": "pr_t_neg_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: s אחרי does not",
+      "body_he": "טעות נפוצה: She does not drinks tea. ה s כבר נמצאת ב does. נכון: She does not drink tea.",
+      "body_content": "She does not drink tea.",
+      "can_do": "להוריד s מהפועל אחרי does not"
+    },
+    {
       "id": "pr_t_neg_p1",
       "type": "practice",
       "kind": "understanding",
@@ -540,6 +693,33 @@
       "body_he": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
       "body_content": "Maya always starts at eight.",
       "can_do": "למקם always ו never במשפט"
+    },
+    {
+      "id": "pr_t_freq_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: always לפני הפועל",
+      "body_he": "always בא לפני הפועל העיקרי. Dan always eats at noon.",
+      "body_content": "Dan always eats at noon.",
+      "can_do": "לשים always לפני הפועל העיקרי"
+    },
+    {
+      "id": "pr_t_freq_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: never אחרי are",
+      "body_he": "never בא אחרי am, is, are. They are never at home on Sunday.",
+      "body_content": "They are never at home on Sunday.",
+      "can_do": "לשים never אחרי are"
+    },
+    {
+      "id": "pr_t_freq_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: טעות: always אחרי הפועל",
+      "body_he": "טעות נפוצה: We drink always tea. always בא לפני הפועל. נכון: We always drink tea.",
+      "body_content": "We always drink tea.",
+      "can_do": "לתקן את המקום של always"
     },
     {
       "id": "pr_t_freq_p1",
