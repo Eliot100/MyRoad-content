@@ -199,7 +199,7 @@
       "feedback_ok": "השוק הנקי איבד את הקונים.",
       "feedback_try": "הקטע אומר שהאולם נקי אבל רחוק ויקר, והקונים המבוגרים מפסיקים לבוא. לכן: A cleaner market can lose the people it was for.",
       "can_do": "לזהות את הטענה של הכותב",
-      "worked_method": "הרעיון המרכזי מחבר את ההתחלה והסוף של הקטע, לא פרט אחד.",
+      "worked_method": "הטענה המרכזית מחברת את פתיחת הקטע לסופו, ולא נשענת על פרט אחד.\nהקטע אומר שהאולם פתר את הגשם, אבל הוא רחוק ויקר, והקונים המבוגרים הפסיקו לבוא. קופסאות ואוטובוס הם רק פרטים.\nהתשובה: A cleaner market can lose the people it was for.",
       "hint": "מה הקטע אומר שקורה לקונים אחרי המעבר?"
     },
     {
@@ -229,7 +229,7 @@
       "feedback_ok": "להראות מחיר של המעבר.",
       "feedback_try": "הקטע מראה מה הפסידו כשהשוק עבר לאולם: מחיר גבוה, מרחק מהאוטובוס, דוכנים ריקים. לכן to show a cost of moving the market.",
       "can_do": "לזהות למה הקטע נכתב",
-      "worked_method": "שואלים מה הכותב רוצה שנבין בסוף הקטע.",
+      "worked_method": "בשאלת מטרה שאלו מה הכותב רוצה שנבין אחרי כל הקטע.\nהכותב מונה מה הפסידו במעבר לאולם: מחיר גבוה, מרחק ודוכנים ריקים. הוא לא מוכר פירות ולא נותן לוח זמנים.\nהתשובה: to show a cost of moving the market.",
       "hint": "שאלו את עצמכם מה הכותב רוצה שנבין."
     },
     {
@@ -259,7 +259,7 @@
       "feedback_ok": "דוכנים.",
       "feedback_try": "הכתבת ספרה stalls ריקים ותור בstall אחד שמוכר פירות. לכן אלה שולחנות שמוכרים בהם.",
       "can_do": "להבין מילה מתוך הקטע",
-      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "worked_method": "מילה לא מוכרת מבינים מהמשפט שסביבה. בדקו כל פירוש במקומה.\nבקטע יש stalls ריקים, ותור ליד stall אחד שמוכר פירות. כרטיס או קופסה לא מוכרים פירות.\nהתשובה: tables where people sell.",
       "hint": "קראו את המשפט ונחשו לפי מה שקורה בשוק."
     },
     {
@@ -298,7 +298,7 @@
       "feedback_ok": "לא קרוב.",
       "feedback_try": "far from the bus פירושו רחוק מהאוטובוס, כלומר not close.",
       "can_do": "להבין את far במשפט",
-      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "worked_method": "הציבו כל פירוש במקום המילה ובדקו שהמשפט נשאר הגיוני.\nfar from the bus מתאר מרחק מהאוטובוס, לא מחיר ולא שעה.\nהתשובה: not close.",
       "hint": "far הפוך מ close."
     },
     {
@@ -328,7 +328,7 @@
       "feedback_ok": "לא בקופסה.",
       "feedback_try": "loose fruit בא מול plastic boxes, כלומר פרי שלא בתוך קופסה.",
       "can_do": "להבין את loose במשפט",
-      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "worked_method": "חפשו בקטע מילה שעומדת מול המילה החדשה. הניגוד עוזר להבין אותה.\nloose fruit מופיע מול plastic boxes, כלומר פרי שלא ארוז.\nהתשובה: not in a box.",
       "hint": "loose פירושו לא קשור ולא סגור."
     },
     {
@@ -376,7 +376,7 @@
       "feedback_ok": "the hall.",
       "feedback_try": "במשפט שלפני כתוב The hall is clean. לכן It is also far מדבר על the hall.",
       "can_do": "למצוא את השם ש it מחליף",
-      "worked_method": "מילה כמו it או she מחליפה שם שכבר הופיע. מחפשים את השם במשפט שלפניה.",
+      "worked_method": "it מחליפה שם שכבר הופיע. חפשו את השם במשפט שלפניה.\nהמשפט שלפני It הוא The hall is clean, והשם שם הוא the hall.\nהתשובה: the hall.",
       "hint": "it מחליף שם שבא קודם במשפט."
     },
     {
@@ -406,7 +406,7 @@
       "feedback_ok": "Nira.",
       "feedback_try": "כתוב The owner, Nira, refused the plastic boxes. מי שמסרבת היא Nira.",
       "can_do": "למצוא בקטע מי עשה מה",
-      "worked_method": "מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "worked_method": "מצאו בקטע את הפועל מהשאלה וקראו מי עושה אותו.\nליד refused the plastic boxes כתוב The owner, Nira.\nהתשובה: Nira.",
       "hint": "חפשו בקטע את המילה refused."
     },
     {
@@ -455,7 +455,7 @@
       "feedback_ok": "it הוא האולם.",
       "feedback_try": "It בא אחרי The hall is clean, לכן הוא the hall.",
       "can_do": "לזהות מילת ייחוס בלי רמז",
-      "worked_method": "מילה כמו it או she מחליפה שם שכבר הופיע. מחפשים את השם במשפט שלפניה.",
+      "worked_method": "חזרו על הכלל: it מצביעה על השם האחרון שהופיע לפניה.\nלפני It כתוב The hall is clean. הגשם והאוטובוס לא מופיעים שם.\nהתשובה: It means the hall.",
       "hint": "it מחליף שם שבא קודם."
     },
     {
@@ -503,7 +503,7 @@
       "feedback_ok": "לפני תשע.",
       "feedback_try": "כתוב She counted empty stalls before nine, כלומר לפני תשע.",
       "can_do": "למצוא זמן מדויק בקטע",
-      "worked_method": "מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "worked_method": "פרט מוצאים במילים עצמן. חפשו בקטע את empty stalls וקראו מה כתוב לידן.\nאחרי empty stalls כתוב before nine.\nהתשובה: before nine.",
       "hint": "חפשו בקטע את המילה nine."
     },
     {
@@ -533,7 +533,7 @@
       "feedback_ok": "רחוק מהאוטובוס.",
       "feedback_try": "כתוב It is also far from the bus, so older buyers stop coming. הסיבה היא המרחק מהאוטובוס.",
       "can_do": "למצוא סיבה שכתובה בקטע",
-      "worked_method": "מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "worked_method": "בשאלת למה חפשו מילת קישור של סיבה, כמו so או because.\nהמשפט It is also far from the bus, so older buyers stop coming נותן את הסיבה.\nהתשובה: The hall is far from the bus.",
       "hint": "חפשו בקטע מה נאמר על הקונים המבוגרים."
     },
     {
@@ -581,7 +581,7 @@
       "feedback_ok": "השכירות משולמת.",
       "feedback_try": "כתוב The council calls the hall a success because the rent is paid. לכן The rent is paid.",
       "can_do": "להסיק איך המועצה מודדת הצלחה",
-      "worked_method": "מחפשים בקטע את המילים מהשאלה, קוראים את המשפט שלהן ובוחרים תשובה שכתובה שם.",
+      "worked_method": "חפשו את השם מהשאלה, כאן the council, ואת המילה because שאחריו.\nבקטע המועצה קוראת לזה הצלחה because the rent is paid.\nהתשובה: The rent is paid.",
       "hint": "לפי מה המועצה מודדת הצלחה?"
     },
     {
@@ -611,7 +611,7 @@
       "feedback_ok": "שהקונה יבחר.",
       "feedback_try": "נירה מסרבת לקופסאות ואומרת שהלקוחות יודעים לבחור אפרסק. היא רוצה לקוחות שבוחרים את הפרי בעצמם.",
       "can_do": "להסיק מה דמות רוצה",
-      "worked_method": "מחברים מה הדמות עושה ומה היא אומרת כדי להבין מה היא רוצה.",
+      "worked_method": "כדי להבין מה דמות רוצה, חברו את מה שהיא עושה למה שהיא אומרת.\nנירה מסרבת לקופסאות ואומרת שהלקוחות יודעים לבחור פרי בעצמם.\nהתשובה: Customers who choose the fruit themselves.",
       "hint": "מה נירה עושה עם הקופסאות, ולמה?"
     },
     {
@@ -659,7 +659,7 @@
       "feedback_ok": "תור.",
       "feedback_try": "a queue at the stall הוא תור של אנשים שמחכים ליד הדוכן.",
       "can_do": "להבין את queue",
-      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "worked_method": "דמיינו את המצב שהמשפט מתאר ובחרו את הפירוש שמתאים לו.\na queue at the stall הוא אנשים שעומדים ליד הדוכן ומחכים.\nהתשובה: a line of people waiting.",
       "hint": "תחשבו על אנשים שעומדים אחד אחרי השני."
     },
     {
@@ -689,7 +689,7 @@
       "feedback_ok": "סירבה.",
       "feedback_try": "She refused the boxes: היא אמרה לא לקופסאות. refused פירושו said no.",
       "can_do": "להבין את refused",
-      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "worked_method": "בדקו מה הדמות עשתה עם הדבר שבמשפט.\nנירה לא לקחה את הקופסאות, כלומר אמרה להן לא.\nהתשובה: said no.",
       "hint": "refused הוא ההפך מ agreed."
     },
     {
@@ -738,7 +738,7 @@
       "feedback_ok": "דוכנים.",
       "feedback_try": "stalls ריקים שמוכרים בהם פירות הם tables where people sell.",
       "can_do": "להבין מילה מהקטע בלי רמז",
-      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "worked_method": "חזרו לשיטה: פירוש של מילה בודקים לפי מה שקורה סביבה בקטע.\nב stalls מוכרים פירות ויש לידם תור, לכן אלה מקומות מכירה.\nהתשובה: tables where people sell.",
       "hint": "בשוק, איפה המוכרים עומדים?"
     },
     {
@@ -768,7 +768,7 @@
       "feedback_ok": "האולם הנקי איבד קונים.",
       "feedback_try": "האולם נקי, אבל רחוק ויקר וקונים מפסיקים לבוא. לכן A clean hall can lose its buyers.",
       "can_do": "לזהות את הטענה של קטע שלם",
-      "worked_method": "הנקודה של הכותב היא מה שכל הקטע מוביל אליו, בעיקר המשפטים האחרונים.",
+      "worked_method": "הנקודה של הכותב היא המסקנה שכל הקטע מוביל אליה, בעיקר בסופו.\nהאולם נקי, אבל הקונים מפסיקים לבוא. האוטובוס והפלסטיק הם רק דוגמאות.\nהתשובה: A clean hall can lose its buyers.",
       "hint": "מה הכותב רוצה שנבין על המעבר לאולם?"
     },
     {

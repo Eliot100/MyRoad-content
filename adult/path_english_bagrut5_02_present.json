@@ -219,7 +219,7 @@
       "feedback_ok": "drinks.",
       "feedback_try": "במשפט יש He, לכן מוסיפים s: He drinks coffee.",
       "can_do": "להוסיף s לפועל עם he",
-      "worked_method": "בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. אחרי I, you, we, they לא מוסיפים. למשל she reads, they read.",
+      "worked_method": "בהווה רגיל מוסיפים s לפועל אחרי he, she, it. למשל Dan cooks.\nבמשפט יש He, לכן drink מקבל s.\nהתשובה: drinks.",
       "hint": "He הוא גוף שלישי יחיד. מה מוסיפים לפועל בהווה?"
     },
     {
@@ -249,7 +249,7 @@
       "feedback_ok": "start.",
       "feedback_try": "במשפט יש They, לכן בלי s: They start early.",
       "can_do": "להשאיר פועל בלי s עם they",
-      "worked_method": "בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. אחרי I, you, we, they לא מוסיפים. למשל she reads, they read.",
+      "worked_method": "אחרי I, you, we, they הפועל נשאר בלי s. למשל we cook.\nבמשפט יש They, לכן start בלי s.\nהתשובה: start.",
       "hint": "They הם רבים. האם מוסיפים s?"
     },
     {
@@ -315,7 +315,7 @@
       "feedback_ok": "There is a book.",
       "feedback_try": "a book הוא ספר אחד, לכן There is a book.",
       "can_do": "להגיד There is על דבר אחד",
-      "worked_method": "There is לדבר אחד, There are ליותר מאחד. למשל There is a cup, There are two cups.",
+      "worked_method": "There is לדבר אחד, There are לכמה דברים. למשל There is a lamp.\na book הוא ספר אחד.\nהתשובה: is.",
       "hint": "יש ספר אחד. איזו צורה הולכת עם דבר אחד?"
     },
     {
@@ -345,7 +345,7 @@
       "feedback_ok": "There are two books.",
       "feedback_try": "two books הם שני ספרים, לכן There are two books.",
       "can_do": "להגיד There are על כמה דברים",
-      "worked_method": "There is לדבר אחד, There are ליותר מאחד. למשל There is a cup, There are two cups.",
+      "worked_method": "There is לדבר אחד, There are לכמה דברים. למשל There are three chairs.\ntwo books הם יותר מספר אחד.\nהתשובה: are.",
       "hint": "יש שני ספרים. איזו צורה הולכת עם רבים?"
     },
     {
@@ -411,7 +411,7 @@
       "feedback_ok": "Do you.",
       "feedback_try": "במשפט יש you, לכן Do: Do you work here?",
       "can_do": "לשאול שאלה עם Do you",
-      "worked_method": "שאלה בהווה פותחים ב Do עם I, you, we, they, ובDoes עם he, she, it. הפועל נשאר בלי s.",
+      "worked_method": "שאלה בהווה פותחת ב Do עם I, you, we, they. למשל Do we need milk?\nבשאלה יש you.\nלכן Do: Do you work here?",
       "hint": "שאלה עם פועל רגיל ו you. איזו מילת עזר?"
     },
     {
@@ -441,7 +441,7 @@
       "feedback_ok": "Does she.",
       "feedback_try": "במשפט יש she, לכן Does, והפועל live בלי s: Does she live here?",
       "can_do": "לשאול שאלה עם Does she",
-      "worked_method": "שאלה בהווה פותחים ב Do עם I, you, we, they, ובDoes עם he, she, it. הפועל נשאר בלי s.",
+      "worked_method": "שאלה בהווה פותחת ב Does עם he, she, it, והפועל נשאר בלי s.\nבשאלה יש she, לכן Does, ו live נשאר כמו שהוא.\nהתשובה: Does she live here?",
       "hint": "שאלה עם she ופועל רגיל. איזו מילת עזר?"
     },
     {
@@ -490,7 +490,7 @@
       "feedback_ok": "works.",
       "feedback_try": "במשפט יש She, לכן מוסיפים s: She works at home.",
       "can_do": "להוסיף s לפועל עם she בלי רמז",
-      "worked_method": "בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. אחרי I, you, we, they לא מוסיפים. למשל she reads, they read.",
+      "worked_method": "חזרו על הכלל: אחרי he, she, it הפועל בהווה מקבל s.\nבמשפט יש She, לכן work נהיה works.\nהתשובה: works.",
       "hint": "She היא גוף שלישי יחיד. מה קורה לפועל?"
     },
     {
@@ -556,7 +556,7 @@
       "feedback_ok": "היא עובדת מהבית.",
       "feedback_try": "המשפט הראשון: Maya works at home. כל השאר מתאר את יום העבודה שלה בבית.",
       "can_do": "להבין את הרעיון של קטע קצר",
-      "worked_method": "קוראים את המשפט הראשון. לרוב הוא אומר על מה כל הקטע.",
+      "worked_method": "כדי למצוא על מה הקטע, קראו את המשפט הראשון ובדקו שהשאר מתאים לו.\nהמשפט הראשון אומר שמאיה עובדת מהבית, וכל השאר מתאר את היום הזה.\nהתשובה: She works at home.",
       "hint": "קראו את המשפט הראשון בקטע."
     },
     {
@@ -586,7 +586,7 @@
       "feedback_ok": "at eight.",
       "feedback_try": "כתוב She starts at eight, כלומר בשמונה. at four היא השעה שבה היא עוצרת.",
       "can_do": "למצוא שעה בתוך קטע",
-      "worked_method": "מחפשים בקטע את המילה starts ואת השעה שאחריה.",
+      "worked_method": "חפשו בקטע את הפועל מהשאלה וקראו מה בא אחריו.\nאחרי starts כתוב at eight. at four היא שעת הסיום.\nהתשובה: at eight.",
       "hint": "חפשו בקטע את המילה starts."
     },
     {
@@ -652,7 +652,7 @@
       "feedback_ok": "does not.",
       "feedback_try": "במשפט יש She, לכן does not: She does not like coffee.",
       "can_do": "לשלול עם she does not",
-      "worked_method": "שלילה בהווה: does not עם he, she, it, ו do not עם I, you, we, they. הפועל בלי s.",
+      "worked_method": "שלילה בהווה עם he, she, it היא does not, והפועל נשאר בלי s. למשל Tom does not swim.\nבמשפט יש She.\nהתשובה: does not.",
       "hint": "שלילה עם she ופועל רגיל. איזו מילת עזר?"
     },
     {
@@ -682,7 +682,7 @@
       "feedback_ok": "do not.",
       "feedback_try": "במשפט יש They, לכן do not: They do not live here.",
       "can_do": "לשלול עם they do not",
-      "worked_method": "שלילה בהווה: do not עם I, you, we, they, ו does not עם he, she, it.",
+      "worked_method": "שלילה בהווה עם I, you, we, they: do not. למשל We do not swim.\nבמשפט יש They. are not work אינו אנגלית תקינה.\nהתשובה: do not.",
       "hint": "They הם רבים. איזו שלילה הולכת איתם?"
     },
     {
@@ -748,7 +748,7 @@
       "feedback_ok": "לפני הפועל.",
       "feedback_try": "walks הוא פועל רגיל, לכן always בא לפניו: She always walks.",
       "can_do": "לשים always לפני הפועל",
-      "worked_method": "מילים כמו always, never באות לפני פועל רגיל. למשל I always read.",
+      "worked_method": "מילים כמו always באות לפני פועל רגיל. למשל Ben always sings.\nהפועל כאן הוא walks, לכן always לפניו.\nהתשובה: She always walks.",
       "hint": "מילים כמו always באות לפני הפועל הרגיל."
     },
     {
@@ -778,7 +778,7 @@
       "feedback_ok": "is never.",
       "feedback_try": "עם he בא is, ו never בא אחריו: He is never late.",
       "can_do": "לשים never אחרי is",
-      "worked_method": "עם am, is, are מילים כמו never באות אחריהם. למשל She is always happy.",
+      "worked_method": "עם am, is, are מילים כמו never באות אחרי הפועל. למשל We are never bored.\nעם He בא is, ו never אחריו.\nהתשובה: is never.",
       "hint": "never בא אחרי is ולפני השאר."
     },
     {
@@ -827,7 +827,7 @@
       "feedback_ok": "There are.",
       "feedback_try": "two books הם יותר מאחד, לכן There are two books.",
       "can_do": "לבחור there are לרבים בלי רמז",
-      "worked_method": "There is לדבר אחד, There are ליותר מאחד. למשל There is a cup, There are two cups.",
+      "worked_method": "חזרו על הכלל: There are כשיש יותר מדבר אחד.\nבמשפט כתוב two books, שני ספרים.\nהתשובה: are.",
       "hint": "כמה ספרים יש? אחד או יותר?"
     },
     {
@@ -857,7 +857,7 @@
       "feedback_ok": "Is there a book.",
       "feedback_try": "a book הוא ספר אחד, לכן Is there a book on the desk?",
       "can_do": "לשאול Is there על דבר אחד",
-      "worked_method": "בשאלה עם there מחליפים סדר: Is there לדבר אחד, Are there ליותר מאחד.",
+      "worked_method": "בשאלה עם there מקדימים את is או are. Is there לדבר אחד, Are there לכמה.\na book הוא ספר אחד.\nהתשובה: Is.",
       "hint": "זו שאלה על ספר אחד עם there."
     },
     {
