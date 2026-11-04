@@ -219,7 +219,7 @@
       "feedback_ok": "s.",
       "feedback_try": "אומרים sun לאט: s, u, n. הצליל הראשון הוא s.",
       "can_do": "לזהות את האות הראשונה במילה",
-      "worked_method": "אומרים את המילה לאט ומקשיבים לצליל הראשון. למשל map נפתחת ב m.",
+      "worked_method": "אמרו את המילה לאט והקשיבו לצליל הראשון. למשל ten נפתחת ב t.\nבמילה sun שומעים s, u, n.\nהתשובה: s.",
       "hint": "אמרו את המילה ושימו לב לצליל הראשון."
     },
     {
@@ -249,7 +249,7 @@
       "feedback_ok": "p.",
       "feedback_try": "אומרים map לאט: m, a, p. הצליל האחרון הוא p.",
       "can_do": "לזהות את האות האחרונה במילה",
-      "worked_method": "אומרים את המילה לאט ומקשיבים לצליל האחרון. למשל sun נגמרת ב n.",
+      "worked_method": "אמרו את המילה לאט והקשיבו לצליל האחרון. למשל cup נגמרת ב p.\nבמילה map שומעים m, a, p.\nהתשובה: p.",
       "hint": "אמרו את המילה ושימו לב לצליל האחרון."
     },
     {
@@ -315,7 +315,7 @@
       "feedback_ok": "I am.",
       "feedback_try": "במשפט יש I, לכן am: I am tired.",
       "can_do": "להגיד I am",
-      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "worked_method": "מצאו מי במשפט. I תמיד הולך עם am.\nבמשפט הזה מדבר I.\nלכן am: I am tired.",
       "hint": "איזו צורה של to be הולכת עם I?"
     },
     {
@@ -345,7 +345,7 @@
       "feedback_ok": "She is.",
       "feedback_try": "במשפט יש She, לכן is: She is at home.",
       "can_do": "להגיד She is",
-      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "worked_method": "מצאו מי במשפט. he או she הולכים עם is.\nבמשפט הזה יש She.\nלכן is: She is at home.",
       "hint": "She היא גוף אחד. איזו צורה הולכת איתה?"
     },
     {
@@ -411,7 +411,7 @@
       "feedback_ok": "They are not.",
       "feedback_try": "במשפט יש They, ועם they בא are. מוסיפים not: They are not ready.",
       "can_do": "לשלול משפט עם they",
-      "worked_method": "שלילה עם am, is, are: כותבים not מיד אחריהם. למשל he is not.",
+      "worked_method": "בשלילה כותבים not מיד אחרי am, is, are.\nעם They בא are, ואחריו not.\nהתשובה: are not.",
       "hint": "They הם רבים. בחרו את הצורה של רבים ואחריה not."
     },
     {
@@ -441,7 +441,7 @@
       "feedback_ok": "I am not.",
       "feedback_try": "עם I בא am, ומוסיפים not: I am not hungry.",
       "can_do": "להגיד I am not",
-      "worked_method": "שלילה עם am, is, are: מוסיפים not אחריהם, בלי do.",
+      "worked_method": "בשלילה עם I כותבים am ואחריו not, בלי do.\nבמשפט יש I, לכן am not.\nהתשובה: I am not hungry.",
       "hint": "שלילה עם I: הצורה של to be ואחריה not."
     },
     {
@@ -490,7 +490,7 @@
       "feedback_ok": "I am.",
       "feedback_try": "במשפט יש I, לכן am: I am a student.",
       "can_do": "לבחור am אחרי I בלי רמז",
-      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "worked_method": "חזרו על הכלל: I עם am, he או she עם is, you, we, they עם are.\nמי שבמשפט הוא I.\nהתשובה: am.",
       "hint": "איזו צורה של to be הולכת עם I?"
     },
     {
@@ -556,7 +556,7 @@
       "feedback_ok": "We are.",
       "feedback_try": "במשפט יש We, ועם we בא are: We are students.",
       "can_do": "להגיד We are",
-      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "worked_method": "we פירושו אנחנו, ו we הולך תמיד עם are.\nבמשפט יש We.\nלכן are: We are students.",
       "hint": "We הם רבים. איזו צורה הולכת איתם?"
     },
     {
@@ -586,7 +586,7 @@
       "feedback_ok": "They are.",
       "feedback_try": "במשפט יש They, ועם they בא are: They are at school.",
       "can_do": "להגיד They are",
-      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "worked_method": "they פירושו הם, ו they הולך תמיד עם are.\nבמשפט יש They.\nלכן are: They are at school.",
       "hint": "They הם רבים. איזו צורה הולכת איתם?"
     },
     {
@@ -652,7 +652,7 @@
       "feedback_ok": "sun.",
       "feedback_try": "s, u, n יחד נותנים sun. bus מתחיל ב b ו son כתוב עם o.",
       "can_do": "לחבר אותיות למילה",
-      "worked_method": "מחברים את האותיות לפי הסדר, צליל אחרי צליל. למשל m, a, p נותן map.",
+      "worked_method": "קראו את האותיות לפי הסדר וחברו את הצלילים. למשל b, e, d נותן bed.\nכאן s, u, n יחד נותנים sun. bus נפתחת ב b, ו son כתובה עם o.\nהתשובה: sun.",
       "hint": "חברו את האותיות לפי הסדר."
     },
     {
@@ -682,7 +682,7 @@
       "feedback_ok": "cat.",
       "feedback_try": "חיה קטנה שאומרת מיאו היא cat, לכן האות החסרה היא a.",
       "can_do": "להשלים אות חסרה במילה",
-      "worked_method": "מנסים כל אות במקום החסר ובודקים איזו מילה מתאימה לרמז.",
+      "worked_method": "נסו כל אות במקום החסר ובדקו איזו מילה מתאימה לרמז.\nחיה קטנה שאומרת מיאו היא cat. עם o יוצא cot, ועם u יוצא cut.\nהתשובה: a.",
       "hint": "איזו חיה עושה meow? אמרו את שמה באנגלית."
     },
     {
@@ -748,7 +748,7 @@
       "feedback_ok": "יש I ויש am.",
       "feedback_try": "I am here יש בו מי (I) ופועל (am). בשניים האחרים חסר אחד מהם.",
       "can_do": "לזהות משפט שלם",
-      "worked_method": "משפט שלם צריך מי (I, she...) ופועל (am, is...). למשל She is here.",
+      "worked_method": "בכל משפט שלם יש מי שעושה ויש פועל. למשל He is tall.\nב Am here חסר מי, וב I here חסר פועל.\nהתשובה: I am here.",
       "hint": "משפט שלם צריך מי שעושה ופועל."
     },
     {
@@ -778,7 +778,7 @@
       "feedback_ok": "I גדולה.",
       "feedback_try": "לפני am צריך מי שעושה, וזה I באות גדולה: I am a student.",
       "can_do": "לכתוב I באות גדולה",
-      "worked_method": "משפט נפתח באות גדולה, ו I תמיד כתובה גדולה.",
+      "worked_method": "לפני am צריך את I, ו I נכתבת תמיד באות גדולה.\ni קטנה אינה נכונה, ו am כבר כתוב במשפט.\nהתשובה: I.",
       "hint": "I היא המילה שאומרת אני. איך כותבים אותה תמיד?"
     },
     {
@@ -827,7 +827,7 @@
       "feedback_ok": "You are.",
       "feedback_try": "במשפט יש You, לכן are: You are ready.",
       "can_do": "לבחור are אחרי you בלי רמז",
-      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "worked_method": "חזרו על הכלל: you הולך תמיד עם are, גם כשמדברים אל אדם אחד.\nבמשפט יש You.\nהתשובה: are.",
       "hint": "איזו צורה של to be הולכת עם you?"
     },
     {
@@ -857,7 +857,7 @@
       "feedback_ok": "They are not.",
       "feedback_try": "במשפט יש They, ועם they בא are: They are not late.",
       "can_do": "לשלול משפט עם they are not",
-      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "worked_method": "בשלילה הפועל נשאר כמו במשפט רגיל, ו not בא אחריו.\nעם They בא are, ואחריו כבר כתוב not.\nהתשובה: are.",
       "hint": "They הם רבים. איזו צורה של to be באה לפני not?"
     },
     {

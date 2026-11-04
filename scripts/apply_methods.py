@@ -40,6 +40,7 @@ def apply_doc(d: dict, name: str | None = None) -> list[str]:
     name = name or d["id"].removeprefix("path_")
     table = load(name) or {}
     hints = load(name, "hints", "H") or {}
+    worked = load(name, "worked", "W") or {}  # scripts/worked/<name>.py: full step by step solution
     can = load(name, "can_do", "C")
     missing = []
     if can is not None:  # scripts/can_do/<name>.py: the 'now you can' line, on every step
@@ -65,9 +66,11 @@ def apply_doc(d: dict, name: str | None = None) -> list[str]:
             if table and not base:
                 missing.append(nid)
             continue
+        if worked and not (worked.get(nid) or worked.get(base)):
+            missing.append(f"{nid} (worked)")
         method, why = row
         n["body_he"] = n["body_he"].split(MARK)[0]
-        n["worked_method"] = method.removeprefix(PREFIX)
+        n["worked_method"] = worked.get(nid) or worked.get(base) or method.removeprefix(PREFIX)
         n["feedback_try"] = why
         if hints:
             h = hints.get(nid) or hints.get(base)

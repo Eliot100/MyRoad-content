@@ -177,7 +177,7 @@
       "area": "vocabulary",
       "difficulty": -3.0,
       "can_do": "לזהות את האות שפותחת מילה",
-      "worked_method": "אומרים את המילה לאט ומקשיבים לצליל הראשון. למשל bed נפתחת בצליל b.",
+      "worked_method": "אמרו את המילה לאט, צליל אחרי צליל. למשל lamp: l, a, m, p.\nבמילה cat שומעים c, a, t. הצליל הראשון הוא c.\nהתשובה: c.",
       "hint": "אמרו את המילה לאט ושימו לב לצליל הראשון."
     },
     {
@@ -209,7 +209,7 @@
       "area": "vocabulary",
       "difficulty": -2.5,
       "can_do": "לשמוע את הצליל שסוגר מילה",
-      "worked_method": "אומרים את המילה לאט ומקשיבים לצליל האחרון. למשל pen נגמרת בצליל n.",
+      "worked_method": "אמרו את המילה לאט והקשיבו לצליל שבסוף. למשל fox נגמרת ב x.\nבמילה dog שומעים d, o, g. הצליל האחרון הוא g.\nהתשובה: g.",
       "hint": "אמרו את המילה ושימו לב לצליל האחרון."
     },
     {
@@ -250,7 +250,7 @@
       "area": "grammar",
       "difficulty": -2.0,
       "can_do": "להשלים am אחרי I",
-      "worked_method": "בוחרים לפי מי שבמשפט. I הולך עם am, he או she עם is, you, we, they עם are.",
+      "worked_method": "התאימו את הפועל למי שבמשפט: I עם am, he או she עם is, you, we, they עם are.\nבמשפט הזה מי שמדבר הוא I.\nלכן am: I am a student.",
       "hint": "לכל גוף יש צורה משלו של to be. מה הולך עם I?"
     },
     {
@@ -282,7 +282,7 @@
       "area": "grammar",
       "difficulty": -1.5,
       "can_do": "להשלים are אחרי you",
-      "worked_method": "I הולך עם am, he או she עם is, you, we, they עם are.",
+      "worked_method": "התאימו את הפועל למי שבמשפט: I עם am, he או she עם is, you, we, they עם are.\nבמשפט הזה יש You.\nלכן are: You are ready.",
       "hint": "איזו צורה של to be הולכת עם you?"
     },
     {
@@ -323,7 +323,7 @@
       "area": "grammar",
       "difficulty": -1.0,
       "can_do": "להוסיף s לפועל אחרי he",
-      "worked_method": "בהווה רגיל, אחרי he, she, it מוסיפים s לפועל. למשל she reads.",
+      "worked_method": "בהווה רגיל מוסיפים s לפועל אחרי he, she, it. למשל Tom plays.\nבמשפט יש He, וזה פעולה שחוזרת כל יום.\nלכן works: He works every day.",
       "hint": "He הוא גוף שלישי יחיד. מה קורה לפועל בהווה?"
     },
     {
@@ -355,7 +355,7 @@
       "area": "grammar",
       "difficulty": -0.5,
       "can_do": "לפתוח שאלה בהווה ב Do",
-      "worked_method": "שאלה בהווה פותחים ב Do עם I, you, we, they, ובDoes עם he, she, it.",
+      "worked_method": "שאלה בהווה פותחת ב Do עם I, you, we, they, וב Does עם he, she, it.\nבשאלה הזו יש you.\nלכן Do: Do you live here?",
       "hint": "זו שאלה בהווה עם you. איזו מילת עזר פותחת אותה?"
     },
     {
@@ -396,7 +396,7 @@
       "area": "grammar",
       "difficulty": 0.0,
       "can_do": "לבחור פועל בעבר למשפט על אתמול",
-      "worked_method": "מילת הזמן קובעת. yesterday היא עבר, ופועל רגיל בעבר מקבל ed. למשל walked.",
+      "worked_method": "חפשו את מילת הזמן. yesterday היא עבר, ופועל רגיל מקבל ed. למשל play נהיה played.\nopen הוא פועל רגיל, לכן מוסיפים ed.\nהתשובה: opened.",
       "hint": "Yesterday אומר עבר. איזו צורה של הפועל מתאימה?"
     },
     {
@@ -428,7 +428,7 @@
       "area": "grammar",
       "difficulty": 0.5,
       "can_do": "לבחור will למשפט על מחר",
-      "worked_method": "tomorrow היא עתיד. בעתיד כותבים will ואחריו הפועל בלי שינוי. למשל will go.",
+      "worked_method": "חפשו את מילת הזמן. tomorrow היא עתיד: will ואחריו הפועל בלי שינוי. למשל will eat.\nכאן הפועל הוא leave.\nהתשובה: will leave.",
       "hint": "Tomorrow אומר עתיד. איזו מילה מסמנת עתיד?"
     },
     {
@@ -469,7 +469,7 @@
       "area": "grammar",
       "difficulty": 1.0,
       "can_do": "לבחור the לדבר שכבר הוזכר",
-      "worked_method": "a או an בפעם הראשונה שמזכירים משהו. the כשהוא כבר הוזכר.",
+      "worked_method": "בפעם הראשונה כותבים a או an. כשהדבר כבר הוזכר כותבים the.\nהכלב הופיע כבר במשפט הראשון, a dog.\nלכן בפעם השנייה: The.",
       "hint": "הכלב כבר הוזכר במשפט הקודם. איזו מילה באה לפני דבר מוכר?"
     },
     {
@@ -501,7 +501,7 @@
       "area": "grammar",
       "difficulty": 1.5,
       "can_do": "לבחור עבר רגיל עם last week",
-      "worked_method": "זמן גמור בעבר כמו last week או yesterday הולך עם עבר רגיל, בלי have.",
+      "worked_method": "זמן שכבר נגמר, כמו last week, הולך עם עבר רגיל בלי have.\nבמשפט יש last week, לכן צריך את lost.\nהתשובה: I lost my key last week.",
       "hint": "last week הוא זמן שנגמר. איזה זמן מתאים לו?"
     },
     {
@@ -542,7 +542,7 @@
       "area": "reading",
       "difficulty": 1.0,
       "can_do": "למצוא את הרעיון המרכזי בקטע",
-      "worked_method": "הרעיון המרכזי עונה על השאלה מה קרה בכל הקטע, לא פרט אחד.",
+      "worked_method": "שאלו מה קרה בכל הקטע מההתחלה ועד הסוף, ולא פרט אחד.\nבקטע תלמידים פנו לעירייה, והספרייה נשארה פתוחה עד הערב.\nהתשובה: Students kept a library open in the evening.",
       "hint": "חפשו מה התלמידים עשו בקטע ומה קרה לספרייה."
     },
     {
@@ -574,7 +574,7 @@
       "area": "reading",
       "difficulty": 2.0,
       "can_do": "למצוא פרט על דמות בקטע",
-      "worked_method": "מחפשים בקטע את השם ומה כתוב עליו מיד אחריו.",
+      "worked_method": "מצאו בקטע את השם מהשאלה וקראו מה כתוב מיד אחריו.\nליד מר כהן כתוב שהוא מקשיב ושואל שאלה אחת.\nהתשובה: He listens and asks one question.",
       "hint": "חפשו בקטע את המשפט שבו מופיע מר כהן."
     },
     {
@@ -606,7 +606,7 @@
       "area": "reading",
       "difficulty": 2.5,
       "can_do": "להסיק סיבה ממה שכתוב בקטע",
-      "worked_method": "בשאלת למה מחפשים בקטע משפט שנותן סיבה, ובוחרים תשובה שנשענת עליו.",
+      "worked_method": "בשאלת למה מצאו בקטע את המשפט שנותן סיבה.\nהקטע מספר שבערבי לימודים מלא, ובשישי שקט. נעילה וחוסר ספרים לא מופיעים.\nהתשובה: The text says school nights are full and Fridays are quiet.",
       "hint": "חפשו בקטע מה נאמר על ימי שישי ועל ערבי לימודים."
     },
     {
@@ -638,7 +638,7 @@
       "area": "vocabulary",
       "difficulty": 1.5,
       "can_do": "להבין מילה לפי ההקשר",
-      "worked_method": "קוראים את המשפט שסביב המילה ובודקים איזה פירוש מתאים לו.",
+      "worked_method": "קראו את המשפט שסביב המילה ובדקו איזה פירוש מתאים לו.\nה neighbours הביאו ספרים, כלומר אנשים מהסביבה.\nהתשובה: people who live nearby.",
       "hint": "קראו את המשפט שבו מופיעה המילה ונסו לנחש לפי ההקשר."
     },
     {
@@ -679,7 +679,7 @@
       "area": "writing",
       "difficulty": 1.5,
       "can_do": "לזהות משפט שלם עם דעה",
-      "worked_method": "משפט שלם צריך מי שעושה ופועל, ורעיון שנגמר. Because לבד משאיר את הרעיון פתוח.",
+      "worked_method": "משפט שלם צריך מי שעושה, פועל ורעיון שנגמר.\nBecause the library ו Should stay חסרים. רק באפשרות הראשונה יש I, think ורעיון שלם.\nהתשובה: I think the library should stay open.",
       "hint": "משפט שלם צריך מי שעושה ופועל, ורעיון שלם."
     },
     {
@@ -711,7 +711,7 @@
       "area": "writing",
       "difficulty": 2.0,
       "can_do": "לבחור פתיחה ברורה לחיבור קצר",
-      "worked_method": "פתיחה טובה אומרת את הדעה במשפט שלם אחד. In my opinion היא פתיחה נפוצה.",
+      "worked_method": "פתיחה טובה אומרת את הדעה במשפט שלם וברור.\nבדקו כל אפשרות: רק אחת היא משפט עם דעה, השתיים האחרות הן מילים בלי סדר.\nהתשובה: In my opinion, evening hours help students.",
       "hint": "פתיחה טובה אומרת את הדעה שלכם במשפט שלם."
     },
     {

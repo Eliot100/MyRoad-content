@@ -219,7 +219,7 @@
       "feedback_ok": "sent.",
       "feedback_try": "Yesterday היא עבר. send בעבר הוא sent: Yesterday he sent the letter.",
       "can_do": "לבחור פועל בעבר",
-      "worked_method": "מילת הזמן קובעת. yesterday היא עבר. פועל רגיל בעבר מקבל ed, למשל walked, ויש פעלים שמשתנים, למשל go נהיה went.",
+      "worked_method": "חפשו את מילת הזמן. yesterday היא עבר. יש פעלים שמשתנים בעבר, למשל buy נהיה bought.\nsend משתנה בעבר ל sent.\nהתשובה: sent.",
       "hint": "Yesterday אומר עבר. מה צורת העבר של send?"
     },
     {
@@ -249,7 +249,7 @@
       "feedback_ok": "did not go.",
       "feedback_try": "זה עבר, לכן did: She did not go.",
       "can_do": "לשלול בעבר עם did not",
-      "worked_method": "שלילה בעבר: did not ואחריו הפועל בלי שינוי. למשל I did not see.",
+      "worked_method": "שלילה בעבר: did not, ואחריו הפועל בלי שינוי. למשל We did not eat.\nכאן הפועל go נשאר כמו שהוא.\nהתשובה: did.",
       "hint": "שלילה בעבר: מילת העזר של עבר ואחריה not."
     },
     {
@@ -315,7 +315,7 @@
       "feedback_ok": "will leave.",
       "feedback_try": "Tomorrow היא מחר, לכן will leave: Tomorrow I will leave early.",
       "can_do": "להגיד מה תעשו מחר עם will",
-      "worked_method": "tomorrow היא עתיד. כותבים will ואחריו הפועל בלי שינוי. למשל will go.",
+      "worked_method": "tomorrow היא עתיד. כותבים will ואחריו הפועל בלי שינוי. למשל will swim.\nleave לבד הוא הווה, ו left הוא עבר.\nהתשובה: will leave.",
       "hint": "Tomorrow אומר עתיד. איזו מילה מסמנת עתיד?"
     },
     {
@@ -345,7 +345,7 @@
       "feedback_ok": "are catching.",
       "feedback_try": "זו תוכנית קבועה לשבע. עם We בא are, ואחריו catching: We are catching the bus at seven.",
       "can_do": "לתאר תוכנית קרובה עם ing",
-      "worked_method": "לתוכנית קרובה שכבר סגורה משתמשים בam, is, are ופועל עם ing. למשל I am meeting her at six.",
+      "worked_method": "לתוכנית קרובה שכבר נקבעה כותבים am, is, are ופועל עם ing. למשל She is flying on Monday.\nעם We בא are, ו catch נהיה catching.\nהתשובה: are catching.",
       "hint": "תוכנית קרובה שכבר סגורה. איזו צורה עם ing?"
     },
     {
@@ -411,7 +411,7 @@
       "feedback_ok": "נדיבות קטנה שחוזרת.",
       "feedback_try": "בהתחלה אישה זרה נותנת לג'ונה חצי תפוז. בבוקר הוא משאיר שקית תפוזים. כלומר הוא מחזיר טובה.",
       "can_do": "להבין מה קורה בסיפור קצר",
-      "worked_method": "הרעיון המרכזי מסכם את כל הסיפור: מה קרה בהתחלה ומה בסוף.",
+      "worked_method": "הרעיון המרכזי מחבר את ההתחלה לסוף הסיפור.\nבתחילת הסיפור אישה שג'ונה לא מכיר חולקת איתו תפוז. בסוף הוא משאיר לה שקית תפוזים.\nהתשובה: A stranger shares an orange, and Jonah returns the kindness.",
       "hint": "מה האישה נותנת ליונה, ומה הוא עושה בסוף?"
     },
     {
@@ -441,7 +441,7 @@
       "feedback_ok": "הנדיבות לא צריכה שם.",
       "feedback_try": "ג'ונה לא יודע את שם האישה, אבל רוצה להחזיר טובה. לכן מספיק for the bus. אין בקטע שהוא לא יודע לכתוב.",
       "can_do": "להסיק למה דמות עושה משהו",
-      "worked_method": "בשאלת למה מחברים פרטים מהקטע לסיבה שהגיונית לפיהם.",
+      "worked_method": "בשאלת למה חברו פרטים מהסיפור לסיבה הגיונית, בלי להמציא.\nג'ונה לא יודע איך קוראים לאישה, ובכל זאת רוצה להודות לה. אין בסיפור שהוא לא יודע לכתוב.\nהתשובה: He does not need her name to return the kindness.",
       "hint": "מה יונה רוצה לעשות עם הפתק?"
     },
     {
@@ -490,7 +490,7 @@
       "feedback_ok": "walked.",
       "feedback_try": "Yesterday היא עבר. walk בעבר הוא walked: Yesterday he walked home.",
       "can_do": "להוסיף ed לפועל רגיל בעבר",
-      "worked_method": "מילת הזמן קובעת. yesterday היא עבר. פועל רגיל בעבר מקבל ed, למשל walked, ויש פעלים שמשתנים, למשל go נהיה went.",
+      "worked_method": "חזרו על הכלל: yesterday היא עבר, ופועל רגיל מקבל ed.\nwalk הוא פועל רגיל, לכן walked.\nהתשובה: walked.",
       "hint": "Yesterday אומר עבר. מה מוסיפים לפועל רגיל?"
     },
     {
@@ -556,7 +556,7 @@
       "feedback_ok": "went.",
       "feedback_try": "go משתנה בעבר לwent: Yesterday she went home. אין מילה goed.",
       "can_do": "להגיד went בעבר של go",
-      "worked_method": "מילת הזמן קובעת. yesterday היא עבר. פועל רגיל בעבר מקבל ed, למשל walked, ויש פעלים שמשתנים, למשל go נהיה went.",
+      "worked_method": "go הוא פועל שמשתנה בעבר. לא מוסיפים לו ed.\nבעבר go נהיה went, ואין מילה goed.\nהתשובה: went.",
       "hint": "go הוא פועל לא רגיל. מה צורת העבר שלו?"
     },
     {
@@ -586,7 +586,7 @@
       "feedback_ok": "saw.",
       "feedback_try": "see בעבר הוא saw: I saw the note.",
       "can_do": "להגיד saw בעבר של see",
-      "worked_method": "יש פעלים שמשתנים בעבר. see נהיה saw. seen בא רק אחרי have.",
+      "worked_method": "see משתנה בעבר ל saw. הצורה seen באה רק אחרי have או has.\nאין כאן have, ו seed אינה צורה של see.\nהתשובה: saw.",
       "hint": "see הוא פועל לא רגיל. מה העבר שלו?"
     },
     {
@@ -652,7 +652,7 @@
       "feedback_ok": "ago.",
       "feedback_try": "two days ago פירושו לפני יומיים: I met him two days ago.",
       "can_do": "להגיד לפני כמה זמן עם ago",
-      "worked_method": "ago בא אחרי משך זמן ומשמעו לפני. למשל three years ago.",
+      "worked_method": "ago בא אחרי משך זמן ופירושו לפני. למשל five minutes ago.\ntwo days ago פירושו לפני יומיים.\nהתשובה: ago.",
       "hint": "איזו מילה באה אחרי משך זמן ואומרת לפני?"
     },
     {
@@ -682,7 +682,7 @@
       "feedback_ok": "Tomorrow.",
       "feedback_try": "I will call הוא עתיד, לכן Tomorrow: Tomorrow I will call.",
       "can_do": "לפתוח משפט עתיד ב Tomorrow",
-      "worked_method": "will הוא עתיד, לכן מילת הזמן צריכה להיות על משהו שעוד יקרה.",
+      "worked_method": "התאימו את מילת הזמן לזמן של הפועל. will הוא עתיד.\nYesterday היא עבר, ו Ago לא פותחת משפט. רק Tomorrow מתאימה לעתיד.\nהתשובה: Tomorrow.",
       "hint": "I will call הוא עתיד. איזו מילת זמן מתאימה?"
     },
     {
@@ -748,7 +748,7 @@
       "feedback_ok": "Jonah.",
       "feedback_try": "כתוב Jonah missed the last bus and waited. מי שחיכה הוא Jonah.",
       "can_do": "למצוא מי עשה מה בסיפור",
-      "worked_method": "מחפשים בקטע את המילים מהשאלה ובוחרים תשובה שכתובה שם, לא ניחוש.",
+      "worked_method": "חפשו בקטע את הפועל מהשאלה וקראו מי עשה אותו.\nליד waited כתוב Jonah. הנהג ומר כהן לא מופיעים בסיפור.\nהתשובה: Jonah.",
       "hint": "חפשו בקטע את המילה waited."
     },
     {
@@ -778,7 +778,7 @@
       "feedback_ok": "מתחת לאור של בית המרקחת.",
       "feedback_try": "כתוב waited under the pharmacy light, כלומר מתחת לאור של בית המרקחת.",
       "can_do": "למצוא איפה זה קרה בסיפור",
-      "worked_method": "מחפשים בקטע את המילים מהשאלה ובוחרים תשובה שכתובה שם, לא ניחוש.",
+      "worked_method": "בשאלת איפה חפשו מילת מקום אחרי הפועל.\nאחרי waited כתוב under the pharmacy light.\nהתשובה: under the pharmacy light.",
       "hint": "חפשו בקטע איפה יונה חיכה."
     },
     {
@@ -827,7 +827,7 @@
       "feedback_ok": "will leave.",
       "feedback_try": "Tomorrow היא מחר, לכן will leave: Tomorrow we will leave early.",
       "can_do": "לבחור will למחר בלי רמז",
-      "worked_method": "tomorrow היא עתיד. כותבים will ואחריו הפועל בלי שינוי. למשל will go.",
+      "worked_method": "חזרו על הכלל: מילה של עתיד הולכת עם will והפועל בלי שינוי.\nבמשפט יש Tomorrow, לכן will leave.\nהתשובה: will leave.",
       "hint": "Tomorrow אומר עתיד. איזו מילה מסמנת עתיד?"
     },
     {
@@ -857,7 +857,7 @@
       "feedback_ok": "will leave.",
       "feedback_try": "Tomorrow היא מחר, לכן will leave: Tomorrow we will leave early.",
       "can_do": "להבחין בין עבר, הווה ועתיד",
-      "worked_method": "tomorrow היא עתיד. כותבים will ואחריו הפועל בלי שינוי. למשל will go.",
+      "worked_method": "בדקו את מילת הזמן קודם. left הוא עבר, ו leaves הוא הווה.\nTomorrow פירושו מחר, כלומר עתיד, ולכן צריך will.\nהתשובה: will leave.",
       "hint": "Tomorrow אומר עתיד. איזו מילה מסמנת עתיד?"
     },
     {
