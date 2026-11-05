@@ -31,8 +31,9 @@
       "emoji": "א",
       "node_ids": [
         "g_t_read_learn",
-        "g_t_read_ex1",
-        "g_t_read_ex2",
+        "g_t_read_learn_ex1",
+        "g_t_read_learn_ex2",
+        "g_t_read_learn_ex3",
         "g_t_read_idea",
         "g_t_read_purpose"
       ]
@@ -46,6 +47,9 @@
       "emoji": "ב",
       "node_ids": [
         "g_t_essay_learn",
+        "g_t_essay_learn_ex1",
+        "g_t_essay_learn_ex2",
+        "g_t_essay_learn_ex3",
         "g_t_essay_open",
         "g_t_essay_org"
       ]
@@ -59,6 +63,9 @@
       "emoji": "ג",
       "node_ids": [
         "g_t_rubric_learn",
+        "g_t_rubric_learn_ex1",
+        "g_t_rubric_learn_ex2",
+        "g_t_rubric_learn_ex3",
         "g_t_rubric_len",
         "g_t_rubric_chk"
       ]
@@ -84,6 +91,9 @@
       "emoji": "ד",
       "node_ids": [
         "g_t_body_learn",
+        "g_t_body_learn_ex1",
+        "g_t_body_learn_ex2",
+        "g_t_body_learn_ex3",
         "g_t_body_p1",
         "g_t_body_p2"
       ]
@@ -97,6 +107,9 @@
       "emoji": "ה",
       "node_ids": [
         "g_t_close_learn",
+        "g_t_close_learn_ex1",
+        "g_t_close_learn_ex2",
+        "g_t_close_learn_ex3",
         "g_t_close_p1",
         "g_t_close_p2"
       ]
@@ -110,6 +123,9 @@
       "emoji": "ו",
       "node_ids": [
         "g_t_words_learn",
+        "g_t_words_learn_ex1",
+        "g_t_words_learn_ex2",
+        "g_t_words_learn_ex3",
         "g_t_words_p1",
         "g_t_words_p2"
       ]
@@ -150,22 +166,31 @@
       "can_do": "לקרוא טיעון בקטע של מודול G"
     },
     {
-      "id": "g_t_read_ex1",
+      "id": "g_t_read_learn_ex1",
       "type": "learn",
       "kind": "understanding",
-      "title": "דוגמה: איפה הבעיה",
-      "body_he": "בערים רבות החדר הוא מה שנכשל. נגר יכול לשאול כלים, אבל לא שכר דירה שמוכפל בתוך שנה.",
-      "body_content": "In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year.",
-      "can_do": "למצוא את הבעיה שהכותב מציג"
+      "title": "דוגמה: מה נכשל",
+      "body_he": "מחפשים מה הכותב אומר שנכשל. כאן: החדר והשכירות, לא הכלים.",
+      "body_content": "In many towns the shared room fails first. Tools can be borrowed. A doubled rent cannot.",
+      "can_do": "דוגמה: מה נכשל"
     },
     {
-      "id": "g_t_read_ex2",
+      "id": "g_t_read_learn_ex2",
       "type": "learn",
       "kind": "understanding",
       "title": "דוגמה: לא צדקה",
-      "body_he": "הכותב אומר במפורש שזו לא צדקה. העיר שומרת אצלה עובד שאחרת היה עוזב עם המקצוע שלו.",
-      "body_content": "The idea is not charity. The city keeps a worker who would otherwise take the skill to another place.",
-      "can_do": "להבין מה הכותב טוען ומה לא"
+      "body_he": "הכותב שולל צדקה במפורש. העיר שומרת עובד שהיה עוזב עם המקצוע.",
+      "body_content": "The plan is not charity. The town keeps a skilled worker who would otherwise leave.",
+      "can_do": "דוגמה: לא צדקה"
+    },
+    {
+      "id": "g_t_read_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: חובה ותשלום",
+      "body_he": "סדנאות שנמשכו גבו תשלום קטן ודרשו שעה של הוראה. זו השיטה בטקסט.",
+      "body_content": "Workshops that lasted charged a small fee and asked each member to teach one hour a month.",
+      "can_do": "דוגמה: חובה ותשלום"
     },
     {
       "id": "g_t_read_idea",
@@ -237,6 +262,33 @@
       "can_do": "לתכנן חיבור דעה של 120 עד 140 מילים"
     },
     {
+      "id": "g_t_essay_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: פתיחה עם דעה",
+      "body_he": "לא פותחים בBecause. פותחים בדעה ברורה במשפט שלם.",
+      "body_content": "In my opinion, a shared workshop should charge a small monthly fee.",
+      "can_do": "דוגמה: פתיחה עם דעה"
+    },
+    {
+      "id": "g_t_essay_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: שתי סיבות",
+      "body_he": "אחרי הפתיחה באות שתי סיבות מלאות, לא מילה אחת.",
+      "body_content": "A fee keeps the lease stable. A teaching hour keeps skills inside the town.",
+      "can_do": "דוגמה: שתי סיבות"
+    },
+    {
+      "id": "g_t_essay_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: אורך יעד",
+      "body_he": "היעד הוא 120 עד 140 מילים עם פתיחה, שתי סיבות וסיום.",
+      "body_content": "Aim for 120 to 140 words: opening, two reasons, and a closing line.",
+      "can_do": "דוגמה: אורך יעד"
+    },
+    {
       "id": "g_t_essay_open",
       "type": "practice",
       "kind": "understanding",
@@ -304,6 +356,33 @@
       "body_he": "תוכן ושכנוע, ארגון, אוצר מילים, ודיוק. אורך קצר מדי יורד לחוד, לא במקום התוכן.",
       "body_content": "Content, organization, vocabulary, accuracy, and length.",
       "can_do": "להבין לפי מה בודקים חיבור"
+    },
+    {
+      "id": "g_t_rubric_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: תוכן וארגון",
+      "body_he": "תוכן הוא הדעה והסיבות. ארגון הוא פתיחה, גוף וסיום.",
+      "body_content": "Content is the opinion and reasons. Organization is opening, body, and close.",
+      "can_do": "דוגמה: תוכן וארגון"
+    },
+    {
+      "id": "g_t_rubric_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: אורך לחוד",
+      "body_he": "אורך קצר מדי יורד בנפרד. הוא לא מחליף ציון תוכן.",
+      "body_content": "A short essay loses length points on their own. Content is scored separately.",
+      "can_do": "דוגמה: אורך לחוד"
+    },
+    {
+      "id": "g_t_rubric_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: דיוק בחיבור",
+      "body_he": "בחיבור הדיוק נספר. טעות דקדוק חוזרת פוגעת בציון.",
+      "body_content": "In the essay, accuracy counts. Repeated grammar errors lower the score.",
+      "can_do": "דוגמה: דיוק בחיבור"
     },
     {
       "id": "g_t_rubric_len",
@@ -424,6 +503,33 @@
       "can_do": "לכתוב גוף חיבור עם שתי סיבות"
     },
     {
+      "id": "g_t_body_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: סיבה ראשונה",
+      "body_he": "כל סיבה במשפט שלם אחרי הפתיחה, לא ברשימת תבליטים.",
+      "body_content": "First, a small fee covers the monthly rent for the shared room.",
+      "can_do": "דוגמה: סיבה ראשונה"
+    },
+    {
+      "id": "g_t_body_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: סיבה שנייה",
+      "body_he": "הסיבה השנייה מוסיפה רעיון חדש, לא חוזרת על הראשונה באותן מילים.",
+      "body_content": "Second, asking each member to teach one hour keeps rare skills in town.",
+      "can_do": "דוגמה: סיבה שנייה"
+    },
+    {
+      "id": "g_t_body_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: קישור",
+      "body_he": "מילות קישור פשוטות כמו First וSecond מספיקות. אין צורך ברשימה ארוכה.",
+      "body_content": "Simple linkers such as First and Second are enough for a clear body.",
+      "can_do": "דוגמה: קישור"
+    },
+    {
       "id": "g_t_body_p1",
       "type": "practice",
       "kind": "understanding",
@@ -493,6 +599,33 @@
       "can_do": "לסגור חיבור בלי להעתיק את הפתיחה"
     },
     {
+      "id": "g_t_close_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: חזרה לדעה",
+      "body_he": "הסיום חוזר לדעה בלי להעתיק את הפתיחה מילה במילה.",
+      "body_content": "For these reasons, a small fee and a teaching hour make the workshop last.",
+      "can_do": "דוגמה: חזרה לדעה"
+    },
+    {
+      "id": "g_t_close_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: לא סיפור חדש",
+      "body_he": "הסיום לא פותח נושא חדש. הוא סוגר את מה שכבר נאמר.",
+      "body_content": "The closing line restates the opinion. It does not start a new story.",
+      "can_do": "דוגמה: לא סיפור חדש"
+    },
+    {
+      "id": "g_t_close_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: משפט אחד חזק",
+      "body_he": "משפט סיום אחד ברור עדיף על שני משפטים חלשים.",
+      "body_content": "One clear closing sentence is better than two weak ones.",
+      "can_do": "דוגמה: משפט אחד חזק"
+    },
+    {
       "id": "g_t_close_p1",
       "type": "practice",
       "kind": "understanding",
@@ -560,6 +693,33 @@
       "body_he": "שלוש מילים מהקטע, לשימוש בחיבור. לא רשימה רשמית.",
       "body_content": "lease, duty, fee",
       "can_do": "להשתמש במילים מהקטע בחיבור"
+    },
+    {
+      "id": "g_t_words_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: שלוש מילים בשימוש",
+      "body_he": "בוחרים שלוש מילים מהקטע ומשלבים בחיבור, לא ברשימה.",
+      "body_content": "lease, skill, fee",
+      "can_do": "דוגמה: שלוש מילים בשימוש"
+    },
+    {
+      "id": "g_t_words_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: משפט עם המילים",
+      "body_he": "כותבים משפט דעה שמשתמש בשלוש המילים בהקשר נכון.",
+      "body_content": "A fair fee protects the lease and keeps skill in the town.",
+      "can_do": "דוגמה: משפט עם המילים"
+    },
+    {
+      "id": "g_t_words_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: לא להעתיק שורה",
+      "body_he": "אין מעתיקים משפט מהקטע. משתמשים במילים במבנה שלכם.",
+      "body_content": "Use the words in your own sentence shape, not a copied line from the passage.",
+      "can_do": "דוגמה: לא להעתיק שורה"
     },
     {
       "id": "g_t_words_p1",

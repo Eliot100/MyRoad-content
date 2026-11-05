@@ -31,7 +31,9 @@
       "emoji": "א",
       "node_ids": [
         "ex_t_mix_learn",
-        "ex_t_mix_ex1",
+        "ex_t_mix_learn_ex1",
+        "ex_t_mix_learn_ex2",
+        "ex_t_mix_learn_ex3",
         "ex_t_mix_idea",
         "ex_t_mix_vocab"
       ]
@@ -45,6 +47,9 @@
       "emoji": "ב",
       "node_ids": [
         "ex_t_write_learn",
+        "ex_t_write_learn_ex1",
+        "ex_t_write_learn_ex2",
+        "ex_t_write_learn_ex3",
         "ex_t_write_shape",
         "ex_t_write_chk"
       ]
@@ -58,6 +63,9 @@
       "emoji": "ג",
       "node_ids": [
         "ex_t_oral_learn",
+        "ex_t_oral_learn_ex1",
+        "ex_t_oral_learn_ex2",
+        "ex_t_oral_learn_ex3",
         "ex_t_oral_say"
       ]
     },
@@ -82,6 +90,9 @@
       "emoji": "ד",
       "node_ids": [
         "ex_t_read2_learn",
+        "ex_t_read2_learn_ex1",
+        "ex_t_read2_learn_ex2",
+        "ex_t_read2_learn_ex3",
         "ex_t_read2_p1",
         "ex_t_read2_p2"
       ]
@@ -95,6 +106,9 @@
       "emoji": "ה",
       "node_ids": [
         "ex_t_write2_learn",
+        "ex_t_write2_learn_ex1",
+        "ex_t_write2_learn_ex2",
+        "ex_t_write2_learn_ex3",
         "ex_t_write2_p1",
         "ex_t_write2_p2"
       ]
@@ -108,6 +122,9 @@
       "emoji": "ו",
       "node_ids": [
         "ex_t_last_learn",
+        "ex_t_last_learn_ex1",
+        "ex_t_last_learn_ex2",
+        "ex_t_last_learn_ex3",
         "ex_t_last_p1",
         "ex_t_last_chk"
       ]
@@ -212,13 +229,31 @@
       "can_do": "לענות על שאלות קריאה כמו בשאלון"
     },
     {
-      "id": "ex_t_mix_ex1",
+      "id": "ex_t_mix_learn_ex1",
       "type": "learn",
       "kind": "understanding",
-      "title": "דוגמה: פרט על נירה",
-      "body_he": "למה נירה סירבה לקופסאות? היא אמרה שהלקוחות שלה יודעים לבחור אפרסק. זו עובדה כתובה בקטע.",
-      "body_content": "The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach.",
-      "can_do": "למצוא סיבה כתובה בקטע"
+      "title": "דוגמה: רעיון בקריאה מעורבת",
+      "body_he": "בבחינה אותן שאלות כמו בתרגול: קודם הרעיון, אחר כך הפרט.",
+      "body_content": "A town moved its night desk behind a gate. Service got drier and safer, and fewer walk-ins came after eight.",
+      "can_do": "דוגמה: רעיון בקריאה מעורבת"
+    },
+    {
+      "id": "ex_t_mix_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: מילה מההקשר",
+      "body_he": "מילה לא מוכרת מבינים מהמשפט סביב. לא עוצרים את כל הקריאה.",
+      "body_content": "Walk-ins fell after eight because the gate stayed locked to anyone without a ticket.",
+      "can_do": "דוגמה: מילה מההקשר"
+    },
+    {
+      "id": "ex_t_mix_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: ייחוס קצר",
+      "body_he": "it או they מצביעים אחורה לשם שכבר הופיע בקטע הבחינה.",
+      "body_content": "The gate stayed locked. It kept the queue short for people with tickets.",
+      "can_do": "דוגמה: ייחוס קצר"
     },
     {
       "id": "ex_t_mix_idea",
@@ -290,6 +325,33 @@
       "can_do": "לבנות פסקה לפי המחוון"
     },
     {
+      "id": "ex_t_write_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: פתיחה בדעה",
+      "body_he": "פותחים בדעה, לא בBecause, גם בחיבור הבחינה.",
+      "body_content": "In my opinion, night desks should stay open to walk-ins at least until nine.",
+      "can_do": "דוגמה: פתיחה בדעה"
+    },
+    {
+      "id": "ex_t_write_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: סיבה מהקטע",
+      "body_he": "סיבה אחת לפחות נשענת על עובדה מהקטע שקראתם.",
+      "body_content": "The text shows walk-ins fell when the gate locked at eight.",
+      "can_do": "דוגמה: סיבה מהקטע"
+    },
+    {
+      "id": "ex_t_write_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: סיום אחד",
+      "body_he": "סוגרים במשפט אחד שחוזר לדעה בלי להעתיק את הפתיחה.",
+      "body_content": "For that reason, a later lock would serve more adults who finish work late.",
+      "can_do": "דוגמה: סיום אחד"
+    },
+    {
       "id": "ex_t_write_shape",
       "type": "practice",
       "kind": "understanding",
@@ -359,6 +421,33 @@
       "can_do": "להגיב בעל פה בלי לקרוא מהדף"
     },
     {
+      "id": "ex_t_oral_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: תגובה בלי דף",
+      "body_he": "אומרים תגובה אישית קצרה בלי לקרוא מהדף.",
+      "body_content": "I would feel shut out if a desk locked while I was still on the bus.",
+      "can_do": "דוגמה: תגובה בלי דף"
+    },
+    {
+      "id": "ex_t_oral_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: סיבה קצרה",
+      "body_he": "מוסיפים סיבה אחת ברורה מהחוויה או מהקטע.",
+      "body_content": "Many adults finish shifts after eight and still need a short answer at the desk.",
+      "can_do": "דוגמה: סיבה קצרה"
+    },
+    {
+      "id": "ex_t_oral_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: קישור לטקסט",
+      "body_he": "משפט אחד שמזכיר פרט מהקטע בלי לצטט פסקה שלמה.",
+      "body_content": "The locked gate in the passage is the detail I would name first.",
+      "can_do": "דוגמה: קישור לטקסט"
+    },
+    {
       "id": "ex_t_oral_say",
       "type": "speak",
       "kind": "understanding",
@@ -425,6 +514,33 @@
       "body_he": "בבחינה ההסקה עדיין חייבת להישען על הקטע.",
       "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention.",
       "can_do": "להסיק מסקנה שנשענת על הקטע"
+    },
+    {
+      "id": "ex_t_read2_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: הסקה מהקטע",
+      "body_he": "גם בבחינה ההסקה נשענת על שתי עובדות כתובות, לא על ניחוש.",
+      "body_content": "The gate locks at eight. Walk-ins fall. So fewer late workers get help.",
+      "can_do": "דוגמה: הסקה מהקטע"
+    },
+    {
+      "id": "ex_t_read2_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: לא להוסיף עולם",
+      "body_he": "לא מוסיפים סיפור שלא כתוב. נשארים בשורות שבקטע.",
+      "body_content": "Keep the inference inside the passage lines. Do not invent a second town.",
+      "can_do": "דוגמה: לא להוסיף עולם"
+    },
+    {
+      "id": "ex_t_read2_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: בדיקת תשובה",
+      "body_he": "אחרי בחירה, מוצאים את השורות שתומכות בה. בלי שורות, מחליפים תשובה.",
+      "body_content": "After you pick an answer, point to the supporting lines. If none fit, change it.",
+      "can_do": "דוגמה: בדיקת תשובה"
     },
     {
       "id": "ex_t_read2_p1",
@@ -496,6 +612,33 @@
       "can_do": "לדעת איפה נספרים אורך ודיוק"
     },
     {
+      "id": "ex_t_write2_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: דיוק בחיבור",
+      "body_he": "בחיבור הדיוק נספר. בקריאת תשובה קצרה כתיב לבדו לא מוריד.",
+      "body_content": "Essay accuracy counts. In a short reading answer, spelling alone does not remove the reading points.",
+      "can_do": "דוגמה: דיוק בחיבור"
+    },
+    {
+      "id": "ex_t_write2_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: אורך לחוד",
+      "body_he": "אורך החיבור הוא סעיף נפרד במחוון, לא תחליף לתוכן.",
+      "body_content": "Length is its own rubric line. It does not replace the content score.",
+      "can_do": "דוגמה: אורך לחוד"
+    },
+    {
+      "id": "ex_t_write2_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: משפט מדויק",
+      "body_he": "משפט אחד מדויק עדיף על שני משפטים עם אותה טעות חוזרת.",
+      "body_content": "One accurate sentence beats two sentences that repeat the same error.",
+      "can_do": "דוגמה: משפט מדויק"
+    },
+    {
       "id": "ex_t_write2_p1",
       "type": "practice",
       "kind": "understanding",
@@ -563,6 +706,33 @@
       "body_he": "סוגרים במשפט אחד שאפשר לומר גם בעל פה.",
       "body_content": "I would keep the stall, because the buyers know the fruit.",
       "can_do": "לסגור במשפט אחד שאפשר גם להגיד"
+    },
+    {
+      "id": "ex_t_last_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: משפט לסיום דרך",
+      "body_he": "סוגרים במשפט אחד שאפשר לומר גם בעל פה.",
+      "body_content": "I leave this road able to open with an opinion, support it from a text, and close in one line.",
+      "can_do": "דוגמה: משפט לסיום דרך"
+    },
+    {
+      "id": "ex_t_last_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: בלי רשימה",
+      "body_he": "לא סופרים נקודות. אומרים משפט שלם.",
+      "body_content": "Say one full sentence. Do not list bullet points at the end.",
+      "can_do": "דוגמה: בלי רשימה"
+    },
+    {
+      "id": "ex_t_last_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: קשר לבחינה",
+      "body_he": "המשפט האחרון יכול להזכיר מה תעשו בבחינה האמיתית.",
+      "body_content": "In the real exam I will read once, mark line support, then write.",
+      "can_do": "דוגמה: קשר לבחינה"
     },
     {
       "id": "ex_t_last_p1",

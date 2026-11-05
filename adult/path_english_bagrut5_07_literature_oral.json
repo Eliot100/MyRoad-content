@@ -31,6 +31,9 @@
       "emoji": "א",
       "node_ids": [
         "lit_t_story_learn",
+        "lit_t_story_learn_ex1",
+        "lit_t_story_learn_ex2",
+        "lit_t_story_learn_ex3",
         "lit_t_story_change",
         "lit_t_story_who"
       ]
@@ -44,8 +47,9 @@
       "emoji": "ב",
       "node_ids": [
         "lit_t_poem_learn",
-        "lit_t_poem_ex1",
-        "lit_t_poem_ex2",
+        "lit_t_poem_learn_ex1",
+        "lit_t_poem_learn_ex2",
+        "lit_t_poem_learn_ex3",
         "lit_t_poem_image",
         "lit_t_poem_tone"
       ]
@@ -59,6 +63,9 @@
       "emoji": "ג",
       "node_ids": [
         "lit_t_speak_learn",
+        "lit_t_speak_learn_ex1",
+        "lit_t_speak_learn_ex2",
+        "lit_t_speak_learn_ex3",
         "lit_t_speak_s1",
         "lit_t_speak_s2"
       ]
@@ -84,6 +91,9 @@
       "emoji": "ד",
       "node_ids": [
         "lit_t_essay_learn",
+        "lit_t_essay_learn_ex1",
+        "lit_t_essay_learn_ex2",
+        "lit_t_essay_learn_ex3",
         "lit_t_essay_p1",
         "lit_t_essay_p2"
       ]
@@ -97,6 +107,9 @@
       "emoji": "ה",
       "node_ids": [
         "lit_t_poem2_learn",
+        "lit_t_poem2_learn_ex1",
+        "lit_t_poem2_learn_ex2",
+        "lit_t_poem2_learn_ex3",
         "lit_t_poem2_p1",
         "lit_t_poem2_p2"
       ]
@@ -110,6 +123,9 @@
       "emoji": "ו",
       "node_ids": [
         "lit_t_turn_learn",
+        "lit_t_turn_learn_ex1",
+        "lit_t_turn_learn_ex2",
+        "lit_t_turn_learn_ex3",
         "lit_t_turn_s3",
         "lit_t_turn_s4"
       ]
@@ -148,6 +164,33 @@
       "body_he": "מי עושה מה, ומה משתנה בסוף. לא צריך את שם המחבר.",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
       "can_do": "לקרוא סיפור קצר ולזהות מה משתנה"
+    },
+    {
+      "id": "lit_t_story_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: מי עושה מה",
+      "body_he": "בסיפור קצר קודם מזהים את הדמות ומה היא עושה, לפני המסקנה.",
+      "body_content": "Mira finds a sealed letter under the stair and decides not to open it that night.",
+      "can_do": "דוגמה: מי עושה מה"
+    },
+    {
+      "id": "lit_t_story_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: מה משתנה",
+      "body_he": "מחפשים מה שונה בסוף לעומת ההתחלה. השינוי הוא לב הסיפור.",
+      "body_content": "At the start she hides the letter. At the end she reads it aloud to her brother.",
+      "can_do": "דוגמה: מה משתנה"
+    },
+    {
+      "id": "lit_t_story_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: לא שם המחבר",
+      "body_he": "בשאלת הבנה לא חובה שם המחבר. חובה מה שקורה בטקסט.",
+      "body_content": "The exam asks what happens in the text, not the author's biography.",
+      "can_do": "דוגמה: לא שם המחבר"
     },
     {
       "id": "lit_t_story_change",
@@ -219,22 +262,31 @@
       "can_do": "לקרוא שיר קצר עם תמונה"
     },
     {
-      "id": "lit_t_poem_ex1",
+      "id": "lit_t_poem_learn_ex1",
       "type": "learn",
       "kind": "understanding",
-      "title": "דוגמה: המדרגה זוכרת",
-      "body_he": "The stair remembers every late key. המדרגה זוכרת, כמו אדם. חפץ עושה פעולה של אדם. זו התמונה.",
+      "title": "דוגמה: חפץ כאדם",
+      "body_he": "כשחפץ עושה פעולה של אדם, זו התמונה. המדרגה זוכרת, כמו אדם.",
       "body_content": "The stair remembers every late key.",
-      "can_do": "לזהות חפץ שפועל כמו אדם בשיר"
+      "can_do": "דוגמה: חפץ כאדם"
     },
     {
-      "id": "lit_t_poem_ex2",
+      "id": "lit_t_poem_learn_ex2",
       "type": "learn",
       "kind": "understanding",
-      "title": "דוגמה: לא סולחת ולא מספרת",
-      "body_he": "המדרגה לא סולחת ולא מספרת. זו תמונה, לא חידה עם תשובה אחת.",
+      "title": "דוגמה: לא חידה סגורה",
+      "body_he": "התמונה פתוחה. אין תשובה אחת נכונה למה המדרגה מרגישה.",
       "body_content": "It does not forgive, and it does not tell.",
-      "can_do": "לקרוא שורה בשיר כתמונה"
+      "can_do": "דוגמה: לא חידה סגורה"
+    },
+    {
+      "id": "lit_t_poem_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: שורה שמראה תמונה",
+      "body_he": "בוחרים שורה שבה חפץ פועל, ומסבירים את הפעולה בעברית פשוטה.",
+      "body_content": "The window keeps the morning out until someone lifts the latch.",
+      "can_do": "דוגמה: שורה שמראה תמונה"
     },
     {
       "id": "lit_t_poem_image",
@@ -304,6 +356,33 @@
       "body_he": "שלוש פניות: תגובה אישית, סיבה אחת, ומשפט על הטקסט. אומרים, לא קוראים רשימה.",
       "body_content": "I think Jonah is fair because he returns the kindness.",
       "can_do": "לדבר על טקסט בשלוש פניות"
+    },
+    {
+      "id": "lit_t_speak_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: תגובה אישית",
+      "body_he": "אומרים משפט אחד על מה שנגע בכם, בלי לקרוא מהדף.",
+      "body_content": "This story made me think about secrets we keep from family.",
+      "can_do": "דוגמה: תגובה אישית"
+    },
+    {
+      "id": "lit_t_speak_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: סיבה אחת",
+      "body_he": "מוסיפים סיבה קצרה מהטקסט או מהחוויה שלכם.",
+      "body_content": "I felt that way because Mira waits a whole night before she reads the letter.",
+      "can_do": "דוגמה: סיבה אחת"
+    },
+    {
+      "id": "lit_t_speak_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: משפט על הטקסט",
+      "body_he": "הפנייה השלישית קושרת אתכם לשורה או לדמות בטקסט.",
+      "body_content": "The sealed letter under the stair is the detail I would mention first.",
+      "can_do": "דוגמה: משפט על הטקסט"
     },
     {
       "id": "lit_t_speak_s1",
@@ -384,6 +463,33 @@
       "can_do": "לתכנן חיבור קצר על טקסט"
     },
     {
+      "id": "lit_t_essay_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: מבנה קצר",
+      "body_he": "100 עד 120 מילים: מה קורה, מה אתם חושבים, וסיבה מהסיפור.",
+      "body_content": "Mira finds a letter and waits. I think waiting shows respect. The text shows she tells her brother only later.",
+      "can_do": "דוגמה: מבנה קצר"
+    },
+    {
+      "id": "lit_t_essay_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: לא ביוגרפיה",
+      "body_he": "לא כותבים על חיי המחבר. נשארים בטקסט ובדעה עליו.",
+      "body_content": "Stay with the story and your view of it. Skip the author's life.",
+      "can_do": "דוגמה: לא ביוגרפיה"
+    },
+    {
+      "id": "lit_t_essay_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: סיבה מהסיפור",
+      "body_he": "הסיבה חייבת להישען על אירוע או שורה בטקסט.",
+      "body_content": "I chose this view because she reads the letter aloud only at the end.",
+      "can_do": "דוגמה: סיבה מהסיפור"
+    },
+    {
       "id": "lit_t_essay_p1",
       "type": "practice",
       "kind": "understanding",
@@ -453,6 +559,33 @@
       "can_do": "לקרוא שורה בשיר מקרוב"
     },
     {
+      "id": "lit_t_poem2_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: בחירת שורה",
+      "body_he": "בוחרים שורה אחת ואומרים מה היא עושה בתמונה, לא מה היא אומרת במשפט סגור.",
+      "body_content": "The window keeps the morning out until someone lifts the latch.",
+      "can_do": "דוגמה: בחירת שורה"
+    },
+    {
+      "id": "lit_t_poem2_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: פעולה לא פירוש יחיד",
+      "body_he": "מתארים את הפעולה. נמנעים מפירוש יחיד כאילו זו חידת טריוויה.",
+      "body_content": "The line makes the window act like a guard. That is the image to name.",
+      "can_do": "דוגמה: פעולה לא פירוש יחיד"
+    },
+    {
+      "id": "lit_t_poem2_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: קשר אישי קצר",
+      "body_he": "אפשר משפט אחד אישי אחרי תיאור השורה, בלי הרצאה.",
+      "body_content": "That image reminds me of mornings when a room stays dark on purpose.",
+      "can_do": "דוגמה: קשר אישי קצר"
+    },
+    {
       "id": "lit_t_poem2_p1",
       "type": "practice",
       "kind": "understanding",
@@ -520,6 +653,33 @@
       "body_he": "הפנייה השלישית קושרת אתכם לטקסט במשפט אחד, בלי לקרוא רשימה.",
       "body_content": "The story matters to me because a small gift can come back.",
       "can_do": "לקשר את עצמך לטקסט במשפט אחד"
+    },
+    {
+      "id": "lit_t_turn_learn_ex1",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: פנייה שלישית",
+      "body_he": "משפט אחד שקושר אתכם לטקסט, בלי רשימה.",
+      "body_content": "If I spoke about this poem, I would start with the stair that remembers.",
+      "can_do": "דוגמה: פנייה שלישית"
+    },
+    {
+      "id": "lit_t_turn_learn_ex2",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: בלי לקרוא רשימה",
+      "body_he": "אומרים, לא קוראים נקודות מהדף.",
+      "body_content": "Say one linking sentence. Do not read a bullet list.",
+      "can_do": "דוגמה: בלי לקרוא רשימה"
+    },
+    {
+      "id": "lit_t_turn_learn_ex3",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דוגמה: סגירה קצרה",
+      "body_he": "סוגרים במשפט שאפשר לחזור עליו בעל פה.",
+      "body_content": "That is the line I would carry out of the room.",
+      "can_do": "דוגמה: סגירה קצרה"
     },
     {
       "id": "lit_t_turn_s3",
