@@ -1,0 +1,1483 @@
+{
+  "passages": [
+    {
+      "id": "ps_01",
+      "title_en": "Remote Work After the Pandemic",
+      "text": "Many companies that once required daily office attendance now allow employees to work from home several days a week. This change began during the pandemic but has continued because both workers and managers discovered advantages. Employees save time and money on commuting and can better balance family responsibilities. Companies reduce the cost of large office spaces. Productivity has not fallen in most studies. In fact, some teams report higher output when people can concentrate without constant interruptions. However, remote work is not without problems. Some workers feel isolated and miss informal conversations that used to happen in the office. Managers worry that younger employees receive less guidance when they are not physically present. Technical issues, such as unreliable internet connections, can also slow progress. To address these concerns, many organizations have introduced hybrid schedules. Staff come to the office two or three days a week for meetings and collaboration, then work remotely on other days. Clear written guidelines help everyone understand expectations about availability and response times. Digital tools for video calls and shared documents make communication easier than it was a decade ago. Still, success depends on trust. When managers focus on results rather than hours spent online, employees tend to perform well. Surveys show that most adults prefer some flexibility and would consider leaving a job that demanded five full days in the office. The shift is unlikely to reverse completely. Companies that adapt their culture to support both independent work and occasional in-person contact are more likely to attract and keep skilled staff."
+    },
+    {
+      "id": "ps_02",
+      "title_en": "Sleep and Adult Health",
+      "text": "Adults who regularly sleep less than seven hours a night face higher risks of several health problems. Doctors have long known that insufficient sleep raises the chance of heart disease, high blood pressure, and type 2 diabetes. Recent research also links short sleep to weaker immune responses and slower recovery from illness. Many people believe they can catch up on weekends, yet studies show that irregular sleep patterns still harm the body. The brain needs consistent rest to clear waste products that accumulate during waking hours. Without enough sleep, concentration, memory, and decision-making suffer. Drivers who are tired cause accidents at rates similar to those who have been drinking. Shift workers and parents of young children often struggle to maintain regular hours. Screens in the bedroom make the problem worse because blue light delays the release of melatonin, the hormone that signals sleep. Experts recommend a fixed bedtime, a cool dark room, and no caffeine after mid-afternoon. Exercise helps, but intense workouts close to bedtime can delay sleep. Some adults turn to sleep medication, yet long-term use can create dependence and does not restore natural sleep quality. Simple changes, such as reading a book instead of scrolling on a phone, often prove more effective. Employers who allow flexible start times report fewer sick days among staff. Protecting sleep is not a luxury. It is a basic requirement for physical and mental performance in daily life."
+    },
+    {
+      "id": "ps_03",
+      "title_en": "Housing Costs in Growing Cities",
+      "text": "In many large cities, the price of buying or renting a home has risen faster than average wages. Young adults who finish their studies often find that even a modest apartment requires a large share of their monthly income. Long commutes from cheaper suburbs add time and transport costs. Some cities have responded by building more high-rise apartments and by changing zoning rules that once limited height and density. Others offer subsidies or low-interest loans to first-time buyers. Critics argue that new construction alone does not solve the problem if most new units remain expensive. They point to the need for stronger rent controls and more public housing. Supporters of market solutions claim that controls reduce the incentive to build and can lead to fewer available homes. Meanwhile, some residents leave the city center for smaller towns where remote work makes daily presence unnecessary. This movement has raised prices in previously affordable areas. Community groups in several cities organize shared housing or cooperative ownership models to keep costs lower. Local governments face pressure from both sides. Too little new building leaves prices high. Too rapid construction without accompanying schools, parks, and transport strains existing services. Finding a balance requires data on actual demand, clear planning rules, and cooperation between private builders and public authorities. Without such measures, many working adults will continue to spend a large portion of their earnings on housing."
+    },
+    {
+      "id": "ps_04",
+      "title_en": "Saving and Investing for the Future",
+      "text": "Most adults know they should save money, yet many find it difficult to put aside a regular amount. Unexpected expenses, rising prices, and the desire for immediate purchases compete with long-term goals. Financial advisers usually recommend an emergency fund covering three to six months of essential costs before any other investment. Once that buffer exists, people can consider longer-term options such as pension contributions or low-cost index funds. These funds track the overall market rather than trying to pick individual winning stocks. Historical data show that broad market returns have been positive over periods of ten years or more, although short-term losses remain possible. High fees charged by some managed funds reduce the final amount an investor keeps. Automatic transfers from a salary account into a separate savings or investment account help many people stay consistent. Interest rates on ordinary bank savings have been low in recent years, so money left only in a checking account loses purchasing power to inflation. Younger workers who start early benefit from compound growth even with modest monthly sums. Older adults closer to retirement may prefer safer assets and should review their risk tolerance carefully. Government tax incentives for retirement accounts encourage participation. Still, no strategy removes all risk. Understanding basic terms, reading clear fee information, and avoiding pressure from salespeople improve the chance of meeting future needs. Regular small actions matter more than occasional large deposits."
+    }
+  ],
+  "simulations": [
+    {
+      "id": "sim_1",
+      "title_he": "סימולציה 1",
+      "minutes": 40,
+      "node_ids": [
+        "sim1_01",
+        "sim1_02",
+        "sim1_03",
+        "sim1_04",
+        "sim1_05",
+        "sim1_06",
+        "sim1_07",
+        "sim1_08",
+        "sim1_09",
+        "sim1_10",
+        "sim1_11",
+        "sim1_12",
+        "sim1_13",
+        "sim1_14",
+        "sim1_15",
+        "sim1_16",
+        "sim1_17",
+        "sim1_18",
+        "sim1_19",
+        "sim1_20"
+      ]
+    },
+    {
+      "id": "sim_2",
+      "title_he": "סימולציה 2",
+      "minutes": 40,
+      "node_ids": [
+        "sim2_01",
+        "sim2_02",
+        "sim2_03",
+        "sim2_04",
+        "sim2_05",
+        "sim2_06",
+        "sim2_07",
+        "sim2_08",
+        "sim2_09",
+        "sim2_10",
+        "sim2_11",
+        "sim2_12",
+        "sim2_13",
+        "sim2_14",
+        "sim2_15",
+        "sim2_16",
+        "sim2_17",
+        "sim2_18",
+        "sim2_19",
+        "sim2_20"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "sim1_01",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "לפי הקטע, מה קרה לפריון אחרי המעבר לעבודה מרחוק?",
+      "body_content": "[ps_01] According to the passage, what happened to productivity after the shift to remote work?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It fell in most studies."
+        },
+        {
+          "id": "b",
+          "label": "It stayed the same or rose in most studies.",
+          "feedback": "הקטע אומר שהפריון לא ירד ברוב המחקרים, ובחלק מהמקרים עלה."
+        },
+        {
+          "id": "c",
+          "label": "It rose only for managers."
+        },
+        {
+          "id": "d",
+          "label": "No data on productivity is given."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "הקטע מציין שהפריון לא ירד ברוב המחקרים, וחלק מהצוותים דיווחו על תפוקה גבוהה יותר.",
+      "feedback_try": "השורה 'Productivity has not fallen in most studies. In fact, some teams report higher output' מראה שהתשובה היא שהפריון נשאר או עלה. לכן ב.",
+      "worked_method": "חפשו משפט שמזכיר productivity או output. השוו בין האפשרויות למה שכתוב במפורש.",
+      "can_do": "למצוא מידע מפורש על שינוי בפריון",
+      "hint": "חפשו את המילה productivity בקטע.",
+      "area": "reading",
+      "difficulty": -0.5
+    },
+    {
+      "id": "sim1_02",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מהי אחת הבעיות שמוזכרות לגבי עובדים צעירים?",
+      "body_content": "[ps_01] What is one problem mentioned regarding younger employees?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "They receive less guidance when not in the office.",
+          "feedback": "הקטע אומר שמנהלים דואגים שעובדים צעירים מקבלים פחות הדרכה כשהם לא נוכחים פיזית."
+        },
+        {
+          "id": "b",
+          "label": "They refuse to use video calls."
+        },
+        {
+          "id": "c",
+          "label": "They cost more to employ."
+        },
+        {
+          "id": "d",
+          "label": "They prefer five days in the office."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "הקטע מציין שמנהלים דואגים שעובדים צעירים מקבלים פחות הדרכה כשאינם במשרד.",
+      "feedback_try": "המשפט 'Managers worry that younger employees receive less guidance when they are not physically present' תומך בתשובה א. שאר האפשרויות לא מופיעות.",
+      "worked_method": "אתרו את המשפט על younger employees ובדקו מה בדיוק נאמר עליהם.",
+      "can_do": "לזהות חשש ספציפי לגבי עובדים צעירים",
+      "hint": "חפשו younger employees בקטע.",
+      "area": "reading",
+      "difficulty": 0.2
+    },
+    {
+      "id": "sim1_03",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה מטרת לוחות הזמנים ההיברידיים לפי הקטע?",
+      "body_content": "[ps_01] What is the purpose of hybrid schedules according to the passage?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "To eliminate all remote work."
+        },
+        {
+          "id": "b",
+          "label": "To force everyone into the office every day."
+        },
+        {
+          "id": "c",
+          "label": "To allow both collaboration days and remote days.",
+          "feedback": "הקטע מסביר שעובדים מגיעים למשרד יומיים או שלושה בשבוע לפגישות, ועובדים מרחוק בימים אחרים."
+        },
+        {
+          "id": "d",
+          "label": "To reduce salaries."
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "לוחות היברידיים מאפשרים ימים במשרד לשיתוף פעולה וימים של עבודה מרחוק.",
+      "feedback_try": "המשפט 'Staff come to the office two or three days a week for meetings and collaboration, then work remotely on other days' מראה שהמטרה היא שילוב. לכן ג.",
+      "worked_method": "מצאו את ההגדרה של hybrid schedules ובדקו מה הם כוללים.",
+      "can_do": "להבין את מטרת המודל ההיברידי",
+      "hint": "חפשו hybrid schedules.",
+      "area": "reading",
+      "difficulty": 0.0
+    },
+    {
+      "id": "sim1_04",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "על מה תלויה הצלחת העבודה מרחוק לפי הקטע?",
+      "body_content": "[ps_01] According to the passage, success in remote work depends on what?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Expensive new software only."
+        },
+        {
+          "id": "b",
+          "label": "Trust and focus on results rather than hours online.",
+          "feedback": "הקטע אומר שהצלחה תלויה באמון, וכשמנהלים מתמקדים בתוצאות ולא בשעות, העובדים מצליחים."
+        },
+        {
+          "id": "c",
+          "label": "Returning fully to the office."
+        },
+        {
+          "id": "d",
+          "label": "Hiring only experienced staff."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "הצלחה תלויה באמון ובהתמקדות בתוצאות במקום בשעות אונליין.",
+      "feedback_try": "השורה 'Still, success depends on trust. When managers focus on results rather than hours spent online' תומכת בתשובה ב.",
+      "worked_method": "חפשו את המילה success ובדקו מה כתוב מיד אחריה.",
+      "can_do": "לזהות תנאי להצלחה בעבודה מרחוק",
+      "hint": "חפשו את המילה trust.",
+      "area": "reading",
+      "difficulty": 0.8
+    },
+    {
+      "id": "sim1_05",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה עמדת רוב המבוגרים לגבי גמישות בעבודה לפי הסקרים?",
+      "body_content": "[ps_01] According to the surveys mentioned, what do most adults prefer regarding work flexibility?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Five full days in the office."
+        },
+        {
+          "id": "b",
+          "label": "No work at all."
+        },
+        {
+          "id": "c",
+          "label": "Complete isolation."
+        },
+        {
+          "id": "d",
+          "label": "Some flexibility, and many would leave a job requiring five office days.",
+          "feedback": "הקטע אומר שרוב המבוגרים מעדיפים גמישות מסוימת וישקלו לעזוב משרה שדורשת חמישה ימים במשרד."
+        }
+      ],
+      "correct": "d",
+      "feedback_ok": "רוב המבוגרים מעדיפים גמישות מסוימת ושוקלים לעזוב משרה ללא גמישות.",
+      "feedback_try": "המשפט 'Surveys show that most adults prefer some flexibility and would consider leaving a job that demanded five full days in the office' מראה שד נכונה.",
+      "worked_method": "אתרו את אזכור הסקרים ובדקו מה הם מראים על העדפות.",
+      "can_do": "לחלץ ממצא מסקרים המוזכרים בקטע",
+      "hint": "חפשו Surveys show.",
+      "area": "reading",
+      "difficulty": 1.2
+    },
+    {
+      "id": "sim1_06",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מהו אחד הסיכונים של שינה של פחות משבע שעות בלילה?",
+      "body_content": "[ps_02] What is one risk of regularly sleeping less than seven hours a night?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Lower risk of heart disease."
+        },
+        {
+          "id": "b",
+          "label": "Higher risk of heart disease and high blood pressure.",
+          "feedback": "הקטע מציין ששינה לא מספקת מעלה את הסיכון למחלות לב ולחץ דם גבוה."
+        },
+        {
+          "id": "c",
+          "label": "Stronger immune response."
+        },
+        {
+          "id": "d",
+          "label": "Faster recovery from illness."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "שינה קצרה מעלה סיכון למחלות לב ולחץ דם גבוה.",
+      "feedback_try": "המשפט הראשון 'Adults who regularly sleep less than seven hours a night face higher risks of several health problems' ואז 'raises the chance of heart disease, high blood pressure' תומך בב.",
+      "worked_method": "מצאו את המשפט על less than seven hours ובדקו אילו סיכונים מוזכרים.",
+      "can_do": "לזהות סיכון בריאותי מפורש",
+      "hint": "חפשו less than seven hours.",
+      "area": "reading",
+      "difficulty": -1.0
+    },
+    {
+      "id": "sim1_07",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה הקטע אומר על השלמת שינה בסופי שבוע?",
+      "body_content": "[ps_02] What does the passage say about catching up on sleep on weekends?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It fully reverses the harm of short sleep."
+        },
+        {
+          "id": "b",
+          "label": "It is recommended by all doctors."
+        },
+        {
+          "id": "c",
+          "label": "Irregular patterns still harm the body even if people try to catch up.",
+          "feedback": "הקטע אומר שמחקרים מראים שדפוסי שינה לא סדירים עדיין מזיקים לגוף."
+        },
+        {
+          "id": "d",
+          "label": "It improves memory permanently."
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "דפוסי שינה לא סדירים מזיקים גם אם מנסים להשלים בסוף השבוע.",
+      "feedback_try": "השורה 'yet studies show that irregular sleep patterns still harm the body' מראה שג נכונה.",
+      "worked_method": "חפשו weekends או catch up ובדקו מה נאמר על התוצאה.",
+      "can_do": "להבין מגבלות של השלמת שינה",
+      "hint": "חפשו weekends בקטע.",
+      "area": "reading",
+      "difficulty": 0.5
+    },
+    {
+      "id": "sim1_08",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "כיצד אור כחול ממסכים משפיע על השינה?",
+      "body_content": "[ps_02] How does blue light from screens affect sleep according to the passage?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It speeds up the release of melatonin."
+        },
+        {
+          "id": "b",
+          "label": "It has no effect."
+        },
+        {
+          "id": "c",
+          "label": "It improves sleep quality."
+        },
+        {
+          "id": "d",
+          "label": "It delays the release of melatonin.",
+          "feedback": "הקטע אומר שאור כחול מעכב את שחרור המלטונין, ההורמון שמאותת על שינה."
+        }
+      ],
+      "correct": "d",
+      "feedback_ok": "אור כחול מעכב את שחרור המלטונין.",
+      "feedback_try": "המשפט 'blue light delays the release of melatonin, the hormone that signals sleep' תומך בד.",
+      "worked_method": "אתרו blue light ובדקו מה הוא עושה למלטונין.",
+      "can_do": "להבין השפעה של אור כחול על שינה",
+      "hint": "חפשו blue light.",
+      "area": "reading",
+      "difficulty": 0.3
+    },
+    {
+      "id": "sim1_09",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה מומלץ במקום גלילה בטלפון לפני השינה?",
+      "body_content": "[ps_02] What is recommended instead of scrolling on a phone before bed?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Reading a book.",
+          "feedback": "הקטע אומר שקריאת ספר במקום גלילה בטלפון יעילה יותר."
+        },
+        {
+          "id": "b",
+          "label": "Intense exercise."
+        },
+        {
+          "id": "c",
+          "label": "Drinking coffee."
+        },
+        {
+          "id": "d",
+          "label": "Taking long-term medication."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "קריאת ספר במקום גלילה מומלצת.",
+      "feedback_try": "השורה 'Simple changes, such as reading a book instead of scrolling on a phone, often prove more effective' מראה שא נכונה.",
+      "worked_method": "חפשו scrolling או phone ובדקו מה מוצע כחלופה.",
+      "can_do": "לזהות המלצה מעשית לשיפור שינה",
+      "hint": "חפשו reading a book.",
+      "area": "reading",
+      "difficulty": -0.2
+    },
+    {
+      "id": "sim1_10",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה מדווחים מעסיקים שמאפשרים שעות התחלה גמישות?",
+      "body_content": "[ps_02] What do employers who allow flexible start times report?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "More accidents among staff."
+        },
+        {
+          "id": "b",
+          "label": "Higher use of sleep medication."
+        },
+        {
+          "id": "c",
+          "label": "Fewer sick days among staff.",
+          "feedback": "הקטע אומר שמעסיקים שמאפשרים שעות התחלה גמישות מדווחים על פחות ימי מחלה."
+        },
+        {
+          "id": "d",
+          "label": "No change in attendance."
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "מעסיקים מדווחים על פחות ימי מחלה.",
+      "feedback_try": "המשפט 'Employers who allow flexible start times report fewer sick days among staff' תומך בג.",
+      "worked_method": "מצאו flexible start times ובדקו מה מדווחים המעסיקים.",
+      "can_do": "לחלץ תוצאה של מדיניות מעסיקים",
+      "hint": "חפשו flexible start times.",
+      "area": "reading",
+      "difficulty": 1.5
+    },
+    {
+      "id": "sim1_11",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה משמעות המילה interruptions בהקשר של עבודה מרחוק?",
+      "body_content": "In the sentence 'people can concentrate without constant interruptions', the word interruptions most nearly means",
+      "choices": [
+        {
+          "id": "a",
+          "label": "breaks that help focus."
+        },
+        {
+          "id": "b",
+          "label": "things that stop or disturb concentration.",
+          "feedback": "interruptions הן דברים שמפריעים לריכוז."
+        },
+        {
+          "id": "c",
+          "label": "salary increases."
+        },
+        {
+          "id": "d",
+          "label": "office furniture."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "interruptions הן הפרעות לריכוז.",
+      "feedback_try": "ההקשר 'concentrate without constant interruptions' מראה שהכוונה לדברים שמפריעים. לכן ב.",
+      "worked_method": "בדקו את ההקשר סביב המילה. מה מאפשר concentrate.",
+      "can_do": "להבין מילה בהקשר",
+      "hint": "חשבו מה מונע concentrate.",
+      "area": "vocabulary",
+      "difficulty": -0.8
+    },
+    {
+      "id": "sim1_12",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה משמעות hybrid schedules?",
+      "body_content": "The phrase hybrid schedules in the passage most nearly means",
+      "choices": [
+        {
+          "id": "a",
+          "label": "schedules that combine office days and remote days.",
+          "feedback": "hybrid פירושו שילוב של ימים במשרד וימים מרחוק."
+        },
+        {
+          "id": "b",
+          "label": "schedules with no fixed hours."
+        },
+        {
+          "id": "c",
+          "label": "only weekend work."
+        },
+        {
+          "id": "d",
+          "label": "schedules written by computers only."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "hybrid schedules הם לוחות שמשלבים ימי משרד וימי עבודה מרחוק.",
+      "feedback_try": "ההסבר בקטע על two or three days in the office and remote on other days מראה שא נכונה.",
+      "worked_method": "חפשו את ההסבר שמופיע אחרי hybrid schedules.",
+      "can_do": "להבין מונח מורכב מהקשר",
+      "hint": "קראו את המשפט שאחרי hybrid.",
+      "area": "vocabulary",
+      "difficulty": 0.4
+    },
+    {
+      "id": "sim1_13",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה משמעות melatonin בהקשר של שינה?",
+      "body_content": "In the passage, melatonin is described as",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a type of screen light."
+        },
+        {
+          "id": "b",
+          "label": "a medication for blood pressure."
+        },
+        {
+          "id": "c",
+          "label": "the hormone that signals sleep.",
+          "feedback": "הקטע מגדיר melatonin כהורמון שמאותת על שינה."
+        },
+        {
+          "id": "d",
+          "label": "a kind of exercise."
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "melatonin הוא ההורמון שמאותת על שינה.",
+      "feedback_try": "המשפט 'melatonin, the hormone that signals sleep' מגדיר את המילה. לכן ג.",
+      "worked_method": "חפשו את ההגדרה שמופיעה מיד אחרי המילה.",
+      "can_do": "לזהות הגדרה מפורשת של מונח",
+      "hint": "חפשו the hormone that.",
+      "area": "vocabulary",
+      "difficulty": 0.1
+    },
+    {
+      "id": "sim1_14",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה משמעות buffer בהקשר של כסף?",
+      "body_content": "The word buffer in 'an emergency fund covering three to six months' most nearly means",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a type of investment fund only."
+        },
+        {
+          "id": "b",
+          "label": "protection or reserve against unexpected needs.",
+          "feedback": "buffer כאן הוא רזרבה או הגנה מפני הוצאות בלתי צפויות."
+        },
+        {
+          "id": "c",
+          "label": "a bank fee."
+        },
+        {
+          "id": "d",
+          "label": "a salary increase."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "buffer הוא רזרבה או הגנה.",
+      "feedback_try": "ההקשר של emergency fund כ-buffer מראה שהכוונה לרזרבה. לכן ב.",
+      "worked_method": "חשבו מה תפקיד קרן חירום בהקשר של הוצאות.",
+      "can_do": "להבין מילה פיננסית בהקשר",
+      "hint": "חשבו על emergency fund.",
+      "area": "vocabulary",
+      "difficulty": 1.0
+    },
+    {
+      "id": "sim1_15",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "בחרו את הצורה הנכונה של הפועל.",
+      "body_content": "Many companies _____ remote work even after the pandemic ended.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "has continued"
+        },
+        {
+          "id": "b",
+          "label": "continue"
+        },
+        {
+          "id": "c",
+          "label": "continues"
+        },
+        {
+          "id": "d",
+          "label": "have continued",
+          "feedback": "companies הוא נושא ברבים, לכן have continued."
+        }
+      ],
+      "correct": "d",
+      "feedback_ok": "הנושא ברבים, לכן have continued.",
+      "feedback_try": "Companies הוא שם עצם ברבים. הפועל בהווה מושלם דורש have. לכן ד.",
+      "worked_method": "בדקו אם הנושא יחיד או רבים, ואז בחרו את צורת הפועל המתאימה.",
+      "can_do": "להתאים פועל לנושא ברבים",
+      "hint": "Companies הוא רבים.",
+      "area": "grammar",
+      "difficulty": -0.3
+    },
+    {
+      "id": "sim1_16",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "בחרו את מילת הקישור הנכונה.",
+      "body_content": "Remote work saves commuting time. _____, some people feel isolated.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Therefore"
+        },
+        {
+          "id": "b",
+          "label": "However",
+          "feedback": "However מציג ניגוד בין היתרון לבעיה."
+        },
+        {
+          "id": "c",
+          "label": "Because"
+        },
+        {
+          "id": "d",
+          "label": "So that"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "However מתאים לניגוד.",
+      "feedback_try": "יש ניגוד בין החיסכון בזמן לבין תחושת הבידוד. However מציג ניגוד. לכן ב.",
+      "worked_method": "בדקו אם המשפט השני ממשיך את הרעיון או מנוגד לו.",
+      "can_do": "לבחור מילת קישור לניגוד",
+      "hint": "יש כאן ניגוד.",
+      "area": "grammar",
+      "difficulty": 0.6
+    },
+    {
+      "id": "sim1_17",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "בחרו את צורת התנאי הנכונה.",
+      "body_content": "If managers _____ on results, employees tend to perform well.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "focus",
+          "feedback": "במשפט תנאי מסוג אפס או ראשון בהווה, הפועל ב-if הוא בצורת בסיס."
+        },
+        {
+          "id": "b",
+          "label": "focused"
+        },
+        {
+          "id": "c",
+          "label": "will focus"
+        },
+        {
+          "id": "d",
+          "label": "focusing"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ב-if clause של תנאי כללי הפועל בהווה פשוט.",
+      "feedback_try": "המשפט מתאר מצב כללי. ב-if clause משתמשים בהווה פשוט. לכן א.",
+      "worked_method": "זהו תנאי כללי. בדקו את צורת הפועל ב-if clause.",
+      "can_do": "להשתמש בצורת פועל נכונה במשפט תנאי",
+      "hint": "זהו כלל כללי, לא עבר.",
+      "area": "grammar",
+      "difficulty": 0.9
+    },
+    {
+      "id": "sim1_18",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "בחרו את הצורה הנכונה של התואר.",
+      "body_content": "Sleep is _____ important for adults than many people realize.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "more",
+          "feedback": "השוואה דורשת more + important."
+        },
+        {
+          "id": "b",
+          "label": "most"
+        },
+        {
+          "id": "c",
+          "label": "much"
+        },
+        {
+          "id": "d",
+          "label": "very"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "more important הוא צורת ההשוואה.",
+      "feedback_try": "יש כאן השוואה (than). התואר important דורש more. לכן א.",
+      "worked_method": "חפשו את המילה than. היא מאותתת על השוואה.",
+      "can_do": "ליצור צורת השוואה נכונה",
+      "hint": "יש than במשפט.",
+      "area": "grammar",
+      "difficulty": 1.3
+    },
+    {
+      "id": "sim1_19",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "איזה משפט פתיחה מתאים ביותר לחיבור דעה על עבודה מרחוק?",
+      "body_content": "Which sentence is the best opening for an opinion essay on remote work?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Remote work has both clear advantages and real challenges for modern employees.",
+          "feedback": "פתיחה זו מציגה את הנושא ומכין לדיון מאוזן."
+        },
+        {
+          "id": "b",
+          "label": "I hate going to the office every day."
+        },
+        {
+          "id": "c",
+          "label": "The pandemic started in 2020."
+        },
+        {
+          "id": "d",
+          "label": "My boss is very nice."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "הפתיחה מציגה את הנושא באופן ברור ומאוזן.",
+      "feedback_try": "פתיחה טובה מציגה את הנושא ורומזת על הטיעון. א עושה זאת. האחרות אישיות מדי או לא רלוונטיות.",
+      "worked_method": "פתיחה צריכה להציג את הנושא ולהכין את הקורא לטיעון.",
+      "can_do": "לבחור פתיחה מתאימה לחיבור דעה",
+      "hint": "חפשו משפט שמציג את הנושא בלי להיות אישי מדי.",
+      "area": "writing",
+      "difficulty": 0.0
+    },
+    {
+      "id": "sim1_20",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "איזה משפט סיכום מתאים ביותר?",
+      "body_content": "Which sentence is the best closing for an essay arguing that hybrid work is the best model?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Therefore, companies should return to five full office days."
+        },
+        {
+          "id": "b",
+          "label": "In conclusion, hybrid schedules offer a practical balance between collaboration and flexibility.",
+          "feedback": "סיכום זה חוזר על הטיעון המרכזי בצורה ברורה."
+        },
+        {
+          "id": "c",
+          "label": "I need a new job soon."
+        },
+        {
+          "id": "d",
+          "label": "Sleep is also important."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "הסיכום חוזר על הטיעון המרכזי.",
+      "feedback_try": "סיכום טוב מסכם את הטיעון. ב עושה זאת. א סותר את הטיעון.",
+      "worked_method": "סיכום צריך לחזור על הרעיון המרכזי בלי להוסיף נושא חדש.",
+      "can_do": "לבחור משפט סיכום מתאים",
+      "hint": "חפשו משפט שמסכם את הטיעון.",
+      "area": "writing",
+      "difficulty": 0.7
+    },
+    {
+      "id": "sim2_01",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה קרה למחירי הדיור בערים גדולות לפי הקטע?",
+      "body_content": "[ps_03] According to the passage, what has happened to housing prices in large cities?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "They have risen faster than average wages.",
+          "feedback": "הקטע אומר שמחירי הקנייה או השכירות עלו מהר יותר מהשכר הממוצע."
+        },
+        {
+          "id": "b",
+          "label": "They have stayed the same for ten years."
+        },
+        {
+          "id": "c",
+          "label": "They have fallen in most cities."
+        },
+        {
+          "id": "d",
+          "label": "Only luxury homes are expensive."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "מחירי הדיור עלו מהר יותר מהשכר הממוצע.",
+      "feedback_try": "המשפט הראשון 'the price of buying or renting a home has risen faster than average wages' תומך בא.",
+      "worked_method": "חפשו housing prices או price of buying ובדקו את ההשוואה לשכר.",
+      "can_do": "לחלץ השוואה מפורשת על מחירים",
+      "hint": "חפשו risen faster.",
+      "area": "reading",
+      "difficulty": -0.7
+    },
+    {
+      "id": "sim2_02",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה טוענים תומכי פתרונות השוק לגבי פיקוח על שכר דירה?",
+      "body_content": "[ps_03] What do supporters of market solutions claim about rent controls?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "They increase the number of available homes."
+        },
+        {
+          "id": "b",
+          "label": "They reduce the incentive to build and can lead to fewer homes.",
+          "feedback": "הקטע אומר שתומכי השוק טוענים שפיקוח מפחית את התמריץ לבנות ויכול להוביל לפחות בתים."
+        },
+        {
+          "id": "c",
+          "label": "They have no effect on construction."
+        },
+        {
+          "id": "d",
+          "label": "They are supported by all builders."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "תומכי השוק טוענים שפיקוח מפחית תמריץ לבנות.",
+      "feedback_try": "המשפט 'Supporters of market solutions claim that controls reduce the incentive to build and can lead to fewer available homes' תומך בב.",
+      "worked_method": "אתרו Supporters of market solutions ובדקו מה הם טוענים.",
+      "can_do": "להבחין בין עמדות שונות בקטע",
+      "hint": "חפשו Supporters of market solutions.",
+      "area": "reading",
+      "difficulty": 0.4
+    },
+    {
+      "id": "sim2_03",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה קרה במקומות שאליהם עברו תושבים בגלל עבודה מרחוק?",
+      "body_content": "[ps_03] What has happened in areas where people moved because of remote work?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Prices have fallen sharply."
+        },
+        {
+          "id": "b",
+          "label": "No change in prices."
+        },
+        {
+          "id": "c",
+          "label": "Prices have risen in previously affordable areas.",
+          "feedback": "הקטע אומר שהתנועה הזו העלתה מחירים באזורים שהיו זולים בעבר."
+        },
+        {
+          "id": "d",
+          "label": "Only public housing was built."
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "מחירים עלו באזורים שהיו זולים בעבר.",
+      "feedback_try": "השורה 'This movement has raised prices in previously affordable areas' מראה שג נכונה.",
+      "worked_method": "חפשו remote work או movement ובדקו את ההשפעה על מחירים.",
+      "can_do": "לזהות תוצאה של תנועת אוכלוסייה",
+      "hint": "חפשו previously affordable.",
+      "area": "reading",
+      "difficulty": 0.1
+    },
+    {
+      "id": "sim2_04",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה נדרש כדי למצוא איזון לפי הקטע?",
+      "body_content": "[ps_03] According to the passage, finding a balance requires what?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Stopping all new construction."
+        },
+        {
+          "id": "b",
+          "label": "Data on demand, clear planning rules, and cooperation.",
+          "feedback": "הקטע מציין שנדרשים נתונים על ביקוש, כללי תכנון ברורים ושיתוף פעולה."
+        },
+        {
+          "id": "c",
+          "label": "Only private builders deciding alone."
+        },
+        {
+          "id": "d",
+          "label": "Ignoring public services."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "נדרשים נתונים, כללים ברורים ושיתוף פעולה.",
+      "feedback_try": "המשפט 'Finding a balance requires data on actual demand, clear planning rules, and cooperation between private builders and public authorities' תומך בב.",
+      "worked_method": "חפשו Finding a balance ובדקו מה נדרש.",
+      "can_do": "לחלץ תנאים לפתרון",
+      "hint": "חפשו Finding a balance.",
+      "area": "reading",
+      "difficulty": 1.1
+    },
+    {
+      "id": "sim2_05",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מהי אחת הביקורות על בנייה חדשה בלבד?",
+      "body_content": "[ps_03] What is one criticism of relying only on new construction?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It always solves the problem completely."
+        },
+        {
+          "id": "b",
+          "label": "Most new units remain expensive.",
+          "feedback": "המבקרים טוענים שבנייה חדשה לבדה לא פותרת אם רוב היחידות החדשות נשארות יקרות."
+        },
+        {
+          "id": "c",
+          "label": "It lowers all rents immediately."
+        },
+        {
+          "id": "d",
+          "label": "It is supported by all critics."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "הביקורת היא שרוב היחידות החדשות נשארות יקרות.",
+      "feedback_try": "המשפט 'Critics argue that new construction alone does not solve the problem if most new units remain expensive' תומך בב.",
+      "worked_method": "אתרו Critics argue ובדקו מה הם טוענים על בנייה.",
+      "can_do": "לזהות ביקורת מפורשת",
+      "hint": "חפשו Critics argue.",
+      "area": "reading",
+      "difficulty": 0.6
+    },
+    {
+      "id": "sim2_06",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה ממליצים יועצים פיננסיים לפני השקעות אחרות?",
+      "body_content": "[ps_04] What do financial advisers usually recommend before other investments?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Buying individual stocks immediately."
+        },
+        {
+          "id": "b",
+          "label": "An emergency fund of three to six months of essential costs.",
+          "feedback": "הקטע אומר שיועצים ממליצים על קרן חירום של שלושה עד שישה חודשים לפני כל השקעה אחרת."
+        },
+        {
+          "id": "c",
+          "label": "Spending all extra money."
+        },
+        {
+          "id": "d",
+          "label": "Avoiding any savings."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "מומלצת קרן חירום של שלושה עד שישה חודשים.",
+      "feedback_try": "המשפט 'Financial advisers usually recommend an emergency fund covering three to six months of essential costs before any other investment' תומך בב.",
+      "worked_method": "חפשו recommend ובדקו מה בא לפני השקעות אחרות.",
+      "can_do": "לזהות המלצה ראשונית של יועצים",
+      "hint": "חפשו emergency fund.",
+      "area": "reading",
+      "difficulty": -1.2
+    },
+    {
+      "id": "sim2_07",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה מאפיין index funds לפי הקטע?",
+      "body_content": "[ps_04] What do index funds do according to the passage?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "They try to pick individual winning stocks."
+        },
+        {
+          "id": "b",
+          "label": "They charge the highest possible fees."
+        },
+        {
+          "id": "c",
+          "label": "They track the overall market.",
+          "feedback": "הקטע אומר שקרנות אלה עוקבות אחרי השוק הכללי במקום לנסות לבחור מניות מנצחות."
+        },
+        {
+          "id": "d",
+          "label": "They guarantee no losses."
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "index funds עוקבות אחרי השוק הכללי.",
+      "feedback_try": "השורה 'These funds track the overall market rather than trying to pick individual winning stocks' מראה שג נכונה.",
+      "worked_method": "אתרו index funds ובדקו מה הן עושות.",
+      "can_do": "להבין מאפיין של סוג השקעה",
+      "hint": "חפשו track the overall market.",
+      "area": "reading",
+      "difficulty": 0.3
+    },
+    {
+      "id": "sim2_08",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה קורה לכסף שנשאר רק בחשבון עובר ושב לפי הקטע?",
+      "body_content": "[ps_04] What happens to money left only in a checking account according to the passage?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It grows faster than inflation."
+        },
+        {
+          "id": "b",
+          "label": "It loses purchasing power to inflation.",
+          "feedback": "הקטע אומר שכסף שנשאר רק בחשבון עובר ושב מאבד כוח קנייה בגלל אינפלציה."
+        },
+        {
+          "id": "c",
+          "label": "It earns high interest automatically."
+        },
+        {
+          "id": "d",
+          "label": "It is protected from all risk."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "הכסף מאבד כוח קנייה בגלל אינפלציה.",
+      "feedback_try": "המשפט 'money left only in a checking account loses purchasing power to inflation' תומך בב.",
+      "worked_method": "חפשו checking account ובדקו מה קורה לכסף שם.",
+      "can_do": "להבין השפעת אינפלציה על חיסכון",
+      "hint": "חפשו purchasing power.",
+      "area": "reading",
+      "difficulty": 0.8
+    },
+    {
+      "id": "sim2_09",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מי נהנה במיוחד מהתחלה מוקדמת של חיסכון?",
+      "body_content": "[ps_04] Who benefits especially from starting to save early?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Only people close to retirement."
+        },
+        {
+          "id": "b",
+          "label": "People who avoid all investments."
+        },
+        {
+          "id": "c",
+          "label": "Only those with large salaries."
+        },
+        {
+          "id": "d",
+          "label": "Younger workers, because of compound growth.",
+          "feedback": "הקטע אומר שעובדים צעירים שמתחילים מוקדם נהנים מצמיחה מורכבת גם עם סכומים קטנים."
+        }
+      ],
+      "correct": "d",
+      "feedback_ok": "עובדים צעירים נהנים מצמיחה מורכבת.",
+      "feedback_try": "השורה 'Younger workers who start early benefit from compound growth even with modest monthly sums' תומכת בד.",
+      "worked_method": "חפשו Younger workers ובדקו מדוע הם נהנים.",
+      "can_do": "לזהות קבוצה שנהנית מפעולה מוקדמת",
+      "hint": "חפשו Younger workers.",
+      "area": "reading",
+      "difficulty": 1.4
+    },
+    {
+      "id": "sim2_10",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה חשוב יותר לפי הקטע, פעולות קטנות סדירות או הפקדות גדולות מדי פעם?",
+      "body_content": "[ps_04] According to the passage, what matters more?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Occasional large deposits."
+        },
+        {
+          "id": "b",
+          "label": "Regular small actions.",
+          "feedback": "הקטע מסכם שפעולות קטנות סדירות חשובות יותר מהפקדות גדולות מדי פעם."
+        },
+        {
+          "id": "c",
+          "label": "Avoiding all fees."
+        },
+        {
+          "id": "d",
+          "label": "Choosing only high-risk stocks."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "פעולות קטנות סדירות חשובות יותר.",
+      "feedback_try": "המשפט האחרון 'Regular small actions matter more than occasional large deposits' מראה שב נכונה.",
+      "worked_method": "חפשו את המשפט האחרון של הקטע.",
+      "can_do": "לחלץ מסקנה מסכמת",
+      "hint": "קראו את המשפט האחרון.",
+      "area": "reading",
+      "difficulty": 0.2
+    },
+    {
+      "id": "sim2_11",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה משמעות subsidies בהקשר של דיור?",
+      "body_content": "In the passage, subsidies most nearly means",
+      "choices": [
+        {
+          "id": "a",
+          "label": "financial help or support from the government.",
+          "feedback": "subsidies הן סיוע כספי, כאן לרוכשים ראשונים."
+        },
+        {
+          "id": "b",
+          "label": "higher taxes on homes."
+        },
+        {
+          "id": "c",
+          "label": "rules that ban building."
+        },
+        {
+          "id": "d",
+          "label": "private loans only."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "subsidies הן סיוע כספי.",
+      "feedback_try": "ההקשר 'offer subsidies or low-interest loans to first-time buyers' מראה שהכוונה לסיוע. לכן א.",
+      "worked_method": "בדקו מה מוצע יחד עם low-interest loans.",
+      "can_do": "להבין מונח כלכלי בהקשר",
+      "hint": "חשבו על עזרה לרוכשים.",
+      "area": "vocabulary",
+      "difficulty": -0.4
+    },
+    {
+      "id": "sim2_12",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה משמעות incentive בהקשר של בנייה?",
+      "body_content": "The word incentive in 'reduce the incentive to build' most nearly means",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a reason or motivation to do something.",
+          "feedback": "incentive הוא תמריץ או סיבה לעשות משהו."
+        },
+        {
+          "id": "b",
+          "label": "a type of building material."
+        },
+        {
+          "id": "c",
+          "label": "a government tax."
+        },
+        {
+          "id": "d",
+          "label": "a finished apartment."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "incentive הוא תמריץ או מוטיבציה.",
+      "feedback_try": "ההקשר של reduce the incentive to build מראה שהכוונה למוטיבציה. לכן א.",
+      "worked_method": "חשבו מה מפחיתים כשאומרים reduce the incentive.",
+      "can_do": "להבין מילה מופשטת בהקשר",
+      "hint": "incentive קשור לסיבה לעשות.",
+      "area": "vocabulary",
+      "difficulty": 0.7
+    },
+    {
+      "id": "sim2_13",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה משמעות compound growth?",
+      "body_content": "Compound growth in the passage most nearly means",
+      "choices": [
+        {
+          "id": "a",
+          "label": "growth that stops after one year."
+        },
+        {
+          "id": "b",
+          "label": "growth where earnings also earn returns over time.",
+          "feedback": "compound growth הוא צמיחה שבה הרווחים עצמם מניבים תשואה נוספת."
+        },
+        {
+          "id": "c",
+          "label": "a type of bank fee."
+        },
+        {
+          "id": "d",
+          "label": "loss of money."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "compound growth הוא צמיחה מורכבת שבה הרווחים צומחים.",
+      "feedback_try": "ההקשר של start early benefit from compound growth מראה על צמיחה מצטברת. לכן ב.",
+      "worked_method": "חפשו את ההסבר סביב younger workers ו-compound.",
+      "can_do": "להבין מונח פיננסי",
+      "hint": "חשבו על רווחים שמייצרים עוד רווחים.",
+      "area": "vocabulary",
+      "difficulty": 1.2
+    },
+    {
+      "id": "sim2_14",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "מה משמעות purchasing power?",
+      "body_content": "Purchasing power most nearly means",
+      "choices": [
+        {
+          "id": "a",
+          "label": "the amount of goods or services money can buy.",
+          "feedback": "purchasing power הוא כוח הקנייה של הכסף."
+        },
+        {
+          "id": "b",
+          "label": "the interest rate on a loan."
+        },
+        {
+          "id": "c",
+          "label": "the number of bank accounts."
+        },
+        {
+          "id": "d",
+          "label": "a type of investment."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "purchasing power הוא מה שהכסף יכול לקנות.",
+      "feedback_try": "ההקשר loses purchasing power to inflation מראה שהכוונה לערך הקנייה. לכן א.",
+      "worked_method": "חשבו מה קורה כשאינפלציה משפיעה על כסף.",
+      "can_do": "להבין מונח כלכלי בסיסי",
+      "hint": "power כאן קשור ליכולת לקנות.",
+      "area": "vocabulary",
+      "difficulty": 0.0
+    },
+    {
+      "id": "sim2_15",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "בחרו את צורת הסביל הנכונה.",
+      "body_content": "New apartments _____ in several cities last year.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "built"
+        },
+        {
+          "id": "b",
+          "label": "were built",
+          "feedback": "הנושא הוא apartments, הפעולה נעשתה עליהם, לכן סביל בעבר."
+        },
+        {
+          "id": "c",
+          "label": "was built"
+        },
+        {
+          "id": "d",
+          "label": "have built"
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "were built הוא הסביל הנכון לנושא ברבים בעבר.",
+      "feedback_try": "apartments הוא רבים. הפעולה נעשתה עליהם בעבר. לכן were built. ב.",
+      "worked_method": "בדקו אם הנושא עושה את הפעולה או שהפעולה נעשית עליו, ואת הזמן.",
+      "can_do": "ליצור משפט סביל נכון",
+      "hint": "הדירות נבנו, לא בנו.",
+      "area": "grammar",
+      "difficulty": -0.6
+    },
+    {
+      "id": "sim2_16",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "בחרו את מילת היחס הנכונה.",
+      "body_content": "Many adults spend a large portion _____ their income on housing.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "of",
+          "feedback": "portion of הוא הצירוף הנכון."
+        },
+        {
+          "id": "b",
+          "label": "on"
+        },
+        {
+          "id": "c",
+          "label": "for"
+        },
+        {
+          "id": "d",
+          "label": "with"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "portion of הוא הצירוף הסטנדרטי.",
+      "feedback_try": "הצירוף הקבוע הוא a portion of. לכן א.",
+      "worked_method": "זכרו צירופים קבועים עם portion.",
+      "can_do": "לבחור מילת יחס נכונה בצירוף",
+      "hint": "portion תמיד עם of.",
+      "area": "grammar",
+      "difficulty": 0.5
+    },
+    {
+      "id": "sim2_17",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "בחרו את הצורה הנכונה של הפועל המודאלי.",
+      "body_content": "Investors _____ review their risk tolerance before choosing funds.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "should",
+          "feedback": "should מביע המלצה או עצה."
+        },
+        {
+          "id": "b",
+          "label": "must to"
+        },
+        {
+          "id": "c",
+          "label": "can to"
+        },
+        {
+          "id": "d",
+          "label": "ought"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "should מתאים להמלצה.",
+      "feedback_try": "המשפט נותן עצה. should הוא המודאל המתאים. must to ו-can to שגויים דקדוקית.",
+      "worked_method": "בדקו איזה מודאל מביע עצה, וודאו שאין to אחריו.",
+      "can_do": "לבחור מודאל מתאים לעצה",
+      "hint": "זו עצה, לא חובה מוחלטת.",
+      "area": "grammar",
+      "difficulty": 1.0
+    },
+    {
+      "id": "sim2_18",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "בחרו את צורת ההשוואה הנכונה.",
+      "body_content": "Starting early is _____ effective than waiting until later.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "more",
+          "feedback": "more effective הוא צורת ההשוואה."
+        },
+        {
+          "id": "b",
+          "label": "most"
+        },
+        {
+          "id": "c",
+          "label": "as"
+        },
+        {
+          "id": "d",
+          "label": "very"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "more effective מתאים להשוואה עם than.",
+      "feedback_try": "יש than, לכן צורת השוואה. effective דורש more. לכן א.",
+      "worked_method": "חפשו than. היא דורשת צורת השוואה.",
+      "can_do": "ליצור השוואה נכונה",
+      "hint": "יש than במשפט.",
+      "area": "grammar",
+      "difficulty": 1.6
+    },
+    {
+      "id": "sim2_19",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "איזה משפט מתאים ביותר כמשפט מקשר בחיבור על חיסכון?",
+      "body_content": "Which linking sentence best connects a paragraph about emergency funds to a paragraph about long-term investing?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Once an emergency fund is in place, people can consider longer-term options.",
+          "feedback": "המשפט מקשר באופן הגיוני בין השלב הראשון לשלב הבא."
+        },
+        {
+          "id": "b",
+          "label": "Housing prices are high in cities."
+        },
+        {
+          "id": "c",
+          "label": "Sleep is important for health."
+        },
+        {
+          "id": "d",
+          "label": "I like my bank."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "המשפט מקשר בין קרן חירום להשקעות ארוכות טווח.",
+      "feedback_try": "משפט מקשר טוב מחבר בין שני רעיונות. א עושה זאת. האחרים לא קשורים.",
+      "worked_method": "חפשו משפט שממשיך את הרעיון הקודם ופותח את הבא.",
+      "can_do": "לבחור משפט מקשר מתאים",
+      "hint": "המשפט צריך לחבר בין שני הנושאים.",
+      "area": "writing",
+      "difficulty": 0.4
+    },
+    {
+      "id": "sim2_20",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקה",
+      "body_he": "איזה משפט מתאים ביותר כסיום לחיבור על חשיבות התחלה מוקדמת בחיסכון?",
+      "body_content": "Which sentence is the best closing for an essay on the importance of starting to save early?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "In short, beginning with small regular amounts while young gives compound growth more time to work.",
+          "feedback": "הסיום מסכם את הטיעון המרכזי."
+        },
+        {
+          "id": "b",
+          "label": "Cities need more apartments."
+        },
+        {
+          "id": "c",
+          "label": "Remote work is popular."
+        },
+        {
+          "id": "d",
+          "label": "I opened a bank account yesterday."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "הסיום חוזר על היתרון של התחלה מוקדמת.",
+      "feedback_try": "סיום טוב מסכם את הרעיון המרכזי. א עושה זאת.",
+      "worked_method": "סיום צריך לסגור את הטיעון בלי נושא חדש.",
+      "can_do": "לבחור סיום מתאים לחיבור",
+      "hint": "חפשו משפט שמסכם את היתרון של התחלה מוקדמת.",
+      "area": "writing",
+      "difficulty": 1.1
+    }
+  ],
+  "extra_by_area": {}
+}
