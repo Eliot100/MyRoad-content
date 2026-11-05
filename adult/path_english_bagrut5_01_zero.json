@@ -35,7 +35,13 @@
         "z_t_letters_ex2",
         "z_t_letters_ex3",
         "z_t_letters_p1",
-        "z_t_letters_p2"
+        "z_t_letters_p2",
+        "xp_01_t_letters_01",
+        "xp_01_t_letters_02",
+        "xp_01_t_letters_03",
+        "xp_01_t_letters_04",
+        "xp_01_t_letters_05",
+        "xp_01_t_letters_06"
       ]
     },
     {
@@ -51,7 +57,13 @@
         "z_t_be_ex2",
         "z_t_be_ex3",
         "z_t_be_p1",
-        "z_t_be_p2"
+        "z_t_be_p2",
+        "xp_01_t_be_01",
+        "xp_01_t_be_02",
+        "xp_01_t_be_03",
+        "xp_01_t_be_04",
+        "xp_01_t_be_05",
+        "xp_01_t_be_06"
       ]
     },
     {
@@ -67,7 +79,13 @@
         "z_t_not_ex2",
         "z_t_not_ex3",
         "z_t_not_p1",
-        "z_t_not_p2"
+        "z_t_not_p2",
+        "xp_01_t_not_01",
+        "xp_01_t_not_02",
+        "xp_01_t_not_03",
+        "xp_01_t_not_04",
+        "xp_01_t_not_05",
+        "xp_01_t_not_06"
       ]
     },
     {
@@ -95,7 +113,13 @@
         "z_t_you_ex2",
         "z_t_you_ex3",
         "z_t_you_p1",
-        "z_t_you_p2"
+        "z_t_you_p2",
+        "xp_01_t_you_01",
+        "xp_01_t_you_02",
+        "xp_01_t_you_04",
+        "xp_01_t_you_05",
+        "xp_01_t_you_06",
+        "xp_01_t_you_03"
       ]
     },
     {
@@ -111,7 +135,13 @@
         "z_t_word_ex2",
         "z_t_word_ex3",
         "z_t_word_p1",
-        "z_t_word_p2"
+        "z_t_word_p2",
+        "xp_01_t_word_04",
+        "xp_01_t_word_05",
+        "xp_01_t_word_06",
+        "xp_01_t_word_01",
+        "xp_01_t_word_02",
+        "xp_01_t_word_03"
       ]
     },
     {
@@ -127,7 +157,13 @@
         "z_t_sent_ex2",
         "z_t_sent_ex3",
         "z_t_sent_p1",
-        "z_t_sent_p2"
+        "z_t_sent_p2",
+        "xp_01_t_sent_01",
+        "xp_01_t_sent_02",
+        "xp_01_t_sent_03",
+        "xp_01_t_sent_04",
+        "xp_01_t_sent_06",
+        "xp_01_t_sent_05"
       ]
     },
     {
@@ -253,6 +289,186 @@
       "hint": "אמרו את המילה ושימו לב לצליל האחרון."
     },
     {
+      "id": "xp_01_t_letters_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "האות A",
+      "body_he": "מה האות הראשונה באנגלית?",
+      "body_content": "The first letter is ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "feedback": "B היא האות השנייה."
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "feedback": "C היא האות השלישית."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "A.",
+      "feedback_try": "האות הראשונה היא A. המשפט המלא: The first letter is A.",
+      "worked_method": "אומרים את שם האות, ואז קוראים מילה קצרה.",
+      "can_do": "לזהות את האות A",
+      "hint": "איזו אות באה ראשונה באלפבית?"
+    },
+    {
+      "id": "xp_01_t_letters_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "האות B",
+      "body_he": "מה האות השנייה באנגלית?",
+      "body_content": "The second letter is ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A",
+          "feedback": "A היא האות הראשונה."
+        },
+        {
+          "id": "b",
+          "label": "B"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "feedback": "C היא האות השלישית."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "B.",
+      "feedback_try": "האות השנייה היא B. המשפט המלא: The second letter is B.",
+      "worked_method": "אומרים את שם האות, ואז קוראים מילה קצרה.",
+      "can_do": "לזהות את האות B",
+      "hint": "איזו אות באה אחרי A?"
+    },
+    {
+      "id": "xp_01_t_letters_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "האות C",
+      "body_he": "מה האות השלישית באנגלית?",
+      "body_content": "The third letter is ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A",
+          "feedback": "A היא האות הראשונה."
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "feedback": "B היא האות השנייה."
+        },
+        {
+          "id": "c",
+          "label": "C"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "C.",
+      "feedback_try": "האות השלישית היא C. המשפט המלא: The third letter is C.",
+      "worked_method": "אומרים את שם האות, ואז קוראים מילה קצרה.",
+      "can_do": "לזהות את האות C",
+      "hint": "איזו אות באה אחרי B?"
+    },
+    {
+      "id": "xp_01_t_letters_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שם האות",
+      "body_he": "איך אומרים את האות A?",
+      "body_content": "The name of the letter is ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ay"
+        },
+        {
+          "id": "b",
+          "label": "bee",
+          "feedback": "bee הוא השם של B."
+        },
+        {
+          "id": "c",
+          "label": "see",
+          "feedback": "see הוא השם של C."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ay.",
+      "feedback_try": "שם האות A הוא ay. המשפט המלא: The name of the letter is ay.",
+      "worked_method": "אומרים את שם האות, ואז קוראים מילה קצרה.",
+      "can_do": "לומר את שם האות A",
+      "hint": "איך נשמע השם של A?"
+    },
+    {
+      "id": "xp_01_t_letters_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מילה עם A",
+      "body_he": "קראו את המילה הקצרה שמתחילה ב A.",
+      "body_content": "The word is ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "cat",
+          "feedback": "cat מתחילה ב C."
+        },
+        {
+          "id": "b",
+          "label": "apple"
+        },
+        {
+          "id": "c",
+          "label": "ball",
+          "feedback": "ball מתחילה ב B."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "apple.",
+      "feedback_try": "המילה apple מתחילה ב A. המשפט המלא: The word is apple.",
+      "worked_method": "אומרים את שם האות, ואז קוראים מילה קצרה.",
+      "can_do": "לקרוא מילה קצרה עם A",
+      "hint": "איזו מילה מתחילה באות A?"
+    },
+    {
+      "id": "xp_01_t_letters_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אות בסוף",
+      "body_he": "איזו אות באה אחרונה מבין השלוש?",
+      "body_content": "The last letter is ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A",
+          "feedback": "A היא הראשונה."
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "feedback": "B היא השנייה."
+        },
+        {
+          "id": "c",
+          "label": "C"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "C.",
+      "feedback_try": "האות האחרונה מבין A, B, C היא C. המשפט המלא: The last letter is C.",
+      "worked_method": "אומרים את שם האות, ואז קוראים מילה קצרה.",
+      "can_do": "לזהות את סדר האותיות",
+      "hint": "A, B, ואז מה?"
+    },
+    {
       "id": "z_t_be_learn",
       "type": "learn",
       "kind": "understanding",
@@ -349,6 +565,186 @@
       "hint": "She היא גוף אחד. איזו צורה הולכת איתה?"
     },
     {
+      "id": "xp_01_t_be_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "I am",
+      "body_he": "מה נכון?",
+      "body_content": "I ___ a teacher.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "is",
+          "feedback": "is הולך עם he, she, it. עם I אומרים am."
+        },
+        {
+          "id": "c",
+          "label": "are",
+          "feedback": "are הולך עם you, we, they."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "I am.",
+      "feedback_try": "במשפט יש I, לכן am: I am a teacher.",
+      "worked_method": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
+      "can_do": "להגיד I am",
+      "hint": "איזו צורה של to be הולכת עם I?"
+    },
+    {
+      "id": "xp_01_t_be_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "She is",
+      "body_he": "מה נכון?",
+      "body_content": "She ___ happy.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am",
+          "feedback": "am הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "are",
+          "feedback": "are הולך עם you, we, they."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "She is.",
+      "feedback_try": "במשפט יש she, לכן is: She is happy.",
+      "worked_method": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
+      "can_do": "להגיד she is",
+      "hint": "איזו צורה הולכת עם she?"
+    },
+    {
+      "id": "xp_01_t_be_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "They are",
+      "body_he": "מה נכון?",
+      "body_content": "They ___ students.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am",
+          "feedback": "am הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is",
+          "feedback": "is הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "are"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "They are.",
+      "feedback_try": "במשפט יש they, לכן are: They are students.",
+      "worked_method": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
+      "can_do": "להגיד they are",
+      "hint": "איזו צורה הולכת עם they?"
+    },
+    {
+      "id": "xp_01_t_be_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "He is",
+      "body_he": "מה נכון?",
+      "body_content": "He ___ at work.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am",
+          "feedback": "am הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "are",
+          "feedback": "are הולך עם you, we, they."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "He is.",
+      "feedback_try": "במשפט יש he, לכן is: He is at work.",
+      "worked_method": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
+      "can_do": "להגיד he is",
+      "hint": "איזו צורה הולכת עם he?"
+    },
+    {
+      "id": "xp_01_t_be_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "We are",
+      "body_he": "מה נכון?",
+      "body_content": "We ___ ready.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am",
+          "feedback": "am הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is",
+          "feedback": "is הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "are"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "We are.",
+      "feedback_try": "במשפט יש we, לכן are: We are ready.",
+      "worked_method": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
+      "can_do": "להגיד we are",
+      "hint": "איזו צורה הולכת עם we?"
+    },
+    {
+      "id": "xp_01_t_be_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "It is",
+      "body_he": "מה נכון?",
+      "body_content": "It ___ cold today.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am",
+          "feedback": "am הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "are",
+          "feedback": "are הולך עם you, we, they."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "It is.",
+      "feedback_try": "במשפט יש it, לכן is: It is cold today.",
+      "worked_method": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
+      "can_do": "להגיד it is",
+      "hint": "איזו צורה הולכת עם it?"
+    },
+    {
       "id": "z_t_not_learn",
       "type": "learn",
       "kind": "understanding",
@@ -443,6 +839,186 @@
       "can_do": "להגיד I am not",
       "worked_method": "בשלילה עם I כותבים am ואחריו not, בלי do.\nבמשפט יש I, לכן am not.\nהתשובה: I am not hungry.",
       "hint": "שלילה עם I: הצורה של to be ואחריה not."
+    },
+    {
+      "id": "xp_01_t_not_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "I am not",
+      "body_he": "מה נכון?",
+      "body_content": "I ___ thirsty.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am not"
+        },
+        {
+          "id": "b",
+          "label": "is not",
+          "feedback": "is not הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "are not",
+          "feedback": "are not הולך עם you, we, they."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "I am not.",
+      "feedback_try": "במשפט יש I, לכן am not: I am not tired.",
+      "worked_method": "שלילה: am not, is not, are not. לא מוסיפים do.",
+      "can_do": "להגיד I am not",
+      "hint": "איך שוללים עם I?"
+    },
+    {
+      "id": "xp_01_t_not_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "She is not",
+      "body_he": "מה נכון?",
+      "body_content": "She ___ late.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am not",
+          "feedback": "am not הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is not"
+        },
+        {
+          "id": "c",
+          "label": "are not",
+          "feedback": "are not הולך עם you, we, they."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "She is not.",
+      "feedback_try": "במשפט יש she, לכן is not: She is not late.",
+      "worked_method": "שלילה: am not, is not, are not. לא מוסיפים do.",
+      "can_do": "להגיד she is not",
+      "hint": "איך שוללים עם she?"
+    },
+    {
+      "id": "xp_01_t_not_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "They are not",
+      "body_he": "מה נכון?",
+      "body_content": "They ___ here.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am not",
+          "feedback": "am not הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is not",
+          "feedback": "is not הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "are not"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "They are not.",
+      "feedback_try": "במשפט יש they, לכן are not: They are not here.",
+      "worked_method": "שלילה: am not, is not, are not. לא מוסיפים do.",
+      "can_do": "להגיד they are not",
+      "hint": "איך שוללים עם they?"
+    },
+    {
+      "id": "xp_01_t_not_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "He is not",
+      "body_he": "מה נכון?",
+      "body_content": "He ___ ready.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am not",
+          "feedback": "am not הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is not"
+        },
+        {
+          "id": "c",
+          "label": "are not",
+          "feedback": "are not הולך עם you, we, they."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "He is not.",
+      "feedback_try": "במשפט יש he, לכן is not: He is not ready.",
+      "worked_method": "שלילה: am not, is not, are not. לא מוסיפים do.",
+      "can_do": "להגיד he is not",
+      "hint": "איך שוללים עם he?"
+    },
+    {
+      "id": "xp_01_t_not_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "We are not",
+      "body_he": "מה נכון?",
+      "body_content": "We ___ busy.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am not",
+          "feedback": "am not הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is not",
+          "feedback": "is not הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "are not"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "We are not.",
+      "feedback_try": "במשפט יש we, לכן are not: We are not busy.",
+      "worked_method": "שלילה: am not, is not, are not. לא מוסיפים do.",
+      "can_do": "להגיד we are not",
+      "hint": "איך שוללים עם we?"
+    },
+    {
+      "id": "xp_01_t_not_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "It is not",
+      "body_he": "מה נכון?",
+      "body_content": "It ___ hot.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am not",
+          "feedback": "am not הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is not"
+        },
+        {
+          "id": "c",
+          "label": "are not",
+          "feedback": "are not הולך עם you, we, they."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "It is not.",
+      "feedback_try": "במשפט יש it, לכן is not: It is not hot.",
+      "worked_method": "שלילה: am not, is not, are not. לא מוסיפים do.",
+      "can_do": "להגיד it is not",
+      "hint": "איך שוללים עם it?"
     },
     {
       "id": "z_rev1_learn",
@@ -590,6 +1166,186 @@
       "hint": "They הם רבים. איזו צורה הולכת איתם?"
     },
     {
+      "id": "xp_01_t_you_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "You are",
+      "body_he": "מה נכון?",
+      "body_content": "You ___ early.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am",
+          "feedback": "am הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is",
+          "feedback": "is הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "are"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "You are.",
+      "feedback_try": "במשפט יש you, לכן are: You are ready.",
+      "worked_method": "you, we, they הולכים עם are. לא עם am.",
+      "can_do": "להגיד you are",
+      "hint": "איזו צורה הולכת עם you?"
+    },
+    {
+      "id": "xp_01_t_you_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "We are",
+      "body_he": "מה נכון?",
+      "body_content": "We ___ here.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am",
+          "feedback": "am הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is",
+          "feedback": "is הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "are"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "We are.",
+      "feedback_try": "במשפט יש we, לכן are: We are here.",
+      "worked_method": "you, we, they הולכים עם are. לא עם am.",
+      "can_do": "להגיד we are",
+      "hint": "איזו צורה הולכת עם we?"
+    },
+    {
+      "id": "xp_01_t_you_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "You are not",
+      "body_he": "מה נכון?",
+      "body_content": "You ___ late.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am not",
+          "feedback": "am not הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is not",
+          "feedback": "is not הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "are not"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "You are not.",
+      "feedback_try": "במשפט יש you, לכן are not: You are not late.",
+      "worked_method": "you, we, they הולכים עם are. לא עם am.",
+      "can_do": "להגיד you are not",
+      "hint": "איך שוללים עם you?"
+    },
+    {
+      "id": "xp_01_t_you_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "We are not",
+      "body_he": "מה נכון?",
+      "body_content": "We ___ tired.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am not",
+          "feedback": "am not הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is not",
+          "feedback": "is not הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "are not"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "We are not.",
+      "feedback_try": "במשפט יש we, לכן are not: We are not tired.",
+      "worked_method": "you, we, they הולכים עם are. לא עם am.",
+      "can_do": "להגיד we are not",
+      "hint": "איך שוללים עם we?"
+    },
+    {
+      "id": "xp_01_t_you_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "They are not",
+      "body_he": "מה נכון?",
+      "body_content": "They ___ early.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am not",
+          "feedback": "am not הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is not",
+          "feedback": "is not הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "are not"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "They are not.",
+      "feedback_try": "במשפט יש they, לכן are not: They are not ready.",
+      "worked_method": "you, we, they הולכים עם are. לא עם am.",
+      "can_do": "להגיד they are not",
+      "hint": "איך שוללים עם they?"
+    },
+    {
+      "id": "xp_01_t_you_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "They are",
+      "body_he": "מה נכון?",
+      "body_content": "They ___ neighbours.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am",
+          "feedback": "am הולך רק עם I."
+        },
+        {
+          "id": "b",
+          "label": "is",
+          "feedback": "is הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "are"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "They are.",
+      "feedback_try": "במשפט יש they, לכן are: They are students.",
+      "worked_method": "you, we, they הולכים עם are. לא עם am.",
+      "can_do": "להגיד they are",
+      "hint": "איזו צורה הולכת עם they?"
+    },
+    {
       "id": "z_t_word_learn",
       "type": "learn",
       "kind": "understanding",
@@ -686,6 +1442,186 @@
       "hint": "איזו חיה עושה meow? אמרו את שמה באנגלית."
     },
     {
+      "id": "xp_01_t_word_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מילה שלמה",
+      "body_he": "מה נכון לקרוא?",
+      "body_content": "Read the whole word: ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "sun"
+        },
+        {
+          "id": "b",
+          "label": "s",
+          "feedback": "קוראים את כל המילה, לא רק את האות הראשונה."
+        },
+        {
+          "id": "c",
+          "label": "su",
+          "feedback": "קוראים את כל המילה, לא רק חלק ממנה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "sun.",
+      "feedback_try": "קוראים את כל המילה: sun. המשפט המלא: Read the whole word: sun.",
+      "worked_method": "קוראים את כל המילה, לא רק את האות הראשונה.",
+      "can_do": "לקרוא מילה שלמה",
+      "hint": "כל האותיות ביחד."
+    },
+    {
+      "id": "xp_01_t_word_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לא רק אות",
+      "body_he": "איך קוראים את המילה?",
+      "body_content": "The word is not just the first letter. It is ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "m",
+          "feedback": "m היא רק האות הראשונה."
+        },
+        {
+          "id": "b",
+          "label": "map"
+        },
+        {
+          "id": "c",
+          "label": "ma",
+          "feedback": "ma הוא חלק מהמילה, לא כל המילה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "map.",
+      "feedback_try": "קוראים את כל המילה: map. המשפט המלא: The word is not just the first letter. It is map.",
+      "worked_method": "קוראים את כל המילה, לא רק את האות הראשונה.",
+      "can_do": "לקרוא מילה שלמה",
+      "hint": "כל האותיות."
+    },
+    {
+      "id": "xp_01_t_word_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כל המילה",
+      "body_he": "בחרו את המילה השלמה.",
+      "body_content": "The full word is ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "d",
+          "feedback": "d היא רק האות הראשונה."
+        },
+        {
+          "id": "b",
+          "label": "do",
+          "feedback": "do הוא חלק מהמילה."
+        },
+        {
+          "id": "c",
+          "label": "dog"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "dog.",
+      "feedback_try": "המילה השלמה היא dog. המשפט המלא: The full word is dog.",
+      "worked_method": "קוראים את כל המילה, לא רק את האות הראשונה.",
+      "can_do": "לקרוא מילה שלמה",
+      "hint": "לא חלק, כל המילה."
+    },
+    {
+      "id": "xp_01_t_word_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "המילה sun",
+      "body_he": "קראו את כל המילה.",
+      "body_content": "Read this: lamp. The word is ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "sun"
+        },
+        {
+          "id": "b",
+          "label": "s",
+          "feedback": "קוראים את כל המילה, לא רק את האות הראשונה."
+        },
+        {
+          "id": "c",
+          "label": "map",
+          "feedback": "map היא מילה אחרת."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "sun.",
+      "feedback_try": "קוראים את כל המילה: sun. המשפט המלא: The word is sun.",
+      "worked_method": "קוראים את כל המילה, לא רק את האות הראשונה.",
+      "can_do": "לקרוא את המילה sun",
+      "hint": "לא רק את האות הראשונה."
+    },
+    {
+      "id": "xp_01_t_word_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "המילה map",
+      "body_he": "קראו את כל המילה.",
+      "body_content": "Read this: desk. The word is ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "m",
+          "feedback": "קוראים את כל המילה, לא רק את האות הראשונה."
+        },
+        {
+          "id": "b",
+          "label": "map"
+        },
+        {
+          "id": "c",
+          "label": "dog",
+          "feedback": "dog היא מילה אחרת."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "map.",
+      "feedback_try": "קוראים את כל המילה: map. המשפט המלא: The word is map.",
+      "worked_method": "קוראים את כל המילה, לא רק את האות הראשונה.",
+      "can_do": "לקרוא את המילה map",
+      "hint": "לא רק את האות הראשונה."
+    },
+    {
+      "id": "xp_01_t_word_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "המילה dog",
+      "body_he": "קראו את כל המילה.",
+      "body_content": "Read this: road. The word is ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "d",
+          "feedback": "קוראים את כל המילה, לא רק את האות הראשונה."
+        },
+        {
+          "id": "b",
+          "label": "sun",
+          "feedback": "sun היא מילה אחרת."
+        },
+        {
+          "id": "c",
+          "label": "dog"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "dog.",
+      "feedback_try": "קוראים את כל המילה: dog. המשפט המלא: The word is dog.",
+      "worked_method": "קוראים את כל המילה, לא רק את האות הראשונה.",
+      "can_do": "לקרוא את המילה dog",
+      "hint": "לא רק את האות הראשונה."
+    },
+    {
       "id": "z_t_sent_learn",
       "type": "learn",
       "kind": "understanding",
@@ -780,6 +1716,186 @@
       "can_do": "לכתוב I באות גדולה",
       "worked_method": "לפני am צריך את I, ו I נכתבת תמיד באות גדולה.\ni קטנה אינה נכונה, ו am כבר כתוב במשפט.\nהתשובה: I.",
       "hint": "I היא המילה שאומרת אני. איך כותבים אותה תמיד?"
+    },
+    {
+      "id": "xp_01_t_sent_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משפט מלא",
+      "body_he": "מה נכון?",
+      "body_content": "___ am here.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "I"
+        },
+        {
+          "id": "b",
+          "label": "i",
+          "feedback": "משפט מתחיל באות גדולה."
+        },
+        {
+          "id": "c",
+          "label": "He",
+          "feedback": "He הולך עם is, לא עם am."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "I am here.",
+      "feedback_try": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל: I am here.",
+      "worked_method": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
+      "can_do": "לכתוב משפט פשוט",
+      "hint": "אות גדולה בהתחלה."
+    },
+    {
+      "id": "xp_01_t_sent_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נקודה בסוף",
+      "body_he": "מה נכון?",
+      "body_content": "She is happy___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": ".",
+          "feedback": "הנקודה בסוף, אבל צריך גם מישהו ופועל."
+        },
+        {
+          "id": "b",
+          "label": " ."
+        },
+        {
+          "id": "c",
+          "label": "!",
+          "feedback": "נקודה, לא סימן קריאה, למשפט פשוט."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "She is happy.",
+      "feedback_try": "משפט נגמר בנקודה: She is happy.",
+      "worked_method": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
+      "can_do": "לגמור משפט בנקודה",
+      "hint": "משפט נגמר בנקודה."
+    },
+    {
+      "id": "xp_01_t_sent_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מישהו ופועל",
+      "body_he": "מה נכון?",
+      "body_content": "___ are ready.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "We"
+        },
+        {
+          "id": "b",
+          "label": "we",
+          "feedback": "משפט מתחיל באות גדולה."
+        },
+        {
+          "id": "c",
+          "label": "I",
+          "feedback": "I הולך עם am, לא עם are."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "We are ready.",
+      "feedback_try": "יש בו מישהו ופועל: We are ready.",
+      "worked_method": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
+      "can_do": "לכתוב משפט עם we",
+      "hint": "אות גדולה, ומישהו שמתאים."
+    },
+    {
+      "id": "xp_01_t_sent_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אות גדולה",
+      "body_he": "מה נכון?",
+      "body_content": "___ is a student.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "he",
+          "feedback": "משפט מתחיל באות גדולה."
+        },
+        {
+          "id": "b",
+          "label": "He"
+        },
+        {
+          "id": "c",
+          "label": "she",
+          "feedback": "משפט מתחיל באות גדולה, וגם she הולך עם is, אבל כאן צריך אות גדולה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "He is a student.",
+      "feedback_try": "משפט מתחיל באות גדולה: He is a student.",
+      "worked_method": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
+      "can_do": "להתחיל משפט באות גדולה",
+      "hint": "אות גדולה בהתחלה."
+    },
+    {
+      "id": "xp_01_t_sent_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נקודה",
+      "body_he": "מה נכון?",
+      "body_content": "I am a student___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": ".",
+          "feedback": "הנקודה בסוף המשפט."
+        },
+        {
+          "id": "b",
+          "label": " ."
+        },
+        {
+          "id": "c",
+          "label": "?",
+          "feedback": "זה משפט, לא שאלה. נגמר בנקודה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "I am a student.",
+      "feedback_try": "משפט נגמר בנקודה: I am a student.",
+      "worked_method": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
+      "can_do": "לגמור משפט בנקודה",
+      "hint": "משפט פשוט נגמר בנקודה."
+    },
+    {
+      "id": "xp_01_t_sent_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משפט שלם",
+      "body_he": "מה נכון?",
+      "body_content": "They ___ upstairs.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "are"
+        },
+        {
+          "id": "b",
+          "label": "is",
+          "feedback": "they הולך עם are."
+        },
+        {
+          "id": "c",
+          "label": "am",
+          "feedback": "am הולך רק עם I."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "They are here.",
+      "feedback_try": "יש בו מישהו ופועל: They are here.",
+      "worked_method": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
+      "can_do": "לכתוב משפט עם they",
+      "hint": "פועל שמתאים ל they."
     },
     {
       "id": "z_rev2_learn",

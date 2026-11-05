@@ -1,0 +1,1094 @@
+{
+  "t_past": [
+    {
+      "id": "xp_03_t_past_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "walked",
+      "body_he": "מה נכון?",
+      "body_content": "Yesterday I ___ home.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "walk",
+          "feedback": "אתמול: פועל עם ed."
+        },
+        {
+          "id": "b",
+          "label": "walked"
+        },
+        {
+          "id": "c",
+          "label": "walking",
+          "feedback": "אתמול: פועל עם ed."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "walked.",
+      "feedback_try": "אתמול: פועל עם ed: Yesterday I walked home.",
+      "worked_method": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
+      "can_do": "להגיד walked",
+      "hint": "אתמול: ed."
+    },
+    {
+      "id": "xp_03_t_past_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "worked",
+      "body_he": "מה נכון?",
+      "body_content": "Yesterday she ___ at home.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "work",
+          "feedback": "אתמול: פועל עם ed."
+        },
+        {
+          "id": "b",
+          "label": "worked"
+        },
+        {
+          "id": "c",
+          "label": "works",
+          "feedback": "works זה הווה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "worked.",
+      "feedback_try": "אתמול: פועל עם ed: Yesterday she worked at home.",
+      "worked_method": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
+      "can_do": "להגיד worked",
+      "hint": "אתמול: ed."
+    },
+    {
+      "id": "xp_03_t_past_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "started",
+      "body_he": "מה נכון?",
+      "body_content": "Yesterday he ___ at eight.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "start",
+          "feedback": "אתמול: פועל עם ed."
+        },
+        {
+          "id": "b",
+          "label": "started"
+        },
+        {
+          "id": "c",
+          "label": "starts",
+          "feedback": "starts זה הווה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "started.",
+      "feedback_try": "אתמול: פועל עם ed: Yesterday he started at eight.",
+      "worked_method": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
+      "can_do": "להגיד started",
+      "hint": "אתמול: ed."
+    },
+    {
+      "id": "xp_03_t_past_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "opened",
+      "body_he": "מה נכון?",
+      "body_content": "Yesterday I ___ the door.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "open",
+          "feedback": "אתמול: פועל עם ed."
+        },
+        {
+          "id": "b",
+          "label": "opened"
+        },
+        {
+          "id": "c",
+          "label": "opens",
+          "feedback": "opens זה הווה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "opened.",
+      "feedback_try": "אתמול: פועל עם ed: Yesterday I opened the door.",
+      "worked_method": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
+      "can_do": "להגיד opened",
+      "hint": "אתמול: ed."
+    },
+    {
+      "id": "xp_03_t_past_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "lived",
+      "body_he": "מה נכון?",
+      "body_content": "Last year they ___ here.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "live",
+          "feedback": "עבר: פועל עם ed."
+        },
+        {
+          "id": "b",
+          "label": "lived"
+        },
+        {
+          "id": "c",
+          "label": "lives",
+          "feedback": "lives זה הווה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "lived.",
+      "feedback_try": "עבר: פועל עם ed: Last year they lived here.",
+      "worked_method": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
+      "can_do": "להגיד lived",
+      "hint": "עבר: ed."
+    },
+    {
+      "id": "xp_03_t_past_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "waited",
+      "body_he": "מה נכון?",
+      "body_content": "Yesterday she ___ for the bus.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "wait",
+          "feedback": "אתמול: פועל עם ed."
+        },
+        {
+          "id": "b",
+          "label": "waited"
+        },
+        {
+          "id": "c",
+          "label": "waits",
+          "feedback": "waits זה הווה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "waited.",
+      "feedback_try": "אתמול: פועל עם ed: Yesterday she waited for the bus.",
+      "worked_method": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
+      "can_do": "להגיד waited",
+      "hint": "אתמול: ed."
+    }
+  ],
+  "t_fut": [
+    {
+      "id": "xp_03_t_fut_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "will leave",
+      "body_he": "מה נכון?",
+      "body_content": "Tomorrow I ___ leave early.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am",
+          "feedback": "מחר: will והפועל הבסיסי."
+        },
+        {
+          "id": "c",
+          "label": "going",
+          "feedback": "מחר: will והפועל הבסיסי."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "will leave.",
+      "feedback_try": "מחר: will והפועל הבסיסי: Tomorrow I will leave early.",
+      "worked_method": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
+      "can_do": "להגיד will leave",
+      "hint": "מחר: will."
+    },
+    {
+      "id": "xp_03_t_fut_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "will start",
+      "body_he": "מה נכון?",
+      "body_content": "Tomorrow she ___ start at nine.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "is",
+          "feedback": "מחר: will והפועל הבסיסי."
+        },
+        {
+          "id": "c",
+          "label": "starts",
+          "feedback": "starts זה הווה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "will start.",
+      "feedback_try": "מחר: will והפועל הבסיסי: Tomorrow she will start at nine.",
+      "worked_method": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
+      "can_do": "להגיד will start",
+      "hint": "מחר: will."
+    },
+    {
+      "id": "xp_03_t_fut_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "am going",
+      "body_he": "מה נכון?",
+      "body_content": "I ___ going to the store.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am"
+        },
+        {
+          "id": "b",
+          "label": "is",
+          "feedback": "I הולך עם am."
+        },
+        {
+          "id": "c",
+          "label": "are",
+          "feedback": "I הולך עם am."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "am going.",
+      "feedback_try": "תוכנית קרובה: am ועוד ing: I am going to the store.",
+      "worked_method": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
+      "can_do": "להגיד am going",
+      "hint": "I עם am."
+    },
+    {
+      "id": "xp_03_t_fut_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "is coming",
+      "body_he": "מה נכון?",
+      "body_content": "She ___ coming tomorrow.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am",
+          "feedback": "she הולך עם is."
+        },
+        {
+          "id": "b",
+          "label": "is"
+        },
+        {
+          "id": "c",
+          "label": "are",
+          "feedback": "she הולך עם is."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "is coming.",
+      "feedback_try": "תוכנית קרובה: is ועוד ing: She is coming tomorrow.",
+      "worked_method": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
+      "can_do": "להגיד is coming",
+      "hint": "she עם is."
+    },
+    {
+      "id": "xp_03_t_fut_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "are leaving",
+      "body_he": "מה נכון?",
+      "body_content": "They ___ leaving soon.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "am",
+          "feedback": "they הולך עם are."
+        },
+        {
+          "id": "b",
+          "label": "is",
+          "feedback": "they הולך עם are."
+        },
+        {
+          "id": "c",
+          "label": "are"
+        }
+      ],
+      "correct": "c",
+      "feedback_ok": "are leaving.",
+      "feedback_try": "תוכנית קרובה: are ועוד ing: They are leaving soon.",
+      "worked_method": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
+      "can_do": "להגיד are leaving",
+      "hint": "they עם are."
+    },
+    {
+      "id": "xp_03_t_fut_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "will see",
+      "body_he": "מה נכון?",
+      "body_content": "Tomorrow we ___ see the film.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "are",
+          "feedback": "מחר: will והפועל הבסיסי."
+        },
+        {
+          "id": "c",
+          "label": "see",
+          "feedback": "צריך will."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "will see.",
+      "feedback_try": "מחר: will והפועל הבסיסי: Tomorrow we will see the film.",
+      "worked_method": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
+      "can_do": "להגיד will see",
+      "hint": "מחר: will."
+    }
+  ],
+  "t_story": [
+    {
+      "id": "xp_03_t_story_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה קרה",
+      "body_he": "מה הרעיון המרכזי?",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him a ride home. He said yes and arrived safely. What is the main idea?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Jonah got help"
+        },
+        {
+          "id": "b",
+          "label": "Jonah walked home",
+          "feedback": "הטקסט אומר he got a ride."
+        },
+        {
+          "id": "c",
+          "label": "Jonah stayed at the pharmacy",
+          "feedback": "הטקסט אומר he arrived home."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "יונה קיבל עזרה.",
+      "feedback_try": "הרעיון המרכזי: Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him a ride home. He said yes and arrived safely.",
+      "worked_method": "קראו וזהו את הרעיון ואת ההסקה.",
+      "can_do": "לזהות את הרעיון המרכזי",
+      "hint": "מה קרה ליונה?"
+    },
+    {
+      "id": "xp_03_t_story_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איפה חיכה",
+      "body_he": "איפה יונה חיכה?",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him a ride home. He said yes and arrived safely. Where did he wait?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "under the pharmacy light"
+        },
+        {
+          "id": "b",
+          "label": "at the bus stop",
+          "feedback": "הטקסט אומר under the pharmacy light."
+        },
+        {
+          "id": "c",
+          "label": "at home",
+          "feedback": "הטקסט אומר under the pharmacy light."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "under the pharmacy light.",
+      "feedback_try": "הפרט: He waited under the pharmacy light.",
+      "worked_method": "קראו וזהו את הרעיון ואת ההסקה.",
+      "can_do": "למצוא פרט בטקסט",
+      "hint": "חפשו את המילה waited."
+    },
+    {
+      "id": "xp_03_t_story_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מי עזר",
+      "body_he": "מי עזר ליונה?",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him a ride home. He said yes and arrived safely. Who helped him?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a woman"
+        },
+        {
+          "id": "b",
+          "label": "a man",
+          "feedback": "הטקסט אומר a woman."
+        },
+        {
+          "id": "c",
+          "label": "the bus driver",
+          "feedback": "הטקסט אומר a woman."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "a woman.",
+      "feedback_try": "הפרט: A woman offered him a ride.",
+      "worked_method": "קראו וזהו את הרעיון ואת ההסקה.",
+      "can_do": "למצוא פרט בטקסט",
+      "hint": "חפשו את המילה woman."
+    },
+    {
+      "id": "xp_03_t_story_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה הוא אמר",
+      "body_he": "מה יונה אמר?",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him a ride home. He said yes and arrived safely. What did he say?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "yes"
+        },
+        {
+          "id": "b",
+          "label": "no",
+          "feedback": "הטקסט אומר he said yes."
+        },
+        {
+          "id": "c",
+          "label": "maybe",
+          "feedback": "הטקסט אומר he said yes."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "yes.",
+      "feedback_try": "הפרט: He said yes.",
+      "worked_method": "קראו וזהו את הרעיון ואת ההסקה.",
+      "can_do": "למצוא פרט בטקסט",
+      "hint": "חפשו את המילה said."
+    },
+    {
+      "id": "xp_03_t_story_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איך הגיע",
+      "body_he": "איך יונה הגיע הביתה?",
+      "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him a ride home. He said yes and arrived safely. How did he get home?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "by car"
+        },
+        {
+          "id": "b",
+          "label": "by bus",
+          "feedback": "הטקסט אומר he missed the bus."
+        },
+        {
+          "id": "c",
+          "label": "on foot",
+          "feedback": "הטקסט אומר he got a ride."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "by car.",
+      "feedback_try": "ההסקה: He got a ride, so by car.",
+      "worked_method": "קראו וזהו את הרעיון ואת ההסקה.",
+      "can_do": "להסיק מפרט",
+      "hint": "הוא קיבל ride."
+    },
+    {
+      "id": "xp_03_t_story_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סיפור קצר",
+      "body_he": "מה הרעיון המרכזי?",
+      "body_content": "Leila lost her keys at the market and searched under every stall. A boy found them by the spice jars. She thanked him and went home. What is the main idea?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a helpful stranger"
+        },
+        {
+          "id": "b",
+          "label": "a long walk",
+          "feedback": "הטקסט אומר he got a ride."
+        },
+        {
+          "id": "c",
+          "label": "a late night",
+          "feedback": "הטקסט מדבר על עזרה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "זרה שעזרה.",
+      "feedback_try": "הרעיון המרכזי: A woman offered him a ride home.",
+      "worked_method": "קראו וזהו את הרעיון ואת ההסקה.",
+      "can_do": "לזהות את הרעיון המרכזי",
+      "hint": "מה קרה?"
+    }
+  ],
+  "t_irreg": [
+    {
+      "id": "xp_03_t_irreg_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "saw",
+      "body_he": "מה נכון?",
+      "body_content": "Yesterday I ___ the bus.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "see",
+          "feedback": "see נהיה saw."
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "seed",
+          "feedback": "לא seed, saw."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "saw.",
+      "feedback_try": "לא כל עבר הוא ed. see נהיה saw: Yesterday I saw the bus.",
+      "worked_method": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
+      "can_do": "להגיד saw",
+      "hint": "see נהיה saw."
+    },
+    {
+      "id": "xp_03_t_irreg_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "went",
+      "body_he": "מה נכון?",
+      "body_content": "She ___ to work yesterday.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "go",
+          "feedback": "go נהיה went."
+        },
+        {
+          "id": "b",
+          "label": "went"
+        },
+        {
+          "id": "c",
+          "label": "goes",
+          "feedback": "goes זה הווה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "went.",
+      "feedback_try": "go נהיה went: She went to work yesterday.",
+      "worked_method": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
+      "can_do": "להגיד went",
+      "hint": "go נהיה went."
+    },
+    {
+      "id": "xp_03_t_irreg_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "saw",
+      "body_he": "מה נכון?",
+      "body_content": "He ___ her yesterday.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "see",
+          "feedback": "see נהיה saw."
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "sees",
+          "feedback": "sees זה הווה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "saw.",
+      "feedback_try": "see נהיה saw: He saw her yesterday.",
+      "worked_method": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
+      "can_do": "להגיד saw",
+      "hint": "see נהיה saw."
+    },
+    {
+      "id": "xp_03_t_irreg_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "went",
+      "body_he": "מה נכון?",
+      "body_content": "We ___ home early.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "go",
+          "feedback": "go נהיה went."
+        },
+        {
+          "id": "b",
+          "label": "went"
+        },
+        {
+          "id": "c",
+          "label": "goed",
+          "feedback": "לא goed, went."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "went.",
+      "feedback_try": "go נהיה went: We went home early.",
+      "worked_method": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
+      "can_do": "להגיד went",
+      "hint": "go נהיה went."
+    },
+    {
+      "id": "xp_03_t_irreg_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "saw",
+      "body_he": "מה נכון?",
+      "body_content": "They ___ the film yesterday.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "see",
+          "feedback": "see נהיה saw."
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "seed",
+          "feedback": "לא seed, saw."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "saw.",
+      "feedback_try": "see נהיה saw: They saw the film yesterday.",
+      "worked_method": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
+      "can_do": "להגיד saw",
+      "hint": "see נהיה saw."
+    },
+    {
+      "id": "xp_03_t_irreg_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "went",
+      "body_he": "מה נכון?",
+      "body_content": "Yesterday I ___ to work.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "go",
+          "feedback": "go נהיה went."
+        },
+        {
+          "id": "b",
+          "label": "went"
+        },
+        {
+          "id": "c",
+          "label": "goed",
+          "feedback": "לא goed, went."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "went.",
+      "feedback_try": "לא כל עבר הוא ed. go נהיה went: Yesterday I went home.",
+      "worked_method": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
+      "can_do": "להגיד went",
+      "hint": "go נהיה went."
+    }
+  ],
+  "t_ago": [
+    {
+      "id": "xp_03_t_ago_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "two days ago",
+      "body_he": "מה נכון?",
+      "body_content": "I saw her ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "two days ago"
+        },
+        {
+          "id": "b",
+          "label": "two days tomorrow",
+          "feedback": "ago מסתכל אחורה."
+        },
+        {
+          "id": "c",
+          "label": "tomorrow two days",
+          "feedback": "ago מסתכל אחורה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "two days ago.",
+      "feedback_try": "ago מסתכל אחורה: I saw her two days ago.",
+      "worked_method": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
+      "can_do": "להגיד two days ago",
+      "hint": "אחורה: ago."
+    },
+    {
+      "id": "xp_03_t_ago_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "tomorrow",
+      "body_he": "מה נכון?",
+      "body_content": "I will see her ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ago",
+          "feedback": "tomorrow מסתכל קדימה."
+        },
+        {
+          "id": "b",
+          "label": "tomorrow"
+        },
+        {
+          "id": "c",
+          "label": "yesterday",
+          "feedback": "tomorrow מסתכל קדימה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "tomorrow.",
+      "feedback_try": "tomorrow מסתכל קדימה: I will see her tomorrow.",
+      "worked_method": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
+      "can_do": "להגיד tomorrow",
+      "hint": "קדימה: tomorrow."
+    },
+    {
+      "id": "xp_03_t_ago_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "one week ago",
+      "body_he": "מה נכון?",
+      "body_content": "He went home ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "one week ago"
+        },
+        {
+          "id": "b",
+          "label": "one week tomorrow",
+          "feedback": "ago מסתכל אחורה."
+        },
+        {
+          "id": "c",
+          "label": "tomorrow one week",
+          "feedback": "ago מסתכל אחורה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "one week ago.",
+      "feedback_try": "ago מסתכל אחורה: He went home one week ago.",
+      "worked_method": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
+      "can_do": "להגיד one week ago",
+      "hint": "אחורה: ago."
+    },
+    {
+      "id": "xp_03_t_ago_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "tomorrow",
+      "body_he": "מה נכון?",
+      "body_content": "She will leave ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ago",
+          "feedback": "tomorrow מסתכל קדימה."
+        },
+        {
+          "id": "b",
+          "label": "tomorrow"
+        },
+        {
+          "id": "c",
+          "label": "yesterday",
+          "feedback": "tomorrow מסתכל קדימה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "tomorrow.",
+      "feedback_try": "tomorrow מסתכל קדימה: She will leave tomorrow.",
+      "worked_method": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
+      "can_do": "להגיד tomorrow",
+      "hint": "קדימה: tomorrow."
+    },
+    {
+      "id": "xp_03_t_ago_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "three days ago",
+      "body_he": "מה נכון?",
+      "body_content": "We saw the film ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "three days ago"
+        },
+        {
+          "id": "b",
+          "label": "three days tomorrow",
+          "feedback": "ago מסתכל אחורה."
+        },
+        {
+          "id": "c",
+          "label": "tomorrow three days",
+          "feedback": "ago מסתכל אחורה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "three days ago.",
+      "feedback_try": "ago מסתכל אחורה: We saw the film three days ago.",
+      "worked_method": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
+      "can_do": "להגיד three days ago",
+      "hint": "אחורה: ago."
+    },
+    {
+      "id": "xp_03_t_ago_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "tomorrow",
+      "body_he": "מה נכון?",
+      "body_content": "They will arrive ___.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ago",
+          "feedback": "tomorrow מסתכל קדימה."
+        },
+        {
+          "id": "b",
+          "label": "tomorrow"
+        },
+        {
+          "id": "c",
+          "label": "yesterday",
+          "feedback": "tomorrow מסתכל קדימה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "tomorrow.",
+      "feedback_try": "tomorrow מסתכל קדימה: They will arrive tomorrow.",
+      "worked_method": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
+      "can_do": "להגיד tomorrow",
+      "hint": "קדימה: tomorrow."
+    }
+  ],
+  "t_who": [
+    {
+      "id": "xp_03_t_who_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "who",
+      "body_he": "מה נכון?",
+      "body_content": "___ waited under the light?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Who"
+        },
+        {
+          "id": "b",
+          "label": "Where",
+          "feedback": "who שואל על אדם."
+        },
+        {
+          "id": "c",
+          "label": "What",
+          "feedback": "who שואל על אדם."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Who.",
+      "feedback_try": "who שואל על אדם: Who waited under the light?",
+      "worked_method": "who שואל על אדם. where שואל על מקום.",
+      "can_do": "לשאול who",
+      "hint": "על אדם: who."
+    },
+    {
+      "id": "xp_03_t_who_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "where",
+      "body_he": "מה נכון?",
+      "body_content": "___ did he wait?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Who",
+          "feedback": "where שואל על מקום."
+        },
+        {
+          "id": "b",
+          "label": "Where"
+        },
+        {
+          "id": "c",
+          "label": "What",
+          "feedback": "where שואל על מקום."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "Where.",
+      "feedback_try": "where שואל על מקום: Where did he wait?",
+      "worked_method": "who שואל על אדם. where שואל על מקום.",
+      "can_do": "לשאול where",
+      "hint": "על מקום: where."
+    },
+    {
+      "id": "xp_03_t_who_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "who",
+      "body_he": "מה נכון?",
+      "body_content": "___ offered him a ride?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Who"
+        },
+        {
+          "id": "b",
+          "label": "Where",
+          "feedback": "who שואל על אדם."
+        },
+        {
+          "id": "c",
+          "label": "When",
+          "feedback": "who שואל על אדם."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Who.",
+      "feedback_try": "who שואל על אדם: Who offered him a ride?",
+      "worked_method": "who שואל על אדם. where שואל על מקום.",
+      "can_do": "לשאול who",
+      "hint": "על אדם: who."
+    },
+    {
+      "id": "xp_03_t_who_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "where",
+      "body_he": "מה נכון?",
+      "body_content": "___ did she wait?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Who",
+          "feedback": "where שואל על מקום."
+        },
+        {
+          "id": "b",
+          "label": "Where"
+        },
+        {
+          "id": "c",
+          "label": "What",
+          "feedback": "where שואל על מקום."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "Where.",
+      "feedback_try": "where שואל על מקום: Where did she wait?",
+      "worked_method": "who שואל על אדם. where שואל על מקום.",
+      "can_do": "לשאול where",
+      "hint": "על מקום: where."
+    },
+    {
+      "id": "xp_03_t_who_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "who",
+      "body_he": "מה נכון?",
+      "body_content": "___ saw the bus?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Who"
+        },
+        {
+          "id": "b",
+          "label": "Where",
+          "feedback": "who שואל על אדם."
+        },
+        {
+          "id": "c",
+          "label": "When",
+          "feedback": "who שואל על אדם."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Who.",
+      "feedback_try": "who שואל על אדם: Who saw the bus?",
+      "worked_method": "who שואל על אדם. where שואל על מקום.",
+      "can_do": "לשאול who",
+      "hint": "על אדם: who."
+    },
+    {
+      "id": "xp_03_t_who_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "where",
+      "body_he": "מה נכון?",
+      "body_content": "___ did they go?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Who",
+          "feedback": "where שואל על מקום."
+        },
+        {
+          "id": "b",
+          "label": "Where"
+        },
+        {
+          "id": "c",
+          "label": "What",
+          "feedback": "where שואל על מקום."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "Where.",
+      "feedback_try": "where שואל על מקום: Where did they go?",
+      "worked_method": "who שואל על אדם. where שואל על מקום.",
+      "can_do": "לשאול where",
+      "hint": "על מקום: where."
+    }
+  ]
+}

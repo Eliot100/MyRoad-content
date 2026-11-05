@@ -1,0 +1,1094 @@
+{
+  "t_simple": [
+    {
+      "id": "xp_02_t_simple_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "She works",
+      "body_he": "מה נכון?",
+      "body_content": "She ___ in the office.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "work",
+          "feedback": "אחרי he, she, it הפועל מקבל s."
+        },
+        {
+          "id": "b",
+          "label": "works"
+        },
+        {
+          "id": "c",
+          "label": "working",
+          "feedback": "זה Present Simple, לא Progressive."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "She works.",
+      "feedback_try": "אחרי she הפועל מקבל s: She works at home.",
+      "worked_method": "הרגל. אחרי he, she, it הפועל מקבל s.",
+      "can_do": "להגיד she works",
+      "hint": "אחרי she מוסיפים s."
+    },
+    {
+      "id": "xp_02_t_simple_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "He starts",
+      "body_he": "מה נכון?",
+      "body_content": "He ___ at eight.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "start",
+          "feedback": "אחרי he הפועל מקבל s."
+        },
+        {
+          "id": "b",
+          "label": "starts"
+        },
+        {
+          "id": "c",
+          "label": "starting",
+          "feedback": "זה Present Simple."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "He starts.",
+      "feedback_try": "אחרי he הפועל מקבל s: He starts at eight.",
+      "worked_method": "הרגל. אחרי he, she, it הפועל מקבל s.",
+      "can_do": "להגיד he starts",
+      "hint": "אחרי he מוסיפים s."
+    },
+    {
+      "id": "xp_02_t_simple_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "They live",
+      "body_he": "מה נכון?",
+      "body_content": "They ___ in the city.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "lives",
+          "feedback": "אחרי they לא מוסיפים s."
+        },
+        {
+          "id": "b",
+          "label": "live"
+        },
+        {
+          "id": "c",
+          "label": "living",
+          "feedback": "זה Present Simple."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "They live.",
+      "feedback_try": "אחרי they הפועל בלי s: They live in the city.",
+      "worked_method": "הרגל. אחרי he, she, it הפועל מקבל s.",
+      "can_do": "להגיד they live",
+      "hint": "אחרי they לא מוסיפים s."
+    },
+    {
+      "id": "xp_02_t_simple_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "I work",
+      "body_he": "מה נכון?",
+      "body_content": "I ___ at home.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "works",
+          "feedback": "אחרי I לא מוסיפים s."
+        },
+        {
+          "id": "b",
+          "label": "work"
+        },
+        {
+          "id": "c",
+          "label": "working",
+          "feedback": "זה Present Simple."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "I work.",
+      "feedback_try": "אחרי I הפועל בלי s: I work at home.",
+      "worked_method": "הרגל. אחרי he, she, it הפועל מקבל s.",
+      "can_do": "להגיד I work",
+      "hint": "אחרי I לא מוסיפים s."
+    },
+    {
+      "id": "xp_02_t_simple_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "It opens",
+      "body_he": "מה נכון?",
+      "body_content": "It ___ at nine.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "open",
+          "feedback": "אחרי it הפועל מקבל s."
+        },
+        {
+          "id": "b",
+          "label": "opens"
+        },
+        {
+          "id": "c",
+          "label": "opening",
+          "feedback": "זה Present Simple."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "It opens.",
+      "feedback_try": "אחרי it הפועל מקבל s: It opens at nine.",
+      "worked_method": "הרגל. אחרי he, she, it הפועל מקבל s.",
+      "can_do": "להגיד it opens",
+      "hint": "אחרי it מוסיפים s."
+    },
+    {
+      "id": "xp_02_t_simple_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "You drink",
+      "body_he": "מה נכון?",
+      "body_content": "You ___ water.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "drinks",
+          "feedback": "אחרי you לא מוסיפים s."
+        },
+        {
+          "id": "b",
+          "label": "drink"
+        },
+        {
+          "id": "c",
+          "label": "drinking",
+          "feedback": "זה Present Simple."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "You drink.",
+      "feedback_try": "אחרי you הפועל בלי s: You drink water.",
+      "worked_method": "הרגל. אחרי he, she, it הפועל מקבל s.",
+      "can_do": "להגיד you drink",
+      "hint": "אחרי you לא מוסיפים s."
+    }
+  ],
+  "t_there": [
+    {
+      "id": "xp_02_t_there_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "There is",
+      "body_he": "מה נכון?",
+      "body_content": "___ a book on the desk.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "There is"
+        },
+        {
+          "id": "b",
+          "label": "There are",
+          "feedback": "יש אחד: there is."
+        },
+        {
+          "id": "c",
+          "label": "There be",
+          "feedback": "לא אומרים there be."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "There is.",
+      "feedback_try": "יש אחד: There is a book on the desk.",
+      "worked_method": "יש אחד: there is. יש כמה: there are.",
+      "can_do": "להגיד there is",
+      "hint": "אחד או כמה?"
+    },
+    {
+      "id": "xp_02_t_there_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "There are",
+      "body_he": "מה נכון?",
+      "body_content": "___ books on the desk.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "There is",
+          "feedback": "יש כמה: there are."
+        },
+        {
+          "id": "b",
+          "label": "There are"
+        },
+        {
+          "id": "c",
+          "label": "There be",
+          "feedback": "לא אומרים there be."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "There are.",
+      "feedback_try": "יש כמה: There are books on the desk.",
+      "worked_method": "יש אחד: there is. יש כמה: there are.",
+      "can_do": "להגיד there are",
+      "hint": "אחד או כמה?"
+    },
+    {
+      "id": "xp_02_t_there_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "There is a",
+      "body_he": "מה נכון?",
+      "body_content": "There ___ a car outside.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "is"
+        },
+        {
+          "id": "b",
+          "label": "are",
+          "feedback": "יש אחד: is."
+        },
+        {
+          "id": "c",
+          "label": "be",
+          "feedback": "לא אומרים there be."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "There is.",
+      "feedback_try": "יש אחד: There is a car outside.",
+      "worked_method": "יש אחד: there is. יש כמה: there are.",
+      "can_do": "להגיד there is",
+      "hint": "אחד: is."
+    },
+    {
+      "id": "xp_02_t_there_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "There are many",
+      "body_he": "מה נכון?",
+      "body_content": "There ___ many people here.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "is",
+          "feedback": "יש כמה: are."
+        },
+        {
+          "id": "b",
+          "label": "are"
+        },
+        {
+          "id": "c",
+          "label": "be",
+          "feedback": "לא אומרים there be."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "There are.",
+      "feedback_try": "יש כמה: There are many people here.",
+      "worked_method": "יש אחד: there is. יש כמה: there are.",
+      "can_do": "להגיד there are",
+      "hint": "כמה: are."
+    },
+    {
+      "id": "xp_02_t_there_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "There is one",
+      "body_he": "מה נכון?",
+      "body_content": "___ one chair in the room.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "There is"
+        },
+        {
+          "id": "b",
+          "label": "There are",
+          "feedback": "יש אחד: there is."
+        },
+        {
+          "id": "c",
+          "label": "There has",
+          "feedback": "לא אומרים there has."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "There is.",
+      "feedback_try": "יש אחד: There is one chair in the room.",
+      "worked_method": "יש אחד: there is. יש כמה: there are.",
+      "can_do": "להגיד there is",
+      "hint": "אחד: is."
+    },
+    {
+      "id": "xp_02_t_there_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "There are two",
+      "body_he": "מה נכון?",
+      "body_content": "___ two dogs in the garden.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "There is",
+          "feedback": "יש כמה: there are."
+        },
+        {
+          "id": "b",
+          "label": "There are"
+        },
+        {
+          "id": "c",
+          "label": "There have",
+          "feedback": "לא אומרים there have."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "There are.",
+      "feedback_try": "יש כמה: There are two dogs in the garden.",
+      "worked_method": "יש אחד: there is. יש כמה: there are.",
+      "can_do": "להגיד there are",
+      "hint": "כמה: are."
+    }
+  ],
+  "t_q": [
+    {
+      "id": "xp_02_t_q_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "Do you",
+      "body_he": "מה נכון?",
+      "body_content": "___ you live here?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does",
+          "feedback": "Does הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "Is",
+          "feedback": "שאלה בהווה: Do או Does בהתחלה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Do you.",
+      "feedback_try": "שאלה בהווה: Do you live here?",
+      "worked_method": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
+      "can_do": "לשאול Do you",
+      "hint": "Do או Does?"
+    },
+    {
+      "id": "xp_02_t_q_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "Does she",
+      "body_he": "מה נכון?",
+      "body_content": "___ she work at home?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Do",
+          "feedback": "Do הולך עם I, you, we, they."
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Is",
+          "feedback": "שאלה בהווה: Do או Does."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "Does she.",
+      "feedback_try": "שאלה בהווה: Does she work at home?",
+      "worked_method": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
+      "can_do": "לשאול Does she",
+      "hint": "Does עם she."
+    },
+    {
+      "id": "xp_02_t_q_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "Do they",
+      "body_he": "מה נכון?",
+      "body_content": "___ they start at eight?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does",
+          "feedback": "Does הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "Are",
+          "feedback": "שאלה בהווה: Do או Does."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Do they.",
+      "feedback_try": "שאלה בהווה: Do they start at eight?",
+      "worked_method": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
+      "can_do": "לשאול Do they",
+      "hint": "Do עם they."
+    },
+    {
+      "id": "xp_02_t_q_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "Does he",
+      "body_he": "מה נכון?",
+      "body_content": "___ he drink water?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Do",
+          "feedback": "Do הולך עם I, you, we, they."
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Is",
+          "feedback": "שאלה בהווה: Do או Does."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "Does he.",
+      "feedback_try": "שאלה בהווה: Does he drink water?",
+      "worked_method": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
+      "can_do": "לשאול Does he",
+      "hint": "Does עם he."
+    },
+    {
+      "id": "xp_02_t_q_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "Do we",
+      "body_he": "מה נכון?",
+      "body_content": "___ we open the mail?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Do"
+        },
+        {
+          "id": "b",
+          "label": "Does",
+          "feedback": "Does הולך עם he, she, it."
+        },
+        {
+          "id": "c",
+          "label": "Are",
+          "feedback": "שאלה בהווה: Do או Does."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Do we.",
+      "feedback_try": "שאלה בהווה: Do we open the mail?",
+      "worked_method": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
+      "can_do": "לשאול Do we",
+      "hint": "Do עם we."
+    },
+    {
+      "id": "xp_02_t_q_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "Does it",
+      "body_he": "מה נכון?",
+      "body_content": "___ it work?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Do",
+          "feedback": "Do הולך עם I, you, we, they."
+        },
+        {
+          "id": "b",
+          "label": "Does"
+        },
+        {
+          "id": "c",
+          "label": "Is",
+          "feedback": "שאלה בהווה: Do או Does."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "Does it.",
+      "feedback_try": "שאלה בהווה: Does it work?",
+      "worked_method": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
+      "can_do": "לשאול Does it",
+      "hint": "Does עם it."
+    }
+  ],
+  "t_day": [
+    {
+      "id": "xp_02_t_day_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "יום עבודה",
+      "body_he": "מה הרעיון המרכזי?",
+      "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. What is the main idea?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Maya's work day"
+        },
+        {
+          "id": "b",
+          "label": "Maya's weekend",
+          "feedback": "הטקסט מדבר על יום עבודה."
+        },
+        {
+          "id": "c",
+          "label": "Maya's vacation",
+          "feedback": "הטקסט מדבר על יום עבודה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "יום העבודה של מאיה.",
+      "feedback_try": "הרעיון המרכזי הוא יום העבודה של מאיה: Maya works at home. She starts at eight. She drinks water and opens her mail.",
+      "worked_method": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
+      "can_do": "לזהות את הרעיון המרכזי",
+      "hint": "על מה הטקסט מדבר?"
+    },
+    {
+      "id": "xp_02_t_day_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מתי מתחילה",
+      "body_he": "מתי מאיה מתחילה?",
+      "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. When does she start?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "at eight"
+        },
+        {
+          "id": "b",
+          "label": "at nine",
+          "feedback": "הטקסט אומר at eight."
+        },
+        {
+          "id": "c",
+          "label": "at seven",
+          "feedback": "הטקסט אומר at eight."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "at eight.",
+      "feedback_try": "הפרט הוא: She starts at eight.",
+      "worked_method": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
+      "can_do": "למצוא פרט בטקסט",
+      "hint": "חפשו את המילה starts."
+    },
+    {
+      "id": "xp_02_t_day_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה היא עושה",
+      "body_he": "מה מאיה עושה?",
+      "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. What does she do?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "works at home"
+        },
+        {
+          "id": "b",
+          "label": "works in an office",
+          "feedback": "הטקסט אומר at home."
+        },
+        {
+          "id": "c",
+          "label": "does not work",
+          "feedback": "הטקסט אומר she works."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "works at home.",
+      "feedback_try": "הפרט הוא: Maya works at home.",
+      "worked_method": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
+      "can_do": "למצוא פרט בטקסט",
+      "hint": "חפשו את המילה works."
+    },
+    {
+      "id": "xp_02_t_day_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה היא שותה",
+      "body_he": "מה מאיה שותה?",
+      "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. What does she drink?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "water"
+        },
+        {
+          "id": "b",
+          "label": "coffee",
+          "feedback": "הטקסט אומר water."
+        },
+        {
+          "id": "c",
+          "label": "tea",
+          "feedback": "הטקסט אומר water."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "water.",
+      "feedback_try": "הפרט הוא: She drinks water.",
+      "worked_method": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
+      "can_do": "למצוא פרט בטקסט",
+      "hint": "חפשו את המילה drinks."
+    },
+    {
+      "id": "xp_02_t_day_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מה היא פותחת",
+      "body_he": "מה מאיה פותחת?",
+      "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. What does she open?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "her mail"
+        },
+        {
+          "id": "b",
+          "label": "the door",
+          "feedback": "הטקסט אומר her mail."
+        },
+        {
+          "id": "c",
+          "label": "a book",
+          "feedback": "הטקסט אומר her mail."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "her mail.",
+      "feedback_try": "הפרט הוא: She opens her mail.",
+      "worked_method": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
+      "can_do": "למצוא פרט בטקסט",
+      "hint": "חפשו את המילה opens."
+    },
+    {
+      "id": "xp_02_t_day_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "יום רגיל",
+      "body_he": "מה הרעיון המרכזי?",
+      "body_content": "Dana packs lunch at six. She walks to the clinic. She checks the list before she opens. What is the main idea?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a regular work day"
+        },
+        {
+          "id": "b",
+          "label": "a holiday",
+          "feedback": "הטקסט מדבר על יום עבודה."
+        },
+        {
+          "id": "c",
+          "label": "a meeting",
+          "feedback": "הטקסט מדבר על יום עבודה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "יום עבודה רגיל.",
+      "feedback_try": "הרעיון המרכזי הוא יום עבודה רגיל: Maya works at home. She starts at eight. She drinks water and opens her mail.",
+      "worked_method": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
+      "can_do": "לזהות את הרעיון המרכזי",
+      "hint": "על מה הטקסט מדבר?"
+    }
+  ],
+  "t_neg": [
+    {
+      "id": "xp_02_t_neg_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "does not",
+      "body_he": "מה נכון?",
+      "body_content": "She ___ work on Friday.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "do not",
+          "feedback": "does not הולך עם she."
+        },
+        {
+          "id": "b",
+          "label": "does not"
+        },
+        {
+          "id": "c",
+          "label": "not",
+          "feedback": "צריך do not או does not."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "does not.",
+      "feedback_try": "שלילה: does not, והפועל בלי s: She does not work on Friday.",
+      "worked_method": "שלילה: do not או does not, והפועל בלי s.",
+      "can_do": "להגיד she does not",
+      "hint": "does not עם she."
+    },
+    {
+      "id": "xp_02_t_neg_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "do not",
+      "body_he": "מה נכון?",
+      "body_content": "They ___ start at eight.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "do not"
+        },
+        {
+          "id": "b",
+          "label": "does not",
+          "feedback": "do not הולך עם they."
+        },
+        {
+          "id": "c",
+          "label": "not",
+          "feedback": "צריך do not או does not."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "do not.",
+      "feedback_try": "שלילה: do not, והפועל בלי s: They do not start at eight.",
+      "worked_method": "שלילה: do not או does not, והפועל בלי s.",
+      "can_do": "להגיד they do not",
+      "hint": "do not עם they."
+    },
+    {
+      "id": "xp_02_t_neg_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "does not",
+      "body_he": "מה נכון?",
+      "body_content": "He ___ drink coffee.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "do not",
+          "feedback": "does not הולך עם he."
+        },
+        {
+          "id": "b",
+          "label": "does not"
+        },
+        {
+          "id": "c",
+          "label": "not",
+          "feedback": "צריך do not או does not."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "does not.",
+      "feedback_try": "שלילה: does not, והפועל בלי s: He does not drink coffee.",
+      "worked_method": "שלילה: do not או does not, והפועל בלי s.",
+      "can_do": "להגיד he does not",
+      "hint": "does not עם he."
+    },
+    {
+      "id": "xp_02_t_neg_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "do not",
+      "body_he": "מה נכון?",
+      "body_content": "I ___ work on Sunday.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "do not"
+        },
+        {
+          "id": "b",
+          "label": "does not",
+          "feedback": "do not הולך עם I."
+        },
+        {
+          "id": "c",
+          "label": "not",
+          "feedback": "צריך do not או does not."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "do not.",
+      "feedback_try": "שלילה: do not, והפועל בלי s: I do not work on Sunday.",
+      "worked_method": "שלילה: do not או does not, והפועל בלי s.",
+      "can_do": "להגיד I do not",
+      "hint": "do not עם I."
+    },
+    {
+      "id": "xp_02_t_neg_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "does not",
+      "body_he": "מה נכון?",
+      "body_content": "It ___ open early.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "do not",
+          "feedback": "does not הולך עם it."
+        },
+        {
+          "id": "b",
+          "label": "does not"
+        },
+        {
+          "id": "c",
+          "label": "not",
+          "feedback": "צריך do not או does not."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "does not.",
+      "feedback_try": "שלילה: does not, והפועל בלי s: It does not open early.",
+      "worked_method": "שלילה: do not או does not, והפועל בלי s.",
+      "can_do": "להגיד it does not",
+      "hint": "does not עם it."
+    },
+    {
+      "id": "xp_02_t_neg_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "do not",
+      "body_he": "מה נכון?",
+      "body_content": "You ___ live here.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "do not"
+        },
+        {
+          "id": "b",
+          "label": "does not",
+          "feedback": "do not הולך עם you."
+        },
+        {
+          "id": "c",
+          "label": "not",
+          "feedback": "צריך do not או does not."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "do not.",
+      "feedback_try": "שלילה: do not, והפועל בלי s: You do not live here.",
+      "worked_method": "שלילה: do not או does not, והפועל בלי s.",
+      "can_do": "להגיד you do not",
+      "hint": "do not עם you."
+    }
+  ],
+  "t_freq": [
+    {
+      "id": "xp_02_t_freq_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "always",
+      "body_he": "מה נכון?",
+      "body_content": "Maya ___ starts at eight.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "always"
+        },
+        {
+          "id": "b",
+          "label": "starts always",
+          "feedback": "always בא לפני הפועל העיקרי."
+        },
+        {
+          "id": "c",
+          "label": "is always starts",
+          "feedback": "always בא לפני הפועל העיקרי."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "always starts.",
+      "feedback_try": "always בא לפני הפועל העיקרי: Maya always starts at eight.",
+      "worked_method": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
+      "can_do": "להגיד always starts",
+      "hint": "always לפני הפועל."
+    },
+    {
+      "id": "xp_02_t_freq_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "never",
+      "body_he": "מה נכון?",
+      "body_content": "He ___ drinks coffee.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "never"
+        },
+        {
+          "id": "b",
+          "label": "drinks never",
+          "feedback": "never בא לפני הפועל העיקרי."
+        },
+        {
+          "id": "c",
+          "label": "is never drinks",
+          "feedback": "never בא לפני הפועל העיקרי."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "never drinks.",
+      "feedback_try": "never בא לפני הפועל העיקרי: He never drinks coffee.",
+      "worked_method": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
+      "can_do": "להגיד never drinks",
+      "hint": "never לפני הפועל."
+    },
+    {
+      "id": "xp_02_t_freq_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "always is",
+      "body_he": "מה נכון?",
+      "body_content": "She ___ ready.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "always is",
+          "feedback": "always בא אחרי is."
+        },
+        {
+          "id": "b",
+          "label": "is always"
+        },
+        {
+          "id": "c",
+          "label": "is ready always",
+          "feedback": "always בא אחרי is."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "is always.",
+      "feedback_try": "always בא אחרי is: She is always ready.",
+      "worked_method": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
+      "can_do": "להגיד is always",
+      "hint": "always אחרי is."
+    },
+    {
+      "id": "xp_02_t_freq_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "never is",
+      "body_he": "מה נכון?",
+      "body_content": "It ___ late.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "never is",
+          "feedback": "never בא אחרי is."
+        },
+        {
+          "id": "b",
+          "label": "is never"
+        },
+        {
+          "id": "c",
+          "label": "is late never",
+          "feedback": "never בא אחרי is."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "is never.",
+      "feedback_try": "never בא אחרי is: It is never late.",
+      "worked_method": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
+      "can_do": "להגיד is never",
+      "hint": "never אחרי is."
+    },
+    {
+      "id": "xp_02_t_freq_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "always works",
+      "body_he": "מה נכון?",
+      "body_content": "He ___ works late.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "always"
+        },
+        {
+          "id": "b",
+          "label": "works always",
+          "feedback": "always בא לפני הפועל העיקרי."
+        },
+        {
+          "id": "c",
+          "label": "is always works",
+          "feedback": "always בא לפני הפועל העיקרי."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "always works.",
+      "feedback_try": "always בא לפני הפועל העיקרי: He always works late.",
+      "worked_method": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
+      "can_do": "להגיד always works",
+      "hint": "always לפני הפועל."
+    },
+    {
+      "id": "xp_02_t_freq_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "never starts",
+      "body_he": "מה נכון?",
+      "body_content": "They ___ start early.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "never"
+        },
+        {
+          "id": "b",
+          "label": "start never",
+          "feedback": "never בא לפני הפועל העיקרי."
+        },
+        {
+          "id": "c",
+          "label": "are never start",
+          "feedback": "never בא לפני הפועל העיקרי."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "never start.",
+      "feedback_try": "never בא לפני הפועל העיקרי: They never start early.",
+      "worked_method": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
+      "can_do": "להגיד never start",
+      "hint": "never לפני הפועל."
+    }
+  ]
+}

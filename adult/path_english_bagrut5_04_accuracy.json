@@ -36,7 +36,13 @@
         "ac_t_art_ex3",
         "ac_t_art_p1",
         "ac_t_art_p2",
-        "ac_t_art_p3"
+        "ac_t_art_p3",
+        "xp_04_t_art_01",
+        "xp_04_t_art_02",
+        "xp_04_t_art_03",
+        "xp_04_t_art_04",
+        "xp_04_t_art_05",
+        "xp_04_t_art_06"
       ]
     },
     {
@@ -53,7 +59,13 @@
         "ac_t_perf_ex3",
         "ac_t_perf_p1",
         "ac_t_perf_p2",
-        "ac_t_perf_p3"
+        "ac_t_perf_p3",
+        "xp_04_t_perf_02",
+        "xp_04_t_perf_03",
+        "xp_04_t_perf_04",
+        "xp_04_t_perf_05",
+        "xp_04_t_perf_06",
+        "xp_04_t_perf_01"
       ]
     },
     {
@@ -70,7 +82,13 @@
         "ac_t_if_ex3",
         "ac_t_if_p1",
         "ac_t_if_p2",
-        "ac_t_if_p3"
+        "ac_t_if_p3",
+        "xp_04_t_if_01",
+        "xp_04_t_if_02",
+        "xp_04_t_if_03",
+        "xp_04_t_if_04",
+        "xp_04_t_if_05",
+        "xp_04_t_if_06"
       ]
     },
     {
@@ -99,7 +117,13 @@
         "ac_t_an_ex3",
         "ac_t_an_p1",
         "ac_t_an_p2",
-        "ac_t_an_p3"
+        "ac_t_an_p3",
+        "xp_04_t_an_01",
+        "xp_04_t_an_02",
+        "xp_04_t_an_04",
+        "xp_04_t_an_05",
+        "xp_04_t_an_06",
+        "xp_04_t_an_03"
       ]
     },
     {
@@ -116,7 +140,13 @@
         "ac_t_order_ex3",
         "ac_t_order_p1",
         "ac_t_order_p2",
-        "ac_t_order_p3"
+        "ac_t_order_p3",
+        "xp_04_t_order_01",
+        "xp_04_t_order_02",
+        "xp_04_t_order_03",
+        "xp_04_t_order_04",
+        "xp_04_t_order_05",
+        "xp_04_t_order_06"
       ]
     },
     {
@@ -133,7 +163,13 @@
         "ac_t_for_ex3",
         "ac_t_for_p1",
         "ac_t_for_p2",
-        "ac_t_for_p3"
+        "ac_t_for_p3",
+        "xp_04_t_for_01",
+        "xp_04_t_for_02",
+        "xp_04_t_for_03",
+        "xp_04_t_for_04",
+        "xp_04_t_for_05",
+        "xp_04_t_for_06"
       ]
     },
     {
@@ -289,6 +325,186 @@
       "hint": "כשמדברים על כל הכלבים בכלל, צריך מילה לפני dogs?"
     },
     {
+      "id": "xp_04_t_art_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "a bird",
+      "body_he": "מה נכון?",
+      "body_content": "I saw ___ cat.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "the",
+          "feedback": "a בפעם הראשונה."
+        },
+        {
+          "id": "c",
+          "label": "an",
+          "feedback": "a לפני צליל עיצור."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "a bird.",
+      "feedback_try": "a בפעם הראשונה: I saw a bird.",
+      "worked_method": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
+      "can_do": "להגיד a bird",
+      "hint": "פעם ראשונה: a."
+    },
+    {
+      "id": "xp_04_t_art_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "the bird",
+      "body_he": "מה נכון?",
+      "body_content": "I saw a bird. ___ bird was blue.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A",
+          "feedback": "the כשכבר יודעים על מה מדובר."
+        },
+        {
+          "id": "b",
+          "label": "The"
+        },
+        {
+          "id": "c",
+          "label": "An",
+          "feedback": "the כשכבר יודעים על מה מדובר."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "The bird.",
+      "feedback_try": "the כשכבר יודעים על מה מדובר: The bird was blue.",
+      "worked_method": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
+      "can_do": "להגיד the bird",
+      "hint": "כבר יודעים: the."
+    },
+    {
+      "id": "xp_04_t_art_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "Birds",
+      "body_he": "מה נכון?",
+      "body_content": "___ need water.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Birds"
+        },
+        {
+          "id": "b",
+          "label": "The birds",
+          "feedback": "על דבר כללי ברבים לא שמים מילה בכלל."
+        },
+        {
+          "id": "c",
+          "label": "A birds",
+          "feedback": "על דבר כללי ברבים לא שמים מילה בכלל."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Birds.",
+      "feedback_try": "על דבר כללי ברבים לא שמים מילה בכלל: Birds need water.",
+      "worked_method": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
+      "can_do": "להגיד birds",
+      "hint": "כללי ברבים: בלי מילה."
+    },
+    {
+      "id": "xp_04_t_art_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "a car",
+      "body_he": "מה נכון?",
+      "body_content": "She bought ___ car.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a"
+        },
+        {
+          "id": "b",
+          "label": "the",
+          "feedback": "a בפעם הראשונה."
+        },
+        {
+          "id": "c",
+          "label": "an",
+          "feedback": "a לפני צליל עיצור."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "a car.",
+      "feedback_try": "a בפעם הראשונה: She bought a car.",
+      "worked_method": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
+      "can_do": "להגיד a car",
+      "hint": "פעם ראשונה: a."
+    },
+    {
+      "id": "xp_04_t_art_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "the car",
+      "body_he": "מה נכון?",
+      "body_content": "She bought a car. ___ car is red.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A",
+          "feedback": "the כשכבר יודעים על מה מדובר."
+        },
+        {
+          "id": "b",
+          "label": "The"
+        },
+        {
+          "id": "c",
+          "label": "An",
+          "feedback": "the כשכבר יודעים על מה מדובר."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "The car.",
+      "feedback_try": "the כשכבר יודעים על מה מדובר: The car is red.",
+      "worked_method": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
+      "can_do": "להגיד the car",
+      "hint": "כבר יודעים: the."
+    },
+    {
+      "id": "xp_04_t_art_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "Cars",
+      "body_he": "מה נכון?",
+      "body_content": "___ need fuel.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Cars"
+        },
+        {
+          "id": "b",
+          "label": "The cars",
+          "feedback": "על דבר כללי ברבים לא שמים מילה בכלל."
+        },
+        {
+          "id": "c",
+          "label": "A cars",
+          "feedback": "על דבר כללי ברבים לא שמים מילה בכלל."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "Cars.",
+      "feedback_try": "על דבר כללי ברבים לא שמים מילה בכלל: Cars need fuel.",
+      "worked_method": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
+      "can_do": "להגיד cars",
+      "hint": "כללי ברבים: בלי מילה."
+    },
+    {
       "id": "ac_t_perf_learn",
       "type": "learn",
       "kind": "understanding",
@@ -415,6 +631,186 @@
       "hint": "eaten היא הצורה השלישית. מה בא לפניה עם you?"
     },
     {
+      "id": "xp_04_t_perf_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "saw",
+      "body_he": "מה נכון?",
+      "body_content": "I ___ it yesterday.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "have seen",
+          "feedback": "זמן שנגמר: עבר רגיל."
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "see",
+          "feedback": "זמן שנגמר: עבר רגיל."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "saw.",
+      "feedback_try": "זמן שנגמר: עבר רגיל: I saw it yesterday.",
+      "worked_method": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
+      "can_do": "להגיד saw yesterday",
+      "hint": "yesterday: עבר רגיל."
+    },
+    {
+      "id": "xp_04_t_perf_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "have lived",
+      "body_he": "מה נכון?",
+      "body_content": "I ___ here for two years.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "have lived"
+        },
+        {
+          "id": "b",
+          "label": "lived",
+          "feedback": "זמן פתוח: have והצורה השלישית."
+        },
+        {
+          "id": "c",
+          "label": "live",
+          "feedback": "זמן פתוח: have והצורה השלישית."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "have lived.",
+      "feedback_try": "have והצורה השלישית כשהזמן עוד פתוח: I have lived here for two years.",
+      "worked_method": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
+      "can_do": "להגיד have lived",
+      "hint": "for: have."
+    },
+    {
+      "id": "xp_04_t_perf_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "went",
+      "body_he": "מה נכון?",
+      "body_content": "I ___ there in 2019.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "have gone",
+          "feedback": "זמן שנגמר: עבר רגיל."
+        },
+        {
+          "id": "b",
+          "label": "went"
+        },
+        {
+          "id": "c",
+          "label": "go",
+          "feedback": "זמן שנגמר: עבר רגיל."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "went.",
+      "feedback_try": "זמן שנגמר: עבר רגיל: I went there in 2019.",
+      "worked_method": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
+      "can_do": "להגיד went in 2019",
+      "hint": "2019: עבר רגיל."
+    },
+    {
+      "id": "xp_04_t_perf_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "have ever",
+      "body_he": "מה נכון?",
+      "body_content": "Have you ___ seen this film?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ever"
+        },
+        {
+          "id": "b",
+          "label": "yesterday",
+          "feedback": "ever עם have."
+        },
+        {
+          "id": "c",
+          "label": "ago",
+          "feedback": "ever עם have."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "ever.",
+      "feedback_try": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever: Have you ever seen this film?",
+      "worked_method": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
+      "can_do": "להגיד have ever",
+      "hint": "ever עם have."
+    },
+    {
+      "id": "xp_04_t_perf_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "saw yesterday",
+      "body_he": "מה נכון?",
+      "body_content": "She ___ the film yesterday.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "has seen",
+          "feedback": "זמן שנגמר: עבר רגיל."
+        },
+        {
+          "id": "b",
+          "label": "saw"
+        },
+        {
+          "id": "c",
+          "label": "sees",
+          "feedback": "זמן שנגמר: עבר רגיל."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "saw.",
+      "feedback_try": "זמן שנגמר: עבר רגיל: She saw the film yesterday.",
+      "worked_method": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
+      "can_do": "להגיד saw yesterday",
+      "hint": "yesterday: עבר רגיל."
+    },
+    {
+      "id": "xp_04_t_perf_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "have seen",
+      "body_he": "מה נכון?",
+      "body_content": "I ___ this book.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "have seen"
+        },
+        {
+          "id": "b",
+          "label": "saw",
+          "feedback": "זמן פתוח: have והצורה השלישית."
+        },
+        {
+          "id": "c",
+          "label": "see",
+          "feedback": "זמן פתוח: have והצורה השלישית."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "have seen.",
+      "feedback_try": "have והצורה השלישית כשהזמן עוד פתוח: I have seen this film.",
+      "worked_method": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
+      "can_do": "להגיד have seen",
+      "hint": "זמן פתוח: have."
+    },
+    {
       "id": "ac_t_if_learn",
       "type": "learn",
       "kind": "understanding",
@@ -539,6 +935,186 @@
       "can_do": "לבנות תנאי ראשון בכל סדר",
       "worked_method": "בתנאי ראשון הסדר יכול להתחלף, אבל הכלל נשאר: הווה אחרי if, ו will בחלק השני.\nבאפשרות השנייה will בא אחרי if, ובשלישית יש עבר. רק בראשונה הכלל נשמר.\nהתשובה: We will stay home if it rains.",
       "hint": "will בא בחלק של התוצאה, לא בחלק של if."
+    },
+    {
+      "id": "xp_04_t_if_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "If it rains",
+      "body_he": "מה נכון?",
+      "body_content": "If it ___, we will stay home.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "rains"
+        },
+        {
+          "id": "b",
+          "label": "will rain",
+          "feedback": "אחרי if בא הווה."
+        },
+        {
+          "id": "c",
+          "label": "rain",
+          "feedback": "אחרי it בא rains."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "If it rains.",
+      "feedback_try": "אחרי if בא הווה. בחלק של התוצאה בא will: If it rains, we will stay home.",
+      "worked_method": "אחרי if בא הווה. בחלק של התוצאה בא will.",
+      "can_do": "להגיד if it rains",
+      "hint": "אחרי if: הווה."
+    },
+    {
+      "id": "xp_04_t_if_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "we will",
+      "body_he": "מה נכון?",
+      "body_content": "If it rains, we ___ stay home.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "are",
+          "feedback": "בחלק של התוצאה בא will."
+        },
+        {
+          "id": "c",
+          "label": "stay",
+          "feedback": "צריך will."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "we will.",
+      "feedback_try": "בחלק של התוצאה בא will: If it rains, we will stay home.",
+      "worked_method": "אחרי if בא הווה. בחלק של התוצאה בא will.",
+      "can_do": "להגיד we will",
+      "hint": "תוצאה: will."
+    },
+    {
+      "id": "xp_04_t_if_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "If she comes",
+      "body_he": "מה נכון?",
+      "body_content": "If she ___, I will call you.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "comes"
+        },
+        {
+          "id": "b",
+          "label": "will come",
+          "feedback": "אחרי if בא הווה."
+        },
+        {
+          "id": "c",
+          "label": "come",
+          "feedback": "אחרי she בא comes."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "If she comes.",
+      "feedback_try": "אחרי if בא הווה: If she comes, I will call you.",
+      "worked_method": "אחרי if בא הווה. בחלק של התוצאה בא will.",
+      "can_do": "להגיד if she comes",
+      "hint": "אחרי if: הווה."
+    },
+    {
+      "id": "xp_04_t_if_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "I will",
+      "body_he": "מה נכון?",
+      "body_content": "If she comes, I ___ call you.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "am",
+          "feedback": "בחלק של התוצאה בא will."
+        },
+        {
+          "id": "c",
+          "label": "call",
+          "feedback": "צריך will."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "I will.",
+      "feedback_try": "בחלק של התוצאה בא will: If she comes, I will call you.",
+      "worked_method": "אחרי if בא הווה. בחלק של התוצאה בא will.",
+      "can_do": "להגיד I will",
+      "hint": "תוצאה: will."
+    },
+    {
+      "id": "xp_04_t_if_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "If they leave",
+      "body_he": "מה נכון?",
+      "body_content": "If they ___, we will start.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "leave"
+        },
+        {
+          "id": "b",
+          "label": "will leave",
+          "feedback": "אחרי if בא הווה."
+        },
+        {
+          "id": "c",
+          "label": "leaves",
+          "feedback": "אחרי they בא leave."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "If they leave.",
+      "feedback_try": "אחרי if בא הווה: If they leave, we will start.",
+      "worked_method": "אחרי if בא הווה. בחלק של התוצאה בא will.",
+      "can_do": "להגיד if they leave",
+      "hint": "אחרי if: הווה."
+    },
+    {
+      "id": "xp_04_t_if_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "we will",
+      "body_he": "מה נכון?",
+      "body_content": "If they leave, we ___ start.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "will"
+        },
+        {
+          "id": "b",
+          "label": "are",
+          "feedback": "בחלק של התוצאה בא will."
+        },
+        {
+          "id": "c",
+          "label": "start",
+          "feedback": "צריך will."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "we will.",
+      "feedback_try": "בחלק של התוצאה בא will: If they leave, we will start.",
+      "worked_method": "אחרי if בא הווה. בחלק של התוצאה בא will.",
+      "can_do": "להגיד we will",
+      "hint": "תוצאה: will."
     },
     {
       "id": "ac_rev1_learn",
@@ -716,6 +1292,186 @@
       "hint": "ב hour האות h לא נשמעת. באיזה צליל המילה נפתחת?"
     },
     {
+      "id": "xp_04_t_an_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "an apple",
+      "body_he": "מה נכון?",
+      "body_content": "I ate ___ apple.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "an"
+        },
+        {
+          "id": "b",
+          "label": "a",
+          "feedback": "an לפני צליל תנועה."
+        },
+        {
+          "id": "c",
+          "label": "the",
+          "feedback": "an לפני צליל תנועה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "an apple.",
+      "feedback_try": "an לפני צליל תנועה: I ate an apple.",
+      "worked_method": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
+      "can_do": "להגיד an apple",
+      "hint": "צליל תנועה: an."
+    },
+    {
+      "id": "xp_04_t_an_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "an hour",
+      "body_he": "מה נכון?",
+      "body_content": "I waited ___ hour.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "an"
+        },
+        {
+          "id": "b",
+          "label": "a",
+          "feedback": "an לפני צליל תנועה."
+        },
+        {
+          "id": "c",
+          "label": "the",
+          "feedback": "an לפני צליל תנועה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "an hour.",
+      "feedback_try": "an לפני צליל תנועה: I waited an hour.",
+      "worked_method": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
+      "can_do": "להגיד an hour",
+      "hint": "צליל תנועה: an."
+    },
+    {
+      "id": "xp_04_t_an_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "a university",
+      "body_he": "מה נכון?",
+      "body_content": "She goes to ___ university.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "an",
+          "feedback": "a לפני צליל עיצור."
+        },
+        {
+          "id": "b",
+          "label": "a"
+        },
+        {
+          "id": "c",
+          "label": "the",
+          "feedback": "a לפני צליל עיצור."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "a university.",
+      "feedback_try": "a לפני צליל עיצור: She goes to a university.",
+      "worked_method": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
+      "can_do": "להגיד a university",
+      "hint": "צליל עיצור: a."
+    },
+    {
+      "id": "xp_04_t_an_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "an orange",
+      "body_he": "מה נכון?",
+      "body_content": "I bought ___ orange.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "an"
+        },
+        {
+          "id": "b",
+          "label": "a",
+          "feedback": "an לפני צליל תנועה."
+        },
+        {
+          "id": "c",
+          "label": "the",
+          "feedback": "an לפני צליל תנועה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "an orange.",
+      "feedback_try": "an לפני צליל תנועה: I bought an orange.",
+      "worked_method": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
+      "can_do": "להגיד an orange",
+      "hint": "צליל תנועה: an."
+    },
+    {
+      "id": "xp_04_t_an_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "a house",
+      "body_he": "מה נכון?",
+      "body_content": "They live in ___ house.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "an",
+          "feedback": "a לפני צליל עיצור."
+        },
+        {
+          "id": "b",
+          "label": "a"
+        },
+        {
+          "id": "c",
+          "label": "the",
+          "feedback": "a לפני צליל עיצור."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "a house.",
+      "feedback_try": "a לפני צליל עיצור: They live in a house.",
+      "worked_method": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
+      "can_do": "להגיד a house",
+      "hint": "צליל עיצור: a."
+    },
+    {
+      "id": "xp_04_t_an_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "a bird",
+      "body_he": "מה נכון?",
+      "body_content": "I saw ___ eagle.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "an",
+          "feedback": "a לפני צליל עיצור."
+        },
+        {
+          "id": "b",
+          "label": "a"
+        },
+        {
+          "id": "c",
+          "label": "the",
+          "feedback": "a לפני צליל עיצור."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "a bird.",
+      "feedback_try": "a לפני צליל עיצור: I saw a bird.",
+      "worked_method": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
+      "can_do": "להגיד a bird",
+      "hint": "צליל עיצור: a."
+    },
+    {
       "id": "ac_t_order_learn",
       "type": "learn",
       "kind": "understanding",
@@ -842,6 +1598,186 @@
       "hint": "מה שהפועל פועל עליו בא מיד אחריו, והזמן בסוף."
     },
     {
+      "id": "xp_04_t_order_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "never drink",
+      "body_he": "מה נכון?",
+      "body_content": "I ___ drink cold coffee.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "never"
+        },
+        {
+          "id": "b",
+          "label": "drink never",
+          "feedback": "never בא לפני הפועל העיקרי."
+        },
+        {
+          "id": "c",
+          "label": "am never drink",
+          "feedback": "never בא לפני הפועל העיקרי."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "never drink.",
+      "feedback_try": "never בא לפני הפועל העיקרי: I never drink cold coffee.",
+      "worked_method": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
+      "can_do": "להגיד never drink",
+      "hint": "never לפני הפועל."
+    },
+    {
+      "id": "xp_04_t_order_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "a red car",
+      "body_he": "מה נכון?",
+      "body_content": "She drives ___ car.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a red"
+        },
+        {
+          "id": "b",
+          "label": "red a",
+          "feedback": "תואר בא לפני השם."
+        },
+        {
+          "id": "c",
+          "label": "a car red",
+          "feedback": "תואר בא לפני השם."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "a red car.",
+      "feedback_try": "תואר בא לפני השם: She drives a red car.",
+      "worked_method": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
+      "can_do": "להגיד a red car",
+      "hint": "תואר לפני השם."
+    },
+    {
+      "id": "xp_04_t_order_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "always starts",
+      "body_he": "מה נכון?",
+      "body_content": "He ___ starts early.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "always"
+        },
+        {
+          "id": "b",
+          "label": "starts always",
+          "feedback": "always בא לפני הפועל העיקרי."
+        },
+        {
+          "id": "c",
+          "label": "is always starts",
+          "feedback": "always בא לפני הפועל העיקרי."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "always starts.",
+      "feedback_try": "always בא לפני הפועל העיקרי: He always starts early.",
+      "worked_method": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
+      "can_do": "להגיד always starts",
+      "hint": "always לפני הפועל."
+    },
+    {
+      "id": "xp_04_t_order_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "big house",
+      "body_he": "מה נכון?",
+      "body_content": "They live in a ___ house.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "big"
+        },
+        {
+          "id": "b",
+          "label": "house big",
+          "feedback": "תואר בא לפני השם."
+        },
+        {
+          "id": "c",
+          "label": "the big",
+          "feedback": "כבר יש a."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "a big house.",
+      "feedback_try": "תואר בא לפני השם: They live in a big house.",
+      "worked_method": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
+      "can_do": "להגיד a big house",
+      "hint": "תואר לפני השם."
+    },
+    {
+      "id": "xp_04_t_order_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "never eat",
+      "body_he": "מה נכון?",
+      "body_content": "We ___ eat late.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "never"
+        },
+        {
+          "id": "b",
+          "label": "eat never",
+          "feedback": "never בא לפני הפועל העיקרי."
+        },
+        {
+          "id": "c",
+          "label": "are never eat",
+          "feedback": "never בא לפני הפועל העיקרי."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "never eat.",
+      "feedback_try": "never בא לפני הפועל העיקרי: We never eat late.",
+      "worked_method": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
+      "can_do": "להגיד never eat",
+      "hint": "never לפני הפועל."
+    },
+    {
+      "id": "xp_04_t_order_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "blue car",
+      "body_he": "מה נכון?",
+      "body_content": "He has a ___ car.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "blue"
+        },
+        {
+          "id": "b",
+          "label": "car blue",
+          "feedback": "תואר בא לפני השם."
+        },
+        {
+          "id": "c",
+          "label": "the blue",
+          "feedback": "כבר יש a."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "a blue car.",
+      "feedback_try": "תואר בא לפני השם: He has a blue car.",
+      "worked_method": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
+      "can_do": "להגיד a blue car",
+      "hint": "תואר לפני השם."
+    },
+    {
       "id": "ac_t_for_learn",
       "type": "learn",
       "kind": "understanding",
@@ -966,6 +1902,186 @@
       "can_do": "לשאול How long have you",
       "worked_method": "How long על משהו שנמשך עד עכשיו שואלים עם have או has וצורת עבר שלישית.\nlived היא צורת עבר שלישית, ועם you בא have.\nהתשובה: have.",
       "hint": "lived כאן היא הצורה השלישית עד עכשיו."
+    },
+    {
+      "id": "xp_04_t_for_01",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "for two years",
+      "body_he": "מה נכון?",
+      "body_content": "I have lived here ___ two years.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "for"
+        },
+        {
+          "id": "b",
+          "label": "since",
+          "feedback": "for עם משך."
+        },
+        {
+          "id": "c",
+          "label": "ago",
+          "feedback": "for עם משך."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "for two years.",
+      "feedback_try": "for עם משך: I have lived here for two years.",
+      "worked_method": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
+      "can_do": "להגיד for two years",
+      "hint": "משך: for."
+    },
+    {
+      "id": "xp_04_t_for_02",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "since 2020",
+      "body_he": "מה נכון?",
+      "body_content": "I have lived here ___ 2020.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "for",
+          "feedback": "since עם נקודת התחלה."
+        },
+        {
+          "id": "b",
+          "label": "since"
+        },
+        {
+          "id": "c",
+          "label": "ago",
+          "feedback": "since עם נקודת התחלה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "since 2020.",
+      "feedback_try": "since עם נקודת התחלה: I have lived here since 2020.",
+      "worked_method": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
+      "can_do": "להגיד since 2020",
+      "hint": "נקודת התחלה: since."
+    },
+    {
+      "id": "xp_04_t_for_03",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "for three months",
+      "body_he": "מה נכון?",
+      "body_content": "She has worked here ___ three months.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "for"
+        },
+        {
+          "id": "b",
+          "label": "since",
+          "feedback": "for עם משך."
+        },
+        {
+          "id": "c",
+          "label": "ago",
+          "feedback": "for עם משך."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "for three months.",
+      "feedback_try": "for עם משך: She has worked here for three months.",
+      "worked_method": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
+      "can_do": "להגיד for three months",
+      "hint": "משך: for."
+    },
+    {
+      "id": "xp_04_t_for_04",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "since Monday",
+      "body_he": "מה נכון?",
+      "body_content": "He has been here ___ Monday.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "for",
+          "feedback": "since עם נקודת התחלה."
+        },
+        {
+          "id": "b",
+          "label": "since"
+        },
+        {
+          "id": "c",
+          "label": "ago",
+          "feedback": "since עם נקודת התחלה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "since Monday.",
+      "feedback_try": "since עם נקודת התחלה: He has been here since Monday.",
+      "worked_method": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
+      "can_do": "להגיד since Monday",
+      "hint": "נקודת התחלה: since."
+    },
+    {
+      "id": "xp_04_t_for_05",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "for a long time",
+      "body_he": "מה נכון?",
+      "body_content": "They have lived here ___ a long time.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "for"
+        },
+        {
+          "id": "b",
+          "label": "since",
+          "feedback": "for עם משך."
+        },
+        {
+          "id": "c",
+          "label": "ago",
+          "feedback": "for עם משך."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "for a long time.",
+      "feedback_try": "for עם משך: They have lived here for a long time.",
+      "worked_method": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
+      "can_do": "להגיד for a long time",
+      "hint": "משך: for."
+    },
+    {
+      "id": "xp_04_t_for_06",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "since last year",
+      "body_he": "מה נכון?",
+      "body_content": "We have known them ___ last year.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "for",
+          "feedback": "since עם נקודת התחלה."
+        },
+        {
+          "id": "b",
+          "label": "since"
+        },
+        {
+          "id": "c",
+          "label": "ago",
+          "feedback": "since עם נקודת התחלה."
+        }
+      ],
+      "correct": "b",
+      "feedback_ok": "since last year.",
+      "feedback_try": "since עם נקודת התחלה: We have known them since last year.",
+      "worked_method": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
+      "can_do": "להגיד since last year",
+      "hint": "נקודת התחלה: since."
     },
     {
       "id": "ac_rev2_learn",
