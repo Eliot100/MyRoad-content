@@ -36,7 +36,8 @@
         "g_t_read_learn_ex3",
         "g_t_read_idea",
         "g_t_read_purpose"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_essay",
@@ -52,7 +53,8 @@
         "g_t_essay_learn_ex3",
         "g_t_essay_open",
         "g_t_essay_org"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_rubric",
@@ -68,7 +70,8 @@
         "g_t_rubric_learn_ex3",
         "g_t_rubric_len",
         "g_t_rubric_chk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_review_1",
@@ -80,7 +83,8 @@
       "node_ids": [
         "g_rev1_learn",
         "g_rev1_q"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_body",
@@ -96,7 +100,8 @@
         "g_t_body_learn_ex3",
         "g_t_body_p1",
         "g_t_body_p2"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_close",
@@ -112,7 +117,8 @@
         "g_t_close_learn_ex3",
         "g_t_close_p1",
         "g_t_close_p2"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_words",
@@ -128,7 +134,8 @@
         "g_t_words_learn_ex3",
         "g_t_words_p1",
         "g_t_words_p2"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_review_2",
@@ -140,7 +147,8 @@
       "node_ids": [
         "g_rev2_learn",
         "g_rev2_q"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_end",
@@ -152,7 +160,8 @@
       "node_ids": [
         "g_final_check",
         "g_celebrate"
-      ]
+      ],
+      "level": 3
     }
   ],
   "nodes": [
@@ -163,7 +172,8 @@
       "title": "קטע G",
       "body_he": "הכותב לא אומר שהסדנה היא צדקה. הוא אומר שהיא נשארת כשיש חובה ותשלום קטן.",
       "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention.",
-      "can_do": "לקרוא טיעון בקטע של מודול G"
+      "can_do": "לקרוא טיעון בקטע של מודול G",
+      "tile_role": "explanation"
     },
     {
       "id": "g_t_read_learn_ex1",
@@ -172,7 +182,8 @@
       "title": "דוגמה: מה נכשל",
       "body_he": "מחפשים מה הכותב אומר שנכשל. כאן: החדר והשכירות, לא הכלים.",
       "body_content": "In many towns the shared room fails first. Tools can be borrowed. A doubled rent cannot.",
-      "can_do": "דוגמה: מה נכשל"
+      "can_do": "דוגמה: מה נכשל",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_read_learn_ex2",
@@ -181,7 +192,8 @@
       "title": "דוגמה: לא צדקה",
       "body_he": "הכותב שולל צדקה במפורש. העיר שומרת עובד שהיה עוזב עם המקצוע.",
       "body_content": "The plan is not charity. The town keeps a skilled worker who would otherwise leave.",
-      "can_do": "דוגמה: לא צדקה"
+      "can_do": "דוגמה: לא צדקה",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_read_learn_ex3",
@@ -190,7 +202,8 @@
       "title": "דוגמה: חובה ותשלום",
       "body_he": "סדנאות שנמשכו גבו תשלום קטן ודרשו שעה של הוראה. זו השיטה בטקסט.",
       "body_content": "Workshops that lasted charged a small fee and asked each member to teach one hour a month.",
-      "can_do": "דוגמה: חובה ותשלום"
+      "can_do": "דוגמה: חובה ותשלום",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_read_idea",
@@ -220,7 +233,8 @@
       "feedback_try": "כתוב שהסדנאות שנשארו גבו תשלום קטן וביקשו מכל חבר ללמד שעה. החינמיות בלי חובה נסגרו. לכן Workshops with a fee and a duty.",
       "can_do": "למצוא בקטע מה החזיק לאורך זמן",
       "worked_method": "מצאו בקטע את המילים מהשאלה וקראו את המשפט שבו הן מופיעות.\nבקטע הסדנאות שנשארו גבו תשלום קטן וביקשו מכל חבר ללמד שעה. החדרים החינמיים בלי חובה נסגרו.\nהתשובה: Workshops with a fee and a duty.",
-      "hint": "חפשו בקטע אילו סדנאות נשארו פתוחות."
+      "hint": "חפשו בקטע אילו סדנאות נשארו פתוחות.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_t_read_purpose",
@@ -250,7 +264,8 @@
       "feedback_try": "המבקרים אומרים שעזרה מלמדת לחכות, והכותב עונה להם מהנתונים. לכן to answer the claim that help makes people wait.",
       "can_do": "להבין למה הכותב מביא את המבקרים",
       "worked_method": "שאלו מה הפסקה עושה לטענה: מוסיפה סיבה, דוגמה או תשובה למי שחולק.\nהמבקרים טוענים שעזרה מלמדת לחכות, והכותב עונה להם בעובדות.\nהתשובה: to answer the claim that help makes people wait.",
-      "hint": "מה המבקרים טוענים, ואיך הכותב עונה?"
+      "hint": "מה המבקרים טוענים, ואיך הכותב עונה?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_t_essay_learn",
@@ -259,7 +274,8 @@
       "title": "חיבור דעה",
       "body_he": "120 עד 140 מילים. פתיחה עם דעה, שתי סיבות, ומשפט סיום. לא מתחילים בBecause.",
       "body_content": "In my opinion, a shared workshop should charge a small fee.",
-      "can_do": "לתכנן חיבור דעה של 120 עד 140 מילים"
+      "can_do": "לתכנן חיבור דעה של 120 עד 140 מילים",
+      "tile_role": "explanation"
     },
     {
       "id": "g_t_essay_learn_ex1",
@@ -268,7 +284,8 @@
       "title": "דוגמה: פתיחה עם דעה",
       "body_he": "לא פותחים בBecause. פותחים בדעה ברורה במשפט שלם.",
       "body_content": "In my opinion, a shared workshop should charge a small monthly fee.",
-      "can_do": "דוגמה: פתיחה עם דעה"
+      "can_do": "דוגמה: פתיחה עם דעה",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_essay_learn_ex2",
@@ -277,7 +294,8 @@
       "title": "דוגמה: שתי סיבות",
       "body_he": "אחרי הפתיחה באות שתי סיבות מלאות, לא מילה אחת.",
       "body_content": "A fee keeps the lease stable. A teaching hour keeps skills inside the town.",
-      "can_do": "דוגמה: שתי סיבות"
+      "can_do": "דוגמה: שתי סיבות",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_essay_learn_ex3",
@@ -286,7 +304,8 @@
       "title": "דוגמה: אורך יעד",
       "body_he": "היעד הוא 120 עד 140 מילים עם פתיחה, שתי סיבות וסיום.",
       "body_content": "Aim for 120 to 140 words: opening, two reasons, and a closing line.",
-      "can_do": "דוגמה: אורך יעד"
+      "can_do": "דוגמה: אורך יעד",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_essay_open",
@@ -316,7 +335,8 @@
       "feedback_try": "In my opinion, a small fee keeps the room open הוא משפט שלם עם דעה. השאר אינם משפטים.",
       "can_do": "לבחור פתיחה עם דעה",
       "worked_method": "פתיחה של חיבור דעה היא משפט שלם שאומר את הדעה.\nBecause a fee ו Fee room open people אינם משפטים שלמים.\nהתשובה: In my opinion, a small fee keeps the room open.",
-      "hint": "פתיחה טובה היא משפט שלם עם דעה."
+      "hint": "פתיחה טובה היא משפט שלם עם דעה.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_t_essay_org",
@@ -346,7 +366,8 @@
       "feedback_try": "דוגמה לבד לא מוכיחה. צריך נימוק שמחבר את הסיפור לדעה.",
       "can_do": "לחבר דוגמה לדעה בפסקה",
       "worked_method": "בפסקת גוף יש נימוק ודוגמה. הדוגמה לבד לא מסבירה למה הדעה נכונה.\nלפסקה יש סיפור אבל אין נקודה, לכן חסר המשפט שמחבר אותו לדעה. שם עיר או תאריך לא יעזרו.\nהתשובה: a reason that ties the story to the opinion.",
-      "hint": "דוגמה צריכה לחזור לדעה."
+      "hint": "דוגמה צריכה לחזור לדעה.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_t_rubric_learn",
@@ -355,7 +376,8 @@
       "title": "מחוון",
       "body_he": "תוכן ושכנוע, ארגון, אוצר מילים, ודיוק. אורך קצר מדי יורד לחוד, לא במקום התוכן.",
       "body_content": "Content, organization, vocabulary, accuracy, and length.",
-      "can_do": "להבין לפי מה בודקים חיבור"
+      "can_do": "להבין לפי מה בודקים חיבור",
+      "tile_role": "explanation"
     },
     {
       "id": "g_t_rubric_learn_ex1",
@@ -364,7 +386,8 @@
       "title": "דוגמה: תוכן וארגון",
       "body_he": "תוכן הוא הדעה והסיבות. ארגון הוא פתיחה, גוף וסיום.",
       "body_content": "Content is the opinion and reasons. Organization is opening, body, and close.",
-      "can_do": "דוגמה: תוכן וארגון"
+      "can_do": "דוגמה: תוכן וארגון",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_rubric_learn_ex2",
@@ -373,7 +396,8 @@
       "title": "דוגמה: אורך לחוד",
       "body_he": "אורך קצר מדי יורד בנפרד. הוא לא מחליף ציון תוכן.",
       "body_content": "A short essay loses length points on their own. Content is scored separately.",
-      "can_do": "דוגמה: אורך לחוד"
+      "can_do": "דוגמה: אורך לחוד",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_rubric_learn_ex3",
@@ -382,7 +406,8 @@
       "title": "דוגמה: דיוק בחיבור",
       "body_he": "בחיבור הדיוק נספר. טעות דקדוק חוזרת פוגעת בציון.",
       "body_content": "In the essay, accuracy counts. Repeated grammar errors lower the score.",
-      "can_do": "דוגמה: דיוק בחיבור"
+      "can_do": "דוגמה: דיוק בחיבור",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_rubric_len",
@@ -412,7 +437,8 @@
       "feedback_try": "70 מילים קצר מהטווח, לכן יורדות נקודות אורך. התוכן עדיין נבדק ויכול לקבל נקודות.",
       "can_do": "להבין מה קורה לחיבור קצר מדי",
       "worked_method": "במחוון האורך הוא רק חלק אחד מהציון, והתוכן נבדק בנפרד.\n70 מילים פחות מ 120, לכן יורדות נקודות אורך. התוכן עדיין יכול לקבל נקודות.\nהתשובה: It loses points for length and can still earn content points.",
-      "hint": "לפי המחוון, אורך הוא רק חלק אחד מהציון."
+      "hint": "לפי המחוון, אורך הוא רק חלק אחד מהציון.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_t_rubric_chk",
@@ -442,7 +468,8 @@
       "feedback_try": "A fee gives the city a reason to keep the lease אומר למה התשלום טוב. השניים האחרים רק חוזרים על fee.",
       "can_do": "להבחין בין נימוק לחזרה",
       "worked_method": "נימוק עונה על השאלה למה ומוסיף מידע חדש. חזרה על אותה מילה אינה נימוק.\nA fee is a fee ו Because fee fee רק חוזרים. רק האפשרות הראשונה מסבירה מה התשלום נותן.\nהתשובה: A fee gives the city a reason to keep the lease.",
-      "hint": "נימוק אומר למה. חזרה אומרת שוב את אותו דבר."
+      "hint": "נימוק אומר למה. חזרה אומרת שוב את אותו דבר.",
+      "tile_role": "quick_check"
     },
     {
       "id": "g_rev1_learn",
@@ -456,7 +483,8 @@
         "t_essay",
         "t_rubric"
       ],
-      "can_do": "לחזור על קריאה, פתיחה ומחוון"
+      "can_do": "לחזור על קריאה, פתיחה ומחוון",
+      "tile_role": "explanation"
     },
     {
       "id": "g_rev1_q",
@@ -491,7 +519,8 @@
       "feedback_try": "A fee gives a reason to keep the lease מסביר למה. A fee is a fee רק חוזר.",
       "can_do": "לזהות נימוק בלי רמז",
       "worked_method": "חזרו לכלל: בדקו אם המשפט מסביר למה, או רק אומר שוב את אותו דבר.\nA fee gives a reason to keep the lease מוסיף סיבה. השניים האחרים ריקים.\nהתשובה: A fee gives a reason to keep the lease.",
-      "hint": "נימוק אומר למה."
+      "hint": "נימוק אומר למה.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_t_body_learn",
@@ -500,7 +529,8 @@
       "title": "גוף החיבור",
       "body_he": "אחרי הפתיחה באות שתי סיבות. כל סיבה במשפט שלם, לא ברשימת מילים.",
       "body_content": "A small fee keeps the lease. A duty keeps the skill moving.",
-      "can_do": "לכתוב גוף חיבור עם שתי סיבות"
+      "can_do": "לכתוב גוף חיבור עם שתי סיבות",
+      "tile_role": "explanation"
     },
     {
       "id": "g_t_body_learn_ex1",
@@ -509,7 +539,8 @@
       "title": "דוגמה: סיבה ראשונה",
       "body_he": "כל סיבה במשפט שלם אחרי הפתיחה, לא ברשימת תבליטים.",
       "body_content": "First, a small fee covers the monthly rent for the shared room.",
-      "can_do": "דוגמה: סיבה ראשונה"
+      "can_do": "דוגמה: סיבה ראשונה",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_body_learn_ex2",
@@ -518,7 +549,8 @@
       "title": "דוגמה: סיבה שנייה",
       "body_he": "הסיבה השנייה מוסיפה רעיון חדש, לא חוזרת על הראשונה באותן מילים.",
       "body_content": "Second, asking each member to teach one hour keeps rare skills in town.",
-      "can_do": "דוגמה: סיבה שנייה"
+      "can_do": "דוגמה: סיבה שנייה",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_body_learn_ex3",
@@ -527,7 +559,8 @@
       "title": "דוגמה: קישור",
       "body_he": "מילות קישור פשוטות כמו First וSecond מספיקות. אין צורך ברשימה ארוכה.",
       "body_content": "Simple linkers such as First and Second are enough for a clear body.",
-      "can_do": "דוגמה: קישור"
+      "can_do": "דוגמה: קישור",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_body_p1",
@@ -557,7 +590,8 @@
       "feedback_try": "A duty means every member teaches one hour הוא משפט שלם שנותן סיבה ברורה.",
       "can_do": "לכתוב סיבה במשפט שלם",
       "worked_method": "סיבה בגוף החיבור היא משפט שלם עם מי, פועל ומידע ברור.\nDuty duty hour ו Because duty הם מילים בלי פועל.\nהתשובה: A duty means every member teaches one hour.",
-      "hint": "סיבה טובה היא משפט שלם שמסביר."
+      "hint": "סיבה טובה היא משפט שלם שמסביר.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_t_body_p2",
@@ -587,7 +621,8 @@
       "feedback_try": "בחיבור של 120 עד 140 מילים יש מקום לשתי סיבות ואחריהן משפט סיום.",
       "can_do": "לבנות שתי סיבות ומשפט סיום",
       "worked_method": "המבנה של חיבור דעה: פתיחה, שתי סיבות עם דוגמה, ומשפט סיום.\nבטווח של 120 עד 140 מילים יש מקום בדיוק לשתי סיבות ואחריהן סיום.\nהתשובה: two reasons, then a closing sentence.",
-      "hint": "חיבור של 120 עד 140 מילים צריך כמה סיבות ומשפט סיום."
+      "hint": "חיבור של 120 עד 140 מילים צריך כמה סיבות ומשפט סיום.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_t_close_learn",
@@ -596,7 +631,8 @@
       "title": "סיום",
       "body_he": "הסיום חוזר לדעה בלי להעתיק את הפתיחה מילה במילה.",
       "body_content": "That is why the room should not be free.",
-      "can_do": "לסגור חיבור בלי להעתיק את הפתיחה"
+      "can_do": "לסגור חיבור בלי להעתיק את הפתיחה",
+      "tile_role": "explanation"
     },
     {
       "id": "g_t_close_learn_ex1",
@@ -605,7 +641,8 @@
       "title": "דוגמה: חזרה לדעה",
       "body_he": "הסיום חוזר לדעה בלי להעתיק את הפתיחה מילה במילה.",
       "body_content": "For these reasons, a small fee and a teaching hour make the workshop last.",
-      "can_do": "דוגמה: חזרה לדעה"
+      "can_do": "דוגמה: חזרה לדעה",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_close_learn_ex2",
@@ -614,7 +651,8 @@
       "title": "דוגמה: לא סיפור חדש",
       "body_he": "הסיום לא פותח נושא חדש. הוא סוגר את מה שכבר נאמר.",
       "body_content": "The closing line restates the opinion. It does not start a new story.",
-      "can_do": "דוגמה: לא סיפור חדש"
+      "can_do": "דוגמה: לא סיפור חדש",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_close_learn_ex3",
@@ -623,7 +661,8 @@
       "title": "דוגמה: משפט אחד חזק",
       "body_he": "משפט סיום אחד ברור עדיף על שני משפטים חלשים.",
       "body_content": "One clear closing sentence is better than two weak ones.",
-      "can_do": "דוגמה: משפט אחד חזק"
+      "can_do": "דוגמה: משפט אחד חזק",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_close_p1",
@@ -653,7 +692,8 @@
       "feedback_try": "For these reasons, a small fee is worth keeping סוגר את הדעה במשפט שלם.",
       "can_do": "לבחור משפט סיום שסוגר את הדעה",
       "worked_method": "משפט סיום מחזיר את הדעה במשפט שלם, ולרוב נפתח במילים כמו To sum up.\nרק האפשרות הראשונה היא משפט שלם שאומר שוב את הדעה.\nהתשובה: For these reasons, a small fee is worth keeping.",
-      "hint": "סיום טוב סוגר את הדעה במשפט שלם."
+      "hint": "סיום טוב סוגר את הדעה במשפט שלם.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_t_close_p2",
@@ -683,7 +723,8 @@
       "feedback_try": "משפט שמעתיק את הפתיחה מילה במילה לא מוסיף כלום, לכן הוא חלש.",
       "can_do": "לזהות סיום חלש",
       "worked_method": "סיום טוב חוזר על הדעה במילים חדשות. העתקה של הפתיחה לא מוסיפה דבר.\nכאן המשפט האחרון זהה לראשון, מילה במילה.\nהתשובה: It adds nothing new.",
-      "hint": "האם סיום שמעתיק את הפתיחה מוסיף משהו?"
+      "hint": "האם סיום שמעתיק את הפתיחה מוסיף משהו?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_t_words_learn",
@@ -692,7 +733,8 @@
       "title": "אוצר לחיבור",
       "body_he": "שלוש מילים מהקטע, לשימוש בחיבור. לא רשימה רשמית.",
       "body_content": "lease, duty, fee",
-      "can_do": "להשתמש במילים מהקטע בחיבור"
+      "can_do": "להשתמש במילים מהקטע בחיבור",
+      "tile_role": "explanation"
     },
     {
       "id": "g_t_words_learn_ex1",
@@ -701,7 +743,8 @@
       "title": "דוגמה: שלוש מילים בשימוש",
       "body_he": "בוחרים שלוש מילים מהקטע ומשלבים בחיבור, לא ברשימה.",
       "body_content": "lease, skill, fee",
-      "can_do": "דוגמה: שלוש מילים בשימוש"
+      "can_do": "דוגמה: שלוש מילים בשימוש",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_words_learn_ex2",
@@ -710,7 +753,8 @@
       "title": "דוגמה: משפט עם המילים",
       "body_he": "כותבים משפט דעה שמשתמש בשלוש המילים בהקשר נכון.",
       "body_content": "A fair fee protects the lease and keeps skill in the town.",
-      "can_do": "דוגמה: משפט עם המילים"
+      "can_do": "דוגמה: משפט עם המילים",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_words_learn_ex3",
@@ -719,7 +763,8 @@
       "title": "דוגמה: לא להעתיק שורה",
       "body_he": "אין מעתיקים משפט מהקטע. משתמשים במילים במבנה שלכם.",
       "body_content": "Use the words in your own sentence shape, not a copied line from the passage.",
-      "can_do": "דוגמה: לא להעתיק שורה"
+      "can_do": "דוגמה: לא להעתיק שורה",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_t_words_p1",
@@ -749,7 +794,8 @@
       "feedback_try": "a lease the city holds: העירייה מחזיקה בזכות להשתמש בחדר. lease הוא the right to use the room.",
       "can_do": "להבין את lease",
       "worked_method": "הבינו את המילה ממי שמחזיק בה ומה עושים איתה במשפט.\nהעירייה מחזיקה ב lease של החדר, כלומר בזכות להשתמש בו.\nהתשובה: the right to use the room.",
-      "hint": "lease הוא חוזה שמאפשר להשתמש במקום."
+      "hint": "lease הוא חוזה שמאפשר להשתמש במקום.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_t_words_p2",
@@ -779,7 +825,8 @@
       "feedback_try": "a duty to teach one hour: משהו שחייבים לעשות. duty הוא something you must do.",
       "can_do": "להבין את duty",
       "worked_method": "חפשו מה בא אחרי המילה. מה שבא אחריה מסביר אותה.\nאחרי a duty בא to teach one hour, משהו שכל חבר חייב לעשות.\nהתשובה: something you must do.",
-      "hint": "duty הוא משהו שמוטל עליכם."
+      "hint": "duty הוא משהו שמוטל עליכם.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_rev2_learn",
@@ -793,7 +840,8 @@
         "t_close",
         "t_words"
       ],
-      "can_do": "לחזור על גוף, סיום ומילים לחיבור"
+      "can_do": "לחזור על גוף, סיום ומילים לחיבור",
+      "tile_role": "explanation"
     },
     {
       "id": "g_rev2_q",
@@ -828,7 +876,8 @@
       "feedback_try": "כתוב The workshops that lasted charged a small fee and asked every member to teach. לכן Ones with a fee and a duty.",
       "can_do": "למצוא פרט בקטע בלי רמז",
       "worked_method": "חזרו לשיטה: מצאו בקטע את המילה lasted וקראו את המשפט שלה.\nשם כתוב שהסדנאות שנשארו גבו תשלום קטן וביקשו מכל חבר ללמד.\nהתשובה: Ones with a fee and a duty.",
-      "hint": "חפשו בקטע אילו חדרים החזיקו."
+      "hint": "חפשו בקטע אילו חדרים החזיקו.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "g_final_check",
@@ -858,7 +907,8 @@
       "feedback_try": "70 מילים קצר מ120, לכן יורדות נקודות אורך, והתוכן עדיין יכול לקבל נקודות.",
       "can_do": "להבין איך אורך משפיע על הציון",
       "worked_method": "זכרו שבמחוון האורך והתוכן נבדקים בנפרד, ואף אחד מהם לא מאפס את השני.\nחיבור של 70 מילים קצר מהטווח ומפסיד נקודות אורך, אבל לא מקבל אפס.\nהתשובה: Length loses points. Content can still earn some.",
-      "hint": "לפי המחוון, אורך הוא רק חלק אחד מהציון."
+      "hint": "לפי המחוון, אורך הוא רק חלק אחד מהציון.",
+      "tile_role": "quick_check"
     },
     {
       "id": "g_celebrate",

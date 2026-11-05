@@ -37,7 +37,8 @@
         "e_t_read_idea",
         "e_t_read_purpose",
         "e_t_read_word"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_vocab",
@@ -53,7 +54,8 @@
         "e_t_vocab_learn_ex3",
         "e_t_vocab_p1",
         "e_t_vocab_p2"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_ref",
@@ -69,7 +71,8 @@
         "e_t_ref_learn_ex3",
         "e_t_ref_p1",
         "e_t_ref_chk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_review_1",
@@ -81,7 +84,8 @@
       "node_ids": [
         "e_rev1_learn",
         "e_rev1_q"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_detail",
@@ -97,7 +101,8 @@
         "e_t_detail_learn_ex3",
         "e_t_detail_p1",
         "e_t_detail_p2"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_infer",
@@ -113,7 +118,8 @@
         "e_t_infer_learn_ex3",
         "e_t_infer_p1",
         "e_t_infer_p2"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_band",
@@ -129,7 +135,8 @@
         "e_t_band_learn_ex3",
         "e_t_band_p1",
         "e_t_band_p2"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_review_2",
@@ -141,7 +148,8 @@
       "node_ids": [
         "e_rev2_learn",
         "e_rev2_q"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_end",
@@ -153,7 +161,8 @@
       "node_ids": [
         "e_final_check",
         "e_celebrate"
-      ]
+      ],
+      "level": 3
     }
   ],
   "nodes": [
@@ -164,7 +173,8 @@
       "title": "קטע E",
       "body_he": "קראו פעם אחת בלי לעצור על כל מילה. אחר כך השאלות.",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
-      "can_do": "לקרוא קטע של מודול E ברצף"
+      "can_do": "לקרוא קטע של מודול E ברצף",
+      "tile_role": "explanation"
     },
     {
       "id": "e_t_read_learn_ex1",
@@ -173,7 +183,8 @@
       "title": "דוגמה: רעיון בפתיחה",
       "body_he": "המשפט הראשון מציג את הרעיון. כאן: המעבר פותר בעיה אחת ויוצר אחרת. זה הרעיון, לא פרט.",
       "body_content": "Moving the clinic indoors stops the rain. It also puts the queue behind a locked gate.",
-      "can_do": "דוגמה: רעיון בפתיחה"
+      "can_do": "דוגמה: רעיון בפתיחה",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_read_learn_ex2",
@@ -182,7 +193,8 @@
       "title": "דוגמה: פרט תומך",
       "body_he": "פרט הוא עובדה כתובה שתומכת ברעיון. המחיר עלה, והקונים עוברים ליד בלי לקנות. זה פרט, לא מסקנה שלנו.",
       "body_content": "The same fruit now costs more in sealed packs, and regular buyers walk past without stopping.",
-      "can_do": "דוגמה: פרט תומך"
+      "can_do": "דוגמה: פרט תומך",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_read_learn_ex3",
@@ -191,7 +203,8 @@
       "title": "דוגמה: מה לא רעיון",
       "body_he": "שם של אדם או מספר לבד אינם הרעיון המרכזי. הרעיון הוא הטענה על כל הקטע.",
       "body_content": "A name or a single number is a detail. The main idea is the claim about the whole move.",
-      "can_do": "דוגמה: מה לא רעיון"
+      "can_do": "דוגמה: מה לא רעיון",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_read_idea",
@@ -221,7 +234,8 @@
       "feedback_try": "הקטע אומר שהאולם נקי אבל רחוק ויקר, והקונים המבוגרים מפסיקים לבוא. לכן: A cleaner market can lose the people it was for.",
       "can_do": "לזהות את הטענה של הכותב",
       "worked_method": "הטענה המרכזית מחברת את פתיחת הקטע לסופו, ולא נשענת על פרט אחד.\nהקטע אומר שהאולם פתר את הגשם, אבל הוא רחוק ויקר, והקונים המבוגרים הפסיקו לבוא. קופסאות ואוטובוס הם רק פרטים.\nהתשובה: A cleaner market can lose the people it was for.",
-      "hint": "מה הקטע אומר שקורה לקונים אחרי המעבר?"
+      "hint": "מה הקטע אומר שקורה לקונים אחרי המעבר?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_t_read_purpose",
@@ -251,7 +265,8 @@
       "feedback_try": "הקטע מראה מה הפסידו כשהשוק עבר לאולם: מחיר גבוה, מרחק מהאוטובוס, דוכנים ריקים. לכן to show a cost of moving the market.",
       "can_do": "לזהות למה הקטע נכתב",
       "worked_method": "בשאלת מטרה שאלו מה הכותב רוצה שנבין אחרי כל הקטע.\nהכותב מונה מה הפסידו במעבר לאולם: מחיר גבוה, מרחק ודוכנים ריקים. הוא לא מוכר פירות ולא נותן לוח זמנים.\nהתשובה: to show a cost of moving the market.",
-      "hint": "שאלו את עצמכם מה הכותב רוצה שנבין."
+      "hint": "שאלו את עצמכם מה הכותב רוצה שנבין.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_t_read_word",
@@ -281,7 +296,8 @@
       "feedback_try": "הכתבת ספרה stalls ריקים ותור בstall אחד שמוכר פירות. לכן אלה שולחנות שמוכרים בהם.",
       "can_do": "להבין מילה מתוך הקטע",
       "worked_method": "מילה לא מוכרת מבינים מהמשפט שסביבה. בדקו כל פירוש במקומה.\nבקטע יש stalls ריקים, ותור ליד stall אחד שמוכר פירות. כרטיס או קופסה לא מוכרים פירות.\nהתשובה: tables where people sell.",
-      "hint": "קראו את המשפט ונחשו לפי מה שקורה בשוק."
+      "hint": "קראו את המשפט ונחשו לפי מה שקורה בשוק.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_t_vocab_learn",
@@ -290,7 +306,8 @@
       "title": "אוצר מילים",
       "body_he": "המילה מהמשפט, לא מהמילון לבד.",
       "body_content": "The hall is far from the bus.",
-      "can_do": "להבין מילה לפי המשפט שלה"
+      "can_do": "להבין מילה לפי המשפט שלה",
+      "tile_role": "explanation"
     },
     {
       "id": "e_t_vocab_learn_ex1",
@@ -299,7 +316,8 @@
       "title": "דוגמה: מילה מהמשפט",
       "body_he": "לא פותחים מילון קודם. קוראים את המשפט עם המילה ובודקים איזה פירוש משאיר אותו הגיוני.",
       "body_content": "The stall was empty before nine, but a line formed at the one that still sold loose fruit.",
-      "can_do": "דוגמה: מילה מהמשפט"
+      "can_do": "דוגמה: מילה מהמשפט",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_vocab_learn_ex2",
@@ -308,7 +326,8 @@
       "title": "דוגמה: far מההקשר",
       "body_he": "far from the bus מתאר מרחק. מחיר או שעה לא מתאימים כאן.",
       "body_content": "The hall is clean. It is also far from the bus.",
-      "can_do": "דוגמה: far מההקשר"
+      "can_do": "דוגמה: far מההקשר",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_vocab_learn_ex3",
@@ -317,7 +336,8 @@
       "title": "דוגמה: loose מההקשר",
       "body_he": "loose fruit מופיע מול plastic boxes. הניגוד אומר שהפרי לא בקופסה.",
       "body_content": "One stall still sold loose fruit. The owner refused the plastic boxes.",
-      "can_do": "דוגמה: loose מההקשר"
+      "can_do": "דוגמה: loose מההקשר",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_vocab_p1",
@@ -347,7 +367,8 @@
       "feedback_try": "far from the bus פירושו רחוק מהאוטובוס, כלומר not close.",
       "can_do": "להבין את far במשפט",
       "worked_method": "הציבו כל פירוש במקום המילה ובדקו שהמשפט נשאר הגיוני.\nfar from the bus מתאר מרחק מהאוטובוס, לא מחיר ולא שעה.\nהתשובה: not close.",
-      "hint": "far הפוך מ close."
+      "hint": "far הפוך מ close.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_t_vocab_p2",
@@ -377,7 +398,8 @@
       "feedback_try": "loose fruit בא מול plastic boxes, כלומר פרי שלא בתוך קופסה.",
       "can_do": "להבין את loose במשפט",
       "worked_method": "חפשו בקטע מילה שעומדת מול המילה החדשה. הניגוד עוזר להבין אותה.\nloose fruit מופיע מול plastic boxes, כלומר פרי שלא ארוז.\nהתשובה: not in a box.",
-      "hint": "loose פירושו לא קשור ולא סגור."
+      "hint": "loose פירושו לא קשור ולא סגור.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_t_ref_learn",
@@ -386,7 +408,8 @@
       "title": "מילת ייחוס",
       "body_he": "it וthere מצביעים אחורה, לא קדימה אל ניחוש.",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
-      "can_do": "לזהות למה it מתייחס"
+      "can_do": "לזהות למה it מתייחס",
+      "tile_role": "explanation"
     },
     {
       "id": "e_t_ref_learn_ex1",
@@ -395,7 +418,8 @@
       "title": "דוגמה: it אחורה",
       "body_he": "it מחליף שם שכבר הופיע. במשפט שלפניו כתוב The hall is clean, לכן it הוא האולם.",
       "body_content": "The hall is clean. It is also far from the bus.",
-      "can_do": "דוגמה: it אחורה"
+      "can_do": "דוגמה: it אחורה",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_ref_learn_ex2",
@@ -404,7 +428,8 @@
       "title": "דוגמה: She אחורה",
       "body_he": "She counted. מחפשים אחורה את האישה האחרונה. כאן: A reporter.",
       "body_content": "A reporter spent three mornings there. She counted empty seats by the door.",
-      "can_do": "דוגמה: She אחורה"
+      "can_do": "דוגמה: She אחורה",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_ref_learn_ex3",
@@ -413,7 +438,8 @@
       "title": "דוגמה: לא לנחש קדימה",
       "body_he": "מילת ייחוס לא מצביעה על שם שעוד לא הופיע. קודם השם, אחר כך it או she.",
       "body_content": "First the name appears. Only then does it or she replace that name.",
-      "can_do": "דוגמה: לא לנחש קדימה"
+      "can_do": "דוגמה: לא לנחש קדימה",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_ref_p1",
@@ -443,7 +469,8 @@
       "feedback_try": "במשפט שלפני כתוב The hall is clean. לכן It is also far מדבר על the hall.",
       "can_do": "למצוא את השם ש it מחליף",
       "worked_method": "it מחליפה שם שכבר הופיע. חפשו את השם במשפט שלפניה.\nהמשפט שלפני It הוא The hall is clean, והשם שם הוא the hall.\nהתשובה: the hall.",
-      "hint": "it מחליף שם שבא קודם במשפט."
+      "hint": "it מחליף שם שבא קודם במשפט.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_t_ref_chk",
@@ -473,7 +500,8 @@
       "feedback_try": "כתוב The owner, Nira, refused the plastic boxes. מי שמסרבת היא Nira.",
       "can_do": "למצוא בקטע מי עשה מה",
       "worked_method": "מצאו בקטע את הפועל מהשאלה וקראו מי עושה אותו.\nליד refused the plastic boxes כתוב The owner, Nira.\nהתשובה: Nira.",
-      "hint": "חפשו בקטע את המילה refused."
+      "hint": "חפשו בקטע את המילה refused.",
+      "tile_role": "quick_check"
     },
     {
       "id": "e_rev1_learn",
@@ -487,7 +515,8 @@
         "t_vocab",
         "t_ref"
       ],
-      "can_do": "לחזור על רעיון, מילים וייחוס"
+      "can_do": "לחזור על רעיון, מילים וייחוס",
+      "tile_role": "explanation"
     },
     {
       "id": "e_rev1_q",
@@ -522,7 +551,8 @@
       "feedback_try": "It בא אחרי The hall is clean, לכן הוא the hall.",
       "can_do": "לזהות מילת ייחוס בלי רמז",
       "worked_method": "חזרו על הכלל: it מצביעה על השם האחרון שהופיע לפניה.\nלפני It כתוב The hall is clean. הגשם והאוטובוס לא מופיעים שם.\nהתשובה: It means the hall.",
-      "hint": "it מחליף שם שבא קודם."
+      "hint": "it מחליף שם שבא קודם.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_t_detail_learn",
@@ -531,7 +561,8 @@
       "title": "פרט",
       "body_he": "פרט הוא עובדה שכתובה, לא מסקנה שלנו.",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
-      "can_do": "להבחין בין פרט כתוב למסקנה"
+      "can_do": "להבחין בין פרט כתוב למסקנה",
+      "tile_role": "explanation"
     },
     {
       "id": "e_t_detail_learn_ex1",
@@ -540,7 +571,8 @@
       "title": "דוגמה: זמן כתוב",
       "body_he": "כמה זמן היא הייתה שם? אם כתוב three mornings, זה פרט. לא מסיקים מעבר לכתוב.",
       "body_content": "A reporter spent three mornings there.",
-      "can_do": "דוגמה: זמן כתוב"
+      "can_do": "דוגמה: זמן כתוב",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_detail_learn_ex2",
@@ -549,7 +581,8 @@
       "title": "דוגמה: סיבה כתובה",
       "body_he": "למה קונים מבוגרים מפסיקים? אם כתוב far from the bus, זו הסיבה בטקסט.",
       "body_content": "It is also far from the bus, so older buyers stop coming.",
-      "can_do": "דוגמה: סיבה כתובה"
+      "can_do": "דוגמה: סיבה כתובה",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_detail_learn_ex3",
@@ -558,7 +591,8 @@
       "title": "דוגמה: לא מסקנה",
       "body_he": "פרט לא אומר מה אנחנו חושבים. הוא חוזר על מה שכתוב במפורש.",
       "body_content": "A detail repeats a fact from the text. It does not add our opinion.",
-      "can_do": "דוגמה: לא מסקנה"
+      "can_do": "דוגמה: לא מסקנה",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_detail_p1",
@@ -588,7 +622,8 @@
       "feedback_try": "כתוב She counted empty stalls before nine, כלומר לפני תשע.",
       "can_do": "למצוא זמן מדויק בקטע",
       "worked_method": "פרט מוצאים במילים עצמן. חפשו בקטע את empty stalls וקראו מה כתוב לידן.\nאחרי empty stalls כתוב before nine.\nהתשובה: before nine.",
-      "hint": "חפשו בקטע את המילה nine."
+      "hint": "חפשו בקטע את המילה nine.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_t_detail_p2",
@@ -618,7 +653,8 @@
       "feedback_try": "כתוב It is also far from the bus, so older buyers stop coming. הסיבה היא המרחק מהאוטובוס.",
       "can_do": "למצוא סיבה שכתובה בקטע",
       "worked_method": "בשאלת למה חפשו מילת קישור של סיבה, כמו so או because.\nהמשפט It is also far from the bus, so older buyers stop coming נותן את הסיבה.\nהתשובה: The hall is far from the bus.",
-      "hint": "חפשו בקטע מה נאמר על הקונים המבוגרים."
+      "hint": "חפשו בקטע מה נאמר על הקונים המבוגרים.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_t_infer_learn",
@@ -627,7 +663,8 @@
       "title": "הסקה",
       "body_he": "הסקה נשענת על שתי עובדות בטקסט, לא על ניחוש.",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
-      "can_do": "להסיק מסקנה משתי עובדות בקטע"
+      "can_do": "להסיק מסקנה משתי עובדות בקטע",
+      "tile_role": "explanation"
     },
     {
       "id": "e_t_infer_learn_ex1",
@@ -636,7 +673,8 @@
       "title": "דוגמה: שתי עובדות",
       "body_he": "הסקה נשענת על שתי עובדות. מחיר גבוה ומרחק מהאוטובוס יחד מצביעים שחלק מהקונים עוזבים.",
       "body_content": "Prices rose in sealed packs. The hall sits far from the bus. Together, some buyers leave.",
-      "can_do": "דוגמה: שתי עובדות"
+      "can_do": "דוגמה: שתי עובדות",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_infer_learn_ex2",
@@ -645,7 +683,8 @@
       "title": "דוגמה: לא ניחוש",
       "body_he": "אם זה לא כתוב ולא נובע משתי עובדות, זו לא הסקה מותרת בבחינה.",
       "body_content": "A guess with no line in the text is not a valid inference on the exam.",
-      "can_do": "דוגמה: לא ניחוש"
+      "can_do": "דוגמה: לא ניחוש",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_infer_learn_ex3",
@@ -654,7 +693,8 @@
       "title": "דוגמה: הצלחה בעיני מי",
       "body_he": "המועצה קוראת להצלחה כי השכירות שולמה. נירה רואה חדר ששכח את הרחוב. שתי נקודות מבט מהטקסט.",
       "body_content": "The council calls it a success because the rent is paid. Nira calls it a room that forgot the street.",
-      "can_do": "דוגמה: הצלחה בעיני מי"
+      "can_do": "דוגמה: הצלחה בעיני מי",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_infer_p1",
@@ -684,7 +724,8 @@
       "feedback_try": "כתוב The council calls the hall a success because the rent is paid. לכן The rent is paid.",
       "can_do": "להסיק איך המועצה מודדת הצלחה",
       "worked_method": "חפשו את השם מהשאלה, כאן the council, ואת המילה because שאחריו.\nבקטע המועצה קוראת לזה הצלחה because the rent is paid.\nהתשובה: The rent is paid.",
-      "hint": "לפי מה המועצה מודדת הצלחה?"
+      "hint": "לפי מה המועצה מודדת הצלחה?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_t_infer_p2",
@@ -714,7 +755,8 @@
       "feedback_try": "נירה מסרבת לקופסאות ואומרת שהלקוחות יודעים לבחור אפרסק. היא רוצה לקוחות שבוחרים את הפרי בעצמם.",
       "can_do": "להסיק מה דמות רוצה",
       "worked_method": "כדי להבין מה דמות רוצה, חברו את מה שהיא עושה למה שהיא אומרת.\nנירה מסרבת לקופסאות ואומרת שהלקוחות יודעים לבחור פרי בעצמם.\nהתשובה: Customers who choose the fruit themselves.",
-      "hint": "מה נירה עושה עם הקופסאות, ולמה?"
+      "hint": "מה נירה עושה עם הקופסאות, ולמה?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_t_band_learn",
@@ -723,7 +765,8 @@
       "title": "מילים מהקטע",
       "body_he": "חמש מילים מתוך הקטע, במשפט חדש. לא רשימת משרד.",
       "body_content": "The queue was at the loose fruit.",
-      "can_do": "להשתמש במילים מהקטע במשפט חדש"
+      "can_do": "להשתמש במילים מהקטע במשפט חדש",
+      "tile_role": "explanation"
     },
     {
       "id": "e_t_band_learn_ex1",
@@ -732,7 +775,8 @@
       "title": "דוגמה: חמש מילים במשפט",
       "body_he": "בוחרים חמש מילים מהקטע וכותבים משפט חדש משלכם, לא מעתיקים שורה.",
       "body_content": "buyers, sealed, packs, bus, leave",
-      "can_do": "דוגמה: חמש מילים במשפט"
+      "can_do": "דוגמה: חמש מילים במשפט",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_band_learn_ex2",
@@ -741,7 +785,8 @@
       "title": "דוגמה: משפט שלם",
       "body_he": "המשפט החדש חייב להיות שלם עם נושא ונשוא, לא רשימת מילים.",
       "body_content": "Older buyers leave when sealed packs cost more and the bus is far.",
-      "can_do": "דוגמה: משפט שלם"
+      "can_do": "דוגמה: משפט שלם",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_band_learn_ex3",
@@ -750,7 +795,8 @@
       "title": "דוגמה: לא רשימת משרד",
       "body_he": "אין צורך ברשימה רשמית. המטרה היא שימוש במילים מהקטע בהקשר חדש.",
       "body_content": "Use words from the passage in a new situation, not a ministry word list.",
-      "can_do": "דוגמה: לא רשימת משרד"
+      "can_do": "דוגמה: לא רשימת משרד",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_t_band_p1",
@@ -780,7 +826,8 @@
       "feedback_try": "a queue at the stall הוא תור של אנשים שמחכים ליד הדוכן.",
       "can_do": "להבין את queue",
       "worked_method": "דמיינו את המצב שהמשפט מתאר ובחרו את הפירוש שמתאים לו.\na queue at the stall הוא אנשים שעומדים ליד הדוכן ומחכים.\nהתשובה: a line of people waiting.",
-      "hint": "תחשבו על אנשים שעומדים אחד אחרי השני."
+      "hint": "תחשבו על אנשים שעומדים אחד אחרי השני.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_t_band_p2",
@@ -810,7 +857,8 @@
       "feedback_try": "She refused the boxes: היא אמרה לא לקופסאות. refused פירושו said no.",
       "can_do": "להבין את refused",
       "worked_method": "בדקו מה הדמות עשתה עם הדבר שבמשפט.\nנירה לא לקחה את הקופסאות, כלומר אמרה להן לא.\nהתשובה: said no.",
-      "hint": "refused הוא ההפך מ agreed."
+      "hint": "refused הוא ההפך מ agreed.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_rev2_learn",
@@ -824,7 +872,8 @@
         "t_infer",
         "t_band"
       ],
-      "can_do": "לחזור על פרט, הסקה ומילים מהקטע"
+      "can_do": "לחזור על פרט, הסקה ומילים מהקטע",
+      "tile_role": "explanation"
     },
     {
       "id": "e_rev2_q",
@@ -859,7 +908,8 @@
       "feedback_try": "stalls ריקים שמוכרים בהם פירות הם tables where people sell.",
       "can_do": "להבין מילה מהקטע בלי רמז",
       "worked_method": "חזרו לשיטה: פירוש של מילה בודקים לפי מה שקורה סביבה בקטע.\nב stalls מוכרים פירות ויש לידם תור, לכן אלה מקומות מכירה.\nהתשובה: tables where people sell.",
-      "hint": "בשוק, איפה המוכרים עומדים?"
+      "hint": "בשוק, איפה המוכרים עומדים?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "e_final_check",
@@ -889,7 +939,8 @@
       "feedback_try": "האולם נקי, אבל רחוק ויקר וקונים מפסיקים לבוא. לכן A clean hall can lose its buyers.",
       "can_do": "לזהות את הטענה של קטע שלם",
       "worked_method": "הנקודה של הכותב היא המסקנה שכל הקטע מוביל אליה, בעיקר בסופו.\nהאולם נקי, אבל הקונים מפסיקים לבוא. האוטובוס והפלסטיק הם רק דוגמאות.\nהתשובה: A clean hall can lose its buyers.",
-      "hint": "מה הכותב רוצה שנבין על המעבר לאולם?"
+      "hint": "מה הכותב רוצה שנבין על המעבר לאולם?",
+      "tile_role": "quick_check"
     },
     {
       "id": "e_celebrate",

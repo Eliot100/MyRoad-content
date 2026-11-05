@@ -36,7 +36,8 @@
         "ex_t_mix_learn_ex3",
         "ex_t_mix_idea",
         "ex_t_mix_vocab"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_write",
@@ -52,7 +53,8 @@
         "ex_t_write_learn_ex3",
         "ex_t_write_shape",
         "ex_t_write_chk"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_oral",
@@ -67,7 +69,8 @@
         "ex_t_oral_learn_ex2",
         "ex_t_oral_learn_ex3",
         "ex_t_oral_say"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_review_1",
@@ -79,7 +82,8 @@
       "node_ids": [
         "ex_rev1_learn",
         "ex_rev1_q"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_read2",
@@ -95,7 +99,8 @@
         "ex_t_read2_learn_ex3",
         "ex_t_read2_p1",
         "ex_t_read2_p2"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_write2",
@@ -111,7 +116,8 @@
         "ex_t_write2_learn_ex3",
         "ex_t_write2_p1",
         "ex_t_write2_p2"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_last",
@@ -127,7 +133,8 @@
         "ex_t_last_learn_ex3",
         "ex_t_last_p1",
         "ex_t_last_chk"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_review_2",
@@ -139,7 +146,8 @@
       "node_ids": [
         "ex_rev2_learn",
         "ex_rev2_q"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "sim_1",
@@ -171,7 +179,8 @@
         "sim1_18",
         "sim1_19",
         "sim1_20"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "sim_2",
@@ -203,7 +212,8 @@
         "sim2_18",
         "sim2_19",
         "sim2_20"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_end",
@@ -215,7 +225,8 @@
       "node_ids": [
         "ex_final_check",
         "ex_celebrate"
-      ]
+      ],
+      "level": 3
     }
   ],
   "nodes": [
@@ -226,7 +237,8 @@
       "title": "קריאה מעורבת",
       "body_he": "אותן שאלות כמו בשאלונים, על קטע שכבר מהסוג המוכר.",
       "body_content": "When a town moves its market from the square to a closed hall, it solves the rain and creates a new problem. People who came for tomatoes now walk past shops that sell the same tomatoes in plastic boxes at a higher price. The hall is clean. It is also far from the bus, so older buyers stop coming. A reporter spent three Saturdays there. She counted empty stalls before nine and a queue at the one stall that still sold loose fruit. The owner, Nira, refused the plastic boxes. She said her customers know how to choose a peach. The council calls the hall a success because the rent is paid. Nira calls it a room that forgot the street.",
-      "can_do": "לענות על שאלות קריאה כמו בשאלון"
+      "can_do": "לענות על שאלות קריאה כמו בשאלון",
+      "tile_role": "explanation"
     },
     {
       "id": "ex_t_mix_learn_ex1",
@@ -235,7 +247,8 @@
       "title": "דוגמה: רעיון בקריאה מעורבת",
       "body_he": "בבחינה אותן שאלות כמו בתרגול: קודם הרעיון, אחר כך הפרט.",
       "body_content": "A town moved its night desk behind a gate. Service got drier and safer, and fewer walk-ins came after eight.",
-      "can_do": "דוגמה: רעיון בקריאה מעורבת"
+      "can_do": "דוגמה: רעיון בקריאה מעורבת",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_mix_learn_ex2",
@@ -244,7 +257,8 @@
       "title": "דוגמה: מילה מההקשר",
       "body_he": "מילה לא מוכרת מבינים מהמשפט סביב. לא עוצרים את כל הקריאה.",
       "body_content": "Walk-ins fell after eight because the gate stayed locked to anyone without a ticket.",
-      "can_do": "דוגמה: מילה מההקשר"
+      "can_do": "דוגמה: מילה מההקשר",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_mix_learn_ex3",
@@ -253,7 +267,8 @@
       "title": "דוגמה: ייחוס קצר",
       "body_he": "it או they מצביעים אחורה לשם שכבר הופיע בקטע הבחינה.",
       "body_content": "The gate stayed locked. It kept the queue short for people with tickets.",
-      "can_do": "דוגמה: ייחוס קצר"
+      "can_do": "דוגמה: ייחוס קצר",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_mix_idea",
@@ -283,7 +298,8 @@
       "feedback_try": "המועצה מרוצה כי שכר הדירה משולם, אבל הקונים המבוגרים מפסיקים לבוא. לכן Moving the market helps the rent and hurts the buyers.",
       "can_do": "לזהות את הרעיון בקטע של בחינה",
       "worked_method": "הרעיון המרכזי מכסה את כל הקטע, כולל הצד הטוב והצד הרע של השינוי.\nמצד אחד המועצה מקבלת את שכר הדירה. מצד שני הקונים המבוגרים כבר לא מגיעים. גשם ופלסטיק הם רק פרטים.\nהתשובה: Moving the market helps the rent and hurts the buyers.",
-      "hint": "מה המעבר נותן, ומה הוא לוקח?"
+      "hint": "מה המעבר נותן, ומה הוא לוקח?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ex_t_mix_vocab",
@@ -313,7 +329,8 @@
       "feedback_try": "at a higher price פירושו במחיר גבוה יותר, כלומר it costs more.",
       "can_do": "להבין צירוף כמו higher price",
       "worked_method": "פרקו את הצירוף למילים: higher פירושו גבוה יותר, ו price פירושו מחיר.\nמחיר גבוה יותר פירושו שצריך לשלם יותר.\nהתשובה: it costs more.",
-      "hint": "higher פירושו גבוה יותר."
+      "hint": "higher פירושו גבוה יותר.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ex_t_write_learn",
@@ -322,7 +339,8 @@
       "title": "חיבור",
       "body_he": "פתחו בדעה, תנו סיבה מהקטע, וסיימו במשפט אחד. 120 עד 140 מילים כשזה חיבור מלא. כאן בודקים את הצורה.",
       "body_content": "In my opinion, the stall should stay.",
-      "can_do": "לבנות פסקה לפי המחוון"
+      "can_do": "לבנות פסקה לפי המחוון",
+      "tile_role": "explanation"
     },
     {
       "id": "ex_t_write_learn_ex1",
@@ -331,7 +349,8 @@
       "title": "דוגמה: פתיחה בדעה",
       "body_he": "פותחים בדעה, לא בBecause, גם בחיבור הבחינה.",
       "body_content": "In my opinion, night desks should stay open to walk-ins at least until nine.",
-      "can_do": "דוגמה: פתיחה בדעה"
+      "can_do": "דוגמה: פתיחה בדעה",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_write_learn_ex2",
@@ -340,7 +359,8 @@
       "title": "דוגמה: סיבה מהקטע",
       "body_he": "סיבה אחת לפחות נשענת על עובדה מהקטע שקראתם.",
       "body_content": "The text shows walk-ins fell when the gate locked at eight.",
-      "can_do": "דוגמה: סיבה מהקטע"
+      "can_do": "דוגמה: סיבה מהקטע",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_write_learn_ex3",
@@ -349,7 +369,8 @@
       "title": "דוגמה: סיום אחד",
       "body_he": "סוגרים במשפט אחד שחוזר לדעה בלי להעתיק את הפתיחה.",
       "body_content": "For that reason, a later lock would serve more adults who finish work late.",
-      "can_do": "דוגמה: סיום אחד"
+      "can_do": "דוגמה: סיום אחד",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_write_shape",
@@ -379,7 +400,8 @@
       "feedback_try": "Opinion, one reason from the text, and a closing sentence הם שלושת החלקים של חיבור.",
       "can_do": "לזהות פסקה עם דעה, נימוק וסיום",
       "worked_method": "פסקה שמתאימה למחוון בנויה מדעה, נימוק מהקטע ומשפט סיום.\nרשימת מחירים ו Because because חסרות דעה ונימוק.\nהתשובה: Opinion, one reason from the text, and a closing sentence.",
-      "hint": "המחוון מבקש דעה, נימוק וסיום."
+      "hint": "המחוון מבקש דעה, נימוק וסיום.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ex_t_write_chk",
@@ -409,7 +431,8 @@
       "feedback_try": "בתשובת קריאה כתיב לבד לא מוריד את נקודות הקריאה. לכן התשובה הראשונה.",
       "can_do": "לדעת מתי כתיב מוריד נקודות",
       "worked_method": "בתשובת קריאה בודקים הבנה. טעות כתיב לבד לא מורידה את נקודות הקריאה.\nאין כלל שטעות אחת מאפסת את המבחן, ובחיבור הדקדוק כן נבדק.\nהתשובה: Spelling alone does not remove the reading points.",
-      "hint": "בשאלת קריאה בודקים אם הבנתם את הקטע."
+      "hint": "בשאלת קריאה בודקים אם הבנתם את הקטע.",
+      "tile_role": "quick_check"
     },
     {
       "id": "ex_t_oral_learn",
@@ -418,7 +441,8 @@
       "title": "דיבור אחרון",
       "body_he": "תגובה אישית בלי לקרוא מהדף.",
       "body_content": "I agree with Nira because customers should choose the fruit.",
-      "can_do": "להגיב בעל פה בלי לקרוא מהדף"
+      "can_do": "להגיב בעל פה בלי לקרוא מהדף",
+      "tile_role": "explanation"
     },
     {
       "id": "ex_t_oral_learn_ex1",
@@ -427,7 +451,8 @@
       "title": "דוגמה: תגובה בלי דף",
       "body_he": "אומרים תגובה אישית קצרה בלי לקרוא מהדף.",
       "body_content": "I would feel shut out if a desk locked while I was still on the bus.",
-      "can_do": "דוגמה: תגובה בלי דף"
+      "can_do": "דוגמה: תגובה בלי דף",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_oral_learn_ex2",
@@ -436,7 +461,8 @@
       "title": "דוגמה: סיבה קצרה",
       "body_he": "מוסיפים סיבה אחת ברורה מהחוויה או מהקטע.",
       "body_content": "Many adults finish shifts after eight and still need a short answer at the desk.",
-      "can_do": "דוגמה: סיבה קצרה"
+      "can_do": "דוגמה: סיבה קצרה",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_oral_learn_ex3",
@@ -445,7 +471,8 @@
       "title": "דוגמה: קישור לטקסט",
       "body_he": "משפט אחד שמזכיר פרט מהקטע בלי לצטט פסקה שלמה.",
       "body_content": "The locked gate in the passage is the detail I would name first.",
-      "can_do": "דוגמה: קישור לטקסט"
+      "can_do": "דוגמה: קישור לטקסט",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_oral_say",
@@ -455,7 +482,8 @@
       "body_he": "אמרו את עמדתכם וסיבה אחת.",
       "body_content": "I agree with Nira because customers should choose the fruit.",
       "speak_text": "I agree with Nira because customers should choose the fruit.",
-      "can_do": "להגיד עמדה וסיבה אחת"
+      "can_do": "להגיד עמדה וסיבה אחת",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ex_rev1_learn",
@@ -469,7 +497,8 @@
         "t_write",
         "t_oral"
       ],
-      "can_do": "לחזור על קריאה, חיבור ודיבור"
+      "can_do": "לחזור על קריאה, חיבור ודיבור",
+      "tile_role": "explanation"
     },
     {
       "id": "ex_rev1_q",
@@ -504,7 +533,8 @@
       "feedback_try": "דעה, סיבה ומשפט סיום: Opinion, a reason, a closing sentence.",
       "can_do": "לזהות מבנה של חיבור בלי רמז",
       "worked_method": "חזרו על המבנה: דעה, נימוק ומשפט סיום, כל אחד משפט שלם.\nרק האפשרות הראשונה מונה את שלושת החלקים.\nהתשובה: Opinion, a reason, a closing sentence.",
-      "hint": "המחוון מבקש דעה, נימוק וסיום."
+      "hint": "המחוון מבקש דעה, נימוק וסיום.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ex_t_read2_learn",
@@ -513,7 +543,8 @@
       "title": "הסקה בבחינה",
       "body_he": "בבחינה ההסקה עדיין חייבת להישען על הקטע.",
       "body_content": "Cities tell young people to learn a trade and then act surprised when those people leave. A trade needs tools, a first client, and a room that does not cost more than the wage. In many towns the room is the part that fails. A carpenter can borrow tools. He cannot borrow a rent that doubles in a year. Some councils answer with a shared workshop: one address, many benches, a lease the city holds. The idea is not charity. The city keeps a worker who would otherwise take the skill to another place. Critics say a shared bench teaches people to wait for help. The record in the towns that tried it is plainer. The workshops that lasted charged a small fee, kept a waiting list, and asked every member to teach one hour a month. The workshops that were free and had no duty closed within a year. A skill grows when the room stays, and the room stays when someone besides the learner pays attention.",
-      "can_do": "להסיק מסקנה שנשענת על הקטע"
+      "can_do": "להסיק מסקנה שנשענת על הקטע",
+      "tile_role": "explanation"
     },
     {
       "id": "ex_t_read2_learn_ex1",
@@ -522,7 +553,8 @@
       "title": "דוגמה: הסקה מהקטע",
       "body_he": "גם בבחינה ההסקה נשענת על שתי עובדות כתובות, לא על ניחוש.",
       "body_content": "The gate locks at eight. Walk-ins fall. So fewer late workers get help.",
-      "can_do": "דוגמה: הסקה מהקטע"
+      "can_do": "דוגמה: הסקה מהקטע",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_read2_learn_ex2",
@@ -531,7 +563,8 @@
       "title": "דוגמה: לא להוסיף עולם",
       "body_he": "לא מוסיפים סיפור שלא כתוב. נשארים בשורות שבקטע.",
       "body_content": "Keep the inference inside the passage lines. Do not invent a second town.",
-      "can_do": "דוגמה: לא להוסיף עולם"
+      "can_do": "דוגמה: לא להוסיף עולם",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_read2_learn_ex3",
@@ -540,7 +573,8 @@
       "title": "דוגמה: בדיקת תשובה",
       "body_he": "אחרי בחירה, מוצאים את השורות שתומכות בה. בלי שורות, מחליפים תשובה.",
       "body_content": "After you pick an answer, point to the supporting lines. If none fit, change it.",
-      "can_do": "דוגמה: בדיקת תשובה"
+      "can_do": "דוגמה: בדיקת תשובה",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_read2_p1",
@@ -570,7 +604,8 @@
       "feedback_try": "כתוב שהסדנאות החינמיות בלי חובה נסגרו תוך שנה. לכן A room with no duty did not last.",
       "can_do": "להסיק מסקנה מקטע של בחינה",
       "worked_method": "מסקנה נשענת רק על מה שכתוב בקטע. פסלו תשובות שמוסיפות דברים.\nבקטע החדרים החינמיים בלי חובה נסגרו. לא כתוב שכל נגר עוזב, ושכר הדירה דווקא משתנה.\nהתשובה: A room with no duty did not last.",
-      "hint": "חפשו בקטע מה קרה לחדר בלי חובה."
+      "hint": "חפשו בקטע מה קרה לחדר בלי חובה.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ex_t_read2_p2",
@@ -600,7 +635,8 @@
       "feedback_try": "the room stays when someone besides the learner pays attention: החדר נשאר כשמישהו שם לב. זו המטרה.",
       "can_do": "להבין את המטרה של משפט סיום",
       "worked_method": "המשפט האחרון בקטע מסכם לרוב את הטענה. קראו אותו ושאלו מה הוא אומר בקצרה.\nהוא אומר שהחדר נשאר כשמישהו מלבד הלומד שם לב.\nהתשובה: to say the room stays when someone pays attention.",
-      "hint": "קראו את המשפט האחרון. מה הוא אומר על החדר?"
+      "hint": "קראו את המשפט האחרון. מה הוא אומר על החדר?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ex_t_write2_learn",
@@ -609,7 +645,8 @@
       "title": "אורך ודיוק",
       "body_he": "בחיבור הדיוק נספר. בקריאה כתיב לבדו לא מוריד. האורך הוא סעיף נפרד.",
       "body_content": "Accuracy counts in the essay. Spelling in a reading answer does not.",
-      "can_do": "לדעת איפה נספרים אורך ודיוק"
+      "can_do": "לדעת איפה נספרים אורך ודיוק",
+      "tile_role": "explanation"
     },
     {
       "id": "ex_t_write2_learn_ex1",
@@ -618,7 +655,8 @@
       "title": "דוגמה: דיוק בחיבור",
       "body_he": "בחיבור הדיוק נספר. בקריאת תשובה קצרה כתיב לבדו לא מוריד.",
       "body_content": "Essay accuracy counts. In a short reading answer, spelling alone does not remove the reading points.",
-      "can_do": "דוגמה: דיוק בחיבור"
+      "can_do": "דוגמה: דיוק בחיבור",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_write2_learn_ex2",
@@ -627,7 +665,8 @@
       "title": "דוגמה: אורך לחוד",
       "body_he": "אורך החיבור הוא סעיף נפרד במחוון, לא תחליף לתוכן.",
       "body_content": "Length is its own rubric line. It does not replace the content score.",
-      "can_do": "דוגמה: אורך לחוד"
+      "can_do": "דוגמה: אורך לחוד",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_write2_learn_ex3",
@@ -636,7 +675,8 @@
       "title": "דוגמה: משפט מדויק",
       "body_he": "משפט אחד מדויק עדיף על שני משפטים עם אותה טעות חוזרת.",
       "body_content": "One accurate sentence beats two sentences that repeat the same error.",
-      "can_do": "דוגמה: משפט מדויק"
+      "can_do": "דוגמה: משפט מדויק",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_write2_p1",
@@ -666,7 +706,8 @@
       "feedback_try": "הדיוק נספר בחיבור. בתשובת קריאה קצרה הכתיב לבד לא מוריד.",
       "can_do": "לדעת שהדיוק נספר בחיבור",
       "worked_method": "דיוק בכתיבה נספר בחיבור. בתשובת קריאה קצרה בודקים בעיקר הבנה.\nלכן הדיוק לא נספר רק בתשובה של מילה אחת, וגם לא נעלם.\nהתשובה: in the essay.",
-      "hint": "איפה בודקים איך אתם כותבים, ולא רק מה הבנתם?"
+      "hint": "איפה בודקים איך אתם כותבים, ולא רק מה הבנתם?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ex_t_write2_p2",
@@ -696,7 +737,8 @@
       "feedback_try": "140 הוא הקצה העליון של הטווח, לכן החיבור בתוך הטווח.",
       "can_do": "לבדוק אם חיבור בטווח המילים",
       "worked_method": "טווח כולל את שני הקצוות. 120 עד 140 כולל גם את 120 וגם את 140.\n140 הוא הקצה העליון, לכן הוא בתוך הטווח, לא ארוך מדי ולא קצר מדי.\nהתשובה: It is inside the range.",
-      "hint": "האם 140 נמצא בין 120 ל 140?"
+      "hint": "האם 140 נמצא בין 120 ל 140?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ex_t_last_learn",
@@ -705,7 +747,8 @@
       "title": "משפט אחרון",
       "body_he": "סוגרים במשפט אחד שאפשר לומר גם בעל פה.",
       "body_content": "I would keep the stall, because the buyers know the fruit.",
-      "can_do": "לסגור במשפט אחד שאפשר גם להגיד"
+      "can_do": "לסגור במשפט אחד שאפשר גם להגיד",
+      "tile_role": "explanation"
     },
     {
       "id": "ex_t_last_learn_ex1",
@@ -714,7 +757,8 @@
       "title": "דוגמה: משפט לסיום דרך",
       "body_he": "סוגרים במשפט אחד שאפשר לומר גם בעל פה.",
       "body_content": "I leave this road able to open with an opinion, support it from a text, and close in one line.",
-      "can_do": "דוגמה: משפט לסיום דרך"
+      "can_do": "דוגמה: משפט לסיום דרך",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_last_learn_ex2",
@@ -723,7 +767,8 @@
       "title": "דוגמה: בלי רשימה",
       "body_he": "לא סופרים נקודות. אומרים משפט שלם.",
       "body_content": "Say one full sentence. Do not list bullet points at the end.",
-      "can_do": "דוגמה: בלי רשימה"
+      "can_do": "דוגמה: בלי רשימה",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_last_learn_ex3",
@@ -732,7 +777,8 @@
       "title": "דוגמה: קשר לבחינה",
       "body_he": "המשפט האחרון יכול להזכיר מה תעשו בבחינה האמיתית.",
       "body_content": "In the real exam I will read once, mark line support, then write.",
-      "can_do": "דוגמה: קשר לבחינה"
+      "can_do": "דוגמה: קשר לבחינה",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_t_last_p1",
@@ -762,7 +808,8 @@
       "feedback_try": "I would keep the stall, because the buyers know the fruit הוא משפט שלם עם דעה וסיבה.",
       "can_do": "לבחור משפט שסוגר עם סיבה",
       "worked_method": "משפט סוגר אומר את הדעה ונימוק קצר במשפט שלם אחד.\nBecause stall ו Keep אינם משפטים שלמים.\nהתשובה: I would keep the stall, because the buyers know the fruit.",
-      "hint": "משפט סוגר הוא משפט שלם עם דעה וסיבה."
+      "hint": "משפט סוגר הוא משפט שלם עם דעה וסיבה.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ex_t_last_chk",
@@ -792,7 +839,8 @@
       "feedback_try": "הדרך הזו מערבבת קריאה, כתיבה ודיבור ולא מלמדת נושא חדש. האותיות היו בדרך הראשונה.",
       "can_do": "לדעת מה הבחינה בודקת",
       "worked_method": "הדרך האחרונה היא חזרה לקראת המבחן: היא מערבבת את מה שלמדתם.\nהאותיות נלמדו בדרך הראשונה, והמבדק עדיין קיים.\nהתשובה: It mixes reading, writing, and speaking. It teaches nothing new.",
-      "hint": "הדרך הזאת היא חזרה לפני המבחן."
+      "hint": "הדרך הזאת היא חזרה לפני המבחן.",
+      "tile_role": "quick_check"
     },
     {
       "id": "ex_rev2_learn",
@@ -806,7 +854,8 @@
         "t_write2",
         "t_last"
       ],
-      "can_do": "לחזור על הסקה, אורך ודיוק"
+      "can_do": "לחזור על הסקה, אורך ודיוק",
+      "tile_role": "explanation"
     },
     {
       "id": "ex_rev2_q",
@@ -841,7 +890,8 @@
       "feedback_try": "higher price פירושו מחיר גבוה יותר: it costs more.",
       "can_do": "להבין צירוף מהקטע בלי רמז",
       "worked_method": "חזרו לשיטה: פרקו צירוף למילים שלו ובדקו מה הן אומרות יחד.\nhigher price הוא מחיר גבוה יותר, לא קרוב ולא חינם.\nהתשובה: it costs more.",
-      "hint": "higher פירושו גבוה יותר."
+      "hint": "higher פירושו גבוה יותר.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ex_final_check",
@@ -871,7 +921,8 @@
       "feedback_try": "בתשובת קריאה כתיב לבד לא מוריד נקודות. לכן Spelling alone does not remove the reading points.",
       "can_do": "לדעת איך בודקים כתיב בקריאה",
       "worked_method": "זכרו מה נבדק בכל חלק: בקריאה הבנה, ובחיבור גם דיוק.\nלכן בתשובת קריאה כתיב לבד לא מוריד נקודות, ובחיבור הדיוק לא מתעלמים ממנו.\nהתשובה: Spelling alone does not remove the reading points.",
-      "hint": "בשאלת קריאה בודקים אם הבנתם את הקטע."
+      "hint": "בשאלת קריאה בודקים אם הבנתם את הקטע.",
+      "tile_role": "quick_check"
     },
     {
       "id": "sim_1_ps_01",
@@ -879,7 +930,8 @@
       "kind": "understanding",
       "title": "Remote Work After the Pandemic",
       "body_he": "קראו את הקטע.",
-      "body_content": "Many companies that once required daily office attendance now allow employees to work from home several days a week. This change began during the pandemic but has continued because both workers and managers discovered advantages. Employees save time and money on commuting and can better balance family responsibilities. Companies reduce the cost of large office spaces. Productivity has not fallen in most studies. In fact, some teams report higher output when people can concentrate without constant interruptions. However, remote work is not without problems. Some workers feel isolated and miss informal conversations that used to happen in the office. Managers worry that younger employees receive less guidance when they are not physically present. Technical issues, such as unreliable internet connections, can also slow progress. To address these concerns, many organizations have introduced hybrid schedules. Staff come to the office two or three days a week for meetings and collaboration, then work remotely on other days. Clear written guidelines help everyone understand expectations about availability and response times. Digital tools for video calls and shared documents make communication easier than it was a decade ago. Still, success depends on trust. When managers focus on results rather than hours spent online, employees tend to perform well. Surveys show that most adults prefer some flexibility and would consider leaving a job that demanded five full days in the office. The shift is unlikely to reverse completely. Companies that adapt their culture to support both independent work and occasional in-person contact are more likely to attract and keep skilled staff."
+      "body_content": "Many companies that once required daily office attendance now allow employees to work from home several days a week. This change began during the pandemic but has continued because both workers and managers discovered advantages. Employees save time and money on commuting and can better balance family responsibilities. Companies reduce the cost of large office spaces. Productivity has not fallen in most studies. In fact, some teams report higher output when people can concentrate without constant interruptions. However, remote work is not without problems. Some workers feel isolated and miss informal conversations that used to happen in the office. Managers worry that younger employees receive less guidance when they are not physically present. Technical issues, such as unreliable internet connections, can also slow progress. To address these concerns, many organizations have introduced hybrid schedules. Staff come to the office two or three days a week for meetings and collaboration, then work remotely on other days. Clear written guidelines help everyone understand expectations about availability and response times. Digital tools for video calls and shared documents make communication easier than it was a decade ago. Still, success depends on trust. When managers focus on results rather than hours spent online, employees tend to perform well. Surveys show that most adults prefer some flexibility and would consider leaving a job that demanded five full days in the office. The shift is unlikely to reverse completely. Companies that adapt their culture to support both independent work and occasional in-person contact are more likely to attract and keep skilled staff.",
+      "tile_role": "explanation"
     },
     {
       "id": "sim_1_ps_02",
@@ -887,7 +939,8 @@
       "kind": "understanding",
       "title": "Sleep and Adult Health",
       "body_he": "קראו את הקטע.",
-      "body_content": "Adults who regularly sleep less than seven hours a night face higher risks of several health problems. Doctors have long known that insufficient sleep raises the chance of heart disease, high blood pressure, and type 2 diabetes. Recent research also links short sleep to weaker immune responses and slower recovery from illness. Many people believe they can catch up on weekends, yet studies show that irregular sleep patterns still harm the body. The brain needs consistent rest to clear waste products that accumulate during waking hours. Without enough sleep, concentration, memory, and decision-making suffer. Drivers who are tired cause accidents at rates similar to those who have been drinking. Shift workers and parents of young children often struggle to maintain regular hours. Screens in the bedroom make the problem worse because blue light delays the release of melatonin, the hormone that signals sleep. Experts recommend a fixed bedtime, a cool dark room, and no caffeine after mid-afternoon. Exercise helps, but intense workouts close to bedtime can delay sleep. Some adults turn to sleep medication, yet long-term use can create dependence and does not restore natural sleep quality. Simple changes, such as reading a book instead of scrolling on a phone, often prove more effective. Employers who allow flexible start times report fewer sick days among staff. Protecting sleep is not a luxury. It is a basic requirement for physical and mental performance in daily life."
+      "body_content": "Adults who regularly sleep less than seven hours a night face higher risks of several health problems. Doctors have long known that insufficient sleep raises the chance of heart disease, high blood pressure, and type 2 diabetes. Recent research also links short sleep to weaker immune responses and slower recovery from illness. Many people believe they can catch up on weekends, yet studies show that irregular sleep patterns still harm the body. The brain needs consistent rest to clear waste products that accumulate during waking hours. Without enough sleep, concentration, memory, and decision-making suffer. Drivers who are tired cause accidents at rates similar to those who have been drinking. Shift workers and parents of young children often struggle to maintain regular hours. Screens in the bedroom make the problem worse because blue light delays the release of melatonin, the hormone that signals sleep. Experts recommend a fixed bedtime, a cool dark room, and no caffeine after mid-afternoon. Exercise helps, but intense workouts close to bedtime can delay sleep. Some adults turn to sleep medication, yet long-term use can create dependence and does not restore natural sleep quality. Simple changes, such as reading a book instead of scrolling on a phone, often prove more effective. Employers who allow flexible start times report fewer sick days among staff. Protecting sleep is not a luxury. It is a basic requirement for physical and mental performance in daily life.",
+      "tile_role": "explanation"
     },
     {
       "id": "sim1_01",
@@ -922,7 +975,8 @@
       "can_do": "למצוא מידע מפורש על שינוי בפריון",
       "hint": "חפשו את המילה productivity בקטע.",
       "area": "reading",
-      "difficulty": -0.5
+      "difficulty": -0.5,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_02",
@@ -957,7 +1011,8 @@
       "can_do": "לזהות חשש ספציפי לגבי עובדים צעירים",
       "hint": "חפשו younger employees בקטע.",
       "area": "reading",
-      "difficulty": 0.2
+      "difficulty": 0.2,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_03",
@@ -992,7 +1047,8 @@
       "can_do": "להבין את מטרת המודל ההיברידי",
       "hint": "חפשו hybrid schedules.",
       "area": "reading",
-      "difficulty": 0.0
+      "difficulty": 0.0,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_04",
@@ -1027,7 +1083,8 @@
       "can_do": "לזהות תנאי להצלחה בעבודה מרחוק",
       "hint": "חפשו את המילה trust.",
       "area": "reading",
-      "difficulty": 0.8
+      "difficulty": 0.8,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_05",
@@ -1062,7 +1119,8 @@
       "can_do": "לחלץ ממצא מסקרים המוזכרים בקטע",
       "hint": "חפשו Surveys show.",
       "area": "reading",
-      "difficulty": 1.2
+      "difficulty": 1.2,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_06",
@@ -1097,7 +1155,8 @@
       "can_do": "לזהות סיכון בריאותי מפורש",
       "hint": "חפשו less than seven hours.",
       "area": "reading",
-      "difficulty": -1.0
+      "difficulty": -1.0,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_07",
@@ -1132,7 +1191,8 @@
       "can_do": "להבין מגבלות של השלמת שינה",
       "hint": "חפשו weekends בקטע.",
       "area": "reading",
-      "difficulty": 0.5
+      "difficulty": 0.5,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_08",
@@ -1167,7 +1227,8 @@
       "can_do": "להבין השפעה של אור כחול על שינה",
       "hint": "חפשו blue light.",
       "area": "reading",
-      "difficulty": 0.3
+      "difficulty": 0.3,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_09",
@@ -1202,7 +1263,8 @@
       "can_do": "לזהות המלצה מעשית לשיפור שינה",
       "hint": "חפשו reading a book.",
       "area": "reading",
-      "difficulty": -0.2
+      "difficulty": -0.2,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_10",
@@ -1237,7 +1299,8 @@
       "can_do": "לחלץ תוצאה של מדיניות מעסיקים",
       "hint": "חפשו flexible start times.",
       "area": "reading",
-      "difficulty": 1.5
+      "difficulty": 1.5,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_11",
@@ -1272,7 +1335,8 @@
       "can_do": "להבין מילה בהקשר",
       "hint": "חשבו מה מונע concentrate.",
       "area": "vocabulary",
-      "difficulty": -0.8
+      "difficulty": -0.8,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_12",
@@ -1307,7 +1371,8 @@
       "can_do": "להבין מונח מורכב מהקשר",
       "hint": "קראו את המשפט שאחרי hybrid.",
       "area": "vocabulary",
-      "difficulty": 0.4
+      "difficulty": 0.4,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_13",
@@ -1342,7 +1407,8 @@
       "can_do": "לזהות הגדרה מפורשת של מונח",
       "hint": "חפשו the hormone that.",
       "area": "vocabulary",
-      "difficulty": 0.1
+      "difficulty": 0.1,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_14",
@@ -1377,7 +1443,8 @@
       "can_do": "להבין מילה פיננסית בהקשר",
       "hint": "חשבו על emergency fund.",
       "area": "vocabulary",
-      "difficulty": 1.0
+      "difficulty": 1.0,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_15",
@@ -1412,7 +1479,8 @@
       "can_do": "להתאים פועל לנושא ברבים",
       "hint": "Companies הוא רבים.",
       "area": "grammar",
-      "difficulty": -0.3
+      "difficulty": -0.3,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_16",
@@ -1447,7 +1515,8 @@
       "can_do": "לבחור מילת קישור לניגוד",
       "hint": "יש כאן ניגוד.",
       "area": "grammar",
-      "difficulty": 0.6
+      "difficulty": 0.6,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_17",
@@ -1482,7 +1551,8 @@
       "can_do": "להשתמש בצורת פועל נכונה במשפט תנאי",
       "hint": "זהו כלל כללי, לא עבר.",
       "area": "grammar",
-      "difficulty": 0.9
+      "difficulty": 0.9,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_18",
@@ -1517,7 +1587,8 @@
       "can_do": "ליצור צורת השוואה נכונה",
       "hint": "יש than במשפט.",
       "area": "grammar",
-      "difficulty": 1.3
+      "difficulty": 1.3,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_19",
@@ -1552,7 +1623,8 @@
       "can_do": "לבחור פתיחה מתאימה לחיבור דעה",
       "hint": "חפשו משפט שמציג את הנושא בלי להיות אישי מדי.",
       "area": "writing",
-      "difficulty": 0.0
+      "difficulty": 0.0,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim1_20",
@@ -1587,7 +1659,8 @@
       "can_do": "לבחור משפט סיכום מתאים",
       "hint": "חפשו משפט שמסכם את הטיעון.",
       "area": "writing",
-      "difficulty": 0.7
+      "difficulty": 0.7,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim_2_ps_03",
@@ -1595,7 +1668,8 @@
       "kind": "understanding",
       "title": "Housing Costs in Growing Cities",
       "body_he": "קראו את הקטע.",
-      "body_content": "In many large cities, the price of buying or renting a home has risen faster than average wages. Young adults who finish their studies often find that even a modest apartment requires a large share of their monthly income. Long commutes from cheaper suburbs add time and transport costs. Some cities have responded by building more high-rise apartments and by changing zoning rules that once limited height and density. Others offer subsidies or low-interest loans to first-time buyers. Critics argue that new construction alone does not solve the problem if most new units remain expensive. They point to the need for stronger rent controls and more public housing. Supporters of market solutions claim that controls reduce the incentive to build and can lead to fewer available homes. Meanwhile, some residents leave the city center for smaller towns where remote work makes daily presence unnecessary. This movement has raised prices in previously affordable areas. Community groups in several cities organize shared housing or cooperative ownership models to keep costs lower. Local governments face pressure from both sides. Too little new building leaves prices high. Too rapid construction without accompanying schools, parks, and transport strains existing services. Finding a balance requires data on actual demand, clear planning rules, and cooperation between private builders and public authorities. Without such measures, many working adults will continue to spend a large portion of their earnings on housing."
+      "body_content": "In many large cities, the price of buying or renting a home has risen faster than average wages. Young adults who finish their studies often find that even a modest apartment requires a large share of their monthly income. Long commutes from cheaper suburbs add time and transport costs. Some cities have responded by building more high-rise apartments and by changing zoning rules that once limited height and density. Others offer subsidies or low-interest loans to first-time buyers. Critics argue that new construction alone does not solve the problem if most new units remain expensive. They point to the need for stronger rent controls and more public housing. Supporters of market solutions claim that controls reduce the incentive to build and can lead to fewer available homes. Meanwhile, some residents leave the city center for smaller towns where remote work makes daily presence unnecessary. This movement has raised prices in previously affordable areas. Community groups in several cities organize shared housing or cooperative ownership models to keep costs lower. Local governments face pressure from both sides. Too little new building leaves prices high. Too rapid construction without accompanying schools, parks, and transport strains existing services. Finding a balance requires data on actual demand, clear planning rules, and cooperation between private builders and public authorities. Without such measures, many working adults will continue to spend a large portion of their earnings on housing.",
+      "tile_role": "explanation"
     },
     {
       "id": "sim_2_ps_04",
@@ -1603,7 +1677,8 @@
       "kind": "understanding",
       "title": "Saving and Investing for the Future",
       "body_he": "קראו את הקטע.",
-      "body_content": "Most adults know they should save money, yet many find it difficult to put aside a regular amount. Unexpected expenses, rising prices, and the desire for immediate purchases compete with long-term goals. Financial advisers usually recommend an emergency fund covering three to six months of essential costs before any other investment. Once that buffer exists, people can consider longer-term options such as pension contributions or low-cost index funds. These funds track the overall market rather than trying to pick individual winning stocks. Historical data show that broad market returns have been positive over periods of ten years or more, although short-term losses remain possible. High fees charged by some managed funds reduce the final amount an investor keeps. Automatic transfers from a salary account into a separate savings or investment account help many people stay consistent. Interest rates on ordinary bank savings have been low in recent years, so money left only in a checking account loses purchasing power to inflation. Younger workers who start early benefit from compound growth even with modest monthly sums. Older adults closer to retirement may prefer safer assets and should review their risk tolerance carefully. Government tax incentives for retirement accounts encourage participation. Still, no strategy removes all risk. Understanding basic terms, reading clear fee information, and avoiding pressure from salespeople improve the chance of meeting future needs. Regular small actions matter more than occasional large deposits."
+      "body_content": "Most adults know they should save money, yet many find it difficult to put aside a regular amount. Unexpected expenses, rising prices, and the desire for immediate purchases compete with long-term goals. Financial advisers usually recommend an emergency fund covering three to six months of essential costs before any other investment. Once that buffer exists, people can consider longer-term options such as pension contributions or low-cost index funds. These funds track the overall market rather than trying to pick individual winning stocks. Historical data show that broad market returns have been positive over periods of ten years or more, although short-term losses remain possible. High fees charged by some managed funds reduce the final amount an investor keeps. Automatic transfers from a salary account into a separate savings or investment account help many people stay consistent. Interest rates on ordinary bank savings have been low in recent years, so money left only in a checking account loses purchasing power to inflation. Younger workers who start early benefit from compound growth even with modest monthly sums. Older adults closer to retirement may prefer safer assets and should review their risk tolerance carefully. Government tax incentives for retirement accounts encourage participation. Still, no strategy removes all risk. Understanding basic terms, reading clear fee information, and avoiding pressure from salespeople improve the chance of meeting future needs. Regular small actions matter more than occasional large deposits.",
+      "tile_role": "explanation"
     },
     {
       "id": "sim2_01",
@@ -1638,7 +1713,8 @@
       "can_do": "לחלץ השוואה מפורשת על מחירים",
       "hint": "חפשו risen faster.",
       "area": "reading",
-      "difficulty": -0.7
+      "difficulty": -0.7,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_02",
@@ -1673,7 +1749,8 @@
       "can_do": "להבחין בין עמדות שונות בקטע",
       "hint": "חפשו Supporters of market solutions.",
       "area": "reading",
-      "difficulty": 0.4
+      "difficulty": 0.4,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_03",
@@ -1708,7 +1785,8 @@
       "can_do": "לזהות תוצאה של תנועת אוכלוסייה",
       "hint": "חפשו previously affordable.",
       "area": "reading",
-      "difficulty": 0.1
+      "difficulty": 0.1,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_04",
@@ -1743,7 +1821,8 @@
       "can_do": "לחלץ תנאים לפתרון",
       "hint": "חפשו Finding a balance.",
       "area": "reading",
-      "difficulty": 1.1
+      "difficulty": 1.1,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_05",
@@ -1778,7 +1857,8 @@
       "can_do": "לזהות ביקורת מפורשת",
       "hint": "חפשו Critics argue.",
       "area": "reading",
-      "difficulty": 0.6
+      "difficulty": 0.6,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_06",
@@ -1813,7 +1893,8 @@
       "can_do": "לזהות המלצה ראשונית של יועצים",
       "hint": "חפשו emergency fund.",
       "area": "reading",
-      "difficulty": -1.2
+      "difficulty": -1.2,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_07",
@@ -1848,7 +1929,8 @@
       "can_do": "להבין מאפיין של סוג השקעה",
       "hint": "חפשו track the overall market.",
       "area": "reading",
-      "difficulty": 0.3
+      "difficulty": 0.3,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_08",
@@ -1883,7 +1965,8 @@
       "can_do": "להבין השפעת אינפלציה על חיסכון",
       "hint": "חפשו purchasing power.",
       "area": "reading",
-      "difficulty": 0.8
+      "difficulty": 0.8,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_09",
@@ -1918,7 +2001,8 @@
       "can_do": "לזהות קבוצה שנהנית מפעולה מוקדמת",
       "hint": "חפשו Younger workers.",
       "area": "reading",
-      "difficulty": 1.4
+      "difficulty": 1.4,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_10",
@@ -1953,7 +2037,8 @@
       "can_do": "לחלץ מסקנה מסכמת",
       "hint": "קראו את המשפט האחרון.",
       "area": "reading",
-      "difficulty": 0.2
+      "difficulty": 0.2,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_11",
@@ -1988,7 +2073,8 @@
       "can_do": "להבין מונח כלכלי בהקשר",
       "hint": "חשבו על עזרה לרוכשים.",
       "area": "vocabulary",
-      "difficulty": -0.4
+      "difficulty": -0.4,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_12",
@@ -2023,7 +2109,8 @@
       "can_do": "להבין מילה מופשטת בהקשר",
       "hint": "incentive קשור לסיבה לעשות.",
       "area": "vocabulary",
-      "difficulty": 0.7
+      "difficulty": 0.7,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_13",
@@ -2058,7 +2145,8 @@
       "can_do": "להבין מונח פיננסי",
       "hint": "חשבו על רווחים שמייצרים עוד רווחים.",
       "area": "vocabulary",
-      "difficulty": 1.2
+      "difficulty": 1.2,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_14",
@@ -2093,7 +2181,8 @@
       "can_do": "להבין מונח כלכלי בסיסי",
       "hint": "power כאן קשור ליכולת לקנות.",
       "area": "vocabulary",
-      "difficulty": 0.0
+      "difficulty": 0.0,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_15",
@@ -2128,7 +2217,8 @@
       "can_do": "ליצור משפט סביל נכון",
       "hint": "הדירות נבנו, לא בנו.",
       "area": "grammar",
-      "difficulty": -0.6
+      "difficulty": -0.6,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_16",
@@ -2163,7 +2253,8 @@
       "can_do": "לבחור מילת יחס נכונה בצירוף",
       "hint": "portion תמיד עם of.",
       "area": "grammar",
-      "difficulty": 0.5
+      "difficulty": 0.5,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_17",
@@ -2198,7 +2289,8 @@
       "can_do": "לבחור מודאל מתאים לעצה",
       "hint": "זו עצה, לא חובה מוחלטת.",
       "area": "grammar",
-      "difficulty": 1.0
+      "difficulty": 1.0,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_18",
@@ -2233,7 +2325,8 @@
       "can_do": "ליצור השוואה נכונה",
       "hint": "יש than במשפט.",
       "area": "grammar",
-      "difficulty": 1.6
+      "difficulty": 1.6,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_19",
@@ -2268,7 +2361,8 @@
       "can_do": "לבחור משפט מקשר מתאים",
       "hint": "המשפט צריך לחבר בין שני הנושאים.",
       "area": "writing",
-      "difficulty": 0.4
+      "difficulty": 0.4,
+      "tile_role": "quick_check"
     },
     {
       "id": "sim2_20",
@@ -2303,7 +2397,8 @@
       "can_do": "לבחור סיום מתאים לחיבור",
       "hint": "חפשו משפט שמסכם את היתרון של התחלה מוקדמת.",
       "area": "writing",
-      "difficulty": 1.1
+      "difficulty": 1.1,
+      "tile_role": "quick_check"
     },
     {
       "id": "ex_celebrate",

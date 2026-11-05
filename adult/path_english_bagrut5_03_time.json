@@ -42,7 +42,8 @@
         "xp_03_t_past_04",
         "xp_03_t_past_05",
         "xp_03_t_past_06"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_fut",
@@ -64,7 +65,8 @@
         "xp_03_t_fut_04",
         "xp_03_t_fut_05",
         "xp_03_t_fut_06"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_story",
@@ -86,7 +88,8 @@
         "xp_03_t_story_04",
         "xp_03_t_story_05",
         "xp_03_t_story_06"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_review_1",
@@ -98,7 +101,8 @@
       "node_ids": [
         "tm_rev1_learn",
         "tm_rev1_q"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_irreg",
@@ -120,7 +124,8 @@
         "xp_03_t_irreg_05",
         "xp_03_t_irreg_06",
         "xp_03_t_irreg_01"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_ago",
@@ -142,7 +147,8 @@
         "xp_03_t_ago_04",
         "xp_03_t_ago_05",
         "xp_03_t_ago_06"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_who",
@@ -164,7 +170,8 @@
         "xp_03_t_who_04",
         "xp_03_t_who_05",
         "xp_03_t_who_06"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_review_2",
@@ -176,7 +183,8 @@
       "node_ids": [
         "tm_rev2_learn",
         "tm_rev2_q"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_end",
@@ -188,7 +196,8 @@
       "node_ids": [
         "tm_final_check",
         "tm_celebrate"
-      ]
+      ],
+      "level": 3
     }
   ],
   "nodes": [
@@ -199,7 +208,8 @@
       "title": "Past Simple",
       "body_he": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
       "body_content": "Yesterday I walked home.",
-      "can_do": "לספר מה קרה אתמול"
+      "can_do": "לספר מה קרה אתמול",
+      "tile_role": "explanation"
     },
     {
       "id": "tm_t_past_ex1",
@@ -208,7 +218,8 @@
       "title": "דוגמה: ed אחרי הפועל",
       "body_he": "זה קרה אתמול. מוסיפים ed לפועל. Yesterday she cooked dinner.",
       "body_content": "Yesterday she cooked dinner.",
-      "can_do": "להוסיף ed לפועל בעבר"
+      "can_do": "להוסיף ed לפועל בעבר",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_past_ex2",
@@ -217,7 +228,8 @@
       "title": "דוגמה: עבר עם last night",
       "body_he": "last night זה עבר. לכן played עם ed. We played cards last night.",
       "body_content": "We played cards last night.",
-      "can_do": "לזהות מילת זמן של עבר"
+      "can_do": "לזהות מילת זמן של עבר",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_past_ex3",
@@ -226,7 +238,8 @@
       "title": "דוגמה: טעות: הווה עם yesterday",
       "body_he": "טעות נפוצה: Yesterday he open the door. yesterday דורש עבר. נכון: Yesterday he opened the door.",
       "body_content": "Yesterday he opened the door.",
-      "can_do": "לתקן הווה לעבר אחרי yesterday"
+      "can_do": "לתקן הווה לעבר אחרי yesterday",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_past_p1",
@@ -256,7 +269,8 @@
       "feedback_try": "Yesterday היא עבר. send בעבר הוא sent: Yesterday he sent the letter.",
       "can_do": "לבחור פועל בעבר",
       "worked_method": "חפשו את מילת הזמן. yesterday היא עבר. יש פעלים שמשתנים בעבר, למשל buy נהיה bought.\nsend משתנה בעבר ל sent.\nהתשובה: sent.",
-      "hint": "Yesterday אומר עבר. מה צורת העבר של send?"
+      "hint": "Yesterday אומר עבר. מה צורת העבר של send?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "tm_t_past_p2",
@@ -286,7 +300,8 @@
       "feedback_try": "זה עבר, לכן did: She did not go.",
       "can_do": "לשלול בעבר עם did not",
       "worked_method": "שלילה בעבר: did not, ואחריו הפועל בלי שינוי. למשל We did not eat.\nכאן הפועל go נשאר כמו שהוא.\nהתשובה: did.",
-      "hint": "שלילה בעבר: מילת העזר של עבר ואחריה not."
+      "hint": "שלילה בעבר: מילת העזר של עבר ואחריה not.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_03_t_past_01",
@@ -316,7 +331,8 @@
       "feedback_try": "אתמול: פועל עם ed: Yesterday I walked home.",
       "worked_method": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
       "can_do": "להגיד walked",
-      "hint": "אתמול: ed."
+      "hint": "אתמול: ed.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_past_02",
@@ -346,7 +362,8 @@
       "feedback_try": "אתמול: פועל עם ed: Yesterday she worked at home.",
       "worked_method": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
       "can_do": "להגיד worked",
-      "hint": "אתמול: ed."
+      "hint": "אתמול: ed.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_past_03",
@@ -376,7 +393,8 @@
       "feedback_try": "אתמול: פועל עם ed: Yesterday he started at eight.",
       "worked_method": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
       "can_do": "להגיד started",
-      "hint": "אתמול: ed."
+      "hint": "אתמול: ed.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_past_04",
@@ -406,7 +424,8 @@
       "feedback_try": "אתמול: פועל עם ed: Yesterday I opened the door.",
       "worked_method": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
       "can_do": "להגיד opened",
-      "hint": "אתמול: ed."
+      "hint": "אתמול: ed.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_past_05",
@@ -436,7 +455,8 @@
       "feedback_try": "עבר: פועל עם ed: Last year they lived here.",
       "worked_method": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
       "can_do": "להגיד lived",
-      "hint": "עבר: ed."
+      "hint": "עבר: ed.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_past_06",
@@ -466,7 +486,8 @@
       "feedback_try": "אתמול: פועל עם ed: Yesterday she waited for the bus.",
       "worked_method": "אתמול: פועל עם ed, או צורה חריגה כמו went וsaw.",
       "can_do": "להגיד waited",
-      "hint": "אתמול: ed."
+      "hint": "אתמול: ed.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "tm_t_fut_learn",
@@ -475,7 +496,8 @@
       "title": "עתיד",
       "body_he": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
       "body_content": "Tomorrow I will leave early.",
-      "can_do": "לדבר על מחר ועל תוכנית קרובה"
+      "can_do": "לדבר על מחר ועל תוכנית קרובה",
+      "tile_role": "explanation"
     },
     {
       "id": "tm_t_fut_ex1",
@@ -484,7 +506,8 @@
       "title": "דוגמה: will",
       "body_he": "מחר. will ואחריו הפועל הבסיסי. Tomorrow she will call her mom.",
       "body_content": "Tomorrow she will call her mom.",
-      "can_do": "לדבר על מחר עם will"
+      "can_do": "לדבר על מחר עם will",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_fut_ex2",
@@ -493,7 +516,8 @@
       "title": "דוגמה: תוכנית קרובה",
       "body_he": "יש תוכנית ליום שני. are ועוד ing. We are meeting Dana on Monday.",
       "body_content": "We are meeting Dana on Monday.",
-      "can_do": "לתאר תוכנית קרובה עם are ועוד ing"
+      "can_do": "לתאר תוכנית קרובה עם are ועוד ing",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_fut_ex3",
@@ -502,7 +526,8 @@
       "title": "דוגמה: טעות: s אחרי will",
       "body_he": "טעות נפוצה: Tomorrow he will goes. אחרי will בא הפועל הבסיסי, בלי s. נכון: Tomorrow he will go.",
       "body_content": "Tomorrow he will go.",
-      "can_do": "לכתוב פועל בסיסי אחרי will"
+      "can_do": "לכתוב פועל בסיסי אחרי will",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_fut_p1",
@@ -532,7 +557,8 @@
       "feedback_try": "Tomorrow היא מחר, לכן will leave: Tomorrow I will leave early.",
       "can_do": "להגיד מה תעשו מחר עם will",
       "worked_method": "tomorrow היא עתיד. כותבים will ואחריו הפועל בלי שינוי. למשל will swim.\nleave לבד הוא הווה, ו left הוא עבר.\nהתשובה: will leave.",
-      "hint": "Tomorrow אומר עתיד. איזו מילה מסמנת עתיד?"
+      "hint": "Tomorrow אומר עתיד. איזו מילה מסמנת עתיד?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "tm_t_fut_p2",
@@ -562,7 +588,8 @@
       "feedback_try": "זו תוכנית קבועה לשבע. עם We בא are, ואחריו catching: We are catching the bus at seven.",
       "can_do": "לתאר תוכנית קרובה עם ing",
       "worked_method": "לתוכנית קרובה שכבר נקבעה כותבים am, is, are ופועל עם ing. למשל She is flying on Monday.\nעם We בא are, ו catch נהיה catching.\nהתשובה: are catching.",
-      "hint": "תוכנית קרובה שכבר סגורה. איזו צורה עם ing?"
+      "hint": "תוכנית קרובה שכבר סגורה. איזו צורה עם ing?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_03_t_fut_01",
@@ -592,7 +619,8 @@
       "feedback_try": "מחר: will והפועל הבסיסי: Tomorrow I will leave early.",
       "worked_method": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
       "can_do": "להגיד will leave",
-      "hint": "מחר: will."
+      "hint": "מחר: will.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_fut_02",
@@ -622,7 +650,8 @@
       "feedback_try": "מחר: will והפועל הבסיסי: Tomorrow she will start at nine.",
       "worked_method": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
       "can_do": "להגיד will start",
-      "hint": "מחר: will."
+      "hint": "מחר: will.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_fut_03",
@@ -652,7 +681,8 @@
       "feedback_try": "תוכנית קרובה: am ועוד ing: I am going to the store.",
       "worked_method": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
       "can_do": "להגיד am going",
-      "hint": "I עם am."
+      "hint": "I עם am.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_fut_04",
@@ -682,7 +712,8 @@
       "feedback_try": "תוכנית קרובה: is ועוד ing: She is coming tomorrow.",
       "worked_method": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
       "can_do": "להגיד is coming",
-      "hint": "she עם is."
+      "hint": "she עם is.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_fut_05",
@@ -712,7 +743,8 @@
       "feedback_try": "תוכנית קרובה: are ועוד ing: They are leaving soon.",
       "worked_method": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
       "can_do": "להגיד are leaving",
-      "hint": "they עם are."
+      "hint": "they עם are.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_fut_06",
@@ -742,7 +774,8 @@
       "feedback_try": "מחר: will והפועל הבסיסי: Tomorrow we will see the film.",
       "worked_method": "מחר: will והפועל הבסיסי. תוכנית קרובה: am, is או are, ועוד ing.",
       "can_do": "להגיד will see",
-      "hint": "מחר: will."
+      "hint": "מחר: will.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "tm_t_story_learn",
@@ -751,7 +784,8 @@
       "title": "סיפור קצר",
       "body_he": "קראו וזהו את הרעיון ואת ההסקה.",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
-      "can_do": "לקרוא סיפור קצר בעבר"
+      "can_do": "לקרוא סיפור קצר בעבר",
+      "tile_role": "explanation"
     },
     {
       "id": "tm_t_story_ex1",
@@ -760,7 +794,8 @@
       "title": "דוגמה: פרט בסיפור",
       "body_he": "שאלה: What did the woman give Jonah? קראו את המשפט השני: offered him half her orange. התשובה: half her orange.",
       "body_content": "A woman he did not know offered him half her orange.",
-      "can_do": "למצוא פרט בסיפור"
+      "can_do": "למצוא פרט בסיפור",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_story_ex2",
@@ -769,7 +804,8 @@
       "title": "דוגמה: הסקה על הזמן",
       "body_he": "שאלה: Was it day or night? בסיפור כתוב last bus ו pharmacy light, ובהמשך In the morning. לכן זה היה בלילה.",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light.",
-      "can_do": "להסיק את הזמן מרמזים בסיפור"
+      "can_do": "להסיק את הזמן מרמזים בסיפור",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_story_ex3",
@@ -778,7 +814,8 @@
       "title": "דוגמה: טעות: להוסיף מה שלא כתוב",
       "body_he": "טעות נפוצה: רואים pharmacy וחושבים ש Jonah עובד שם. הסיפור לא אומר את זה. הוא רק חיכה ליד האור שלה.",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light.",
-      "can_do": "לענות רק לפי מה שכתוב בסיפור"
+      "can_do": "לענות רק לפי מה שכתוב בסיפור",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_story_idea",
@@ -808,7 +845,8 @@
       "feedback_try": "בהתחלה אישה זרה נותנת לג'ונה חצי תפוז. בבוקר הוא משאיר שקית תפוזים. כלומר הוא מחזיר טובה.",
       "can_do": "להבין מה קורה בסיפור קצר",
       "worked_method": "הרעיון המרכזי מחבר את ההתחלה לסוף הסיפור.\nבתחילת הסיפור אישה שג'ונה לא מכיר חולקת איתו תפוז. בסוף הוא משאיר לה שקית תפוזים.\nהתשובה: A stranger shares an orange, and Jonah returns the kindness.",
-      "hint": "מה האישה נותנת ליונה, ומה הוא עושה בסוף?"
+      "hint": "מה האישה נותנת ליונה, ומה הוא עושה בסוף?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "tm_t_story_infer",
@@ -838,7 +876,8 @@
       "feedback_try": "ג'ונה לא יודע את שם האישה, אבל רוצה להחזיר טובה. לכן מספיק for the bus. אין בקטע שהוא לא יודע לכתוב.",
       "can_do": "להסיק למה דמות עושה משהו",
       "worked_method": "בשאלת למה חברו פרטים מהסיפור לסיבה הגיונית, בלי להמציא.\nג'ונה לא יודע איך קוראים לאישה, ובכל זאת רוצה להודות לה. אין בסיפור שהוא לא יודע לכתוב.\nהתשובה: He does not need her name to return the kindness.",
-      "hint": "מה יונה רוצה לעשות עם הפתק?"
+      "hint": "מה יונה רוצה לעשות עם הפתק?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_03_t_story_01",
@@ -868,7 +907,8 @@
       "feedback_try": "הרעיון המרכזי: Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him a ride home. He said yes and arrived safely.",
       "worked_method": "קראו וזהו את הרעיון ואת ההסקה.",
       "can_do": "לזהות את הרעיון המרכזי",
-      "hint": "מה קרה ליונה?"
+      "hint": "מה קרה ליונה?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_story_02",
@@ -898,7 +938,8 @@
       "feedback_try": "הפרט: He waited under the pharmacy light.",
       "worked_method": "קראו וזהו את הרעיון ואת ההסקה.",
       "can_do": "למצוא פרט בטקסט",
-      "hint": "חפשו את המילה waited."
+      "hint": "חפשו את המילה waited.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_story_03",
@@ -928,7 +969,8 @@
       "feedback_try": "הפרט: A woman offered him a ride.",
       "worked_method": "קראו וזהו את הרעיון ואת ההסקה.",
       "can_do": "למצוא פרט בטקסט",
-      "hint": "חפשו את המילה woman."
+      "hint": "חפשו את המילה woman.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_story_04",
@@ -958,7 +1000,8 @@
       "feedback_try": "הפרט: He said yes.",
       "worked_method": "קראו וזהו את הרעיון ואת ההסקה.",
       "can_do": "למצוא פרט בטקסט",
-      "hint": "חפשו את המילה said."
+      "hint": "חפשו את המילה said.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_story_05",
@@ -988,7 +1031,8 @@
       "feedback_try": "ההסקה: He got a ride, so by car.",
       "worked_method": "קראו וזהו את הרעיון ואת ההסקה.",
       "can_do": "להסיק מפרט",
-      "hint": "הוא קיבל ride."
+      "hint": "הוא קיבל ride.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_story_06",
@@ -1018,7 +1062,8 @@
       "feedback_try": "הרעיון המרכזי: A woman offered him a ride home.",
       "worked_method": "קראו וזהו את הרעיון ואת ההסקה.",
       "can_do": "לזהות את הרעיון המרכזי",
-      "hint": "מה קרה?"
+      "hint": "מה קרה?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "tm_rev1_learn",
@@ -1032,7 +1077,8 @@
         "t_fut",
         "t_story"
       ],
-      "can_do": "לחזור על עבר, עתיד וסיפור"
+      "can_do": "לחזור על עבר, עתיד וסיפור",
+      "tile_role": "explanation"
     },
     {
       "id": "tm_rev1_q",
@@ -1067,7 +1113,8 @@
       "feedback_try": "Yesterday היא עבר. walk בעבר הוא walked: Yesterday he walked home.",
       "can_do": "להוסיף ed לפועל רגיל בעבר",
       "worked_method": "חזרו על הכלל: yesterday היא עבר, ופועל רגיל מקבל ed.\nwalk הוא פועל רגיל, לכן walked.\nהתשובה: walked.",
-      "hint": "Yesterday אומר עבר. מה מוסיפים לפועל רגיל?"
+      "hint": "Yesterday אומר עבר. מה מוסיפים לפועל רגיל?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "tm_t_irreg_learn",
@@ -1076,7 +1123,8 @@
       "title": "עבר חריג",
       "body_he": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
       "body_content": "Yesterday I went home. I saw the bus.",
-      "can_do": "להשתמש בעבר של פעלים חריגים"
+      "can_do": "להשתמש בעבר של פעלים חריגים",
+      "tile_role": "explanation"
     },
     {
       "id": "tm_t_irreg_ex1",
@@ -1085,7 +1133,8 @@
       "title": "דוגמה: came",
       "body_he": "לא כל עבר הוא ed. come נהיה came. She came home late.",
       "body_content": "She came home late.",
-      "can_do": "להגיד came בעבר"
+      "can_do": "להגיד came בעבר",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_irreg_ex2",
@@ -1094,7 +1143,8 @@
       "title": "דוגמה: had",
       "body_he": "have נהיה had. We had a long day.",
       "body_content": "We had a long day.",
-      "can_do": "להגיד had בעבר"
+      "can_do": "להגיד had בעבר",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_irreg_ex3",
@@ -1103,7 +1153,8 @@
       "title": "דוגמה: טעות: buyed",
       "body_he": "טעות נפוצה: He buyed bread. buy הוא פועל חריג. נכון: He bought bread.",
       "body_content": "He bought bread.",
-      "can_do": "לתקן עבר חריג שנכתב עם ed"
+      "can_do": "לתקן עבר חריג שנכתב עם ed",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_irreg_p1",
@@ -1133,7 +1184,8 @@
       "feedback_try": "go משתנה בעבר לwent: Yesterday she went home. אין מילה goed.",
       "can_do": "להגיד went בעבר של go",
       "worked_method": "go הוא פועל שמשתנה בעבר. לא מוסיפים לו ed.\nבעבר go נהיה went, ואין מילה goed.\nהתשובה: went.",
-      "hint": "go הוא פועל לא רגיל. מה צורת העבר שלו?"
+      "hint": "go הוא פועל לא רגיל. מה צורת העבר שלו?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "tm_t_irreg_p2",
@@ -1163,7 +1215,8 @@
       "feedback_try": "see בעבר הוא saw: I saw the note.",
       "can_do": "להגיד saw בעבר של see",
       "worked_method": "see משתנה בעבר ל saw. הצורה seen באה רק אחרי have או has.\nאין כאן have, ו seed אינה צורה של see.\nהתשובה: saw.",
-      "hint": "see הוא פועל לא רגיל. מה העבר שלו?"
+      "hint": "see הוא פועל לא רגיל. מה העבר שלו?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_03_t_irreg_02",
@@ -1193,7 +1246,8 @@
       "feedback_try": "לא כל עבר הוא ed. see נהיה saw: Yesterday I saw the bus.",
       "worked_method": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
       "can_do": "להגיד saw",
-      "hint": "see נהיה saw."
+      "hint": "see נהיה saw.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_irreg_03",
@@ -1223,7 +1277,8 @@
       "feedback_try": "go נהיה went: She went to work yesterday.",
       "worked_method": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
       "can_do": "להגיד went",
-      "hint": "go נהיה went."
+      "hint": "go נהיה went.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_irreg_04",
@@ -1253,7 +1308,8 @@
       "feedback_try": "see נהיה saw: He saw her yesterday.",
       "worked_method": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
       "can_do": "להגיד saw",
-      "hint": "see נהיה saw."
+      "hint": "see נהיה saw.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_irreg_05",
@@ -1283,7 +1339,8 @@
       "feedback_try": "go נהיה went: We went home early.",
       "worked_method": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
       "can_do": "להגיד went",
-      "hint": "go נהיה went."
+      "hint": "go נהיה went.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_irreg_06",
@@ -1313,7 +1370,8 @@
       "feedback_try": "see נהיה saw: They saw the film yesterday.",
       "worked_method": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
       "can_do": "להגיד saw",
-      "hint": "see נהיה saw."
+      "hint": "see נהיה saw.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_irreg_01",
@@ -1343,7 +1401,8 @@
       "feedback_try": "לא כל עבר הוא ed. go נהיה went: Yesterday I went home.",
       "worked_method": "לא כל עבר הוא ed. go נהיה went. see נהיה saw.",
       "can_do": "להגיד went",
-      "hint": "go נהיה went."
+      "hint": "go נהיה went.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "tm_t_ago_learn",
@@ -1352,7 +1411,8 @@
       "title": "מתי",
       "body_he": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
       "body_content": "I saw her two days ago.",
-      "can_do": "לסמן זמן עם ago ו tomorrow"
+      "can_do": "לסמן זמן עם ago ו tomorrow",
+      "tile_role": "explanation"
     },
     {
       "id": "tm_t_ago_ex1",
@@ -1361,7 +1421,8 @@
       "title": "דוגמה: ago בסוף",
       "body_he": "ago בא אחרי משך הזמן ומסתכל אחורה. The bus left ten minutes ago.",
       "body_content": "The bus left ten minutes ago.",
-      "can_do": "להגיד לפני כמה זמן משהו קרה"
+      "can_do": "להגיד לפני כמה זמן משהו קרה",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_ago_ex2",
@@ -1370,7 +1431,8 @@
       "title": "דוגמה: tomorrow עם will",
       "body_he": "tomorrow מסתכל קדימה, לכן will. Tomorrow we will visit Dana.",
       "body_content": "Tomorrow we will visit Dana.",
-      "can_do": "להתאים tomorrow לעתיד"
+      "can_do": "להתאים tomorrow לעתיד",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_ago_ex3",
@@ -1379,7 +1441,8 @@
       "title": "דוגמה: טעות: ago עם will",
       "body_he": "טעות נפוצה: We will meet three days ago. ago הולך עם עבר. נכון: We met three days ago.",
       "body_content": "We met three days ago.",
-      "can_do": "לא לערבב ago עם will"
+      "can_do": "לא לערבב ago עם will",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_ago_p1",
@@ -1409,7 +1472,8 @@
       "feedback_try": "two days ago פירושו לפני יומיים: I met him two days ago.",
       "can_do": "להגיד לפני כמה זמן עם ago",
       "worked_method": "ago בא אחרי משך זמן ופירושו לפני. למשל five minutes ago.\ntwo days ago פירושו לפני יומיים.\nהתשובה: ago.",
-      "hint": "איזו מילה באה אחרי משך זמן ואומרת לפני?"
+      "hint": "איזו מילה באה אחרי משך זמן ואומרת לפני?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "tm_t_ago_p2",
@@ -1439,7 +1503,8 @@
       "feedback_try": "I will call הוא עתיד, לכן Tomorrow: Tomorrow I will call.",
       "can_do": "לפתוח משפט עתיד ב Tomorrow",
       "worked_method": "התאימו את מילת הזמן לזמן של הפועל. will הוא עתיד.\nYesterday היא עבר, ו Ago לא פותחת משפט. רק Tomorrow מתאימה לעתיד.\nהתשובה: Tomorrow.",
-      "hint": "I will call הוא עתיד. איזו מילת זמן מתאימה?"
+      "hint": "I will call הוא עתיד. איזו מילת זמן מתאימה?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_03_t_ago_01",
@@ -1469,7 +1534,8 @@
       "feedback_try": "ago מסתכל אחורה: I saw her two days ago.",
       "worked_method": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
       "can_do": "להגיד two days ago",
-      "hint": "אחורה: ago."
+      "hint": "אחורה: ago.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_ago_02",
@@ -1499,7 +1565,8 @@
       "feedback_try": "tomorrow מסתכל קדימה: I will see her tomorrow.",
       "worked_method": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
       "can_do": "להגיד tomorrow",
-      "hint": "קדימה: tomorrow."
+      "hint": "קדימה: tomorrow.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_ago_03",
@@ -1529,7 +1596,8 @@
       "feedback_try": "ago מסתכל אחורה: He went home one week ago.",
       "worked_method": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
       "can_do": "להגיד one week ago",
-      "hint": "אחורה: ago."
+      "hint": "אחורה: ago.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_ago_04",
@@ -1559,7 +1627,8 @@
       "feedback_try": "tomorrow מסתכל קדימה: She will leave tomorrow.",
       "worked_method": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
       "can_do": "להגיד tomorrow",
-      "hint": "קדימה: tomorrow."
+      "hint": "קדימה: tomorrow.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_ago_05",
@@ -1589,7 +1658,8 @@
       "feedback_try": "ago מסתכל אחורה: We saw the film three days ago.",
       "worked_method": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
       "can_do": "להגיד three days ago",
-      "hint": "אחורה: ago."
+      "hint": "אחורה: ago.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_ago_06",
@@ -1619,7 +1689,8 @@
       "feedback_try": "tomorrow מסתכל קדימה: They will arrive tomorrow.",
       "worked_method": "ago מסתכל אחורה. tomorrow מסתכל קדימה. לא מערבבים.",
       "can_do": "להגיד tomorrow",
-      "hint": "קדימה: tomorrow."
+      "hint": "קדימה: tomorrow.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "tm_t_who_learn",
@@ -1628,7 +1699,8 @@
       "title": "מי ואיפה",
       "body_he": "who שואל על אדם. where שואל על מקום.",
       "body_content": "Jonah missed the last bus and waited under the pharmacy light. A woman he did not know offered him half her orange. He took it. In the morning he left a bag of oranges at the pharmacy with a note that said only: for the bus.",
-      "can_do": "לענות על who ועל where"
+      "can_do": "לענות על who ועל where",
+      "tile_role": "explanation"
     },
     {
       "id": "tm_t_who_ex1",
@@ -1637,7 +1709,8 @@
       "title": "דוגמה: who על אדם",
       "body_he": "שאלה: Who offered Jonah half her orange? who שואל על אדם. התשובה: a woman he did not know.",
       "body_content": "A woman he did not know offered him half her orange.",
-      "can_do": "לענות על שאלת who מתוך סיפור"
+      "can_do": "לענות על שאלת who מתוך סיפור",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_who_ex2",
@@ -1646,7 +1719,8 @@
       "title": "דוגמה: who ו he",
       "body_he": "שאלה: Who took the orange? בסיפור כתוב He took it. he הוא Jonah. התשובה: Jonah.",
       "body_content": "He took it.",
-      "can_do": "להבין למי מתכוון he"
+      "can_do": "להבין למי מתכוון he",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_who_ex3",
@@ -1655,7 +1729,8 @@
       "title": "דוגמה: טעות: אדם במקום מקום",
       "body_he": "טעות נפוצה: Where did Jonah leave the oranges? ועונים Jonah. where שואל על מקום. התשובה: at the pharmacy.",
       "body_content": "In the morning he left a bag of oranges at the pharmacy.",
-      "can_do": "לענות על where עם מקום"
+      "can_do": "לענות על where עם מקום",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_t_who_p1",
@@ -1685,7 +1760,8 @@
       "feedback_try": "כתוב Jonah missed the last bus and waited. מי שחיכה הוא Jonah.",
       "can_do": "למצוא מי עשה מה בסיפור",
       "worked_method": "חפשו בקטע את הפועל מהשאלה וקראו מי עשה אותו.\nליד waited כתוב Jonah. הנהג ומר כהן לא מופיעים בסיפור.\nהתשובה: Jonah.",
-      "hint": "חפשו בקטע את המילה waited."
+      "hint": "חפשו בקטע את המילה waited.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "tm_t_who_p2",
@@ -1715,7 +1791,8 @@
       "feedback_try": "כתוב waited under the pharmacy light, כלומר מתחת לאור של בית המרקחת.",
       "can_do": "למצוא איפה זה קרה בסיפור",
       "worked_method": "בשאלת איפה חפשו מילת מקום אחרי הפועל.\nאחרי waited כתוב under the pharmacy light.\nהתשובה: under the pharmacy light.",
-      "hint": "חפשו בקטע איפה יונה חיכה."
+      "hint": "חפשו בקטע איפה יונה חיכה.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_03_t_who_01",
@@ -1745,7 +1822,8 @@
       "feedback_try": "who שואל על אדם: Who waited under the light?",
       "worked_method": "who שואל על אדם. where שואל על מקום.",
       "can_do": "לשאול who",
-      "hint": "על אדם: who."
+      "hint": "על אדם: who.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_who_02",
@@ -1775,7 +1853,8 @@
       "feedback_try": "where שואל על מקום: Where did he wait?",
       "worked_method": "who שואל על אדם. where שואל על מקום.",
       "can_do": "לשאול where",
-      "hint": "על מקום: where."
+      "hint": "על מקום: where.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_who_03",
@@ -1805,7 +1884,8 @@
       "feedback_try": "who שואל על אדם: Who offered him a ride?",
       "worked_method": "who שואל על אדם. where שואל על מקום.",
       "can_do": "לשאול who",
-      "hint": "על אדם: who."
+      "hint": "על אדם: who.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_who_04",
@@ -1835,7 +1915,8 @@
       "feedback_try": "where שואל על מקום: Where did she wait?",
       "worked_method": "who שואל על אדם. where שואל על מקום.",
       "can_do": "לשאול where",
-      "hint": "על מקום: where."
+      "hint": "על מקום: where.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_who_05",
@@ -1865,7 +1946,8 @@
       "feedback_try": "who שואל על אדם: Who saw the bus?",
       "worked_method": "who שואל על אדם. where שואל על מקום.",
       "can_do": "לשאול who",
-      "hint": "על אדם: who."
+      "hint": "על אדם: who.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_03_t_who_06",
@@ -1895,7 +1977,8 @@
       "feedback_try": "where שואל על מקום: Where did they go?",
       "worked_method": "who שואל על אדם. where שואל על מקום.",
       "can_do": "לשאול where",
-      "hint": "על מקום: where."
+      "hint": "על מקום: where.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "tm_rev2_learn",
@@ -1909,7 +1992,8 @@
         "t_ago",
         "t_who"
       ],
-      "can_do": "לחזור על עבר חריג, ago ושאלות who"
+      "can_do": "לחזור על עבר חריג, ago ושאלות who",
+      "tile_role": "explanation"
     },
     {
       "id": "tm_rev2_q",
@@ -1944,7 +2028,8 @@
       "feedback_try": "Tomorrow היא מחר, לכן will leave: Tomorrow we will leave early.",
       "can_do": "לבחור will למחר בלי רמז",
       "worked_method": "חזרו על הכלל: מילה של עתיד הולכת עם will והפועל בלי שינוי.\nבמשפט יש Tomorrow, לכן will leave.\nהתשובה: will leave.",
-      "hint": "Tomorrow אומר עתיד. איזו מילה מסמנת עתיד?"
+      "hint": "Tomorrow אומר עתיד. איזו מילה מסמנת עתיד?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "tm_final_check",
@@ -1974,7 +2059,8 @@
       "feedback_try": "Tomorrow היא מחר, לכן will leave: Tomorrow we will leave early.",
       "can_do": "להבחין בין עבר, הווה ועתיד",
       "worked_method": "בדקו את מילת הזמן קודם. left הוא עבר, ו leaves הוא הווה.\nTomorrow פירושו מחר, כלומר עתיד, ולכן צריך will.\nהתשובה: will leave.",
-      "hint": "Tomorrow אומר עתיד. איזו מילה מסמנת עתיד?"
+      "hint": "Tomorrow אומר עתיד. איזו מילה מסמנת עתיד?",
+      "tile_role": "quick_check"
     },
     {
       "id": "tm_celebrate",

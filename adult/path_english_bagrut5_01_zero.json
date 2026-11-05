@@ -42,7 +42,8 @@
         "xp_01_t_letters_04",
         "xp_01_t_letters_05",
         "xp_01_t_letters_06"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_be",
@@ -64,7 +65,8 @@
         "xp_01_t_be_04",
         "xp_01_t_be_05",
         "xp_01_t_be_06"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_not",
@@ -86,7 +88,8 @@
         "xp_01_t_not_04",
         "xp_01_t_not_05",
         "xp_01_t_not_06"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_review_1",
@@ -98,7 +101,8 @@
       "node_ids": [
         "z_rev1_learn",
         "z_rev1_q"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_you",
@@ -120,7 +124,8 @@
         "xp_01_t_you_05",
         "xp_01_t_you_06",
         "xp_01_t_you_03"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_word",
@@ -142,7 +147,8 @@
         "xp_01_t_word_01",
         "xp_01_t_word_02",
         "xp_01_t_word_03"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_sent",
@@ -164,7 +170,8 @@
         "xp_01_t_sent_04",
         "xp_01_t_sent_06",
         "xp_01_t_sent_05"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_review_2",
@@ -176,7 +183,8 @@
       "node_ids": [
         "z_rev2_learn",
         "z_rev2_q"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_end",
@@ -188,7 +196,8 @@
       "node_ids": [
         "z_final_check",
         "z_celebrate"
-      ]
+      ],
+      "level": 3
     }
   ],
   "nodes": [
@@ -199,7 +208,8 @@
       "title": "אותיות",
       "body_he": "אומרים את שם האות, ואז קוראים מילה קצרה.",
       "body_content": "A, B, C.",
-      "can_do": "לקרוא שם של אות ומילה קצרה"
+      "can_do": "לקרוא שם של אות ומילה קצרה",
+      "tile_role": "explanation"
     },
     {
       "id": "z_t_letters_ex1",
@@ -208,7 +218,8 @@
       "title": "דוגמה: שם וצליל",
       "body_he": "לאות יש שם ויש צליל. השם של b הוא בי, והצליל שלה הוא ב, כמו בתחילת bed.",
       "body_content": "b: bed, bag, bus",
-      "can_do": "להבדיל בין שם האות לצליל שלה"
+      "can_do": "להבדיל בין שם האות לצליל שלה",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_letters_ex2",
@@ -217,7 +228,8 @@
       "title": "דוגמה: צליל ראשון",
       "body_he": "אומרים dog לאט: d, o, g. הצליל הראשון הוא d, לכן המילה נפתחת באות d.",
       "body_content": "dog: d o g",
-      "can_do": "למצוא צליל ראשון במילה"
+      "can_do": "למצוא צליל ראשון במילה",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_letters_ex3",
@@ -226,7 +238,8 @@
       "title": "דוגמה: צליל אחרון",
       "body_he": "אומרים cup לאט: c, u, p. הצליל האחרון הוא p, לכן המילה נגמרת באות p.",
       "body_content": "cup: c u p",
-      "can_do": "למצוא צליל אחרון במילה"
+      "can_do": "למצוא צליל אחרון במילה",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_letters_p1",
@@ -256,7 +269,8 @@
       "feedback_try": "אומרים sun לאט: s, u, n. הצליל הראשון הוא s.",
       "can_do": "לזהות את האות הראשונה במילה",
       "worked_method": "אמרו את המילה לאט והקשיבו לצליל הראשון. למשל ten נפתחת ב t.\nבמילה sun שומעים s, u, n.\nהתשובה: s.",
-      "hint": "אמרו את המילה ושימו לב לצליל הראשון."
+      "hint": "אמרו את המילה ושימו לב לצליל הראשון.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "z_t_letters_p2",
@@ -286,7 +300,8 @@
       "feedback_try": "אומרים map לאט: m, a, p. הצליל האחרון הוא p.",
       "can_do": "לזהות את האות האחרונה במילה",
       "worked_method": "אמרו את המילה לאט והקשיבו לצליל האחרון. למשל cup נגמרת ב p.\nבמילה map שומעים m, a, p.\nהתשובה: p.",
-      "hint": "אמרו את המילה ושימו לב לצליל האחרון."
+      "hint": "אמרו את המילה ושימו לב לצליל האחרון.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_01_t_letters_01",
@@ -316,7 +331,8 @@
       "feedback_try": "האות הראשונה היא A. המשפט המלא: The first letter is A.",
       "worked_method": "אומרים את שם האות, ואז קוראים מילה קצרה.",
       "can_do": "לזהות את האות A",
-      "hint": "איזו אות באה ראשונה באלפבית?"
+      "hint": "איזו אות באה ראשונה באלפבית?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_letters_02",
@@ -346,7 +362,8 @@
       "feedback_try": "האות השנייה היא B. המשפט המלא: The second letter is B.",
       "worked_method": "אומרים את שם האות, ואז קוראים מילה קצרה.",
       "can_do": "לזהות את האות B",
-      "hint": "איזו אות באה אחרי A?"
+      "hint": "איזו אות באה אחרי A?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_letters_03",
@@ -376,7 +393,8 @@
       "feedback_try": "האות השלישית היא C. המשפט המלא: The third letter is C.",
       "worked_method": "אומרים את שם האות, ואז קוראים מילה קצרה.",
       "can_do": "לזהות את האות C",
-      "hint": "איזו אות באה אחרי B?"
+      "hint": "איזו אות באה אחרי B?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_letters_04",
@@ -406,7 +424,8 @@
       "feedback_try": "שם האות A הוא ay. המשפט המלא: The name of the letter is ay.",
       "worked_method": "אומרים את שם האות, ואז קוראים מילה קצרה.",
       "can_do": "לומר את שם האות A",
-      "hint": "איך נשמע השם של A?"
+      "hint": "איך נשמע השם של A?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_letters_05",
@@ -436,7 +455,8 @@
       "feedback_try": "המילה apple מתחילה ב A. המשפט המלא: The word is apple.",
       "worked_method": "אומרים את שם האות, ואז קוראים מילה קצרה.",
       "can_do": "לקרוא מילה קצרה עם A",
-      "hint": "איזו מילה מתחילה באות A?"
+      "hint": "איזו מילה מתחילה באות A?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_letters_06",
@@ -466,7 +486,8 @@
       "feedback_try": "האות האחרונה מבין A, B, C היא C. המשפט המלא: The last letter is C.",
       "worked_method": "אומרים את שם האות, ואז קוראים מילה קצרה.",
       "can_do": "לזהות את סדר האותיות",
-      "hint": "A, B, ואז מה?"
+      "hint": "A, B, ואז מה?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "z_t_be_learn",
@@ -475,7 +496,8 @@
       "title": "am is are",
       "body_he": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
       "body_content": "I am a student.",
-      "can_do": "להתאים am, is, are לכל גוף"
+      "can_do": "להתאים am, is, are לכל גוף",
+      "tile_role": "explanation"
     },
     {
       "id": "z_t_be_ex1",
@@ -484,7 +506,8 @@
       "title": "דוגמה: I עם am",
       "body_he": "המשפט מדבר על I. עם I תמיד אומרים am. לכן: I am a dad.",
       "body_content": "I am a dad.",
-      "can_do": "להגיד I am על עצמי"
+      "can_do": "להגיד I am על עצמי",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_be_ex2",
@@ -493,7 +516,8 @@
       "title": "דוגמה: she עם is",
       "body_he": "she פירושה היא. עם he, she, it אומרים is. לכן: She is ill.",
       "body_content": "She is ill.",
-      "can_do": "להגיד She is על אישה אחת"
+      "can_do": "להגיד She is על אישה אחת",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_be_ex3",
@@ -502,7 +526,8 @@
       "title": "דוגמה: טעות עם he",
       "body_he": "טעות נפוצה: He am sad. am הולך רק עם I. עם he אומרים is. נכון: He is sad.",
       "body_content": "He is sad.",
-      "can_do": "לתקן am ל is אחרי he"
+      "can_do": "לתקן am ל is אחרי he",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_be_p1",
@@ -532,7 +557,8 @@
       "feedback_try": "במשפט יש I, לכן am: I am tired.",
       "can_do": "להגיד I am",
       "worked_method": "מצאו מי במשפט. I תמיד הולך עם am.\nבמשפט הזה מדבר I.\nלכן am: I am tired.",
-      "hint": "איזו צורה של to be הולכת עם I?"
+      "hint": "איזו צורה של to be הולכת עם I?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "z_t_be_p2",
@@ -562,7 +588,8 @@
       "feedback_try": "במשפט יש She, לכן is: She is at home.",
       "can_do": "להגיד She is",
       "worked_method": "מצאו מי במשפט. he או she הולכים עם is.\nבמשפט הזה יש She.\nלכן is: She is at home.",
-      "hint": "She היא גוף אחד. איזו צורה הולכת איתה?"
+      "hint": "She היא גוף אחד. איזו צורה הולכת איתה?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_01_t_be_01",
@@ -592,7 +619,8 @@
       "feedback_try": "במשפט יש I, לכן am: I am a teacher.",
       "worked_method": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
       "can_do": "להגיד I am",
-      "hint": "איזו צורה של to be הולכת עם I?"
+      "hint": "איזו צורה של to be הולכת עם I?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_be_02",
@@ -622,7 +650,8 @@
       "feedback_try": "במשפט יש she, לכן is: She is happy.",
       "worked_method": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
       "can_do": "להגיד she is",
-      "hint": "איזו צורה הולכת עם she?"
+      "hint": "איזו צורה הולכת עם she?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_be_03",
@@ -652,7 +681,8 @@
       "feedback_try": "במשפט יש they, לכן are: They are students.",
       "worked_method": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
       "can_do": "להגיד they are",
-      "hint": "איזו צורה הולכת עם they?"
+      "hint": "איזו צורה הולכת עם they?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_be_04",
@@ -682,7 +712,8 @@
       "feedback_try": "במשפט יש he, לכן is: He is at work.",
       "worked_method": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
       "can_do": "להגיד he is",
-      "hint": "איזו צורה הולכת עם he?"
+      "hint": "איזו צורה הולכת עם he?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_be_05",
@@ -712,7 +743,8 @@
       "feedback_try": "במשפט יש we, לכן are: We are ready.",
       "worked_method": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
       "can_do": "להגיד we are",
-      "hint": "איזו צורה הולכת עם we?"
+      "hint": "איזו צורה הולכת עם we?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_be_06",
@@ -742,7 +774,8 @@
       "feedback_try": "במשפט יש it, לכן is: It is cold today.",
       "worked_method": "I הולך עם am. He, she, it עם is. You, we, they עם are.",
       "can_do": "להגיד it is",
-      "hint": "איזו צורה הולכת עם it?"
+      "hint": "איזו צורה הולכת עם it?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "z_t_not_learn",
@@ -751,7 +784,8 @@
       "title": "שלילה",
       "body_he": "שלילה: am not, is not, are not. לא מוסיפים do.",
       "body_content": "She is not late.",
-      "can_do": "לשלול עם am not, is not, are not"
+      "can_do": "לשלול עם am not, is not, are not",
+      "tile_role": "explanation"
     },
     {
       "id": "z_t_not_ex1",
@@ -760,7 +794,8 @@
       "title": "דוגמה: am not",
       "body_he": "שמים not אחרי am. I am sad. בשלילה: I am not sad.",
       "body_content": "I am not sad.",
-      "can_do": "לשלול עם I am not"
+      "can_do": "לשלול עם I am not",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_not_ex2",
@@ -769,7 +804,8 @@
       "title": "דוגמה: is not",
       "body_he": "שמים not אחרי is. It is big. בשלילה: It is not big.",
       "body_content": "It is not big.",
-      "can_do": "לשלול עם it is not"
+      "can_do": "לשלול עם it is not",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_not_ex3",
@@ -778,7 +814,8 @@
       "title": "דוגמה: טעות: do בשלילה",
       "body_he": "טעות נפוצה: He do not is ill. לא מוסיפים do. שמים not אחרי is. נכון: He is not ill.",
       "body_content": "He is not ill.",
-      "can_do": "לשלול בלי להוסיף do"
+      "can_do": "לשלול בלי להוסיף do",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_not_p1",
@@ -808,7 +845,8 @@
       "feedback_try": "במשפט יש They, ועם they בא are. מוסיפים not: They are not ready.",
       "can_do": "לשלול משפט עם they",
       "worked_method": "בשלילה כותבים not מיד אחרי am, is, are.\nעם They בא are, ואחריו not.\nהתשובה: are not.",
-      "hint": "They הם רבים. בחרו את הצורה של רבים ואחריה not."
+      "hint": "They הם רבים. בחרו את הצורה של רבים ואחריה not.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "z_t_not_p2",
@@ -838,7 +876,8 @@
       "feedback_try": "עם I בא am, ומוסיפים not: I am not hungry.",
       "can_do": "להגיד I am not",
       "worked_method": "בשלילה עם I כותבים am ואחריו not, בלי do.\nבמשפט יש I, לכן am not.\nהתשובה: I am not hungry.",
-      "hint": "שלילה עם I: הצורה של to be ואחריה not."
+      "hint": "שלילה עם I: הצורה של to be ואחריה not.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_01_t_not_01",
@@ -868,7 +907,8 @@
       "feedback_try": "במשפט יש I, לכן am not: I am not tired.",
       "worked_method": "שלילה: am not, is not, are not. לא מוסיפים do.",
       "can_do": "להגיד I am not",
-      "hint": "איך שוללים עם I?"
+      "hint": "איך שוללים עם I?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_not_02",
@@ -898,7 +938,8 @@
       "feedback_try": "במשפט יש she, לכן is not: She is not late.",
       "worked_method": "שלילה: am not, is not, are not. לא מוסיפים do.",
       "can_do": "להגיד she is not",
-      "hint": "איך שוללים עם she?"
+      "hint": "איך שוללים עם she?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_not_03",
@@ -928,7 +969,8 @@
       "feedback_try": "במשפט יש they, לכן are not: They are not here.",
       "worked_method": "שלילה: am not, is not, are not. לא מוסיפים do.",
       "can_do": "להגיד they are not",
-      "hint": "איך שוללים עם they?"
+      "hint": "איך שוללים עם they?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_not_04",
@@ -958,7 +1000,8 @@
       "feedback_try": "במשפט יש he, לכן is not: He is not ready.",
       "worked_method": "שלילה: am not, is not, are not. לא מוסיפים do.",
       "can_do": "להגיד he is not",
-      "hint": "איך שוללים עם he?"
+      "hint": "איך שוללים עם he?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_not_05",
@@ -988,7 +1031,8 @@
       "feedback_try": "במשפט יש we, לכן are not: We are not busy.",
       "worked_method": "שלילה: am not, is not, are not. לא מוסיפים do.",
       "can_do": "להגיד we are not",
-      "hint": "איך שוללים עם we?"
+      "hint": "איך שוללים עם we?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_not_06",
@@ -1018,7 +1062,8 @@
       "feedback_try": "במשפט יש it, לכן is not: It is not hot.",
       "worked_method": "שלילה: am not, is not, are not. לא מוסיפים do.",
       "can_do": "להגיד it is not",
-      "hint": "איך שוללים עם it?"
+      "hint": "איך שוללים עם it?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "z_rev1_learn",
@@ -1032,7 +1077,8 @@
         "t_be",
         "t_not"
       ],
-      "can_do": "לחזור על אותיות, am, is, are ושלילה"
+      "can_do": "לחזור על אותיות, am, is, are ושלילה",
+      "tile_role": "explanation"
     },
     {
       "id": "z_rev1_q",
@@ -1067,7 +1113,8 @@
       "feedback_try": "במשפט יש I, לכן am: I am a student.",
       "can_do": "לבחור am אחרי I בלי רמז",
       "worked_method": "חזרו על הכלל: I עם am, he או she עם is, you, we, they עם are.\nמי שבמשפט הוא I.\nהתשובה: am.",
-      "hint": "איזו צורה של to be הולכת עם I?"
+      "hint": "איזו צורה של to be הולכת עם I?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "z_t_you_learn",
@@ -1076,7 +1123,8 @@
       "title": "you ו we",
       "body_he": "you, we, they הולכים עם are. לא עם am.",
       "body_content": "You are ready. We are here.",
-      "can_do": "להשתמש ב are עם you, we, they"
+      "can_do": "להשתמש ב are עם you, we, they",
+      "tile_role": "explanation"
     },
     {
       "id": "z_t_you_ex1",
@@ -1085,7 +1133,8 @@
       "title": "דוגמה: you עם are",
       "body_he": "you פירושו אתה או את, וגם אתם או אתן. עם you תמיד אומרים are. You are kind.",
       "body_content": "You are kind.",
-      "can_do": "לבחור are אחרי you"
+      "can_do": "לבחור are אחרי you",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_you_ex2",
@@ -1094,7 +1143,8 @@
       "title": "דוגמה: we עם are",
       "body_he": "we פירושו אנחנו. עם we אומרים are. We are at home.",
       "body_content": "We are at home.",
-      "can_do": "לבחור are אחרי we"
+      "can_do": "לבחור are אחרי we",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_you_ex3",
@@ -1103,7 +1153,8 @@
       "title": "דוגמה: טעות עם they",
       "body_he": "טעות נפוצה: They is sad. they פירושו הם או הן, וזה רבים. עם they אומרים are. נכון: They are sad.",
       "body_content": "They are sad.",
-      "can_do": "לתקן is ל are אחרי they"
+      "can_do": "לתקן is ל are אחרי they",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_you_p1",
@@ -1133,7 +1184,8 @@
       "feedback_try": "במשפט יש We, ועם we בא are: We are students.",
       "can_do": "להגיד We are",
       "worked_method": "we פירושו אנחנו, ו we הולך תמיד עם are.\nבמשפט יש We.\nלכן are: We are students.",
-      "hint": "We הם רבים. איזו צורה הולכת איתם?"
+      "hint": "We הם רבים. איזו צורה הולכת איתם?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "z_t_you_p2",
@@ -1163,7 +1215,8 @@
       "feedback_try": "במשפט יש They, ועם they בא are: They are at school.",
       "can_do": "להגיד They are",
       "worked_method": "they פירושו הם, ו they הולך תמיד עם are.\nבמשפט יש They.\nלכן are: They are at school.",
-      "hint": "They הם רבים. איזו צורה הולכת איתם?"
+      "hint": "They הם רבים. איזו צורה הולכת איתם?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_01_t_you_01",
@@ -1193,7 +1246,8 @@
       "feedback_try": "במשפט יש you, לכן are: You are ready.",
       "worked_method": "you, we, they הולכים עם are. לא עם am.",
       "can_do": "להגיד you are",
-      "hint": "איזו צורה הולכת עם you?"
+      "hint": "איזו צורה הולכת עם you?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_you_02",
@@ -1223,7 +1277,8 @@
       "feedback_try": "במשפט יש we, לכן are: We are here.",
       "worked_method": "you, we, they הולכים עם are. לא עם am.",
       "can_do": "להגיד we are",
-      "hint": "איזו צורה הולכת עם we?"
+      "hint": "איזו צורה הולכת עם we?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_you_04",
@@ -1253,7 +1308,8 @@
       "feedback_try": "במשפט יש you, לכן are not: You are not late.",
       "worked_method": "you, we, they הולכים עם are. לא עם am.",
       "can_do": "להגיד you are not",
-      "hint": "איך שוללים עם you?"
+      "hint": "איך שוללים עם you?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_you_05",
@@ -1283,7 +1339,8 @@
       "feedback_try": "במשפט יש we, לכן are not: We are not tired.",
       "worked_method": "you, we, they הולכים עם are. לא עם am.",
       "can_do": "להגיד we are not",
-      "hint": "איך שוללים עם we?"
+      "hint": "איך שוללים עם we?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_you_06",
@@ -1313,7 +1370,8 @@
       "feedback_try": "במשפט יש they, לכן are not: They are not ready.",
       "worked_method": "you, we, they הולכים עם are. לא עם am.",
       "can_do": "להגיד they are not",
-      "hint": "איך שוללים עם they?"
+      "hint": "איך שוללים עם they?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_you_03",
@@ -1343,7 +1401,8 @@
       "feedback_try": "במשפט יש they, לכן are: They are students.",
       "worked_method": "you, we, they הולכים עם are. לא עם am.",
       "can_do": "להגיד they are",
-      "hint": "איזו צורה הולכת עם they?"
+      "hint": "איזו צורה הולכת עם they?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "z_t_word_learn",
@@ -1352,7 +1411,8 @@
       "title": "מילה קצרה",
       "body_he": "קוראים את כל המילה, לא רק את האות הראשונה.",
       "body_content": "sun, map, dog",
-      "can_do": "לקרוא מילה קצרה שלמה"
+      "can_do": "לקרוא מילה קצרה שלמה",
+      "tile_role": "explanation"
     },
     {
       "id": "z_t_word_ex1",
@@ -1361,7 +1421,8 @@
       "title": "דוגמה: מחברים צלילים",
       "body_he": "קראו כל אות לפי הצליל שלה: h, a, t. חברו את הצלילים יחד. יוצאת המילה hat.",
       "body_content": "h-a-t: hat",
-      "can_do": "לחבר שלושה צלילים למילה"
+      "can_do": "לחבר שלושה צלילים למילה",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_word_ex2",
@@ -1370,7 +1431,8 @@
       "title": "דוגמה: מילה עם e",
       "body_he": "קראו p, e, n לאט, ואז מהר יותר. יוצאת המילה pen.",
       "body_content": "p-e-n: pen",
-      "can_do": "לקרוא מילה קצרה עם e"
+      "can_do": "לקרוא מילה קצרה עם e",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_word_ex3",
@@ -1379,7 +1441,8 @@
       "title": "דוגמה: טעות: רק האות הראשונה",
       "body_he": "טעות נפוצה: רואים b ומנחשים bus. קראו את כל האותיות: b, o, x. המילה היא box.",
       "body_content": "b-o-x: box",
-      "can_do": "לקרוא את כל המילה בלי לנחש"
+      "can_do": "לקרוא את כל המילה בלי לנחש",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_word_p1",
@@ -1409,7 +1472,8 @@
       "feedback_try": "s, u, n יחד נותנים sun. bus מתחיל ב b ו son כתוב עם o.",
       "can_do": "לחבר אותיות למילה",
       "worked_method": "קראו את האותיות לפי הסדר וחברו את הצלילים. למשל b, e, d נותן bed.\nכאן s, u, n יחד נותנים sun. bus נפתחת ב b, ו son כתובה עם o.\nהתשובה: sun.",
-      "hint": "חברו את האותיות לפי הסדר."
+      "hint": "חברו את האותיות לפי הסדר.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "z_t_word_p2",
@@ -1439,7 +1503,8 @@
       "feedback_try": "חיה קטנה שאומרת מיאו היא cat, לכן האות החסרה היא a.",
       "can_do": "להשלים אות חסרה במילה",
       "worked_method": "נסו כל אות במקום החסר ובדקו איזו מילה מתאימה לרמז.\nחיה קטנה שאומרת מיאו היא cat. עם o יוצא cot, ועם u יוצא cut.\nהתשובה: a.",
-      "hint": "איזו חיה עושה meow? אמרו את שמה באנגלית."
+      "hint": "איזו חיה עושה meow? אמרו את שמה באנגלית.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_01_t_word_04",
@@ -1469,7 +1534,8 @@
       "feedback_try": "קוראים את כל המילה: sun. המשפט המלא: Read the whole word: sun.",
       "worked_method": "קוראים את כל המילה, לא רק את האות הראשונה.",
       "can_do": "לקרוא מילה שלמה",
-      "hint": "כל האותיות ביחד."
+      "hint": "כל האותיות ביחד.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_word_05",
@@ -1499,7 +1565,8 @@
       "feedback_try": "קוראים את כל המילה: map. המשפט המלא: The word is not just the first letter. It is map.",
       "worked_method": "קוראים את כל המילה, לא רק את האות הראשונה.",
       "can_do": "לקרוא מילה שלמה",
-      "hint": "כל האותיות."
+      "hint": "כל האותיות.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_word_06",
@@ -1529,7 +1596,8 @@
       "feedback_try": "המילה השלמה היא dog. המשפט המלא: The full word is dog.",
       "worked_method": "קוראים את כל המילה, לא רק את האות הראשונה.",
       "can_do": "לקרוא מילה שלמה",
-      "hint": "לא חלק, כל המילה."
+      "hint": "לא חלק, כל המילה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_word_01",
@@ -1559,7 +1627,8 @@
       "feedback_try": "קוראים את כל המילה: sun. המשפט המלא: The word is sun.",
       "worked_method": "קוראים את כל המילה, לא רק את האות הראשונה.",
       "can_do": "לקרוא את המילה sun",
-      "hint": "לא רק את האות הראשונה."
+      "hint": "לא רק את האות הראשונה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_word_02",
@@ -1589,7 +1658,8 @@
       "feedback_try": "קוראים את כל המילה: map. המשפט המלא: The word is map.",
       "worked_method": "קוראים את כל המילה, לא רק את האות הראשונה.",
       "can_do": "לקרוא את המילה map",
-      "hint": "לא רק את האות הראשונה."
+      "hint": "לא רק את האות הראשונה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_word_03",
@@ -1619,7 +1689,8 @@
       "feedback_try": "קוראים את כל המילה: dog. המשפט המלא: The word is dog.",
       "worked_method": "קוראים את כל המילה, לא רק את האות הראשונה.",
       "can_do": "לקרוא את המילה dog",
-      "hint": "לא רק את האות הראשונה."
+      "hint": "לא רק את האות הראשונה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "z_t_sent_learn",
@@ -1628,7 +1699,8 @@
       "title": "משפט",
       "body_he": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
       "body_content": "I am here.",
-      "can_do": "לבנות משפט עם מי שעושה ופועל"
+      "can_do": "לבנות משפט עם מי שעושה ופועל",
+      "tile_role": "explanation"
     },
     {
       "id": "z_t_sent_ex1",
@@ -1637,7 +1709,8 @@
       "title": "דוגמה: משפט שלם",
       "body_he": "He is a cook. יש מישהו: He. יש פועל: is. יש אות גדולה בהתחלה ונקודה בסוף.",
       "body_content": "He is a cook.",
-      "can_do": "לזהות משפט שלם"
+      "can_do": "לזהות משפט שלם",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_sent_ex2",
@@ -1646,7 +1719,8 @@
       "title": "דוגמה: אות גדולה ונקודה",
       "body_he": "המשפט it is hot נפתח באות קטנה ואין בו נקודה. מתקנים: It is hot.",
       "body_content": "It is hot.",
-      "can_do": "לפתוח משפט באות גדולה ולסגור בנקודה"
+      "can_do": "לפתוח משפט באות גדולה ולסגור בנקודה",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_sent_ex3",
@@ -1655,7 +1729,8 @@
       "title": "דוגמה: טעות: חסר פועל",
       "body_he": "טעות נפוצה: Dan sad. חסר הפועל. Dan הוא אדם אחד, לכן is. נכון: Dan is sad.",
       "body_content": "Dan is sad.",
-      "can_do": "להשלים פועל חסר במשפט"
+      "can_do": "להשלים פועל חסר במשפט",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_t_sent_p1",
@@ -1685,7 +1760,8 @@
       "feedback_try": "I am here יש בו מי (I) ופועל (am). בשניים האחרים חסר אחד מהם.",
       "can_do": "לזהות משפט שלם",
       "worked_method": "בכל משפט שלם יש מי שעושה ויש פועל. למשל He is tall.\nב Am here חסר מי, וב I here חסר פועל.\nהתשובה: I am here.",
-      "hint": "משפט שלם צריך מי שעושה ופועל."
+      "hint": "משפט שלם צריך מי שעושה ופועל.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "z_t_sent_p2",
@@ -1715,7 +1791,8 @@
       "feedback_try": "לפני am צריך מי שעושה, וזה I באות גדולה: I am a student.",
       "can_do": "לכתוב I באות גדולה",
       "worked_method": "לפני am צריך את I, ו I נכתבת תמיד באות גדולה.\ni קטנה אינה נכונה, ו am כבר כתוב במשפט.\nהתשובה: I.",
-      "hint": "I היא המילה שאומרת אני. איך כותבים אותה תמיד?"
+      "hint": "I היא המילה שאומרת אני. איך כותבים אותה תמיד?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_01_t_sent_01",
@@ -1745,7 +1822,8 @@
       "feedback_try": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל: I am here.",
       "worked_method": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
       "can_do": "לכתוב משפט פשוט",
-      "hint": "אות גדולה בהתחלה."
+      "hint": "אות גדולה בהתחלה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_sent_02",
@@ -1775,7 +1853,8 @@
       "feedback_try": "משפט נגמר בנקודה: She is happy.",
       "worked_method": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
       "can_do": "לגמור משפט בנקודה",
-      "hint": "משפט נגמר בנקודה."
+      "hint": "משפט נגמר בנקודה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_sent_03",
@@ -1805,7 +1884,8 @@
       "feedback_try": "יש בו מישהו ופועל: We are ready.",
       "worked_method": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
       "can_do": "לכתוב משפט עם we",
-      "hint": "אות גדולה, ומישהו שמתאים."
+      "hint": "אות גדולה, ומישהו שמתאים.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_sent_04",
@@ -1835,7 +1915,8 @@
       "feedback_try": "משפט מתחיל באות גדולה: He is a student.",
       "worked_method": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
       "can_do": "להתחיל משפט באות גדולה",
-      "hint": "אות גדולה בהתחלה."
+      "hint": "אות גדולה בהתחלה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_sent_06",
@@ -1865,7 +1946,8 @@
       "feedback_try": "משפט נגמר בנקודה: I am a student.",
       "worked_method": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
       "can_do": "לגמור משפט בנקודה",
-      "hint": "משפט פשוט נגמר בנקודה."
+      "hint": "משפט פשוט נגמר בנקודה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_01_t_sent_05",
@@ -1895,7 +1977,8 @@
       "feedback_try": "יש בו מישהו ופועל: They are here.",
       "worked_method": "משפט מתחיל באות גדולה ונגמר בנקודה. יש בו מישהו ופועל.",
       "can_do": "לכתוב משפט עם they",
-      "hint": "פועל שמתאים ל they."
+      "hint": "פועל שמתאים ל they.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "z_rev2_learn",
@@ -1909,7 +1992,8 @@
         "t_word",
         "t_sent"
       ],
-      "can_do": "לחזור על you, we, they ומשפט שלם"
+      "can_do": "לחזור על you, we, they ומשפט שלם",
+      "tile_role": "explanation"
     },
     {
       "id": "z_rev2_q",
@@ -1944,7 +2028,8 @@
       "feedback_try": "במשפט יש You, לכן are: You are ready.",
       "can_do": "לבחור are אחרי you בלי רמז",
       "worked_method": "חזרו על הכלל: you הולך תמיד עם are, גם כשמדברים אל אדם אחד.\nבמשפט יש You.\nהתשובה: are.",
-      "hint": "איזו צורה של to be הולכת עם you?"
+      "hint": "איזו צורה של to be הולכת עם you?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "z_final_check",
@@ -1974,7 +2059,8 @@
       "feedback_try": "במשפט יש They, ועם they בא are: They are not late.",
       "can_do": "לשלול משפט עם they are not",
       "worked_method": "בשלילה הפועל נשאר כמו במשפט רגיל, ו not בא אחריו.\nעם They בא are, ואחריו כבר כתוב not.\nהתשובה: are.",
-      "hint": "They הם רבים. איזו צורה של to be באה לפני not?"
+      "hint": "They הם רבים. איזו צורה של to be באה לפני not?",
+      "tile_role": "quick_check"
     },
     {
       "id": "z_celebrate",

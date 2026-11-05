@@ -43,7 +43,8 @@
         "xp_04_t_art_04",
         "xp_04_t_art_05",
         "xp_04_t_art_06"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_perf",
@@ -66,7 +67,8 @@
         "xp_04_t_perf_05",
         "xp_04_t_perf_06",
         "xp_04_t_perf_01"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_if",
@@ -89,7 +91,8 @@
         "xp_04_t_if_04",
         "xp_04_t_if_05",
         "xp_04_t_if_06"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_review_1",
@@ -101,7 +104,8 @@
       "node_ids": [
         "ac_rev1_learn",
         "ac_rev1_q"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_an",
@@ -124,7 +128,8 @@
         "xp_04_t_an_05",
         "xp_04_t_an_06",
         "xp_04_t_an_03"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_order",
@@ -147,7 +152,8 @@
         "xp_04_t_order_04",
         "xp_04_t_order_05",
         "xp_04_t_order_06"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_for",
@@ -170,7 +176,8 @@
         "xp_04_t_for_04",
         "xp_04_t_for_05",
         "xp_04_t_for_06"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_review_2",
@@ -182,7 +189,8 @@
       "node_ids": [
         "ac_rev2_learn",
         "ac_rev2_q"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_end",
@@ -194,7 +202,8 @@
       "node_ids": [
         "ac_final_check",
         "ac_celebrate"
-      ]
+      ],
+      "level": 3
     }
   ],
   "nodes": [
@@ -205,7 +214,8 @@
       "title": "a וthe",
       "body_he": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
       "body_content": "I saw a bird. The bird was blue. Birds need water.",
-      "can_do": "לבחור בין a, the ובלי מילה"
+      "can_do": "לבחור בין a, the ובלי מילה",
+      "tile_role": "explanation"
     },
     {
       "id": "ac_t_art_ex1",
@@ -214,7 +224,8 @@
       "title": "דוגמה: a בפעם הראשונה",
       "body_he": "מדברים על המפתח בפעם הראשונה. לכן a. We found a key.",
       "body_content": "We found a key.",
-      "can_do": "להשתמש ב a בפעם הראשונה"
+      "can_do": "להשתמש ב a בפעם הראשונה",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_art_ex2",
@@ -223,7 +234,8 @@
       "title": "דוגמה: the כשכבר יודעים",
       "body_he": "עכשיו כבר יודעים על איזה מפתח מדובר. לכן the. The key was under the mat.",
       "body_content": "We found a key. The key was under the mat.",
-      "can_do": "להשתמש ב the בפעם השנייה"
+      "can_do": "להשתמש ב the בפעם השנייה",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_art_ex3",
@@ -232,7 +244,8 @@
       "title": "דוגמה: טעות: the על כללי",
       "body_he": "טעות נפוצה: The cats like milk, כשמדברים על כל החתולים. על דבר כללי ברבים לא שמים מילה. נכון: Cats like milk.",
       "body_content": "Cats like milk.",
-      "can_do": "לכתוב רבים כלליים בלי the"
+      "can_do": "לכתוב רבים כלליים בלי the",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_art_p1",
@@ -262,7 +275,8 @@
       "feedback_try": "זו הפעם הראשונה שמזכירים את הציפור, וbird נפתח בצליל b. לכן a: I saw a bird.",
       "can_do": "להשתמש ב a בפעם הראשונה",
       "worked_method": "בפעם הראשונה שמזכירים משהו כותבים a או an. a לפני צליל שאינו תנועה, למשל a cake.\nזו הפעם הראשונה שהציפור מופיעה, ו bird נפתחת בצליל b.\nהתשובה: a.",
-      "hint": "ציפור שמוזכרת בפעם הראשונה. ו bird פותחת בעיצור."
+      "hint": "ציפור שמוזכרת בפעם הראשונה. ו bird פותחת בעיצור.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_art_p2",
@@ -292,7 +306,8 @@
       "feedback_try": "הציפור כבר הוזכרה, לכן The: The bird was blue.",
       "can_do": "להשתמש ב the לדבר שכבר הוזכר",
       "worked_method": "כשמשהו כבר הוזכר כותבים the. למשל I have a cat. The cat sleeps.\nהציפור כבר הוזכרה קודם.\nהתשובה: The.",
-      "hint": "הציפור כבר הוזכרה. איזו מילה באה לפני דבר מוכר?"
+      "hint": "הציפור כבר הוזכרה. איזו מילה באה לפני דבר מוכר?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_art_p3",
@@ -322,7 +337,8 @@
       "feedback_try": "המשפט על כל הכלבים, לכן בלי the: Dogs need water. a לא בא לפני רבים.",
       "can_do": "לדבר על משהו כללי ברבים בלי the",
       "worked_method": "כשמדברים על כל הסוג ברבים, כותבים את השם בלי a ובלי the. למשל Birds fly.\nהמשפט על כל הכלבים. a לא בא לפני רבים, ו The dogs זו קבוצה מסוימת.\nהתשובה: Dogs need water.",
-      "hint": "כשמדברים על כל הכלבים בכלל, צריך מילה לפני dogs?"
+      "hint": "כשמדברים על כל הכלבים בכלל, צריך מילה לפני dogs?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_04_t_art_01",
@@ -352,7 +368,8 @@
       "feedback_try": "a בפעם הראשונה: I saw a bird.",
       "worked_method": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
       "can_do": "להגיד a bird",
-      "hint": "פעם ראשונה: a."
+      "hint": "פעם ראשונה: a.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_art_02",
@@ -382,7 +399,8 @@
       "feedback_try": "the כשכבר יודעים על מה מדובר: The bird was blue.",
       "worked_method": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
       "can_do": "להגיד the bird",
-      "hint": "כבר יודעים: the."
+      "hint": "כבר יודעים: the.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_art_03",
@@ -412,7 +430,8 @@
       "feedback_try": "על דבר כללי ברבים לא שמים מילה בכלל: Birds need water.",
       "worked_method": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
       "can_do": "להגיד birds",
-      "hint": "כללי ברבים: בלי מילה."
+      "hint": "כללי ברבים: בלי מילה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_art_04",
@@ -442,7 +461,8 @@
       "feedback_try": "a בפעם הראשונה: She bought a car.",
       "worked_method": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
       "can_do": "להגיד a car",
-      "hint": "פעם ראשונה: a."
+      "hint": "פעם ראשונה: a.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_art_05",
@@ -472,7 +492,8 @@
       "feedback_try": "the כשכבר יודעים על מה מדובר: The car is red.",
       "worked_method": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
       "can_do": "להגיד the car",
-      "hint": "כבר יודעים: the."
+      "hint": "כבר יודעים: the.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_art_06",
@@ -502,7 +523,8 @@
       "feedback_try": "על דבר כללי ברבים לא שמים מילה בכלל: Cars need fuel.",
       "worked_method": "a בפעם הראשונה. the כשכבר יודעים על מה מדובר. על דבר כללי ברבים לא שמים מילה בכלל.",
       "can_do": "להגיד cars",
-      "hint": "כללי ברבים: בלי מילה."
+      "hint": "כללי ברבים: בלי מילה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "ac_t_perf_learn",
@@ -511,7 +533,8 @@
       "title": "זמן פתוח וזמן סגור",
       "body_he": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
       "body_content": "I have seen this film. I saw it yesterday.",
-      "can_do": "להבחין בין זמן פתוח לזמן סגור"
+      "can_do": "להבחין בין זמן פתוח לזמן סגור",
+      "tile_role": "explanation"
     },
     {
       "id": "ac_t_perf_ex1",
@@ -520,7 +543,8 @@
       "title": "דוגמה: has ועוד צורה שלישית",
       "body_he": "הזמן עוד פתוח, עד עכשיו. עם she אומרים has. She has visited London twice.",
       "body_content": "She has visited London twice.",
-      "can_do": "לספר על ניסיון עם has"
+      "can_do": "לספר על ניסיון עם has",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_perf_ex2",
@@ -529,7 +553,8 @@
       "title": "דוגמה: last year",
       "body_he": "last year זמן שנגמר, לכן עבר רגיל. She visited London last year.",
       "body_content": "She visited London last year.",
-      "can_do": "לבחור עבר רגיל עם זמן שנגמר"
+      "can_do": "לבחור עבר רגיל עם זמן שנגמר",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_perf_ex3",
@@ -538,7 +563,8 @@
       "title": "דוגמה: טעות: have עם last night",
       "body_he": "טעות נפוצה: We have finished it last night. last night זמן שנגמר. נכון: We finished it last night.",
       "body_content": "We finished it last night.",
-      "can_do": "לא לשים have עם זמן שנגמר"
+      "can_do": "לא לשים have עם זמן שנגמר",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_perf_p1",
@@ -568,7 +594,8 @@
       "feedback_try": "במשפט יש I, לכן have, ואחריו seen: I have seen this film.",
       "can_do": "לספר על ניסיון עם have והצורה השלישית",
       "worked_method": "have או has ואחריו צורת עבר שלישית מתארים משהו עד עכשיו. have עם I, you, we, they.\nבמשפט יש I, לכן have, ואחריו seen.\nהתשובה: have seen.",
-      "hint": "ניסיון עד עכשיו: have או has ואחריהם הצורה השלישית."
+      "hint": "ניסיון עד עכשיו: have או has ואחריהם הצורה השלישית.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_perf_p2",
@@ -598,7 +625,8 @@
       "feedback_try": "in 2019 היא שנה שנגמרה, לכן עבר רגיל: We went to Eilat in 2019.",
       "can_do": "לבחור עבר רגיל לשנה שנגמרה",
       "worked_method": "זמן שכבר נגמר, כמו in 2019, הולך עם עבר רגיל בלי have. למשל She moved in 2015.\nin 2019 היא שנה שנגמרה. have went אינו קיים.\nהתשובה: went.",
-      "hint": "in 2019 הוא זמן שנגמר. איזה זמן מתאים?"
+      "hint": "in 2019 הוא זמן שנגמר. איזה זמן מתאים?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_perf_p3",
@@ -628,7 +656,8 @@
       "feedback_try": "השאלה עם ever היא עד עכשיו, ועם you בא Have: Have you ever eaten sushi?",
       "can_do": "לשאול Have you ever",
       "worked_method": "שאלה עם ever שואלת על כל החיים עד עכשיו, ולכן פותחת ב Have או Has.\nבשאלה יש you, ו eaten היא צורת עבר שלישית.\nהתשובה: Have.",
-      "hint": "eaten היא הצורה השלישית. מה בא לפניה עם you?"
+      "hint": "eaten היא הצורה השלישית. מה בא לפניה עם you?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_04_t_perf_02",
@@ -658,7 +687,8 @@
       "feedback_try": "זמן שנגמר: עבר רגיל: I saw it yesterday.",
       "worked_method": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
       "can_do": "להגיד saw yesterday",
-      "hint": "yesterday: עבר רגיל."
+      "hint": "yesterday: עבר רגיל.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_perf_03",
@@ -688,7 +718,8 @@
       "feedback_try": "have והצורה השלישית כשהזמן עוד פתוח: I have lived here for two years.",
       "worked_method": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
       "can_do": "להגיד have lived",
-      "hint": "for: have."
+      "hint": "for: have.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_perf_04",
@@ -718,7 +749,8 @@
       "feedback_try": "זמן שנגמר: עבר רגיל: I went there in 2019.",
       "worked_method": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
       "can_do": "להגיד went in 2019",
-      "hint": "2019: עבר רגיל."
+      "hint": "2019: עבר רגיל.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_perf_05",
@@ -748,7 +780,8 @@
       "feedback_try": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever: Have you ever seen this film?",
       "worked_method": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
       "can_do": "להגיד have ever",
-      "hint": "ever עם have."
+      "hint": "ever עם have.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_perf_06",
@@ -778,7 +811,8 @@
       "feedback_try": "זמן שנגמר: עבר רגיל: She saw the film yesterday.",
       "worked_method": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
       "can_do": "להגיד saw yesterday",
-      "hint": "yesterday: עבר רגיל."
+      "hint": "yesterday: עבר רגיל.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_perf_01",
@@ -808,7 +842,8 @@
       "feedback_try": "have והצורה השלישית כשהזמן עוד פתוח: I have seen this film.",
       "worked_method": "have והצורה השלישית כשהזמן עוד פתוח, כמו ever או עד עכשיו. זמן שנגמר, כמו yesterday או 2019, דורש עבר רגיל.",
       "can_do": "להגיד have seen",
-      "hint": "זמן פתוח: have."
+      "hint": "זמן פתוח: have.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "ac_t_if_learn",
@@ -817,7 +852,8 @@
       "title": "תנאי ראשון",
       "body_he": "אחרי if בא הווה. בחלק של התוצאה בא will.",
       "body_content": "If it rains, we will stay home.",
-      "can_do": "לבנות תנאי ראשון עם if ו will"
+      "can_do": "לבנות תנאי ראשון עם if ו will",
+      "tile_role": "explanation"
     },
     {
       "id": "ac_t_if_ex1",
@@ -826,7 +862,8 @@
       "title": "דוגמה: if עם are",
       "body_he": "אחרי if בא הווה: are. בתוצאה בא will. If you are late, we will wait.",
       "body_content": "If you are late, we will wait.",
-      "can_do": "לבנות תנאי ראשון עם are"
+      "can_do": "לבנות תנאי ראשון עם are",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_if_ex2",
@@ -835,7 +872,8 @@
       "title": "דוגמה: התוצאה קודם",
       "body_he": "אפשר להתחיל בתוצאה. גם כך אחרי if בא הווה. We will go out if the sun shines.",
       "body_content": "We will go out if the sun shines.",
-      "can_do": "לכתוב תנאי שמתחיל בתוצאה"
+      "can_do": "לכתוב תנאי שמתחיל בתוצאה",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_if_ex3",
@@ -844,7 +882,8 @@
       "title": "דוגמה: טעות: will אחרי if",
       "body_he": "טעות נפוצה: If he will come, we will eat. אחרי if לא כותבים will. נכון: If he comes, we will eat.",
       "body_content": "If he comes, we will eat.",
-      "can_do": "להוריד will מהחלק של if"
+      "can_do": "להוריד will מהחלק של if",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_if_p1",
@@ -874,7 +913,8 @@
       "feedback_try": "החלק עם if כבר בהווה (rains), לכן בחלק השני will: we will stay home.",
       "can_do": "לשים will בחלק של התוצאה",
       "worked_method": "בתנאי ראשון: אחרי if כותבים הווה, ובחלק השני will. למשל If it snows, I will stay in.\nאחרי if כבר כתוב rains, לכן בחלק השני will.\nהתשובה: will stay.",
-      "hint": "בתנאי ראשון, אחרי הפסיק בא will."
+      "hint": "בתנאי ראשון, אחרי הפסיק בא will.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_if_p2",
@@ -904,7 +944,8 @@
       "feedback_try": "אחרי if כותבים הווה, ועם she מוסיפים es: If she finishes early, she will call.",
       "can_do": "להשאיר הווה אחרי if",
       "worked_method": "בתנאי ראשון אחרי if כותבים הווה, גם כשמדברים על העתיד.\nעם she הפועל בהווה מקבל es, ו will כבר נמצא בחלק השני.\nהתשובה: finishes.",
-      "hint": "אחרי if לא בא will. איזו צורה של הווה עם she?"
+      "hint": "אחרי if לא בא will. איזו צורה של הווה עם she?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_if_p3",
@@ -934,7 +975,8 @@
       "feedback_try": "if it rains בהווה, וwe will stay home עם will. לכן We will stay home if it rains.",
       "can_do": "לבנות תנאי ראשון בכל סדר",
       "worked_method": "בתנאי ראשון הסדר יכול להתחלף, אבל הכלל נשאר: הווה אחרי if, ו will בחלק השני.\nבאפשרות השנייה will בא אחרי if, ובשלישית יש עבר. רק בראשונה הכלל נשמר.\nהתשובה: We will stay home if it rains.",
-      "hint": "will בא בחלק של התוצאה, לא בחלק של if."
+      "hint": "will בא בחלק של התוצאה, לא בחלק של if.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_04_t_if_01",
@@ -964,7 +1006,8 @@
       "feedback_try": "אחרי if בא הווה. בחלק של התוצאה בא will: If it rains, we will stay home.",
       "worked_method": "אחרי if בא הווה. בחלק של התוצאה בא will.",
       "can_do": "להגיד if it rains",
-      "hint": "אחרי if: הווה."
+      "hint": "אחרי if: הווה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_if_02",
@@ -994,7 +1037,8 @@
       "feedback_try": "בחלק של התוצאה בא will: If it rains, we will stay home.",
       "worked_method": "אחרי if בא הווה. בחלק של התוצאה בא will.",
       "can_do": "להגיד we will",
-      "hint": "תוצאה: will."
+      "hint": "תוצאה: will.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_if_03",
@@ -1024,7 +1068,8 @@
       "feedback_try": "אחרי if בא הווה: If she comes, I will call you.",
       "worked_method": "אחרי if בא הווה. בחלק של התוצאה בא will.",
       "can_do": "להגיד if she comes",
-      "hint": "אחרי if: הווה."
+      "hint": "אחרי if: הווה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_if_04",
@@ -1054,7 +1099,8 @@
       "feedback_try": "בחלק של התוצאה בא will: If she comes, I will call you.",
       "worked_method": "אחרי if בא הווה. בחלק של התוצאה בא will.",
       "can_do": "להגיד I will",
-      "hint": "תוצאה: will."
+      "hint": "תוצאה: will.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_if_05",
@@ -1084,7 +1130,8 @@
       "feedback_try": "אחרי if בא הווה: If they leave, we will start.",
       "worked_method": "אחרי if בא הווה. בחלק של התוצאה בא will.",
       "can_do": "להגיד if they leave",
-      "hint": "אחרי if: הווה."
+      "hint": "אחרי if: הווה.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_if_06",
@@ -1114,7 +1161,8 @@
       "feedback_try": "בחלק של התוצאה בא will: If they leave, we will start.",
       "worked_method": "אחרי if בא הווה. בחלק של התוצאה בא will.",
       "can_do": "להגיד we will",
-      "hint": "תוצאה: will."
+      "hint": "תוצאה: will.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "ac_rev1_learn",
@@ -1128,7 +1176,8 @@
         "t_perf",
         "t_if"
       ],
-      "can_do": "לחזור על מילות יידוע, זמן פתוח ותנאי"
+      "can_do": "לחזור על מילות יידוע, זמן פתוח ותנאי",
+      "tile_role": "explanation"
     },
     {
       "id": "ac_rev1_q",
@@ -1163,7 +1212,8 @@
       "feedback_try": "בפעם הראשונה umbrella, שנפתח בצליל תנועה, לכן an. בפעם השנייה כבר הוזכר, לכן The.",
       "can_do": "לבחור an ו The ברצף",
       "worked_method": "an לפני צליל תנועה בפעם הראשונה, ו the כשהדבר כבר הוזכר.\numbrella נפתחת בצליל תנועה, לכן an. בפעם השנייה היא כבר הוזכרה, לכן The.\nהתשובה: an, The.",
-      "hint": "פעם ראשונה ופעם שנייה. ו umbrella פותחת בצליל תנועה."
+      "hint": "פעם ראשונה ופעם שנייה. ו umbrella פותחת בצליל תנועה.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_an_learn",
@@ -1172,7 +1222,8 @@
       "title": "an",
       "body_he": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
       "body_content": "I ate an apple.",
-      "can_do": "לבחור a או an לפי הצליל"
+      "can_do": "לבחור a או an לפי הצליל",
+      "tile_role": "explanation"
     },
     {
       "id": "ac_t_an_ex1",
@@ -1181,7 +1232,8 @@
       "title": "דוגמה: an egg",
       "body_he": "egg נפתחת בצליל תנועה. לכן an. She ate an egg.",
       "body_content": "She ate an egg.",
-      "can_do": "לכתוב an לפני צליל תנועה"
+      "can_do": "לכתוב an לפני צליל תנועה",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_an_ex2",
@@ -1190,7 +1242,8 @@
       "title": "דוגמה: a house",
       "body_he": "ב house שומעים את h. זה צליל עיצור, לכן a. They live in a house.",
       "body_content": "They live in a house.",
-      "can_do": "לכתוב a כש h נשמעת"
+      "can_do": "לכתוב a כש h נשמעת",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_an_ex3",
@@ -1199,7 +1252,8 @@
       "title": "דוגמה: טעות: a orange",
       "body_he": "טעות נפוצה: I want a orange. orange נפתחת בצליל תנועה. נכון: I want an orange.",
       "body_content": "I want an orange.",
-      "can_do": "לתקן a ל an לפני תנועה"
+      "can_do": "לתקן a ל an לפני תנועה",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_an_p1",
@@ -1229,7 +1283,8 @@
       "feedback_try": "apple נפתח בצליל a, תנועה. לכן an apple.",
       "can_do": "להגיד an לפני צליל תנועה",
       "worked_method": "בחרו לפי הצליל הראשון. an לפני צליל תנועה, למשל an egg.\napple נפתחת בצליל תנועה.\nהתשובה: an.",
-      "hint": "apple פותחת בצליל תנועה."
+      "hint": "apple פותחת בצליל תנועה.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_an_p2",
@@ -1259,7 +1314,8 @@
       "feedback_try": "university נשמע בהתחלה כמו yes, צליל y. לכן a university.",
       "can_do": "להגיד a university לפי הצליל",
       "worked_method": "בחרו לפי הצליל, לא לפי האות. a לפני צליל y, למשל a uniform.\nuniversity נשמעת בהתחלה כמו you, צליל y.\nהתשובה: a.",
-      "hint": "אמרו university בקול. באיזה צליל היא נפתחת?"
+      "hint": "אמרו university בקול. באיזה צליל היא נפתחת?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_an_p3",
@@ -1289,7 +1345,8 @@
       "feedback_try": "בhour הh שקטה, והצליל הראשון הוא תנועה. לכן an hour.",
       "can_do": "להגיד an hour כש h שקטה",
       "worked_method": "כשה h שקטה, הצליל הראשון הוא תנועה, ולכן an. למשל an honest man.\nב hour לא שומעים h, והמילה נשמעת כמו our.\nהתשובה: an.",
-      "hint": "ב hour האות h לא נשמעת. באיזה צליל המילה נפתחת?"
+      "hint": "ב hour האות h לא נשמעת. באיזה צליל המילה נפתחת?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_04_t_an_01",
@@ -1319,7 +1376,8 @@
       "feedback_try": "an לפני צליל תנועה: I ate an apple.",
       "worked_method": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
       "can_do": "להגיד an apple",
-      "hint": "צליל תנועה: an."
+      "hint": "צליל תנועה: an.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_an_02",
@@ -1349,7 +1407,8 @@
       "feedback_try": "an לפני צליל תנועה: I waited an hour.",
       "worked_method": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
       "can_do": "להגיד an hour",
-      "hint": "צליל תנועה: an."
+      "hint": "צליל תנועה: an.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_an_04",
@@ -1379,7 +1438,8 @@
       "feedback_try": "a לפני צליל עיצור: She goes to a university.",
       "worked_method": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
       "can_do": "להגיד a university",
-      "hint": "צליל עיצור: a."
+      "hint": "צליל עיצור: a.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_an_05",
@@ -1409,7 +1469,8 @@
       "feedback_try": "an לפני צליל תנועה: I bought an orange.",
       "worked_method": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
       "can_do": "להגיד an orange",
-      "hint": "צליל תנועה: an."
+      "hint": "צליל תנועה: an.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_an_06",
@@ -1439,7 +1500,8 @@
       "feedback_try": "a לפני צליל עיצור: They live in a house.",
       "worked_method": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
       "can_do": "להגיד a house",
-      "hint": "צליל עיצור: a."
+      "hint": "צליל עיצור: a.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_an_03",
@@ -1469,7 +1531,8 @@
       "feedback_try": "a לפני צליל עיצור: I saw a bird.",
       "worked_method": "an לפני צליל תנועה: an apple, an hour. a לפני צליל עיצור: a bird, a university. קובע הצליל, לא האות.",
       "can_do": "להגיד a bird",
-      "hint": "צליל עיצור: a."
+      "hint": "צליל עיצור: a.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "ac_t_order_learn",
@@ -1478,7 +1541,8 @@
       "title": "סדר מילים",
       "body_he": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
       "body_content": "I never drink cold coffee.",
-      "can_do": "לסדר מילים במשפט באנגלית"
+      "can_do": "לסדר מילים במשפט באנגלית",
+      "tile_role": "explanation"
     },
     {
       "id": "ac_t_order_ex1",
@@ -1487,7 +1551,8 @@
       "title": "דוגמה: נושא, פועל, מושא",
       "body_he": "Dan הוא הנושא, bought הפועל, a phone המושא. Dan bought a phone.",
       "body_content": "Dan bought a phone.",
-      "can_do": "לסדר נושא, פועל ומושא"
+      "can_do": "לסדר נושא, פועל ומושא",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_order_ex2",
@@ -1496,7 +1561,8 @@
       "title": "דוגמה: תואר לפני השם",
       "body_he": "התואר small בא לפני השם flat. We live in a small flat.",
       "body_content": "We live in a small flat.",
-      "can_do": "לשים תואר לפני השם"
+      "can_do": "לשים תואר לפני השם",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_order_ex3",
@@ -1505,7 +1571,8 @@
       "title": "דוגמה: טעות: תואר אחרי השם",
       "body_he": "טעות נפוצה: He has a house big. באנגלית התואר בא לפני השם. נכון: He has a big house.",
       "body_content": "He has a big house.",
-      "can_do": "לתקן תואר שבא אחרי השם"
+      "can_do": "לתקן תואר שבא אחרי השם",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_order_p1",
@@ -1535,7 +1602,8 @@
       "feedback_try": "התואר red בא לפני השם car: She has a red car.",
       "can_do": "לשים תואר לפני שם העצם",
       "worked_method": "באנגלית מילה שמתארת שם באה לפניו. למשל a big house.\nred הוא התואר ו car הוא השם, לכן red לפני car.\nהתשובה: She has a red car.",
-      "hint": "באנגלית התואר בא לפני שם העצם."
+      "hint": "באנגלית התואר בא לפני שם העצם.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_order_p2",
@@ -1565,7 +1633,8 @@
       "feedback_try": "never בא לפני הפועל drink: I never drink coffee.",
       "can_do": "לשים never לפני הפועל",
       "worked_method": "never ו always באים לפני פועל רגיל. למשל We always walk.\nהפועל כאן הוא drink, לכן never בא לפניו.\nהתשובה: I never drink coffee.",
-      "hint": "never בא לפני הפועל הרגיל."
+      "hint": "never בא לפני הפועל הרגיל.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_order_p3",
@@ -1595,7 +1664,8 @@
       "feedback_try": "מי Dana, פועל reads, מושא the paper, ובסוף זמן every morning.",
       "can_do": "לשים את המושא מיד אחרי הפועל",
       "worked_method": "הסדר באנגלית: מי, פועל, מושא, ובסוף זמן. למשל Ron eats lunch at noon.\nמי Dana, פועל reads, מושא the paper, זמן every morning.\nהתשובה: Dana reads the paper every morning.",
-      "hint": "מה שהפועל פועל עליו בא מיד אחריו, והזמן בסוף."
+      "hint": "מה שהפועל פועל עליו בא מיד אחריו, והזמן בסוף.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_04_t_order_01",
@@ -1625,7 +1695,8 @@
       "feedback_try": "never בא לפני הפועל העיקרי: I never drink cold coffee.",
       "worked_method": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
       "can_do": "להגיד never drink",
-      "hint": "never לפני הפועל."
+      "hint": "never לפני הפועל.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_order_02",
@@ -1655,7 +1726,8 @@
       "feedback_try": "תואר בא לפני השם: She drives a red car.",
       "worked_method": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
       "can_do": "להגיד a red car",
-      "hint": "תואר לפני השם."
+      "hint": "תואר לפני השם.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_order_03",
@@ -1685,7 +1757,8 @@
       "feedback_try": "always בא לפני הפועל העיקרי: He always starts early.",
       "worked_method": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
       "can_do": "להגיד always starts",
-      "hint": "always לפני הפועל."
+      "hint": "always לפני הפועל.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_order_04",
@@ -1715,7 +1788,8 @@
       "feedback_try": "תואר בא לפני השם: They live in a big house.",
       "worked_method": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
       "can_do": "להגיד a big house",
-      "hint": "תואר לפני השם."
+      "hint": "תואר לפני השם.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_order_05",
@@ -1745,7 +1819,8 @@
       "feedback_try": "never בא לפני הפועל העיקרי: We never eat late.",
       "worked_method": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
       "can_do": "להגיד never eat",
-      "hint": "never לפני הפועל."
+      "hint": "never לפני הפועל.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_order_06",
@@ -1775,7 +1850,8 @@
       "feedback_try": "תואר בא לפני השם: He has a blue car.",
       "worked_method": "נושא, פועל, ואז מושא. תואר בא לפני השם: a red car. never וalways באים לפני הפועל העיקרי.",
       "can_do": "להגיד a blue car",
-      "hint": "תואר לפני השם."
+      "hint": "תואר לפני השם.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "ac_t_for_learn",
@@ -1784,7 +1860,8 @@
       "title": "for וsince",
       "body_he": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
       "body_content": "I have lived here for two years.",
-      "can_do": "להבחין בין for ל since"
+      "can_do": "להבחין בין for ל since",
+      "tile_role": "explanation"
     },
     {
       "id": "ac_t_for_ex1",
@@ -1793,7 +1870,8 @@
       "title": "דוגמה: for עם משך",
       "body_he": "six months זה משך. לכן for. She has worked here for six months.",
       "body_content": "She has worked here for six months.",
-      "can_do": "להשתמש ב for עם משך"
+      "can_do": "להשתמש ב for עם משך",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_for_ex2",
@@ -1802,7 +1880,8 @@
       "title": "דוגמה: since עם נקודה",
       "body_he": "2015 זו נקודת התחלה. לכן since. We have known them since 2015.",
       "body_content": "We have known them since 2015.",
-      "can_do": "להשתמש ב since עם נקודת התחלה"
+      "can_do": "להשתמש ב since עם נקודת התחלה",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_for_ex3",
@@ -1811,7 +1890,8 @@
       "title": "דוגמה: טעות: since עם משך",
       "body_he": "טעות נפוצה: I have lived here since five years. five years זה משך. נכון: I have lived here for five years.",
       "body_content": "I have lived here for five years.",
-      "can_do": "לתקן since ל for לפני משך"
+      "can_do": "לתקן since ל for לפני משך",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_t_for_p1",
@@ -1841,7 +1921,8 @@
       "feedback_try": "a year הוא משך זמן, לכן for: I have known her for a year.",
       "can_do": "להשתמש ב for עם משך זמן",
       "worked_method": "for בא לפני משך זמן, ו since לפני נקודת התחלה. למשל for ten minutes.\na year הוא משך זמן, שנה שלמה.\nהתשובה: for.",
-      "hint": "a year הוא משך זמן."
+      "hint": "a year הוא משך זמן.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_for_p2",
@@ -1871,7 +1952,8 @@
       "feedback_try": "March היא נקודת התחלה, לכן since: He has worked here since March.",
       "can_do": "להשתמש ב since עם נקודת התחלה",
       "worked_method": "since בא לפני נקודת התחלה, כמו יום, חודש או שנה. למשל since Sunday.\nMarch הוא הרגע שבו העבודה התחילה.\nהתשובה: since.",
-      "hint": "March היא נקודת התחלה."
+      "hint": "March היא נקודת התחלה.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_t_for_p3",
@@ -1901,7 +1983,8 @@
       "feedback_try": "lived היא צורת עבר שלישית, והשאלה היא עד עכשיו. עם you בא have: How long have you lived in Haifa?",
       "can_do": "לשאול How long have you",
       "worked_method": "How long על משהו שנמשך עד עכשיו שואלים עם have או has וצורת עבר שלישית.\nlived היא צורת עבר שלישית, ועם you בא have.\nהתשובה: have.",
-      "hint": "lived כאן היא הצורה השלישית עד עכשיו."
+      "hint": "lived כאן היא הצורה השלישית עד עכשיו.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_04_t_for_01",
@@ -1931,7 +2014,8 @@
       "feedback_try": "for עם משך: I have lived here for two years.",
       "worked_method": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
       "can_do": "להגיד for two years",
-      "hint": "משך: for."
+      "hint": "משך: for.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_for_02",
@@ -1961,7 +2045,8 @@
       "feedback_try": "since עם נקודת התחלה: I have lived here since 2020.",
       "worked_method": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
       "can_do": "להגיד since 2020",
-      "hint": "נקודת התחלה: since."
+      "hint": "נקודת התחלה: since.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_for_03",
@@ -1991,7 +2076,8 @@
       "feedback_try": "for עם משך: She has worked here for three months.",
       "worked_method": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
       "can_do": "להגיד for three months",
-      "hint": "משך: for."
+      "hint": "משך: for.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_for_04",
@@ -2021,7 +2107,8 @@
       "feedback_try": "since עם נקודת התחלה: He has been here since Monday.",
       "worked_method": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
       "can_do": "להגיד since Monday",
-      "hint": "נקודת התחלה: since."
+      "hint": "נקודת התחלה: since.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_for_05",
@@ -2051,7 +2138,8 @@
       "feedback_try": "for עם משך: They have lived here for a long time.",
       "worked_method": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
       "can_do": "להגיד for a long time",
-      "hint": "משך: for."
+      "hint": "משך: for.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_04_t_for_06",
@@ -2081,7 +2169,8 @@
       "feedback_try": "since עם נקודת התחלה: We have known them since last year.",
       "worked_method": "for עם משך: for two years. since עם נקודת התחלה: since 2020. שניהם באים עם have.",
       "can_do": "להגיד since last year",
-      "hint": "נקודת התחלה: since."
+      "hint": "נקודת התחלה: since.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "ac_rev2_learn",
@@ -2095,7 +2184,8 @@
         "t_order",
         "t_for"
       ],
-      "can_do": "לחזור על a או an, סדר מילים ו for או since"
+      "can_do": "לחזור על a או an, סדר מילים ו for או since",
+      "tile_role": "explanation"
     },
     {
       "id": "ac_rev2_q",
@@ -2130,7 +2220,8 @@
       "feedback_try": "2020 היא נקודת התחלה, לכן since. two years ago פירושו לפני שנתיים, לכן ago.",
       "can_do": "לבחור since ו ago באותו משפט",
       "worked_method": "since לפני נקודת התחלה, ו ago אחרי משך זמן ופירושו לפני.\nהשנה 2020 היא רגע ההתחלה, ולכן since. two years ago פירושו לפני שנתיים.\nהתשובה: since, ago.",
-      "hint": "2020 היא נקודת התחלה. two years הוא משך בעבר."
+      "hint": "2020 היא נקודת התחלה. two years הוא משך בעבר.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "ac_final_check",
@@ -2160,7 +2251,8 @@
       "feedback_try": "Last winter זמן שנגמר, לכן kept. the library כי זו הספרייה שכבר הוזכרה. המשפט הנכון הוא הראשון.",
       "can_do": "לתקן משפט עם זמן ומילת יידוע",
       "worked_method": "בדקו שני דברים: זמן שנגמר הולך עם עבר רגיל, ו the בא לפני דבר שכבר מוכר.\nLast winter נגמר, לכן kept בלי has. last בא בלי The, והספרייה כבר מוכרת, לכן the library.\nהתשובה: Last winter the city kept the library open until eight.",
-      "hint": "last winter הוא זמן שנגמר. בדקו גם את the לפני library."
+      "hint": "last winter הוא זמן שנגמר. בדקו גם את the לפני library.",
+      "tile_role": "quick_check"
     },
     {
       "id": "ac_celebrate",

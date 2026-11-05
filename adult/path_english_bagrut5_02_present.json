@@ -42,7 +42,8 @@
         "xp_02_t_simple_04",
         "xp_02_t_simple_05",
         "xp_02_t_simple_06"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_there",
@@ -64,7 +65,8 @@
         "xp_02_t_there_04",
         "xp_02_t_there_05",
         "xp_02_t_there_06"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_q",
@@ -86,7 +88,8 @@
         "xp_02_t_q_04",
         "xp_02_t_q_05",
         "xp_02_t_q_06"
-      ]
+      ],
+      "level": 1
     },
     {
       "id": "t_review_1",
@@ -98,7 +101,8 @@
       "node_ids": [
         "pr_rev1_learn",
         "pr_rev1_q"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_day",
@@ -120,7 +124,8 @@
         "xp_02_t_day_04",
         "xp_02_t_day_05",
         "xp_02_t_day_06"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_neg",
@@ -142,7 +147,8 @@
         "xp_02_t_neg_04",
         "xp_02_t_neg_05",
         "xp_02_t_neg_06"
-      ]
+      ],
+      "level": 2
     },
     {
       "id": "t_freq",
@@ -164,7 +170,8 @@
         "xp_02_t_freq_04",
         "xp_02_t_freq_05",
         "xp_02_t_freq_06"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_review_2",
@@ -176,7 +183,8 @@
       "node_ids": [
         "pr_rev2_learn",
         "pr_rev2_q"
-      ]
+      ],
+      "level": 3
     },
     {
       "id": "t_end",
@@ -188,7 +196,8 @@
       "node_ids": [
         "pr_final_check",
         "pr_celebrate"
-      ]
+      ],
+      "level": 3
     }
   ],
   "nodes": [
@@ -199,7 +208,8 @@
       "title": "Present Simple",
       "body_he": "הרגל. אחרי he, she, it הפועל מקבל s.",
       "body_content": "She works at home.",
-      "can_do": "לתאר הרגל בהווה"
+      "can_do": "לתאר הרגל בהווה",
+      "tile_role": "explanation"
     },
     {
       "id": "pr_t_simple_ex1",
@@ -208,7 +218,8 @@
       "title": "דוגמה: he עם s",
       "body_he": "זה הרגל. אחרי he מוסיפים s לפועל. He reads every day.",
       "body_content": "He reads every day.",
-      "can_do": "להוסיף s לפועל אחרי he"
+      "can_do": "להוסיף s לפועל אחרי he",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_simple_ex2",
@@ -217,7 +228,8 @@
       "title": "דוגמה: we בלי s",
       "body_he": "אחרי I, you, we, they לא מוסיפים s. We cook at home.",
       "body_content": "We cook at home.",
-      "can_do": "להשאיר פועל בלי s אחרי we"
+      "can_do": "להשאיר פועל בלי s אחרי we",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_simple_ex3",
@@ -226,7 +238,8 @@
       "title": "דוגמה: טעות: שם של אדם",
       "body_he": "טעות נפוצה: Dana walk to work. Dana היא she, לכן מוסיפים s. נכון: Dana walks to work.",
       "body_content": "Dana walks to work.",
-      "can_do": "להוסיף s אחרי שם של אדם אחד"
+      "can_do": "להוסיף s אחרי שם של אדם אחד",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_simple_p1",
@@ -256,7 +269,8 @@
       "feedback_try": "במשפט יש He, לכן מוסיפים s: He drinks coffee.",
       "can_do": "להוסיף s לפועל עם he",
       "worked_method": "בהווה רגיל מוסיפים s לפועל אחרי he, she, it. למשל Dan cooks.\nבמשפט יש He, לכן drink מקבל s.\nהתשובה: drinks.",
-      "hint": "He הוא גוף שלישי יחיד. מה מוסיפים לפועל בהווה?"
+      "hint": "He הוא גוף שלישי יחיד. מה מוסיפים לפועל בהווה?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "pr_t_simple_p2",
@@ -286,7 +300,8 @@
       "feedback_try": "במשפט יש They, לכן בלי s: They start early.",
       "can_do": "להשאיר פועל בלי s עם they",
       "worked_method": "אחרי I, you, we, they הפועל נשאר בלי s. למשל we cook.\nבמשפט יש They, לכן start בלי s.\nהתשובה: start.",
-      "hint": "They הם רבים. האם מוסיפים s?"
+      "hint": "They הם רבים. האם מוסיפים s?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_02_t_simple_01",
@@ -316,7 +331,8 @@
       "feedback_try": "אחרי she הפועל מקבל s: She works at home.",
       "worked_method": "הרגל. אחרי he, she, it הפועל מקבל s.",
       "can_do": "להגיד she works",
-      "hint": "אחרי she מוסיפים s."
+      "hint": "אחרי she מוסיפים s.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_simple_02",
@@ -346,7 +362,8 @@
       "feedback_try": "אחרי he הפועל מקבל s: He starts at eight.",
       "worked_method": "הרגל. אחרי he, she, it הפועל מקבל s.",
       "can_do": "להגיד he starts",
-      "hint": "אחרי he מוסיפים s."
+      "hint": "אחרי he מוסיפים s.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_simple_03",
@@ -376,7 +393,8 @@
       "feedback_try": "אחרי they הפועל בלי s: They live in the city.",
       "worked_method": "הרגל. אחרי he, she, it הפועל מקבל s.",
       "can_do": "להגיד they live",
-      "hint": "אחרי they לא מוסיפים s."
+      "hint": "אחרי they לא מוסיפים s.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_simple_04",
@@ -406,7 +424,8 @@
       "feedback_try": "אחרי I הפועל בלי s: I work at home.",
       "worked_method": "הרגל. אחרי he, she, it הפועל מקבל s.",
       "can_do": "להגיד I work",
-      "hint": "אחרי I לא מוסיפים s."
+      "hint": "אחרי I לא מוסיפים s.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_simple_05",
@@ -436,7 +455,8 @@
       "feedback_try": "אחרי it הפועל מקבל s: It opens at nine.",
       "worked_method": "הרגל. אחרי he, she, it הפועל מקבל s.",
       "can_do": "להגיד it opens",
-      "hint": "אחרי it מוסיפים s."
+      "hint": "אחרי it מוסיפים s.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_simple_06",
@@ -466,7 +486,8 @@
       "feedback_try": "אחרי you הפועל בלי s: You drink water.",
       "worked_method": "הרגל. אחרי he, she, it הפועל מקבל s.",
       "can_do": "להגיד you drink",
-      "hint": "אחרי you לא מוסיפים s."
+      "hint": "אחרי you לא מוסיפים s.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "pr_t_there_learn",
@@ -475,7 +496,8 @@
       "title": "there is",
       "body_he": "יש אחד: there is. יש כמה: there are.",
       "body_content": "There is a book on the desk.",
-      "can_do": "לתאר מה יש עם there is ו there are"
+      "can_do": "לתאר מה יש עם there is ו there are",
+      "tile_role": "explanation"
     },
     {
       "id": "pr_t_there_ex1",
@@ -484,7 +506,8 @@
       "title": "דוגמה: there is",
       "body_he": "יש כוס אחת. לכן there is. There is a cup on the table.",
       "body_content": "There is a cup on the table.",
-      "can_do": "להגיד There is על דבר אחד"
+      "can_do": "להגיד There is על דבר אחד",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_there_ex2",
@@ -493,7 +516,8 @@
       "title": "דוגמה: there are",
       "body_he": "יש שלושה כיסאות. לכן there are. There are three chairs in the room.",
       "body_content": "There are three chairs in the room.",
-      "can_do": "להגיד There are על כמה דברים"
+      "can_do": "להגיד There are על כמה דברים",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_there_ex3",
@@ -502,7 +526,8 @@
       "title": "דוגמה: טעות: is עם רבים",
       "body_he": "טעות נפוצה: There is two cats. יש שני חתולים, וזה רבים. נכון: There are two cats.",
       "body_content": "There are two cats.",
-      "can_do": "לתקן there is ל there are ברבים"
+      "can_do": "לתקן there is ל there are ברבים",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_there_p1",
@@ -532,7 +557,8 @@
       "feedback_try": "a book הוא ספר אחד, לכן There is a book.",
       "can_do": "להגיד There is על דבר אחד",
       "worked_method": "There is לדבר אחד, There are לכמה דברים. למשל There is a lamp.\na book הוא ספר אחד.\nהתשובה: is.",
-      "hint": "יש ספר אחד. איזו צורה הולכת עם דבר אחד?"
+      "hint": "יש ספר אחד. איזו צורה הולכת עם דבר אחד?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "pr_t_there_p2",
@@ -562,7 +588,8 @@
       "feedback_try": "two books הם שני ספרים, לכן There are two books.",
       "can_do": "להגיד There are על כמה דברים",
       "worked_method": "There is לדבר אחד, There are לכמה דברים. למשל There are three chairs.\ntwo books הם יותר מספר אחד.\nהתשובה: are.",
-      "hint": "יש שני ספרים. איזו צורה הולכת עם רבים?"
+      "hint": "יש שני ספרים. איזו צורה הולכת עם רבים?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_02_t_there_01",
@@ -592,7 +619,8 @@
       "feedback_try": "יש אחד: There is a book on the desk.",
       "worked_method": "יש אחד: there is. יש כמה: there are.",
       "can_do": "להגיד there is",
-      "hint": "אחד או כמה?"
+      "hint": "אחד או כמה?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_there_02",
@@ -622,7 +650,8 @@
       "feedback_try": "יש כמה: There are books on the desk.",
       "worked_method": "יש אחד: there is. יש כמה: there are.",
       "can_do": "להגיד there are",
-      "hint": "אחד או כמה?"
+      "hint": "אחד או כמה?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_there_03",
@@ -652,7 +681,8 @@
       "feedback_try": "יש אחד: There is a car outside.",
       "worked_method": "יש אחד: there is. יש כמה: there are.",
       "can_do": "להגיד there is",
-      "hint": "אחד: is."
+      "hint": "אחד: is.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_there_04",
@@ -682,7 +712,8 @@
       "feedback_try": "יש כמה: There are many people here.",
       "worked_method": "יש אחד: there is. יש כמה: there are.",
       "can_do": "להגיד there are",
-      "hint": "כמה: are."
+      "hint": "כמה: are.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_there_05",
@@ -712,7 +743,8 @@
       "feedback_try": "יש אחד: There is one chair in the room.",
       "worked_method": "יש אחד: there is. יש כמה: there are.",
       "can_do": "להגיד there is",
-      "hint": "אחד: is."
+      "hint": "אחד: is.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_there_06",
@@ -742,7 +774,8 @@
       "feedback_try": "יש כמה: There are two dogs in the garden.",
       "worked_method": "יש אחד: there is. יש כמה: there are.",
       "can_do": "להגיד there are",
-      "hint": "כמה: are."
+      "hint": "כמה: are.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "pr_t_q_learn",
@@ -751,7 +784,8 @@
       "title": "שאלות",
       "body_he": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
       "body_content": "Do you live here?",
-      "can_do": "לשאול שאלה בהווה עם Do או Does"
+      "can_do": "לשאול שאלה בהווה עם Do או Does",
+      "tile_role": "explanation"
     },
     {
       "id": "pr_t_q_ex1",
@@ -760,7 +794,8 @@
       "title": "דוגמה: Do they",
       "body_he": "שאלה על they. Do בהתחלה, והפועל בלי s. Do they eat here?",
       "body_content": "Do they eat here?",
-      "can_do": "לשאול שאלה עם Do they"
+      "can_do": "לשאול שאלה עם Do they",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_q_ex2",
@@ -769,7 +804,8 @@
       "title": "דוגמה: Does he",
       "body_he": "שאלה על he. Does בהתחלה, והפועל בלי s. Does he drive to work?",
       "body_content": "Does he drive to work?",
-      "can_do": "לשאול שאלה עם Does he"
+      "can_do": "לשאול שאלה עם Does he",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_q_ex3",
@@ -778,7 +814,8 @@
       "title": "דוגמה: טעות: Do עם she",
       "body_he": "טעות נפוצה: Do she like tea? עם he, she, it שואלים Does. נכון: Does she like tea?",
       "body_content": "Does she like tea?",
-      "can_do": "לתקן Do ל Does עם she"
+      "can_do": "לתקן Do ל Does עם she",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_q_p1",
@@ -808,7 +845,8 @@
       "feedback_try": "במשפט יש you, לכן Do: Do you work here?",
       "can_do": "לשאול שאלה עם Do you",
       "worked_method": "שאלה בהווה פותחת ב Do עם I, you, we, they. למשל Do we need milk?\nבשאלה יש you.\nלכן Do: Do you work here?",
-      "hint": "שאלה עם פועל רגיל ו you. איזו מילת עזר?"
+      "hint": "שאלה עם פועל רגיל ו you. איזו מילת עזר?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "pr_t_q_p2",
@@ -838,7 +876,8 @@
       "feedback_try": "במשפט יש she, לכן Does, והפועל live בלי s: Does she live here?",
       "can_do": "לשאול שאלה עם Does she",
       "worked_method": "שאלה בהווה פותחת ב Does עם he, she, it, והפועל נשאר בלי s.\nבשאלה יש she, לכן Does, ו live נשאר כמו שהוא.\nהתשובה: Does she live here?",
-      "hint": "שאלה עם she ופועל רגיל. איזו מילת עזר?"
+      "hint": "שאלה עם she ופועל רגיל. איזו מילת עזר?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_02_t_q_01",
@@ -868,7 +907,8 @@
       "feedback_try": "שאלה בהווה: Do you live here?",
       "worked_method": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
       "can_do": "לשאול Do you",
-      "hint": "Do או Does?"
+      "hint": "Do או Does?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_q_02",
@@ -898,7 +938,8 @@
       "feedback_try": "שאלה בהווה: Does she work at home?",
       "worked_method": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
       "can_do": "לשאול Does she",
-      "hint": "Does עם she."
+      "hint": "Does עם she.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_q_03",
@@ -928,7 +969,8 @@
       "feedback_try": "שאלה בהווה: Do they start at eight?",
       "worked_method": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
       "can_do": "לשאול Do they",
-      "hint": "Do עם they."
+      "hint": "Do עם they.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_q_04",
@@ -958,7 +1000,8 @@
       "feedback_try": "שאלה בהווה: Does he drink water?",
       "worked_method": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
       "can_do": "לשאול Does he",
-      "hint": "Does עם he."
+      "hint": "Does עם he.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_q_05",
@@ -988,7 +1031,8 @@
       "feedback_try": "שאלה בהווה: Do we open the mail?",
       "worked_method": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
       "can_do": "לשאול Do we",
-      "hint": "Do עם we."
+      "hint": "Do עם we.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_q_06",
@@ -1018,7 +1062,8 @@
       "feedback_try": "שאלה בהווה: Does it work?",
       "worked_method": "שאלה בהווה: Do או Does בהתחלה, והפועל בלי s.",
       "can_do": "לשאול Does it",
-      "hint": "Does עם it."
+      "hint": "Does עם it.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "pr_rev1_learn",
@@ -1032,7 +1077,8 @@
         "t_there",
         "t_q"
       ],
-      "can_do": "לחזור על הווה, there is ושאלות"
+      "can_do": "לחזור על הווה, there is ושאלות",
+      "tile_role": "explanation"
     },
     {
       "id": "pr_rev1_q",
@@ -1067,7 +1113,8 @@
       "feedback_try": "במשפט יש She, לכן מוסיפים s: She works at home.",
       "can_do": "להוסיף s לפועל עם she בלי רמז",
       "worked_method": "חזרו על הכלל: אחרי he, she, it הפועל בהווה מקבל s.\nבמשפט יש She, לכן work נהיה works.\nהתשובה: works.",
-      "hint": "She היא גוף שלישי יחיד. מה קורה לפועל?"
+      "hint": "She היא גוף שלישי יחיד. מה קורה לפועל?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "pr_t_day_learn",
@@ -1076,7 +1123,8 @@
       "title": "יום רגיל",
       "body_he": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
       "body_content": "Maya works at home. She starts at eight. She drinks water and opens her mail. Some days she talks to a client. She stops at four and walks to the park.",
-      "can_do": "לקרוא קטע קצר על יום עבודה"
+      "can_do": "לקרוא קטע קצר על יום עבודה",
+      "tile_role": "explanation"
     },
     {
       "id": "pr_t_day_ex1",
@@ -1085,7 +1133,8 @@
       "title": "דוגמה: מה היא עושה בבוקר",
       "body_he": "שאלה: What does Maya do after eight? קראו את המשפט שבא אחרי She starts at eight. התשובה: She drinks water and opens her mail.",
       "body_content": "She drinks water and opens her mail.",
-      "can_do": "למצוא בקטע מה קורה אחרי שעה מסוימת"
+      "can_do": "למצוא בקטע מה קורה אחרי שעה מסוימת",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_day_ex2",
@@ -1094,7 +1143,8 @@
       "title": "דוגמה: לאן היא הולכת",
       "body_he": "שאלה: Where does Maya walk at four? המשפט האחרון עונה: She stops at four and walks to the park. התשובה: to the park.",
       "body_content": "She stops at four and walks to the park.",
-      "can_do": "למצוא מקום בתוך קטע"
+      "can_do": "למצוא מקום בתוך קטע",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_day_ex3",
@@ -1103,7 +1153,8 @@
       "title": "דוגמה: טעות: מילה אחת בלי הקשר",
       "body_he": "טעות נפוצה: רואים client וחושבים שמאיה מדברת עם לקוח כל יום. בקטע כתוב Some days. לכן רק בחלק מהימים.",
       "body_content": "Some days she talks to a client.",
-      "can_do": "לשים לב למילים כמו some days"
+      "can_do": "לשים לב למילים כמו some days",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_day_idea",
@@ -1133,7 +1184,8 @@
       "feedback_try": "המשפט הראשון: Maya works at home. כל השאר מתאר את יום העבודה שלה בבית.",
       "can_do": "להבין את הרעיון של קטע קצר",
       "worked_method": "כדי למצוא על מה הקטע, קראו את המשפט הראשון ובדקו שהשאר מתאים לו.\nהמשפט הראשון אומר שמאיה עובדת מהבית, וכל השאר מתאר את היום הזה.\nהתשובה: She works at home.",
-      "hint": "קראו את המשפט הראשון בקטע."
+      "hint": "קראו את המשפט הראשון בקטע.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "pr_t_day_detail",
@@ -1163,7 +1215,8 @@
       "feedback_try": "כתוב She starts at eight, כלומר בשמונה. at four היא השעה שבה היא עוצרת.",
       "can_do": "למצוא שעה בתוך קטע",
       "worked_method": "חפשו בקטע את הפועל מהשאלה וקראו מה בא אחריו.\nאחרי starts כתוב at eight. at four היא שעת הסיום.\nהתשובה: at eight.",
-      "hint": "חפשו בקטע את המילה starts."
+      "hint": "חפשו בקטע את המילה starts.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_02_t_day_01",
@@ -1193,7 +1246,8 @@
       "feedback_try": "הרעיון המרכזי הוא יום העבודה של מאיה: Maya works at home. She starts at eight. She drinks water and opens her mail.",
       "worked_method": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
       "can_do": "לזהות את הרעיון המרכזי",
-      "hint": "על מה הטקסט מדבר?"
+      "hint": "על מה הטקסט מדבר?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_day_02",
@@ -1223,7 +1277,8 @@
       "feedback_try": "הפרט הוא: She starts at eight.",
       "worked_method": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
       "can_do": "למצוא פרט בטקסט",
-      "hint": "חפשו את המילה starts."
+      "hint": "חפשו את המילה starts.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_day_03",
@@ -1253,7 +1308,8 @@
       "feedback_try": "הפרט הוא: Maya works at home.",
       "worked_method": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
       "can_do": "למצוא פרט בטקסט",
-      "hint": "חפשו את המילה works."
+      "hint": "חפשו את המילה works.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_day_04",
@@ -1283,7 +1339,8 @@
       "feedback_try": "הפרט הוא: She drinks water.",
       "worked_method": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
       "can_do": "למצוא פרט בטקסט",
-      "hint": "חפשו את המילה drinks."
+      "hint": "חפשו את המילה drinks.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_day_05",
@@ -1313,7 +1370,8 @@
       "feedback_try": "הפרט הוא: She opens her mail.",
       "worked_method": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
       "can_do": "למצוא פרט בטקסט",
-      "hint": "חפשו את המילה opens."
+      "hint": "חפשו את המילה opens.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_day_06",
@@ -1343,7 +1401,8 @@
       "feedback_try": "הרעיון המרכזי הוא יום עבודה רגיל: Maya works at home. She starts at eight. She drinks water and opens her mail.",
       "worked_method": "קטע קצר על יום עבודה. שאלה על הרעיון ושאלה על פרט.",
       "can_do": "לזהות את הרעיון המרכזי",
-      "hint": "על מה הטקסט מדבר?"
+      "hint": "על מה הטקסט מדבר?",
+      "tile_role": "independent_practice"
     },
     {
       "id": "pr_t_neg_learn",
@@ -1352,7 +1411,8 @@
       "title": "שלילה בהווה",
       "body_he": "שלילה: do not או does not, והפועל בלי s.",
       "body_content": "She does not work on Friday.",
-      "can_do": "לשלול בהווה עם do not ו does not"
+      "can_do": "לשלול בהווה עם do not ו does not",
+      "tile_role": "explanation"
     },
     {
       "id": "pr_t_neg_ex1",
@@ -1361,7 +1421,8 @@
       "title": "דוגמה: does not",
       "body_he": "שלילה על he. does not, והפועל בלי s. He does not eat meat.",
       "body_content": "He does not eat meat.",
-      "can_do": "לשלול עם he does not"
+      "can_do": "לשלול עם he does not",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_neg_ex2",
@@ -1370,7 +1431,8 @@
       "title": "דוגמה: do not",
       "body_he": "שלילה על we. do not, והפועל בלי s. We do not drive to work.",
       "body_content": "We do not drive to work.",
-      "can_do": "לשלול עם we do not"
+      "can_do": "לשלול עם we do not",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_neg_ex3",
@@ -1379,7 +1441,8 @@
       "title": "דוגמה: טעות: s אחרי does not",
       "body_he": "טעות נפוצה: She does not drinks tea. ה s כבר נמצאת ב does. נכון: She does not drink tea.",
       "body_content": "She does not drink tea.",
-      "can_do": "להוריד s מהפועל אחרי does not"
+      "can_do": "להוריד s מהפועל אחרי does not",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_neg_p1",
@@ -1409,7 +1472,8 @@
       "feedback_try": "במשפט יש She, לכן does not: She does not like coffee.",
       "can_do": "לשלול עם she does not",
       "worked_method": "שלילה בהווה עם he, she, it היא does not, והפועל נשאר בלי s. למשל Tom does not swim.\nבמשפט יש She.\nהתשובה: does not.",
-      "hint": "שלילה עם she ופועל רגיל. איזו מילת עזר?"
+      "hint": "שלילה עם she ופועל רגיל. איזו מילת עזר?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "pr_t_neg_p2",
@@ -1439,7 +1503,8 @@
       "feedback_try": "במשפט יש They, לכן do not: They do not live here.",
       "can_do": "לשלול עם they do not",
       "worked_method": "שלילה בהווה עם I, you, we, they: do not. למשל We do not swim.\nבמשפט יש They. are not work אינו אנגלית תקינה.\nהתשובה: do not.",
-      "hint": "They הם רבים. איזו שלילה הולכת איתם?"
+      "hint": "They הם רבים. איזו שלילה הולכת איתם?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_02_t_neg_01",
@@ -1469,7 +1534,8 @@
       "feedback_try": "שלילה: does not, והפועל בלי s: She does not work on Friday.",
       "worked_method": "שלילה: do not או does not, והפועל בלי s.",
       "can_do": "להגיד she does not",
-      "hint": "does not עם she."
+      "hint": "does not עם she.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_neg_02",
@@ -1499,7 +1565,8 @@
       "feedback_try": "שלילה: do not, והפועל בלי s: They do not start at eight.",
       "worked_method": "שלילה: do not או does not, והפועל בלי s.",
       "can_do": "להגיד they do not",
-      "hint": "do not עם they."
+      "hint": "do not עם they.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_neg_03",
@@ -1529,7 +1596,8 @@
       "feedback_try": "שלילה: does not, והפועל בלי s: He does not drink coffee.",
       "worked_method": "שלילה: do not או does not, והפועל בלי s.",
       "can_do": "להגיד he does not",
-      "hint": "does not עם he."
+      "hint": "does not עם he.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_neg_04",
@@ -1559,7 +1627,8 @@
       "feedback_try": "שלילה: do not, והפועל בלי s: I do not work on Sunday.",
       "worked_method": "שלילה: do not או does not, והפועל בלי s.",
       "can_do": "להגיד I do not",
-      "hint": "do not עם I."
+      "hint": "do not עם I.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_neg_05",
@@ -1589,7 +1658,8 @@
       "feedback_try": "שלילה: does not, והפועל בלי s: It does not open early.",
       "worked_method": "שלילה: do not או does not, והפועל בלי s.",
       "can_do": "להגיד it does not",
-      "hint": "does not עם it."
+      "hint": "does not עם it.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_neg_06",
@@ -1619,7 +1689,8 @@
       "feedback_try": "שלילה: do not, והפועל בלי s: You do not live here.",
       "worked_method": "שלילה: do not או does not, והפועל בלי s.",
       "can_do": "להגיד you do not",
-      "hint": "do not עם you."
+      "hint": "do not עם you.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "pr_t_freq_learn",
@@ -1628,7 +1699,8 @@
       "title": "תדירות",
       "body_he": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
       "body_content": "Maya always starts at eight.",
-      "can_do": "למקם always ו never במשפט"
+      "can_do": "למקם always ו never במשפט",
+      "tile_role": "explanation"
     },
     {
       "id": "pr_t_freq_ex1",
@@ -1637,7 +1709,8 @@
       "title": "דוגמה: always לפני הפועל",
       "body_he": "always בא לפני הפועל העיקרי. Dan always eats at noon.",
       "body_content": "Dan always eats at noon.",
-      "can_do": "לשים always לפני הפועל העיקרי"
+      "can_do": "לשים always לפני הפועל העיקרי",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_freq_ex2",
@@ -1646,7 +1719,8 @@
       "title": "דוגמה: never אחרי are",
       "body_he": "never בא אחרי am, is, are. They are never at home on Sunday.",
       "body_content": "They are never at home on Sunday.",
-      "can_do": "לשים never אחרי are"
+      "can_do": "לשים never אחרי are",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_freq_ex3",
@@ -1655,7 +1729,8 @@
       "title": "דוגמה: טעות: always אחרי הפועל",
       "body_he": "טעות נפוצה: We drink always tea. always בא לפני הפועל. נכון: We always drink tea.",
       "body_content": "We always drink tea.",
-      "can_do": "לתקן את המקום של always"
+      "can_do": "לתקן את המקום של always",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_t_freq_p1",
@@ -1685,7 +1760,8 @@
       "feedback_try": "walks הוא פועל רגיל, לכן always בא לפניו: She always walks.",
       "can_do": "לשים always לפני הפועל",
       "worked_method": "מילים כמו always באות לפני פועל רגיל. למשל Ben always sings.\nהפועל כאן הוא walks, לכן always לפניו.\nהתשובה: She always walks.",
-      "hint": "מילים כמו always באות לפני הפועל הרגיל."
+      "hint": "מילים כמו always באות לפני הפועל הרגיל.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "pr_t_freq_p2",
@@ -1715,7 +1791,8 @@
       "feedback_try": "עם he בא is, ו never בא אחריו: He is never late.",
       "can_do": "לשים never אחרי is",
       "worked_method": "עם am, is, are מילים כמו never באות אחרי הפועל. למשל We are never bored.\nעם He בא is, ו never אחריו.\nהתשובה: is never.",
-      "hint": "never בא אחרי is ולפני השאר."
+      "hint": "never בא אחרי is ולפני השאר.",
+      "tile_role": "guided_practice"
     },
     {
       "id": "xp_02_t_freq_01",
@@ -1745,7 +1822,8 @@
       "feedback_try": "always בא לפני הפועל העיקרי: Maya always starts at eight.",
       "worked_method": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
       "can_do": "להגיד always starts",
-      "hint": "always לפני הפועל."
+      "hint": "always לפני הפועל.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_freq_02",
@@ -1775,7 +1853,8 @@
       "feedback_try": "never בא לפני הפועל העיקרי: He never drinks coffee.",
       "worked_method": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
       "can_do": "להגיד never drinks",
-      "hint": "never לפני הפועל."
+      "hint": "never לפני הפועל.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_freq_03",
@@ -1805,7 +1884,8 @@
       "feedback_try": "always בא אחרי is: She is always ready.",
       "worked_method": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
       "can_do": "להגיד is always",
-      "hint": "always אחרי is."
+      "hint": "always אחרי is.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_freq_04",
@@ -1835,7 +1915,8 @@
       "feedback_try": "never בא אחרי is: It is never late.",
       "worked_method": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
       "can_do": "להגיד is never",
-      "hint": "never אחרי is."
+      "hint": "never אחרי is.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_freq_05",
@@ -1865,7 +1946,8 @@
       "feedback_try": "always בא לפני הפועל העיקרי: He always works late.",
       "worked_method": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
       "can_do": "להגיד always works",
-      "hint": "always לפני הפועל."
+      "hint": "always לפני הפועל.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "xp_02_t_freq_06",
@@ -1895,7 +1977,8 @@
       "feedback_try": "never בא לפני הפועל העיקרי: They never start early.",
       "worked_method": "always ו never באים לפני הפועל העיקרי, ואחרי is.",
       "can_do": "להגיד never start",
-      "hint": "never לפני הפועל."
+      "hint": "never לפני הפועל.",
+      "tile_role": "independent_practice"
     },
     {
       "id": "pr_rev2_learn",
@@ -1909,7 +1992,8 @@
         "t_neg",
         "t_freq"
       ],
-      "can_do": "לחזור על שלילה ותדירות"
+      "can_do": "לחזור על שלילה ותדירות",
+      "tile_role": "explanation"
     },
     {
       "id": "pr_rev2_q",
@@ -1944,7 +2028,8 @@
       "feedback_try": "two books הם יותר מאחד, לכן There are two books.",
       "can_do": "לבחור there are לרבים בלי רמז",
       "worked_method": "חזרו על הכלל: There are כשיש יותר מדבר אחד.\nבמשפט כתוב two books, שני ספרים.\nהתשובה: are.",
-      "hint": "כמה ספרים יש? אחד או יותר?"
+      "hint": "כמה ספרים יש? אחד או יותר?",
+      "tile_role": "guided_practice"
     },
     {
       "id": "pr_final_check",
@@ -1974,7 +2059,8 @@
       "feedback_try": "a book הוא ספר אחד, לכן Is there a book on the desk?",
       "can_do": "לשאול Is there על דבר אחד",
       "worked_method": "בשאלה עם there מקדימים את is או are. Is there לדבר אחד, Are there לכמה.\na book הוא ספר אחד.\nהתשובה: Is.",
-      "hint": "זו שאלה על ספר אחד עם there."
+      "hint": "זו שאלה על ספר אחד עם there.",
+      "tile_role": "quick_check"
     },
     {
       "id": "pr_celebrate",

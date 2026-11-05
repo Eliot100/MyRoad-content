@@ -16,9 +16,10 @@ from myroad_core.content.locale_rules import validate_locale_consistency
 from myroad_core.content.schema import validate_content_path
 
 try:  # added to the schema in MyRoad PR #33; skip quietly until it's on main
-    from myroad_core.content.schema import check_prerequisites
+    from myroad_core.content.schema import check_prerequisites, validate_stage_levels
 except ImportError:  # pragma: no cover
     check_prerequisites = None
+    validate_stage_levels = None
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -57,6 +58,9 @@ def main() -> int:
             seen_ids[path.id] = rel
         for msg in validate_locale_consistency(path):
             errors.append(f"{rel}: locale: {msg}")
+        if validate_stage_levels is not None:
+            for msg in validate_stage_levels(path):
+                errors.append(f"{rel}: levels: {msg}")
 
     if check_prerequisites is not None:
         errors.extend(f"prerequisites: {msg}" for msg in check_prerequisites(loaded))
