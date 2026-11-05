@@ -1,0 +1,1166 @@
+{
+  "s0_start": [
+    {
+      "id": "x1_s0_start_01__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כיוון הכתיבה",
+      "body_he": "מאיזה כיוון כותבים ערבית?",
+      "body_content": "قَلَم",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מימין לשמאל"
+        },
+        {
+          "id": "b",
+          "label": "משמאל לימין",
+          "feedback": "משמאל לימין זה כיוון העברית והאנגלית, לא הערבית."
+        },
+        {
+          "id": "c",
+          "label": "מלמעלה למטה",
+          "feedback": "מלמעלה למטה זה כיוון של שפות אחרות, לא ערבית."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, ערבית נכתבת מימין לשמאל.",
+      "feedback_try": "ערבית נכתבת מימין לשמאל, כמו עברית. המילה قَلَم מתחילה מימין באות ب.",
+      "can_do": "לזהות את כיוון הכתיבה בערבית",
+      "worked_method": "ערבית נכתבת מימין לשמאל. אין אותיות גדולות. רוב האותיות מתחברות.",
+      "hint": "כמו עברית."
+    },
+    {
+      "id": "x1_s0_start_02__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אותיות גדולות",
+      "body_he": "האם יש בערבית אותיות גדולות?",
+      "body_content": "قَلَم",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "לא"
+        },
+        {
+          "id": "b",
+          "label": "כן",
+          "feedback": "בערבית אין אותיות גדולות, כל האותיות אותו גודל."
+        },
+        {
+          "id": "c",
+          "label": "רק בתחילת משפט",
+          "feedback": "אין אותיות גדולות בערבית בכלל."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, אין אותיות גדולות בערבית.",
+      "feedback_try": "בערבית אין אותיות גדולות. כל האותיות נראות אותו דבר בתחילת מילה או באמצע.",
+      "can_do": "לדעת שאין אותיות גדולות בערבית",
+      "worked_method": "בערבית אין אותיות גדולות. האותיות משתנות צורה לפי מיקומן.",
+      "hint": "כל האותיות אותו גודל."
+    },
+    {
+      "id": "x1_s0_start_03__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "התחברות",
+      "body_he": "מה קורה לרוב האותיות בתוך מילה?",
+      "body_content": "قَلَم",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מתחברות זו לזו"
+        },
+        {
+          "id": "b",
+          "label": "נפרדות",
+          "feedback": "רוב האותיות מתחברות, לא נפרדות."
+        },
+        {
+          "id": "c",
+          "label": "רק בסוף",
+          "feedback": "ההתחברות היא בתוך המילה, לא רק בסוף."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, רוב האותיות מתחברות זו לזו.",
+      "feedback_try": "רוב האותיות מתחברות זו לזו בתוך מילה, ולכן יש להן צורה קצת אחרת בהתחלה, באמצע ובסוף.",
+      "can_do": "לדעת שאותיות מתחברות בערבית",
+      "worked_method": "רוב האותיות מתחברות זו לזו. שש אותיות לא מתחברות שמאלה: ا ד ر و ועוד.",
+      "hint": "הן מתחברות."
+    },
+    {
+      "id": "x1_s0_start_04__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "צורות האות",
+      "body_he": "למה לאות יש צורה אחרת באמצע מילה?",
+      "body_content": "قَلَم",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כי היא מתחברת"
+        },
+        {
+          "id": "b",
+          "label": "כי היא גדולה",
+          "feedback": "אין אותיות גדולות, הצורה משתנה בגלל ההתחברות."
+        },
+        {
+          "id": "c",
+          "label": "כי היא בסוף",
+          "feedback": "הצורה משתנה לפי המיקום: התחלה, אמצע, סוף."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, בגלל ההתחברות הצורה משתנה.",
+      "feedback_try": "לאות יש צורה קצת אחרת בהתחלה, באמצע ובסוף כי רוב האותיות מתחברות זו לזו.",
+      "can_do": "להבין למה צורות האות משתנות",
+      "worked_method": "האות משתנה צורה בהתחלה, באמצע ובסוף כי היא מתחברת לאותיות לידה.",
+      "hint": "בגלל החיבור."
+    },
+    {
+      "id": "x1_s0_start_05__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "קריאה מימין",
+      "body_he": "איפה מתחילים לקרוא את המילה قَلَم?",
+      "body_content": "قَلَم",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מימין"
+        },
+        {
+          "id": "b",
+          "label": "משמאל",
+          "feedback": "קוראים מימין לשמאל, לא משמאל."
+        },
+        {
+          "id": "c",
+          "label": "מהאמצע",
+          "feedback": "מתחילים מימין, לא מהאמצע."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, מתחילים מימין.",
+      "feedback_try": "קוראים ערבית מימין לשמאל. המילה قَلَم מתחילה באות ب מימין.",
+      "can_do": "לקרוא מילה מימין לשמאל",
+      "worked_method": "ערבית נכתבת ונקראת מימין לשמאל.",
+      "hint": "כיוון הכתיבה."
+    },
+    {
+      "id": "x1_s0_start_06__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מילה ראשונה",
+      "body_he": "מה המשמעות של قَلَم?",
+      "body_content": "قَلَم",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "דלת"
+        },
+        {
+          "id": "b",
+          "label": "בית",
+          "feedback": "בית זה بَيْت, לא بَاب."
+        },
+        {
+          "id": "c",
+          "label": "מים",
+          "feedback": "מים זה מַיִם או מَاء, לא بَاب."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, بَاب זה דלת.",
+      "feedback_try": "قَلَم משמעותו דלת. קוראים אותו בַּאבּ.",
+      "can_do": "לזהות את המילה بَاب",
+      "worked_method": "בַּאבּ = דלת. אותיות: ب ا ب.",
+      "hint": "דלת."
+    }
+  ],
+  "s1_letters": [
+    {
+      "id": "x1_s1_letters_01__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איזו אות?",
+      "body_he": "איזו אות היא ب?",
+      "body_content": "ب ت ن م",
+      "speak_text": "ب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ב"
+        },
+        {
+          "id": "b",
+          "label": "ת",
+          "feedback": "ת היא ت, עם שתי נקודות למעלה."
+        },
+        {
+          "id": "c",
+          "label": "נ",
+          "feedback": "נ היא ن, עם נקודה למעלה."
+        },
+        {
+          "id": "d",
+          "label": "מ",
+          "feedback": "מ היא م, בלי נקודות."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, ب היא בּ.",
+      "feedback_try": "ب היא בּ: נקודה אחת למטה. ת שתיים למעלה, ن אחת למעלה, م בלי נקודות.",
+      "can_do": "לזהות את ب לפי הנקודה",
+      "worked_method": "באותיות שנראות דומה סופרים נקודות ובודקים איפה הן: ب אחת למטה, ت שתיים למעלה, ن אחת למעלה.",
+      "hint": "נקודה אחת למטה."
+    },
+    {
+      "id": "x1_s1_letters_02__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איזו אות?",
+      "body_he": "איזו אות היא ت?",
+      "body_content": "ب ت ن ل",
+      "speak_text": "ت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ת"
+        },
+        {
+          "id": "b",
+          "label": "ב",
+          "feedback": "ב היא ب, עם נקודה אחת למטה."
+        },
+        {
+          "id": "c",
+          "label": "נ",
+          "feedback": "נ היא ن, עם נקודה אחת למעלה."
+        },
+        {
+          "id": "d",
+          "label": "ל",
+          "feedback": "ל היא ل, בלי נקודות."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, ت היא ת.",
+      "feedback_try": "ت היא ת: שתי נקודות למעלה. ب אחת למטה, ن אחת למעלה.",
+      "can_do": "לזהות את ت לפי הנקודות",
+      "worked_method": "ת שתיים למעלה, ב אחת למטה, נ אחת למעלה.",
+      "hint": "שתי נקודות למעלה."
+    },
+    {
+      "id": "x1_s1_letters_03__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "צליל לאות",
+      "body_he": "איזו אות היא הצליל בּ?",
+      "body_content": "ب ت ن",
+      "speak_text": "ب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ب"
+        },
+        {
+          "id": "b",
+          "label": "ت",
+          "feedback": "ת היא ת, לא בּ."
+        },
+        {
+          "id": "c",
+          "label": "ن",
+          "feedback": "ن היא נ, לא בּ."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, בּ היא ب.",
+      "feedback_try": "הצליל בּ הוא האות ب, עם נקודה אחת למטה.",
+      "can_do": "לזהות אות לפי צליל",
+      "worked_method": "בּ = ب, ת = ت, נ = ن.",
+      "hint": "נקודה למטה."
+    },
+    {
+      "id": "x1_s1_letters_04__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איזו מילה?",
+      "body_he": "איזו מילה כתובה כאן?",
+      "body_content": "قَلَم",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בַּאבּ"
+        },
+        {
+          "id": "b",
+          "label": "תַּאבּ",
+          "feedback": "זה בַּאבּ, לא תַּאבּ."
+        },
+        {
+          "id": "c",
+          "label": "נַּאבּ",
+          "feedback": "זה בַּאבּ, לא נַּאבּ."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, بَاب = בַּאבּ.",
+      "feedback_try": "قَلَم נקרא בַּאבּ, משמעותו דלת. אותיות ب ا ب.",
+      "can_do": "לקרוא את המילה بَاب",
+      "worked_method": "קוראים מימין לשמאל: ب א ב.",
+      "hint": "ב א ב."
+    },
+    {
+      "id": "x1_s1_letters_05__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אות חסרה",
+      "body_he": "איזו אות חסרה במלה ب_ب?",
+      "body_content": "قَلَم",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ا"
+        },
+        {
+          "id": "b",
+          "label": "ب",
+          "feedback": "יש כבר בּ, חסר א."
+        },
+        {
+          "id": "c",
+          "label": "ت",
+          "feedback": "לא ת, חסר א."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, חסר ا.",
+      "feedback_try": "במלה قَلَم חסר ה-ا באמצע. ب ا ب.",
+      "can_do": "להשלים אות חסרה",
+      "worked_method": "בַּאבּ = ب ا ب.",
+      "hint": "א."
+    },
+    {
+      "id": "x1_s1_letters_06__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "צורה בהתחלה",
+      "body_he": "איזו צורה של ب בהתחלה?",
+      "body_content": "قَلَم",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ב מחוברת"
+        },
+        {
+          "id": "b",
+          "label": "ב בודדת",
+          "feedback": "בהתחלה היא מחוברת שמאלה."
+        },
+        {
+          "id": "c",
+          "label": "ב בסוף",
+          "feedback": "בסוף היא לא מחוברת שמאלה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, בהתחלה מחוברת.",
+      "feedback_try": "בהתחלה האות ب מתחברת שמאלה לאות הבאה.",
+      "can_do": "לזהות צורת אות בהתחלה",
+      "worked_method": "אות בהתחלה מתחברת שמאלה, בסוף לא.",
+      "hint": "מחוברת."
+    },
+    {
+      "id": "x1_s1_letters_07__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מתחברת?",
+      "body_he": "האם ا מתחברת שמאלה?",
+      "body_content": "ا",
+      "speak_text": "ا",
+      "choices": [
+        {
+          "id": "a",
+          "label": "לא"
+        },
+        {
+          "id": "b",
+          "label": "כן",
+          "feedback": "ا לא מתחברת שמאלה."
+        },
+        {
+          "id": "c",
+          "label": "רק באמצע",
+          "feedback": "ا לא מתחברת שמאלה בכלל."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, ا לא מתחברת שמאלה.",
+      "feedback_try": "האות ا לא מתחברת שמאלה. היא אחת מהאותיות שלא מתחברות.",
+      "can_do": "לדעת אם אות מתחברת",
+      "worked_method": "ا ד ר و לא מתחברות שמאלה.",
+      "hint": "לא."
+    },
+    {
+      "id": "x1_s1_letters_08__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איזו מילה?",
+      "body_he": "איזו מילה כתובה כאן?",
+      "body_content": "تِين",
+      "speak_text": "لَبَن",
+      "choices": [
+        {
+          "id": "a",
+          "label": "לַבַּן"
+        },
+        {
+          "id": "b",
+          "label": "בַּלַּן",
+          "feedback": "זה לַבַּן, לא בַּלַּן."
+        },
+        {
+          "id": "c",
+          "label": "נַבַּל",
+          "feedback": "זה לַבַּן, לא נַבַּל."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, لَبَن = לַבַּן.",
+      "feedback_try": "تِين נקרא לַבַּן, משמעותו חלב. אותיות ل ب ن.",
+      "can_do": "לקרוא את המילה لَبَن",
+      "worked_method": "ל ב נ.",
+      "hint": "ל ב נ."
+    },
+    {
+      "id": "x1_s1_letters_09__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "צליל",
+      "body_he": "מה הצליל של ن?",
+      "body_content": "ن",
+      "speak_text": "ن",
+      "choices": [
+        {
+          "id": "a",
+          "label": "נ"
+        },
+        {
+          "id": "b",
+          "label": "מ",
+          "feedback": "מ היא م."
+        },
+        {
+          "id": "c",
+          "label": "ל",
+          "feedback": "ל היא ل."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, ن היא נ.",
+      "feedback_try": "ن היא נ, עם נקודה אחת למעלה.",
+      "can_do": "לזהות צליל של ن",
+      "worked_method": "ن = נ.",
+      "hint": "נ."
+    },
+    {
+      "id": "x1_s1_letters_10__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אות חסרה",
+      "body_he": "איזו אות חסרה במלה _َام?",
+      "body_content": "نَامَ",
+      "speak_text": "نَامَ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ن"
+        },
+        {
+          "id": "b",
+          "label": "م",
+          "feedback": "יש מ, חסר נ."
+        },
+        {
+          "id": "c",
+          "label": "ل",
+          "feedback": "לא ל, חסר נ."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, חסר ن.",
+      "feedback_try": "נَامَ מתחיל ב-ن. נ א מ.",
+      "can_do": "להשלים אות במלה נَامَ",
+      "worked_method": "נַאמַ = נ א מ.",
+      "hint": "נ."
+    },
+    {
+      "id": "x1_s1_letters_11__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איזו אות?",
+      "body_he": "איזו אות היא م?",
+      "body_content": "م ل ن ب",
+      "speak_text": "م",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מ"
+        },
+        {
+          "id": "b",
+          "label": "ל",
+          "feedback": "ל היא ل."
+        },
+        {
+          "id": "c",
+          "label": "נ",
+          "feedback": "נ היא ن."
+        },
+        {
+          "id": "d",
+          "label": "ב",
+          "feedback": "ב היא ب."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, م היא מ.",
+      "feedback_try": "م היא מ, בלי נקודות. נראית כמו עיגול.",
+      "can_do": "לזהות את م",
+      "worked_method": "מ = م.",
+      "hint": "עיגול."
+    },
+    {
+      "id": "x1_s1_letters_12__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מילה",
+      "body_he": "מה המשמעות של تَمَام?",
+      "body_content": "تَمَام",
+      "speak_text": "تَمَام",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מושלם"
+        },
+        {
+          "id": "b",
+          "label": "דלת",
+          "feedback": "דלת זה بَاب."
+        },
+        {
+          "id": "c",
+          "label": "חלב",
+          "feedback": "חלב זה لَبَن."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, تَمَام = מושלם.",
+      "feedback_try": "تَمَام משמעותו מושלם או בסדר. תַּמַאם.",
+      "can_do": "לזהות את تَمَام",
+      "worked_method": "ת מ א מ.",
+      "hint": "מושלם."
+    },
+    {
+      "id": "x1_s1_letters_13__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "צורה בסוף",
+      "body_he": "איזו צורה של ب בסוף?",
+      "body_content": "قَلَم",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "לא מחוברת שמאלה"
+        },
+        {
+          "id": "b",
+          "label": "מחוברת שמאלה",
+          "feedback": "בסוף לא מחוברת שמאלה."
+        },
+        {
+          "id": "c",
+          "label": "גדולה",
+          "feedback": "אין אות גדולה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, בסוף לא מחוברת שמאלה.",
+      "feedback_try": "בסוף המילה האות לא מתחברת שמאלה.",
+      "can_do": "לזהות צורת אות בסוף",
+      "worked_method": "בסוף לא מתחברת שמאלה.",
+      "hint": "לא מחוברת."
+    },
+    {
+      "id": "x1_s1_letters_14__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לא",
+      "body_he": "מה המשמעות של لَا?",
+      "body_content": "لَا",
+      "speak_text": "لَا",
+      "choices": [
+        {
+          "id": "a",
+          "label": "לא"
+        },
+        {
+          "id": "b",
+          "label": "כן",
+          "feedback": "כן זה נַעַם, לא لَا."
+        },
+        {
+          "id": "c",
+          "label": "מה",
+          "feedback": "מה זה مَا."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, لَا = לא.",
+      "feedback_try": "لَا משמעותו לא. לַא.",
+      "can_do": "לזהות את لَا",
+      "worked_method": "ל א.",
+      "hint": "לא."
+    }
+  ],
+  "s2_letters": [
+    {
+      "id": "x1_s2_letters_01__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איזו אות?",
+      "body_he": "איזו אות היא ي?",
+      "body_content": "ي و س ر",
+      "speak_text": "ي",
+      "choices": [
+        {
+          "id": "a",
+          "label": "י"
+        },
+        {
+          "id": "b",
+          "label": "ו",
+          "feedback": "ו היא و."
+        },
+        {
+          "id": "c",
+          "label": "ס",
+          "feedback": "ס היא س."
+        },
+        {
+          "id": "d",
+          "label": "ר",
+          "feedback": "ר היא ر."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, ي היא י.",
+      "feedback_try": "ي היא י, עם שתי נקודות למטה. גם תנועה אי ארוכה.",
+      "can_do": "לזהות את ي",
+      "worked_method": "י = ي, שתי נקודות למטה.",
+      "hint": "שתי נקודות למטה."
+    },
+    {
+      "id": "x1_s2_letters_02__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "צליל",
+      "body_he": "מה הצליל של و?",
+      "body_content": "و",
+      "speak_text": "و",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ו"
+        },
+        {
+          "id": "b",
+          "label": "י",
+          "feedback": "י היא ي."
+        },
+        {
+          "id": "c",
+          "label": "ס",
+          "feedback": "ס היא س."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, و היא ו.",
+      "feedback_try": "و היא ו (w), וגם תנועה או ארוכה.",
+      "can_do": "לזהות צליל של و",
+      "worked_method": "و = ו.",
+      "hint": "ו."
+    },
+    {
+      "id": "x1_s2_letters_03__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איזו מילה?",
+      "body_he": "איזו מילה כתובה כאן?",
+      "body_content": "زَهْرَة",
+      "speak_text": "بَيْت",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בַּיְת"
+        },
+        {
+          "id": "b",
+          "label": "בַּאבּ",
+          "feedback": "זה בַּיְת, לא בַּאבּ."
+        },
+        {
+          "id": "c",
+          "label": "וַולַד",
+          "feedback": "זה בַּיְת, לא וַולַד."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, بَيْت = בַּיְת.",
+      "feedback_try": "زَهْرَة נקרא בַּיְת, משמעותו בית. אותיות ب ي ت.",
+      "can_do": "לקרוא את بَيْت",
+      "worked_method": "ב י ת.",
+      "hint": "ב י ת."
+    },
+    {
+      "id": "x1_s2_letters_05__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אות חסרה",
+      "body_he": "איזו אות חסרה במלה وَ_د?",
+      "body_content": "شَمْس",
+      "speak_text": "وَلَد",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ل"
+        },
+        {
+          "id": "b",
+          "label": "ب",
+          "feedback": "לא ב, חסר ל."
+        },
+        {
+          "id": "c",
+          "label": "ن",
+          "feedback": "לא נ, חסר ל."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, חסר ل.",
+      "feedback_try": "شَمْس = ו ל ד. חסר ל.",
+      "can_do": "להשלים אות ב-وَلَد",
+      "worked_method": "וַולַד = و ل د.",
+      "hint": "ל."
+    },
+    {
+      "id": "x1_s2_letters_06__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "צליל לאות",
+      "body_he": "איזו אות היא הצליל ס?",
+      "body_content": "س ر د ك",
+      "speak_text": "س",
+      "choices": [
+        {
+          "id": "a",
+          "label": "س"
+        },
+        {
+          "id": "b",
+          "label": "ر",
+          "feedback": "ר היא ر."
+        },
+        {
+          "id": "c",
+          "label": "د",
+          "feedback": "ד היא د."
+        },
+        {
+          "id": "d",
+          "label": "ك",
+          "feedback": "כ היא ك."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, ס היא س.",
+      "feedback_try": "הצליל ס הוא האות س.",
+      "can_do": "לזהות אות לפי צליל ס",
+      "worked_method": "ס = س.",
+      "hint": "ס."
+    },
+    {
+      "id": "x1_s2_letters_08__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מתחברת?",
+      "body_he": "האם د מתחברת שמאלה?",
+      "body_content": "د",
+      "speak_text": "د",
+      "choices": [
+        {
+          "id": "a",
+          "label": "לא"
+        },
+        {
+          "id": "b",
+          "label": "כן",
+          "feedback": "د לא מתחברת שמאלה."
+        },
+        {
+          "id": "c",
+          "label": "רק באמצע",
+          "feedback": "ד לא מתחברת שמאלה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, د לא מתחברת שמאלה.",
+      "feedback_try": "האות د לא מתחברת שמאלה.",
+      "can_do": "לדעת אם د מתחברת",
+      "worked_method": "ا د ر و לא מתחברות שמאלה.",
+      "hint": "לא."
+    },
+    {
+      "id": "x1_s2_letters_10__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "איזו אות?",
+      "body_he": "איזו אות היא ك?",
+      "body_content": "ك س ر د",
+      "speak_text": "ك",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כ"
+        },
+        {
+          "id": "b",
+          "label": "ס",
+          "feedback": "ס היא س."
+        },
+        {
+          "id": "c",
+          "label": "ר",
+          "feedback": "ר היא ر."
+        },
+        {
+          "id": "d",
+          "label": "ד",
+          "feedback": "ד היא د."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, ك היא כּ.",
+      "feedback_try": "ك היא כּ, תמיד k.",
+      "can_do": "לזהות את ك",
+      "worked_method": "כ = ك.",
+      "hint": "כ."
+    },
+    {
+      "id": "x1_s2_letters_13__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מילה",
+      "body_he": "מה המשמעות של كَانَ?",
+      "body_content": "كَانَ",
+      "speak_text": "كَانَ",
+      "choices": [
+        {
+          "id": "a",
+          "label": "היה"
+        },
+        {
+          "id": "b",
+          "label": "כתב",
+          "feedback": "כתב זה كَتَبَ."
+        },
+        {
+          "id": "c",
+          "label": "הלך",
+          "feedback": "הלך זה سَارَ."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, كَانَ = היה.",
+      "feedback_try": "كَانَ משמעותו היה. כַּאנַ.",
+      "can_do": "לזהות את كَانَ",
+      "worked_method": "כ א נ.",
+      "hint": "היה."
+    },
+    {
+      "id": "x1_s2_letters_14__a1w0",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "יום",
+      "body_he": "מה המשמעות של يَوْم?",
+      "body_content": "يَوْم",
+      "speak_text": "يَوْم",
+      "choices": [
+        {
+          "id": "a",
+          "label": "יום"
+        },
+        {
+          "id": "b",
+          "label": "בית",
+          "feedback": "בית זה بَيْت או دَار."
+        },
+        {
+          "id": "c",
+          "label": "שלום",
+          "feedback": "שלום זה سَلَام."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, يَوْم = יום.",
+      "feedback_try": "يَوْم משמעותו יום. יַוְם.",
+      "can_do": "לזהות את يَوْם",
+      "worked_method": "י ו מ.",
+      "hint": "יום."
+    }
+  ],
+  "s2_review": [
+    {
+      "id": "x1_s2_review_01__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות?",
+      "body_he": "איזו אות היא ب?",
+      "body_content": "ر م ل ك",
+      "speak_text": "ب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ב"
+        },
+        {
+          "id": "b",
+          "label": "ת",
+          "feedback": "ת היא ت."
+        },
+        {
+          "id": "c",
+          "label": "נ",
+          "feedback": "נ היא ن."
+        },
+        {
+          "id": "d",
+          "label": "י",
+          "feedback": "י היא ي."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, ب היא בּ.",
+      "feedback_try": "ب: נקודה אחת למטה. ת שתיים למעלה, ن אחת למעלה, ي שתיים למטה.",
+      "can_do": "לזהות ב לפי נקודה",
+      "worked_method": "נקודות: ب למטה, ت למעלה, ن למעלה, ي למטה.",
+      "hint": "נקודה למטה."
+    },
+    {
+      "id": "x1_s2_review_02__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "לא מתחברת",
+      "body_he": "איזו אות לא מתחברת שמאלה?",
+      "body_content": "ا د ر و",
+      "speak_text": "ا د ر و",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כולן"
+        },
+        {
+          "id": "b",
+          "label": "רק ا",
+          "feedback": "כולן לא מתחברות שמאלה."
+        },
+        {
+          "id": "c",
+          "label": "רק د",
+          "feedback": "כולן."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, כולן לא מתחברות שמאלה.",
+      "feedback_try": "ا د ر و לא מתחברות שמאלה.",
+      "can_do": "לזהות אותיות לא מתחברות",
+      "worked_method": "שש אותיות לא מתחברות שמאלה, כאן א ד ר ו.",
+      "hint": "כולן."
+    },
+    {
+      "id": "x1_s2_review_04__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "צליל",
+      "body_he": "מה הצליל של ر?",
+      "body_content": "ر",
+      "speak_text": "ر",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ר"
+        },
+        {
+          "id": "b",
+          "label": "ד",
+          "feedback": "ד היא د."
+        },
+        {
+          "id": "c",
+          "label": "ס",
+          "feedback": "ס היא س."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, ر היא ר.",
+      "feedback_try": "ر היא ר מתגלגלת.",
+      "can_do": "לזהות צליל של ر",
+      "worked_method": "ר = ر.",
+      "hint": "ר."
+    },
+    {
+      "id": "x1_s2_review_06__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "מילה",
+      "body_he": "מה המשמעות של شَمْس?",
+      "body_content": "شَمْس",
+      "speak_text": "وَلَد",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ילד"
+        },
+        {
+          "id": "b",
+          "label": "בית",
+          "feedback": "בית זה بَيْت."
+        },
+        {
+          "id": "c",
+          "label": "דלת",
+          "feedback": "דלת זה بَاب."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, وَلَد = ילד.",
+      "feedback_try": "شَمْس משמעותו ילד. וַולַד.",
+      "can_do": "לזהות את وَلَد",
+      "worked_method": "ו ל ד.",
+      "hint": "ילד."
+    },
+    {
+      "id": "x1_s2_review_07__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "איזו אות?",
+      "body_he": "איזו אות היא ل?",
+      "body_content": "ل م ن ب",
+      "speak_text": "ل",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ל"
+        },
+        {
+          "id": "b",
+          "label": "מ",
+          "feedback": "מ היא م."
+        },
+        {
+          "id": "c",
+          "label": "נ",
+          "feedback": "נ היא ن."
+        },
+        {
+          "id": "d",
+          "label": "ב",
+          "feedback": "ב היא ب."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, ل היא ל.",
+      "feedback_try": "ل היא ל.",
+      "can_do": "לזהות את ل",
+      "worked_method": "ל = ل.",
+      "hint": "ל."
+    },
+    {
+      "id": "x1_s2_review_08__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "מילה",
+      "body_he": "מה המשמעות של قَلَم?",
+      "body_content": "قَلَم",
+      "speak_text": "بَاب",
+      "choices": [
+        {
+          "id": "a",
+          "label": "דלת"
+        },
+        {
+          "id": "b",
+          "label": "בית",
+          "feedback": "בית זה بَيْت."
+        },
+        {
+          "id": "c",
+          "label": "חלב",
+          "feedback": "חלב זה لَبَن."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, بَاب = דלת.",
+      "feedback_try": "قَلَم משמעותו דלת. בַּאבּ.",
+      "can_do": "לזהות את بَاب",
+      "worked_method": "ב א ב.",
+      "hint": "דלת."
+    },
+    {
+      "id": "x1_s2_review_09__a1w0",
+      "type": "practice",
+      "kind": "review",
+      "title": "צליל לאות",
+      "body_he": "איזו אות היא הצליל כּ?",
+      "body_content": "ك س ر",
+      "speak_text": "ك",
+      "choices": [
+        {
+          "id": "a",
+          "label": "ك"
+        },
+        {
+          "id": "b",
+          "label": "س",
+          "feedback": "ס היא س."
+        },
+        {
+          "id": "c",
+          "label": "ر",
+          "feedback": "ר היא ر."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון, כּ היא ك.",
+      "feedback_try": "הצליל כּ הוא האות ك.",
+      "can_do": "לזהות אות לפי צליל כ",
+      "worked_method": "כ = ك.",
+      "hint": "כ."
+    }
+  ]
+}
