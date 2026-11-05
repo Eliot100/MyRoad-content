@@ -24,7 +24,13 @@ ROOT = Path(__file__).resolve().parent.parent
 
 
 def main() -> int:
-    files = sorted(p for p in ROOT.rglob("*.json") if ".git" not in p.parts)
+    # Only road JSON under adult/ and grade3/. Helper payloads under scripts/ use .json.txt.
+    files = sorted(
+        p
+        for sub in ("adult", "grade3")
+        for p in (ROOT / sub).rglob("*.json")
+        if p.is_file()
+    )
     if not files:
         print("No path JSON files found.")
         return 1
