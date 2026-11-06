@@ -1,0 +1,170 @@
+{
+  "id": "path_math_bagrut5_00_placement",
+  "titles": {
+    "he": "מבדק רמה במתמטיקה",
+    "en": "Math level check",
+    "ar": "اختبار مستوى الرياضيات"
+  },
+  "blurbs": {
+    "he": "ארבע שאלות קצרות. לפי הטעויות נפתחת הדרך, בלי חומר חדש.",
+    "en": "Four short questions. Mistakes open the road. No new material.",
+    "ar": "أربعة أسئلة قصيرة. الأخطاء تفتح الطريق."
+  },
+  "subject": "math",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "∑",
+  "explain_locale": "he",
+  "content_locale": "he",
+  "estimated_minutes": 25,
+  "prerequisite_path_ids": [],
+  "topics": [
+    {
+      "id": "t0",
+      "titles": {
+        "he": "שיפוע",
+        "en": "Slope"
+      },
+      "emoji": "∑",
+      "node_ids": [
+        "p0"
+      ]
+    },
+    {
+      "id": "t1",
+      "titles": {
+        "he": "משולש",
+        "en": "Triangle"
+      },
+      "emoji": "∑",
+      "node_ids": [
+        "p1"
+      ]
+    },
+    {
+      "id": "t2",
+      "titles": {
+        "he": "סדרה",
+        "en": "Sequence"
+      },
+      "emoji": "∑",
+      "node_ids": [
+        "p2"
+      ]
+    },
+    {
+      "id": "t3",
+      "titles": {
+        "he": "הסתברות",
+        "en": "Probability"
+      },
+      "emoji": "∑",
+      "node_ids": [
+        "p3"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "p0",
+      "type": "check",
+      "title": "שיפוע",
+      "body_he": "מה השיפוע בין (0, 1) ל־(2, 5)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "1"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. (5−1)/(2−0) = 2.",
+      "feedback_try": "שינוי ב־y חלקי שינוי ב־x.",
+      "area": "analysis",
+      "difficulty": -1.0
+    },
+    {
+      "id": "p1",
+      "type": "check",
+      "title": "משולש",
+      "body_he": "במשולש ישר זווית, הניצבים 3 ו־4. מה אורך היתר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "12"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 3²+4²=25, והשורש הוא 5.",
+      "feedback_try": "משפט פיתגורס, לא סכום הניצבים.",
+      "area": "geometry",
+      "difficulty": -0.2
+    },
+    {
+      "id": "p2",
+      "type": "check",
+      "title": "סדרה",
+      "body_he": "סדרה חשבונית: 2, 5, 8. מה האיבר הרביעי?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "11"
+        },
+        {
+          "id": "b",
+          "label": "10"
+        },
+        {
+          "id": "c",
+          "label": "16"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. הפרש 3, אז 8+3=11.",
+      "feedback_try": "מוסיפים את אותו הפרש.",
+      "area": "sequences",
+      "difficulty": 0.4
+    },
+    {
+      "id": "p3",
+      "type": "check",
+      "title": "הסתברות",
+      "body_he": "קובייה הוגנת. מה ההסתברות לתוצאה זוגית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/2"
+        },
+        {
+          "id": "b",
+          "label": "1/6"
+        },
+        {
+          "id": "c",
+          "label": "2/3"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 2, 4, 6 מתוך 6, כלומר 1/2.",
+      "feedback_try": "שלוש תוצאות זוגיות מתוך שש.",
+      "area": "probability",
+      "difficulty": 0.8
+    }
+  ]
+}

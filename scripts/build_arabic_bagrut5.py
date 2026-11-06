@@ -383,7 +383,7 @@ def zero() -> dict:
          "en": "Arabic script from day one: direction, first letters, first words, and hello in spoken Arabic.",
          "ar": "الخط العربي من اليوم الأول: الحروف والكلمات الأولى والتحية."},
         "🌱", 90, [], topics, nodes,
-        route={"from_placement": P00, "band_min": 1, "band_max": 3},
+        route={"from_placement": P00, "band_min": 1, "band_max": 1},
     )
 
 

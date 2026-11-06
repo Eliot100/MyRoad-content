@@ -5712,6 +5712,6 @@
   "placement_route": {
     "from_placement": "path_arabic_bagrut5_00_placement",
     "band_min": 1,
-    "band_max": 3
+    "band_max": 1
   }
 }

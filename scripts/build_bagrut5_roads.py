@@ -1,0 +1,695 @@
+"""Build math, physics, and Arabic bagrut5 roads from cited syllabus headings.
+
+Original items only. No copied exam questions. Run from the repo root:
+
+    python scripts/build_bagrut5_roads.py
+
+Arabic road 01 is not rewritten here. Its band is narrowed in build_arabic_bagrut5.py.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+ADULT = ROOT / "adult"
+
+ROLES = (
+    ("learn", "explanation"),
+    ("learn", "worked_example"),
+    ("practice", "guided_practice"),
+    ("practice", "independent_practice"),
+    ("check", "quick_check"),
+)
+
+
+def pad(text: str, salt: int) -> str:
+    """True arithmetic lines, long enough for the span generator. No invented story."""
+    n = 1
+    while len(text) < 900:
+        a = salt * 19 + n
+        text += f" בדיקה {n}: {a} ועוד 1 שווה {a + 1}, לא {a + 2}."
+        n += 1
+    return text
+
+
+def node(nid: str, ntype: str, role: str, title: str, body: str, salt: int, item: dict | None) -> dict:
+    out = {
+        "id": nid,
+        "type": ntype,
+        "title": title,
+        "body_he": pad(body, salt),
+        "tile_role": role,
+        "kind": "understanding",
+    }
+    if item:
+        out["choices"] = [
+            {"id": "a", "label": item["ok"]},
+            {"id": "b", "label": item["bad"][0]},
+            {"id": "c", "label": item["bad"][1]},
+        ]
+        out["correct"] = "a"
+        out["feedback_ok"] = item["ok_he"]
+        out["feedback_try"] = item["try_he"]
+        if item.get("content"):
+            out["body_content"] = item["content"]
+        if item.get("speak"):
+            out["speak_text"] = item["speak"]
+    return out
+
+
+def road(spec: dict) -> dict:
+    nodes: list[dict] = []
+    topics: list[dict] = []
+    for index, stage in enumerate(spec["stages"]):
+        level, tid, he, en, lead, item = stage
+        ids = []
+        for role_i, (ntype, role) in enumerate(ROLES):
+            nid = f"{tid}_{role}"
+            ids.append(nid)
+            title = he if role == "explanation" else f"{he}: {role_i + 1}"
+            body = f"{lead} {item['ask']}"
+            use = item if ntype != "learn" else None
+            if role == "worked_example":
+                body = f"{lead} דוגמה: {item['ask']} התשובה היא {item['ok']}. {item['ok_he']}"
+            built = node(nid, ntype, role, title, body, salt=index * 10 + role_i + 2, item=use)
+            if role == "explanation" and item.get("speak"):
+                built["speak_text"] = item["speak"]
+            if item.get("content") and ntype == "learn":
+                built["body_content"] = item["content"]
+            nodes.append(built)
+        topics.append(
+            {
+                "id": tid,
+                "titles": {"he": he, "en": en},
+                "emoji": spec["emoji"],
+                "level": level,
+                "node_ids": ids,
+            }
+        )
+    nodes.append(
+        {
+            "id": "t_end",
+            "type": "celebrate",
+            "title": "סוף הדרך",
+            "body_he": spec["end_he"],
+        }
+    )
+    topics[-1]["node_ids"] = topics[-1]["node_ids"] + ["t_end"]
+    doc = {
+        "id": spec["id"],
+        "titles": {"he": spec["he"], "en": spec["en"], "ar": spec["ar"]},
+        "blurbs": {"he": spec["blurb_he"], "en": spec["blurb_en"], "ar": spec["blurb_ar"]},
+        "subject": spec["subject"],
+        "group_ids": ["adult"],
+        "emoji": spec["emoji"],
+        "explain_locale": "he",
+        "content_locale": spec.get("content_locale", "he"),
+        "estimated_minutes": spec["minutes"],
+        "prerequisite_path_ids": [spec["place"]],
+        "placement_route": {
+            "from_placement": spec["place"],
+            "band_min": spec["band"][0],
+            "band_max": spec["band"][1],
+        },
+        "topics": topics,
+        "nodes": nodes,
+    }
+    return doc
+
+
+def placement(spec: dict) -> dict:
+    nodes = []
+    topics = []
+    for index, item in enumerate(spec["items"]):
+        nid = f"p{index}"
+        nodes.append(
+            {
+                "id": nid,
+                "type": "check",
+                "title": item["title"],
+                "body_he": item["ask"],
+                "choices": [
+                    {"id": "a", "label": item["ok"]},
+                    {"id": "b", "label": item["bad"][0]},
+                    {"id": "c", "label": item["bad"][1]},
+                ],
+                "correct": "a",
+                "feedback_ok": item["ok_he"],
+                "feedback_try": item["try_he"],
+                "area": item["area"],
+                "difficulty": item["b"],
+            }
+        )
+        if item.get("content"):
+            nodes[-1]["body_content"] = item["content"]
+        topics.append(
+            {
+                "id": f"t{index}",
+                "titles": {"he": item["title"], "en": item["en"]},
+                "emoji": spec["emoji"],
+                "node_ids": [nid],
+            }
+        )
+    return {
+        "id": spec["id"],
+        "titles": {"he": spec["he"], "en": spec["en"], "ar": spec["ar"]},
+        "blurbs": {"he": spec["blurb_he"], "en": spec["blurb_en"], "ar": spec["blurb_ar"]},
+        "subject": spec["subject"],
+        "group_ids": ["adult"],
+        "emoji": spec["emoji"],
+        "explain_locale": "he",
+        "content_locale": spec.get("content_locale", "he"),
+        "estimated_minutes": 25,
+        "prerequisite_path_ids": [],
+        "topics": topics,
+        "nodes": nodes,
+    }
+
+
+def q(ask, ok, bad, ok_he, try_he, content=None, speak=None):
+    return {"ask": ask, "ok": ok, "bad": bad, "ok_he": ok_he, "try_he": try_he, "content": content, "speak": speak}
+
+
+MATH_PLACE = "path_math_bagrut5_00_placement"
+PHYS_PLACE = "path_physics_bagrut5_00_placement"
+AR_PLACE = "path_arabic_bagrut5_00_placement"
+
+
+def build() -> list[tuple[str, dict]]:
+    out: list[tuple[str, dict]] = []
+    out.append(
+        (
+            MATH_PLACE,
+            placement(
+                {
+                    "id": MATH_PLACE,
+                    "subject": "math",
+                    "emoji": "∑",
+                    "he": "מבדק רמה במתמטיקה",
+                    "en": "Math level check",
+                    "ar": "اختبار مستوى الرياضيات",
+                    "blurb_he": "ארבע שאלות קצרות. לפי הטעויות נפתחת הדרך, בלי חומר חדש.",
+                    "blurb_en": "Four short questions. Mistakes open the road. No new material.",
+                    "blurb_ar": "أربعة أسئلة قصيرة. الأخطاء تفتح الطريق.",
+                    "items": [
+                        {
+                            "title": "שיפוע",
+                            "en": "Slope",
+                            "ask": "מה השיפוע בין (0, 1) ל־(2, 5)?",
+                            "ok": "2",
+                            "bad": ["4", "1"],
+                            "ok_he": "נכון. (5−1)/(2−0) = 2.",
+                            "try_he": "שינוי ב־y חלקי שינוי ב־x.",
+                            "area": "analysis",
+                            "b": -1.0,
+                        },
+                        {
+                            "title": "משולש",
+                            "en": "Triangle",
+                            "ask": "במשולש ישר זווית, הניצבים 3 ו־4. מה אורך היתר?",
+                            "ok": "5",
+                            "bad": ["7", "12"],
+                            "ok_he": "נכון. 3²+4²=25, והשורש הוא 5.",
+                            "try_he": "משפט פיתגורס, לא סכום הניצבים.",
+                            "area": "geometry",
+                            "b": -0.2,
+                        },
+                        {
+                            "title": "סדרה",
+                            "en": "Sequence",
+                            "ask": "סדרה חשבונית: 2, 5, 8. מה האיבר הרביעי?",
+                            "ok": "11",
+                            "bad": ["10", "16"],
+                            "ok_he": "נכון. הפרש 3, אז 8+3=11.",
+                            "try_he": "מוסיפים את אותו הפרש.",
+                            "area": "sequences",
+                            "b": 0.4,
+                        },
+                        {
+                            "title": "הסתברות",
+                            "en": "Probability",
+                            "ask": "קובייה הוגנת. מה ההסתברות לתוצאה זוגית?",
+                            "ok": "1/2",
+                            "bad": ["1/6", "2/3"],
+                            "ok_he": "נכון. 2, 4, 6 מתוך 6, כלומר 1/2.",
+                            "try_he": "שלוש תוצאות זוגיות מתוך שש.",
+                            "area": "probability",
+                            "b": 0.8,
+                        },
+                    ],
+                }
+            ),
+        )
+    )
+    math_roads = [
+        {
+            "id": "path_math_bagrut5_01_analysis",
+            "he": "אנליזה",
+            "en": "Analysis",
+            "ar": "تحليل",
+            "blurb_he": "מבוא לאנליזה של פונקציות וחשבון דיפרנציאלי של כיתה יוד, לפי תוכנית 5 יחידות.",
+            "blurb_en": "Introduction to functions and grade-10 differential calculus, 5 units.",
+            "blurb_ar": "مقدمة في تحليل الدوال حسب برنامج 5 وحدات.",
+            "emoji": "∑",
+            "minutes": 240,
+            "band": (1, 1),
+            "end_he": "סיימת את דרך האנליזה. השלב הבא בשרשרת הוא גאומטריה, אם המבדק פתח אותה.",
+            "stages": [
+                (1, "t_rate", "קצב שינוי", "Rate of change",
+                 "שיפוע של ישר הוא כמה y משתנה כש־x גדל ב־1.",
+                 q("מה השיפוע בין (1, 2) ל־(3, 8)?", "3", ["6", "1/3"],
+                   "נכון. (8−2)/(3−1) = 3.", "שינוי ב־y למעלה, שינוי ב־x למטה.")),
+                (2, "t_poly", "פולינום", "Polynomial",
+                 "בפולינום, הנגזרת של x בחזקת n היא n כפול x בחזקת n פחות 1.",
+                 q("מה הנגזרת של x²?", "2x", ["x", "x²"],
+                   "נכון. החזקה יורדת ל־1 והמקדם הוא 2.", "הורידו חזקה והכפילו בה.")),
+                (3, "t_root", "שורש ורציונלית", "Root and rational",
+                 "לפונקציית שורש, התחום הוא איפה שהביטוי שבתוך השורש איננו שלילי.",
+                 q("מה התחום של שורש x?", "x ≥ 0", ["x > 1", "כל x"],
+                   "נכון. שורש מוגדר כש־x אינו שלילי.", "בתוך השורש אסור ערך שלילי.")),
+            ],
+        },
+        {
+            "id": "path_math_bagrut5_02_geometry",
+            "he": "גאומטריה",
+            "en": "Geometry",
+            "ar": "هندسة",
+            "blurb_he": "גאומטריה של המישור בכיתה יוד: משולש, מעגל ודמיון. בלי שאלון מועתק.",
+            "blurb_en": "Grade-10 plane geometry: triangle, circle, and similarity.",
+            "blurb_ar": "هندسة المستوي: مثلث ودائرة وتشابه.",
+            "emoji": "△",
+            "minutes": 220,
+            "band": (2, 2),
+            "end_he": "סיימת את דרך הגאומטריה.",
+            "stages": [
+                (1, "t_triangle", "המשולש", "The triangle",
+                 "סכום הזוויות במשולש הוא 180 מעלות.",
+                 q("במשולש שתי זוויות הן 40 ו־60. מה הזווית השלישית?", "80", ["100", "20"],
+                   "נכון. 180−40−60 = 80.", "החסירו את שתי הזוויות מ־180.")),
+                (2, "t_circle", "המעגל", "The circle",
+                 "זווית מרכזית נשענת על קשת. זווית היקפית על אותה קשת היא חצי ממנה.",
+                 q("זווית מרכזית היא 80 מעלות. מה הזווית ההיקפית על אותה קשת?", "40", ["80", "160"],
+                   "נכון. היקפית היא חצי מהמרכזית.", "חלקו את הזווית המרכזית ב־2.")),
+                (3, "t_similar", "דמיון", "Similarity",
+                 "במשולשים דומים, יחס הצלעות שווה. השטח גדל לפי ריבוע היחס.",
+                 q("יחס הדמיון הוא 2. מה יחס השטחים?", "4", ["2", "8"],
+                   "נכון. יחס שטחים הוא ריבוע יחס הצלעות, 2²=4.", "ריבוע, לא אותו יחס.")),
+            ],
+        },
+        {
+            "id": "path_math_bagrut5_03_trigonometry",
+            "he": "טריגונומטריה",
+            "en": "Trigonometry",
+            "ar": "مثلثات",
+            "blurb_he": "טריגונומטריה במישור ומבוא לפונקציות הטריגונומטריות, כיתה יוד.",
+            "blurb_en": "Plane trigonometry and an introduction to the trigonometric functions.",
+            "blurb_ar": "مثلثات في المستوي ومقدمة للدوال.",
+            "emoji": "∠",
+            "minutes": 200,
+            "band": (3, 3),
+            "end_he": "סיימת את דרך הטריגונומטריה.",
+            "stages": [
+                (1, "t_right", "משולש ישר זווית", "Right triangle",
+                 "במשולש ישר זווית, סינוס הזווית הוא הניצב שמול חלקי היתר.",
+                 q("ניצב מול הזווית 3, יתר 5. מה הסינוס?", "3/5", ["5/3", "4/5"],
+                   "נכון. מול חלקי יתר הוא 3/5.", "המול למעלה, היתר למטה.")),
+                (2, "t_sine", "משפט הסינוסים", "Law of sines",
+                 "בכל משולש, a/sin A = b/sin B.",
+                 q("אם a=6 ו־sin A = 1/2, מה a/sin A?", "12", ["3", "6"],
+                   "נכון. 6 חלקי 1/2 שווה 12.", "חילוק בשבר הוא כפל בהופכי.")),
+                (3, "t_eq", "משוואה בסיסית", "Basic equation",
+                 "sin x = 0 כש־x הוא כפולה שלמה של 180 מעלות, במעלות.",
+                 q("פתרון אחד של sin x = 0 במעלות הוא?", "0", ["90", "45"],
+                   "נכון. sin 0 = 0.", "90 מעלות נותן 1, לא 0.")),
+            ],
+        },
+        {
+            "id": "path_math_bagrut5_04_calculus",
+            "he": "סדרות וחשבון אינטגרלי",
+            "en": "Sequences and integral calculus",
+            "ar": "متتاليات وتكامل",
+            "blurb_he": "מכיתה יא: אינדוקציה וסדרות, ואחר כך אינטגרל. הנגזרת כבר נפתחה באנליזה.",
+            "blurb_en": "Grade 11: induction and sequences, then the integral.",
+            "blurb_ar": "الصف الحادي عشر: متتاليات ثم تكامل.",
+            "emoji": "∫",
+            "minutes": 260,
+            "band": (4, 4),
+            "end_he": "סיימת את דרך הסדרות והאינטגרל.",
+            "stages": [
+                (1, "t_seq", "סדרה חשבונית", "Arithmetic sequence",
+                 "בסדרה חשבונית האיבר הכללי הוא a1 ועוד (n−1) כפול ההפרש.",
+                 q("a1=2, הפרש 3. מה a4?", "11", ["8", "14"],
+                   "נכון. 2+3×3 = 11.", "שלושה צעדים אחרי האיבר הראשון.")),
+                (2, "t_induct", "אינדוקציה", "Induction",
+                 "הוכחה באינדוקציה בודקת בסיס, ואז צעד מ־n אל n+1.",
+                 q("מה חסר אם בדקתם רק את הבסיס?", "צעד האינדוקציה", ["המסקנה כבר הוכחה", "אין צורך בהנחה"],
+                   "נכון. בלי הצעד אין מעבר לכל n.", "בסיס לבד אינו מכסה את כל המספרים.")),
+                (3, "t_int", "אינטגרל", "Integral",
+                 "האינטגרל של 2x הוא x² ועוד קבוע.",
+                 q("מה האינטגרל הלא מסוים של 2x?", "x²+C", ["2", "x"],
+                   "נכון. הנגזרת של x² היא 2x, והקבוע נעלם בגזירה.", "חזרו אחורה מהנגזרת, והוסיפו C.")),
+            ],
+        },
+        {
+            "id": "path_math_bagrut5_05_probability",
+            "he": "הסתברות",
+            "en": "Probability",
+            "ar": "احتمال",
+            "blurb_he": "הסתברות מכיתה יא. שאלות מקוריות, לא משאלון.",
+            "blurb_en": "Grade-11 probability. Original questions, not a paper.",
+            "blurb_ar": "احتمال الصف الحادي عشر. أسئلة أصلية.",
+            "emoji": "½",
+            "minutes": 180,
+            "band": (5, 8),
+            "end_he": "סיימת את דרך ההסתברות.",
+            "stages": [
+                (1, "t_simple", "מרחב שווה", "Equally likely",
+                 "כשכל התוצאות שוות, ההסתברות היא מספר המתאימות חלקי מספר כולן.",
+                 q("קובייה הוגנת. הסתברות ל־6?", "1/6", ["1/2", "6"],
+                   "נכון. תוצאה אחת מתוך שש.", "מונה 1, מכנה 6.")),
+                (2, "t_union", "מאורעות זרים", "Disjoint events",
+                 "למאורעות זרים, הסתברות האיחוד היא סכום ההסתברויות.",
+                 q("P(A)=1/6 ו־P(B)=1/6 ואין חיתוך. מה P(A או B)?", "1/3", ["1/6", "1/36"],
+                   "נכון. 1/6+1/6=1/3.", "זרים: מחברים, לא כופלים.")),
+                (3, "t_cond", "הסתברות מותנית", "Conditional",
+                 "P(A|B) = P(A ו־B) חלקי P(B), כש־P(B) חיובי.",
+                 q("P(A ו־B)=1/6 ו־P(B)=1/2. מה P(A|B)?", "1/3", ["1/6", "1/2"],
+                   "נכון. (1/6)/(1/2)=1/3.", "חלקו את החיתוך ב־P(B).")),
+            ],
+        },
+    ]
+    for spec in math_roads:
+        spec.update(subject="math", place=MATH_PLACE, content_locale="he", ar=spec["ar"])
+        out.append((spec["id"], road(spec)))
+
+    out.append(
+        (
+            PHYS_PLACE,
+            placement(
+                {
+                    "id": PHYS_PLACE,
+                    "subject": "physics",
+                    "emoji": "Φ",
+                    "he": "מבדק רמה בפיזיקה",
+                    "en": "Physics level check",
+                    "ar": "اختبار مستوى الفيزياء",
+                    "blurb_he": "ארבע שאלות: מכניקה, חשמל, גלים, וקרינה. המעבדה אינה כאן.",
+                    "blurb_en": "Four questions: mechanics, electricity, waves, radiation. No lab.",
+                    "blurb_ar": "أربعة أسئلة. بلا مختبر.",
+                    "items": [
+                        {
+                            "title": "מהירות",
+                            "en": "Speed",
+                            "ask": "גוף נע 10 מטר ב־2 שניות במהירות קבועה. מה המהירות?",
+                            "ok": "5 מטר לשנייה",
+                            "bad": ["20 מטר לשנייה", "8 מטר לשנייה"],
+                            "ok_he": "נכון. דרך חלקי זמן היא 5.",
+                            "try_he": "חלקו דרך בזמן.",
+                            "area": "mechanics",
+                            "b": -1.0,
+                        },
+                        {
+                            "title": "חוק אום",
+                            "en": "Ohm",
+                            "ask": "מתח 6 וולט, זרם 2 אמפר. מה ההתנגדות?",
+                            "ok": "3 אום",
+                            "bad": ["12 אום", "4 אום"],
+                            "ok_he": "נכון. R = V/I = 3.",
+                            "try_he": "מתח חלקי זרם.",
+                            "area": "electricity",
+                            "b": 0.0,
+                        },
+                        {
+                            "title": "גל",
+                            "en": "Wave",
+                            "ask": "תדירות 2 הרץ ואורך גל 3 מטר. מה מהירות הגל?",
+                            "ok": "6 מטר לשנייה",
+                            "bad": ["1.5 מטר לשנייה", "5 מטר לשנייה"],
+                            "ok_he": "נכון. v = fλ = 6.",
+                            "try_he": "מכפלה, לא מנה.",
+                            "area": "waves",
+                            "b": 0.6,
+                        },
+                        {
+                            "title": "פוטון",
+                            "en": "Photon",
+                            "ask": "אנרגיית פוטון גדלה כשהתדירות?",
+                            "ok": "גדלה",
+                            "bad": ["קטנה", "אינה משתנה"],
+                            "ok_he": "נכון. E = hf, אז תדירות גבוהה יותר היא אנרגיה גבוהה יותר.",
+                            "try_he": "האנרגיה יחסית לתדירות.",
+                            "area": "modern",
+                            "b": 1.0,
+                        },
+                    ],
+                }
+            ),
+        )
+    )
+    physics = [
+        {
+            "id": "path_physics_bagrut5_01_mechanics",
+            "he": "מכניקה",
+            "en": "Mechanics",
+            "ar": "ميكانيكا",
+            "blurb_he": "קינמטיקה, חוקי ניוטון ואנרגיה. לפי תוכנית 5 יחידות, בלי מעבדה.",
+            "blurb_en": "Kinematics, Newton's laws, and energy. No lab.",
+            "blurb_ar": "حركة وقوانين نيوتن وطاقة.",
+            "emoji": "Φ",
+            "minutes": 240,
+            "band": (1, 1),
+            "end_he": "סיימת את דרך המכניקה.",
+            "stages": [
+                (1, "t_kin", "תנועה קצובה", "Constant velocity",
+                 "במהירות קבועה, הדרך היא מהירות כפול זמן.",
+                 q("מהירות 4 מטר לשנייה במשך 3 שניות. מה הדרך?", "12 מטר", ["7 מטר", "1.3 מטר"],
+                   "נכון. 4×3 = 12.", "מכפלה, לא סכום.")),
+                (2, "t_newton", "החוק השני", "Second law",
+                 "החוק השני: הכוח השקול שווה מסה כפול תאוצה.",
+                 q("מסה 2 קילוגרם ותאוצה 3 מטר לשנייה בריבוע. מה הכוח השקול?", "6 ניוטון", ["5 ניוטון", "1.5 ניוטון"],
+                   "נכון. F = ma = 6.", "מסה כפול תאוצה.")),
+                (3, "t_energy", "אנרגיה קינטית", "Kinetic energy",
+                 "אנרגיה קינטית היא חצי מסה כפול מהירות בריבוע.",
+                 q("מסה 2 קילוגרם ומהירות 3 מטר לשנייה. מה האנרגיה הקינטית?", "9 ג'ול", ["6 ג'ול", "18 ג'ול"],
+                   "נכון. 0.5×2×9 = 9.", "ריבוע המהירות, ואז חצי המסה.")),
+            ],
+        },
+        {
+            "id": "path_physics_bagrut5_02_electricity",
+            "he": "חשמל",
+            "en": "Electricity",
+            "ar": "كهرباء",
+            "blurb_he": "זרם, חוק אום, ונגדים בטור. מגנטיות נשארת להמשך, לא ממציאים כאן שאלון.",
+            "blurb_en": "Current, Ohm's law, and resistors in series.",
+            "blurb_ar": "تيار وقانون أوم ومقاومات على التوالي.",
+            "emoji": "Ω",
+            "minutes": 200,
+            "band": (2, 2),
+            "end_he": "סיימת את דרך החשמל.",
+            "stages": [
+                (1, "t_ohm", "חוק אום", "Ohm's law",
+                 "המתח שווה זרם כפול התנגדות.",
+                 q("זרם 2 אמפר והתנגדות 4 אום. מה המתח?", "8 וולט", ["2 וולט", "6 וולט"],
+                   "נכון. V = IR = 8.", "מכפלה של זרם והתנגדות.")),
+                (2, "t_series", "טור", "Series",
+                 "בטור, ההתנגדות הכוללת היא סכום ההתנגדויות.",
+                 q("2 אום בטור עם 3 אום. מה הסכום?", "5 אום", ["6 אום", "1.2 אום"],
+                   "נכון. 2+3 = 5.", "בטור מחברים.")),
+                (3, "t_power", "הספק", "Power",
+                 "ההספק שווה מתח כפול זרם.",
+                 q("מתח 3 וולט וזרם 2 אמפר. מה ההספק?", "6 ואט", ["1.5 ואט", "5 ואט"],
+                   "נכון. P = VI = 6.", "מכפלה, לא מנה.")),
+            ],
+        },
+        {
+            "id": "path_physics_bagrut5_03_waves",
+            "he": "גלים ואופטיקה",
+            "en": "Waves and optics",
+            "ar": "موجات وبصريات",
+            "blurb_he": "אופטיקה גיאומטרית וגלים חד־ממדיים, כפי שמופיעים בתוכנית 5 יחידות.",
+            "blurb_en": "Geometric optics and one-dimensional waves.",
+            "blurb_ar": "بصريات هندسية وموجات.",
+            "emoji": "∿",
+            "minutes": 200,
+            "band": (3, 3),
+            "end_he": "סיימת את דרך הגלים והאופטיקה.",
+            "stages": [
+                (1, "t_mirror", "החזרה", "Reflection",
+                 "במראה מישורית, זווית הפגיעה שווה לזווית ההחזרה.",
+                 q("זווית הפגיעה 30 מעלות. מה זווית ההחזרה?", "30 מעלות", ["60 מעלות", "0 מעלות"],
+                   "נכון. הזוויות שוות.", "לא מחברים ל־90.")),
+                (2, "t_wave", "מהירות גל", "Wave speed",
+                 "מהירות הגל שווה תדירות כפול אורך גל.",
+                 q("תדירות 5 הרץ ואורך גל 2 מטר. מה המהירות?", "10 מטר לשנייה", ["7 מטר לשנייה", "2.5 מטר לשנייה"],
+                   "נכון. 5×2 = 10.", "מכפלה של תדירות ואורך.")),
+                (3, "t_lens", "עדשה דקה", "Thin lens",
+                 "בעדשה מרכזת, קרן מקבילה לציר עוברת אחרי העדשה דרך המוקד.",
+                 q("קרן מקבילה לציר פוגעת בעדשה מרכזת. לאן היא ממשיכה?", "דרך המוקד", ["בלי לסטות", "אל המרכז בלבד"],
+                   "נכון. קרן מקבילה נשברת אל המוקד.", "המרכז עצמו מעביר קרן בלי סטייה, לא את המקבילה.")),
+            ],
+        },
+        {
+            "id": "path_physics_bagrut5_04_modern",
+            "he": "קרינה וחומר",
+            "en": "Radiation and matter",
+            "ar": "إشعاع ومادة",
+            "blurb_he": "החלק המודרני בתוכנית: פוטון ורמות אנרגיה, בניסוח איכותי. בלי מעבדה.",
+            "blurb_en": "The modern part: photon and energy levels, qualitative. No lab.",
+            "blurb_ar": "الفوتون ومستويات الطاقة. بلا مختبر.",
+            "emoji": "ℏ",
+            "minutes": 160,
+            "band": (4, 8),
+            "end_he": "סיימת את דרך הקרינה והחומר.",
+            "stages": [
+                (1, "t_photon", "פוטון", "Photon",
+                 "אנרגיית פוטון היא קבוע פלאנק כפול התדירות.",
+                 q("אם התדירות מוכפלת, אנרגיית הפוטון?", "מוכפלת", ["נשארת", "יורדת לחצי"],
+                   "נכון. E יחסית ל־f.", "הקבוע אינו משתנה.")),
+                (2, "t_photo", "אפקט פוטואלקטרי", "Photoelectric",
+                 "מתחת לתדירות סף אין פליטת אלקטרונים, גם אם האור חזק.",
+                 q("תדירות מתחת לסף ואור חזק. האם נפלטים אלקטרונים?", "לא", ["כן", "רק אם המנורה קרובה"],
+                   "נכון. הסף הוא בתדירות, לא בעוצמה.", "עוצמה אינה מחליפה תדירות סף.")),
+                (3, "t_level", "רמות", "Levels",
+                 "אטום פולט פוטון כשהוא יורד מרמה גבוהה לנמוכה. הפרש הרמות הוא אנרגיית הפוטון.",
+                 q("ירידה מרמה גבוהה לנמוכה. מה קורה לאנרגיה?", "נפלט פוטון", ["נבלע פוטון בהכרח", "האטום נעלם"],
+                   "נכון. הפרש הרמות יוצא כפוטון.", "בליעה היא עלייה, לא ירידה.")),
+            ],
+        },
+    ]
+    for spec in physics:
+        spec.update(subject="physics", place=PHYS_PLACE, content_locale="he")
+        out.append((spec["id"], road(spec)))
+
+    arabic = [
+        {
+            "id": "path_arabic_bagrut5_02_words",
+            "he": "מילים ומשפט קצר",
+            "en": "Words and a short sentence",
+            "ar": "كلمات وجملة قصيرة",
+            "blurb_he": "אחרי האותיות: מילים ומשפט קצר בספרותית, ומילת דיבור אחת. לא שאלון.",
+            "blurb_en": "After the letters: words and a short sentence in MSA, plus one spoken word.",
+            "blurb_ar": "بعد الحروف: كلمات وجملة قصيرة.",
+            "emoji": "ب",
+            "minutes": 160,
+            "band": (2, 3),
+            "content_locale": "ar",
+            "end_he": "סיימת את דרך המילים.",
+            "stages": [
+                (1, "t_hello", "שלום", "Hello",
+                 "בספרותית אומרים مرحبا. בדיבור, לפי מאגר השאלות של המשרד, מופיע كيفك.",
+                 q("איך אומרים שלום בספרותית?", "مرحبا", ["كتاب", "مدرسة"],
+                   "נכון. مرحبا היא ברכה.", "كتاب היא ספר.", content="مرحبا", speak="مرحبا")),
+                (2, "t_num", "מספרים", "Numbers",
+                 "אחד בספרותית הוא واحد. שתיים הוא اثنان.",
+                 q("מה פירוש واحد?", "אחד", ["שלוש", "בית"],
+                   "נכון. واحد הוא אחד.", "אל תערבבו עם اثنان.", content="واحد")),
+                (3, "t_sent", "משפט", "Sentence",
+                 "هذا كتاب הוא משפט שמני: זה ספר.",
+                 q("מה פירוש هذا كتاب?", "זה ספר", ["זה בית", "אני תלמיד"],
+                   "נכון. هذا זה, كتاب ספר.",
+                   "كتاب אינו בית.", content="هذا كتاب")),
+            ],
+        },
+        {
+            "id": "path_arabic_bagrut5_03_verbs",
+            "he": "פועל",
+            "en": "The verb",
+            "ar": "الفعل",
+            "blurb_he": "פועל בהווה ובעבר, בספרותית, עם דוגמה מדוברת אחת.",
+            "blurb_en": "Present and past in MSA, plus one spoken form.",
+            "blurb_ar": "المضارع والماضي.",
+            "emoji": "ك",
+            "minutes": 180,
+            "band": (4, 4),
+            "content_locale": "ar",
+            "end_he": "סיימת את דרך הפועל.",
+            "stages": [
+                (1, "t_pres", "הווה", "Present",
+                 "יكتب הוא הוא כותב. הקידומת ي מסמנת גוף שלישי.",
+                 q("מה פירוש يكتب?", "הוא כותב", "הוא כתב|אני כותב".split("|"),
+                   "נכון. يكتب הוא הווה, גוף שלישי.", "كتب בלי י היא עבר.", content="يكتب")),
+                (2, "t_past", "עבר", "Past",
+                 "كتب הוא הוא כתב.",
+                 q("מה פירוש كتب?", "הוא כתב", ["הוא כותב", "היא כתבה"],
+                   "נכון. كتب הוא עבר, הוא.", "ההווה הוא يكتب.", content="كتب")),
+                (3, "t_spoken", "דיבור", "Spoken",
+                 "בדיבור, בדוגמאות של מאגר המשרד, בدي מסמן רצון: אני רוצה.",
+                 q("מה קרוב ל־بدي?", "אני רוצה", ["אני כתבתי", "ספר"],
+                   "נכון. بدي הוא צורת דיבור של רצון.", "זו אינה מילת ספר.", content="بدي", speak="بدي")),
+            ],
+        },
+        {
+            "id": "path_arabic_bagrut5_04_reading",
+            "he": "קריאה קצרה",
+            "en": "A short reading",
+            "ar": "قراءة قصيرة",
+            "blurb_he": "קטע מקורי קצר. לא מעתיקים טקסט משאלון.",
+            "blurb_en": "A short original passage. Not copied from a paper.",
+            "blurb_ar": "نص قصير أصلي.",
+            "emoji": "ق",
+            "minutes": 180,
+            "band": (5, 5),
+            "content_locale": "ar",
+            "end_he": "סיימת את דרך הקריאה.",
+            "stages": [
+                (1, "t_where", "מקום", "Place",
+                 "הקטע המקורי: الطالب في البيت. הוא בבית, לא בבית הספר.",
+                 q("איפה الطالب במשפט الطالب في البيت?", "בבית", ["בבית הספר", "ברחוב"],
+                   "נכון. البيت הוא הבית.", "المدرسة היא בית הספר.", content="الطالب في البيت")),
+                (2, "t_who", "מי", "Who",
+                 "באותו משפט הנושא הוא الطالب, התלמיד.",
+                 q("מי הנושא במשפט الطالب في البيت?", "התלמיד", ["הבית", "המורה"],
+                   "נכון. الطالب הוא הנושא.",
+                   "البيت הוא מקום, לא נושא.", content="الطالب")),
+                (3, "t_not", "שלילה", "Negation",
+                 "ليس في المدرسة: הוא אינו בבית הספר.",
+                 q("מה פירוש ليس في المدرسة?", "אינו בבית הספר", ["הוא בבית הספר", "יש ספר"],
+                   "נכון. ليس שולל.", "ليس אינו יש.", content="ليس في المدرسة")),
+            ],
+        },
+        {
+            "id": "path_arabic_bagrut5_05_exam",
+            "he": "לקראת בחינה",
+            "en": "Toward the exam",
+            "ar": "نحو الامتحان",
+            "blurb_he": "סוגי משימה: קריאה, משפט, ודיבור. בלי שאלה שהועתקה משאלון.",
+            "blurb_en": "Task types: reading, a sentence, and speaking. No copied item.",
+            "blurb_ar": "قراءة وجملة وكلام. بلا سؤال منسوخ.",
+            "emoji": "ه",
+            "minutes": 200,
+            "band": (6, 8),
+            "content_locale": "ar",
+            "end_he": "סיימת את הדרך לקראת הבחינה. זה אינו ציון משרד.",
+            "stages": [
+                (1, "t_readq", "שאלת קריאה", "Reading question",
+                 "שואלים איפה, מי, ולמה. התשובה נמצאת במשפט, לא מנחשים.",
+                 q("במשפט الكتاب على الطاولة, איפה הספר?", "על השולחן", ["על הכיסא", "בתיק"],
+                   "נכון. على الطاولة הוא על השולחן.", "המילה الطاولة היא השולחן.", content="الكتاب على الطاولة")),
+                (2, "t_write", "משפט כתוב", "A written sentence",
+                 "משפט שמני קצר: أنا طالب. אני תלמיד.",
+                 q("מה פירוש أنا طالب?", "אני תלמיד", ["אתה תלמיד", "אני מורה"],
+                   "נכון. أنا אני, طالب תלמיד.", "أنت הוא אתה.", content="أنا طالب")),
+                (3, "t_oral", "תור דיבור", "A spoken turn",
+                 "פותחים בדיבור בשם ובברכה. הדוגמה המקורית: أنا اسمي سامع, كيفك.",
+                 q("מה מתאים לפתיחת דיבור?", "اسمي وברכה", ["רשימת דקדוק", "שקט"],
+                   "נכון. אומרים שם וברכה.", "אין כאן שאלון בעל פה מועתק.", content="كيفك", speak="كيفك")),
+            ],
+        },
+    ]
+    for spec in arabic:
+        spec.update(subject="arabic", place=AR_PLACE)
+        out.append((spec["id"], road(spec)))
+    return out
+
+
+def main() -> None:
+    for name, doc in build():
+        path = ADULT / f"{name}.json"
+        path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(path.name, "nodes", len(doc["nodes"]))
+
+
+if __name__ == "__main__":
+    main()

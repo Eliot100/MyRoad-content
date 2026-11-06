@@ -9,3 +9,15 @@
    Title: "לקראת בחינת בגרות בע"פ בערבית דבורה" / "في اللغة العربية المحكية". Four parts: היכרות, ספרות, אקטואליה, נושאים לשיחה בערבית דבורה. Questions in Arabic letters with Hebrew transliteration.
    Dialect: the documents say only "ערבית דבורה" and do not name a dialect. The questions use Levantine (Palestinian) forms: شو، ليش، بدي، بتحبوا، العيلة، برة. Target = Levantine spoken Arabic; the dialect name is our reading, not an official statement.
 3. Oral rubric https://meyda.education.gov.il/files/Mazkirut_Pedagogit/ArabSafa/mechvanshafawi.pdf returned a 404 page on 31.10.2026 (linked from the page in 1). Weights 40/25/20/15 come from the earlier design reading.
+
+## Roads 02 to 05 (2026-11-06)
+
+Built from the same two pages. No question was copied from the bank.
+
+- 02 words and a short MSA sentence, after road 01 (script).
+- 03 verb: MSA present and past, plus بدي, which appears in the spoken bank as a Levantine form. The bank's own questions were not reused.
+- 04 a short original reading. Not a text from a paper.
+- 05 task types only: where-question, a nominal sentence, a spoken opening. Not an exam simulation and not a ministry score.
+
+Road 01 band is 1. Road 02 is bands 2 to 3, so the existing band 3 result still lands on a road. Roads 04 and 05 take bands 5 and 6 to 8. Band 4 is road 03.
+

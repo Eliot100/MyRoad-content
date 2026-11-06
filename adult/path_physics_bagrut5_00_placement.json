@@ -1,0 +1,170 @@
+{
+  "id": "path_physics_bagrut5_00_placement",
+  "titles": {
+    "he": "מבדק רמה בפיזיקה",
+    "en": "Physics level check",
+    "ar": "اختبار مستوى الفيزياء"
+  },
+  "blurbs": {
+    "he": "ארבע שאלות: מכניקה, חשמל, גלים, וקרינה. המעבדה אינה כאן.",
+    "en": "Four questions: mechanics, electricity, waves, radiation. No lab.",
+    "ar": "أربعة أسئلة. بلا مختبر."
+  },
+  "subject": "physics",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "Φ",
+  "explain_locale": "he",
+  "content_locale": "he",
+  "estimated_minutes": 25,
+  "prerequisite_path_ids": [],
+  "topics": [
+    {
+      "id": "t0",
+      "titles": {
+        "he": "מהירות",
+        "en": "Speed"
+      },
+      "emoji": "Φ",
+      "node_ids": [
+        "p0"
+      ]
+    },
+    {
+      "id": "t1",
+      "titles": {
+        "he": "חוק אום",
+        "en": "Ohm"
+      },
+      "emoji": "Φ",
+      "node_ids": [
+        "p1"
+      ]
+    },
+    {
+      "id": "t2",
+      "titles": {
+        "he": "גל",
+        "en": "Wave"
+      },
+      "emoji": "Φ",
+      "node_ids": [
+        "p2"
+      ]
+    },
+    {
+      "id": "t3",
+      "titles": {
+        "he": "פוטון",
+        "en": "Photon"
+      },
+      "emoji": "Φ",
+      "node_ids": [
+        "p3"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "p0",
+      "type": "check",
+      "title": "מהירות",
+      "body_he": "גוף נע 10 מטר ב־2 שניות במהירות קבועה. מה המהירות?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5 מטר לשנייה"
+        },
+        {
+          "id": "b",
+          "label": "20 מטר לשנייה"
+        },
+        {
+          "id": "c",
+          "label": "8 מטר לשנייה"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. דרך חלקי זמן היא 5.",
+      "feedback_try": "חלקו דרך בזמן.",
+      "area": "mechanics",
+      "difficulty": -1.0
+    },
+    {
+      "id": "p1",
+      "type": "check",
+      "title": "חוק אום",
+      "body_he": "מתח 6 וולט, זרם 2 אמפר. מה ההתנגדות?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3 אום"
+        },
+        {
+          "id": "b",
+          "label": "12 אום"
+        },
+        {
+          "id": "c",
+          "label": "4 אום"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. R = V/I = 3.",
+      "feedback_try": "מתח חלקי זרם.",
+      "area": "electricity",
+      "difficulty": 0.0
+    },
+    {
+      "id": "p2",
+      "type": "check",
+      "title": "גל",
+      "body_he": "תדירות 2 הרץ ואורך גל 3 מטר. מה מהירות הגל?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6 מטר לשנייה"
+        },
+        {
+          "id": "b",
+          "label": "1.5 מטר לשנייה"
+        },
+        {
+          "id": "c",
+          "label": "5 מטר לשנייה"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. v = fλ = 6.",
+      "feedback_try": "מכפלה, לא מנה.",
+      "area": "waves",
+      "difficulty": 0.6
+    },
+    {
+      "id": "p3",
+      "type": "check",
+      "title": "פוטון",
+      "body_he": "אנרגיית פוטון גדלה כשהתדירות?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "גדלה"
+        },
+        {
+          "id": "b",
+          "label": "קטנה"
+        },
+        {
+          "id": "c",
+          "label": "אינה משתנה"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. E = hf, אז תדירות גבוהה יותר היא אנרגיה גבוהה יותר.",
+      "feedback_try": "האנרגיה יחסית לתדירות.",
+      "area": "modern",
+      "difficulty": 1.0
+    }
+  ]
+}
