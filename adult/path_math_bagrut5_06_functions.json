@@ -1,0 +1,1761 @@
+{
+  "id": "path_math_bagrut5_06_functions",
+  "titles": {
+    "he": "פונקציות ונגזרת",
+    "en": "Functions and the derivative",
+    "ar": "الدوال"
+  },
+  "blurbs": {
+    "he": "הצבה, שיפוע, תחום, נגזרת של פולינום ושורש, משיק, אסימפטוטה, וההבדל בין רציפות לגזירות.",
+    "en": "Substitution, slope, domain, derivatives, a tangent line, an asymptote, and continuity versus differentiability.",
+    "ar": "دوال ومشتقة."
+  },
+  "subject": "math",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "📈",
+  "explain_locale": "he",
+  "content_locale": "he",
+  "estimated_minutes": 216,
+  "prerequisite_path_ids": [
+    "path_math_bagrut5_05_probability"
+  ],
+  "topics": [
+    {
+      "id": "fun_l1",
+      "titles": {
+        "he": "רמה 1, בסיס",
+        "en": "Level 1, basics",
+        "ar": "المستوى 1"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "fun_l1_learn",
+        "fun_l1_p1",
+        "fun_l1_p2",
+        "fun_l1_p3",
+        "fun_l1_p4",
+        "fun_l1_p5",
+        "fun_l1_p6",
+        "fun_l1_p7",
+        "fun_l1_p8",
+        "fun_l1_p9",
+        "fun_l1_p10",
+        "fun_l1_p11",
+        "fun_l1_p12",
+        "fun_l1_p13",
+        "fun_l1_p14",
+        "fun_l1_check"
+      ]
+    },
+    {
+      "id": "fun_l2",
+      "titles": {
+        "he": "רמה 2, יישום",
+        "en": "Level 2, application",
+        "ar": "المستوى 2"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "fun_l2_learn",
+        "fun_l2_p1",
+        "fun_l2_p2",
+        "fun_l2_p3",
+        "fun_l2_p4",
+        "fun_l2_p5",
+        "fun_l2_p6",
+        "fun_l2_p7",
+        "fun_l2_p8",
+        "fun_l2_p9",
+        "fun_l2_p10",
+        "fun_l2_p11",
+        "fun_l2_p12",
+        "fun_l2_p13",
+        "fun_l2_p14",
+        "fun_l2_check"
+      ]
+    },
+    {
+      "id": "fun_l3",
+      "titles": {
+        "he": "רמה 3, שליטה",
+        "en": "Level 3, mastery",
+        "ar": "المستوى 3"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "fun_l3_learn",
+        "fun_l3_p1",
+        "fun_l3_p2",
+        "fun_l3_p3",
+        "fun_l3_p4",
+        "fun_l3_p5",
+        "fun_l3_p6",
+        "fun_l3_p7",
+        "fun_l3_p8",
+        "fun_l3_p9",
+        "fun_l3_p10",
+        "fun_l3_p11",
+        "fun_l3_p12",
+        "fun_l3_p13",
+        "fun_l3_p14",
+        "fun_l3_check"
+      ]
+    },
+    {
+      "id": "fun_review",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review",
+        "ar": "مراجعة مختلطة"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "fun_rev_1",
+        "fun_rev_2",
+        "fun_rev_3",
+        "fun_rev_4",
+        "fun_rev_5",
+        "fun_rev_6"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "fun_l1_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "קו, ריבוע ושורש",
+      "body_he": "פונקציה קווית נראית כמו f(x) = mx + b. m הוא השיפוע, b הוא חיתוך עם ציר y. שיפוע משתי נקודות הוא הפרש y חלקי הפרש x. שיפוע שלילי אומר ירידה. פונקציה קבועה היא ישר אופקי. ב x^2 מציבים ומעלים בריבוע. שורש ריבועי מוגדר כשהפנים אי שלילי, והערך שלו אי שלילי. f(x) = שורש(x-2) מוגדרת רק מ x = 2 והלאה.",
+      "can_do": "אפשר לקרוא שיפוע, להציב, ולמצוא תחום של שורש."
+    },
+    {
+      "id": "fun_l1_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ערך של ישר",
+      "body_he": "הפונקציה f(x) = 2x + 1. מה f(3)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "6"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "7"
+        }
+      ],
+      "correct": "d",
+      "hint": "מציבים 3 במקום x.",
+      "worked_method": "2 כפול 3 ועוד 1 = 7.",
+      "can_do": "אפשר להציב ערך בפונקציה קווית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מציבים 3 במקום x."
+    },
+    {
+      "id": "fun_l1_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שיפוע משתי נקודות",
+      "body_he": "הישר עובר ב (1, 2) וב (4, 8). מה השיפוע?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        },
+        {
+          "id": "d",
+          "label": "3"
+        }
+      ],
+      "correct": "a",
+      "hint": "הפרש y חלקי הפרש x.",
+      "worked_method": "(8 - 2) / (4 - 1) = 6/3 = 2.",
+      "can_do": "אפשר לחשב שיפוע מתוך שתי נקודות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הפרש y חלקי הפרש x."
+    },
+    {
+      "id": "fun_l1_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חיתוך עם הציר",
+      "body_he": "לפונקציה f(x) = -3x + 6, מה נקודת החיתוך עם ציר y?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(6, 0)"
+        },
+        {
+          "id": "b",
+          "label": "(0, 6)"
+        },
+        {
+          "id": "c",
+          "label": "(0, -3)"
+        },
+        {
+          "id": "d",
+          "label": "(2, 0)"
+        }
+      ],
+      "correct": "b",
+      "hint": "על ציר y מתקיים x = 0.",
+      "worked_method": "f(0) = 6, לכן הנקודה (0, 6). החיתוך עם ציר x הוא במקום אחר: 0 = -3x + 6, x = 2.",
+      "can_do": "אפשר למצוא חיתוך של ישר עם ציר y.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "על ציר y מתקיים x = 0."
+    },
+    {
+      "id": "fun_l1_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "פרבולה בנקודה",
+      "body_he": "f(x) = x^2. מה f(4)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "16"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        },
+        {
+          "id": "d",
+          "label": "4"
+        }
+      ],
+      "correct": "a",
+      "hint": "ריבוע, לא כפל ב 2.",
+      "worked_method": "4 בריבוע הוא 16.",
+      "can_do": "אפשר להציב בפונקציית ריבוע.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "ריבוע, לא כפל ב 2."
+    },
+    {
+      "id": "fun_l1_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שורש",
+      "body_he": "f(x) = שורש x, לתחום x לא שלילי. מה f(9)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "9"
+        },
+        {
+          "id": "b",
+          "label": "4.5"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        },
+        {
+          "id": "d",
+          "label": "81"
+        }
+      ],
+      "correct": "c",
+      "hint": "איזה מספר חיובי בריבוע נותן 9.",
+      "worked_method": "3 בריבוע הוא 9, לכן השורש הוא 3.",
+      "can_do": "אפשר להציב בפונקציית שורש.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "איזה מספר חיובי בריבוע נותן 9."
+    },
+    {
+      "id": "fun_l1_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תחום שורש",
+      "body_he": "לאילו x הפונקציה שורש של (x - 2) מוגדרת במספרים הממשיים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "x שונה מ 2"
+        },
+        {
+          "id": "b",
+          "label": "x גדול מ 0"
+        },
+        {
+          "id": "c",
+          "label": "x גדול או שווה 2"
+        },
+        {
+          "id": "d",
+          "label": "כל x"
+        }
+      ],
+      "correct": "c",
+      "hint": "הביטוי שבתוך השורש צריך להיות אי שלילי.",
+      "worked_method": "x - 2 גדול או שווה 0, כלומר x גדול או שווה 2.",
+      "can_do": "אפשר למצוא תחום של שורש ריבועי.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הביטוי שבתוך השורש צריך להיות אי שלילי."
+    },
+    {
+      "id": "fun_l1_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עולה או יורד",
+      "body_he": "הישר f(x) = -2x + 5 הוא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "קבוע"
+        },
+        {
+          "id": "b",
+          "label": "יורד"
+        },
+        {
+          "id": "c",
+          "label": "עולה"
+        },
+        {
+          "id": "d",
+          "label": "עולה ואחר כך יורד"
+        }
+      ],
+      "correct": "b",
+      "hint": "השיפוע הוא המקדם של x.",
+      "worked_method": "השיפוע 2- שלילי, לכן הישר יורד בכל הישר.",
+      "can_do": "אפשר לקרוא עלייה וירידה משיפוע של ישר.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "השיפוע הוא המקדם של x."
+    },
+    {
+      "id": "fun_l1_p8",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מקביל לציר",
+      "body_he": "f(x) = 4 היא פונקציה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "שלא מוגדרת ב 0"
+        },
+        {
+          "id": "b",
+          "label": "ששיפועה 4"
+        },
+        {
+          "id": "c",
+          "label": "ריבועית"
+        },
+        {
+          "id": "d",
+          "label": "קבועה"
+        }
+      ],
+      "correct": "d",
+      "hint": "אין x בביטוי. לכל x מתקבל אותו ערך.",
+      "worked_method": "הגרף הוא ישר אופקי בגובה 4. השיפוע 0.",
+      "can_do": "אפשר לזהות פונקציה קבועה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "אין x בביטוי. לכל x מתקבל אותו ערך."
+    },
+    {
+      "id": "fun_l1_p9",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד שיפוע 1",
+      "body_he": "מה שיפוע הישר שעובר בנקודות (0, 1) ו (3, 7)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "3"
+        }
+      ],
+      "correct": "b",
+      "hint": "שיפוע הוא הפרש y חלקי הפרש x, באותו סדר.",
+      "worked_method": "(7 - 1) חלקי (3 - 0) שווה 2.",
+      "can_do": "אפשר לחשב שיפוע משתי נקודות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שיפוע הוא הפרש y חלקי הפרש x, באותו סדר."
+    },
+    {
+      "id": "fun_l1_p10",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד שיפוע 2",
+      "body_he": "מה שיפוע הישר שעובר בנקודות (2, 5) ו (6, -3)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "-3"
+        },
+        {
+          "id": "c",
+          "label": "-1"
+        },
+        {
+          "id": "d",
+          "label": "-2"
+        }
+      ],
+      "correct": "d",
+      "hint": "שיפוע הוא הפרש y חלקי הפרש x, באותו סדר.",
+      "worked_method": "(-3 - 5) חלקי (6 - 2) שווה -2.",
+      "can_do": "אפשר לחשב שיפוע משתי נקודות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שיפוע הוא הפרש y חלקי הפרש x, באותו סדר."
+    },
+    {
+      "id": "fun_l1_p11",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד תחום",
+      "body_he": "עבור אילו ערכי x השורש של (x - 5) מוגדר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "x > 5"
+        },
+        {
+          "id": "b",
+          "label": "x >= 0"
+        },
+        {
+          "id": "c",
+          "label": "x <= 5"
+        },
+        {
+          "id": "d",
+          "label": "x >= 5"
+        }
+      ],
+      "correct": "d",
+      "hint": "מתחת לשורש ריבועי מותר אפס או מספר חיובי.",
+      "worked_method": "x - 5 גדול או שווה לאפס, כלומר x >= 5.",
+      "can_do": "אפשר למצוא תחום של שורש ריבועי.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מתחת לשורש ריבועי מותר אפס או מספר חיובי."
+    },
+    {
+      "id": "fun_l1_p12",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "הצבה בריבוע",
+      "body_he": "f(x) = x^2 - 2x. מה f(4)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "16"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        },
+        {
+          "id": "d",
+          "label": "12"
+        }
+      ],
+      "correct": "c",
+      "hint": "מציבים, מעלים בריבוע, ואז מחסרים.",
+      "worked_method": "16 פחות 8 הוא 8.",
+      "can_do": "אפשר להציב בפונקציה ריבועית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מציבים, מעלים בריבוע, ואז מחסרים."
+    },
+    {
+      "id": "fun_l1_p13",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חיתוך עם הציר",
+      "body_he": "לישר y = -2x + 6, מה נקודת החיתוך עם ציר y?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(6, 0)"
+        },
+        {
+          "id": "b",
+          "label": "(0, 6)"
+        },
+        {
+          "id": "c",
+          "label": "(3, 0)"
+        },
+        {
+          "id": "d",
+          "label": "(0, -2)"
+        }
+      ],
+      "correct": "b",
+      "hint": "בחיתוך עם ציר y, x הוא 0.",
+      "worked_method": "כש x = 0, y = 6. הנקודה היא (0, 6).",
+      "can_do": "אפשר לקרוא חיתוך עם ציר y מישר.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "בחיתוך עם ציר y, x הוא 0."
+    },
+    {
+      "id": "fun_l1_p14",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תחום של שורש",
+      "body_he": "עבור אילו ערכי x השורש של (x - 1) מוגדר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "x <= 1"
+        },
+        {
+          "id": "b",
+          "label": "x >= 0"
+        },
+        {
+          "id": "c",
+          "label": "x >= 1"
+        },
+        {
+          "id": "d",
+          "label": "x > 1"
+        }
+      ],
+      "correct": "c",
+      "hint": "מתחת לשורש ריבועי מותר אפס או מספר חיובי.",
+      "worked_method": "x - 1 גדול או שווה לאפס, כלומר x >= 1.",
+      "can_do": "אפשר למצוא תחום של שורש ריבועי.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מתחת לשורש ריבועי מותר אפס או מספר חיובי."
+    },
+    {
+      "id": "fun_l1_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת פונקציות בסיסית",
+      "body_he": "f(x) = 5 - x. מה f(2)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "-3"
+        },
+        {
+          "id": "c",
+          "label": "7"
+        },
+        {
+          "id": "d",
+          "label": "3"
+        }
+      ],
+      "correct": "d",
+      "hint": "5 פחות 2.",
+      "worked_method": "f(2) = 3.",
+      "can_do": "אפשר להציב גם כשהמקדם של x הוא 1-.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "5 פחות 2."
+    },
+    {
+      "id": "fun_l2_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "נגזרת כשיפוע",
+      "body_he": "הנגזרת בנקודה היא שיפוע המשיק. ל x^n הנגזרת היא n x^(n-1). נגזרת של קבוע היא 0, ונגזרת של סכום היא סכום הנגזרות. הפונקציה עולה כשהנגזרת חיובית. לדוגמה, ל x^3 - 3x הנגזרת היא 3x^2 - 3, וב x = 2 היא 9. לשורש x הנגזרת היא 1 חלקי (2 שורש x). במנה (x^2-1)/(x-1) יש חור ב x = 1, ומחוץ לה היא שווה ל x+1.",
+      "can_do": "אפשר לגזור פולינום, לקרוא עלייה, ולהיזהר מחור."
+    },
+    {
+      "id": "fun_l2_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נגזרת של חזקה",
+      "body_he": "f(x) = x^3. מה f'(x)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3x^2"
+        },
+        {
+          "id": "b",
+          "label": "x^3"
+        },
+        {
+          "id": "c",
+          "label": "x^2"
+        },
+        {
+          "id": "d",
+          "label": "3x"
+        }
+      ],
+      "correct": "a",
+      "hint": "מורידים את החזקה כמקדם, ומקטינים את החזקה ב 1.",
+      "worked_method": "הנגזרת של x^3 היא 3x^2.",
+      "can_do": "אפשר לגזור חזקה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מורידים את החזקה כמקדם, ומקטינים את החזקה ב 1."
+    },
+    {
+      "id": "fun_l2_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נגזרת בפולינום",
+      "body_he": "f(x) = x^3 - 3x. מה f'(2)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "9"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        },
+        {
+          "id": "d",
+          "label": "2"
+        }
+      ],
+      "correct": "b",
+      "hint": "קודם גוזרים: 3x^2 - 3, ואז מציבים 2.",
+      "worked_method": "f'(x) = 3x^2 - 3. f'(2) = 12 - 3 = 9.",
+      "can_do": "אפשר לגזור פולינום ולהציב.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "קודם גוזרים: 3x^2 - 3, ואז מציבים 2."
+    },
+    {
+      "id": "fun_l2_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נגזרת של קבוע",
+      "body_he": "הנגזרת של 7 היא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "7"
+        },
+        {
+          "id": "d",
+          "label": "70"
+        }
+      ],
+      "correct": "a",
+      "hint": "פונקציה קבועה לא משתנה, אז קצב השינוי אפס.",
+      "worked_method": "הנגזרת של קבוע היא 0.",
+      "can_do": "אפשר לגזור קבוע.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "פונקציה קבועה לא משתנה, אז קצב השינוי אפס."
+    },
+    {
+      "id": "fun_l2_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לינאריות הנגזרת",
+      "body_he": "אם f'(x) = 2x ו g'(x) = 3, מה הנגזרת של f + g?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "2x + 3"
+        },
+        {
+          "id": "c",
+          "label": "2x"
+        },
+        {
+          "id": "d",
+          "label": "6x"
+        }
+      ],
+      "correct": "b",
+      "hint": "נגזרת של סכום היא סכום הנגזרות.",
+      "worked_method": "(f + g)' = f' + g' = 2x + 3.",
+      "can_do": "אפשר לגזור סכום לפי הסכום של הנגזרות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "נגזרת של סכום היא סכום הנגזרות."
+    },
+    {
+      "id": "fun_l2_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שיפוע הגרף",
+      "body_he": "f(x) = x^2. מה שיפוע המשיק ב x = 3?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        },
+        {
+          "id": "d",
+          "label": "9"
+        }
+      ],
+      "correct": "c",
+      "hint": "הנגזרת היא 2x, והיא השיפוע.",
+      "worked_method": "f'(x) = 2x, לכן f'(3) = 6.",
+      "can_do": "אפשר לקרוא שיפוע משיק מתוך הנגזרת.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הנגזרת היא 2x, והיא השיפוע."
+    },
+    {
+      "id": "fun_l2_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עלייה לפי נגזרת",
+      "body_he": "f'(x) = 2x - 4. באיזה תחום הפונקציה עולה?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "x < 2"
+        },
+        {
+          "id": "b",
+          "label": "x > 2"
+        },
+        {
+          "id": "c",
+          "label": "כל x"
+        },
+        {
+          "id": "d",
+          "label": "x > 4"
+        }
+      ],
+      "correct": "b",
+      "hint": "עלייה כשהנגזרת חיובית.",
+      "worked_method": "2x - 4 > 0 גורר x > 2.",
+      "can_do": "אפשר למצוא תחום עלייה מתוך אי שוויון על הנגזרת.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "עלייה כשהנגזרת חיובית."
+    },
+    {
+      "id": "fun_l2_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נגזרת שורש",
+      "body_he": "f(x) = שורש x. מה f'(4)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/4"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "1/2"
+        }
+      ],
+      "correct": "a",
+      "hint": "הנגזרת של שורש x היא 1 חלקי (2 שורש x).",
+      "worked_method": "f'(x) = 1/(2√x). ב x = 4, המכנה הוא 2 כפול 2 = 4, לכן 1/4.",
+      "can_do": "אפשר להציב בנגזרת של שורש.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הנגזרת של שורש x היא 1 חלקי (2 שורש x)."
+    },
+    {
+      "id": "fun_l2_p8",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חור במנה",
+      "body_he": "f(x) = (x^2 - 1)/(x - 1) לכל x שונה מ 1. מה f(3)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "2"
+        },
+        {
+          "id": "d",
+          "label": "3"
+        }
+      ],
+      "correct": "b",
+      "hint": "אפשר לצמצם ל x + 1, כי 3 שונה מ 1.",
+      "worked_method": "f(3) = (9 - 1)/(3 - 1) = 8/2 = 4. אחרי צמצום: 3 + 1 = 4.",
+      "can_do": "אפשר לחשב ערך של מנה אחרי צמצום, הרחק מנקודת החור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "אפשר לצמצם ל x + 1, כי 3 שונה מ 1."
+    },
+    {
+      "id": "fun_l2_p9",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד נגזרת 1",
+      "body_he": "לפונקציה x^3 - 6x, מה ערך הנגזרת ב x = 2?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "7"
+        },
+        {
+          "id": "d",
+          "label": "6"
+        }
+      ],
+      "correct": "d",
+      "hint": "גוזרים איבר איבר, ורק אחר כך מציבים.",
+      "worked_method": "הנגזרת היא 3x^2 - 6. ב x = 2: 12 - 6 = 6.",
+      "can_do": "אפשר לגזור פולינום ולהציב בנקודה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "גוזרים איבר איבר, ורק אחר כך מציבים."
+    },
+    {
+      "id": "fun_l2_p10",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד נגזרת 2",
+      "body_he": "לפונקציה x^3 - 6x, מה ערך הנגזרת ב x = 0?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-6"
+        },
+        {
+          "id": "b",
+          "label": "-5"
+        },
+        {
+          "id": "c",
+          "label": "-7"
+        },
+        {
+          "id": "d",
+          "label": "-4"
+        }
+      ],
+      "correct": "a",
+      "hint": "גוזרים איבר איבר, ורק אחר כך מציבים.",
+      "worked_method": "3·0 - 6 = -6.",
+      "can_do": "אפשר לגזור פולינום ולהציב בנקודה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "גוזרים איבר איבר, ורק אחר כך מציבים."
+    },
+    {
+      "id": "fun_l2_p11",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד נגזרת 3",
+      "body_he": "לפונקציה x^2 + 5, מה ערך הנגזרת ב x = 4?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        },
+        {
+          "id": "d",
+          "label": "10"
+        }
+      ],
+      "correct": "b",
+      "hint": "גוזרים איבר איבר, ורק אחר כך מציבים.",
+      "worked_method": "הנגזרת היא 2x. ב x = 4 היא 8. הקבוע נעלם.",
+      "can_do": "אפשר לגזור פולינום ולהציב בנקודה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "גוזרים איבר איבר, ורק אחר כך מציבים."
+    },
+    {
+      "id": "fun_l2_p12",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עלייה",
+      "body_he": "ל f(x) = x^3 - 6x הנגזרת ב x = 2 חיובית. מה זה אומר על הפונקציה שם?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "היא עולה"
+        },
+        {
+          "id": "b",
+          "label": "יש שם חור"
+        },
+        {
+          "id": "c",
+          "label": "היא לא מוגדרת"
+        },
+        {
+          "id": "d",
+          "label": "היא יורדת"
+        }
+      ],
+      "correct": "a",
+      "hint": "נגזרת חיובית אומרת שהפונקציה עולה באותה נקודה.",
+      "worked_method": "3·4 - 6 = 6 > 0, לכן הפונקציה עולה ב x = 2.",
+      "can_do": "אפשר לקרוא עלייה מסימן הנגזרת.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "נגזרת חיובית אומרת שהפונקציה עולה באותה נקודה."
+    },
+    {
+      "id": "fun_l2_p13",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חור",
+      "body_he": "המנה (x^2 - 4) חלקי (x - 2) אינה מוגדרת בנקודה אחת. באיזו?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "x = -2"
+        },
+        {
+          "id": "b",
+          "label": "x = 2"
+        },
+        {
+          "id": "c",
+          "label": "x = 0"
+        },
+        {
+          "id": "d",
+          "label": "x = 4"
+        }
+      ],
+      "correct": "b",
+      "hint": "המכנה מתאפס ב x = 2. מחוץ לנקודה אפשר לצמצם ל x + 2.",
+      "worked_method": "ב x = 2 יש חור. הפישוט x + 2 נותן שם 4, אבל המנה המקורית לא מקבלת את הערך.",
+      "can_do": "אפשר לזהות חור במנה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "המכנה מתאפס ב x = 2. מחוץ לנקודה אפשר לצמצם ל x + 2."
+    },
+    {
+      "id": "fun_l2_p14",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שיפוע מתוך גרף נקודות",
+      "body_he": "מה שיפוע הישר שעובר בנקודות (1, 1) ו (4, 10)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "2"
+        }
+      ],
+      "correct": "a",
+      "hint": "שיפוע הוא הפרש y חלקי הפרש x, באותו סדר.",
+      "worked_method": "(10 - 1) חלקי (4 - 1) שווה 3.",
+      "can_do": "אפשר לחשב שיפוע משתי נקודות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שיפוע הוא הפרש y חלקי הפרש x, באותו סדר."
+    },
+    {
+      "id": "fun_l2_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת נגזרת",
+      "body_he": "f(x) = 4x^2 - x. מה f'(1)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "3"
+        }
+      ],
+      "correct": "b",
+      "hint": "הנגזרת 8x - 1.",
+      "worked_method": "8 כפול 1 פחות 1 = 7.",
+      "can_do": "אפשר לגזור פולינום ריבועי ולהציב.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הנגזרת 8x - 1."
+    },
+    {
+      "id": "fun_l3_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "כללים, אסימפטוטה ומשיק",
+      "body_he": "אפשר לגזור מכפלה אחרי פתיחה כשהיא קצרה. הנגזרת של 1/x היא -1/x^2. במנה מהצורה (ax+b)/(cx+d), אם החזקות שוות, יש אסימפטוטה אופקית y = a/c. נגזרת שנייה חיובית אומרת קעירות כלפי מעלה. משוואת משיק נכתבת מנקודה ומשיפוע: y - y0 = m(x - x0). ב |x| יש שפיץ ב 0: הפונקציה רציפה שם אבל לא גזירה, כי השיפוע משמאל ומימין לא מסכימים.",
+      "can_do": "אפשר לכתוב משיק, אסימפטוטה, ולהבחין בין רציפות לגזירות."
+    },
+    {
+      "id": "fun_l3_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כלל המכפלה",
+      "body_he": "f(x) = x כפול (x + 1). מה f'(x)? אפשר גם לפתוח קודם.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1"
+        },
+        {
+          "id": "b",
+          "label": "x + 1"
+        },
+        {
+          "id": "c",
+          "label": "2x"
+        },
+        {
+          "id": "d",
+          "label": "2x + 1"
+        }
+      ],
+      "correct": "d",
+      "hint": "אחרי פתיחה זו x^2 + x, והנגזרת ברורה.",
+      "worked_method": "x^2 + x נגזר ל 2x + 1. בכלל המכפלה: 1 כפול (x+1) ועוד x כפול 1 = x + 1 + x.",
+      "can_do": "אפשר לגזור מכפלה פשוטה, גם דרך פתיחת סוגריים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "אחרי פתיחה זו x^2 + x, והנגזרת ברורה."
+    },
+    {
+      "id": "fun_l3_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כלל המנה",
+      "body_he": "f(x) = 1/x עבור x שונה מ 0. מה f'(x)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-1/x^2"
+        },
+        {
+          "id": "b",
+          "label": "1/x^2"
+        },
+        {
+          "id": "c",
+          "label": "1/x"
+        },
+        {
+          "id": "d",
+          "label": "-1/x"
+        }
+      ],
+      "correct": "a",
+      "hint": "החזקה 1- יורדת ל 2-, והמקדם הוא 1-.",
+      "worked_method": "x בחזקת 1- נגזר ל -(x בחזקת 2-), כלומר -1/x^2.",
+      "can_do": "אפשר לגזור את 1/x.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "החזקה 1- יורדת ל 2-, והמקדם הוא 1-."
+    },
+    {
+      "id": "fun_l3_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נקודת אי הגדרה",
+      "body_he": "f(x) = 1/(x - 2). איפה הפונקציה לא מוגדרת?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "x = 0"
+        },
+        {
+          "id": "b",
+          "label": "x = 1"
+        },
+        {
+          "id": "c",
+          "label": "בכל מקום"
+        },
+        {
+          "id": "d",
+          "label": "x = 2"
+        }
+      ],
+      "correct": "d",
+      "hint": "המכנה אפס.",
+      "worked_method": "x - 2 = 0 כאשר x = 2. זו אסימפטוטה אנכית, לא חור, כי המונה לא מתאפס שם.",
+      "can_do": "אפשר להבחין בין חור לבין אסימפטוטה אנכית במנה פשוטה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "המכנה אפס."
+    },
+    {
+      "id": "fun_l3_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אסימפטוטה אופקית",
+      "body_he": "f(x) = (2x + 1)/(x - 3). כש x שואף לאינסוף, f שואפת ל",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "2"
+        }
+      ],
+      "correct": "d",
+      "hint": "במנות שהחזקות שוות, הגבול הוא מנת המקדמים המובילים.",
+      "worked_method": "המקדם של x במונה הוא 2 ובמכנה 1, לכן הגבול 2.",
+      "can_do": "אפשר למצוא אסימפטוטה אופקית של מנה לינארית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "במנות שהחזקות שוות, הגבול הוא מנת המקדמים המובילים."
+    },
+    {
+      "id": "fun_l3_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נגזרת שנייה",
+      "body_he": "f(x) = x^3. מה f''(x)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "3x"
+        },
+        {
+          "id": "c",
+          "label": "6x"
+        },
+        {
+          "id": "d",
+          "label": "3x^2"
+        }
+      ],
+      "correct": "c",
+      "hint": "גוזרים את 3x^2.",
+      "worked_method": "f' = 3x^2, f'' = 6x.",
+      "can_do": "אפשר לחשב נגזרת שנייה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "גוזרים את 3x^2."
+    },
+    {
+      "id": "fun_l3_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "קעירות",
+      "body_he": "f(x) = x^2. הנגזרת השנייה היא 2. מה זה אומר על הגרף?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הגרף קעור כלפי מעלה בכל מקום"
+        },
+        {
+          "id": "b",
+          "label": "הגרף קעור כלפי מטה"
+        },
+        {
+          "id": "c",
+          "label": "הגרף יורד"
+        },
+        {
+          "id": "d",
+          "label": "יש נקודת פיתול ב 0"
+        }
+      ],
+      "correct": "a",
+      "hint": "נגזרת שנייה חיובית אומרת קעירות כלפי מעלה, כמו קערה שמחזיקה מים.",
+      "worked_method": "f'' = 2 > 0 בכל x, לכן הפרבולה קעורה כלפי מעלה. יש מינימום, לא פיתול.",
+      "can_do": "אפשר לקשר נגזרת שנייה לקעירות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "נגזרת שנייה חיובית אומרת קעירות כלפי מעלה, כמו קערה שמחזיקה מים."
+    },
+    {
+      "id": "fun_l3_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משיק משוואה",
+      "body_he": "f(x) = x^2 בנקודה x = 1. המשיק עובר ב (1, 1) והשיפוע 2. מה משוואת המשיק?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "y = 2x + 1"
+        },
+        {
+          "id": "b",
+          "label": "y = x^2"
+        },
+        {
+          "id": "c",
+          "label": "y = 2x"
+        },
+        {
+          "id": "d",
+          "label": "y = 2x - 1"
+        }
+      ],
+      "correct": "d",
+      "hint": "y - 1 = 2(x - 1).",
+      "worked_method": "y - 1 = 2x - 2, לכן y = 2x - 1.",
+      "can_do": "אפשר לכתוב משוואת משיק מתוך נקודה ושיפוע.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "y - 1 = 2(x - 1)."
+    },
+    {
+      "id": "fun_l3_p8",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ערך מוחלט לא בכל מקום",
+      "body_he": "f(x) = |x|. ב x = 0",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הפונקציה לא מוגדרת"
+        },
+        {
+          "id": "b",
+          "label": "הפונקציה רציפה אבל לא גזירה"
+        },
+        {
+          "id": "c",
+          "label": "הנגזרת היא 0"
+        },
+        {
+          "id": "d",
+          "label": "הפונקציה לא רציפה"
+        }
+      ],
+      "correct": "b",
+      "hint": "אפשר לצייר שפיץ. אין שיפוע יחיד בקודקוד.",
+      "worked_method": "הגבול משמאל של המנה הוא 1- ומימין 1, אז אין נגזרת. הרציפות כן מתקיימת, f(0) = 0.",
+      "can_do": "אפשר להבחין בין רציפות לגזירות בנקודת שפיץ.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "אפשר לצייר שפיץ. אין שיפוע יחיד בקודקוד."
+    },
+    {
+      "id": "fun_l3_p9",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד משיק",
+      "body_he": "מה משוואת המשיק ל y = x^2 בנקודה שבה x = 2?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "y = 4x"
+        },
+        {
+          "id": "b",
+          "label": "y = 4x - 4"
+        },
+        {
+          "id": "c",
+          "label": "y = 2x"
+        },
+        {
+          "id": "d",
+          "label": "y = 4x + 4"
+        }
+      ],
+      "correct": "b",
+      "hint": "השיפוע הוא הנגזרת בנקודה, והישר עובר בנקודה שעל הגרף.",
+      "worked_method": "הנגזרת 2x שווה 4 ב x = 2. הנקודה היא (2, 4). מתקבל y = 4x - 4.",
+      "can_do": "אפשר לכתוב משיק לפרבולה בנקודה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "השיפוע הוא הנגזרת בנקודה, והישר עובר בנקודה שעל הגרף."
+    },
+    {
+      "id": "fun_l3_p10",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משיק נוסף",
+      "body_he": "מה משוואת המשיק ל y = x^2 בנקודה שבה x = 4?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "y = 4x"
+        },
+        {
+          "id": "b",
+          "label": "y = 8x - 16"
+        },
+        {
+          "id": "c",
+          "label": "y = 8x"
+        },
+        {
+          "id": "d",
+          "label": "y = 8x + 16"
+        }
+      ],
+      "correct": "b",
+      "hint": "השיפוע הוא הנגזרת בנקודה, והישר עובר בנקודה שעל הגרף.",
+      "worked_method": "הנגזרת 2x שווה 8 ב x = 4. הנקודה היא (4, 16). מתקבל y = 8x - 16.",
+      "can_do": "אפשר לכתוב משיק לפרבולה בנקודה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "השיפוע הוא הנגזרת בנקודה, והישר עובר בנקודה שעל הגרף."
+    },
+    {
+      "id": "fun_l3_p11",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אסימפטוטה",
+      "body_he": "למנה (3x + 1) חלקי (x - 2), מה משוואת האסימפטוטה האופקית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "y = 1"
+        },
+        {
+          "id": "b",
+          "label": "y = 0"
+        },
+        {
+          "id": "c",
+          "label": "y = 3"
+        },
+        {
+          "id": "d",
+          "label": "y = 2"
+        }
+      ],
+      "correct": "c",
+      "hint": "כשחזקות המונה והמכנה שוות, y שווה ליחס המקדמים המובילים.",
+      "worked_method": "3 חלקי 1 הוא 3. האסימפטוטה היא y = 3.",
+      "can_do": "אפשר לקרוא אסימפטוטה אופקית של מנה לינארית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כשחזקות המונה והמכנה שוות, y שווה ליחס המקדמים המובילים."
+    },
+    {
+      "id": "fun_l3_p12",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נגזרת של 1/x",
+      "body_he": "מה הנגזרת של 1/x?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-1/x"
+        },
+        {
+          "id": "b",
+          "label": "ln x"
+        },
+        {
+          "id": "c",
+          "label": "1/x^2"
+        },
+        {
+          "id": "d",
+          "label": "-1/x^2"
+        }
+      ],
+      "correct": "d",
+      "hint": "1/x הוא x בחזקת 1-. מורידים את החזקה ומקטינים אותה ב 1.",
+      "worked_method": "הנגזרת היא -1 כפול x בחזקת 2-, כלומר -1/x^2.",
+      "can_do": "אפשר לגזור 1/x.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "1/x הוא x בחזקת 1-. מורידים את החזקה ומקטינים אותה ב 1."
+    },
+    {
+      "id": "fun_l3_p13",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שפיץ",
+      "body_he": "האם |x| גזירה ב x = 0?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "היא לא רציפה שם"
+        },
+        {
+          "id": "b",
+          "label": "כן, והנגזרת 1"
+        },
+        {
+          "id": "c",
+          "label": "כן, והנגזרת 0"
+        },
+        {
+          "id": "d",
+          "label": "לא"
+        }
+      ],
+      "correct": "d",
+      "hint": "הפונקציה רציפה ב 0, אבל השיפוע משמאל הוא 1- ומימין 1.",
+      "worked_method": "השיפועים לא מסכימים, לכן אין נגזרת ב 0. הרציפות כן מתקיימת.",
+      "can_do": "אפשר להבחין בין רציפות לגזירות בערך מוחלט.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הפונקציה רציפה ב 0, אבל השיפוע משמאל הוא 1- ומימין 1."
+    },
+    {
+      "id": "fun_l3_p14",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נגזרת של חזקה",
+      "body_he": "לפונקציה 4x^3, מה ערך הנגזרת ב x = 1?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "11"
+        },
+        {
+          "id": "b",
+          "label": "14"
+        },
+        {
+          "id": "c",
+          "label": "13"
+        },
+        {
+          "id": "d",
+          "label": "12"
+        }
+      ],
+      "correct": "d",
+      "hint": "גוזרים איבר איבר, ורק אחר כך מציבים.",
+      "worked_method": "הנגזרת של 4x^3 היא 12x^2. ב x = 1 היא 12.",
+      "can_do": "אפשר לגזור פולינום ולהציב בנקודה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "גוזרים איבר איבר, ורק אחר כך מציבים."
+    },
+    {
+      "id": "fun_l3_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת שליטה בפונקציות",
+      "body_he": "f(x) = x^3 - 6x. מה f'(1)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-3"
+        },
+        {
+          "id": "b",
+          "label": "0"
+        },
+        {
+          "id": "c",
+          "label": "-6"
+        },
+        {
+          "id": "d",
+          "label": "3"
+        }
+      ],
+      "correct": "a",
+      "hint": "הנגזרת 3x^2 - 6.",
+      "worked_method": "3 - 6 = -3.",
+      "can_do": "אפשר להציב בנגזרת גם כשהתוצאה שלילית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הנגזרת 3x^2 - 6."
+    },
+    {
+      "id": "fun_rev_1",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, שיפוע",
+      "body_he": "מה שיפוע הישר שעובר בנקודות (2, 1) ו (5, 10)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "4"
+        }
+      ],
+      "correct": "b",
+      "hint": "שיפוע הוא הפרש y חלקי הפרש x, באותו סדר.",
+      "worked_method": "(10 - 1) חלקי (5 - 2) שווה 3.",
+      "can_do": "אפשר לחשב שיפוע משתי נקודות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שיפוע הוא הפרש y חלקי הפרש x, באותו סדר.",
+      "review_topic_ids": [
+        "fun_l1",
+        "fun_l2",
+        "fun_l3"
+      ]
+    },
+    {
+      "id": "fun_rev_2",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, שורש",
+      "body_he": "עבור אילו ערכי x השורש של (x - 4) מוגדר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "x <= 4"
+        },
+        {
+          "id": "b",
+          "label": "x >= 4"
+        },
+        {
+          "id": "c",
+          "label": "x > 4"
+        },
+        {
+          "id": "d",
+          "label": "x >= 0"
+        }
+      ],
+      "correct": "b",
+      "hint": "מתחת לשורש ריבועי מותר אפס או מספר חיובי.",
+      "worked_method": "x - 4 גדול או שווה לאפס, כלומר x >= 4.",
+      "can_do": "אפשר למצוא תחום של שורש ריבועי.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מתחת לשורש ריבועי מותר אפס או מספר חיובי.",
+      "review_topic_ids": [
+        "fun_l1",
+        "fun_l2",
+        "fun_l3"
+      ]
+    },
+    {
+      "id": "fun_rev_3",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, נגזרת",
+      "body_he": "לפונקציה 5x^2, מה ערך הנגזרת ב x = 3?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "31"
+        },
+        {
+          "id": "b",
+          "label": "29"
+        },
+        {
+          "id": "c",
+          "label": "32"
+        },
+        {
+          "id": "d",
+          "label": "30"
+        }
+      ],
+      "correct": "d",
+      "hint": "גוזרים איבר איבר, ורק אחר כך מציבים.",
+      "worked_method": "הנגזרת 10x. ב x = 3 היא 30.",
+      "can_do": "אפשר לגזור פולינום ולהציב בנקודה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "גוזרים איבר איבר, ורק אחר כך מציבים.",
+      "review_topic_ids": [
+        "fun_l1",
+        "fun_l2",
+        "fun_l3"
+      ]
+    },
+    {
+      "id": "fun_rev_4",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, משיק",
+      "body_he": "מה משוואת המשיק ל y = x^2 בנקודה שבה x = 5?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "y = 10x - 25"
+        },
+        {
+          "id": "b",
+          "label": "y = 10x"
+        },
+        {
+          "id": "c",
+          "label": "y = 5x"
+        },
+        {
+          "id": "d",
+          "label": "y = 10x + 25"
+        }
+      ],
+      "correct": "a",
+      "hint": "השיפוע הוא הנגזרת בנקודה, והישר עובר בנקודה שעל הגרף.",
+      "worked_method": "הנגזרת 2x שווה 10 ב x = 5. הנקודה היא (5, 25). מתקבל y = 10x - 25.",
+      "can_do": "אפשר לכתוב משיק לפרבולה בנקודה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "השיפוע הוא הנגזרת בנקודה, והישר עובר בנקודה שעל הגרף.",
+      "review_topic_ids": [
+        "fun_l1",
+        "fun_l2",
+        "fun_l3"
+      ]
+    },
+    {
+      "id": "fun_rev_5",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, אסימפטוטה",
+      "body_he": "למנה (4x - 1)/(2x + 3), מה האסימפטוטה האופקית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "y = 2"
+        },
+        {
+          "id": "b",
+          "label": "y = 1/2"
+        },
+        {
+          "id": "c",
+          "label": "y = 3"
+        },
+        {
+          "id": "d",
+          "label": "y = 4"
+        }
+      ],
+      "correct": "a",
+      "hint": "יחס המקדמים המובילים.",
+      "worked_method": "4/2 = 2.",
+      "can_do": "אפשר אסימפטוטה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "יחס המקדמים המובילים.",
+      "review_topic_ids": [
+        "fun_l1",
+        "fun_l2",
+        "fun_l3"
+      ]
+    },
+    {
+      "id": "fun_rev_6",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, קבוע",
+      "body_he": "מה הנגזרת של 7?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "7"
+        },
+        {
+          "id": "d",
+          "label": "לא מוגדר"
+        }
+      ],
+      "correct": "a",
+      "hint": "נגזרת של קבוע היא 0.",
+      "worked_method": "הישר אופקי, השיפוע 0.",
+      "can_do": "אפשר לגזור קבוע.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "נגזרת של קבוע היא 0.",
+      "review_topic_ids": [
+        "fun_l1",
+        "fun_l2",
+        "fun_l3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1761 @@
+{
+  "id": "path_math_bagrut5_11_complex",
+  "titles": {
+    "he": "מספרים מרוכבים",
+    "en": "Complex numbers",
+    "ar": "الأعداد المركبة"
+  },
+  "blurbs": {
+    "he": "חשבון, מודולוס, צמוד, הצגה קוטבית, ושורשים של משוואה ריבועית.",
+    "en": "Arithmetic, modulus, conjugate, polar form, and roots of a quadratic.",
+    "ar": "أعداد مركبة."
+  },
+  "subject": "math",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "ℂ",
+  "explain_locale": "he",
+  "content_locale": "he",
+  "estimated_minutes": 216,
+  "prerequisite_path_ids": [
+    "path_math_bagrut5_10_vectors"
+  ],
+  "topics": [
+    {
+      "id": "cpx_l1",
+      "titles": {
+        "he": "רמה 1, בסיס",
+        "en": "Level 1, basics",
+        "ar": "المستوى 1"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "cpx_l1_learn",
+        "cpx_l1_p1",
+        "cpx_l1_p2",
+        "cpx_l1_p3",
+        "cpx_l1_p4",
+        "cpx_l1_p5",
+        "cpx_l1_p6",
+        "cpx_l1_p7",
+        "cpx_l1_p8",
+        "cpx_l1_p9",
+        "cpx_l1_p10",
+        "cpx_l1_p11",
+        "cpx_l1_p12",
+        "cpx_l1_p13",
+        "cpx_l1_p14",
+        "cpx_l1_check"
+      ]
+    },
+    {
+      "id": "cpx_l2",
+      "titles": {
+        "he": "רמה 2, יישום",
+        "en": "Level 2, application",
+        "ar": "المستوى 2"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "cpx_l2_learn",
+        "cpx_l2_p1",
+        "cpx_l2_p2",
+        "cpx_l2_p3",
+        "cpx_l2_p4",
+        "cpx_l2_p5",
+        "cpx_l2_p6",
+        "cpx_l2_p7",
+        "cpx_l2_p8",
+        "cpx_l2_p9",
+        "cpx_l2_p10",
+        "cpx_l2_p11",
+        "cpx_l2_p12",
+        "cpx_l2_p13",
+        "cpx_l2_p14",
+        "cpx_l2_check"
+      ]
+    },
+    {
+      "id": "cpx_l3",
+      "titles": {
+        "he": "רמה 3, שליטה",
+        "en": "Level 3, mastery",
+        "ar": "المستوى 3"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "cpx_l3_learn",
+        "cpx_l3_p1",
+        "cpx_l3_p2",
+        "cpx_l3_p3",
+        "cpx_l3_p4",
+        "cpx_l3_p5",
+        "cpx_l3_p6",
+        "cpx_l3_p7",
+        "cpx_l3_p8",
+        "cpx_l3_p9",
+        "cpx_l3_p10",
+        "cpx_l3_p11",
+        "cpx_l3_p12",
+        "cpx_l3_p13",
+        "cpx_l3_p14",
+        "cpx_l3_check"
+      ]
+    },
+    {
+      "id": "cpx_review",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review",
+        "ar": "مراجعة مختلطة"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "cpx_rev_1",
+        "cpx_rev_2",
+        "cpx_rev_3",
+        "cpx_rev_4",
+        "cpx_rev_5",
+        "cpx_rev_6"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "cpx_l1_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "חשבון אלגברי",
+      "body_he": "מספר מרוכב נכתב a + bi, כאשר i^2 = -1. מחברים ממשים לחוד ומדומים לחוד. הצמוד של a+bi הוא a-bi. המודולוס הוא שורש של a^2+b^2, כמו מרחק מהראשית. (1+i)(1-i) = 2, כי זה הפרש ריבועים ו i^2 = -1. שני מרוכבים שווים רק אם גם החלק הממשי וגם החלק המדומה שווים.",
+      "can_do": "אפשר לחבר, לכפול, ולהוציא מודולוס וצמוד."
+    },
+    {
+      "id": "cpx_l1_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חיבור",
+      "body_he": "מה (2 + 3i) + (1 - i)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3 + 2i"
+        },
+        {
+          "id": "b",
+          "label": "3 + 4i"
+        },
+        {
+          "id": "c",
+          "label": "1 + 3i"
+        },
+        {
+          "id": "d",
+          "label": "2 + 2i"
+        }
+      ],
+      "correct": "a",
+      "hint": "מחברים ממשים לחוד ומדומים לחוד.",
+      "worked_method": "2+1=3, 3i - i = 2i.",
+      "can_do": "אפשר לחבר מספרים מרוכבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מחברים ממשים לחוד ומדומים לחוד."
+    },
+    {
+      "id": "cpx_l1_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כפל בצמוד",
+      "body_he": "מה (1 + i)(1 - i)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "1 + i"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "2i"
+        }
+      ],
+      "correct": "a",
+      "hint": "הפרש ריבועים: 1 - (i בריבוע). i בריבוע הוא -1.",
+      "worked_method": "1 - i^2 = 1 - (-1) = 2.",
+      "can_do": "אפשר לכפול מספר בצמוד שלו.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הפרש ריבועים: 1 - (i בריבוע). i בריבוע הוא -1."
+    },
+    {
+      "id": "cpx_l1_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ערך מוחלט",
+      "body_he": "מה הערך המוחלט של 3 + 4i?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "25"
+        },
+        {
+          "id": "d",
+          "label": "12"
+        }
+      ],
+      "correct": "a",
+      "hint": "שורש של 3 בריבוע ועוד 4 בריבוע.",
+      "worked_method": "שורש של 9+16=5.",
+      "can_do": "אפשר לחשב מודולוס.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שורש של 3 בריבוע ועוד 4 בריבוע."
+    },
+    {
+      "id": "cpx_l1_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "צמוד",
+      "body_he": "הצמוד של 2 - 5i הוא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5 - 2i"
+        },
+        {
+          "id": "b",
+          "label": "-2 + 5i"
+        },
+        {
+          "id": "c",
+          "label": "2 + 5i"
+        },
+        {
+          "id": "d",
+          "label": "-2 - 5i"
+        }
+      ],
+      "correct": "c",
+      "hint": "הופכים רק את סימן החלק המדומה.",
+      "worked_method": "2 + 5i.",
+      "can_do": "אפשר לכתוב מספר צמוד.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הופכים רק את סימן החלק המדומה."
+    },
+    {
+      "id": "cpx_l1_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "i בריבוע",
+      "body_he": "i^2 שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-1"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "-i"
+        },
+        {
+          "id": "d",
+          "label": "i"
+        }
+      ],
+      "correct": "a",
+      "hint": "זו ההגדרה שפותחת את החשבון.",
+      "worked_method": "i^2 = -1.",
+      "can_do": "אפשר להשתמש ב i בריבוע.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "זו ההגדרה שפותחת את החשבון."
+    },
+    {
+      "id": "cpx_l1_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כפל",
+      "body_he": "מה (1 + i)^2?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2i"
+        },
+        {
+          "id": "b",
+          "label": "1 + i"
+        },
+        {
+          "id": "c",
+          "label": "2"
+        },
+        {
+          "id": "d",
+          "label": "1 - i"
+        }
+      ],
+      "correct": "a",
+      "hint": "1 + 2i + i^2 = 1 + 2i - 1.",
+      "worked_method": "2i.",
+      "can_do": "אפשר להעלות מספר מרוכב בריבוע.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "1 + 2i + i^2 = 1 + 2i - 1."
+    },
+    {
+      "id": "cpx_l1_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חלק ממשי",
+      "body_he": "החלק הממשי של -4 + 7i הוא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-7"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "-4"
+        },
+        {
+          "id": "d",
+          "label": "7"
+        }
+      ],
+      "correct": "c",
+      "hint": "המספר בלי i.",
+      "worked_method": "-4. החלק המדומה, בלי לכתוב i, הוא 7.",
+      "can_do": "אפשר להפריד חלק ממשי וחלק מדומה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "המספר בלי i."
+    },
+    {
+      "id": "cpx_l1_p8",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שוויון",
+      "body_he": "אם a + bi = 3 - 2i, אז",
+      "choices": [
+        {
+          "id": "a",
+          "label": "אי אפשר להסיק"
+        },
+        {
+          "id": "b",
+          "label": "a = 3 ו b = -2"
+        },
+        {
+          "id": "c",
+          "label": "a = -2 ו b = 3"
+        },
+        {
+          "id": "d",
+          "label": "a = 3 ו b = 2"
+        }
+      ],
+      "correct": "b",
+      "hint": "משווים רכיבים.",
+      "worked_method": "a = 3, b = -2.",
+      "can_do": "אפשר להשוות שני מספרים מרוכבים לפי רכיבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "משווים רכיבים."
+    },
+    {
+      "id": "cpx_l1_p9",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד כפל 1",
+      "body_he": "חשבו את (2 + 3i)(1 + 1i).",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-1 + 2i"
+        },
+        {
+          "id": "b",
+          "label": "3 + 4i"
+        },
+        {
+          "id": "c",
+          "label": "5 + 5i"
+        },
+        {
+          "id": "d",
+          "label": "-1 + 5i"
+        }
+      ],
+      "correct": "d",
+      "hint": "i בריבוע הוא 1-. כופלים כמו בינום.",
+      "worked_method": "החלק הממשי הוא 2·1 - 3·1 = -1. החלק המדומה הוא 2·1 + 3·1 = 5.",
+      "can_do": "אפשר לכפול שני מספרים מרוכבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i בריבוע הוא 1-. כופלים כמו בינום."
+    },
+    {
+      "id": "cpx_l1_p10",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד כפל 2",
+      "body_he": "חשבו את (4 + -1i)(1 + 2i).",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6 + 7i"
+        },
+        {
+          "id": "b",
+          "label": "5 + 1i"
+        },
+        {
+          "id": "c",
+          "label": "6 + 8i"
+        },
+        {
+          "id": "d",
+          "label": "2 + 7i"
+        }
+      ],
+      "correct": "a",
+      "hint": "i בריבוע הוא 1-. כופלים כמו בינום.",
+      "worked_method": "החלק הממשי הוא 4·1 - -1·2 = 6. החלק המדומה הוא 4·2 + -1·1 = 7.",
+      "can_do": "אפשר לכפול שני מספרים מרוכבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i בריבוע הוא 1-. כופלים כמו בינום."
+    },
+    {
+      "id": "cpx_l1_p11",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מודולוס",
+      "body_he": "מה המודולוס של 3 + 4i?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "12"
+        },
+        {
+          "id": "b",
+          "label": "25"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "7"
+        }
+      ],
+      "correct": "c",
+      "hint": "שורש של סכום ריבועי החלקים.",
+      "worked_method": "9 + 16 = 25. השורש הוא 5.",
+      "can_do": "אפשר לחשב מודולוס.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שורש של סכום ריבועי החלקים."
+    },
+    {
+      "id": "cpx_l1_p12",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "צמוד",
+      "body_he": "מה הצמוד של 2 - 5i?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-2 + 5i"
+        },
+        {
+          "id": "b",
+          "label": "-2 - 5i"
+        },
+        {
+          "id": "c",
+          "label": "5 - 2i"
+        },
+        {
+          "id": "d",
+          "label": "2 + 5i"
+        }
+      ],
+      "correct": "d",
+      "hint": "הצמוד מחליף את סימן החלק המדומה.",
+      "worked_method": "2 - 5i הופך ל 2 + 5i.",
+      "can_do": "אפשר לכתוב מספר צמוד.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הצמוד מחליף את סימן החלק המדומה."
+    },
+    {
+      "id": "cpx_l1_p13",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חיבור",
+      "body_he": "חשבו (1 + 2i) + (3 - 5i).",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4 + 3i"
+        },
+        {
+          "id": "b",
+          "label": "4 - 7i"
+        },
+        {
+          "id": "c",
+          "label": "2 - 3i"
+        },
+        {
+          "id": "d",
+          "label": "4 - 3i"
+        }
+      ],
+      "correct": "d",
+      "hint": "ממשיים לחוד, מדומים לחוד.",
+      "worked_method": "1+3 ו 2+(-5) נותנים 4 - 3i.",
+      "can_do": "אפשר לחבר מספרים מרוכבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "ממשיים לחוד, מדומים לחוד."
+    },
+    {
+      "id": "cpx_l1_p14",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שוויון",
+      "body_he": "אם a + bi = 3 - 2i, מה b?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "2"
+        },
+        {
+          "id": "d",
+          "label": "-2"
+        }
+      ],
+      "correct": "d",
+      "hint": "החלקים הממשיים שווים והמדומים שווים, כל זוג לחוד.",
+      "worked_method": "b הוא המקדם של i, כלומר -2.",
+      "can_do": "אפשר להשוות חלקים של מספרים מרוכבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "החלקים הממשיים שווים והמדומים שווים, כל זוג לחוד."
+    },
+    {
+      "id": "cpx_l1_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת מרוכבים בסיסית",
+      "body_he": "מה |1 - i|?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "√2"
+        },
+        {
+          "id": "c",
+          "label": "1"
+        },
+        {
+          "id": "d",
+          "label": "2"
+        }
+      ],
+      "correct": "b",
+      "hint": "1 + 1 מתחת לשורש.",
+      "worked_method": "שורש 2.",
+      "can_do": "אפשר לחשב מודולוס של 1 - i.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "1 + 1 מתחת לשורש."
+    },
+    {
+      "id": "cpx_l2_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "קוטביות",
+      "body_he": "כל מרוכב שונה מאפס אפשר לכתוב כמודולוס וזווית. 1+i יושב ברביע הראשון, המודולוס שלו √2 והזווית 45 מעלות. בכפל המודולוסים נכפלים והזוויות מתחברות. לכן (1+i)^2 הוא מודולוס 2 וזווית 90, כלומר 2i. כפל ב i מסובב ב 90 מעלות נגד כיוון השעון. 1/i = -i.",
+      "can_do": "אפשר לעבור להצגה קוטבית ולכפול זוויות."
+    },
+    {
+      "id": "cpx_l2_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ארגומנט",
+      "body_he": "מה הארגומנט של 1 + i, במעלות, בין -180 ל 180?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "90"
+        },
+        {
+          "id": "b",
+          "label": "-45"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "45"
+        }
+      ],
+      "correct": "d",
+      "hint": "הנקודה ברביע הראשון, והחלקים שווים.",
+      "worked_method": "tan = 1, הרביע הראשון, לכן 45 מעלות.",
+      "can_do": "אפשר למצוא ארגומנט של נקודה ברביע הראשון.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הנקודה ברביע הראשון, והחלקים שווים."
+    },
+    {
+      "id": "cpx_l2_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "הצגה קוטבית",
+      "body_he": "1 + i בהצגה קוטבית, עד כדי כתיב, הוא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "√2 בזווית 45 מעלות"
+        },
+        {
+          "id": "b",
+          "label": "√2 בזווית 90"
+        },
+        {
+          "id": "c",
+          "label": "2 בזווית 45"
+        },
+        {
+          "id": "d",
+          "label": "1 בזווית 45"
+        }
+      ],
+      "correct": "a",
+      "hint": "המודולוס √2 והזווית 45.",
+      "worked_method": "r = √2, θ = 45°.",
+      "can_do": "אפשר לעבור מהצגה אלגברית להצגה קוטבית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "המודולוס √2 והזווית 45."
+    },
+    {
+      "id": "cpx_l2_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "דה מואבר קטן",
+      "body_he": "(1 + i)^2 כבר חישבנו כ 2i. בהצגה קוטבית זה מתאים ל",
+      "choices": [
+        {
+          "id": "a",
+          "label": "מודולוס 2 וזווית 90 מעלות"
+        },
+        {
+          "id": "b",
+          "label": "מודולוס √2 וזווית 90"
+        },
+        {
+          "id": "c",
+          "label": "מודולוס 2 וזווית 45"
+        },
+        {
+          "id": "d",
+          "label": "מודולוס 4 וזווית 90"
+        }
+      ],
+      "correct": "a",
+      "hint": "כשמעלים בריבוע כופלים את הזווית ב 2 ומעלים את המודולוס בריבוע.",
+      "worked_method": "(√2)^2 = 2, ו 45 כפול 2 = 90. 2i הוא באמת מודולוס 2 וזווית 90.",
+      "can_do": "אפשר לבדוק את דה מואבר על חזקה שנייה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כשמעלים בריבוע כופלים את הזווית ב 2 ומעלים את המודולוס בריבוע."
+    },
+    {
+      "id": "cpx_l2_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "i עצמו",
+      "body_he": "i מתאים לזווית",
+      "choices": [
+        {
+          "id": "a",
+          "label": "180"
+        },
+        {
+          "id": "b",
+          "label": "90 מעלות"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "45"
+        }
+      ],
+      "correct": "b",
+      "hint": "הנקודה (0, 1).",
+      "worked_method": "מודולוס 1, ארגומנט 90 מעלות.",
+      "can_do": "אפשר למקם את i על מעגל היחידה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הנקודה (0, 1)."
+    },
+    {
+      "id": "cpx_l2_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כפל ב i",
+      "body_he": "כפל ב i מסובב ב",
+      "choices": [
+        {
+          "id": "a",
+          "label": "90 מעלות עם השעון תמיד בלי קשר"
+        },
+        {
+          "id": "b",
+          "label": "0 מעלות ומשנה רק אורך"
+        },
+        {
+          "id": "c",
+          "label": "180 מעלות"
+        },
+        {
+          "id": "d",
+          "label": "90 מעלות נגד כיוון השעון"
+        }
+      ],
+      "correct": "d",
+      "hint": "i הוא סיבוב של רבע מעגל.",
+      "worked_method": "1 כפול i = i, כלומר מ (1,0) אל (0,1).",
+      "can_do": "אפשר לפרש כפל ב i כסיבוב.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i הוא סיבוב של רבע מעגל."
+    },
+    {
+      "id": "cpx_l2_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מנה",
+      "body_he": "1/i שווה ל",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-1"
+        },
+        {
+          "id": "b",
+          "label": "-i"
+        },
+        {
+          "id": "c",
+          "label": "1"
+        },
+        {
+          "id": "d",
+          "label": "i"
+        }
+      ],
+      "correct": "b",
+      "hint": "כופלים בצמוד של המכנה. הצמוד של i הוא -i, ו i כפול -i = 1? נבדוק: 1/i כפול i/i.",
+      "worked_method": "1/i = -i / (i כפול -i) עדיף: כפל מונה ומכנה ב -i. i כפול (-i) = -i^2 = 1, אז 1/i = -i.",
+      "can_do": "אפשר לחלק ב i.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים בצמוד של המכנה. הצמוד של i הוא -i, ו i כפול -i = 1? נבדוק: 1/i כפול i/i."
+    },
+    {
+      "id": "cpx_l2_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מודולוס של מכפלה",
+      "body_he": "|zw| שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "|z| + |w|"
+        },
+        {
+          "id": "b",
+          "label": "|z + w|"
+        },
+        {
+          "id": "c",
+          "label": "|z| כפול |w|"
+        },
+        {
+          "id": "d",
+          "label": "תמיד 1"
+        }
+      ],
+      "correct": "c",
+      "hint": "המודולוס כופל בכפל.",
+      "worked_method": "זה נובע מההצגה הקוטבית: הזוויות מתחברות והרדיוסים נכפלים.",
+      "can_do": "אפשר לכפול מודולוסים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "המודולוס כופל בכפל."
+    },
+    {
+      "id": "cpx_l2_p8",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ארגומנט של מכפלה",
+      "body_he": "בכפל של שני מרוכבים הזוויות",
+      "choices": [
+        {
+          "id": "a",
+          "label": "נכפלות"
+        },
+        {
+          "id": "b",
+          "label": "לא משתנות"
+        },
+        {
+          "id": "c",
+          "label": "מתחברות"
+        },
+        {
+          "id": "d",
+          "label": "תמיד מתאפסות"
+        }
+      ],
+      "correct": "c",
+      "hint": "דה מואבר וקוטביות.",
+      "worked_method": "arg(zw) = arg z + arg w, עד כדי תוספת של סיבוב שלם.",
+      "can_do": "אפשר לחבר ארגומנטים בכפל.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "דה מואבר וקוטביות."
+    },
+    {
+      "id": "cpx_l2_p9",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "זווית של 1+i",
+      "body_he": "מה הזווית של 1 + i, במעלות?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "45"
+        },
+        {
+          "id": "b",
+          "label": "60"
+        },
+        {
+          "id": "c",
+          "label": "90"
+        },
+        {
+          "id": "d",
+          "label": "30"
+        }
+      ],
+      "correct": "a",
+      "hint": "שני החלקים שווים וחיוביים, אז הרביע הראשון וזווית 45.",
+      "worked_method": "המודולוס √2 והזווית 45 מעלות.",
+      "can_do": "אפשר לקרוא את הזווית של 1+i.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שני החלקים שווים וחיוביים, אז הרביע הראשון וזווית 45."
+    },
+    {
+      "id": "cpx_l2_p10",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ריבוע קוטבי",
+      "body_he": "מה (1 + i) בריבוע?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1 + i"
+        },
+        {
+          "id": "b",
+          "label": "2i"
+        },
+        {
+          "id": "c",
+          "label": "-2"
+        },
+        {
+          "id": "d",
+          "label": "2"
+        }
+      ],
+      "correct": "b",
+      "hint": "בכפל המודולוסים נכפלים והזוויות מתחברות.",
+      "worked_method": "מודולוס √2 כפול עצמו הוא 2, וזווית 45 ועוד 45 היא 90. זה 2i.",
+      "can_do": "אפשר להעלות 1+i בריבוע דרך הצגה קוטבית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "בכפל המודולוסים נכפלים והזוויות מתחברות."
+    },
+    {
+      "id": "cpx_l2_p11",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כפל ב i",
+      "body_he": "כפל ב i עושה מה לנקודה במישור?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "סיבוב של 180"
+        },
+        {
+          "id": "b",
+          "label": "הזזה ימינה"
+        },
+        {
+          "id": "c",
+          "label": "סיבוב של 90 מעלות נגד כיוון השעון"
+        },
+        {
+          "id": "d",
+          "label": "שיקוף בציר x"
+        }
+      ],
+      "correct": "c",
+      "hint": "i יושב בזווית 90, אז כפל בו מוסיף 90.",
+      "worked_method": "המודולוס של i הוא 1, לכן האורך נשמר ורק הזווית גדלה ב 90.",
+      "can_do": "אפשר לתאר כפל ב i כסיבוב.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i יושב בזווית 90, אז כפל בו מוסיף 90."
+    },
+    {
+      "id": "cpx_l2_p12",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אחד חלקי i",
+      "body_he": "מה 1/i?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-1"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "i"
+        },
+        {
+          "id": "d",
+          "label": "-i"
+        }
+      ],
+      "correct": "d",
+      "hint": "כופלים מונה ומכנה ב i, או זוכרים ש i כפול -i הוא 1.",
+      "worked_method": "1/i = -i, כי i·(-i) = -i^2 = 1.",
+      "can_do": "אפשר לחשב 1/i.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים מונה ומכנה ב i, או זוכרים ש i כפול -i הוא 1."
+    },
+    {
+      "id": "cpx_l2_p13",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כפל של 1+i בעצמו",
+      "body_he": "חשבו את (1 + 1i)(1 + 1i).",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "2 + 2i"
+        },
+        {
+          "id": "c",
+          "label": "0 + 1i"
+        },
+        {
+          "id": "d",
+          "label": "0 + 2i"
+        }
+      ],
+      "correct": "d",
+      "hint": "i בריבוע הוא 1-. כופלים כמו בינום.",
+      "worked_method": "החלק הממשי הוא 1·1 - 1·1 = 0. החלק המדומה הוא 1·1 + 1·1 = 2.",
+      "can_do": "אפשר לכפול שני מספרים מרוכבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i בריבוע הוא 1-. כופלים כמו בינום."
+    },
+    {
+      "id": "cpx_l2_p14",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מודולוס של מכפלה",
+      "body_he": "מודולוס של 1+i הוא √2, ומודולוס של 2 הוא 2. מה מודולוס המכפלה?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "√2"
+        },
+        {
+          "id": "c",
+          "label": "2√2"
+        },
+        {
+          "id": "d",
+          "label": "2"
+        }
+      ],
+      "correct": "c",
+      "hint": "בכפל המודולוסים נכפלים.",
+      "worked_method": "√2 כפול 2 הוא 2√2.",
+      "can_do": "אפשר לכפול מודולוסים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "בכפל המודולוסים נכפלים."
+    },
+    {
+      "id": "cpx_l2_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת הצגה קוטבית",
+      "body_he": "מה הארגומנט של -1, במעלות?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "180"
+        },
+        {
+          "id": "b",
+          "label": "45"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "90"
+        }
+      ],
+      "correct": "a",
+      "hint": "הנקודה (-1, 0).",
+      "worked_method": "180 מעלות, או π רדיאנים.",
+      "can_do": "אפשר למצוא ארגומנט של מספר ממשי שלילי.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הנקודה (-1, 0)."
+    },
+    {
+      "id": "cpx_l3_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "משוואות וצמודים",
+      "body_he": "z^2 = -1 נפתר על ידי i ו -i. z^2 = 1 נשאר 1 ו -1. כשהדיסקרימיננטה של משוואה ריבועית עם מקדמים ממשיים שלילית, יש שני שורשים מרוכבים צמודים. ל x^2 + 2x + 5 = 0 השורשים הם -1+2i ו -1-2i. אם מקדמי הפולינום ממשיים ושורש לא ממשי, גם הצמוד שלו שורש. חזקות של i מחזוריות: i^1=i, i^2=-1, i^3=-i, i^4=1.",
+      "can_do": "אפשר לפתור משוואה ריבועית מרוכבת ולשמור על זוג צמוד."
+    },
+    {
+      "id": "cpx_l3_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "פתרון z^2",
+      "body_he": "הפתרונות של z^2 = -1 הם",
+      "choices": [
+        {
+          "id": "a",
+          "label": "אין פתרון"
+        },
+        {
+          "id": "b",
+          "label": "1 וגם -1"
+        },
+        {
+          "id": "c",
+          "label": "רק i"
+        },
+        {
+          "id": "d",
+          "label": "i וגם -i"
+        }
+      ],
+      "correct": "d",
+      "hint": "i^2 = -1, וגם (-i)^2 = i^2.",
+      "worked_method": "z^2 + 1 = 0, (z - i)(z + i) = 0.",
+      "can_do": "אפשר לפתור משוואה ריבועית מרוכבת פשוטה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i^2 = -1, וגם (-i)^2 = i^2."
+    },
+    {
+      "id": "cpx_l3_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שורש של 1",
+      "body_he": "הפתרונות של z^2 = 1 הם",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1 וגם i"
+        },
+        {
+          "id": "b",
+          "label": "רק 1"
+        },
+        {
+          "id": "c",
+          "label": "i וגם -i"
+        },
+        {
+          "id": "d",
+          "label": "1 וגם -1"
+        }
+      ],
+      "correct": "d",
+      "hint": "אלה עדיין הממשיים.",
+      "worked_method": "(z-1)(z+1)=0.",
+      "can_do": "אפשר לא להפוך כל משוואה למדומה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "אלה עדיין הממשיים."
+    },
+    {
+      "id": "cpx_l3_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "דיסקרימיננטה שלילית",
+      "body_he": "למשוואה x^2 + 2x + 5 = 0",
+      "choices": [
+        {
+          "id": "a",
+          "label": "שורש ממשי אחד"
+        },
+        {
+          "id": "b",
+          "label": "שני שורשים מרוכבים צמודים"
+        },
+        {
+          "id": "c",
+          "label": "אין שורשים בכלל"
+        },
+        {
+          "id": "d",
+          "label": "שני שורשים ממשיים"
+        }
+      ],
+      "correct": "b",
+      "hint": "הדיסקרימיננטה 4 - 20 = -16.",
+      "worked_method": "x = -1 ± 2i. הם צמודים כי המקדמים ממשיים.",
+      "can_do": "אפשר למצוא שורשים מרוכבים כשהדיסקרימיננטה שלילית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הדיסקרימיננטה 4 - 20 = -16."
+    },
+    {
+      "id": "cpx_l3_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "השורשים",
+      "body_he": "השורשים של x^2 + 2x + 5 = 0 הם",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1 + 2i וגם 1 - 2i"
+        },
+        {
+          "id": "b",
+          "label": "2i וגם -2i"
+        },
+        {
+          "id": "c",
+          "label": "-1 + 2i וגם -1 - 2i"
+        },
+        {
+          "id": "d",
+          "label": "-1 + i וגם -1 - i"
+        }
+      ],
+      "correct": "c",
+      "hint": "x = (-2 ± שורש -16) / 2.",
+      "worked_method": "-2/2 ± 4i/2 = -1 ± 2i.",
+      "can_do": "אפשר לכתוב את השורשים המרוכבים במפורש.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "x = (-2 ± שורש -16) / 2."
+    },
+    {
+      "id": "cpx_l3_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "צמודים",
+      "body_he": "לפולינום עם מקדמים ממשיים, אם 2 + i שורש אז גם",
+      "choices": [
+        {
+          "id": "a",
+          "label": "i לבד שורש"
+        },
+        {
+          "id": "b",
+          "label": "-2 + i שורש בהכרח"
+        },
+        {
+          "id": "c",
+          "label": "רק 2 + i"
+        },
+        {
+          "id": "d",
+          "label": "2 - i שורש"
+        }
+      ],
+      "correct": "d",
+      "hint": "שורשים מרוכבים באים בזוגות צמודים.",
+      "worked_method": "הצמוד של 2 + i הוא 2 - i, וגם הוא שורש.",
+      "can_do": "אפשר להשתמש במשפט השורשים הצמודים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שורשים מרוכבים באים בזוגות צמודים."
+    },
+    {
+      "id": "cpx_l3_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חילוק",
+      "body_he": "(1 + i)/(1 - i) שווה ל",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2i"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "-i"
+        },
+        {
+          "id": "d",
+          "label": "i"
+        }
+      ],
+      "correct": "d",
+      "hint": "כופלים בצמוד המכנה 1 + i. המונה (1+i)^2 = 2i, המכנה 2.",
+      "worked_method": "2i / 2 = i.",
+      "can_do": "אפשר לחלק מספרים מרוכבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים בצמוד המכנה 1 + i. המונה (1+i)^2 = 2i, המכנה 2."
+    },
+    {
+      "id": "cpx_l3_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חזקה של i",
+      "body_he": "i^4 שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "i"
+        },
+        {
+          "id": "b",
+          "label": "-1"
+        },
+        {
+          "id": "c",
+          "label": "-i"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "d",
+      "hint": "i^2 = -1, i^4 = 1.",
+      "worked_method": "(-1) בריבוע = 1. החזקות של i מחזוריות באורך 4.",
+      "can_do": "אפשר לחשב חזקות של i.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i^2 = -1, i^4 = 1."
+    },
+    {
+      "id": "cpx_l3_p8",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "i^3",
+      "body_he": "i^3 שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "i"
+        },
+        {
+          "id": "b",
+          "label": "-i"
+        },
+        {
+          "id": "c",
+          "label": "1"
+        },
+        {
+          "id": "d",
+          "label": "-1"
+        }
+      ],
+      "correct": "b",
+      "hint": "i^2 כפול i.",
+      "worked_method": "-1 כפול i = -i.",
+      "can_do": "אפשר לחשב i בשלישית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i^2 כפול i."
+    },
+    {
+      "id": "cpx_l3_p9",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שורשי 1-",
+      "body_he": "מהם פתרונות z^2 = -1?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "i בלבד"
+        },
+        {
+          "id": "b",
+          "label": "i וגם -i"
+        },
+        {
+          "id": "c",
+          "label": "-1 וגם i"
+        },
+        {
+          "id": "d",
+          "label": "1 וגם -1"
+        }
+      ],
+      "correct": "b",
+      "hint": "i בריבוע הוא 1-, וגם מינוס i בריבוע.",
+      "worked_method": "i^2 = -1 ו (-i)^2 = i^2 = -1.",
+      "can_do": "אפשר לפתור z בריבוע שווה 1-.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i בריבוע הוא 1-, וגם מינוס i בריבוע."
+    },
+    {
+      "id": "cpx_l3_p10",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "דיסקרימיננטה שלילית",
+      "body_he": "למשוואה x^2 + 2x + 5 = 0, מה זוג השורשים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-1 וגם -5"
+        },
+        {
+          "id": "b",
+          "label": "-1 + 2i וגם -1 - 2i"
+        },
+        {
+          "id": "c",
+          "label": "2i וגם -2i"
+        },
+        {
+          "id": "d",
+          "label": "1 + 2i וגם 1 - 2i"
+        }
+      ],
+      "correct": "b",
+      "hint": "הדיסקרימיננטה 4 - 20 = -16. שורש שלה הוא 4i.",
+      "worked_method": "x = (-2 ± 4i) / 2, כלומר -1 ± 2i.",
+      "can_do": "אפשר לפתור משוואה ריבועית עם שורשים צמודים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הדיסקרימיננטה 4 - 20 = -16. שורש שלה הוא 4i."
+    },
+    {
+      "id": "cpx_l3_p11",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "צמוד הוא גם שורש",
+      "body_he": "לפולינום עם מקדמים ממשיים יש שורש 2 + i. מה עוד חייב להיות שורש?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1 + 2i"
+        },
+        {
+          "id": "b",
+          "label": "-2 + i"
+        },
+        {
+          "id": "c",
+          "label": "2 - i"
+        },
+        {
+          "id": "d",
+          "label": "2 + i"
+        }
+      ],
+      "correct": "c",
+      "hint": "שורש לא ממשי מגיע עם הצמוד שלו, כשהמקדמים ממשיים.",
+      "worked_method": "הצמוד של 2 + i הוא 2 - i, והוא גם שורש.",
+      "can_do": "אפשר להשלים שורש צמוד.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שורש לא ממשי מגיע עם הצמוד שלו, כשהמקדמים ממשיים."
+    },
+    {
+      "id": "cpx_l3_p12",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חזקה של i",
+      "body_he": "מה i^4?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-i"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "i"
+        },
+        {
+          "id": "d",
+          "label": "-1"
+        }
+      ],
+      "correct": "b",
+      "hint": "החזקות מחזוריות באורך 4.",
+      "worked_method": "i^2 = -1, ו i^4 = (i^2)^2 = 1.",
+      "can_do": "אפשר לחשב חזקה מחזורית של i.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "החזקות מחזוריות באורך 4."
+    },
+    {
+      "id": "cpx_l3_p13",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כפל בשליטה",
+      "body_he": "חשבו את (2 + -3i)(1 + 1i).",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-1 + -1i"
+        },
+        {
+          "id": "b",
+          "label": "5 - 1i"
+        },
+        {
+          "id": "c",
+          "label": "5 + 2i"
+        },
+        {
+          "id": "d",
+          "label": "3 + -2i"
+        }
+      ],
+      "correct": "b",
+      "hint": "i בריבוע הוא 1-. כופלים כמו בינום.",
+      "worked_method": "החלק הממשי הוא 2·1 - -3·1 = 5. החלק המדומה הוא 2·1 + -3·1 = -1.",
+      "can_do": "אפשר לכפול שני מספרים מרוכבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i בריבוע הוא 1-. כופלים כמו בינום."
+    },
+    {
+      "id": "cpx_l3_p14",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משוואה ממשית",
+      "body_he": "מהם פתרונות z^2 = 1 במרוכבים?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1 בלבד"
+        },
+        {
+          "id": "b",
+          "label": "i וגם -i"
+        },
+        {
+          "id": "c",
+          "label": "1 וגם -1"
+        },
+        {
+          "id": "d",
+          "label": "1 וגם i"
+        }
+      ],
+      "correct": "c",
+      "hint": "אין כאן חלק מדומה. אלה אותם שני שורשים ממשיים.",
+      "worked_method": "z^2 - 1 = (z-1)(z+1) = 0.",
+      "can_do": "אפשר לא להמציא שורש מדומה כשהדיסקרימיננטה חיובית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "אין כאן חלק מדומה. אלה אותם שני שורשים ממשיים."
+    },
+    {
+      "id": "cpx_l3_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת שליטה במרוכבים",
+      "body_he": "מה |(1 + i)/(1 - i)|?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "√2"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "d",
+      "hint": "מודולוס של מנה הוא מנת המודולוסים, ושניהם √2.",
+      "worked_method": "√2 / √2 = 1. מתאים לכך שהמנה היא i, והמודולוס של i הוא 1.",
+      "can_do": "אפשר לחשב מודולוס של מנה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מודולוס של מנה הוא מנת המודולוסים, ושניהם √2."
+    },
+    {
+      "id": "cpx_rev_1",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, כפל",
+      "body_he": "חשבו את (3 + 1i)(1 + -1i).",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4 + -3i"
+        },
+        {
+          "id": "b",
+          "label": "2 + -2i"
+        },
+        {
+          "id": "c",
+          "label": "4 + 0i"
+        },
+        {
+          "id": "d",
+          "label": "4 - 2i"
+        }
+      ],
+      "correct": "d",
+      "hint": "i בריבוע הוא 1-. כופלים כמו בינום.",
+      "worked_method": "החלק הממשי הוא 3·1 - 1·-1 = 4. החלק המדומה הוא 3·-1 + 1·1 = -2.",
+      "can_do": "אפשר לכפול שני מספרים מרוכבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i בריבוע הוא 1-. כופלים כמו בינום.",
+      "review_topic_ids": [
+        "cpx_l1",
+        "cpx_l2",
+        "cpx_l3"
+      ]
+    },
+    {
+      "id": "cpx_rev_2",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, מודולוס",
+      "body_he": "מודולוס של 5 + 12i?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "13"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "169"
+        },
+        {
+          "id": "d",
+          "label": "17"
+        }
+      ],
+      "correct": "a",
+      "hint": "25+144=169.",
+      "worked_method": "13.",
+      "can_do": "אפשר מודולוס.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "25+144=169.",
+      "review_topic_ids": [
+        "cpx_l1",
+        "cpx_l2",
+        "cpx_l3"
+      ]
+    },
+    {
+      "id": "cpx_rev_3",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, צמוד",
+      "body_he": "צמוד של -2 + 6i?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2 - 6i"
+        },
+        {
+          "id": "b",
+          "label": "-2 - 6i"
+        },
+        {
+          "id": "c",
+          "label": "-2 + 6i"
+        },
+        {
+          "id": "d",
+          "label": "6 - 2i"
+        }
+      ],
+      "correct": "b",
+      "hint": "מחליפים רק את סימן החלק המדומה.",
+      "worked_method": "-2 - 6i.",
+      "can_do": "אפשר צמוד.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מחליפים רק את סימן החלק המדומה.",
+      "review_topic_ids": [
+        "cpx_l1",
+        "cpx_l2",
+        "cpx_l3"
+      ]
+    },
+    {
+      "id": "cpx_rev_4",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, i^3",
+      "body_he": "מה i^3?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-i"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "-1"
+        },
+        {
+          "id": "d",
+          "label": "i"
+        }
+      ],
+      "correct": "a",
+      "hint": "i^2=-1, כפול i הוא -i.",
+      "worked_method": "-i.",
+      "can_do": "אפשר חזקת i.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i^2=-1, כפול i הוא -i.",
+      "review_topic_ids": [
+        "cpx_l1",
+        "cpx_l2",
+        "cpx_l3"
+      ]
+    },
+    {
+      "id": "cpx_rev_5",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, שורשים",
+      "body_he": "שורשי x^2 + 1 = 0?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "i וגם -i"
+        },
+        {
+          "id": "b",
+          "label": "1 וגם -1"
+        },
+        {
+          "id": "c",
+          "label": "i בלבד"
+        },
+        {
+          "id": "d",
+          "label": "אין פתרון"
+        }
+      ],
+      "correct": "a",
+      "hint": "x^2 = -1.",
+      "worked_method": "i ו -i.",
+      "can_do": "אפשר שורשי 1-.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "x^2 = -1.",
+      "review_topic_ids": [
+        "cpx_l1",
+        "cpx_l2",
+        "cpx_l3"
+      ]
+    },
+    {
+      "id": "cpx_rev_6",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, 1+i",
+      "body_he": "הזווית של 1+i במעלות?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "45"
+        },
+        {
+          "id": "b",
+          "label": "0"
+        },
+        {
+          "id": "c",
+          "label": "90"
+        },
+        {
+          "id": "d",
+          "label": "30"
+        }
+      ],
+      "correct": "a",
+      "hint": "רביע ראשון, חלקים שווים.",
+      "worked_method": "45.",
+      "can_do": "אפשר זווית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "רביע ראשון, חלקים שווים.",
+      "review_topic_ids": [
+        "cpx_l1",
+        "cpx_l2",
+        "cpx_l3"
+      ]
+    }
+  ]
+}
