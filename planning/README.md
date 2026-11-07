@@ -9,7 +9,8 @@ It is **not** publishable learner content.
 
 - The MyRoad platform content loader discovers learner paths by recursively
   collecting `*.json` under the content tree (`default_content_dir` +
-  `_find_json_files` / `root.rglob("*.json")`).
+  `_find_json_files` / `root.rglob("*.json")` in
+  `packages/core/src/myroad_core/content/loader.py`).
 - **Never put path JSON in this folder.** Only Markdown (and maybe `.txt`).
 - Today the loader only loads `*.json`, so Markdown here is safe and will not
   appear as learner paths. Keep it that way.
@@ -30,6 +31,11 @@ It is **not** publishable learner content.
 ## Current ideas
 
 See [INDEX.md](./INDEX.md).
+
+Batch 2026-11-07 added: psychometric verbal (Hebrew), math 5-unit from zero
+(adults; planning only — distinct from `path_math_zero_to_equation` /
+`path_math_bagrut_3_units` and from content PR #45 JSON), and YAEL Hebrew from
+zero (chosen over CS bagrut5 for stronger verified public sources).
 
 ## Bot note
 
