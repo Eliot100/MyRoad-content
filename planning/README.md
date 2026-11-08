@@ -37,6 +37,10 @@ Batch 2026-11-07 added: psychometric verbal (Hebrew), math 5-unit from zero
 `path_math_bagrut_3_units` and from content PR #45 JSON), and YAEL Hebrew from
 zero (chosen over CS bagrut5 for stronger verified public sources).
 
+Batch 2026-11-08 added: chemistry 5-unit from zero, biology 5-unit from zero,
+and computer-science theoretical-path bagrut from zero (after MoE pages
+returned HTTP 200; CS unit 5 vs unit 3 options are distinguished in the outline).
+
 ## Bot note
 
 Docs-only planning. Bot: maria. No path JSON in this PR.
