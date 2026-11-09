@@ -41,6 +41,10 @@ Batch 2026-11-08 added: chemistry 5-unit from zero, biology 5-unit from zero,
 and computer-science theoretical-path bagrut from zero (after MoE pages
 returned HTTP 200; CS unit 5 vs unit 3 options are distinguished in the outline).
 
+Batch 2026-11-09 added: civics bagrut from zero, history bagrut from zero,
+and psychometric English / AMIRNET (English leaves the PET score from the
+December 2026 sitting; see the review notes in the outline).
+
 ## Bot note
 
 Docs-only planning. Bot: maria. No path JSON in this PR.
