@@ -12,7 +12,14 @@
 | Chemistry 5-unit bagrut from zero | [chemistry-bagrut5-from-zero.md](./chemistry-bagrut5-from-zero.md) | Chemistry / כימיה | 5 יח"ל bagrut | planning |
 | Biology 5-unit bagrut from zero | [biology-bagrut5-from-zero.md](./biology-bagrut5-from-zero.md) | Biology / ביולוגיה | 5 יח"ל bagrut | planning |
 | Computer Science bagrut from zero (theoretical path) | [computer-science-bagrut-from-zero.md](./computer-science-bagrut-from-zero.md) | Computer Science / מדעי המחשב | 5 יח"ל theoretical path | planning |
+| Civics (אזרחות) bagrut from zero | [civics-bagrut-from-zero.md](./civics-bagrut-from-zero.md) | Civics / אזרחות | 2 יח"ל bagrut (adult externals: questionnaires 34281 + 34282 per MoE circular) | planning |
+| History bagrut from zero | [history-bagrut-from-zero.md](./history-bagrut-from-zero.md) | History / היסטוריה | Bagrut core (WWII, Holocaust, Yishuv to State); units and codes unverified | planning |
+| Psychometric English / AMIRNET (toward ~800 framing) | [psychometric-english-toward-800.md](./psychometric-english-toward-800.md) | English / אנגלית (AMIRNET) | English placement/exemption (from Dec 2026 English is outside the PET score) | planning |
 
+
+### 2026-11-09 batch
+
+Added Civics, History and Psychometric English / AMIRNET outlines (SuperGrok Expert draft, reviewed by a bot). Civics questionnaire codes were corrected from the MoE circular (adult externals: `34281` 80% + `34282` 20%). History is thin: only the MoE introduction page was confirmed. Psychometric English note: from the December 2026 sitting NITE tests English only in AMIRNET, outside the two-domain PET score, so the target framing needs Eliot's decision.
 
 ### 2026-11-08 batch
 
