@@ -10,10 +10,17 @@ Arabic road 01 is not rewritten here. Its band is narrowed in build_arabic_bagru
 from __future__ import annotations
 
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 ADULT = ROOT / "adult"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import bagrut5_lessons_b  # noqa: F401  registers lesson cards
+import bagrut5_lessons_c  # noqa: F401
+import bagrut5_lessons_d  # noqa: F401
+import bagrut5_lessons_e  # noqa: F401
+from bagrut5_lessons import LESSONS
 
 ROLES = (
     ("learn", "explanation"),
@@ -24,22 +31,12 @@ ROLES = (
 )
 
 
-def pad(text: str, salt: int) -> str:
-    """True arithmetic lines, long enough for the span generator. No invented story."""
-    n = 1
-    while len(text) < 900:
-        a = salt * 19 + n
-        text += f" בדיקה {n}: {a} ועוד 1 שווה {a + 1}, לא {a + 2}."
-        n += 1
-    return text
-
-
-def node(nid: str, ntype: str, role: str, title: str, body: str, salt: int, item: dict | None) -> dict:
+def node(nid: str, ntype: str, role: str, title: str, body: str, item: dict | None) -> dict:
     out = {
         "id": nid,
         "type": ntype,
         "title": title,
-        "body_he": pad(body, salt),
+        "body_he": body,
         "tile_role": role,
         "kind": "understanding",
     }
@@ -64,16 +61,20 @@ def road(spec: dict) -> dict:
     topics: list[dict] = []
     for index, stage in enumerate(spec["stages"]):
         level, tid, he, en, lead, item = stage
+        explain, worked = LESSONS[tid]
         ids = []
         for role_i, (ntype, role) in enumerate(ROLES):
             nid = f"{tid}_{role}"
             ids.append(nid)
             title = he if role == "explanation" else f"{he}: {role_i + 1}"
-            body = f"{lead} {item['ask']}"
+            if role == "explanation":
+                body = explain
+            elif role == "worked_example":
+                body = worked
+            else:
+                body = f"{lead} {item['ask']}"
             use = item if ntype != "learn" else None
-            if role == "worked_example":
-                body = f"{lead} דוגמה: {item['ask']} התשובה היא {item['ok']}. {item['ok_he']}"
-            built = node(nid, ntype, role, title, body, salt=index * 10 + role_i + 2, item=use)
+            built = node(nid, ntype, role, title, body, item=use)
             if role == "explanation" and item.get("speak"):
                 built["speak_text"] = item["speak"]
             if item.get("content") and ntype == "learn":
@@ -844,7 +845,21 @@ def build() -> list[tuple[str, dict]]:
 
 
 def main() -> None:
+    import re
+
+    filler = re.compile(r"בדיקה [0-9]+: [0-9]+ ועוד 1")
     for name, doc in build():
+        if not name.endswith("_placement"):
+            for node_doc in doc["nodes"]:
+                if node_doc.get("type") != "learn":
+                    continue
+                body = node_doc["body_he"]
+                if not 400 <= len(body) <= 900:
+                    raise SystemExit(f"{name}/{node_doc['id']} length {len(body)}")
+                if body.rstrip().endswith("?"):
+                    raise SystemExit(f"{name}/{node_doc['id']} ends on a question")
+                if filler.search(body):
+                    raise SystemExit(f"{name}/{node_doc['id']} still has filler")
         path = ADULT / f"{name}.json"
         path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(path.name, "nodes", len(doc["nodes"]))
