@@ -5,6 +5,7 @@ Original items only. No copied exam questions. Run from the repo root:
     python scripts/build_bagrut5_roads.py
 
 Arabic road 01 is not rewritten here. Its band is narrowed in build_arabic_bagrut5.py.
+Math and physics placements are not rewritten here either: a7a2821 edited them by hand.
 """
 
 from __future__ import annotations
@@ -120,55 +121,6 @@ def road(spec: dict) -> dict:
     return doc
 
 
-def placement(spec: dict) -> dict:
-    nodes = []
-    topics = []
-    for index, item in enumerate(spec["items"]):
-        nid = f"p{index}"
-        nodes.append(
-            {
-                "id": nid,
-                "type": "check",
-                "title": item["title"],
-                "body_he": item["ask"],
-                "choices": [
-                    {"id": "a", "label": item["ok"]},
-                    {"id": "b", "label": item["bad"][0]},
-                    {"id": "c", "label": item["bad"][1]},
-                ],
-                "correct": "a",
-                "feedback_ok": item["ok_he"],
-                "feedback_try": item["try_he"],
-                "area": item["area"],
-                "difficulty": item["b"],
-            }
-        )
-        if item.get("content"):
-            nodes[-1]["body_content"] = item["content"]
-        topics.append(
-            {
-                "id": f"t{index}",
-                "titles": {"he": item["title"], "en": item["en"]},
-                "emoji": spec["emoji"],
-                "node_ids": [nid],
-            }
-        )
-    return {
-        "id": spec["id"],
-        "titles": {"he": spec["he"], "en": spec["en"], "ar": spec["ar"]},
-        "blurbs": {"he": spec["blurb_he"], "en": spec["blurb_en"], "ar": spec["blurb_ar"]},
-        "subject": spec["subject"],
-        "group_ids": ["adult"],
-        "emoji": spec["emoji"],
-        "explain_locale": "he",
-        "content_locale": spec.get("content_locale", "he"),
-        "estimated_minutes": 25,
-        "prerequisite_path_ids": [],
-        "topics": topics,
-        "nodes": nodes,
-    }
-
-
 def q(ask, ok, bad, ok_he, try_he, content=None, speak=None):
     return {"ask": ask, "ok": ok, "bad": bad, "ok_he": ok_he, "try_he": try_he, "content": content, "speak": speak}
 
@@ -180,70 +132,6 @@ AR_PLACE = "path_arabic_bagrut5_00_placement"
 
 def build() -> list[tuple[str, dict]]:
     out: list[tuple[str, dict]] = []
-    out.append(
-        (
-            MATH_PLACE,
-            placement(
-                {
-                    "id": MATH_PLACE,
-                    "subject": "math",
-                    "emoji": "∑",
-                    "he": "מבדק רמה במתמטיקה",
-                    "en": "Math level check",
-                    "ar": "اختبار مستوى الرياضيات",
-                    "blurb_he": "ארבע שאלות קצרות. לפי הטעויות נפתחת הדרך, בלי חומר חדש.",
-                    "blurb_en": "Four short questions. Mistakes open the road. No new material.",
-                    "blurb_ar": "أربعة أسئلة قصيرة. الأخطاء تفتح الطريق.",
-                    "items": [
-                        {
-                            "title": "שיפוע",
-                            "en": "Slope",
-                            "ask": "מה השיפוע בין (0, 1) ל־(2, 5)?",
-                            "ok": "2",
-                            "bad": ["4", "1"],
-                            "ok_he": "נכון. (5−1)/(2−0) = 2.",
-                            "try_he": "שינוי ב־y חלקי שינוי ב־x.",
-                            "area": "analysis",
-                            "b": -1.0,
-                        },
-                        {
-                            "title": "משולש",
-                            "en": "Triangle",
-                            "ask": "במשולש ישר זווית, הניצבים 3 ו־4. מה אורך היתר?",
-                            "ok": "5",
-                            "bad": ["7", "12"],
-                            "ok_he": "נכון. 3²+4²=25, והשורש הוא 5.",
-                            "try_he": "משפט פיתגורס, לא סכום הניצבים.",
-                            "area": "geometry",
-                            "b": -0.2,
-                        },
-                        {
-                            "title": "סדרה",
-                            "en": "Sequence",
-                            "ask": "סדרה חשבונית: 2, 5, 8. מה האיבר הרביעי?",
-                            "ok": "11",
-                            "bad": ["10", "16"],
-                            "ok_he": "נכון. הפרש 3, אז 8+3=11.",
-                            "try_he": "מוסיפים את אותו הפרש.",
-                            "area": "sequences",
-                            "b": 0.4,
-                        },
-                        {
-                            "title": "הסתברות",
-                            "en": "Probability",
-                            "ask": "קובייה הוגנת. מה ההסתברות לתוצאה זוגית?",
-                            "ok": "1/2",
-                            "bad": ["1/6", "2/3"],
-                            "ok_he": "נכון. 2, 4, 6 מתוך 6, כלומר 1/2.",
-                            "try_he": "שלוש תוצאות זוגיות מתוך שש.",
-                            "area": "probability",
-                            "b": 0.8,
-                        },
-                    ],
-                }
-            ),
-        )
-    )
     math_roads = [
         {
             "id": "path_math_bagrut5_01_analysis",
@@ -513,70 +401,6 @@ def build() -> list[tuple[str, dict]]:
         spec.update(subject="math", place=MATH_PLACE, content_locale="he", ar=spec["ar"])
         out.append((spec["id"], road(spec)))
 
-    out.append(
-        (
-            PHYS_PLACE,
-            placement(
-                {
-                    "id": PHYS_PLACE,
-                    "subject": "physics",
-                    "emoji": "Φ",
-                    "he": "מבדק רמה בפיזיקה",
-                    "en": "Physics level check",
-                    "ar": "اختبار مستوى الفيزياء",
-                    "blurb_he": "ארבע שאלות: מכניקה, חשמל, גלים, וקרינה. המעבדה אינה כאן.",
-                    "blurb_en": "Four questions: mechanics, electricity, waves, radiation. No lab.",
-                    "blurb_ar": "أربعة أسئلة. بلا مختبر.",
-                    "items": [
-                        {
-                            "title": "מהירות",
-                            "en": "Speed",
-                            "ask": "גוף נע 10 מטר ב־2 שניות במהירות קבועה. מה המהירות?",
-                            "ok": "5 מטר לשנייה",
-                            "bad": ["20 מטר לשנייה", "8 מטר לשנייה"],
-                            "ok_he": "נכון. דרך חלקי זמן היא 5.",
-                            "try_he": "חלקו דרך בזמן.",
-                            "area": "mechanics",
-                            "b": -1.0,
-                        },
-                        {
-                            "title": "חוק אום",
-                            "en": "Ohm",
-                            "ask": "מתח 6 וולט, זרם 2 אמפר. מה ההתנגדות?",
-                            "ok": "3 אום",
-                            "bad": ["12 אום", "4 אום"],
-                            "ok_he": "נכון. R = V/I = 3.",
-                            "try_he": "מתח חלקי זרם.",
-                            "area": "electricity",
-                            "b": 0.0,
-                        },
-                        {
-                            "title": "גל",
-                            "en": "Wave",
-                            "ask": "תדירות 2 הרץ ואורך גל 3 מטר. מה מהירות הגל?",
-                            "ok": "6 מטר לשנייה",
-                            "bad": ["1.5 מטר לשנייה", "5 מטר לשנייה"],
-                            "ok_he": "נכון. v = fλ = 6.",
-                            "try_he": "מכפלה, לא מנה.",
-                            "area": "waves",
-                            "b": 0.6,
-                        },
-                        {
-                            "title": "פוטון",
-                            "en": "Photon",
-                            "ask": "אנרגיית פוטון גדלה כשהתדירות?",
-                            "ok": "גדלה",
-                            "bad": ["קטנה", "אינה משתנה"],
-                            "ok_he": "נכון. E = hf, אז תדירות גבוהה יותר היא אנרגיה גבוהה יותר.",
-                            "try_he": "האנרגיה יחסית לתדירות.",
-                            "area": "modern",
-                            "b": 1.0,
-                        },
-                    ],
-                }
-            ),
-        )
-    )
     physics = [
         {
             "id": "path_physics_bagrut5_01_mechanics",
@@ -848,7 +672,13 @@ def main() -> None:
     import re
 
     filler = re.compile(r"בדיקה [0-9]+: [0-9]+ ועוד 1")
+    # a7a2821 hand-edited the math and physics placements (two scored items
+    # in every starting band). Regenerating them from this file used to
+    # overwrite that work with a four-item draft. Never write them here.
+    protected = {MATH_PLACE, PHYS_PLACE}
     for name, doc in build():
+        if name in protected:
+            raise SystemExit(f"{name} must not be generated; it is hand-edited")
         if not name.endswith("_placement"):
             for node_doc in doc["nodes"]:
                 if node_doc.get("type") != "learn":
