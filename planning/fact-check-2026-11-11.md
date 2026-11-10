@@ -1,6 +1,6 @@
 # Fact check of planning facts (2026-11-11)
 
-Overnight queue item C3. Each factual claim about bagrut questionnaires, unit levels, exam structure, the psychometric test (PET) and AMIRNET in `planning/*.md` was checked against official public sources only: education.gov.il (pop. / meyda.) and nite.org.il. I fetched every source with `curl` and extracted PDFs with `pdftotext` on 2026-11-10 at about 23:30 to 00:15 (Asia/Jerusalem). No outside AI tool was used and no business content was sent anywhere.
+Overnight queue item C3. Each factual claim about bagrut questionnaires, unit levels, exam structure, the psychometric test (PET) and AMIRNET in `planning/*.md` was checked against official public sources only: education.gov.il (pop. / meyda.) and nite.org.il. I fetched every source with `curl` and extracted PDFs with `pdftotext` on 2026-11-10 at about 23:20 to 23:30 (Asia/Jerusalem). No outside AI tool was used and no business content was sent anywhere.
 
 Verdicts: **confirmed** = the source says the same thing. **mismatch** = the source says something different, or the file leaves out something that matters for the road. **unverified** = I could not settle it from a public source in this pass.
 
