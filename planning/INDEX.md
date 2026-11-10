@@ -15,7 +15,14 @@
 | Civics (אזרחות) bagrut from zero | [civics-bagrut-from-zero.md](./civics-bagrut-from-zero.md) | Civics / אזרחות | 2 יח"ל bagrut (adult externals: questionnaires 34281 + 34282 per MoE circular) | planning |
 | History bagrut from zero | [history-bagrut-from-zero.md](./history-bagrut-from-zero.md) | History / היסטוריה | Bagrut core (WWII, Holocaust, Yishuv to State); units and codes unverified | planning |
 | AMIRNET English placement and exemption | [amirnet-english-placement.md](./amirnet-english-placement.md) | English / אנגלית (AMIRNET) | University English placement and exemption (not part of the PET score from Dec 2026) | planning |
+| Hebrew lashon (עברית: הבנה, הבעה ולשון) bagrut from zero | [hebrew-lashon-bagrut-from-zero.md](./hebrew-lashon-bagrut-from-zero.md) | Hebrew / עברית (לשון והבעה) | 70% paper 11281 + externals' 30% written paper (11282 unverified) | planning |
+| Literature (ספרות) bagrut from zero | [literature-bagrut-from-zero.md](./literature-bagrut-from-zero.md) | Literature / ספרות | 2 יח"ל, old-outline 70% external (externals' questionnaire code unverified) | planning |
+| Math 4-to-5 unit upgrade (adults) | [math-bagrut-4-to-5-upgrade.md](./math-bagrut-4-to-5-upgrade.md) | Math / מתמטיקה | Delta from 4 to 5 יח"ל (35571 + 35572); reuses `path_math_bagrut5_*` roads | planning |
 
+
+### 2026-11-10 batch (leftover)
+
+Added Hebrew lashon, literature and math 4-to-5 upgrade outlines, written by a bot from MoE PDFs read on 2026-11-10 (a SuperGrok draft was claimed but no files existed). Key findings: 11281 papers for winter and summer תשפ"ו are 3 hours, 50/50 (the summer moed ב paper had special instructions: 3.5 hours, 44/56). Literature uses only the new poetry program from winter תשפ"ו (8 poems from cluster ב or ז), adds an unseen-text question in poetry and short story, and drops מיקוד from תשפ"ז. The 4-unit math PDF (2015) explicitly excludes trigonometric functions from analysis, and the summer תשפ"ו moed ב 35571 paper states 4 h 20 min (the 5-unit outline records 3 h 45 from the MoE page) — reconcile. Externals' questionnaire codes for Hebrew (30% part) and literature remain TODO.
 
 ### 2026-11-10 update
 
