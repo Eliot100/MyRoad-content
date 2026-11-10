@@ -1,0 +1,458 @@
+{
+ "id": "path_english_amirnet_01",
+ "titles": {
+  "he": "אמירנט: אנגלית לפטור והשמה",
+  "en": "AMIRNET: English placement",
+  "ar": "أميرنت: الإنجليزية للتصنيف والإعفاء"
+ },
+ "blurbs": {
+  "he": "דרך פתיחה לאמירנט: השלמת משפטים, ניסוח מחדש והבנת הנקרא. מדצמבר 2026 אנגלית לא בפסיכומטרי.",
+  "en": "A starter road for AMIRNET: sentence completion, restatement, and reading. From December 2026 English is not part of the psychometric test.",
+  "ar": "مسار بداية لأميرنت: إكمال الجمل وإعادة الصياغة والقراءة."
+ },
+ "subject": "english",
+ "group_ids": [
+  "adult",
+  "amirnet"
+ ],
+ "emoji": "🎓",
+ "explain_locale": "he",
+ "content_locale": "en",
+ "estimated_minutes": 60,
+ "prerequisite_path_ids": [],
+ "score": {
+  "group_id": "amirnet_150",
+  "part_id": "english",
+  "weight": 1
+ },
+ "topics": [
+  {
+   "id": "t_about",
+   "titles": {
+    "he": "מה זה אמירנט",
+    "en": "What AMIRNET is"
+   },
+   "emoji": "🧭",
+   "node_ids": [
+    "am_about_learn",
+    "am_about_chk"
+   ]
+  },
+  {
+   "id": "t_complete",
+   "titles": {
+    "he": "השלמת משפטים",
+    "en": "Sentence completion"
+   },
+   "emoji": "🧩",
+   "node_ids": [
+    "am_comp_learn",
+    "am_comp_p1",
+    "am_comp_p2",
+    "am_comp_chk"
+   ]
+  },
+  {
+   "id": "t_restate",
+   "titles": {
+    "he": "ניסוח מחדש",
+    "en": "Restatement"
+   },
+   "emoji": "🔁",
+   "node_ids": [
+    "am_rest_learn",
+    "am_rest_p1",
+    "am_rest_chk"
+   ]
+  },
+  {
+   "id": "t_read",
+   "titles": {
+    "he": "הבנת הנקרא",
+    "en": "Reading comprehension"
+   },
+   "emoji": "📖",
+   "node_ids": [
+    "am_read_learn",
+    "am_read_p1",
+    "am_read_chk"
+   ]
+  },
+  {
+   "id": "t_mixed",
+   "titles": {
+    "he": "תרגול מעורב",
+    "en": "Mixed practice"
+   },
+   "emoji": "⏱️",
+   "node_ids": [
+    "am_mix_learn",
+    "am_mix_r1",
+    "am_mix_r2",
+    "am_celebrate"
+   ]
+  }
+ ],
+ "nodes": [
+  {
+   "id": "am_about_learn",
+   "type": "learn",
+   "kind": "understanding",
+   "title": "אמירנט ולא פסיכומטרי",
+   "body_he": "מדצמבר 2026 אנגלית כבר לא חלק מהבחינה הפסיכומטרית. את רמת האנגלית לאקדמיה בודקים במבחן נפרד של מאל\"ו (NITE): אמירנט. זה מבחן ממוחשב ומסתגל, בערך 50 דקות, עם שלושה סוגי שאלות: השלמת משפטים, ניסוח מחדש והבנת הנקרא. הציון בסולם 50–150. כל מוסד קובע לבד מאיזה ציון יש פטור ואיך משבצים לרמה. ההרשמה נפרדת מהפסיכומטרי.",
+   "body_content": "AMIRNET: Sentence Completion, Restatement, Reading Comprehension.",
+   "can_do": "להבין מה אמירנט בודק ולמה הוא נפרד מהפסיכומטרי"
+  },
+  {
+   "id": "am_about_chk",
+   "type": "check",
+   "kind": "understanding",
+   "title": "שלושה סוגי שאלות",
+   "body_he": "איזה סוג שאלה לא מופיע היום באמירנט?",
+   "body_content": "AMIRNET question types",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Listening to a recorded lecture"
+    },
+    {
+     "id": "b",
+     "label": "Sentence Completion",
+     "feedback": "השלמת משפטים היא אחד משלושת הסוגים של היום."
+    },
+    {
+     "id": "c",
+     "label": "Restatement",
+     "feedback": "ניסוח מחדש הוא אחד משלושת הסוגים של היום."
+    }
+   ],
+   "correct": "a",
+   "feedback_ok": "נכון. האזנה עוד לא במבחן. מאל\"ו הודיעו שהיא תתווסף בשלבים מ-2027.",
+   "feedback_try": "היום יש שלושה סוגים: השלמת משפטים, ניסוח מחדש והבנת הנקרא. האזנה תתווסף רק בהמשך, לכן התשובה Listening.",
+   "can_do": "לזהות את סוגי השאלות במבחן",
+   "worked_method": "כתבו את שלושת הסוגים של היום: השלמת משפטים, ניסוח מחדש, הבנת הנקרא.\nבדקו כל תשובה מול הרשימה.\nמה שלא ברשימה הוא התשובה: Listening.",
+   "hint": "שני סוגים מהתשובות מופיעים ברשימת שלושת הסוגים."
+  },
+  {
+   "id": "am_comp_learn",
+   "type": "learn",
+   "kind": "understanding",
+   "title": "רמזים בתוך המשפט",
+   "body_he": "בהשלמת משפט מחפשים רמז: מילת ניגוד (although, but) הופכת כיוון. מילת סיבה (because, so) ממשיכה את אותו כיוון. קראו את כל המשפט לפני שמסתכלים על התשובות, ונחשו מילה משלכם.",
+   "body_content": "although = ניגוד · because = סיבה · ; = הסבר",
+   "can_do": "למצוא רמז במשפט לפני שבוחרים מילה"
+  },
+  {
+   "id": "am_comp_p1",
+   "type": "practice",
+   "kind": "understanding",
+   "title": "תוצאות שחוזרות",
+   "body_he": "בחרו את המילה שמשלימה את המשפט.",
+   "body_content": "The researchers' findings were ______; further experiments produced almost identical results.",
+   "choices": [
+    {
+     "id": "a",
+     "label": "reproducible"
+    },
+    {
+     "id": "b",
+     "label": "contradictory",
+     "feedback": "סותרות לא מתאים: הניסויים הבאים נתנו אותן תוצאות."
+    },
+    {
+     "id": "c",
+     "label": "speculative",
+     "feedback": "השערה בלבד לא מתאים לתוצאות שחזרו שוב."
+    }
+   ],
+   "correct": "a",
+   "feedback_ok": "נכון. reproducible = אפשר לחזור עליהן ולקבל אותו דבר.",
+   "feedback_try": "החלק אחרי ה-; מסביר: ניסויים נוספים נתנו כמעט אותן תוצאות. לכן reproducible.",
+   "can_do": "להשלים מילה לפי הסבר במשפט",
+   "worked_method": "מצאו את ההסבר אחרי ה-;.\nהוא אומר שהתוצאות חזרו שוב.\nהמילה שמתאימה לתוצאות שחוזרות: reproducible.",
+   "hint": "מה קרה בניסויים הנוספים?"
+  },
+  {
+   "id": "am_comp_p2",
+   "type": "practice",
+   "kind": "understanding",
+   "title": "מילת ניגוד",
+   "body_he": "בחרו את המילה שמשלימה את המשפט.",
+   "body_content": "Although the bridge looked ______, engineers found serious cracks inside it.",
+   "choices": [
+    {
+     "id": "a",
+     "label": "solid"
+    },
+    {
+     "id": "b",
+     "label": "damaged",
+     "feedback": "although מסמנת ניגוד. אם הגשר נראה פגוע, אין ניגוד לסדקים."
+    },
+    {
+     "id": "c",
+     "label": "fragile",
+     "feedback": "fragile בכיוון של הסדקים, ו-although דורשת כיוון הפוך."
+    }
+   ],
+   "correct": "a",
+   "feedback_ok": "נכון. although מסמנת ניגוד: נראה יציב, אבל היו סדקים.",
+   "feedback_try": "although אומרת שהחלק הראשון הפוך לשני. בשני יש סדקים, לכן בראשון הגשר נראה solid.",
+   "can_do": "להשתמש במילת ניגוד כדי לבחור מילה",
+   "worked_method": "סמנו את מילת הקישור: although = ניגוד.\nהחלק השני: סדקים רציניים.\nההפך מזה: נראה יציב. התשובה: solid.",
+   "hint": "although מסמנת ניגוד בין שני חלקי המשפט."
+  },
+  {
+   "id": "am_comp_chk",
+   "type": "check",
+   "kind": "understanding",
+   "title": "מילת סיבה",
+   "body_he": "בחרו את המילה שמשלימה את המשפט.",
+   "body_content": "Because the instructions were so ______, almost every student completed the task without help.",
+   "choices": [
+    {
+     "id": "a",
+     "label": "clear"
+    },
+    {
+     "id": "b",
+     "label": "vague",
+     "feedback": "אם ההוראות לא ברורות, תלמידים היו צריכים עזרה."
+    },
+    {
+     "id": "c",
+     "label": "lengthy",
+     "feedback": "ארוכות לא מסבירות למה הצליחו בלי עזרה."
+    }
+   ],
+   "correct": "a",
+   "feedback_ok": "נכון. because מחברת סיבה ותוצאה: הוראות ברורות, ולכן הצליחו לבד.",
+   "feedback_try": "התוצאה: כמעט כולם הצליחו בלי עזרה. הסיבה שמתאימה: ההוראות היו clear.",
+   "can_do": "להשתמש במילת סיבה כדי לבחור מילה",
+   "worked_method": "מצאו את התוצאה: הצליחו בלי עזרה.\nשאלו: מה גורם לזה?\nהוראות ברורות. התשובה: clear.",
+   "hint": "because: החלק הראשון הוא הסיבה לחלק השני."
+  },
+  {
+   "id": "am_rest_learn",
+   "type": "learn",
+   "kind": "understanding",
+   "title": "אותה משמעות בדיוק",
+   "body_he": "בניסוח מחדש מחפשים משפט שאומר בדיוק את אותו הדבר. בודקים שלושה דברים: מי עושה מה, מה הכיוון (חיובי או שלילי), ומילים כמו only, not, all, some. תשובה שמוסיפה מידע או מחסירה חלק היא לא נכונה, גם אם היא נשמעת דומה.",
+   "body_content": "Same meaning: who, direction, only/not/all/some.",
+   "can_do": "לבדוק שתשובה שומרת את כל המשמעות"
+  },
+  {
+   "id": "am_rest_p1",
+   "type": "practice",
+   "kind": "understanding",
+   "title": "חיסכון ומורל",
+   "body_he": "איזה משפט אומר את אותו הדבר?",
+   "body_content": "Although the new policy reduced costs, it also lowered employee satisfaction.",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The policy cut expenses but damaged morale."
+    },
+    {
+     "id": "b",
+     "label": "Costs fell and satisfaction rose.",
+     "feedback": "במקור שביעות הרצון ירדה, לא עלתה."
+    },
+    {
+     "id": "c",
+     "label": "Satisfaction improved once costs were controlled.",
+     "feedback": "הכיוון הפוך: במקור שביעות הרצון ירדה."
+    }
+   ],
+   "correct": "a",
+   "feedback_ok": "נכון. שני החלקים נשמרו: העלויות ירדו, ושביעות הרצון ירדה.",
+   "feedback_try": "במקור יש שני חלקים: עלויות ירדו, ושביעות רצון ירדה. רק The policy cut expenses but damaged morale שומרת את שניהם.",
+   "can_do": "לבחור ניסוח ששומר שני חלקים",
+   "worked_method": "פרקו את המקור לשני חלקים: עלויות ירדו; שביעות רצון ירדה.\nבדקו כל תשובה מול שני החלקים.\nרק אחת שומרת את שניהם: The policy cut expenses but damaged morale.",
+   "hint": "בדקו מה קרה לשביעות הרצון במקור."
+  },
+  {
+   "id": "am_rest_chk",
+   "type": "check",
+   "kind": "understanding",
+   "title": "רק חלק",
+   "body_he": "איזה משפט אומר את אותו הדבר?",
+   "body_content": "Only a few of the volunteers had any previous experience.",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Most of the volunteers were new to this kind of work."
+    },
+    {
+     "id": "b",
+     "label": "None of the volunteers had experience.",
+     "feedback": "במקור היו כמה עם ניסיון, לא אף אחד."
+    },
+    {
+     "id": "c",
+     "label": "The volunteers were all experienced.",
+     "feedback": "only a few אומר שרובם בלי ניסיון."
+    }
+   ],
+   "correct": "a",
+   "feedback_ok": "נכון. only a few עם ניסיון = רובם חדשים.",
+   "feedback_try": "only a few = מעטים. אז רוב המתנדבים בלי ניסיון, וזה Most of the volunteers were new to this kind of work.",
+   "can_do": "לשמור כמות (only, all, none) בניסוח מחדש",
+   "worked_method": "סמנו את המילה only a few.\nמעטים עם ניסיון אומר שרובם בלי ניסיון.\nהתשובה: Most of the volunteers were new to this kind of work.",
+   "hint": "שימו לב ל-only a few: כמה זה?"
+  },
+  {
+   "id": "am_read_learn",
+   "type": "learn",
+   "kind": "understanding",
+   "title": "קטע קצר, שאלה אחת",
+   "body_he": "קראו קודם את השאלה, אחר כך את הקטע. בשאלת סיבה חפשו מה השתנה לפני התוצאה. התשובה חייבת להופיע בקטע או לנבוע ממנו ישירות.",
+   "body_content": "Question first, then the passage.",
+   "can_do": "לקרוא קטע מתוך השאלה"
+  },
+  {
+   "id": "am_read_p1",
+   "type": "practice",
+   "kind": "understanding",
+   "title": "האצות בעיר החוף",
+   "body_he": "מה מסביר הכי ישירות את הירידה באצות?",
+   "body_content": "A small coastal town began measuring water quality after residents reported unusual algae. Early tests showed elevated nutrient levels near the river mouth. Officials later discovered that a nearby farm had changed its fertilizer schedule. Within two seasons the algae decreased.",
+   "choices": [
+    {
+     "id": "a",
+     "label": "a change in farm practice"
+    },
+    {
+     "id": "b",
+     "label": "new measurement tools",
+     "feedback": "המדידות רק מצאו את הבעיה, לא פתרו אותה."
+    },
+    {
+     "id": "c",
+     "label": "colder weather",
+     "feedback": "מזג אוויר לא מוזכר בקטע."
+    }
+   ],
+   "correct": "a",
+   "feedback_ok": "נכון. החווה שינתה את הדישון, ואחרי שתי עונות האצות ירדו.",
+   "feedback_try": "בקטע, מה שהשתנה לפני הירידה הוא לוח הדישון של החווה. לכן a change in farm practice.",
+   "can_do": "למצוא סיבה בקטע קצר",
+   "worked_method": "חפשו בקטע מה השתנה.\nהדבר היחיד שהשתנה הוא הדישון בחווה.\nאחריו האצות ירדו. התשובה: a change in farm practice.",
+   "hint": "מה גילו הפקידים בסוף?"
+  },
+  {
+   "id": "am_read_chk",
+   "type": "check",
+   "kind": "understanding",
+   "title": "רעיון מרכזי",
+   "body_he": "מה הרעיון המרכזי של הקטע?",
+   "body_content": "Many people believe that multitasking saves time. However, studies of office workers suggest that switching between tasks often increases the total time needed and raises the number of errors. Focusing on one task at a time may therefore be more efficient.",
+   "choices": [
+    {
+     "id": "a",
+     "label": "Doing one task at a time may work better than multitasking."
+    },
+    {
+     "id": "b",
+     "label": "Office workers make more errors than other workers.",
+     "feedback": "הקטע לא משווה בין עובדי משרד לעובדים אחרים."
+    },
+    {
+     "id": "c",
+     "label": "Multitasking saves time for most people.",
+     "feedback": "זו האמונה שהקטע מערער, לא המסקנה שלו."
+    }
+   ],
+   "correct": "a",
+   "feedback_ok": "נכון. However מסמן את הטענה של הכותב, והמשפט האחרון מסכם אותה.",
+   "feedback_try": "אחרי However באה הטענה של הכותב, והמשפט האחרון מסכם: להתמקד במשימה אחת יעיל יותר.",
+   "can_do": "למצוא רעיון מרכזי בקטע",
+   "worked_method": "מצאו את However: אחריה בא מה שהכותב חושב.\nהמשפט האחרון מסכם את זה.\nהתשובה: Doing one task at a time may work better than multitasking.",
+   "hint": "מה בא אחרי However?"
+  },
+  {
+   "id": "am_mix_learn",
+   "type": "learn",
+   "kind": "understanding",
+   "title": "כמו במבחן",
+   "body_he": "במבחן אין הפסקות, וחוזרים אחורה רק בתוך אותו פרק. תשובה חסרה נספרת כטעות, לכן עדיף לנחש מאשר להשאיר ריק. המבחן מסתגל, וכאן לא משחזרים את זה. כאן מתרגלים ערבוב של שלושת הסוגים.",
+   "body_content": "No blanks: a missing answer counts as wrong.",
+   "can_do": "לדעת את כללי הזמן והניחוש"
+  },
+  {
+   "id": "am_mix_r1",
+   "type": "practice",
+   "kind": "review",
+   "title": "חזרה: השלמה",
+   "body_he": "בחרו את המילה שמשלימה את המשפט.",
+   "body_content": "The museum's new exhibit was so ______ that visitors waited in line for hours.",
+   "choices": [
+    {
+     "id": "a",
+     "label": "popular"
+    },
+    {
+     "id": "b",
+     "label": "obscure",
+     "feedback": "אם התערוכה לא מוכרת, לא היו תורים ארוכים."
+    },
+    {
+     "id": "c",
+     "label": "brief",
+     "feedback": "קצרה לא מסבירה למה חיכו שעות."
+    }
+   ],
+   "correct": "a",
+   "feedback_ok": "נכון. so ... that: פופולרית, ולכן התורים.",
+   "feedback_try": "so ... that מחבר סיבה לתוצאה. התוצאה היא תורים ארוכים, לכן popular.",
+   "can_do": "להשלים משפט בתרגול מעורב",
+   "worked_method": "מצאו את התוצאה אחרי that: חיכו שעות.\nמה גורם לזה? תערוכה מבוקשת.\nהתשובה: popular.",
+   "hint": "so ... that: מה גרם לתורים?",
+   "review_topic_ids": [
+    "t_complete"
+   ]
+  },
+  {
+   "id": "am_mix_r2",
+   "type": "check",
+   "kind": "review",
+   "title": "חזרה: ניסוח מחדש",
+   "body_he": "איזה משפט אומר את אותו הדבר?",
+   "body_content": "The report was not published until the errors had been corrected.",
+   "choices": [
+    {
+     "id": "a",
+     "label": "The report came out only after the errors were fixed."
+    },
+    {
+     "id": "b",
+     "label": "The report was published with several errors.",
+     "feedback": "במקור תיקנו את הטעויות לפני הפרסום."
+    },
+    {
+     "id": "c",
+     "label": "The errors were found after the report came out.",
+     "feedback": "הסדר הפוך: התיקון היה לפני הפרסום."
+    }
+   ],
+   "correct": "a",
+   "feedback_ok": "נכון. not ... until = רק אחרי.",
+   "feedback_try": "not ... until אומר שהפרסום בא רק אחרי התיקון. זה The report came out only after the errors were fixed.",
+   "can_do": "לשמור סדר זמנים בניסוח מחדש",
+   "worked_method": "סמנו not ... until: זה אומר רק אחרי.\nקודם תיקון, אחר כך פרסום.\nהתשובה: The report came out only after the errors were fixed.",
+   "hint": "not ... until: מה קרה קודם?",
+   "review_topic_ids": [
+    "t_restate"
+   ]
+  },
+  {
+   "id": "am_celebrate",
+   "type": "celebrate",
+   "kind": "understanding",
+   "title": "סיום דרך",
+   "body_he": "סיימתם את דרך הפתיחה לאמירנט. בדקו באתר של המוסד שלכם איזה ציון צריך לפטור או לשיבוץ.",
+   "body_content": "AMIRNET starter road done.",
+   "can_do": "לגשת לתרגול אמירנט עם שלושת סוגי השאלות"
+  }
+ ]
+}
