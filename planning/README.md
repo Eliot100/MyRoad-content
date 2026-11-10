@@ -42,8 +42,11 @@ and computer-science theoretical-path bagrut from zero (after MoE pages
 returned HTTP 200; CS unit 5 vs unit 3 options are distinguished in the outline).
 
 Batch 2026-11-09 added: civics bagrut from zero, history bagrut from zero,
-and psychometric English / AMIRNET (English leaves the PET score from the
-December 2026 sitting; see the review notes in the outline).
+and a first English / AMIRNET outline.
+
+Batch 2026-11-10: Eliot decided English leaves the psychometric road.
+That outline was renamed to [amirnet-english-placement.md](./amirnet-english-placement.md)
+(university placement and exemption, not a PET ~800 goal).
 
 ## Bot note
 

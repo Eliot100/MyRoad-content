@@ -16,6 +16,7 @@
 Hebrew labels: חשיבה מילולית · מטלת כתיבה · אנלוגיות · הבנה והסקה · הבנת הנקרא · פסיכומטרי.
 
 Companion planning doc: [psychometric-quant-toward-800.md](./psychometric-quant-toward-800.md).
+English is not part of this psychometric road from December 2026 (Eliot, 2026-11-10). English placement and exemption work lives in [amirnet-english-placement.md](./amirnet-english-placement.md).
 
 ## 2. Verified public sources (NITE)
 

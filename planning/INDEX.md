@@ -7,19 +7,23 @@
 | Physics 5-unit bagrut from zero | [physics-bagrut5-from-zero.md](./physics-bagrut5-from-zero.md) | Physics / פיזיקה | 5 יח"ל bagrut | planning |
 | Psychometric quantitative toward ~800 | [psychometric-quant-toward-800.md](./psychometric-quant-toward-800.md) | Psychometric / פסיכומטרי (quant) | Strong quantitative contribution toward general score ~800 | planning |
 | Psychometric verbal (Hebrew) toward ~800 | [psychometric-verbal-hebrew-toward-800.md](./psychometric-verbal-hebrew-toward-800.md) | Psychometric / פסיכומטרי (verbal Hebrew) | Strong verbal contribution toward general score ~800 | planning |
-| Math 5-unit bagrut from zero (adults) | [math-bagrut5-from-zero.md](./math-bagrut5-from-zero.md) | Math / מתמטיקה | 5 יח"ל bagrut (distinct from 3-unit & zero-to-equation; planning only — see also open content PR #45) | planning |
+| Math 5-unit bagrut from zero (adults) | [math-bagrut5-from-zero.md](./math-bagrut5-from-zero.md) | Math / מתמטיקה | 5 יח"ל bagrut (distinct from 3-unit & zero-to-equation; planning only — content JSON landed on main in PR #45) | planning |
 | YAEL Hebrew from zero | [yael-hebrew-from-zero.md](./yael-hebrew-from-zero.md) | YAEL / יע״ל Hebrew proficiency | NITE YAEL readiness (50–150 scale) | planning |
 | Chemistry 5-unit bagrut from zero | [chemistry-bagrut5-from-zero.md](./chemistry-bagrut5-from-zero.md) | Chemistry / כימיה | 5 יח"ל bagrut | planning |
 | Biology 5-unit bagrut from zero | [biology-bagrut5-from-zero.md](./biology-bagrut5-from-zero.md) | Biology / ביולוגיה | 5 יח"ל bagrut | planning |
 | Computer Science bagrut from zero (theoretical path) | [computer-science-bagrut-from-zero.md](./computer-science-bagrut-from-zero.md) | Computer Science / מדעי המחשב | 5 יח"ל theoretical path | planning |
 | Civics (אזרחות) bagrut from zero | [civics-bagrut-from-zero.md](./civics-bagrut-from-zero.md) | Civics / אזרחות | 2 יח"ל bagrut (adult externals: questionnaires 34281 + 34282 per MoE circular) | planning |
 | History bagrut from zero | [history-bagrut-from-zero.md](./history-bagrut-from-zero.md) | History / היסטוריה | Bagrut core (WWII, Holocaust, Yishuv to State); units and codes unverified | planning |
-| Psychometric English / AMIRNET (toward ~800 framing) | [psychometric-english-toward-800.md](./psychometric-english-toward-800.md) | English / אנגלית (AMIRNET) | English placement/exemption (from Dec 2026 English is outside the PET score) | planning |
+| AMIRNET English placement and exemption | [amirnet-english-placement.md](./amirnet-english-placement.md) | English / אנגלית (AMIRNET) | University English placement and exemption (not part of the PET score from Dec 2026) | planning |
 
+
+### 2026-11-10 update
+
+Eliot decided (2026-11-10) that English leaves the psychometric road. The planning doc was renamed from `psychometric-english-toward-800.md` to [amirnet-english-placement.md](./amirnet-english-placement.md). The target is university English placement and exemption via AMIRNET, not a contribution to the PET ~800 score. Official NITE URLs are cited in the outline.
 
 ### 2026-11-09 batch
 
-Added Civics, History and Psychometric English / AMIRNET outlines (SuperGrok Expert draft, reviewed by a bot). Civics questionnaire codes were corrected from the MoE circular (adult externals: `34281` 80% + `34282` 20%). History is thin: only the MoE introduction page was confirmed. Psychometric English note: from the December 2026 sitting NITE tests English only in AMIRNET, outside the two-domain PET score, so the target framing needs Eliot's decision.
+Added Civics, History and Psychometric English / AMIRNET outlines (SuperGrok Expert draft, reviewed by a bot). Civics questionnaire codes were corrected from the MoE circular (adult externals: `34281` 80% + `34282` 20%). History is thin: only the MoE introduction page was confirmed. The 2026-11-09 English framing question was resolved on 2026-11-10 (see the update above).
 
 ### 2026-11-08 batch
 

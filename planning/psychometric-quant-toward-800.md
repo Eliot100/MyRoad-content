@@ -32,7 +32,7 @@ Checked with `curl` (HTTP 200) on 2026-11-06 (Asia/Jerusalem):
 ### Important format note (do not blur)
 
 - **Two-domain PET (Dec 2026 onwards):** Verbal + Quantitative; general score 200–800 with the weightings above.
-- **Older three-area materials** (Verbal, Quantitative, English) still exist on the web and in PDFs. Planning for new adult learners should **default to the two-domain structure** and treat English-as-third-area as legacy unless the learner sits an administration that still uses it.
+- **Older three-area materials** (Verbal, Quantitative, English) still exist on the web and in PDFs. Planning for new adult learners should **default to the two-domain structure**. English is no longer part of this psychometric road (Eliot, 2026-11-10): English work lives in [amirnet-english-placement.md](./amirnet-english-placement.md).
 - **Unverified here:** exact question counts per MC section for every language/version (NITE says counts/times may differ and will be published before administrations). Do not invent a fixed “20 questions” as a hard fact for all versions without a specific NITE citation for that version.
 
 **About “800”:** 800 is the **top of NITE’s published general score scale**. This doc does **not** claim a percentile, admission cutoff, or required raw correct-count for 800 — those figures were **not** verified in this pass. Label any future cutoff claims with a dated NITE/university source or mark **unverified**.
