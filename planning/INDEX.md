@@ -18,7 +18,14 @@
 | Hebrew lashon (עברית: הבנה, הבעה ולשון) bagrut from zero | [hebrew-lashon-bagrut-from-zero.md](./hebrew-lashon-bagrut-from-zero.md) | Hebrew / עברית (לשון והבעה) | 70% paper 11281 + externals' 30% written paper (11282 unverified) | planning |
 | Literature (ספרות) bagrut from zero | [literature-bagrut-from-zero.md](./literature-bagrut-from-zero.md) | Literature / ספרות | 2 יח"ל, old-outline 70% external (externals' questionnaire code unverified) | planning |
 | Math 4-to-5 unit upgrade (adults) | [math-bagrut-4-to-5-upgrade.md](./math-bagrut-4-to-5-upgrade.md) | Math / מתמטיקה | Delta from 4 to 5 יח"ל (35571 + 35572); reuses `path_math_bagrut5_*` roads | planning |
+| Math 3 units (מתמטיקה 3 יח"ל) bagrut from zero (P15) | [math-bagrut3-from-zero.md](./math-bagrut3-from-zero.md) | Math / מתמטיקה | 3 יח"ל, new program: 35172 + 35371 + 35372 (weights and durations unverified) | planning |
+| Economics (כלכלה) bagrut from zero (P16) | [economics-bagrut-from-zero.md](./economics-bagrut-from-zero.md) | Economics / כלכלה | 2 יח"ל inside the 5-unit social-sciences cluster; paper 063281 (code, structure and 70% weight unverified); not מינהל וכלכלה | planning |
+| Sociology (סוציולוגיה) bagrut from zero (P17) | [sociology-bagrut-from-zero.md](./sociology-bagrut-from-zero.md) | Sociology / סוציולוגיה | 2 יח"ל inside the 5-unit social-sciences cluster; paper 065261 + internal 065273 (codes and structure unverified) | planning |
 
+
+### 2026-11-11 batch (overnight, math 3 / economics / sociology)
+
+Added math 3 units (P15), economics (P16) and sociology (P17) outlines from a SuperGrok Expert draft (chat bdc5a8ed), cleaned and split by a bot on 2026-11-11. The bot did not re-check the MoE pages in this run, so every exam fact below is unverified until a fact-check pass. Unverified: the weights and durations of math papers 35371 / 35372 (the draft itself says only that they exist), the 35172 figures, economics paper 063281 and its structure, sociology papers 065261 / 065273 and their structure, the 70% external weight for both social-science subjects, and all hour estimates. P12–P14 are used by the Tanakh / geography / English 3–4 batch (PR #57, not yet merged).
 
 ### 2026-11-10 batch (leftover)
 
