@@ -40,7 +40,7 @@ Checked with `curl` (HTTP 200) on 2026-11-07 (Asia/Jerusalem):
 
 ### Exam topic scaffold (from MoE new-curriculum page text — reconcile with grade PDF packs before JSON)
 
-**שאלון 35571 (60%):** short compulsory items; probability / sequences & induction; plane geometry & trigonometry; calculus (חדו״א).
+**שאלון 35571 (60%):** short items; probability / sequences & induction; plane geometry & trigonometry; calculus (חדו״א). Regular structure: ch. 1 compulsory, answer 3 of 4; ch. 2 1 of 2; ch. 3 1 of 2; ch. 4 2 of 3; 20 pts each ([source](https://pop.education.gov.il/tchumey_daat/matmatika/chativa-elyona/teaching-mathematics/new-curriculum/)). Summer 2026 papers used eased rules: answer **2 of 4** short items, 5 questions total (moed א: at least one from ch. 1 or 2, one each from ch. 3 and 4) ([source](https://meyda.education.gov.il/sheeloney_bagrut/2026/6/HEB/35571.pdf)). Build simulation rules per exam year.
 
 **שאלון 35572 (40%):** analytic geometry & vectors (incl. space trig); complex numbers; calculus of exponential & logarithmic functions.
 

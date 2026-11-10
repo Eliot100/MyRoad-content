@@ -153,7 +153,7 @@ Honest empty state until real answers exist.
 
 ## 9. Next steps (when leaving planning)
 
-1. Confirm Hebrew two-domain writing **time + minimum length** from current NITE Hebrew examinee materials (PDF vs format-page reconciliation).
+1. Confirm Hebrew two-domain writing **minimum length** from current NITE Hebrew examinee materials (fact check 2026-11-11: unverified); 30 min for Hebrew is confirmed.
 2. Decide path id series, e.g. `path_psych_verbal_he_01_…`.
 3. Build generators for original analogy/inference distractors; store exemplars in DB per product decision.
 4. Author JSON under `adult/` only after schema gaps are agreed — **never** under `planning/`.

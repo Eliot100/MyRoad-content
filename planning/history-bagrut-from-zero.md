@@ -4,7 +4,7 @@ pathId: history-bagrut-from-zero-adult
 title: History Bagrut from Zero — Adult (Israeli / general)
 learner: Adult Israeli learners completing bagrut.
 start: Near zero formal high-school history.
-target: Standard bagrut history (typically 2–3 units; 70% external on core topics).
+target: Standard bagrut history: core history is **2 units** (70% external on core topics); the optional מורחב extension adds a 3rd unit (022382 externals / 022383 internals) and units 4–5 (022381), for 5 in total ([source](https://pop.education.gov.il/tchumey_daat/historya/chativa-elyona/pedagogia-historia/bhinot-bagrut-halofot-haraha/)).
 originality: Original sample items only.
 ---
 
@@ -22,8 +22,8 @@ originality: Original sample items only.
 
 ## Public sources checked
 - MoE history introduction: [https://pop.education.gov.il/learning-plans/history/high-school/introduction/](https://pop.education.gov.il/learning-plans/history/high-school/introduction/) (partial retrieval)
-- Related pages on pop.education.gov.il for high-school history structure (70% mandatory base for bagrut, 30% school choice).
-- **Unverified / gap**: Full current official syllabus PDF with exact topic list, hour counts, and questionnaire symbols not successfully extracted as complete public document returning full detail in this run. Outline uses only publicly described core themes (antisemitism, WWII, totalitarianism, Holocaust, from Yishuv to State of Israel). Thin stages; Content must verify against latest MoE materials before building.
+- Related pages on pop.education.gov.il for high-school history structure. Internals: 70% exam + 30% alternative assessment on one of two topics (the Yishuv 1920–1945, or Israel 1977–1995). **Externals/re-takers sit two exams: 022261 (70%, partly open-book) + 22262 (30%, a written exam, not a school task)**; new-immigrant externals 022264 + 022252. 022281/022282 are the old program (last sat תשפ"א) ([source](https://pop.education.gov.il/tchumey_daat/historya/chativa-elyona/pedagogia-historia/bhinot-bagrut-halofot-haraha/) ; [source](https://pop.education.gov.il/tchumey_daat/historya/chativa-elyona/pedagogia-historia/bagrut/)).
+- **Unverified / gap** (fact check 2026-11-11: unverified): Full current official syllabus PDF with exact topic list and hour counts not extracted. Outline uses publicly described core themes (antisemitism, WWII, totalitarianism, Holocaust, from Yishuv to State of Israel); the 2025 22261 focusing list also names nationalism and Zionism to 1920 and issues in the history of the State of Israel ([source](https://meyda.education.gov.il/files/portal_talmidim/mikud/2025/history-klali-2025.pdf)). Re-check against the תשפ"ז focusing list before building content. Thin stages.
 
 ## Stages (estimate hours; label as estimate)
 
@@ -79,7 +79,7 @@ originality: Original sample items only.
 
 ## Review notes (bot review, 2026-11-09)
 
-- **Thin sources.** Only the MoE history introduction page was confirmed (HTTP 200, 2026-11-09). The "70% mandatory / 30% school choice" split, the "2–3 units" target, questionnaire codes and the exact core-topic list are **unverified**. Reconcile them with the current MoE history syllabus and the external-examinee (אקסטרני) exam pattern before any content JSON.
+- **Thin sources.** Settled by the 2026-11-11 fact check: core history = **2 units**; externals sit **022261 (70%) + 22262 (30%)** as exams ([source](https://pop.education.gov.il/tchumey_daat/historya/chativa-elyona/pedagogia-historia/bhinot-bagrut-halofot-haraha/)). Still **unverified** (fact check 2026-11-11): the exact core-topic list. Reconcile it with the current MoE history syllabus and the תשפ"ז focusing list before any content JSON.
 - **Unverified:** all stage hour figures are estimates.
 - **Possible schema gap:** source-analysis items may need an item type of their own later. This is noted only and not proposed here.
 - **Originality check:** sample items grepped against MyRoad-content and MyRoad (no matches).

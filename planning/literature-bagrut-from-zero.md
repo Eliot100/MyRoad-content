@@ -4,7 +4,7 @@ pathId: literature-bagrut-from-zero-adult
 title: ספרות (Literature) Bagrut from Zero — Adult
 learner: Adult Israeli learner completing the compulsory 2-unit literature bagrut (state track, ממלכתי).
 start: Reads Hebrew fiction for pleasure at most; no formal literary analysis since school.
-target: Readiness for the 2-unit external literature exam (old outline, 70% external). Questionnaire codes for adult externals are unverified (see section 2).
+target: Readiness for the 2-unit external literature exam (old outline, 70% external): questionnaire **8281** (8284 for new immigrants); summer 2026: 2.5 h, answer 3 of 4 chapters (short story, drama, novel/novella, poetry; 33⅓ pts each); externals are given a list of works ([source](https://meyda.education.gov.il/sheeloney_bagrut/2026/6/HEB/8281.pdf)).
 originality: All sample items and micro-texts original. Never reproduce set poems or stories; link to licensed editions instead.
 ---
 
@@ -149,7 +149,7 @@ Micro-texts below were written for this doc.
 
 ## 11. Next steps
 
-1. Confirm external-examinee outline, questionnaire code and answer rules with אגף הבחינות.
+1. Confirm the externals' list of works and answer rules for the sitting year with אגף הבחינות (code 8281 settled, see target).
 2. Extract the cluster ב and ז poem lists and the short-story / novel / drama work lists.
 3. Check licensing for each set work; plan reference-only tiles.
 4. Hand schema gaps to the format owner.
