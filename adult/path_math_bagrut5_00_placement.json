@@ -1,0 +1,454 @@
+{
+  "id": "path_math_bagrut5_00_placement",
+  "titles": {
+    "he": "מבדק פתיחה",
+    "en": "Opening check",
+    "ar": "فحص البداية"
+  },
+  "blurbs": {
+    "he": "שער הכניסה לשרשרת. שאלה קצרה מכל תחום, כדי לראות מה כבר ביד. הסיום פותח את האלגברה, לא את הבחינה.",
+    "en": "The gate into the chain. One short item from each area. Finishing it opens algebra, not the exam.",
+    "ar": "بوابة السلسلة. سؤال قصير من كل مجال. الإنهاء يفتح الجبر لا الفحص الختامي."
+  },
+  "subject": "math",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "🧪",
+  "explain_locale": "he",
+  "content_locale": "he",
+  "estimated_minutes": 52,
+  "prerequisite_path_ids": [],
+  "topics": [
+    {
+      "id": "plc_items",
+      "titles": {
+        "he": "מבדק פתיחה",
+        "en": "Opening check",
+        "ar": "فحص البداية"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "plc_learn",
+        "plc_algebra",
+        "plc_geometry",
+        "plc_trig",
+        "plc_sequences",
+        "plc_probability",
+        "plc_calculus",
+        "plc_extrema",
+        "plc_integrals",
+        "plc_analytic",
+        "plc_vectors",
+        "plc_complex",
+        "plc_growth"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "plc_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "איך עונים במבדק",
+      "body_he": "זה מבדק פתיחה, לא ציון. ענו על מה שאתם יודעים. טעות לא סוגרת את הדרך. אחרי המבדק נפתחת האלגברה, וכל שלב נפתח רק אחרי השלב שלפניו. הבחינה נפתחת רק בסוף. בכל שאלה יש תשובה אחת נכונה. אם אינכם בטוחים, בחרו את האפשרות הסבירה והמשיכו.",
+      "can_do": "אפשר להתחיל את המבדק בלי לנחש את כל 5 היחידות מראש."
+    },
+    {
+      "id": "plc_algebra",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מבדק, משוואה",
+      "body_he": "פתרו. 7x + 1 = 15. מהו x?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "3"
+        }
+      ],
+      "correct": "a",
+      "hint": "העבירו את המספר החופשי, ואז חלקו במקדם של x.",
+      "worked_method": "מעבירים 1: 7x = 14. מחלקים ב 7. x = 2. בדיקה: 7 כפול 2 ועוד 1 שווה 15.",
+      "can_do": "אפשר לפתור משוואה לינארית עם מספרים אחרים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "העבירו את המספר החופשי, ואז חלקו במקדם של x.",
+      "area": "algebra",
+      "difficulty": -1.2
+    },
+    {
+      "id": "plc_geometry",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מבדק, זווית",
+      "body_he": "במשולש שתי זוויות הן 35 מעלות ו 65 מעלות. מה הזווית השלישית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "100"
+        },
+        {
+          "id": "b",
+          "label": "80"
+        },
+        {
+          "id": "c",
+          "label": "90"
+        },
+        {
+          "id": "d",
+          "label": "145"
+        }
+      ],
+      "correct": "b",
+      "hint": "סכום הזוויות במשולש הוא 180 מעלות.",
+      "worked_method": "35 ועוד 65 הם 100. 180 פחות 100 הם 80.",
+      "can_do": "אפשר להשלים זווית שלישית במשולש.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "סכום הזוויות במשולש הוא 180 מעלות.",
+      "area": "geometry",
+      "difficulty": -0.8
+    },
+    {
+      "id": "plc_trig",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מבדק, סינוס",
+      "body_he": "במשולש ישר זווית הניצב שמול הזווית הוא 5, והניצב לידה הוא 12. מה הסינוס של הזווית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5/13"
+        },
+        {
+          "id": "b",
+          "label": "5/12"
+        },
+        {
+          "id": "c",
+          "label": "13/5"
+        },
+        {
+          "id": "d",
+          "label": "12/13"
+        }
+      ],
+      "correct": "a",
+      "hint": "סינוס הוא הניצב שמול הזווית, חלקי היתר.",
+      "worked_method": "היתר הוא 13, לפי פיתגורס. הסינוס הוא 5/13, ומצמצמים ל 5/13.",
+      "can_do": "אפשר לקרוא סינוס מצלעות של משולש ישר זווית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "סינוס הוא הניצב שמול הזווית, חלקי היתר.",
+      "area": "trig",
+      "difficulty": -0.2
+    },
+    {
+      "id": "plc_sequences",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מבדק, סדרה",
+      "body_he": "בסדרה חשבונית האיבר הראשון 4 וההפרש 3. מה האיבר במקום 5?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "15"
+        },
+        {
+          "id": "b",
+          "label": "16"
+        },
+        {
+          "id": "c",
+          "label": "17"
+        },
+        {
+          "id": "d",
+          "label": "18"
+        }
+      ],
+      "correct": "b",
+      "hint": "עד המקום n יש n-1 צעדים, לא n.",
+      "worked_method": "4 ועוד 4 פעמים 3 שווה 16.",
+      "can_do": "אפשר למצוא איבר כללי בסדרה חשבונית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "עד המקום n יש n-1 צעדים, לא n.",
+      "area": "sequences",
+      "difficulty": -0.6
+    },
+    {
+      "id": "plc_probability",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מבדק, קוביות",
+      "body_he": "מטילים שתי קוביות הוגנות. מה ההסתברות שסכום התוצאות הוא 2?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/12"
+        },
+        {
+          "id": "b",
+          "label": "2/36"
+        },
+        {
+          "id": "c",
+          "label": "1/6"
+        },
+        {
+          "id": "d",
+          "label": "1/36"
+        }
+      ],
+      "correct": "d",
+      "hint": "יש 36 תוצאות שוות סיכוי. סופרים כמה זוגות נותנים את הסכום.",
+      "worked_method": "יש 1 זוגות מתוך 36. אחרי צמצום: 1/36.",
+      "can_do": "אפשר לחשב הסתברות של סכום שתי קוביות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "יש 36 תוצאות שוות סיכוי. סופרים כמה זוגות נותנים את הסכום.",
+      "area": "probability",
+      "difficulty": -1.0
+    },
+    {
+      "id": "plc_calculus",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מבדק, נגזרת",
+      "body_he": "לפונקציה 2x^2 + 3x, מה ערך הנגזרת ב x = 1?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "7"
+        },
+        {
+          "id": "d",
+          "label": "9"
+        }
+      ],
+      "correct": "c",
+      "hint": "גוזרים איבר איבר, ורק אחר כך מציבים.",
+      "worked_method": "הנגזרת היא 4x + 3. ב x = 1 מתקבל 7.",
+      "can_do": "אפשר לגזור פולינום ולהציב בנקודה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "גוזרים איבר איבר, ורק אחר כך מציבים.",
+      "area": "calculus",
+      "difficulty": 0.4
+    },
+    {
+      "id": "plc_extrema",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מבדק, קודקוד",
+      "body_he": "לפרבולה y = x^2 - 8x + 7, באיזה x יש נקודת קיצון?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        },
+        {
+          "id": "d",
+          "label": "5"
+        }
+      ],
+      "correct": "a",
+      "hint": "בפרבולה הנגזרת מתאפסת ב x = -b חלקי 2a.",
+      "worked_method": "הנגזרת היא 2x - 8. היא אפס כאשר x = 4. הערך שם הוא -9.",
+      "can_do": "אפשר למצוא את מקום הקודקוד של פרבולה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "בפרבולה הנגזרת מתאפסת ב x = -b חלקי 2a.",
+      "area": "extrema",
+      "difficulty": 0.9
+    },
+    {
+      "id": "plc_integrals",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מבדק, אינטגרל",
+      "body_he": "חשבו את האינטגרל המסוים של 3x^2 מ 1 עד 2.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "9"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        },
+        {
+          "id": "d",
+          "label": "8"
+        }
+      ],
+      "correct": "a",
+      "hint": "מוצאים פונקציה קדומה, מציבים את הגבול העליון ואת התחתון, ומחסרים.",
+      "worked_method": "הקדומה היא 3/3 x^3. 8 פחות 1 שווה 7.",
+      "can_do": "אפשר לחשב אינטגרל מסוים של חזקה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מוצאים פונקציה קדומה, מציבים את הגבול העליון ואת התחתון, ומחסרים.",
+      "area": "integrals",
+      "difficulty": 0.7
+    },
+    {
+      "id": "plc_analytic",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מבדק, מרחק",
+      "body_he": "מה המרחק בין (0, 0) ל (6, 8)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "12"
+        },
+        {
+          "id": "b",
+          "label": "10"
+        },
+        {
+          "id": "c",
+          "label": "11"
+        },
+        {
+          "id": "d",
+          "label": "9"
+        }
+      ],
+      "correct": "b",
+      "hint": "שורש של ריבוע הפרש x ועוד ריבוע הפרש y.",
+      "worked_method": "(6) בריבוע ועוד (8) בריבוע הם 100. השורש הוא 10.",
+      "can_do": "אפשר לחשב מרחק בין שתי נקודות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שורש של ריבוע הפרש x ועוד ריבוע הפרש y.",
+      "area": "analytic",
+      "difficulty": 0.3
+    },
+    {
+      "id": "plc_vectors",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מבדק, סקלרית",
+      "body_he": "מה המכפלה הסקלרית של (2, 3) ו (4, -1)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "5"
+        }
+      ],
+      "correct": "d",
+      "hint": "כופלים רכיב ברכיב ומחברים.",
+      "worked_method": "2 כפול 4 ועוד 3 כפול -1 שווה 5.",
+      "can_do": "אפשר לחשב מכפלה סקלרית במישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים רכיב ברכיב ומחברים.",
+      "area": "vectors",
+      "difficulty": 0.6
+    },
+    {
+      "id": "plc_complex",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מבדק, מרוכב",
+      "body_he": "חשבו את (1 + 2i)(1 + -2i).",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5 + -2i"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "-3 + 0i"
+        },
+        {
+          "id": "d",
+          "label": "2 + 0i"
+        }
+      ],
+      "correct": "b",
+      "hint": "i בריבוע הוא 1-. כופלים כמו בינום.",
+      "worked_method": "החלק הממשי הוא 1·1 - 2·-2 = 5. החלק המדומה הוא 1·-2 + 2·1 = 0.",
+      "can_do": "אפשר לכפול שני מספרים מרוכבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i בריבוע הוא 1-. כופלים כמו בינום.",
+      "area": "complex",
+      "difficulty": 0.8
+    },
+    {
+      "id": "plc_growth",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מבדק, לוג",
+      "body_he": "מהו log2 של 64?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "6"
+        }
+      ],
+      "correct": "d",
+      "hint": "באיזו חזקה מעלים את 2 כדי לקבל את המספר.",
+      "worked_method": "2 בחזקת 6 שווה 64, לכן הלוג הוא 6.",
+      "can_do": "אפשר לחשב לוג לפי בסיס 2 של חזקה של 2.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "באיזו חזקה מעלים את 2 כדי לקבל את המספר.",
+      "area": "growth",
+      "difficulty": 0.5
+    }
+  ]
+}

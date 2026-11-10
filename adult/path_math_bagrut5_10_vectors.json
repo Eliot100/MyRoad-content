@@ -1,0 +1,1761 @@
+{
+  "id": "path_math_bagrut5_10_vectors",
+  "titles": {
+    "he": "וקטורים וטריגונומטריה במרחב",
+    "en": "Vectors and space",
+    "ar": "المتجهات"
+  },
+  "blurbs": {
+    "he": "רכיבים, אורך, מכפלה סקלרית, זווית, ישר פרמטרי, נורמל ומכפלה וקטורית של הבסיס.",
+    "en": "Components, length, dot product, angle, a parametric line, a normal, and a basic cross product.",
+    "ar": "متجهات."
+  },
+  "subject": "math",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "→",
+  "explain_locale": "he",
+  "content_locale": "he",
+  "estimated_minutes": 216,
+  "prerequisite_path_ids": [
+    "path_math_bagrut5_09_analytic"
+  ],
+  "topics": [
+    {
+      "id": "vec_l1",
+      "titles": {
+        "he": "רמה 1, בסיס",
+        "en": "Level 1, basics",
+        "ar": "المستوى 1"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "vec_l1_learn",
+        "vec_l1_p1",
+        "vec_l1_p2",
+        "vec_l1_p3",
+        "vec_l1_p4",
+        "vec_l1_p5",
+        "vec_l1_p6",
+        "vec_l1_p7",
+        "vec_l1_p8",
+        "vec_l1_p9",
+        "vec_l1_p10",
+        "vec_l1_p11",
+        "vec_l1_p12",
+        "vec_l1_p13",
+        "vec_l1_p14",
+        "vec_l1_check"
+      ]
+    },
+    {
+      "id": "vec_l2",
+      "titles": {
+        "he": "רמה 2, יישום",
+        "en": "Level 2, application",
+        "ar": "المستوى 2"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "vec_l2_learn",
+        "vec_l2_p1",
+        "vec_l2_p2",
+        "vec_l2_p3",
+        "vec_l2_p4",
+        "vec_l2_p5",
+        "vec_l2_p6",
+        "vec_l2_p7",
+        "vec_l2_p8",
+        "vec_l2_p9",
+        "vec_l2_p10",
+        "vec_l2_p11",
+        "vec_l2_p12",
+        "vec_l2_p13",
+        "vec_l2_p14",
+        "vec_l2_check"
+      ]
+    },
+    {
+      "id": "vec_l3",
+      "titles": {
+        "he": "רמה 3, שליטה",
+        "en": "Level 3, mastery",
+        "ar": "المستوى 3"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "vec_l3_learn",
+        "vec_l3_p1",
+        "vec_l3_p2",
+        "vec_l3_p3",
+        "vec_l3_p4",
+        "vec_l3_p5",
+        "vec_l3_p6",
+        "vec_l3_p7",
+        "vec_l3_p8",
+        "vec_l3_p9",
+        "vec_l3_p10",
+        "vec_l3_p11",
+        "vec_l3_p12",
+        "vec_l3_p13",
+        "vec_l3_p14",
+        "vec_l3_check"
+      ]
+    },
+    {
+      "id": "vec_review",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review",
+        "ar": "مراجعة مختلطة"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "vec_rev_1",
+        "vec_rev_2",
+        "vec_rev_3",
+        "vec_rev_4",
+        "vec_rev_5",
+        "vec_rev_6"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "vec_l1_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "רכיבים",
+      "body_he": "וקטור במישור אפשר לכתוב כזוג (x, y). חיבור וחיסור הם לפי רכיב. כפל בסקלר כופל כל רכיב. האורך הוא שורש סכום הריבועים. מכפלה סקלרית היא מספר: x1x2 + y1y2. אם היא אפס והווקטורים אינם אפס, הם מאונכים. וקטור נגדי הופך את כל הסימנים. שני וקטורים מקבילים אם אחד הוא כפל של השני בסקלר.",
+      "can_do": "אפשר לחבר וקטורים, למדוד אורך, ולחשב מכפלה סקלרית."
+    },
+    {
+      "id": "vec_l1_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חיבור",
+      "body_he": "מה (1, 2) + (3, -1)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(-2, 3)"
+        },
+        {
+          "id": "b",
+          "label": "(4, 3)"
+        },
+        {
+          "id": "c",
+          "label": "(4, 1)"
+        },
+        {
+          "id": "d",
+          "label": "(3, 2)"
+        }
+      ],
+      "correct": "c",
+      "hint": "מחברים רכיב רכיב.",
+      "worked_method": "1+3=4, 2+(-1)=1.",
+      "can_do": "אפשר לחבר וקטורים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מחברים רכיב רכיב."
+    },
+    {
+      "id": "vec_l1_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חיסור",
+      "body_he": "מה (5, 1) - (2, 4)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(3, 3)"
+        },
+        {
+          "id": "b",
+          "label": "(7, 5)"
+        },
+        {
+          "id": "c",
+          "label": "(3, -5)"
+        },
+        {
+          "id": "d",
+          "label": "(3, -3)"
+        }
+      ],
+      "correct": "d",
+      "hint": "מחסרים רכיב רכיב.",
+      "worked_method": "5-2=3, 1-4=-3.",
+      "can_do": "אפשר לחסר וקטורים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מחסרים רכיב רכיב."
+    },
+    {
+      "id": "vec_l1_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אורך",
+      "body_he": "מה האורך של (3, 4)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "25"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "12"
+        }
+      ],
+      "correct": "c",
+      "hint": "שורש של סכום ריבועי הרכיבים.",
+      "worked_method": "שורש של 9+16=5.",
+      "can_do": "אפשר לחשב אורך של וקטור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שורש של סכום ריבועי הרכיבים."
+    },
+    {
+      "id": "vec_l1_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מכפלה סקלרית",
+      "body_he": "מה (1, 0) כפול סקלרית (0, 1)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "-1"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "c",
+      "hint": "מכפלה סקלרית היא סכום מכפלות הרכיבים.",
+      "worked_method": "1 כפול 0 ועוד 0 כפול 1 = 0. הווקטורים מאונכים.",
+      "can_do": "אפשר לחשב מכפלה סקלרית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מכפלה סקלרית היא סכום מכפלות הרכיבים."
+    },
+    {
+      "id": "vec_l1_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כפל בסקלר",
+      "body_he": "מה 3 כפול הוקטור (1, -2)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(1, -6)"
+        },
+        {
+          "id": "b",
+          "label": "(3, -6)"
+        },
+        {
+          "id": "c",
+          "label": "(4, 1)"
+        },
+        {
+          "id": "d",
+          "label": "(3, -2)"
+        }
+      ],
+      "correct": "b",
+      "hint": "כופלים כל רכיב.",
+      "worked_method": "(3, -6).",
+      "can_do": "אפשר לכפול וקטור בסקלר.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים כל רכיב."
+    },
+    {
+      "id": "vec_l1_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "וקטור אפס",
+      "body_he": "האורך של (0, 0) הוא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "אינו מוגדר"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "1"
+        },
+        {
+          "id": "d",
+          "label": "0"
+        }
+      ],
+      "correct": "d",
+      "hint": "אין רכיב שאינו אפס.",
+      "worked_method": "שורש של 0 הוא 0.",
+      "can_do": "אפשר לזהות את וקטור האפס.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "אין רכיב שאינו אפס."
+    },
+    {
+      "id": "vec_l1_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ניגדי",
+      "body_he": "הוקטור הנגדי ל (2, -5) הוא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(5, -2)"
+        },
+        {
+          "id": "b",
+          "label": "(-2, 5)"
+        },
+        {
+          "id": "c",
+          "label": "(2, 5)"
+        },
+        {
+          "id": "d",
+          "label": "(1/2, -1/5)"
+        }
+      ],
+      "correct": "b",
+      "hint": "הופכים כל סימן.",
+      "worked_method": "(-2, 5). הסכום עם המקורי הוא אפס.",
+      "can_do": "אפשר למצוא וקטור נגדי.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הופכים כל סימן."
+    },
+    {
+      "id": "vec_l1_p8",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מקביל",
+      "body_he": "(2, 4) מקביל ל",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(4, 2)"
+        },
+        {
+          "id": "b",
+          "label": "(1, 2)"
+        },
+        {
+          "id": "c",
+          "label": "(2, -4) בהכרח באותו כיוון בלבד בלי כפל"
+        },
+        {
+          "id": "d",
+          "label": "(-1, 2)"
+        }
+      ],
+      "correct": "b",
+      "hint": "וקטור מקביל הוא כפל בסקלר.",
+      "worked_method": "(2, 4) = 2 כפול (1, 2). הוקטור (-1, 2) אינו כפול שלו.",
+      "can_do": "אפשר לבדוק מקבילות של וקטורים במישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "וקטור מקביל הוא כפל בסקלר."
+    },
+    {
+      "id": "vec_l1_p9",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד סקלרית 1",
+      "body_he": "מה המכפלה הסקלרית של (1, 2) ו (3, 4)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "12"
+        },
+        {
+          "id": "b",
+          "label": "13"
+        },
+        {
+          "id": "c",
+          "label": "11"
+        },
+        {
+          "id": "d",
+          "label": "10"
+        }
+      ],
+      "correct": "c",
+      "hint": "כופלים רכיב ברכיב ומחברים.",
+      "worked_method": "1 כפול 3 ועוד 2 כפול 4 שווה 11.",
+      "can_do": "אפשר לחשב מכפלה סקלרית במישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים רכיב ברכיב ומחברים."
+    },
+    {
+      "id": "vec_l1_p10",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מאונכים",
+      "body_he": "מה המכפלה הסקלרית של (2, -1) ו (1, 2)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1"
+        },
+        {
+          "id": "b",
+          "label": "0"
+        },
+        {
+          "id": "c",
+          "label": "2"
+        },
+        {
+          "id": "d",
+          "label": "-1"
+        }
+      ],
+      "correct": "b",
+      "hint": "כופלים רכיב ברכיב ומחברים.",
+      "worked_method": "2 כפול 1 ועוד -1 כפול 2 שווה 0.",
+      "can_do": "אפשר לחשב מכפלה סקלרית במישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים רכיב ברכיב ומחברים."
+    },
+    {
+      "id": "vec_l1_p11",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אורך",
+      "body_he": "מה אורך הווקטור (6, 8)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "14"
+        },
+        {
+          "id": "b",
+          "label": "100"
+        },
+        {
+          "id": "c",
+          "label": "48"
+        },
+        {
+          "id": "d",
+          "label": "10"
+        }
+      ],
+      "correct": "d",
+      "hint": "שורש של סכום הריבועים.",
+      "worked_method": "36 + 64 = 100. השורש הוא 10.",
+      "can_do": "אפשר לחשב אורך של וקטור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שורש של סכום הריבועים."
+    },
+    {
+      "id": "vec_l1_p12",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חיבור",
+      "body_he": "מה הסכום של (1, 4) ו (2, -1)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(3, 3)"
+        },
+        {
+          "id": "b",
+          "label": "(-1, 5)"
+        },
+        {
+          "id": "c",
+          "label": "(3, 5)"
+        },
+        {
+          "id": "d",
+          "label": "(2, -4)"
+        }
+      ],
+      "correct": "a",
+      "hint": "מחברים רכיב רכיב.",
+      "worked_method": "1+2 ו 4+(-1) נותנים (3, 3).",
+      "can_do": "אפשר לחבר שני וקטורים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מחברים רכיב רכיב."
+    },
+    {
+      "id": "vec_l1_p13",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מקבילים",
+      "body_he": "האם (2, 4) מקביל ל (1, 2)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הם מאונכים"
+        },
+        {
+          "id": "b",
+          "label": "כן"
+        },
+        {
+          "id": "c",
+          "label": "רק אם האורך שווה"
+        },
+        {
+          "id": "d",
+          "label": "לא"
+        }
+      ],
+      "correct": "b",
+      "hint": "אחד הוא כפל של השני בסקלר.",
+      "worked_method": "(2, 4) = 2 כפול (1, 2). הם מקבילים.",
+      "can_do": "אפשר לזהות וקטורים מקבילים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "אחד הוא כפל של השני בסקלר."
+    },
+    {
+      "id": "vec_l1_p14",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד סקלרית 2",
+      "body_he": "מה המכפלה הסקלרית של (-1, 5) ו (2, 1)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        },
+        {
+          "id": "d",
+          "label": "4"
+        }
+      ],
+      "correct": "c",
+      "hint": "כופלים רכיב ברכיב ומחברים.",
+      "worked_method": "-1 כפול 2 ועוד 5 כפול 1 שווה 3.",
+      "can_do": "אפשר לחשב מכפלה סקלרית במישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים רכיב ברכיב ומחברים."
+    },
+    {
+      "id": "vec_l1_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת וקטורים בסיסית",
+      "body_he": "מה האורך של (5, 12)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "13"
+        },
+        {
+          "id": "b",
+          "label": "17"
+        },
+        {
+          "id": "c",
+          "label": "7"
+        },
+        {
+          "id": "d",
+          "label": "√17"
+        }
+      ],
+      "correct": "a",
+      "hint": "25 + 144 = 169.",
+      "worked_method": "שורש 169 הוא 13.",
+      "can_do": "אפשר לחשב אורך בשלשה 5, 12, 13.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "25 + 144 = 169."
+    },
+    {
+      "id": "vec_l2_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "זווית וישר",
+      "body_he": "הזווית בין שני וקטורים מקיימת cos θ = (u·v) / (|u||v|). מכפלה סקלרית חיובית אומרת זווית חדה, שלילית אומרת זווית קהה. ישר פרמטרי הוא נקודה ועוד t כפול וקטור כיוון. כדי לבדוק אם נקודה על הישר מחפשים t שמתאים לכל הרכיבים יחד. וקטור יחידה הוא וקטור מאורך 1. מנרמלים על ידי חילוק באורך.",
+      "can_do": "אפשר למצוא זווית, לכתוב ישר פרמטרי, ולנרמל וקטור."
+    },
+    {
+      "id": "vec_l2_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "זווית",
+      "body_he": "המכפלה הסקלרית של (1, 1) ו (1, 0) היא 1. האורכים √2 ו 1. מה הזווית ביניהם?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "45 מעלות"
+        },
+        {
+          "id": "b",
+          "label": "0 מעלות"
+        },
+        {
+          "id": "c",
+          "label": "90 מעלות"
+        },
+        {
+          "id": "d",
+          "label": "60 מעלות"
+        }
+      ],
+      "correct": "a",
+      "hint": "cos שווה למכפלה הסקלרית חלקי מכפלת האורכים.",
+      "worked_method": "cos = 1/√2, לכן הזווית 45 מעלות.",
+      "can_do": "אפשר למצוא זווית בין וקטורים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "cos שווה למכפלה הסקלרית חלקי מכפלת האורכים."
+    },
+    {
+      "id": "vec_l2_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מאונכות",
+      "body_he": "שני וקטורים מאונכים בדיוק כאשר",
+      "choices": [
+        {
+          "id": "a",
+          "label": "שניהם על ציר x"
+        },
+        {
+          "id": "b",
+          "label": "האורכים שווים"
+        },
+        {
+          "id": "c",
+          "label": "המכפלה הסקלרית שלהם היא 0"
+        },
+        {
+          "id": "d",
+          "label": "הסכום שלהם הוא 0"
+        }
+      ],
+      "correct": "c",
+      "hint": "cos 90 = 0.",
+      "worked_method": "u·v = |u||v|cos θ. אם האורכים אינם אפס, המכפלה הסקלרית אפס בדיוק כשהזווית 90.",
+      "can_do": "אפשר לבדוק מאונכות במכפלה סקלרית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "cos 90 = 0."
+    },
+    {
+      "id": "vec_l2_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "היטל",
+      "body_he": "מה ההיטל של (3, 4) על כיוון (1, 0), כסקלר של הרכיב?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "3"
+        }
+      ],
+      "correct": "d",
+      "hint": "על וקטור יחידה אופקי נשאר רכיב x.",
+      "worked_method": "ההיטל הסקלרי על ציר x הוא 3.",
+      "can_do": "אפשר לקרוא רכיב כהיטל על ציר.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "על וקטור יחידה אופקי נשאר רכיב x."
+    },
+    {
+      "id": "vec_l2_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ישר פרמטרי",
+      "body_he": "הישר דרך (0, 1) בכיוון (1, 2) מתואר על ידי",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(x, y) = (1, 2) + t(0, 0)"
+        },
+        {
+          "id": "b",
+          "label": "(x, y) = (0, 1) + t(1, 2)"
+        },
+        {
+          "id": "c",
+          "label": "y = x"
+        },
+        {
+          "id": "d",
+          "label": "(x, y) = t(0, 1)"
+        }
+      ],
+      "correct": "b",
+      "hint": "נקודה ועוד פרמטר כפול וקטור כיוון.",
+      "worked_method": "x = t, y = 1 + 2t.",
+      "can_do": "אפשר לכתוב הצגה פרמטרית של ישר.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "נקודה ועוד פרמטר כפול וקטור כיוון."
+    },
+    {
+      "id": "vec_l2_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נקודה על הישר",
+      "body_he": "האם (2, 5) על הישר (0, 1) + t(1, 2)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כן, כאשר t = 2"
+        },
+        {
+          "id": "b",
+          "label": "רק ב t = 0"
+        },
+        {
+          "id": "c",
+          "label": "כן, כאשר t = 5"
+        },
+        {
+          "id": "d",
+          "label": "לא"
+        }
+      ],
+      "correct": "a",
+      "hint": "חפשו t כך ש t = 2 וגם 1 + 2t = 5.",
+      "worked_method": "t = 2 נותן y = 1 + 4 = 5. הנקודה על הישר.",
+      "can_do": "אפשר לבדוק אם נקודה על ישר פרמטרי.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "חפשו t כך ש t = 2 וגם 1 + 2t = 5."
+    },
+    {
+      "id": "vec_l2_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אורך כיוון",
+      "body_he": "וקטור כיוון (3, 4) אינו וקטור יחידה כי",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הוא לא מאונך לציר"
+        },
+        {
+          "id": "b",
+          "label": "יש לו שני רכיבים"
+        },
+        {
+          "id": "c",
+          "label": "הפרמטר t חייב להיות 1"
+        },
+        {
+          "id": "d",
+          "label": "אורכו 5 ולא 1"
+        }
+      ],
+      "correct": "d",
+      "hint": "וקטור יחידה הוא וקטור שאורכו 1.",
+      "worked_method": "מחלקים ב 5 ומקבלים (3/5, 4/5).",
+      "can_do": "אפשר לנרמל וקטור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "וקטור יחידה הוא וקטור שאורכו 1."
+    },
+    {
+      "id": "vec_l2_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חלוקה",
+      "body_he": "וקטור היחידה בכיוון (3, 4) הוא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(1, 1)"
+        },
+        {
+          "id": "b",
+          "label": "(3/5, 4/5)"
+        },
+        {
+          "id": "c",
+          "label": "(3, 4)"
+        },
+        {
+          "id": "d",
+          "label": "(5, 5)"
+        }
+      ],
+      "correct": "b",
+      "hint": "חלקו כל רכיב באורך.",
+      "worked_method": "(3/5, 4/5).",
+      "can_do": "אפשר לכתוב וקטור יחידה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "חלקו כל רכיב באורך."
+    },
+    {
+      "id": "vec_l2_p8",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מכפלה וזווית קהה",
+      "body_he": "אם המכפלה הסקלרית שלילית, הזווית בין הווקטורים היא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "חדה"
+        },
+        {
+          "id": "b",
+          "label": "קהה"
+        },
+        {
+          "id": "c",
+          "label": "אפס"
+        },
+        {
+          "id": "d",
+          "label": "ישרה"
+        }
+      ],
+      "correct": "b",
+      "hint": "קוסינוס שלילי.",
+      "worked_method": "הזווית בין 0 ל 180, וקוסינוס שלילי אומר זווית גדולה מ 90 וקטנה מ 180.",
+      "can_do": "אפשר לדעת אם הזווית חדה או קהה לפי סימן המכפלה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "קוסינוס שלילי."
+    },
+    {
+      "id": "vec_l2_p9",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "זווית חדה או קהה",
+      "body_he": "המכפלה הסקלרית של שני וקטורים שאינם אפס היא 5-. מה אפשר לומר על הזווית ביניהם?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "הם מקבילים בהכרח"
+        },
+        {
+          "id": "b",
+          "label": "היא קהה"
+        },
+        {
+          "id": "c",
+          "label": "היא חדה"
+        },
+        {
+          "id": "d",
+          "label": "היא ישרה"
+        }
+      ],
+      "correct": "b",
+      "hint": "מכפלה סקלרית שלילית אומרת קוסינוס שלילי, כלומר זווית קהה.",
+      "worked_method": "המונה של הקוסינוס שלילי והמכנה חיובי, לכן הזווית קהה.",
+      "can_do": "אפשר לקרוא סוג זווית ממכפלה סקלרית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מכפלה סקלרית שלילית אומרת קוסינוס שלילי, כלומר זווית קהה."
+    },
+    {
+      "id": "vec_l2_p10",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "וקטור יחידה",
+      "body_he": "מה אורך וקטור יחידה בכיוון (3, 4), אחרי נרמול?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "d",
+      "hint": "מנרמלים על ידי חילוק באורך. התוצאה באורך 1.",
+      "worked_method": "האורך המקורי 5. מחלקים כל רכיב ב 5 ומקבלים וקטור באורך 1.",
+      "can_do": "אפשר לנרמל וקטור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מנרמלים על ידי חילוק באורך. התוצאה באורך 1."
+    },
+    {
+      "id": "vec_l2_p11",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ישר פרמטרי",
+      "body_he": "הישר הוא (1, 2) + t(2, 0). האם הנקודה (5, 2) על הישר?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כן, כאשר t = 2"
+        },
+        {
+          "id": "b",
+          "label": "לא"
+        },
+        {
+          "id": "c",
+          "label": "כן, כאשר t = 5"
+        },
+        {
+          "id": "d",
+          "label": "רק כאשר t = 0"
+        }
+      ],
+      "correct": "a",
+      "hint": "מחפשים t אחד שמתאים לשני הרכיבים.",
+      "worked_method": "1 + 2t = 5 נותן t = 2. הרכיב השני: 2 + 0 = 2. מתאים.",
+      "can_do": "אפשר לבדוק אם נקודה על ישר פרמטרי.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מחפשים t אחד שמתאים לשני הרכיבים."
+    },
+    {
+      "id": "vec_l2_p12",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סקלרית נוספת",
+      "body_he": "מה המכפלה הסקלרית של (4, 1) ו (2, 3)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "13"
+        },
+        {
+          "id": "b",
+          "label": "12"
+        },
+        {
+          "id": "c",
+          "label": "11"
+        },
+        {
+          "id": "d",
+          "label": "10"
+        }
+      ],
+      "correct": "c",
+      "hint": "כופלים רכיב ברכיב ומחברים.",
+      "worked_method": "4 כפול 2 ועוד 1 כפול 3 שווה 11.",
+      "can_do": "אפשר לחשב מכפלה סקלרית במישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים רכיב ברכיב ומחברים."
+    },
+    {
+      "id": "vec_l2_p13",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "קוסינוס הזווית",
+      "body_he": "שני וקטורים מאורך 2, והמכפלה הסקלרית שלהם 2. מה cos של הזווית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/2"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "a",
+      "hint": "cos שווה למכפלה הסקלרית חלקי מכפלת האורכים.",
+      "worked_method": "2 חלקי (2 כפול 2) שווה 1/2.",
+      "can_do": "אפשר לחשב קוסינוס של זווית בין וקטורים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "cos שווה למכפלה הסקלרית חלקי מכפלת האורכים."
+    },
+    {
+      "id": "vec_l2_p14",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כיוון",
+      "body_he": "איזה וקטור הוא כיוון של הישר (0, 1) + t(3, -1)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(3, -1)"
+        },
+        {
+          "id": "b",
+          "label": "(1, 3)"
+        },
+        {
+          "id": "c",
+          "label": "(0, 1)"
+        },
+        {
+          "id": "d",
+          "label": "(3, 1)"
+        }
+      ],
+      "correct": "a",
+      "hint": "הכיוון הוא הווקטור שמוכפל ב t, לא נקודת המוצא.",
+      "worked_method": "הישר זז לפי (3, -1) כש t גדל ב 1.",
+      "can_do": "אפשר לקרוא וקטור כיוון מישר פרמטרי.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הכיוון הוא הווקטור שמוכפל ב t, לא נקודת המוצא."
+    },
+    {
+      "id": "vec_l2_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת זווית",
+      "body_he": "(1, 0) ו (-1, 0). המכפלה הסקלרית היא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "-1"
+        },
+        {
+          "id": "c",
+          "label": "2"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "b",
+      "hint": "1 כפול -1.",
+      "worked_method": "-1. הווקטורים הפוכים, הזווית 180.",
+      "can_do": "אפשר לחשב מכפלה סקלרית של וקטורים מנוגדים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "1 כפול -1."
+    },
+    {
+      "id": "vec_l3_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מרחב ונורמל",
+      "body_he": "במרחב יש שלושה רכיבים, והאורך הוא שורש של סכום שלושה ריבועים. המכפלה הסקלרית עדיין סכום של מכפלות רכיבים, והתוצאה מספר. המכפלה הווקטורית היא וקטור אחר, מאונך לשני הגורמים. i × j = k. וקטור נורמל למישור ax+by+cz=d הוא (a,b,c). ישר במרחב נכתב כמו במישור: נקודה ועוד t כפול כיוון. נקודה על המישור אם היא מקיימת את המשוואה.",
+      "can_do": "אפשר לעבוד עם וקטור במרחב, נורמל ומכפלה וקטורית בסיסית."
+    },
+    {
+      "id": "vec_l3_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אורך במרחב",
+      "body_he": "מה האורך של (1, 2, 2)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "9"
+        },
+        {
+          "id": "b",
+          "label": "√5"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        },
+        {
+          "id": "d",
+          "label": "5"
+        }
+      ],
+      "correct": "c",
+      "hint": "1 + 4 + 4 = 9.",
+      "worked_method": "שורש 9 הוא 3.",
+      "can_do": "אפשר לחשב אורך וקטור במרחב.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "1 + 4 + 4 = 9."
+    },
+    {
+      "id": "vec_l3_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מכפלה במרחב",
+      "body_he": "מה (1, 0, 0) כפול סקלרית (0, 1, 0)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-1"
+        },
+        {
+          "id": "b",
+          "label": "(0, 0, 1)"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "c",
+      "hint": "גם במרחב זו סכום מכפלות רכיבים, והתוצאה סקלר.",
+      "worked_method": "0. הווקטור (0, 0, 1) הוא דווקא המכפלה הווקטורית, לא הסקלרית.",
+      "can_do": "אפשר לא לבלבל מכפלה סקלרית עם מכפלה וקטורית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "גם במרחב זו סכום מכפלות רכיבים, והתוצאה סקלר."
+    },
+    {
+      "id": "vec_l3_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מכפלה וקטורית",
+      "body_he": "מה (1, 0, 0) כפול וקטורית (0, 1, 0)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(0, 0, 1)"
+        },
+        {
+          "id": "b",
+          "label": "(0, 0, -1)"
+        },
+        {
+          "id": "c",
+          "label": "(1, 1, 0)"
+        },
+        {
+          "id": "d",
+          "label": "(0, 0, 0)"
+        }
+      ],
+      "correct": "a",
+      "hint": "i כפול j נותן k, לפי כלל יד ימין.",
+      "worked_method": "(0, 0, 1).",
+      "can_do": "אפשר לחשב מכפלה וקטורית של וקטורי הבסיס.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "i כפול j נותן k, לפי כלל יד ימין."
+    },
+    {
+      "id": "vec_l3_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מאונך למישור",
+      "body_he": "וקטור שמתקבל כמכפלה וקטורית של שני וקטורים במישור הוא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "סכומם"
+        },
+        {
+          "id": "b",
+          "label": "ניצב לשניהם"
+        },
+        {
+          "id": "c",
+          "label": "ההיטל שלהם"
+        },
+        {
+          "id": "d",
+          "label": "מקביל לראשון"
+        }
+      ],
+      "correct": "b",
+      "hint": "זו התכונה שמגדירה כיוון נורמל.",
+      "worked_method": "המכפלה הווקטורית מאונכת לכל אחד מהגורמים, ולכן ניצבת למישור שהם פורסים, אם אינם מקבילים.",
+      "can_do": "אפשר להסביר למה מכפלה וקטורית נותנת נורמל.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "זו התכונה שמגדירה כיוון נורמל."
+    },
+    {
+      "id": "vec_l3_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ישר במרחב",
+      "body_he": "ישר דרך (1, 0, 2) בכיוון (0, 1, 1) הוא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(1, 0, 2) + t(0, 1, 1)"
+        },
+        {
+          "id": "b",
+          "label": "(t, t, t)"
+        },
+        {
+          "id": "c",
+          "label": "רק (1, t, 2)"
+        },
+        {
+          "id": "d",
+          "label": "(0, 1, 1) + t(0, 0, 0)"
+        }
+      ],
+      "correct": "a",
+      "hint": "נקודה ועוד t כפול כיוון.",
+      "worked_method": "x = 1, y = t, z = 2 + t.",
+      "can_do": "אפשר לכתוב ישר במרחב.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "נקודה ועוד t כפול כיוון."
+    },
+    {
+      "id": "vec_l3_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "זווית עם ציר",
+      "body_he": "הוקטור (0, 0, 5) יוצר עם ציר z זווית",
+      "choices": [
+        {
+          "id": "a",
+          "label": "45 מעלות"
+        },
+        {
+          "id": "b",
+          "label": "0 מעלות"
+        },
+        {
+          "id": "c",
+          "label": "180 מעלות"
+        },
+        {
+          "id": "d",
+          "label": "90 מעלות"
+        }
+      ],
+      "correct": "b",
+      "hint": "הוא יושב על הציר החיובי.",
+      "worked_method": "הכיוון זהה לכיוון החיובי של ציר z, לכן הזווית 0.",
+      "can_do": "אפשר לזהות וקטור מקביל לציר.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הוא יושב על הציר החיובי."
+    },
+    {
+      "id": "vec_l3_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נורמל למישור",
+      "body_he": "למישור 2x - y + z = 5, וקטור נורמל הוא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(2, -1, 1)"
+        },
+        {
+          "id": "b",
+          "label": "(1, 1, 1)"
+        },
+        {
+          "id": "c",
+          "label": "(2, 1, 1)"
+        },
+        {
+          "id": "d",
+          "label": "(5, 0, 0)"
+        }
+      ],
+      "correct": "a",
+      "hint": "המקדמים של x, y, z.",
+      "worked_method": "נורמל (2, -1, 1). הנקודה לא חייבת להיות על הנורמל.",
+      "can_do": "אפשר לקרוא נורמל ממשוואת מישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "המקדמים של x, y, z."
+    },
+    {
+      "id": "vec_l3_p8",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נקודה על המישור",
+      "body_he": "האם (1, 1, 4) על המישור 2x - y + z = 5?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "לא"
+        },
+        {
+          "id": "b",
+          "label": "היא הנורמל"
+        },
+        {
+          "id": "c",
+          "label": "כן"
+        },
+        {
+          "id": "d",
+          "label": "רק אם z = 0"
+        }
+      ],
+      "correct": "c",
+      "hint": "2 כפול 1 פחות 1 ועוד 4.",
+      "worked_method": "2 - 1 + 4 = 5. הנקודה על המישור.",
+      "can_do": "אפשר לבדוק אם נקודה מקיימת משוואת מישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "2 כפול 1 פחות 1 ועוד 4."
+    },
+    {
+      "id": "vec_l3_p9",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אורך במרחב",
+      "body_he": "מה אורך הווקטור (2, 3, 6)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "11"
+        },
+        {
+          "id": "c",
+          "label": "7"
+        },
+        {
+          "id": "d",
+          "label": "36"
+        }
+      ],
+      "correct": "c",
+      "hint": "שורש של סכום שלושה ריבועים.",
+      "worked_method": "4 + 9 + 36 = 49. השורש הוא 7.",
+      "can_do": "אפשר לחשב אורך של וקטור במרחב.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שורש של סכום שלושה ריבועים."
+    },
+    {
+      "id": "vec_l3_p10",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סקלרית במרחב",
+      "body_he": "מה המכפלה הסקלרית של (1, 0, 2) ו (3, 4, -1)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "9"
+        },
+        {
+          "id": "b",
+          "label": "0"
+        },
+        {
+          "id": "c",
+          "label": "1"
+        },
+        {
+          "id": "d",
+          "label": "5"
+        }
+      ],
+      "correct": "c",
+      "hint": "סכום של שלוש מכפלות רכיבים.",
+      "worked_method": "3 + 0 + (-2) = 1.",
+      "can_do": "אפשר לחשב מכפלה סקלרית במרחב.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "סכום של שלוש מכפלות רכיבים."
+    },
+    {
+      "id": "vec_l3_p11",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מכפלה וקטורית בסיסית",
+      "body_he": "מה i × j?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "i"
+        },
+        {
+          "id": "b",
+          "label": "k"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "-k"
+        }
+      ],
+      "correct": "b",
+      "hint": "שני וקטורי הבסיס הראשונים נותנים את השלישי, בכיוון יד ימין.",
+      "worked_method": "i × j = k.",
+      "can_do": "אפשר לזכור את המכפלה הווקטורית של i ו j.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "שני וקטורי הבסיס הראשונים נותנים את השלישי, בכיוון יד ימין."
+    },
+    {
+      "id": "vec_l3_p12",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נורמל",
+      "body_he": "מה וקטור נורמל למישור 2x - y + 4z = 5?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(1, 1, 1)"
+        },
+        {
+          "id": "b",
+          "label": "(2, 1, 4)"
+        },
+        {
+          "id": "c",
+          "label": "(2, -1, 4)"
+        },
+        {
+          "id": "d",
+          "label": "(5, 0, 0)"
+        }
+      ],
+      "correct": "c",
+      "hint": "המקדמים של x, y, z הם רכיבי הנורמל.",
+      "worked_method": "הנורמל הוא (2, -1, 4). האיבר החופשי לא נכנס לווקטור.",
+      "can_do": "אפשר לקרוא נורמל ממשוואת מישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "המקדמים של x, y, z הם רכיבי הנורמל."
+    },
+    {
+      "id": "vec_l3_p13",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נקודה על מישור",
+      "body_he": "האם (1, 1, 1) על המישור x + y + z = 3?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "לא"
+        },
+        {
+          "id": "b",
+          "label": "כן"
+        },
+        {
+          "id": "c",
+          "label": "רק אם היא הראשית"
+        },
+        {
+          "id": "d",
+          "label": "אי אפשר לדעת"
+        }
+      ],
+      "correct": "b",
+      "hint": "מציבים במשוואת המישור.",
+      "worked_method": "1 + 1 + 1 = 3. הנקודה על המישור.",
+      "can_do": "אפשר לבדוק אם נקודה על מישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מציבים במשוואת המישור."
+    },
+    {
+      "id": "vec_l3_p14",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סקלרית של צירים",
+      "body_he": "מה המכפלה הסקלרית של (0, 5) ו (7, 0)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-1"
+        },
+        {
+          "id": "b",
+          "label": "0"
+        },
+        {
+          "id": "c",
+          "label": "2"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "b",
+      "hint": "כופלים רכיב ברכיב ומחברים.",
+      "worked_method": "0 כפול 7 ועוד 5 כפול 0 שווה 0.",
+      "can_do": "אפשר לחשב מכפלה סקלרית במישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים רכיב ברכיב ומחברים."
+    },
+    {
+      "id": "vec_l3_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת מרחב",
+      "body_he": "מה האורך של (2, 3, 6)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "36"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "11"
+        },
+        {
+          "id": "d",
+          "label": "√11"
+        }
+      ],
+      "correct": "b",
+      "hint": "4 + 9 + 36 = 49.",
+      "worked_method": "שורש 49 הוא 7.",
+      "can_do": "אפשר לחשב אורך עם שלושה רכיבים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "4 + 9 + 36 = 49."
+    },
+    {
+      "id": "vec_rev_1",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, סקלרית",
+      "body_he": "מה המכפלה הסקלרית של (5, 1) ו (2, -3)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "6"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        },
+        {
+          "id": "d",
+          "label": "8"
+        }
+      ],
+      "correct": "a",
+      "hint": "כופלים רכיב ברכיב ומחברים.",
+      "worked_method": "5 כפול 2 ועוד 1 כפול -3 שווה 7.",
+      "can_do": "אפשר לחשב מכפלה סקלרית במישור.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים רכיב ברכיב ומחברים.",
+      "review_topic_ids": [
+        "vec_l1",
+        "vec_l2",
+        "vec_l3"
+      ]
+    },
+    {
+      "id": "vec_rev_2",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, אורך",
+      "body_he": "אורך (5, 12)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "13"
+        },
+        {
+          "id": "b",
+          "label": "7"
+        },
+        {
+          "id": "c",
+          "label": "60"
+        },
+        {
+          "id": "d",
+          "label": "17"
+        }
+      ],
+      "correct": "a",
+      "hint": "25+144=169.",
+      "worked_method": "השורש 13.",
+      "can_do": "אפשר אורך.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "25+144=169.",
+      "review_topic_ids": [
+        "vec_l1",
+        "vec_l2",
+        "vec_l3"
+      ]
+    },
+    {
+      "id": "vec_rev_3",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, מאונך",
+      "body_he": "מכפלה סקלרית 0, והווקטורים אינם אפס. מה הזווית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "45"
+        },
+        {
+          "id": "b",
+          "label": "0"
+        },
+        {
+          "id": "c",
+          "label": "180"
+        },
+        {
+          "id": "d",
+          "label": "90 מעלות"
+        }
+      ],
+      "correct": "d",
+      "hint": "קוסינוס אפס.",
+      "worked_method": "הזווית ישרה.",
+      "can_do": "אפשר לזהות ניצבות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "קוסינוס אפס.",
+      "review_topic_ids": [
+        "vec_l1",
+        "vec_l2",
+        "vec_l3"
+      ]
+    },
+    {
+      "id": "vec_rev_4",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, נורמל",
+      "body_he": "נורמל ל x - 2y + z = 4?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "(4, 0, 0)"
+        },
+        {
+          "id": "b",
+          "label": "(1, 2, 1)"
+        },
+        {
+          "id": "c",
+          "label": "(1, -2, 4)"
+        },
+        {
+          "id": "d",
+          "label": "(1, -2, 1)"
+        }
+      ],
+      "correct": "d",
+      "hint": "המקדמים.",
+      "worked_method": "(1, -2, 1).",
+      "can_do": "אפשר נורמל.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "המקדמים.",
+      "review_topic_ids": [
+        "vec_l1",
+        "vec_l2",
+        "vec_l3"
+      ]
+    },
+    {
+      "id": "vec_rev_5",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, i × j",
+      "body_he": "i × j שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "i"
+        },
+        {
+          "id": "b",
+          "label": "0"
+        },
+        {
+          "id": "c",
+          "label": "-k"
+        },
+        {
+          "id": "d",
+          "label": "k"
+        }
+      ],
+      "correct": "d",
+      "hint": "בסיס ימני.",
+      "worked_method": "k.",
+      "can_do": "אפשר מכפלה וקטורית בסיסית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "בסיס ימני.",
+      "review_topic_ids": [
+        "vec_l1",
+        "vec_l2",
+        "vec_l3"
+      ]
+    },
+    {
+      "id": "vec_rev_6",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, יחידה",
+      "body_he": "אחרי נרמול, האורך הוא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "האורך המקורי"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "d",
+      "hint": "חילוק באורך.",
+      "worked_method": "האורך 1.",
+      "can_do": "אפשר נרמול.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "חילוק באורך.",
+      "review_topic_ids": [
+        "vec_l1",
+        "vec_l2",
+        "vec_l3"
+      ]
+    }
+  ]
+}

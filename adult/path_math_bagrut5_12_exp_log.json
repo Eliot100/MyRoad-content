@@ -1,0 +1,1761 @@
+{
+  "id": "path_math_bagrut5_12_exp_log",
+  "titles": {
+    "he": "מעריכית, לוגריתם וגידול",
+    "en": "Exponential and log",
+    "ar": "الأسي واللوغاريتم"
+  },
+  "blurbs": {
+    "he": "חוקי לוג, משוואות, נגזרת, ומודלים מקוריים של גידול ושל מחצית חיים.",
+    "en": "Log laws, equations, derivatives, and original growth and half-life models.",
+    "ar": "أسي ولوغاريتم."
+  },
+  "subject": "math",
+  "group_ids": [
+    "adult"
+  ],
+  "emoji": "ℯ",
+  "explain_locale": "he",
+  "content_locale": "he",
+  "estimated_minutes": 216,
+  "prerequisite_path_ids": [
+    "path_math_bagrut5_11_complex"
+  ],
+  "topics": [
+    {
+      "id": "exp_l1",
+      "titles": {
+        "he": "רמה 1, בסיס",
+        "en": "Level 1, basics",
+        "ar": "المستوى 1"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "exp_l1_learn",
+        "exp_l1_p1",
+        "exp_l1_p2",
+        "exp_l1_p3",
+        "exp_l1_p4",
+        "exp_l1_p5",
+        "exp_l1_p6",
+        "exp_l1_p7",
+        "exp_l1_p8",
+        "exp_l1_p9",
+        "exp_l1_p10",
+        "exp_l1_p11",
+        "exp_l1_p12",
+        "exp_l1_p13",
+        "exp_l1_p14",
+        "exp_l1_check"
+      ]
+    },
+    {
+      "id": "exp_l2",
+      "titles": {
+        "he": "רמה 2, יישום",
+        "en": "Level 2, application",
+        "ar": "المستوى 2"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "exp_l2_learn",
+        "exp_l2_p1",
+        "exp_l2_p2",
+        "exp_l2_p3",
+        "exp_l2_p4",
+        "exp_l2_p5",
+        "exp_l2_p6",
+        "exp_l2_p7",
+        "exp_l2_p8",
+        "exp_l2_p9",
+        "exp_l2_p10",
+        "exp_l2_p11",
+        "exp_l2_p12",
+        "exp_l2_p13",
+        "exp_l2_p14",
+        "exp_l2_check"
+      ]
+    },
+    {
+      "id": "exp_l3",
+      "titles": {
+        "he": "רמה 3, שליטה",
+        "en": "Level 3, mastery",
+        "ar": "المستوى 3"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "exp_l3_learn",
+        "exp_l3_p1",
+        "exp_l3_p2",
+        "exp_l3_p3",
+        "exp_l3_p4",
+        "exp_l3_p5",
+        "exp_l3_p6",
+        "exp_l3_p7",
+        "exp_l3_p8",
+        "exp_l3_p9",
+        "exp_l3_p10",
+        "exp_l3_p11",
+        "exp_l3_p12",
+        "exp_l3_p13",
+        "exp_l3_p14",
+        "exp_l3_check"
+      ]
+    },
+    {
+      "id": "exp_review",
+      "titles": {
+        "he": "חזרה מעורבת",
+        "en": "Mixed review",
+        "ar": "مراجعة مختلطة"
+      },
+      "emoji": "▪️",
+      "node_ids": [
+        "exp_rev_1",
+        "exp_rev_2",
+        "exp_rev_3",
+        "exp_rev_4",
+        "exp_rev_5",
+        "exp_rev_6"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "exp_l1_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "חוקי לוג",
+      "body_he": "log_b(a) הוא המעריך שאליו מעלים את b כדי לקבל a. הבסיס חיובי ושונה מ 1, והארגומנט חיובי. log של 1 הוא 0, ולוג של הבסיס הוא 1. סכום לוגים הוא לוג של מכפלה, הפרש הוא לוג של מנה, ולוג של חזקה מוריד את החזקה כמקדם. ln(e^2)=2 ו log10(1000)=3. אלה זהויות, לא קירוב.",
+      "can_do": "אפשר לחשב לוגים פשוטים ולהשתמש בחוקי הסכום והחזקה."
+    },
+    {
+      "id": "exp_l1_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לוג עשרוני",
+      "body_he": "מה log10 של 1000?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "10"
+        },
+        {
+          "id": "d",
+          "label": "1000"
+        }
+      ],
+      "correct": "b",
+      "hint": "10 בחזקת כמה נותן 1000.",
+      "worked_method": "10^3 = 1000, לכן הלוג הוא 3.",
+      "can_do": "אפשר לחשב לוג של חזקה שלמה של 10.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "10 בחזקת כמה נותן 1000."
+    },
+    {
+      "id": "exp_l1_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לוג טבעי",
+      "body_he": "מה ln של e^2?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "e^2"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "b",
+      "hint": "לוג טבעי ומעריך e מבטלים זה את זה.",
+      "worked_method": "ln(e^2) = 2.",
+      "can_do": "אפשר לפשט לוג טבעי של חזקת e.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "לוג טבעי ומעריך e מבטלים זה את זה."
+    },
+    {
+      "id": "exp_l1_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חוק חיבור",
+      "body_he": "log a + log b, לאותו בסיס חיובי ששונה מ 1, שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "log של a חלקי b"
+        },
+        {
+          "id": "b",
+          "label": "המכפלה של הלוגים"
+        },
+        {
+          "id": "c",
+          "label": "log של a+b"
+        },
+        {
+          "id": "d",
+          "label": "log של המכפלה ab"
+        }
+      ],
+      "correct": "d",
+      "hint": "סכום לוגים הוא לוג של מכפלה.",
+      "worked_method": "log a + log b = log(ab).",
+      "can_do": "אפשר להשתמש בחוק הסכום של לוגים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "סכום לוגים הוא לוג של מכפלה."
+    },
+    {
+      "id": "exp_l1_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חוק חיסור",
+      "body_he": "log a - log b שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "log של a חלקי b"
+        },
+        {
+          "id": "b",
+          "label": "log של a כפול b"
+        },
+        {
+          "id": "c",
+          "label": "log של a - b"
+        },
+        {
+          "id": "d",
+          "label": "b - a"
+        }
+      ],
+      "correct": "a",
+      "hint": "הפרש לוגים הוא לוג של מנה.",
+      "worked_method": "log a - log b = log(a/b), כאשר a ו b חיוביים.",
+      "can_do": "אפשר להשתמש בחוק ההפרש של לוגים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הפרש לוגים הוא לוג של מנה."
+    },
+    {
+      "id": "exp_l1_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חזקה בתוך לוג",
+      "body_he": "log של a^3 שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "log של 3a"
+        },
+        {
+          "id": "b",
+          "label": "log a בחזקת 3"
+        },
+        {
+          "id": "c",
+          "label": "a^3"
+        },
+        {
+          "id": "d",
+          "label": "3 log a"
+        }
+      ],
+      "correct": "d",
+      "hint": "החזקה יורדת כמקדם.",
+      "worked_method": "log(a^3) = 3 log a.",
+      "can_do": "אפשר להוציא חזקה מלפני הלוג.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "החזקה יורדת כמקדם."
+    },
+    {
+      "id": "exp_l1_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "בסיס זהה",
+      "body_he": "log בסיס 5 של 5 שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "0"
+        },
+        {
+          "id": "c",
+          "label": "25"
+        },
+        {
+          "id": "d",
+          "label": "1"
+        }
+      ],
+      "correct": "d",
+      "hint": "כל מספר חיובי ששונה מ 1 בחזקת 1 הוא עצמו.",
+      "worked_method": "5^1 = 5.",
+      "can_do": "אפשר לדעת לוג של הבסיס בעצמו.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כל מספר חיובי ששונה מ 1 בחזקת 1 הוא עצמו."
+    },
+    {
+      "id": "exp_l1_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לוג של 1",
+      "body_he": "log בסיס 10 של 1 שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "אינו מוגדר"
+        },
+        {
+          "id": "d",
+          "label": "10"
+        }
+      ],
+      "correct": "a",
+      "hint": "10 בחזקת 0 הוא 1.",
+      "worked_method": "הלוג של 1 בכל בסיס חוקי הוא 0.",
+      "can_do": "אפשר לזכור שכל לוג של 1 הוא 0.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "10 בחזקת 0 הוא 1."
+    },
+    {
+      "id": "exp_l1_p8",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תחום",
+      "body_he": "log של x מוגדר בממשיים כאשר",
+      "choices": [
+        {
+          "id": "a",
+          "label": "x חיובי"
+        },
+        {
+          "id": "b",
+          "label": "כל x"
+        },
+        {
+          "id": "c",
+          "label": "x שלילי"
+        },
+        {
+          "id": "d",
+          "label": "x שונה מאפס"
+        }
+      ],
+      "correct": "a",
+      "hint": "אי אפשר לקחת לוג של אפס או של מספר שלילי בממשיים.",
+      "worked_method": "התחום הוא x > 0.",
+      "can_do": "אפשר לכתוב את תחום הלוג.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "אי אפשר לקחת לוג של אפס או של מספר שלילי בממשיים."
+    },
+    {
+      "id": "exp_l1_p9",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד לוג 1",
+      "body_he": "מהו log2 של 128?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "9"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        },
+        {
+          "id": "d",
+          "label": "7"
+        }
+      ],
+      "correct": "d",
+      "hint": "באיזו חזקה מעלים את 2 כדי לקבל את המספר.",
+      "worked_method": "2 בחזקת 7 שווה 128, לכן הלוג הוא 7.",
+      "can_do": "אפשר לחשב לוג לפי בסיס 2 של חזקה של 2.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "באיזו חזקה מעלים את 2 כדי לקבל את המספר."
+    },
+    {
+      "id": "exp_l1_p10",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עוד לוג 2",
+      "body_he": "מהו log2 של 256?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "7"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "10"
+        },
+        {
+          "id": "d",
+          "label": "9"
+        }
+      ],
+      "correct": "b",
+      "hint": "באיזו חזקה מעלים את 2 כדי לקבל את המספר.",
+      "worked_method": "2 בחזקת 8 שווה 256, לכן הלוג הוא 8.",
+      "can_do": "אפשר לחשב לוג לפי בסיס 2 של חזקה של 2.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "באיזו חזקה מעלים את 2 כדי לקבל את המספר."
+    },
+    {
+      "id": "exp_l1_p11",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לוג של 1",
+      "body_he": "מה log3 של 1?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1"
+        },
+        {
+          "id": "b",
+          "label": "לא מוגדר"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "3"
+        }
+      ],
+      "correct": "c",
+      "hint": "כל בסיס חוקי בחזקת 0 הוא 1.",
+      "worked_method": "3^0 = 1, לכן הלוג הוא 0.",
+      "can_do": "אפשר לדעת שלוגריתם של 1 הוא 0.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כל בסיס חוקי בחזקת 0 הוא 1."
+    },
+    {
+      "id": "exp_l1_p12",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חוק המכפלה",
+      "body_he": "log2(4) + log2(8) שווה לביטוי הבא. איזה?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "32"
+        },
+        {
+          "id": "b",
+          "label": "log2(12)"
+        },
+        {
+          "id": "c",
+          "label": "log2(2)"
+        },
+        {
+          "id": "d",
+          "label": "log2(32)"
+        }
+      ],
+      "correct": "d",
+      "hint": "סכום לוגים באותו בסיס הוא לוג של המכפלה.",
+      "worked_method": "4 כפול 8 הוא 32, ו log2(32) = 5. גם 2 + 3 = 5.",
+      "can_do": "אפשר לחבר לוגים דרך מכפלה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "סכום לוגים באותו בסיס הוא לוג של המכפלה."
+    },
+    {
+      "id": "exp_l1_p13",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חזקה יורדת",
+      "body_he": "מה 3 log2(5), כלוג יחיד?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "log2(15)"
+        },
+        {
+          "id": "b",
+          "label": "log2(125)"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "log2(8)"
+        }
+      ],
+      "correct": "b",
+      "hint": "מקדם לפני לוג הופך לחזקה בתוך הלוג.",
+      "worked_method": "3 log2(5) = log2(5^3) = log2(125).",
+      "can_do": "אפשר להוריד מקדם לחזקה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "מקדם לפני לוג הופך לחזקה בתוך הלוג."
+    },
+    {
+      "id": "exp_l1_p14",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לוג עשרוני",
+      "body_he": "מה log10 של 10000?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "10000"
+        }
+      ],
+      "correct": "c",
+      "hint": "סופרים את האפסים, או את החזקה של 10.",
+      "worked_method": "10^4 = 10000.",
+      "can_do": "אפשר לחשב לוג עשרוני של חזקת 10.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "סופרים את האפסים, או את החזקה של 10."
+    },
+    {
+      "id": "exp_l1_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת לוג",
+      "body_he": "מה log2 של 8?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        },
+        {
+          "id": "d",
+          "label": "3"
+        }
+      ],
+      "correct": "d",
+      "hint": "2 בחזקת 3 הוא 8.",
+      "worked_method": "הלוג הוא 3.",
+      "can_do": "אפשר לחשב לוג בבסיס 2.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "2 בחזקת 3 הוא 8."
+    },
+    {
+      "id": "exp_l2_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "משוואות",
+      "body_he": "במשוואה מעריכית עם אותו בסיס משווים מעריכים: 2^x = 16 נותן x = 4 כי 16 = 2^4. במשוואת לוג חוזרים לחזקה: log2(x)=5 נותן x=32. e^(ln 7)=7. הפונקציה המעריכית חד חד ערכית, אז מבסיסים שווים מסיקים מעריכים שווים. לפני שמצמצמים לוג מוודאים שהארגומנט חיובי.",
+      "can_do": "אפשר לפתור משוואה מעריכית ומשוואת לוג קצרה."
+    },
+    {
+      "id": "exp_l2_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משוואה מעריכית",
+      "body_he": "פתרו 2^x = 16.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "8"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "16"
+        }
+      ],
+      "correct": "c",
+      "hint": "16 הוא 2 בחזקת 4.",
+      "worked_method": "x = 4.",
+      "can_do": "אפשר לפתור משוואת חזקות עם אותו בסיס.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "16 הוא 2 בחזקת 4."
+    },
+    {
+      "id": "exp_l2_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משוואת לוג",
+      "body_he": "פתרו log2 של x = 5.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "10"
+        },
+        {
+          "id": "c",
+          "label": "25"
+        },
+        {
+          "id": "d",
+          "label": "32"
+        }
+      ],
+      "correct": "d",
+      "hint": "x הוא 2 בחזקת 5.",
+      "worked_method": "2^5 = 32.",
+      "can_do": "אפשר לעבור מלוג בחזרה לחזקה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "x הוא 2 בחזקת 5."
+    },
+    {
+      "id": "exp_l2_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ביטול",
+      "body_he": "e בחזקת ln 7 שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "e^7"
+        },
+        {
+          "id": "b",
+          "label": "ln 7"
+        },
+        {
+          "id": "c",
+          "label": "1"
+        },
+        {
+          "id": "d",
+          "label": "7"
+        }
+      ],
+      "correct": "d",
+      "hint": "e והלוג הטבעי הפוכים.",
+      "worked_method": "e^(ln 7) = 7, ו 7 חיובי אז זה חוקי.",
+      "can_do": "אפשר לבטל מעריך ולוג.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "e והלוג הטבעי הפוכים."
+    },
+    {
+      "id": "exp_l2_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אותו בסיס",
+      "body_he": "אם 3^a = 3^b אז",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a = 3b"
+        },
+        {
+          "id": "b",
+          "label": "a = -b"
+        },
+        {
+          "id": "c",
+          "label": "a = b"
+        },
+        {
+          "id": "d",
+          "label": "אי אפשר לדעת"
+        }
+      ],
+      "correct": "c",
+      "hint": "הפונקציה המעריכית חד חד ערכית.",
+      "worked_method": "בסיס חיובי ששונה מ 1 נותן פונקציה חד חד ערכית, לכן המעריכים שווים.",
+      "can_do": "אפשר להשוות מעריכים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הפונקציה המעריכית חד חד ערכית."
+    },
+    {
+      "id": "exp_l2_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "בסיסים שונים",
+      "body_he": "8 שווה ל 2 בחזקת",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        },
+        {
+          "id": "d",
+          "label": "2"
+        }
+      ],
+      "correct": "c",
+      "hint": "2 כפול 2 כפול 2.",
+      "worked_method": "2^3 = 8. לכן לוג בסיס 2 של 8 הוא 3, ואפשר להחליף בסיס במשוואה.",
+      "can_do": "אפשר לכתוב מספר כחזקה של בסיס אחר.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "2 כפול 2 כפול 2."
+    },
+    {
+      "id": "exp_l2_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משוואה עם לוגים",
+      "body_he": "אם log(x) + log(x) = 2 בבסיס 10, מה x החיובי?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "100"
+        },
+        {
+          "id": "b",
+          "label": "2"
+        },
+        {
+          "id": "c",
+          "label": "√10"
+        },
+        {
+          "id": "d",
+          "label": "10"
+        }
+      ],
+      "correct": "d",
+      "hint": "2 log x = 2, אז log x = 1.",
+      "worked_method": "log x = 1, לכן x = 10. בבדיקה: 1 + 1 = 2.",
+      "can_do": "אפשר לפתור משוואת לוג פשוטה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "2 log x = 2, אז log x = 1."
+    },
+    {
+      "id": "exp_l2_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "החלפת בסיס",
+      "body_he": "log בסיס 4 של 16 שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "16"
+        },
+        {
+          "id": "b",
+          "label": "1/2"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "2"
+        }
+      ],
+      "correct": "d",
+      "hint": "4 בריבוע הוא 16.",
+      "worked_method": "המעריך הוא 2.",
+      "can_do": "אפשר לחשב לוג כשמזהים חזקה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "4 בריבוע הוא 16."
+    },
+    {
+      "id": "exp_l2_p8",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חצי",
+      "body_he": "log בסיס 9 של 3 שווה",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "9"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        },
+        {
+          "id": "d",
+          "label": "1/2"
+        }
+      ],
+      "correct": "d",
+      "hint": "9 בחזקת 1/2 הוא השורש, 3.",
+      "worked_method": "√9 = 3, לכן הלוג הוא 1/2.",
+      "can_do": "אפשר לזהות לוג שהוא חצי.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "9 בחזקת 1/2 הוא השורש, 3."
+    },
+    {
+      "id": "exp_l2_p9",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "אותו בסיס",
+      "body_he": "פתרו 3^x = 81. מהו x?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "27"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "4"
+        },
+        {
+          "id": "d",
+          "label": "9"
+        }
+      ],
+      "correct": "c",
+      "hint": "כותבים את שני הצדדים כחזקה של 3.",
+      "worked_method": "81 = 3^4, לכן x = 4.",
+      "can_do": "אפשר לפתור משוואה מעריכית עם בסיס משותף.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כותבים את שני הצדדים כחזקה של 3."
+    },
+    {
+      "id": "exp_l2_p10",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משוואת לוג",
+      "body_he": "פתרו log2(x) = 6. מהו x?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "64"
+        },
+        {
+          "id": "c",
+          "label": "12"
+        },
+        {
+          "id": "d",
+          "label": "32"
+        }
+      ],
+      "correct": "b",
+      "hint": "חוזרים לחזקה: x הוא 2 בחזקת אגף ימין.",
+      "worked_method": "x = 2^6 = 64.",
+      "can_do": "אפשר לפתור משוואת לוג קצרה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "חוזרים לחזקה: x הוא 2 בחזקת אגף ימין."
+    },
+    {
+      "id": "exp_l2_p11",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לוג ו exp",
+      "body_he": "מה e בחזקת ln 5?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "e"
+        },
+        {
+          "id": "d",
+          "label": "ln 5"
+        }
+      ],
+      "correct": "b",
+      "hint": "המעריכית והלוג הטבעי מבטלים זה את זה.",
+      "worked_method": "e^(ln 5) = 5.",
+      "can_do": "אפשר לצמצם e בחזקת ln.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "המעריכית והלוג הטבעי מבטלים זה את זה."
+    },
+    {
+      "id": "exp_l2_p12",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לוג גדול",
+      "body_he": "מהו log2 של 512?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "10"
+        },
+        {
+          "id": "c",
+          "label": "11"
+        },
+        {
+          "id": "d",
+          "label": "9"
+        }
+      ],
+      "correct": "d",
+      "hint": "באיזו חזקה מעלים את 2 כדי לקבל את המספר.",
+      "worked_method": "2 בחזקת 9 שווה 512, לכן הלוג הוא 9.",
+      "can_do": "אפשר לחשב לוג לפי בסיס 2 של חזקה של 2.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "באיזו חזקה מעלים את 2 כדי לקבל את המספר."
+    },
+    {
+      "id": "exp_l2_p13",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תחום של לוג",
+      "body_he": "לאילו x הלוג של (x - 2) מוגדר, בבסיס חוקי?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "x > 2"
+        },
+        {
+          "id": "b",
+          "label": "x >= 2"
+        },
+        {
+          "id": "c",
+          "label": "x > 0"
+        },
+        {
+          "id": "d",
+          "label": "x ≠ 2"
+        }
+      ],
+      "correct": "a",
+      "hint": "הארגומנט חייב להיות חיובי, לא אפס.",
+      "worked_method": "x - 2 > 0, לכן x > 2. ב x = 2 הלוג לא מוגדר.",
+      "can_do": "אפשר למצוא תחום של לוגריתם.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הארגומנט חייב להיות חיובי, לא אפס."
+    },
+    {
+      "id": "exp_l2_p14",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "בסיסים שווים",
+      "body_he": "אם 5^a = 5^b, מה נכון?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a = b"
+        },
+        {
+          "id": "b",
+          "label": "אי אפשר לדעת"
+        },
+        {
+          "id": "c",
+          "label": "a = b + 5"
+        },
+        {
+          "id": "d",
+          "label": "a = 5b"
+        }
+      ],
+      "correct": "a",
+      "hint": "הפונקציה המעריכית חד חד ערכית.",
+      "worked_method": "מבסיס שווה ומעריכים שאולי שונים מסיקים שהמעריכים שווים.",
+      "can_do": "אפשר להשוות מעריכים כשהבסיס אותו בסיס חוקי.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הפונקציה המעריכית חד חד ערכית."
+    },
+    {
+      "id": "exp_l2_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת משוואות",
+      "body_he": "פתרו 5^x = 125.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "5"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        },
+        {
+          "id": "d",
+          "label": "25"
+        }
+      ],
+      "correct": "c",
+      "hint": "125 = 5^3.",
+      "worked_method": "x = 3.",
+      "can_do": "אפשר לפתור עוד משוואה מעריכית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "125 = 5^3."
+    },
+    {
+      "id": "exp_l3_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "נגזרת, גידול ודעיכה",
+      "body_he": "הנגזרת של e^(kx) היא k e^(kx). הנגזרת של ln x היא 1/x. לכן גידול מעריכי מאיץ: השיפוע פרופורציוני לגודל. במחצית חיים הכמות מוכפלת ב 1/2 בכל פרק זמן h, כלומר N = N0 * (1/2)^(t/h). אחרי שני פרקים נשאר רבע, אחרי שלושה שמינית. גידול שמוכפל כל שעה גדל פי 8 אחרי שלוש שעות, לא פי 6.",
+      "can_do": "אפשר לגזור לוג ומעריך, ולחשב גידול או דעיכה במספר שלם של צעדים."
+    },
+    {
+      "id": "exp_l3_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נגזרת מעריכית",
+      "body_he": "אם y = e^(2x), מה y'?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2e^(2x)"
+        },
+        {
+          "id": "b",
+          "label": "2e^x"
+        },
+        {
+          "id": "c",
+          "label": "e^(2x) / 2"
+        },
+        {
+          "id": "d",
+          "label": "e^(2x)"
+        }
+      ],
+      "correct": "a",
+      "hint": "גוזרים את החזקה וכופלים בנגזרת הפנימית.",
+      "worked_method": "הנגזרת של e^(2x) היא e^(2x) כפול 2.",
+      "can_do": "אפשר לגזור פונקציה מעריכית עם מנה פנימית לינארית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "גוזרים את החזקה וכופלים בנגזרת הפנימית."
+    },
+    {
+      "id": "exp_l3_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נגזרת לוג",
+      "body_he": "הנגזרת של ln x ב x = 2 היא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2"
+        },
+        {
+          "id": "b",
+          "label": "1/2"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        },
+        {
+          "id": "d",
+          "label": "ln 2"
+        }
+      ],
+      "correct": "b",
+      "hint": "הנגזרת של ln x היא 1/x.",
+      "worked_method": "1/2.",
+      "can_do": "אפשר להציב בנגזרת של לוג טבעי.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הנגזרת של ln x היא 1/x."
+    },
+    {
+      "id": "exp_l3_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מחצית חיים",
+      "body_he": "כמות מתחילה ב N0 וכל פרק זמן קבוע יורדת לחצי. אחרי שני פרקי זמן נשאר",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כלום"
+        },
+        {
+          "id": "b",
+          "label": "רבע מהכמות"
+        },
+        {
+          "id": "c",
+          "label": "שמינית"
+        },
+        {
+          "id": "d",
+          "label": "חצי"
+        }
+      ],
+      "correct": "b",
+      "hint": "חצי של חצי.",
+      "worked_method": "(1/2)^2 = 1/4.",
+      "can_do": "אפשר לחשב דעיכה בשני זמני מחצית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "חצי של חצי."
+    },
+    {
+      "id": "exp_l3_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נוסחת דעיכה",
+      "body_he": "המודל N = N0 כפול (1/2)^(t/h) מתאר",
+      "choices": [
+        {
+          "id": "a",
+          "label": "דעיכה לחצי בכל פרק h"
+        },
+        {
+          "id": "b",
+          "label": "ירידה לינארית בקצב h"
+        },
+        {
+          "id": "c",
+          "label": "גידול שמוכפל בכל פרק h"
+        },
+        {
+          "id": "d",
+          "label": "פונקציה קבועה"
+        }
+      ],
+      "correct": "a",
+      "hint": "כש t = h המעריך הוא 1 והגורם הוא 1/2.",
+      "worked_method": "בכל תוספת h לזמן הכמות מוכפלת ב 1/2.",
+      "can_do": "אפשר לקרוא מודל של מחצית חיים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כש t = h המעריך הוא 1 והגורם הוא 1/2."
+    },
+    {
+      "id": "exp_l3_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "גידול",
+      "body_he": "אוכלוסייה מוכפלת כל שעה. אחרי 3 שעות היא גדולה פי",
+      "choices": [
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "3"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        },
+        {
+          "id": "d",
+          "label": "6"
+        }
+      ],
+      "correct": "a",
+      "hint": "2 בחזקת 3.",
+      "worked_method": "כפל חוזר בשתיים, שלוש פעמים, הוא 8.",
+      "can_do": "אפשר לחשב גידול מעריכי במספר שלם של צעדים.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "2 בחזקת 3."
+    },
+    {
+      "id": "exp_l3_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "השוואה",
+      "body_he": "לעומת ישר, פונקציה מעריכית עולה עם בסיס גדול מ 1",
+      "choices": [
+        {
+          "id": "a",
+          "label": "בקצב שהנגזרת שלו גם גדלה"
+        },
+        {
+          "id": "b",
+          "label": "תמיד לאט יותר מכל ישר"
+        },
+        {
+          "id": "c",
+          "label": "רק עד נקודה ואז יורדת"
+        },
+        {
+          "id": "d",
+          "label": "בקצב קבוע"
+        }
+      ],
+      "correct": "a",
+      "hint": "הנגזרת של e^(kx) פרופורציונית לפונקציה עצמה.",
+      "worked_method": "ככל שהערך גדול יותר, גם השיפוע גדול יותר. זו המשמעות של גידול מעריכי.",
+      "can_do": "אפשר להסביר למה גידול מעריכי מאיץ.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הנגזרת של e^(kx) פרופורציונית לפונקציה עצמה."
+    },
+    {
+      "id": "exp_l3_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משוואה מעורבת",
+      "body_he": "פתרו 2^(x+1) = 32.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "5"
+        },
+        {
+          "id": "b",
+          "label": "4"
+        },
+        {
+          "id": "c",
+          "label": "16"
+        },
+        {
+          "id": "d",
+          "label": "3"
+        }
+      ],
+      "correct": "b",
+      "hint": "32 = 2^5, לכן x + 1 = 5.",
+      "worked_method": "x = 4. בדיקה: 2^5 = 32.",
+      "can_do": "אפשר לפתור משוואה מעריכית עם הזזה במעריך.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "32 = 2^5, לכן x + 1 = 5."
+    },
+    {
+      "id": "exp_l3_p8",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נגזרת של a^x רעיון",
+      "body_he": "הנגזרת של ln(2x) עבור x חיובי היא",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/x"
+        },
+        {
+          "id": "b",
+          "label": "ln 2"
+        },
+        {
+          "id": "c",
+          "label": "1/(2x)"
+        },
+        {
+          "id": "d",
+          "label": "2/x"
+        }
+      ],
+      "correct": "a",
+      "hint": "ln(2x) = ln 2 + ln x, והנגזרת של קבוע היא 0.",
+      "worked_method": "1/x. אפשר גם בכלל השרשרת: 1/(2x) כפול 2 = 1/x.",
+      "can_do": "אפשר לגזור לוג של כפולה.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "ln(2x) = ln 2 + ln x, והנגזרת של קבוע היא 0."
+    },
+    {
+      "id": "exp_l3_p9",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ארבע מחציות",
+      "body_he": "אחרי 4 זמני מחצית, איזה חלק נשאר מהכמות המקורית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/8"
+        },
+        {
+          "id": "b",
+          "label": "1/4"
+        },
+        {
+          "id": "c",
+          "label": "1/16"
+        },
+        {
+          "id": "d",
+          "label": "4/2"
+        }
+      ],
+      "correct": "c",
+      "hint": "בכל זמן מחצית הכמות מוכפלת ב 1/2.",
+      "worked_method": "(1/2) בחזקת 4 שווה 1/16.",
+      "can_do": "אפשר לחשב דעיכה במספר שלם של זמני מחצית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "בכל זמן מחצית הכמות מוכפלת ב 1/2."
+    },
+    {
+      "id": "exp_l3_p10",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שש מחציות",
+      "body_he": "אחרי 6 זמני מחצית, איזה חלק נשאר מהכמות המקורית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/64"
+        },
+        {
+          "id": "b",
+          "label": "6/2"
+        },
+        {
+          "id": "c",
+          "label": "1/6"
+        },
+        {
+          "id": "d",
+          "label": "1/12"
+        }
+      ],
+      "correct": "a",
+      "hint": "בכל זמן מחצית הכמות מוכפלת ב 1/2.",
+      "worked_method": "(1/2) בחזקת 6 שווה 1/64.",
+      "can_do": "אפשר לחשב דעיכה במספר שלם של זמני מחצית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "בכל זמן מחצית הכמות מוכפלת ב 1/2."
+    },
+    {
+      "id": "exp_l3_p11",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "גידול שכופל",
+      "body_he": "כמות שמוכפלת בכל שעה. פי כמה היא אחרי 4 שעות?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "4"
+        },
+        {
+          "id": "b",
+          "label": "16"
+        },
+        {
+          "id": "c",
+          "label": "8"
+        },
+        {
+          "id": "d",
+          "label": "12"
+        }
+      ],
+      "correct": "b",
+      "hint": "כל שעה כפל ב 2, לא חיבור של 2.",
+      "worked_method": "2^4 = 16. זה לא 2 כפול 4.",
+      "can_do": "אפשר לחשב גידול שמכפיל את עצמו.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כל שעה כפל ב 2, לא חיבור של 2."
+    },
+    {
+      "id": "exp_l3_p12",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נגזרת מעריכית",
+      "body_he": "מה הנגזרת של e^(3x)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3e^x"
+        },
+        {
+          "id": "b",
+          "label": "e^(3x)/3"
+        },
+        {
+          "id": "c",
+          "label": "3e^(3x)"
+        },
+        {
+          "id": "d",
+          "label": "e^(3x)"
+        }
+      ],
+      "correct": "c",
+      "hint": "הנגזרת של e^(kx) היא k כפול e^(kx).",
+      "worked_method": "כאן k = 3, לכן הנגזרת 3e^(3x).",
+      "can_do": "אפשר לגזור אקספוננט עם מקדם במעריך.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "הנגזרת של e^(kx) היא k כפול e^(kx)."
+    },
+    {
+      "id": "exp_l3_p13",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נגזרת של ln",
+      "body_he": "מה הנגזרת של ln x, עבור x חיובי?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "e^x"
+        },
+        {
+          "id": "b",
+          "label": "x"
+        },
+        {
+          "id": "c",
+          "label": "1/x"
+        },
+        {
+          "id": "d",
+          "label": "ln x"
+        }
+      ],
+      "correct": "c",
+      "hint": "זו הנגזרת הבסיסית של הלוג הטבעי.",
+      "worked_method": "(ln x)' = 1/x.",
+      "can_do": "אפשר לגזור ln x.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "זו הנגזרת הבסיסית של הלוג הטבעי."
+    },
+    {
+      "id": "exp_l3_p14",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "שני זמני מחצית",
+      "body_he": "אחרי שני זמני מחצית נשאר",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/2"
+        },
+        {
+          "id": "b",
+          "label": "0"
+        },
+        {
+          "id": "c",
+          "label": "1/3"
+        },
+        {
+          "id": "d",
+          "label": "1/4"
+        }
+      ],
+      "correct": "d",
+      "hint": "חצי של חצי.",
+      "worked_method": "(1/2)^2 = 1/4.",
+      "can_do": "אפשר לחשב שתי מחציות.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "חצי של חצי."
+    },
+    {
+      "id": "exp_l3_check",
+      "type": "check",
+      "kind": "understanding",
+      "title": "בדיקת גידול ודעיכה",
+      "body_he": "אחרי שלושה זמני מחצית נשאר מהכמות המקורית",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/3"
+        },
+        {
+          "id": "b",
+          "label": "1/6"
+        },
+        {
+          "id": "c",
+          "label": "1/4"
+        },
+        {
+          "id": "d",
+          "label": "1/8"
+        }
+      ],
+      "correct": "d",
+      "hint": "חצי, רבע, שמינית.",
+      "worked_method": "(1/2)^3 = 1/8.",
+      "can_do": "אפשר לחשב דעיכה בשלושה זמני מחצית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "חצי, רבע, שמינית."
+    },
+    {
+      "id": "exp_rev_1",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, לוג",
+      "body_he": "מהו log2 של 1024?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "12"
+        },
+        {
+          "id": "b",
+          "label": "10"
+        },
+        {
+          "id": "c",
+          "label": "9"
+        },
+        {
+          "id": "d",
+          "label": "11"
+        }
+      ],
+      "correct": "b",
+      "hint": "באיזו חזקה מעלים את 2 כדי לקבל את המספר.",
+      "worked_method": "2 בחזקת 10 שווה 1024, לכן הלוג הוא 10.",
+      "can_do": "אפשר לחשב לוג לפי בסיס 2 של חזקה של 2.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "באיזו חזקה מעלים את 2 כדי לקבל את המספר.",
+      "review_topic_ids": [
+        "exp_l1",
+        "exp_l2",
+        "exp_l3"
+      ]
+    },
+    {
+      "id": "exp_rev_2",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, שלוש מחציות",
+      "body_he": "אחרי 3 זמני מחצית, איזה חלק נשאר מהכמות המקורית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/6"
+        },
+        {
+          "id": "b",
+          "label": "1/3"
+        },
+        {
+          "id": "c",
+          "label": "3/2"
+        },
+        {
+          "id": "d",
+          "label": "1/8"
+        }
+      ],
+      "correct": "d",
+      "hint": "בכל זמן מחצית הכמות מוכפלת ב 1/2.",
+      "worked_method": "(1/2) בחזקת 3 שווה 1/8.",
+      "can_do": "אפשר לחשב דעיכה במספר שלם של זמני מחצית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "בכל זמן מחצית הכמות מוכפלת ב 1/2.",
+      "review_topic_ids": [
+        "exp_l1",
+        "exp_l2",
+        "exp_l3"
+      ]
+    },
+    {
+      "id": "exp_rev_3",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, 2^x",
+      "body_he": "פתרו 2^x = 32.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "16"
+        },
+        {
+          "id": "c",
+          "label": "5"
+        },
+        {
+          "id": "d",
+          "label": "4"
+        }
+      ],
+      "correct": "c",
+      "hint": "32 הוא 2^5.",
+      "worked_method": "x=5.",
+      "can_do": "אפשר מעריך.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "32 הוא 2^5.",
+      "review_topic_ids": [
+        "exp_l1",
+        "exp_l2",
+        "exp_l3"
+      ]
+    },
+    {
+      "id": "exp_rev_4",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, log",
+      "body_he": "פתרו log2(x) = 3.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "8"
+        },
+        {
+          "id": "b",
+          "label": "9"
+        },
+        {
+          "id": "c",
+          "label": "6"
+        },
+        {
+          "id": "d",
+          "label": "16"
+        }
+      ],
+      "correct": "a",
+      "hint": "2^3.",
+      "worked_method": "x=8.",
+      "can_do": "אפשר לוג.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "2^3.",
+      "review_topic_ids": [
+        "exp_l1",
+        "exp_l2",
+        "exp_l3"
+      ]
+    },
+    {
+      "id": "exp_rev_5",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, נגזרת",
+      "body_he": "נגזרת של e^(2x)?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "2e^(2x)"
+        },
+        {
+          "id": "b",
+          "label": "e^(2x)/2"
+        },
+        {
+          "id": "c",
+          "label": "e^(2x)"
+        },
+        {
+          "id": "d",
+          "label": "2e^x"
+        }
+      ],
+      "correct": "a",
+      "hint": "כופלים במקדם שבמעריך.",
+      "worked_method": "2e^(2x).",
+      "can_do": "אפשר נגזרת מעריכית.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "כופלים במקדם שבמעריך.",
+      "review_topic_ids": [
+        "exp_l1",
+        "exp_l2",
+        "exp_l3"
+      ]
+    },
+    {
+      "id": "exp_rev_6",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה, כפל",
+      "body_he": "כמות שמוכפלת כל שעה. אחרי 5 שעות היא גדולה פי",
+      "choices": [
+        {
+          "id": "a",
+          "label": "10"
+        },
+        {
+          "id": "b",
+          "label": "16"
+        },
+        {
+          "id": "c",
+          "label": "25"
+        },
+        {
+          "id": "d",
+          "label": "32"
+        }
+      ],
+      "correct": "d",
+      "hint": "2^5.",
+      "worked_method": "32.",
+      "can_do": "אפשר גידול.",
+      "feedback_ok": "נכון.",
+      "feedback_try": "2^5.",
+      "review_topic_ids": [
+        "exp_l1",
+        "exp_l2",
+        "exp_l3"
+      ]
+    }
+  ]
+}
