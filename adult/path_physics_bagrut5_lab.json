@@ -1,0 +1,23 @@
+{
+  "id": "path_physics_bagrut5_lab",
+  "unavailable": true,
+  "titles": {
+    "he": "מעבדה",
+    "en": "Laboratory",
+    "ar": "المختبر"
+  },
+  "blurbs": {
+    "he": "בחינת המעבדה רשומה בתוכנית 5 יחידות. תוכנית שלבים עדיין לא פורסמה, ולכן אין כאן ניסויים.",
+    "en": "The 5-unit program includes a laboratory exam. No staged program is published, so this road has no experiments.",
+    "ar": "امتحان المختبر مذكور في برنامج 5 وحدات. لم يُنشر برنامج مراحل، لذلك لا تجارب هنا."
+  },
+  "subject": "physics",
+  "group_ids": ["adult"],
+  "emoji": "מ",
+  "explain_locale": "he",
+  "content_locale": "he",
+  "estimated_minutes": 1,
+  "prerequisite_path_ids": [],
+  "topics": [],
+  "nodes": []
+}
