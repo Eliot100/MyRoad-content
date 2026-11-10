@@ -24,22 +24,12 @@ ROLES = (
 )
 
 
-def pad(text: str, salt: int) -> str:
-    """True arithmetic lines, long enough for the span generator. No invented story."""
-    n = 1
-    while len(text) < 900:
-        a = salt * 19 + n
-        text += f" בדיקה {n}: {a} ועוד 1 שווה {a + 1}, לא {a + 2}."
-        n += 1
-    return text
-
-
-def node(nid: str, ntype: str, role: str, title: str, body: str, salt: int, item: dict | None) -> dict:
+def node(nid: str, ntype: str, role: str, title: str, body: str, item: dict | None) -> dict:
     out = {
         "id": nid,
         "type": ntype,
         "title": title,
-        "body_he": pad(body, salt),
+        "body_he": body,
         "tile_role": role,
         "kind": "understanding",
     }
@@ -73,7 +63,7 @@ def road(spec: dict) -> dict:
             use = item if ntype != "learn" else None
             if role == "worked_example":
                 body = f"{lead} דוגמה: {item['ask']} התשובה היא {item['ok']}. {item['ok_he']}"
-            built = node(nid, ntype, role, title, body, salt=index * 10 + role_i + 2, item=use)
+            built = node(nid, ntype, role, title, body, item=use)
             if role == "explanation" and item.get("speak"):
                 built["speak_text"] = item["speak"]
             if item.get("content") and ntype == "learn":
