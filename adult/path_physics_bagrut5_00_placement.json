@@ -6,9 +6,9 @@
     "ar": "اختبار مستوى الفيزياء"
   },
   "blurbs": {
-    "he": "ארבע שאלות: מכניקה, חשמל, גלים, וקרינה. המעבדה אינה כאן.",
-    "en": "Four questions: mechanics, electricity, waves, radiation. No lab.",
-    "ar": "أربعة أسئلة. بلا مختبر."
+    "he": "עשר שאלות קצרות, שתיים בכל רמה. לפי הציון נפתחת הדרך, בלי חומר חדש.",
+    "en": "Ten short questions, two in each band. The score opens the road. No new material.",
+    "ar": "عشرة أسئلة قصيرة، اثنان في كل مستوى. العلامة تفتح الطريق."
   },
   "subject": "physics",
   "group_ids": [
@@ -63,6 +63,72 @@
       "node_ids": [
         "p3"
       ]
+    },
+    {
+      "id": "t4",
+      "titles": {
+        "he": "שולחן",
+        "en": "Table"
+      },
+      "emoji": "Φ",
+      "node_ids": [
+        "p4"
+      ]
+    },
+    {
+      "id": "t5",
+      "titles": {
+        "he": "תאוצה",
+        "en": "Acceleration"
+      },
+      "emoji": "Φ",
+      "node_ids": [
+        "p5"
+      ]
+    },
+    {
+      "id": "t6",
+      "titles": {
+        "he": "עדשה",
+        "en": "Lens"
+      },
+      "emoji": "Φ",
+      "node_ids": [
+        "p6"
+      ]
+    },
+    {
+      "id": "t7",
+      "titles": {
+        "he": "לורנץ",
+        "en": "Lorentz"
+      },
+      "emoji": "Φ",
+      "node_ids": [
+        "p7"
+      ]
+    },
+    {
+      "id": "t8",
+      "titles": {
+        "he": "סף",
+        "en": "Threshold"
+      },
+      "emoji": "Φ",
+      "node_ids": [
+        "p8"
+      ]
+    },
+    {
+      "id": "t9",
+      "titles": {
+        "he": "פרדיי",
+        "en": "Faraday"
+      },
+      "emoji": "Φ",
+      "node_ids": [
+        "p9"
+      ]
     }
   ],
   "nodes": [
@@ -89,7 +155,7 @@
       "feedback_ok": "נכון. דרך חלקי זמן היא 5.",
       "feedback_try": "חלקו דרך בזמן.",
       "area": "mechanics",
-      "difficulty": -1.0
+      "difficulty": -3.2
     },
     {
       "id": "p1",
@@ -114,7 +180,7 @@
       "feedback_ok": "נכון. R = V/I = 3.",
       "feedback_try": "מתח חלקי זרם.",
       "area": "electricity",
-      "difficulty": 0.0
+      "difficulty": -1.1
     },
     {
       "id": "p2",
@@ -139,7 +205,7 @@
       "feedback_ok": "נכון. v = fλ = 6.",
       "feedback_try": "מכפלה, לא מנה.",
       "area": "waves",
-      "difficulty": 0.6
+      "difficulty": 0.2
     },
     {
       "id": "p3",
@@ -164,7 +230,157 @@
       "feedback_ok": "נכון. E = hf, אז תדירות גבוהה יותר היא אנרגיה גבוהה יותר.",
       "feedback_try": "האנרגיה יחסית לתדירות.",
       "area": "modern",
-      "difficulty": 1.0
+      "difficulty": 1.2
+    },
+    {
+      "id": "p4",
+      "type": "check",
+      "title": "שולחן",
+      "body_he": "גוף במנוחה על שולחן אופקי. איזה כוח מונע ממנו ליפול?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "כוח נורמל"
+        },
+        {
+          "id": "b",
+          "label": "כוח חיכוך בלבד"
+        },
+        {
+          "id": "c",
+          "label": "אין כוח"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. השולחן דוחף מעלה בכוח נורמל.",
+      "feedback_try": "בלי כוח כלפי מעלה הגוף נופל.",
+      "area": "mechanics",
+      "difficulty": -2.8
+    },
+    {
+      "id": "p5",
+      "type": "check",
+      "title": "תאוצה",
+      "body_he": "תאוצה של 2 מטר לשנייה בריבוע במשך 3 שניות, ממהירות אפס. מה המהירות?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6 מטר לשנייה"
+        },
+        {
+          "id": "b",
+          "label": "5 מטר לשנייה"
+        },
+        {
+          "id": "c",
+          "label": "1.5 מטר לשנייה"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. המהירות היא תאוצה כפול זמן.",
+      "feedback_try": "מכפלה, לא סכום.",
+      "area": "mechanics",
+      "difficulty": -1.8
+    },
+    {
+      "id": "p6",
+      "type": "check",
+      "title": "עדשה",
+      "body_he": "עצם רחוק מאוד מול עדשה מרכזת. איפה בערך נוצרת התמונה?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "במוקד"
+        },
+        {
+          "id": "b",
+          "label": "במרחק כפול מהמוקד"
+        },
+        {
+          "id": "c",
+          "label": "על העדשה"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. קרניים מקבילות נפגשות במוקד.",
+      "feedback_try": "לא על העדשה עצמה.",
+      "area": "waves",
+      "difficulty": 0.5
+    },
+    {
+      "id": "p7",
+      "type": "check",
+      "title": "לורנץ",
+      "body_he": "מטען נע במקביל לשדה מגנטי. מה גודל כוח לורנץ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "אפס"
+        },
+        {
+          "id": "b",
+          "label": "הערך המקסימלי"
+        },
+        {
+          "id": "c",
+          "label": "שווה לגודל המטען"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. הכוח תלוי ברכיב הניצב לשדה, וכאן אין רכיב כזה.",
+      "feedback_try": "תנועה במקביל לשדה אינה נחתכת על ידו.",
+      "area": "magnetism",
+      "difficulty": 1.8
+    },
+    {
+      "id": "p8",
+      "type": "check",
+      "title": "סף",
+      "body_he": "תדירות האור נמוכה מסף הפוטואלקטרי. מה הזרם?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "אין זרם"
+        },
+        {
+          "id": "b",
+          "label": "זרם מקסימלי"
+        },
+        {
+          "id": "c",
+          "label": "זרם קבוע שאינו תלוי בתדירות"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. מתחת לסף אין פליטת אלקטרונים.",
+      "feedback_try": "הסף הוא תנאי, לא רק עוצמה.",
+      "area": "modern",
+      "difficulty": 2.6
+    },
+    {
+      "id": "p9",
+      "type": "check",
+      "title": "פרדיי",
+      "body_he": "השטף המגנטי דרך כריכה קבוע. מה הכא״מ המושרה?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "אפס"
+        },
+        {
+          "id": "b",
+          "label": "מקסימלי"
+        },
+        {
+          "id": "c",
+          "label": "שווה לשטף"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. כא״מ מושרה רק כשהשטף משתנה.",
+      "feedback_try": "שטף קבוע אינו שינוי.",
+      "area": "magnetism",
+      "difficulty": 3.1
     }
   ]
 }

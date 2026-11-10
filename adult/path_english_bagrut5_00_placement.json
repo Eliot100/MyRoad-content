@@ -97,6 +97,7 @@
         "plc_t_read_idea",
         "plc_t_read_detail",
         "plc_t_read_infer",
+        "plc_t_read_why",
         "plc_t_read_word"
       ]
     },
@@ -608,6 +609,36 @@
       "can_do": "להסיק סיבה ממה שכתוב בקטע",
       "worked_method": "בשאלת למה מצאו בקטע את המשפט שנותן סיבה.\nהקטע מספר שבערבי לימודים מלא, ובשישי שקט. נעילה וחוסר ספרים לא מופיעים.\nהתשובה: The text says school nights are full and Fridays are quiet.",
       "hint": "חפשו בקטע מה נאמר על ימי שישי ועל ערבי לימודים."
+    },
+    {
+      "id": "plc_t_read_why",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "למה נשארה פתוחה",
+      "body_he": "למה הספרייה נשארה פתוחה אחרי הצהריים?",
+      "body_content": "The small library on Herzl Street used to close at noon. Last winter the city kept it open until eight, after a group of students wrote a letter to the mayor. They said the afternoon was the only time they could study, because the school building locked its doors at two.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The students wrote that afternoon was the only time they could study."
+        },
+        {
+          "id": "b",
+          "label": "The mayor wanted the street to stay noisy.",
+          "feedback": "הקטע לא אומר את זה."
+        },
+        {
+          "id": "c",
+          "label": "The school stayed open all night.",
+          "feedback": "בית הספר ננעל. הספרייה היא שנשארה פתוחה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "התלמידים כתבו שזה הזמן היחיד שבו הם יכולים ללמוד.",
+      "feedback_try": "חפשו במכתב למה הם ביקשו להשאיר את הספרייה פתוחה.",
+      "area": "reading",
+      "difficulty": 2.8,
+      "can_do": "למצוא בקטע את הסיבה שנכתבה במפורש"
     },
     {
       "id": "plc_t_read_word",

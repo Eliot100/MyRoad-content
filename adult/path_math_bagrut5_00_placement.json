@@ -6,9 +6,9 @@
     "ar": "اختبار مستوى الرياضيات"
   },
   "blurbs": {
-    "he": "ארבע שאלות קצרות. לפי הטעויות נפתחת הדרך, בלי חומר חדש.",
-    "en": "Four short questions. Mistakes open the road. No new material.",
-    "ar": "أربعة أسئلة قصيرة. الأخطاء تفتح الطريق."
+    "he": "עשר שאלות קצרות, שתיים בכל רמה. לפי הציון נפתחת הדרך, בלי חומר חדש.",
+    "en": "Ten short questions, two in each band. The score opens the road. No new material.",
+    "ar": "عشرة أسئلة قصيرة، اثنان في كل مستوى. العلامة تفتح الطريق."
   },
   "subject": "math",
   "group_ids": [
@@ -63,6 +63,72 @@
       "node_ids": [
         "p3"
       ]
+    },
+    {
+      "id": "t4",
+      "titles": {
+        "he": "קו אופקי",
+        "en": "Horizontal line"
+      },
+      "emoji": "∑",
+      "node_ids": [
+        "p4"
+      ]
+    },
+    {
+      "id": "t5",
+      "titles": {
+        "he": "זווית",
+        "en": "Angle"
+      },
+      "emoji": "∑",
+      "node_ids": [
+        "p5"
+      ]
+    },
+    {
+      "id": "t6",
+      "titles": {
+        "he": "נגזרת",
+        "en": "Derivative"
+      },
+      "emoji": "∑",
+      "node_ids": [
+        "p6"
+      ]
+    },
+    {
+      "id": "t7",
+      "titles": {
+        "he": "שתי הטלות",
+        "en": "Two tosses"
+      },
+      "emoji": "∑",
+      "node_ids": [
+        "p7"
+      ]
+    },
+    {
+      "id": "t8",
+      "titles": {
+        "he": "אינטגרל",
+        "en": "Integral"
+      },
+      "emoji": "∑",
+      "node_ids": [
+        "p8"
+      ]
+    },
+    {
+      "id": "t9",
+      "titles": {
+        "he": "i בריבוע",
+        "en": "i squared"
+      },
+      "emoji": "∑",
+      "node_ids": [
+        "p9"
+      ]
     }
   ],
   "nodes": [
@@ -89,7 +155,7 @@
       "feedback_ok": "נכון. (5−1)/(2−0) = 2.",
       "feedback_try": "שינוי ב־y חלקי שינוי ב־x.",
       "area": "analysis",
-      "difficulty": -1.0
+      "difficulty": -3.0
     },
     {
       "id": "p1",
@@ -114,7 +180,7 @@
       "feedback_ok": "נכון. 3²+4²=25, והשורש הוא 5.",
       "feedback_try": "משפט פיתגורס, לא סכום הניצבים.",
       "area": "geometry",
-      "difficulty": -0.2
+      "difficulty": -1.6
     },
     {
       "id": "p2",
@@ -139,7 +205,7 @@
       "feedback_ok": "נכון. הפרש 3, אז 8+3=11.",
       "feedback_try": "מוסיפים את אותו הפרש.",
       "area": "sequences",
-      "difficulty": 0.4
+      "difficulty": 0.0
     },
     {
       "id": "p3",
@@ -164,7 +230,157 @@
       "feedback_ok": "נכון. 2, 4, 6 מתוך 6, כלומר 1/2.",
       "feedback_try": "שלוש תוצאות זוגיות מתוך שש.",
       "area": "probability",
-      "difficulty": 0.8
+      "difficulty": 0.3
+    },
+    {
+      "id": "p4",
+      "type": "check",
+      "title": "קו אופקי",
+      "body_he": "מה השיפוע של קו אופקי?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "0"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "לא מוגדר"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. קו אופקי לא עולה ולא יורד.",
+      "feedback_try": "השיפוע הוא השינוי ב־y כש־x עולה ב־1.",
+      "area": "analysis",
+      "difficulty": -3.5
+    },
+    {
+      "id": "p5",
+      "type": "check",
+      "title": "זווית",
+      "body_he": "במשולש שווה צלעות, מה גודל כל זווית?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "60 מעלות"
+        },
+        {
+          "id": "b",
+          "label": "90 מעלות"
+        },
+        {
+          "id": "c",
+          "label": "45 מעלות"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. שלוש הזוויות שוות, וסכומן 180.",
+      "feedback_try": "שלוש זוויות שוות, לא זווית ישרה.",
+      "area": "geometry",
+      "difficulty": -2.0
+    },
+    {
+      "id": "p6",
+      "type": "check",
+      "title": "נגזרת",
+      "body_he": "מה הנגזרת של x² בנקודה x = 3?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "6"
+        },
+        {
+          "id": "b",
+          "label": "9"
+        },
+        {
+          "id": "c",
+          "label": "3"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. הנגזרת היא 2x, וב־x = 3 זה 6.",
+      "feedback_try": "גוזרים קודם, ואז מציבים.",
+      "area": "analysis",
+      "difficulty": 1.2
+    },
+    {
+      "id": "p7",
+      "type": "check",
+      "title": "שתי הטלות",
+      "body_he": "מטבע הוגן מוטל פעמיים. מה ההסתברות לשני עץ?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1/4"
+        },
+        {
+          "id": "b",
+          "label": "1/2"
+        },
+        {
+          "id": "c",
+          "label": "1/3"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. 1/2 כפול 1/2.",
+      "feedback_try": "כל הטלה עצמאית, אז מכפילים.",
+      "area": "probability",
+      "difficulty": 1.8
+    },
+    {
+      "id": "p8",
+      "type": "check",
+      "title": "אינטגרל",
+      "body_he": "מה האינטגרל של 2x מ־0 עד 3?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "9"
+        },
+        {
+          "id": "b",
+          "label": "6"
+        },
+        {
+          "id": "c",
+          "label": "12"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. x² מ־0 עד 3 הוא 9.",
+      "feedback_try": "הפונקציה הקדומה של 2x היא x².",
+      "area": "analysis",
+      "difficulty": 2.6
+    },
+    {
+      "id": "p9",
+      "type": "check",
+      "title": "i בריבוע",
+      "body_he": "מהו i בריבוע?",
+      "choices": [
+        {
+          "id": "a",
+          "label": "-1"
+        },
+        {
+          "id": "b",
+          "label": "1"
+        },
+        {
+          "id": "c",
+          "label": "0"
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. כך מוגדר i.",
+      "feedback_try": "i אינו 1 ואינו 0.",
+      "area": "complex",
+      "difficulty": 3.2
     }
   ]
 }

@@ -21,6 +21,11 @@ except ImportError:  # pragma: no cover
     check_prerequisites = None
     validate_stage_levels = None
 
+try:
+    from myroad_core.content.placement_score import placement_band_gaps
+except ImportError:  # pragma: no cover
+    placement_band_gaps = None
+
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -61,6 +66,9 @@ def main() -> int:
         if validate_stage_levels is not None:
             for msg in validate_stage_levels(path):
                 errors.append(f"{rel}: levels: {msg}")
+        if placement_band_gaps is not None:
+            for msg in placement_band_gaps(path.id, path.nodes):
+                errors.append(f"{rel}: bands: {msg}")
 
     if check_prerequisites is not None:
         errors.extend(f"prerequisites: {msg}" for msg in check_prerequisites(loaded))
