@@ -10,7 +10,7 @@
 |-------|------------|
 | Learner | Adult (MyRoad v1 audience). Content later in Hebrew with technical terms; UI languages he/en/ar. |
 | Start | Near zero formal chemistry. Assumes arithmetic and basic algebra, plus enough Hebrew (or supported UI language) to read short explanations. No assumed high-school chemistry. |
-| Target | Readiness for Israel MoE **Chemistry 5 יח"ל** under the published 70% external / 30% internal program, especially the written external questionnaire. This is learning readiness, not a promised bagrut grade. |
+| Target | Readiness for Israel MoE **Chemistry 5 יח"ל**. School students: 70% = written 037381/037387 (55%) + inquiry lab 037388/037376 (15%), plus 30% internal. **Adult externals** have no internal part and sit three external papers: **037381 (55%) + 037382 (15%) + 037282 (30%)** ([source](https://pop.education.gov.il/tchumey_daat/chemistry/high-school/pedagogy/matriculation-exams/)). This is learning readiness, not a promised bagrut grade. |
 | Content originality | Sample items in this doc are **original**. Do not copy exam items. Future practice items must be original or clearly licensed. |
 
 Hebrew glossary (approved MyRoad terms): מקצוע → סדרה → דרך → שלב → משבצת.
@@ -96,6 +96,6 @@ No fake baselines. Until real answers exist, UI shows honest zeros.
 ## 10. Next steps (when leaving planning)
 
 1. Parse the official curriculum PDF topic tables and any formula sheet.
-2. Confirm external/resit questionnaire codes for adult examinees on the live exams page.
+2. External/resit codes confirmed: **037381 + 037382 + 037282** (from summer תשע"ח on) ([source](https://pop.education.gov.il/tchumey_daat/chemistry/high-school/pedagogy/matriculation-exams/)); check the separate תשפ"ז focusing file for externals.
 3. Decide one long path vs a series.
 4. Author content JSON under `adult/` (never under `planning/`).
