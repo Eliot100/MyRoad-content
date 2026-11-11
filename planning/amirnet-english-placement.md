@@ -111,5 +111,5 @@ Checked 2026-11-10.
 
 - **Decision recorded.** Eliot approved moving English off the psychometric road and onto an AMIRNET placement/exemption road (2026-11-10). The old filename and "toward ~800" framing are gone.
 - **Scale now cited from NITE**, not left unverified: 50–150, equivalent to former PET English / AMIR / AMIRAM. Exemption and placement cutoffs stay institution-specific; no single cutoff is stated here.
-- **Unverified:** exact operational item counts and per-section time limits (NITE describes types and total duration, not a raw-score-to-scale table we can turn into a finish gate). All stage hour figures and percentage finish thresholds remain planning estimates.
+- **Unverified** (fact check 2026-11-11: unverified): exact operational item counts and per-section time limits (NITE describes types and total duration, not a raw-score-to-scale table we can turn into a finish gate). All stage hour figures and percentage finish thresholds remain planning estimates.
 - **Originality check:** sample items grepped against MyRoad-content and MyRoad (no matches) in the 2026-11-09 draft; wording unchanged in this rename.

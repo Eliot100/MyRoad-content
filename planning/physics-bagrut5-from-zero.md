@@ -29,7 +29,7 @@ Checked with `curl` (HTTP 200) on 2026-11-06 (Asia/Jerusalem):
 
 **Not invented:** exact hour allocations, formula sheets, and full topic tables live in MoE PDF curriculum packs linked from the curriculum page. Those PDFs were **not** fully downloaded/parsed in this planning pass. Treat fine-grained topic lists below as a **pedagogical scaffold aligned to the three named MoE content blocks**, to be reconciled against the official full curriculum PDF before any content JSON is authored.
 
-**Unverified / deferred:** precise recommended classroom hours per subtopic; exact weighting of lab vs written in every examinee population; whether a specific adult external examinee must take a given lab code. Mark as **schema/product decision + MoE PDF check** before shipping.
+**Unverified / deferred:** precise recommended classroom hours per subtopic; exact weighting of lab vs written in every examinee population. **Adult externals/re-takers (gap filled):** **036382** (written inquiry questionnaire) + **036282** (radiation & matter, 5 questions, answer 3) ([source](https://pop.education.gov.il/tchumey_daat/physics/high-school/pedagogy/matriculation-exams/)); confirm the exact pairing with אגף הבחינות. Mark as **schema/product decision + MoE PDF check** before shipping.
 
 ## 3. Stages (שלבים)
 

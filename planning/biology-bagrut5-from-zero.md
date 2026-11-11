@@ -28,9 +28,9 @@ Checked with `curl -I -L` on 2026-11-08 (Asia/Jerusalem):
 
 **Slug warning:** `…/tchumey_daat/biology/…` (English spelling) redirected to the pedagogical-space homepage on 2026-11-08. The live subject slug is **`biologya`**. An earlier note that the curriculum page “occasionally 404s” referred to the wrong slug.
 
-**Not invented:** fine-grained syllabus tables inside the 2015 curriculum PDF linked from the specialist page (not fully parsed here); year-specific mikud; exact questionnaire numbers for every examinee population.
+**Not invented:** fine-grained syllabus tables inside the 2015 curriculum PDF linked from the specialist page (not fully parsed here); year-specific mikud. **Questionnaire codes (gap filled):** theory paper **43381** (4 chapters, 32/35/18/15 pts, 3.5 h on the summer 2026 alternate sitting) ([source](https://meyda.education.gov.il/sheeloney_bagrut/2026/6/HEB/43381.pdf)); practical lab exam **43386** (3 h) ([source](https://meyda.education.gov.il/sheeloney_bagrut/2026/6/HEB/43386.pdf)). Externals' codes are not confirmed.
 
-**Unverified / deferred:** which deepening topic an adult external examinee must take; how much of the 30% research/lab component can be completed outside a school; recommended classroom hours per subtopic.
+**Unverified / deferred:** which deepening topic an adult external examinee must take; how much of the 30% research/lab component can be completed outside a school (fact check 2026-11-11: unverified); recommended classroom hours per subtopic.
 
 ## 3. Stages (שלבים)
 
@@ -88,6 +88,6 @@ Same event family as other planning roads: `session_start` / `session_end`, `til
 ## 10. Next steps (when leaving planning)
 
 1. Download and reconcile the official full specialist curriculum PDF.
-2. Confirm current questionnaire codes and mikud on the live MoE pages.
+2. Confirm externals' questionnaire codes (school codes 43381 / 43386 found, see section 2) and mikud on the live MoE pages.
 3. Decide how deepening-topic choice is represented in the product.
 4. Author JSON under `adult/` (never under `planning/`).

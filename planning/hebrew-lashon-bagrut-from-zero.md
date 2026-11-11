@@ -4,7 +4,7 @@ pathId: hebrew-lashon-bagrut-from-zero-adult
 title: עברית — הבנה, הבעה ולשון (Hebrew lashon) Bagrut from Zero — Adult external examinee
 learner: Adult Israeli learner (external examinee / נבחן אקסטרני or re-taker) completing the compulsory Hebrew bagrut.
 start: Fluent everyday Hebrew speaker with no formal grammar (לשון) since school, or never sat the exam. Not a Hebrew-as-second-language road (see YAEL outline).
-target: Readiness for the 70% external questionnaire 11281 (עברית: הבנה, הבעה ולשון) plus the written 30% questionnaire that externals sit instead of a school grade (11282 — unverified, see section 2).
+target: Readiness for the 70% external questionnaire 11281 (עברית: הבנה, הבעה ולשון) plus the written 30% questionnaire that externals sit instead of a school grade (**11282**, confirmed: "11282 עברית: הבנה, הבעה 30% — נבחני משנה ואקסטרניים") ([source](https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmaralyesodi2023_2024.pdf)).
 originality: All sample items original. Do not copy MoE exam texts, articles, or existing MyRoad wording.
 ---
 
@@ -40,7 +40,7 @@ Checked with `curl` + `pdftotext` on 2026-11-10 (Asia/Jerusalem):
 
 **Unverified / TODO**
 
-- **Externals' exact pair.** The תשפ"ד code table appears to route "נבחני משנה ואקסטרניים" to written paper **11282** in place of the school code 11283, but the PDF table text is garbled after extraction. **TODO:** confirm in the current (תשפ"ו/תשפ"ז) Hebrew circular or with אגף הבחינות before building exam-sim content for 11282.
+- **Externals' exact pair (confirmed).** The תשפ"ד code table lists "11282 עברית: הבנה, הבעה 30%" for "נבחני משנה ואקסטרניים", in place of the school code 11283 ([source](https://meyda.education.gov.il/files/Mazkirut_Pedagogit/Ivrit/hozermafmaralyesodi2023_2024.pdf)). **TODO:** read the 11282 content scope before building exam-sim content for it.
 - Content scope (מפרט תכנים) of 11282 and which grammar topics are in the reduced 30% scope were **not** read in this pass.
 - The 2003 curriculum is the framework document; the exam focus (מיקוד) per year may narrow topics. **TODO:** read the current מיקוד.
 - All hour figures below are **estimates**, not MoE figures.
@@ -157,7 +157,7 @@ Do not invent schema fields here; hand these to the format owner.
 
 ## 11. Next steps
 
-1. Confirm the externals' 30% paper (11282?) and its content scope in the current circular.
+1. Read the content scope of the externals' 30% paper 11282 (code confirmed) in the current circular.
 2. Read the current מיקוד and list the reduced-scope grammar topics.
 3. Write an original article bank (10 packs) before any path JSON.
 4. Hand schema gaps to the format owner.
