@@ -34,12 +34,12 @@ Checked with `curl` + `pdftotext` on 2026-11-10 (Asia/Jerusalem):
 | Bagrut paper 35571, summer תשפ"ו 2026 moed ב | https://meyda.education.gov.il/sheeloney_bagrut/2026/8/HEB/35571.pdf | 200 (PDF) | "תוכנית חדשה". Four chapters, 8 questions: 1 short questions (answer 2 of 4 sub-items); 2 **induction, sequences and probability**; 3 **plane geometry and trigonometry**; 4 **calculus of polynomial, root, rational and trigonometric functions**. Answer **5 questions, 22 pts each**, max 100. Non-graphing calculator + attached formula sheets. Duration on this paper: **4 hours 20 minutes**. Short-question samples include an induction proof and a sequence-in-a-triangle item. |
 | 35572 topics | from [math-bagrut5-from-zero.md](./math-bagrut5-from-zero.md) §2 (MoE new-curriculum page, checked 2026-11-07) | — (not re-checked) | Analytic geometry and vectors (incl. space trig), complex numbers, exp/log calculus. |
 
-**Notable finding / reconcile:** the existing 5-unit outline records 35571 duration as **3 h 45 min** (MoE web page). The summer תשפ"ו moed ב paper itself states **4 h 20 min**. Possibly a war-period/special-sitting extension — **TODO:** check the current exam instructions before setting simulation timers.
+**Settled (fact check 2026-11-11):** **3 h 45 min is the regular 35571 duration** (MoE web page and the summer תשפ"ו moed א paper, 5 × 20 pts) ([source](https://meyda.education.gov.il/sheeloney_bagrut/2026/6/HEB/35571.pdf)). The moed ב paper's **4 h 20 min with 5 × 22 pts (max 100)** is a special-sitting variant. Use 3:45 as the default simulation timer and label 4:20 as a special variant.
 
 **Unverified / TODO**
 
 - The 4-unit PDF is a **2015** document (grade 10 detailed; grades 11–12 "not final"). The current 4-unit exam may follow a newer program. **TODO:** read the current 4-unit pages before trusting the "already known" column.
-- 4-unit questionnaire codes for externals — **not checked**.
+- 4-unit questionnaire codes (new curriculum): **35471 + 35472** ([source](https://pop.education.gov.il/tchumey_daat/matmatika/chativa-elyona/teaching-mathematics/new-curriculum/)).
 - Exact 5-unit probability scope (combinatorics? binomial?) and root-function scope were not read from the 5-unit curriculum PDFs. **TODO.**
 - 35572 paper was not opened in this pass.
 - Whether adults can sit only 35571/35572 after a 4-unit certificate (upgrade rules, grade replacement) — **TODO** with אגף הבחינות.
@@ -116,5 +116,5 @@ Same as the from-zero outline §8, plus: a **place-out flag** per tile driven by
 
 1. Audit the existing `path_math_bagrut5_*` roads for the **New** rows (induction, trig calculus, vectors, complex) and list missing tiles.
 2. Confirm current 4-unit program and adult upgrade rules.
-3. Reconcile the 35571 duration (3 h 45 vs 4 h 20) before setting timers.
+3. Default 35571 timer = 3 h 45 min (settled, see section 2); 4 h 20 min only as a labeled special-sitting variant.
 4. Design the filtered placement with the format owner.
