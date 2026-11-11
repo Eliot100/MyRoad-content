@@ -116,58 +116,64 @@
         }
       ],
       "correct": "a",
-      "feedback_ok": "נכון. מול חלקי יתר הוא 3/5.",
-      "feedback_try": "המול למעלה, היתר למטה."
+      "feedback_ok": "נכון. הסינוס הוא 3/5.",
+      "feedback_try": "סינוס הוא הניצב שמול, חלקי היתר.",
+      "hint": "סינוס הוא הניצב שמול, חלקי היתר.\nהמונה 3 והמכנה 5.\nהסינוס הוא 3/5.",
+      "worked_method": "סינוס הוא הניצב שמול, חלקי היתר.\nהמונה 3 והמכנה 5.\nהסינוס הוא 3/5."
     },
     {
       "id": "t_right_independent_practice",
       "type": "practice",
       "title": "משולש ישר זווית: 4",
-      "body_he": "במשולש ישר זווית, סינוס הזווית הוא הניצב שמול חלקי היתר. ניצב מול הזווית 3, יתר 5. מה הסינוס?",
+      "body_he": "במשולש ישר זווית, סינוס הזווית הוא הניצב שמול חלקי היתר. ניצב מול הזווית 5, יתר 13. מה הסינוס?",
       "tile_role": "independent_practice",
       "kind": "understanding",
       "choices": [
         {
           "id": "a",
-          "label": "3/5"
+          "label": "5/13"
         },
         {
           "id": "b",
-          "label": "5/3"
+          "label": "12/13"
         },
         {
           "id": "c",
-          "label": "4/5"
+          "label": "13/5"
         }
       ],
       "correct": "a",
-      "feedback_ok": "נכון. מול חלקי יתר הוא 3/5.",
-      "feedback_try": "המול למעלה, היתר למטה."
+      "feedback_ok": "נכון. הסינוס הוא 5/13.",
+      "feedback_try": "המול נשאר במונה, היתר במכנה.",
+      "hint": "המול נשאר במונה, היתר במכנה.\nלא מחליפים לניצב השני 12, כי הוא אינו מול הזווית.\nהסינוס הוא 5/13.",
+      "worked_method": "המול נשאר במונה, היתר במכנה.\nלא מחליפים לניצב השני 12, כי הוא אינו מול הזווית.\nהסינוס הוא 5/13."
     },
     {
       "id": "t_right_quick_check",
       "type": "check",
       "title": "משולש ישר זווית: 5",
-      "body_he": "במשולש ישר זווית, סינוס הזווית הוא הניצב שמול חלקי היתר. ניצב מול הזווית 3, יתר 5. מה הסינוס?",
+      "body_he": "במשולש ישר זווית, סינוס הזווית הוא הניצב שמול חלקי היתר. ניצב מול הזווית 8, יתר 10. מה הסינוס?",
       "tile_role": "quick_check",
       "kind": "understanding",
       "choices": [
         {
           "id": "a",
-          "label": "3/5"
+          "label": "4/5"
         },
         {
           "id": "b",
-          "label": "5/3"
+          "label": "3/5"
         },
         {
           "id": "c",
-          "label": "4/5"
+          "label": "5/4"
         }
       ],
       "correct": "a",
-      "feedback_ok": "נכון. מול חלקי יתר הוא 3/5.",
-      "feedback_try": "המול למעלה, היתר למטה."
+      "feedback_ok": "נכון. הסינוס הוא 4/5.",
+      "feedback_try": "8 חלקי 10 הוא השבר.",
+      "hint": "8 חלקי 10 הוא השבר.\nמצמצמים ב־2 ומקבלים 4/5.\nהסינוס הוא 4/5.",
+      "worked_method": "8 חלקי 10 הוא השבר.\nמצמצמים ב־2 ומקבלים 4/5.\nהסינוס הוא 4/5."
     },
     {
       "id": "t_sine_explanation",
@@ -189,7 +195,7 @@
       "id": "t_sine_guided_practice",
       "type": "practice",
       "title": "משפט הסינוסים: 3",
-      "body_he": "בכל משולש, a/sin A = b/sin B. אם a=6 ו־sin A = 1/2, מה a/sin A?",
+      "body_he": "בכל משולש, a/sin A = b/sin B. אם a=6 ו־sin A = 1/2, מה a חלקי sin A?",
       "tile_role": "guided_practice",
       "kind": "understanding",
       "choices": [
@@ -207,58 +213,64 @@
         }
       ],
       "correct": "a",
-      "feedback_ok": "נכון. 6 חלקי 1/2 שווה 12.",
-      "feedback_try": "חילוק בשבר הוא כפל בהופכי."
+      "feedback_ok": "נכון. 6 כפול 2 הם 12.",
+      "feedback_try": "מחלקים 6 ב־1/2.",
+      "hint": "מחלקים 6 ב־1/2.\nחילוק בשבר הוא כפל בהופכי, כלומר כפל ב־2.\n6 כפול 2 הם 12.",
+      "worked_method": "מחלקים 6 ב־1/2.\nחילוק בשבר הוא כפל בהופכי, כלומר כפל ב־2.\n6 כפול 2 הם 12."
     },
     {
       "id": "t_sine_independent_practice",
       "type": "practice",
       "title": "משפט הסינוסים: 4",
-      "body_he": "בכל משולש, a/sin A = b/sin B. אם a=6 ו־sin A = 1/2, מה a/sin A?",
+      "body_he": "בכל משולש, a/sin A = b/sin B. אם a=8 ו־sin A = 1/2, מה a חלקי sin A?",
       "tile_role": "independent_practice",
       "kind": "understanding",
       "choices": [
         {
           "id": "a",
-          "label": "12"
+          "label": "16"
         },
         {
           "id": "b",
-          "label": "3"
+          "label": "4"
         },
         {
           "id": "c",
-          "label": "6"
+          "label": "8"
         }
       ],
       "correct": "a",
-      "feedback_ok": "נכון. 6 חלקי 1/2 שווה 12.",
-      "feedback_try": "חילוק בשבר הוא כפל בהופכי."
+      "feedback_ok": "נכון. המנה היא 16.",
+      "feedback_try": "מחלקים 8 ב־1/2.",
+      "hint": "מחלקים 8 ב־1/2.\nזה כפל ב־2.\nהמנה היא 16.",
+      "worked_method": "מחלקים 8 ב־1/2.\nזה כפל ב־2.\nהמנה היא 16."
     },
     {
       "id": "t_sine_quick_check",
       "type": "check",
       "title": "משפט הסינוסים: 5",
-      "body_he": "בכל משולש, a/sin A = b/sin B. אם a=6 ו־sin A = 1/2, מה a/sin A?",
+      "body_he": "בכל משולש, a/sin A = b/sin B. אם a=5 ו־sin A = 1/2, מה a חלקי sin A?",
       "tile_role": "quick_check",
       "kind": "understanding",
       "choices": [
         {
           "id": "a",
-          "label": "12"
+          "label": "10"
         },
         {
           "id": "b",
-          "label": "3"
+          "label": "2.5"
         },
         {
           "id": "c",
-          "label": "6"
+          "label": "5"
         }
       ],
       "correct": "a",
-      "feedback_ok": "נכון. 6 חלקי 1/2 שווה 12.",
-      "feedback_try": "חילוק בשבר הוא כפל בהופכי."
+      "feedback_ok": "נכון. המנה היא 10.",
+      "feedback_try": "מחלקים 5 ב־1/2.",
+      "hint": "מחלקים 5 ב־1/2.\n5 כפול 2 הם 10.\nהמנה היא 10.",
+      "worked_method": "מחלקים 5 ב־1/2.\n5 כפול 2 הם 10.\nהמנה היא 10."
     },
     {
       "id": "t_eq_explanation",
@@ -298,20 +310,22 @@
         }
       ],
       "correct": "a",
-      "feedback_ok": "נכון. sin 0 = 0.",
-      "feedback_try": "90 מעלות נותן 1, לא 0."
+      "feedback_ok": "נכון. פתרון אחד הוא 0 מעלות.",
+      "feedback_try": "sin 0 שווה 0.",
+      "hint": "sin 0 שווה 0.\n90 מעלות נותן 1, לא 0.\nפתרון אחד הוא 0 מעלות.",
+      "worked_method": "sin 0 שווה 0.\n90 מעלות נותן 1, לא 0.\nפתרון אחד הוא 0 מעלות."
     },
     {
       "id": "t_eq_independent_practice",
       "type": "practice",
       "title": "משוואה בסיסית: 4",
-      "body_he": "sin x = 0 כש־x הוא כפולה שלמה של 180 מעלות, במעלות. פתרון אחד של sin x = 0 במעלות הוא?",
+      "body_he": "sin x = 0 כש־x הוא כפולה שלמה של 180 מעלות, במעלות. עוד פתרון של sin x = 0 במעלות הוא?",
       "tile_role": "independent_practice",
       "kind": "understanding",
       "choices": [
         {
           "id": "a",
-          "label": "0"
+          "label": "180"
         },
         {
           "id": "b",
@@ -319,37 +333,41 @@
         },
         {
           "id": "c",
-          "label": "45"
+          "label": "30"
         }
       ],
       "correct": "a",
-      "feedback_ok": "נכון. sin 0 = 0.",
-      "feedback_try": "90 מעלות נותן 1, לא 0."
+      "feedback_ok": "נכון. 180 מעלות הוא פתרון.",
+      "feedback_try": "הפתרונות הם כפולות שלמות של 180 מעלות.",
+      "hint": "הפתרונות הם כפולות שלמות של 180 מעלות.\nכפולה אחת אחרי 0 היא 180.\n180 מעלות הוא פתרון.",
+      "worked_method": "הפתרונות הם כפולות שלמות של 180 מעלות.\nכפולה אחת אחרי 0 היא 180.\n180 מעלות הוא פתרון."
     },
     {
       "id": "t_eq_quick_check",
       "type": "check",
       "title": "משוואה בסיסית: 5",
-      "body_he": "sin x = 0 כש־x הוא כפולה שלמה של 180 מעלות, במעלות. פתרון אחד של sin x = 0 במעלות הוא?",
+      "body_he": "sin x = 0 כש־x הוא כפולה שלמה של 180 מעלות, במעלות. כפולה שלישית של 180 שפותרת sin x = 0 היא?",
       "tile_role": "quick_check",
       "kind": "understanding",
       "choices": [
         {
           "id": "a",
-          "label": "0"
+          "label": "360"
         },
         {
           "id": "b",
-          "label": "90"
+          "label": "270"
         },
         {
           "id": "c",
-          "label": "45"
+          "label": "90"
         }
       ],
       "correct": "a",
-      "feedback_ok": "נכון. sin 0 = 0.",
-      "feedback_try": "90 מעלות נותן 1, לא 0."
+      "feedback_ok": "נכון. 360 מעלות הוא פתרון.",
+      "feedback_try": "0, אחר כך 180, אחר כך עוד 180.",
+      "hint": "0, אחר כך 180, אחר כך עוד 180.\n180 ועוד 180 הם 360.\n360 מעלות הוא פתרון.",
+      "worked_method": "0, אחר כך 180, אחר כך עוד 180.\n180 ועוד 180 הם 360.\n360 מעלות הוא פתרון."
     },
     {
       "id": "t_end",

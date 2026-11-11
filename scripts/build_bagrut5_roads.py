@@ -22,6 +22,7 @@ import bagrut5_lessons_c  # noqa: F401
 import bagrut5_lessons_d  # noqa: F401
 import bagrut5_lessons_e  # noqa: F401
 from bagrut5_lessons import LESSONS
+from math_stage_items import MATH_ITEMS
 
 ROLES = (
     ("learn", "explanation"),
@@ -50,6 +51,10 @@ def node(nid: str, ntype: str, role: str, title: str, body: str, item: dict | No
         out["correct"] = "a"
         out["feedback_ok"] = item["ok_he"]
         out["feedback_try"] = item["try_he"]
+        if item.get("hint"):
+            out["hint"] = item["hint"]
+        if item.get("steps"):
+            out["worked_method"] = item["steps"]
         if item.get("content"):
             out["body_content"] = item["content"]
         if item.get("speak"):
@@ -63,7 +68,18 @@ def road(spec: dict) -> dict:
     for index, stage in enumerate(spec["stages"]):
         level, tid, he, en, lead, item = stage
         explain, worked = LESSONS[tid]
+        if spec.get("subject") == "math":
+            items = MATH_ITEMS[tid]
+            asks = [row["ask"] for row in items]
+            if len(items) < 3 or len(set(asks)) != len(asks):
+                raise SystemExit(f"{spec['id']}/{tid} needs 3 distinct exercise templates")
+            for row in items:
+                if row["hint"].count("\n") < 2:
+                    raise SystemExit(f"{spec['id']}/{tid} hint is not step by step")
+        else:
+            items = [item, item, item]
         ids = []
+        practice_i = 0
         for role_i, (ntype, role) in enumerate(ROLES):
             nid = f"{tid}_{role}"
             ids.append(nid)
@@ -73,8 +89,12 @@ def road(spec: dict) -> dict:
             elif role == "worked_example":
                 body = worked
             else:
-                body = f"{lead} {item['ask']}"
-            use = item if ntype != "learn" else None
+                use_item = items[practice_i]
+                practice_i += 1
+                body = f"{lead} {use_item['ask']}"
+            use = items[practice_i - 1] if ntype != "learn" else None
+            if ntype == "learn":
+                use = None
             built = node(nid, ntype, role, title, body, item=use)
             if role == "explanation" and item.get("speak"):
                 built["speak_text"] = item["speak"]
