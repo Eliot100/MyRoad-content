@@ -100,6 +100,7 @@
       "emoji": "↻",
       "node_ids": [
         "z_rev1_learn",
+        "z_rev1_ex",
         "z_rev1_q"
       ],
       "level": 2
@@ -182,6 +183,7 @@
       "emoji": "↻",
       "node_ids": [
         "z_rev2_learn",
+        "z_rev2_ex",
         "z_rev2_q"
       ],
       "level": 3
@@ -1070,8 +1072,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על אות פותחת, על am, is, are, ועל שלילה. אות פותחת מילה, כמו s ב sun. אחרי I בא am, אחרי he או she או it בא is, ואחרי you, we או they בא are. שלילה של to be היא am not, is not או are not, בלי do.",
+      "body_content": "I am a student. She is not late.",
       "review_topic_ids": [
         "t_letters",
         "t_be",
@@ -1079,6 +1081,21 @@
       ],
       "can_do": "לחזור על אותיות, am, is, are ושלילה",
       "tile_role": "explanation"
+    },
+    {
+      "id": "z_rev1_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "במשפט I ___ a student הנושא הוא I. עם I הצורה היא am, לא is ולא are. לכן I am a student.",
+      "body_content": "I am a student.",
+      "review_topic_ids": [
+        "t_letters",
+        "t_be",
+        "t_not"
+      ],
+      "can_do": "להשלים I am a student",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_rev1_q",
@@ -1985,8 +2002,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על you ו we, על קריאת מילה שלמה, ועל משפט. you, we ו they הולכים עם are. קוראים את כל האותיות, לא רק את הראשונה: s-u-n היא sun. משפט מתחיל באות גדולה, נגמר בנקודה, ויש בו מישהו ופועל.",
+      "body_content": "You are ready. We are here.",
       "review_topic_ids": [
         "t_you",
         "t_word",
@@ -1994,6 +2011,21 @@
       ],
       "can_do": "לחזור על you, we, they ומשפט שלם",
       "tile_role": "explanation"
+    },
+    {
+      "id": "z_rev2_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "במשפט You ___ ready הנושא הוא You. עם you תמיד are. לא am, כי am רק אחרי I, ולא is, כי is הולך עם he, she או it. לכן You are ready.",
+      "body_content": "You are ready.",
+      "review_topic_ids": [
+        "t_you",
+        "t_word",
+        "t_sent"
+      ],
+      "can_do": "להשלים You are ready",
+      "tile_role": "worked_example"
     },
     {
       "id": "z_rev2_q",

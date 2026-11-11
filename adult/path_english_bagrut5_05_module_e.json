@@ -83,6 +83,7 @@
       "emoji": "↻",
       "node_ids": [
         "e_rev1_learn",
+        "e_rev1_ex",
         "e_rev1_q"
       ],
       "level": 2
@@ -147,6 +148,7 @@
       "emoji": "↻",
       "node_ids": [
         "e_rev2_learn",
+        "e_rev2_ex",
         "e_rev2_q"
       ],
       "level": 3
@@ -508,8 +510,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על קטע E: קודם הרעיון, אחר כך מילה מהמשפט, ואז מילת ייחוס. it ו there מצביעים אחורה אל מה שכבר נאמר, לא אל ניחוש.",
+      "body_content": "The hall is clean. It is also far.",
       "review_topic_ids": [
         "t_read",
         "t_vocab",
@@ -517,6 +519,21 @@
       ],
       "can_do": "לחזור על רעיון, מילים וייחוס",
       "tile_role": "explanation"
+    },
+    {
+      "id": "e_rev1_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "בשני המשפטים The hall is clean. It is also far המילה It באה מיד אחרי האולם. היא לא הגשם ולא האוטובוס, כי הם לא הנושא של המשפט הקודם. לכן It means the hall.",
+      "body_content": "It means the hall.",
+      "review_topic_ids": [
+        "t_read",
+        "t_vocab",
+        "t_ref"
+      ],
+      "can_do": "לזהות ש it הוא האולם",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_rev1_q",
@@ -865,8 +882,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על פרט, על הסקה, ועל משמעות מהקשר. פרט הוא עובדה שכתובה. הסקה נשענת על שתי עובדות בטקסט. מילה כמו stalls מפורשת מהמשפט, לא מניחוש של כרטיס או קופסה.",
+      "body_content": "She counted empty stalls before nine.",
       "review_topic_ids": [
         "t_detail",
         "t_infer",
@@ -874,6 +891,21 @@
       ],
       "can_do": "לחזור על פרט, הסקה ומילים מהקטע",
       "tile_role": "explanation"
+    },
+    {
+      "id": "e_rev2_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "What does stalls mean here? הכתבת ספרה דוכנים ריקים, ואחד שעדיין מוכר פרי חופשי. stalls הם השולחנות שבהם מוכרים: tables where people sell. לא כרטיסי אוטובוס ולא קופסאות פלסטיק.",
+      "body_content": "tables where people sell",
+      "review_topic_ids": [
+        "t_detail",
+        "t_infer",
+        "t_band"
+      ],
+      "can_do": "לפרש stalls מהקטע",
+      "tile_role": "worked_example"
     },
     {
       "id": "e_rev2_q",

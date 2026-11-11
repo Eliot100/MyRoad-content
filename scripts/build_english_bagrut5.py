@@ -215,8 +215,8 @@ def placement() -> dict:
         ),
         (
             "t_time", "עבר ועתיד", "Past and future", "ד",
-            "בדיקה קצרה. לא מלמדים כאן את הצורה.",
-            "Yesterday I walked home.",
+            "זו בדיקה, לא שיעור חדש. אתמול מסומן ב Yesterday והפועל בעבר: Yesterday I walked home. walked היא walk כשהזמן כבר עבר. מחר מסומן ב Tomorrow וב will לפני הפועל הבסיסי: Tomorrow they will leave. left הוא עבר, לא מחר.",
+            "Yesterday I walked home. Tomorrow they will leave.",
             [
                 mc("p1", "אתמול", "איזה משפט על אתמול?", "Yesterday she ___ the door.",
                    [("a", "open"), ("b", "opened"), ("c", "opens")], "b", "אתמול: opened.", "opens הוא הווה. אתמול צריך opened."),
@@ -312,33 +312,145 @@ def placement() -> dict:
     )
 
 
+REVIEW_COPY = {
+    ("z", 1): (
+        "חזרה על אות פותחת, על am, is, are, ועל שלילה. אות פותחת מילה, כמו s ב sun. אחרי I בא am, אחרי he או she או it בא is, ואחרי you, we או they בא are. שלילה של to be היא am not, is not או are not, בלי do.",
+        "I am a student. She is not late.",
+        "במשפט I ___ a student הנושא הוא I. עם I הצורה היא am, לא is ולא are. לכן I am a student.",
+        "I am a student.",
+    ),
+    ("z", 2): (
+        "חזרה על you ו we, על קריאת מילה שלמה, ועל משפט. you, we ו they הולכים עם are. קוראים את כל האותיות, לא רק את הראשונה: s-u-n היא sun. משפט מתחיל באות גדולה, נגמר בנקודה, ויש בו מישהו ופועל.",
+        "You are ready. We are here.",
+        "במשפט You ___ ready הנושא הוא You. עם you תמיד are. לא am, כי am רק אחרי I, ולא is, כי is הולך עם he, she או it. לכן You are ready.",
+        "You are ready.",
+    ),
+    ("pr", 1): (
+        "חזרה על הווה פשוט, על there is ו there are, ועל שאלות. אחרי he, she או it הפועל מקבל s: works. יש אחד: there is. יש כמה: there are. שאלה בהווה פותחת ב Do או ב Does, והפועל נשאר בלי s.",
+        "She works at home. Do you live here?",
+        "במשפט She ___ at home הנושא הוא She, גוף יחיד. בהווה פשוט מוסיפים s לפועל. work נהיה works. working אינו צורת הרגל. לכן She works at home.",
+        "She works at home.",
+    ),
+    ("pr", 2): (
+        "חזרה על יום רגיל, על שלילה בהווה, ועל always ו never. שלילה עם פועל רגיל היא do not או does not, והפועל בלי s. always ו never באים לפני הפועל העיקרי, ואחרי is. כשיש יותר מאחד אומרים there are.",
+        "There are two books. She does not work on Friday.",
+        "במשפט There ___ two books יש שניים, לא אחד. לכן are, לא is. am לא שייך ל there. לכן There are two books.",
+        "There are two books.",
+    ),
+    ("tm", 1): (
+        "חזרה על עבר, על עתיד, ועל קריאת סיפור קצר. אתמול: פועל עם ed, או צורה חריגה. מחר: will והפועל הבסיסי. בסיפור מחפשים מה קורה בטקסט, לא ניחוש מחוץ לו.",
+        "Yesterday I walked home. Tomorrow I will leave early.",
+        "במשפט Yesterday he ___ home המילה Yesterday מסמנת אתמול. walk בעבר הרגיל הוא walked. walks הוא הווה, ו walking אינו משפט שלם. לכן Yesterday he walked home.",
+        "Yesterday he walked home.",
+    ),
+    ("tm", 2): (
+        "חזרה על עבר חריג, על ago מול tomorrow, ועל who ו where. go בעבר הוא went, לא goed. see בעבר הוא saw. ago מסתכל אחורה. tomorrow מסתכל קדימה ועם will. who שואל על אדם, where על מקום.",
+        "Yesterday I went home. I saw her two days ago.",
+        "במשפט Tomorrow we ___ early המילה Tomorrow היא מחר, לא אתמול. לכן will leave, לא left. leaves הוא הווה של גוף יחיד, ו we אינו גוף יחיד. לכן Tomorrow we will leave early.",
+        "Tomorrow we will leave early.",
+    ),
+    ("ac", 1): (
+        "חזרה על a ו the, על זמן פתוח מול זמן סגור, ועל תנאי ראשון. a או an בפעם הראשונה, the כשהדבר כבר ידוע. זמן שנגמר, כמו yesterday, דורש עבר רגיל. אחרי if בא הווה, ובתוצאה will.",
+        "I saw a bird. The bird was blue. If it rains, we will stay home.",
+        "במשפט She bought ___ umbrella. ___ umbrella was red המילה umbrella נפתחת בצליל תנועה, לכן בפעם הראשונה an, לא a. בפעם השנייה המטריה כבר הוזכרה, לכן The. המשפט: She bought an umbrella. The umbrella was red.",
+        "She bought an umbrella. The umbrella was red.",
+    ),
+    ("ac", 2): (
+        "חזרה על an לפי הצליל, על סדר מילים, ועל for מול since. an לפני צליל תנועה, a לפני צליל עיצור. סדר המשפט: נושא, פועל, מושא, ואז זמן. for עם משך, since עם נקודת התחלה, ago לאחור בלי have.",
+        "I have lived here for two years. I have lived here since 2020.",
+        "במשפט I have lived here ___ 2020, and I met Dana two years ___ השנה 2020 היא נקודת התחלה, לכן since, לא for. two years אחורה בלי have הוא ago, לא since. לכן I have lived here since 2020, and I met Dana two years ago.",
+        "I have lived here since 2020, and I met Dana two years ago.",
+    ),
+    ("e", 1): (
+        "חזרה על קטע E: קודם הרעיון, אחר כך מילה מהמשפט, ואז מילת ייחוס. it ו there מצביעים אחורה אל מה שכבר נאמר, לא אל ניחוש.",
+        "The hall is clean. It is also far.",
+        "בשני המשפטים The hall is clean. It is also far המילה It באה מיד אחרי האולם. היא לא הגשם ולא האוטובוס, כי הם לא הנושא של המשפט הקודם. לכן It means the hall.",
+        "It means the hall.",
+    ),
+    ("e", 2): (
+        "חזרה על פרט, על הסקה, ועל משמעות מהקשר. פרט הוא עובדה שכתובה. הסקה נשענת על שתי עובדות בטקסט. מילה כמו stalls מפורשת מהמשפט, לא מניחוש של כרטיס או קופסה.",
+        "She counted empty stalls before nine.",
+        "What does stalls mean here? הכתבת ספרה דוכנים ריקים, ואחד שעדיין מוכר פרי חופשי. stalls הם השולחנות שבהם מוכרים: tables where people sell. לא כרטיסי אוטובוס ולא קופסאות פלסטיק.",
+        "tables where people sell",
+    ),
+    ("g", 1): (
+        "חזרה על קטע G, על צורת חיבור, ועל מחוון. נימוק מסביר למה, לא חוזר על אותה מילה. משפט שמתחיל ב Because לבד אינו משפט.",
+        "A fee gives a reason to keep the lease.",
+        "Choose a reason, not a repeat. A fee is a fee רק חוזר על המילה. Because fee אינו משפט. A fee gives a reason to keep the lease מסביר למה שומרים על השכירות. זו הסיבה.",
+        "A fee gives a reason to keep the lease.",
+    ),
+    ("g", 2): (
+        "חזרה על גוף החיבור, על משפט סיום, ועל אורך. בגוף מביאים עובדה מהקטע. בסיום חוזרים על הטענה בלי נושא חדש. הסדנאות שנשארו גבו דמי שימוש וביקשו חובה, והחינם בלי חובה נסגר.",
+        "The workshops that lasted charged a small fee and asked every member to teach.",
+        "Which workshops lasted? כתוב שהסדנאות שנשארו גבו סכום קטן וביקשו מכל חבר ללמד שעה בחודש. החינם בלי חובה נסגר תוך שנה. לכן Ones with a fee and a duty.",
+        "Ones with a fee and a duty.",
+    ),
+    ("lit", 1): (
+        "חזרה על הסיפור, על השיר, ועל דיבור. בסיפור ג'ונה מפספס אוטובוס, מקבל חצי תפוז, ובבוקר מחזיר שקית תפוזים. בשיר המדרגות זוכרות מפתח מאוחר ולא סולחות. בדיבור אומרים משפט שלם לאט.",
+        "Jonah returns the kindness.",
+        "What changes in the story? האוטובוס לא חוזר, והשיר אינו נועל דלת בסיפור. מה שמשתנה: ג'ונה קיבל חסד ומחזיר אותו בשקית תפוזים. Jonah returns the kindness.",
+        "Jonah returns the kindness.",
+    ),
+    ("lit", 2): (
+        "חזרה על חיבור קצר על היצירה, על קריאה שנייה של השיר, ועל תור בדיבור. בשיר המדרגות לא סולחות ולא מספרות. הן רק מאריכות את החושך עוד צעד אחד.",
+        "They keep the dark a little longer.",
+        "What do the stairs do? כתוב It does not forgive, and it does not tell. It only keeps the dark one step longer. הן לא מתקשרות למישהו. לכן They keep the dark a little longer.",
+        "They keep the dark a little longer.",
+    ),
+    ("ex", 1): (
+        "חזרה על ערבוב של קריאה, כתיבה ודיבור לקראת הבחינה. חיבור קצר הוא דעה, סיבה אחת, ומשפט סיום. רשימת מחירים אינה חיבור, ו Because because אינו משפט.",
+        "Opinion, a reason, a closing sentence.",
+        "Choose the essay shape. הצורה היא Opinion, a reason, a closing sentence. קודם הדעה, אחר כך סיבה, ואז משפט שסוגר. לא רשימת מחירים ולא Because פעמיים.",
+        "Opinion, a reason, a closing sentence.",
+    ),
+    ("ex", 2): (
+        "חזרה על קריאה שנייה, על כתיבה שנייה, ועל הבדיקה האחרונה. בקטע higher price הוא מחיר גבוה יותר. בכתיבה כתיב לבד לא מוחק נקודות קריאה, ובחיבור הדיוק כן נספר.",
+        "it costs more",
+        "higher price means it costs more. higher הוא גבוה יותר, ו price הוא מחיר. לא קרוב יותר, ולא חינם. לכן it costs more.",
+        "it costs more",
+    ),
+}
+
+
 def _review_block(prefix: str, n: int, review_ids: list[str]) -> tuple[dict, list[dict]]:
     bank = REV[prefix]
     content, options, correct, ok, try_ = bank[(n - 1) % len(bank)]
-    rev_nodes = [
-        node(
-            f"{prefix}_rev{n}_learn",
-            "learn",
-            "חזרה מעורבת",
-            "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-            "Review only.",
-            kind="review",
-            review=review_ids,
-        ),
-        node(
-            f"{prefix}_rev{n}_q",
-            "practice",
-            "תרגול",
-            "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
-            content,
-            kind="review",
-            review=review_ids,
-            options=options,
-            correct=correct,
-            ok=ok,
-            try_=try_,
-        ),
-    ]
+    explain_he, explain_en, example_he, example_en = REVIEW_COPY[(prefix, n)]
+    learn = node(
+        f"{prefix}_rev{n}_learn",
+        "learn",
+        "חזרה מעורבת",
+        explain_he,
+        explain_en,
+        kind="review",
+        review=review_ids,
+    )
+    example = node(
+        f"{prefix}_rev{n}_ex",
+        "learn",
+        "דוגמה פתורה",
+        example_he,
+        example_en,
+        kind="review",
+        review=review_ids,
+    )
+    practice = node(
+        f"{prefix}_rev{n}_q",
+        "practice",
+        "תרגול",
+        "בחרו את המשפט התקין מתוך מה שכבר למדתם.",
+        content,
+        kind="review",
+        review=review_ids,
+        options=options,
+        correct=correct,
+        ok=ok,
+        try_=try_,
+    )
+    learn["tile_role"] = "explanation"
+    example["tile_role"] = "worked_example"
+    practice["tile_role"] = "guided_practice"
+    rev_nodes = [learn, example, practice]
     rev_topic = topic(f"t_review_{n}", "חזרה מעורבת", "Mixed review", "↻", rev_nodes)
     return rev_topic, rev_nodes
 

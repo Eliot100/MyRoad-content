@@ -82,6 +82,7 @@
       "emoji": "↻",
       "node_ids": [
         "lit_rev1_learn",
+        "lit_rev1_ex",
         "lit_rev1_q"
       ],
       "level": 2
@@ -146,6 +147,7 @@
       "emoji": "↻",
       "node_ids": [
         "lit_rev2_learn",
+        "lit_rev2_ex",
         "lit_rev2_q"
       ],
       "level": 3
@@ -436,8 +438,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על הסיפור, על השיר, ועל דיבור. בסיפור ג'ונה מפספס אוטובוס, מקבל חצי תפוז, ובבוקר מחזיר שקית תפוזים. בשיר המדרגות זוכרות מפתח מאוחר ולא סולחות. בדיבור אומרים משפט שלם לאט.",
+      "body_content": "Jonah returns the kindness.",
       "review_topic_ids": [
         "t_story",
         "t_poem",
@@ -445,6 +447,21 @@
       ],
       "can_do": "לחזור על סיפור, שיר ודיבור",
       "tile_role": "explanation"
+    },
+    {
+      "id": "lit_rev1_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "What changes in the story? האוטובוס לא חוזר, והשיר אינו נועל דלת בסיפור. מה שמשתנה: ג'ונה קיבל חסד ומחזיר אותו בשקית תפוזים. Jonah returns the kindness.",
+      "body_content": "Jonah returns the kindness.",
+      "review_topic_ids": [
+        "t_story",
+        "t_poem",
+        "t_speak"
+      ],
+      "can_do": "לזהות את השינוי בסיפור",
+      "tile_role": "worked_example"
     },
     {
       "id": "lit_rev1_q",
@@ -753,8 +770,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על חיבור קצר על היצירה, על קריאה שנייה של השיר, ועל תור בדיבור. בשיר המדרגות לא סולחות ולא מספרות. הן רק מאריכות את החושך עוד צעד אחד.",
+      "body_content": "They keep the dark a little longer.",
       "review_topic_ids": [
         "t_essay",
         "t_poem2",
@@ -762,6 +779,21 @@
       ],
       "can_do": "לחזור על חיבור על טקסט ושורה בשיר",
       "tile_role": "explanation"
+    },
+    {
+      "id": "lit_rev2_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "What do the stairs do? כתוב It does not forgive, and it does not tell. It only keeps the dark one step longer. הן לא מתקשרות למישהו. לכן They keep the dark a little longer.",
+      "body_content": "They keep the dark a little longer.",
+      "review_topic_ids": [
+        "t_essay",
+        "t_poem2",
+        "t_turn"
+      ],
+      "can_do": "לזהות מה המדרגות עושות",
+      "tile_role": "worked_example"
     },
     {
       "id": "lit_rev2_q",

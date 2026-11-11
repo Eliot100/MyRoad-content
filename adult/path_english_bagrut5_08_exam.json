@@ -81,6 +81,7 @@
       "emoji": "↻",
       "node_ids": [
         "ex_rev1_learn",
+        "ex_rev1_ex",
         "ex_rev1_q"
       ],
       "level": 1
@@ -145,6 +146,7 @@
       "emoji": "↻",
       "node_ids": [
         "ex_rev2_learn",
+        "ex_rev2_ex",
         "ex_rev2_q"
       ],
       "level": 2
@@ -490,8 +492,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על ערבוב של קריאה, כתיבה ודיבור לקראת הבחינה. חיבור קצר הוא דעה, סיבה אחת, ומשפט סיום. רשימת מחירים אינה חיבור, ו Because because אינו משפט.",
+      "body_content": "Opinion, a reason, a closing sentence.",
       "review_topic_ids": [
         "t_mix",
         "t_write",
@@ -499,6 +501,21 @@
       ],
       "can_do": "לחזור על קריאה, חיבור ודיבור",
       "tile_role": "explanation"
+    },
+    {
+      "id": "ex_rev1_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "Choose the essay shape. הצורה היא Opinion, a reason, a closing sentence. קודם הדעה, אחר כך סיבה, ואז משפט שסוגר. לא רשימת מחירים ולא Because פעמיים.",
+      "body_content": "Opinion, a reason, a closing sentence.",
+      "review_topic_ids": [
+        "t_mix",
+        "t_write",
+        "t_oral"
+      ],
+      "can_do": "לזהות צורת חיבור",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_rev1_q",
@@ -847,8 +864,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על קריאה שנייה, על כתיבה שנייה, ועל הבדיקה האחרונה. בקטע higher price הוא מחיר גבוה יותר. בכתיבה כתיב לבד לא מוחק נקודות קריאה, ובחיבור הדיוק כן נספר.",
+      "body_content": "it costs more",
       "review_topic_ids": [
         "t_read2",
         "t_write2",
@@ -856,6 +873,21 @@
       ],
       "can_do": "לחזור על הסקה, אורך ודיוק",
       "tile_role": "explanation"
+    },
+    {
+      "id": "ex_rev2_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "higher price means it costs more. higher הוא גבוה יותר, ו price הוא מחיר. לא קרוב יותר, ולא חינם. לכן it costs more.",
+      "body_content": "it costs more",
+      "review_topic_ids": [
+        "t_read2",
+        "t_write2",
+        "t_last"
+      ],
+      "can_do": "לפרש higher price",
+      "tile_role": "worked_example"
     },
     {
       "id": "ex_rev2_q",
@@ -929,7 +961,7 @@
       "type": "learn",
       "kind": "understanding",
       "title": "Remote Work After the Pandemic",
-      "body_he": "קראו את הקטע.",
+      "body_he": "לפני השאלות קראו את הפתיחה וסמנו טענה אחת שאפשר לבדוק בטקסט. הפתיחה אומרת שחברות שדרשו נוכחות יומית במשרד מאפשרות עכשיו עבודה מהבית כמה ימים בשבוע, ושהשינוי התחיל במגפה ונשאר כי גם העובדים וגם המנהלים מצאו בו יתרון.",
       "body_content": "Many companies that once required daily office attendance now allow employees to work from home several days a week. This change began during the pandemic but has continued because both workers and managers discovered advantages. Employees save time and money on commuting and can better balance family responsibilities. Companies reduce the cost of large office spaces. Productivity has not fallen in most studies. In fact, some teams report higher output when people can concentrate without constant interruptions. However, remote work is not without problems. Some workers feel isolated and miss informal conversations that used to happen in the office. Managers worry that younger employees receive less guidance when they are not physically present. Technical issues, such as unreliable internet connections, can also slow progress. To address these concerns, many organizations have introduced hybrid schedules. Staff come to the office two or three days a week for meetings and collaboration, then work remotely on other days. Clear written guidelines help everyone understand expectations about availability and response times. Digital tools for video calls and shared documents make communication easier than it was a decade ago. Still, success depends on trust. When managers focus on results rather than hours spent online, employees tend to perform well. Surveys show that most adults prefer some flexibility and would consider leaving a job that demanded five full days in the office. The shift is unlikely to reverse completely. Companies that adapt their culture to support both independent work and occasional in-person contact are more likely to attract and keep skilled staff.",
       "tile_role": "explanation"
     },
@@ -938,7 +970,7 @@
       "type": "learn",
       "kind": "understanding",
       "title": "Sleep and Adult Health",
-      "body_he": "קראו את הקטע.",
+      "body_he": "לפני השאלות קראו את המשפט הראשון וסמנו את הטענה שהוא קובע. הטענה כאן: מבוגרים שישנים בקביעות פחות משבע שעות בלילה נמצאים בסיכון גבוה יותר לכמה בעיות בריאות.",
       "body_content": "Adults who regularly sleep less than seven hours a night face higher risks of several health problems. Doctors have long known that insufficient sleep raises the chance of heart disease, high blood pressure, and type 2 diabetes. Recent research also links short sleep to weaker immune responses and slower recovery from illness. Many people believe they can catch up on weekends, yet studies show that irregular sleep patterns still harm the body. The brain needs consistent rest to clear waste products that accumulate during waking hours. Without enough sleep, concentration, memory, and decision-making suffer. Drivers who are tired cause accidents at rates similar to those who have been drinking. Shift workers and parents of young children often struggle to maintain regular hours. Screens in the bedroom make the problem worse because blue light delays the release of melatonin, the hormone that signals sleep. Experts recommend a fixed bedtime, a cool dark room, and no caffeine after mid-afternoon. Exercise helps, but intense workouts close to bedtime can delay sleep. Some adults turn to sleep medication, yet long-term use can create dependence and does not restore natural sleep quality. Simple changes, such as reading a book instead of scrolling on a phone, often prove more effective. Employers who allow flexible start times report fewer sick days among staff. Protecting sleep is not a luxury. It is a basic requirement for physical and mental performance in daily life.",
       "tile_role": "explanation"
     },
@@ -1667,7 +1699,7 @@
       "type": "learn",
       "kind": "understanding",
       "title": "Housing Costs in Growing Cities",
-      "body_he": "קראו את הקטע.",
+      "body_he": "לפני השאלות קראו את המשפט הראשון וסמנו את ההשוואה. הטענה כאן: בערים גדולות מחיר הקנייה או השכירות של בית עלה מהר יותר מהשכר הממוצע.",
       "body_content": "In many large cities, the price of buying or renting a home has risen faster than average wages. Young adults who finish their studies often find that even a modest apartment requires a large share of their monthly income. Long commutes from cheaper suburbs add time and transport costs. Some cities have responded by building more high-rise apartments and by changing zoning rules that once limited height and density. Others offer subsidies or low-interest loans to first-time buyers. Critics argue that new construction alone does not solve the problem if most new units remain expensive. They point to the need for stronger rent controls and more public housing. Supporters of market solutions claim that controls reduce the incentive to build and can lead to fewer available homes. Meanwhile, some residents leave the city center for smaller towns where remote work makes daily presence unnecessary. This movement has raised prices in previously affordable areas. Community groups in several cities organize shared housing or cooperative ownership models to keep costs lower. Local governments face pressure from both sides. Too little new building leaves prices high. Too rapid construction without accompanying schools, parks, and transport strains existing services. Finding a balance requires data on actual demand, clear planning rules, and cooperation between private builders and public authorities. Without such measures, many working adults will continue to spend a large portion of their earnings on housing.",
       "tile_role": "explanation"
     },
@@ -1676,7 +1708,7 @@
       "type": "learn",
       "kind": "understanding",
       "title": "Saving and Investing for the Future",
-      "body_he": "קראו את הקטע.",
+      "body_he": "לפני השאלות קראו את הפתיחה וסמנו את הפער בין מה שאנשים יודעים לבין מה שהם עושים. הטענה כאן: רוב המבוגרים יודעים שצריך לחסוך, ובכל זאת רבים מתקשים להפריש סכום קבוע.",
       "body_content": "Most adults know they should save money, yet many find it difficult to put aside a regular amount. Unexpected expenses, rising prices, and the desire for immediate purchases compete with long-term goals. Financial advisers usually recommend an emergency fund covering three to six months of essential costs before any other investment. Once that buffer exists, people can consider longer-term options such as pension contributions or low-cost index funds. These funds track the overall market rather than trying to pick individual winning stocks. Historical data show that broad market returns have been positive over periods of ten years or more, although short-term losses remain possible. High fees charged by some managed funds reduce the final amount an investor keeps. Automatic transfers from a salary account into a separate savings or investment account help many people stay consistent. Interest rates on ordinary bank savings have been low in recent years, so money left only in a checking account loses purchasing power to inflation. Younger workers who start early benefit from compound growth even with modest monthly sums. Older adults closer to retirement may prefer safer assets and should review their risk tolerance carefully. Government tax incentives for retirement accounts encourage participation. Still, no strategy removes all risk. Understanding basic terms, reading clear fee information, and avoiding pressure from salespeople improve the chance of meeting future needs. Regular small actions matter more than occasional large deposits.",
       "tile_role": "explanation"
     },

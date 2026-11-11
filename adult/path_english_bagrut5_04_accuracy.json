@@ -103,6 +103,7 @@
       "emoji": "↻",
       "node_ids": [
         "ac_rev1_learn",
+        "ac_rev1_ex",
         "ac_rev1_q"
       ],
       "level": 2
@@ -188,6 +189,7 @@
       "emoji": "↻",
       "node_ids": [
         "ac_rev2_learn",
+        "ac_rev2_ex",
         "ac_rev2_q"
       ],
       "level": 3
@@ -1169,8 +1171,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על a ו the, על זמן פתוח מול זמן סגור, ועל תנאי ראשון. a או an בפעם הראשונה, the כשהדבר כבר ידוע. זמן שנגמר, כמו yesterday, דורש עבר רגיל. אחרי if בא הווה, ובתוצאה will.",
+      "body_content": "I saw a bird. The bird was blue. If it rains, we will stay home.",
       "review_topic_ids": [
         "t_art",
         "t_perf",
@@ -1178,6 +1180,21 @@
       ],
       "can_do": "לחזור על מילות יידוע, זמן פתוח ותנאי",
       "tile_role": "explanation"
+    },
+    {
+      "id": "ac_rev1_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "במשפט She bought ___ umbrella. ___ umbrella was red המילה umbrella נפתחת בצליל תנועה, לכן בפעם הראשונה an, לא a. בפעם השנייה המטריה כבר הוזכרה, לכן The. המשפט: She bought an umbrella. The umbrella was red.",
+      "body_content": "She bought an umbrella. The umbrella was red.",
+      "review_topic_ids": [
+        "t_art",
+        "t_perf",
+        "t_if"
+      ],
+      "can_do": "לבחור an ואז The",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_rev1_q",
@@ -2177,8 +2194,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על an לפי הצליל, על סדר מילים, ועל for מול since. an לפני צליל תנועה, a לפני צליל עיצור. סדר המשפט: נושא, פועל, מושא, ואז זמן. for עם משך, since עם נקודת התחלה, ago לאחור בלי have.",
+      "body_content": "I have lived here for two years. I have lived here since 2020.",
       "review_topic_ids": [
         "t_an",
         "t_order",
@@ -2186,6 +2203,21 @@
       ],
       "can_do": "לחזור על a או an, סדר מילים ו for או since",
       "tile_role": "explanation"
+    },
+    {
+      "id": "ac_rev2_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "במשפט I have lived here ___ 2020, and I met Dana two years ___ השנה 2020 היא נקודת התחלה, לכן since, לא for. two years אחורה בלי have הוא ago, לא since. לכן I have lived here since 2020, and I met Dana two years ago.",
+      "body_content": "I have lived here since 2020, and I met Dana two years ago.",
+      "review_topic_ids": [
+        "t_an",
+        "t_order",
+        "t_for"
+      ],
+      "can_do": "לבחור since ואז ago",
+      "tile_role": "worked_example"
     },
     {
       "id": "ac_rev2_q",

@@ -100,6 +100,7 @@
       "emoji": "↻",
       "node_ids": [
         "tm_rev1_learn",
+        "tm_rev1_ex",
         "tm_rev1_q"
       ],
       "level": 2
@@ -182,6 +183,7 @@
       "emoji": "↻",
       "node_ids": [
         "tm_rev2_learn",
+        "tm_rev2_ex",
         "tm_rev2_q"
       ],
       "level": 3
@@ -1070,8 +1072,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על עבר, על עתיד, ועל קריאת סיפור קצר. אתמול: פועל עם ed, או צורה חריגה. מחר: will והפועל הבסיסי. בסיפור מחפשים מה קורה בטקסט, לא ניחוש מחוץ לו.",
+      "body_content": "Yesterday I walked home. Tomorrow I will leave early.",
       "review_topic_ids": [
         "t_past",
         "t_fut",
@@ -1079,6 +1081,21 @@
       ],
       "can_do": "לחזור על עבר, עתיד וסיפור",
       "tile_role": "explanation"
+    },
+    {
+      "id": "tm_rev1_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "במשפט Yesterday he ___ home המילה Yesterday מסמנת אתמול. walk בעבר הרגיל הוא walked. walks הוא הווה, ו walking אינו משפט שלם. לכן Yesterday he walked home.",
+      "body_content": "Yesterday he walked home.",
+      "review_topic_ids": [
+        "t_past",
+        "t_fut",
+        "t_story"
+      ],
+      "can_do": "לכתוב walked אחרי yesterday",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_rev1_q",
@@ -1985,8 +2002,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על עבר חריג, על ago מול tomorrow, ועל who ו where. go בעבר הוא went, לא goed. see בעבר הוא saw. ago מסתכל אחורה. tomorrow מסתכל קדימה ועם will. who שואל על אדם, where על מקום.",
+      "body_content": "Yesterday I went home. I saw her two days ago.",
       "review_topic_ids": [
         "t_irreg",
         "t_ago",
@@ -1994,6 +2011,21 @@
       ],
       "can_do": "לחזור על עבר חריג, ago ושאלות who",
       "tile_role": "explanation"
+    },
+    {
+      "id": "tm_rev2_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "במשפט Tomorrow we ___ early המילה Tomorrow היא מחר, לא אתמול. לכן will leave, לא left. leaves הוא הווה של גוף יחיד, ו we אינו גוף יחיד. לכן Tomorrow we will leave early.",
+      "body_content": "Tomorrow we will leave early.",
+      "review_topic_ids": [
+        "t_irreg",
+        "t_ago",
+        "t_who"
+      ],
+      "can_do": "לבחור will leave למחר",
+      "tile_role": "worked_example"
     },
     {
       "id": "tm_rev2_q",

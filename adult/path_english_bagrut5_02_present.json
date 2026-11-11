@@ -100,6 +100,7 @@
       "emoji": "↻",
       "node_ids": [
         "pr_rev1_learn",
+        "pr_rev1_ex",
         "pr_rev1_q"
       ],
       "level": 2
@@ -182,6 +183,7 @@
       "emoji": "↻",
       "node_ids": [
         "pr_rev2_learn",
+        "pr_rev2_ex",
         "pr_rev2_q"
       ],
       "level": 3
@@ -1070,8 +1072,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על הווה פשוט, על there is ו there are, ועל שאלות. אחרי he, she או it הפועל מקבל s: works. יש אחד: there is. יש כמה: there are. שאלה בהווה פותחת ב Do או ב Does, והפועל נשאר בלי s.",
+      "body_content": "She works at home. Do you live here?",
       "review_topic_ids": [
         "t_simple",
         "t_there",
@@ -1079,6 +1081,21 @@
       ],
       "can_do": "לחזור על הווה, there is ושאלות",
       "tile_role": "explanation"
+    },
+    {
+      "id": "pr_rev1_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "במשפט She ___ at home הנושא הוא She, גוף יחיד. בהווה פשוט מוסיפים s לפועל. work נהיה works. working אינו צורת הרגל. לכן She works at home.",
+      "body_content": "She works at home.",
+      "review_topic_ids": [
+        "t_simple",
+        "t_there",
+        "t_q"
+      ],
+      "can_do": "להוסיף s אחרי she",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_rev1_q",
@@ -1985,8 +2002,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על יום רגיל, על שלילה בהווה, ועל always ו never. שלילה עם פועל רגיל היא do not או does not, והפועל בלי s. always ו never באים לפני הפועל העיקרי, ואחרי is. כשיש יותר מאחד אומרים there are.",
+      "body_content": "There are two books. She does not work on Friday.",
       "review_topic_ids": [
         "t_day",
         "t_neg",
@@ -1994,6 +2011,21 @@
       ],
       "can_do": "לחזור על שלילה ותדירות",
       "tile_role": "explanation"
+    },
+    {
+      "id": "pr_rev2_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "במשפט There ___ two books יש שניים, לא אחד. לכן are, לא is. am לא שייך ל there. לכן There are two books.",
+      "body_content": "There are two books.",
+      "review_topic_ids": [
+        "t_day",
+        "t_neg",
+        "t_freq"
+      ],
+      "can_do": "לבחור are כשיש כמה",
+      "tile_role": "worked_example"
     },
     {
       "id": "pr_rev2_q",

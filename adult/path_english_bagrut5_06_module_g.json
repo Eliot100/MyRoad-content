@@ -82,6 +82,7 @@
       "emoji": "↻",
       "node_ids": [
         "g_rev1_learn",
+        "g_rev1_ex",
         "g_rev1_q"
       ],
       "level": 2
@@ -146,6 +147,7 @@
       "emoji": "↻",
       "node_ids": [
         "g_rev2_learn",
+        "g_rev2_ex",
         "g_rev2_q"
       ],
       "level": 3
@@ -476,8 +478,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על קטע G, על צורת חיבור, ועל מחוון. נימוק מסביר למה, לא חוזר על אותה מילה. משפט שמתחיל ב Because לבד אינו משפט.",
+      "body_content": "A fee gives a reason to keep the lease.",
       "review_topic_ids": [
         "t_read",
         "t_essay",
@@ -485,6 +487,21 @@
       ],
       "can_do": "לחזור על קריאה, פתיחה ומחוון",
       "tile_role": "explanation"
+    },
+    {
+      "id": "g_rev1_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "Choose a reason, not a repeat. A fee is a fee רק חוזר על המילה. Because fee אינו משפט. A fee gives a reason to keep the lease מסביר למה שומרים על השכירות. זו הסיבה.",
+      "body_content": "A fee gives a reason to keep the lease.",
+      "review_topic_ids": [
+        "t_read",
+        "t_essay",
+        "t_rubric"
+      ],
+      "can_do": "להבדיל נימוק מחזרה",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_rev1_q",
@@ -833,8 +850,8 @@
       "type": "learn",
       "kind": "review",
       "title": "חזרה מעורבת",
-      "body_he": "שאלות על מה שכבר למדתם. אין מילה חדשה.",
-      "body_content": "Review only.",
+      "body_he": "חזרה על גוף החיבור, על משפט סיום, ועל אורך. בגוף מביאים עובדה מהקטע. בסיום חוזרים על הטענה בלי נושא חדש. הסדנאות שנשארו גבו דמי שימוש וביקשו חובה, והחינם בלי חובה נסגר.",
+      "body_content": "The workshops that lasted charged a small fee and asked every member to teach.",
       "review_topic_ids": [
         "t_body",
         "t_close",
@@ -842,6 +859,21 @@
       ],
       "can_do": "לחזור על גוף, סיום ומילים לחיבור",
       "tile_role": "explanation"
+    },
+    {
+      "id": "g_rev2_ex",
+      "type": "learn",
+      "kind": "review",
+      "title": "דוגמה פתורה",
+      "body_he": "Which workshops lasted? כתוב שהסדנאות שנשארו גבו סכום קטן וביקשו מכל חבר ללמד שעה בחודש. החינם בלי חובה נסגר תוך שנה. לכן Ones with a fee and a duty.",
+      "body_content": "Ones with a fee and a duty.",
+      "review_topic_ids": [
+        "t_body",
+        "t_close",
+        "t_words"
+      ],
+      "can_do": "לזהות אילו סדנאות נשארו",
+      "tile_role": "worked_example"
     },
     {
       "id": "g_rev2_q",
