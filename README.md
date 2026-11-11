@@ -16,7 +16,7 @@ adult/*.json                  # long paths for adults starting from zero (schema
 adult/english_bagrut5/*.md    # source pack for the 5-point English Bagrut series
 adult/math_bagrut5/DECISION.md
 adult/path_math_bagrut5_*.json # original 5-unit math chain (run scripts/build_math_bagrut5.py)
-adult/path_english_amirnet_01.json # AMIRNET English starter road, not psychometric (run scripts/build_amirnet.py)
+adult/path_english_amirnet_01.json # full AMIRNET English practice road (not psychometric); run scripts/build_amirnet.py. Schema time cap 20 hours; recommended study is longer (see the PR).
 ```
 
 Only `*.json` files are loaded as paths. The loader validates every JSON file as a `ContentPath`, so notes, band maps, and rubrics stay in Markdown.

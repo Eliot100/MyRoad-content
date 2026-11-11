@@ -1,458 +1,3378 @@
 {
- "id": "path_english_amirnet_01",
- "titles": {
-  "he": "אמירנט: אנגלית לפטור והשמה",
-  "en": "AMIRNET: English placement",
-  "ar": "أميرنت: الإنجليزية للتصنيف والإعفاء"
- },
- "blurbs": {
-  "he": "דרך פתיחה לאמירנט: השלמת משפטים, ניסוח מחדש והבנת הנקרא. מדצמבר 2026 אנגלית לא בפסיכומטרי.",
-  "en": "A starter road for AMIRNET: sentence completion, restatement, and reading. From December 2026 English is not part of the psychometric test.",
-  "ar": "مسار بداية لأميرنت: إكمال الجمل وإعادة الصياغة والقراءة."
- },
- "subject": "english",
- "group_ids": [
-  "adult",
-  "amirnet"
- ],
- "emoji": "🎓",
- "explain_locale": "he",
- "content_locale": "en",
- "estimated_minutes": 60,
- "prerequisite_path_ids": [],
- "score": {
-  "group_id": "amirnet_150",
-  "part_id": "english",
-  "weight": 1
- },
- "topics": [
-  {
-   "id": "t_about",
-   "titles": {
-    "he": "מה זה אמירנט",
-    "en": "What AMIRNET is"
-   },
-   "emoji": "🧭",
-   "node_ids": [
-    "am_about_learn",
-    "am_about_chk"
-   ]
+  "id": "path_english_amirnet_01",
+  "titles": {
+    "he": "אמירנט: הכנה לציון 150",
+    "en": "AMIRNET: toward a 150 score",
+    "ar": "أميرنت: نحو علامة 150"
   },
-  {
-   "id": "t_complete",
-   "titles": {
-    "he": "השלמת משפטים",
-    "en": "Sentence completion"
-   },
-   "emoji": "🧩",
-   "node_ids": [
-    "am_comp_learn",
-    "am_comp_p1",
-    "am_comp_p2",
-    "am_comp_chk"
-   ]
+  "blurbs": {
+    "he": "דרך תרגול מלאה לאמירנט: אוצר מילים, השלמת משפט, ניסוח מחדש והבנת הנקרא, עם חזרה וסימולציה. בלי דרישת קדם. מבדק רמה יתווסף בהמשך. שדה הזמן במערכת מוגבל ל-20 שעות; היקף הלימוד המומלץ ארוך יותר ומופיע בתיאור הדרך.",
+    "en": "A full AMIRNET practice road: vocabulary, sentence completion, restatement, and reading, with review and a mixed simulation. No prerequisite. A placement test will come later. The system's time field is capped at 20 hours; the recommended study load is longer and is described with the road.",
+    "ar": "طريق تمرين كامل لامتحان الأميرنت: مفردات، إكمال جمل، إعادة صياغة وفهم المقروء، مع مراجعة ومحاكاة. دون متطلبات سابقة. اختبار تحديد المستوى سيُضاف لاحقا. حقل الوقت في النظام محدود بـ 20 ساعة؛ عبء الدراسة الموصى به أطول ويظهر في وصف الطريق."
   },
-  {
-   "id": "t_restate",
-   "titles": {
-    "he": "ניסוח מחדש",
-    "en": "Restatement"
-   },
-   "emoji": "🔁",
-   "node_ids": [
-    "am_rest_learn",
-    "am_rest_p1",
-    "am_rest_chk"
-   ]
+  "emoji": "📝",
+  "subject": "english",
+  "group_ids": [
+    "adult",
+    "amirnet"
+  ],
+  "content_locale": "en",
+  "explain_locale": "he",
+  "estimated_minutes": 1200,
+  "score": {
+    "group_id": "amirnet_150",
+    "part_id": "english",
+    "weight": 1
   },
-  {
-   "id": "t_read",
-   "titles": {
-    "he": "הבנת הנקרא",
-    "en": "Reading comprehension"
-   },
-   "emoji": "📖",
-   "node_ids": [
-    "am_read_learn",
-    "am_read_p1",
-    "am_read_chk"
-   ]
-  },
-  {
-   "id": "t_mixed",
-   "titles": {
-    "he": "תרגול מעורב",
-    "en": "Mixed practice"
-   },
-   "emoji": "⏱️",
-   "node_ids": [
-    "am_mix_learn",
-    "am_mix_r1",
-    "am_mix_r2",
-    "am_celebrate"
-   ]
-  }
- ],
- "nodes": [
-  {
-   "id": "am_about_learn",
-   "type": "learn",
-   "kind": "understanding",
-   "title": "אמירנט ולא פסיכומטרי",
-   "body_he": "מדצמבר 2026 אנגלית כבר לא חלק מהבחינה הפסיכומטרית. את רמת האנגלית לאקדמיה בודקים במבחן נפרד של מאל\"ו (NITE): אמירנט. זה מבחן ממוחשב ומסתגל, בערך 50 דקות, עם שלושה סוגי שאלות: השלמת משפטים, ניסוח מחדש והבנת הנקרא. הציון בסולם 50–150. כל מוסד קובע לבד מאיזה ציון יש פטור ואיך משבצים לרמה. ההרשמה נפרדת מהפסיכומטרי.",
-   "body_content": "AMIRNET: Sentence Completion, Restatement, Reading Comprehension.",
-   "can_do": "להבין מה אמירנט בודק ולמה הוא נפרד מהפסיכומטרי"
-  },
-  {
-   "id": "am_about_chk",
-   "type": "check",
-   "kind": "understanding",
-   "title": "שלושה סוגי שאלות",
-   "body_he": "איזה סוג שאלה לא מופיע היום באמירנט?",
-   "body_content": "AMIRNET question types",
-   "choices": [
+  "topics": [
     {
-     "id": "a",
-     "label": "Listening to a recorded lecture"
+      "id": "t_about",
+      "titles": {
+        "he": "מה זה אמירנט",
+        "en": "What AMIRNET is"
+      },
+      "emoji": "🧭",
+      "node_ids": [
+        "am_about_learn",
+        "am_about_types",
+        "am_about_rules"
+      ]
     },
     {
-     "id": "b",
-     "label": "Sentence Completion",
-     "feedback": "השלמת משפטים היא אחד משלושת הסוגים של היום."
+      "id": "t_vocab",
+      "titles": {
+        "he": "אוצר מילים אקדמי",
+        "en": "Academic vocabulary"
+      },
+      "emoji": "📚",
+      "node_ids": [
+        "am_vocab_learn",
+        "am_vocab_p1",
+        "am_vocab_p2",
+        "am_vocab_p3",
+        "am_vocab_p4",
+        "am_vocab_p5",
+        "am_vocab_p6",
+        "am_vocab_chk"
+      ]
     },
     {
-     "id": "c",
-     "label": "Restatement",
-     "feedback": "ניסוח מחדש הוא אחד משלושת הסוגים של היום."
+      "id": "t_sc_basic",
+      "titles": {
+        "he": "השלמת משפטים: בסיס",
+        "en": "Sentence completion: basics"
+      },
+      "emoji": "🧩",
+      "node_ids": [
+        "am_sc1_learn",
+        "am_sc1_p1",
+        "am_sc1_p2",
+        "am_sc1_p3",
+        "am_sc1_p4",
+        "am_sc1_p5",
+        "am_sc1_chk"
+      ]
+    },
+    {
+      "id": "t_sc_mid",
+      "titles": {
+        "he": "השלמת משפטים: רמזים דקדוקיים",
+        "en": "Sentence completion: grammar cues"
+      },
+      "emoji": "🔤",
+      "node_ids": [
+        "am_sc2_learn",
+        "am_sc2_p1",
+        "am_sc2_p2",
+        "am_sc2_p3",
+        "am_sc2_p4",
+        "am_sc2_p5",
+        "am_sc2_chk"
+      ]
+    },
+    {
+      "id": "t_sc_adv",
+      "titles": {
+        "he": "השלמת משפטים: רמה גבוהה",
+        "en": "Sentence completion: advanced"
+      },
+      "emoji": "🎯",
+      "node_ids": [
+        "am_sc3_learn",
+        "am_sc3_p1",
+        "am_sc3_p2",
+        "am_sc3_p3",
+        "am_sc3_p4",
+        "am_sc3_p5",
+        "am_sc3_chk"
+      ]
+    },
+    {
+      "id": "t_rest_basic",
+      "titles": {
+        "he": "ניסוח מחדש: בסיס",
+        "en": "Restatement: basics"
+      },
+      "emoji": "🔁",
+      "node_ids": [
+        "am_rest1_learn",
+        "am_rest1_p1",
+        "am_rest1_p2",
+        "am_rest1_p3",
+        "am_rest1_p4",
+        "am_rest1_p5",
+        "am_rest1_chk"
+      ]
+    },
+    {
+      "id": "t_rest_complex",
+      "titles": {
+        "he": "ניסוח מחדש: מבנים מורכבים",
+        "en": "Restatement: complex syntax"
+      },
+      "emoji": "⛓️",
+      "node_ids": [
+        "am_rest2_learn",
+        "am_rest2_p1",
+        "am_rest2_p2",
+        "am_rest2_p3",
+        "am_rest2_p4",
+        "am_rest2_p5",
+        "am_rest2_chk"
+      ]
+    },
+    {
+      "id": "t_rest_nuance",
+      "titles": {
+        "he": "ניסוח מחדש: הבדלים עדינים",
+        "en": "Restatement: nuance and traps"
+      },
+      "emoji": "🔍",
+      "node_ids": [
+        "am_rest3_learn",
+        "am_rest3_p1",
+        "am_rest3_p2",
+        "am_rest3_p3",
+        "am_rest3_p4",
+        "am_rest3_p5",
+        "am_rest3_chk"
+      ]
+    },
+    {
+      "id": "t_read_main",
+      "titles": {
+        "he": "הבנת הנקרא: רעיון ופרטים",
+        "en": "Reading: main idea and details"
+      },
+      "emoji": "📖",
+      "node_ids": [
+        "am_read1_learn",
+        "am_read1_p1",
+        "am_read1_p2",
+        "am_read1_p3",
+        "am_read1_p4",
+        "am_read1_p5",
+        "am_read1_chk"
+      ]
+    },
+    {
+      "id": "t_read_infer",
+      "titles": {
+        "he": "הבנת הנקרא: מילה בהקשר והסקה",
+        "en": "Reading: vocabulary and inference"
+      },
+      "emoji": "💡",
+      "node_ids": [
+        "am_read2_learn",
+        "am_read2_p1",
+        "am_read2_p2",
+        "am_read2_p3",
+        "am_read2_p4",
+        "am_read2_p5",
+        "am_read2_chk"
+      ]
+    },
+    {
+      "id": "t_read_struct",
+      "titles": {
+        "he": "הבנת הנקרא: מבנה ומטרה",
+        "en": "Reading: structure and purpose"
+      },
+      "emoji": "🗺️",
+      "node_ids": [
+        "am_read3_learn",
+        "am_read3_p1",
+        "am_read3_p2",
+        "am_read3_p3",
+        "am_read3_p4",
+        "am_read3_chk"
+      ]
+    },
+    {
+      "id": "t_mix_sc_rest",
+      "titles": {
+        "he": "חזרה משולבת: השלמת משפט וניסוח מחדש",
+        "en": "Mixed review: sentence completion and restatement"
+      },
+      "emoji": "🔁",
+      "node_ids": [
+        "am_mix1_learn",
+        "am_mix1_p1",
+        "am_mix1_p2",
+        "am_mix1_p3",
+        "am_mix1_p4",
+        "am_mix1_p5",
+        "am_mix1_p6",
+        "am_mix1_chk"
+      ]
+    },
+    {
+      "id": "t_mix_rc",
+      "titles": {
+        "he": "חזרה משולבת: קריאה ממוקדת",
+        "en": "Mixed review: focused reading"
+      },
+      "emoji": "📚",
+      "node_ids": [
+        "am_mix2_learn",
+        "am_mix2_p1",
+        "am_mix2_p2",
+        "am_mix2_p3",
+        "am_mix2_p4",
+        "am_mix2_chk"
+      ]
+    },
+    {
+      "id": "t_sim",
+      "titles": {
+        "he": "סימולציה מעורבת לקראת המבחן",
+        "en": "Mixed exam-style simulation"
+      },
+      "emoji": "🎯",
+      "node_ids": [
+        "am_sim_learn",
+        "am_sim_p1",
+        "am_sim_p2",
+        "am_sim_p3",
+        "am_sim_p4",
+        "am_sim_p5",
+        "am_sim_p6",
+        "am_sim_p7",
+        "am_sim_chk"
+      ]
+    },
+    {
+      "id": "t_end",
+      "titles": {
+        "he": "סיימתם את דרך האמירנט",
+        "en": "You finished the AMIRNET road"
+      },
+      "emoji": "🎉",
+      "node_ids": [
+        "am_end_celebrate"
+      ]
     }
-   ],
-   "correct": "a",
-   "feedback_ok": "נכון. האזנה עוד לא במבחן. מאל\"ו הודיעו שהיא תתווסף בשלבים מ-2027.",
-   "feedback_try": "היום יש שלושה סוגים: השלמת משפטים, ניסוח מחדש והבנת הנקרא. האזנה תתווסף רק בהמשך, לכן התשובה Listening.",
-   "can_do": "לזהות את סוגי השאלות במבחן",
-   "worked_method": "כתבו את שלושת הסוגים של היום: השלמת משפטים, ניסוח מחדש, הבנת הנקרא.\nבדקו כל תשובה מול הרשימה.\nמה שלא ברשימה הוא התשובה: Listening.",
-   "hint": "שני סוגים מהתשובות מופיעים ברשימת שלושת הסוגים."
-  },
-  {
-   "id": "am_comp_learn",
-   "type": "learn",
-   "kind": "understanding",
-   "title": "רמזים בתוך המשפט",
-   "body_he": "בהשלמת משפט מחפשים רמז: מילת ניגוד (although, but) הופכת כיוון. מילת סיבה (because, so) ממשיכה את אותו כיוון. קראו את כל המשפט לפני שמסתכלים על התשובות, ונחשו מילה משלכם.",
-   "body_content": "although = ניגוד · because = סיבה · ; = הסבר",
-   "can_do": "למצוא רמז במשפט לפני שבוחרים מילה"
-  },
-  {
-   "id": "am_comp_p1",
-   "type": "practice",
-   "kind": "understanding",
-   "title": "תוצאות שחוזרות",
-   "body_he": "בחרו את המילה שמשלימה את המשפט.",
-   "body_content": "The researchers' findings were ______; further experiments produced almost identical results.",
-   "choices": [
+  ],
+  "nodes": [
     {
-     "id": "a",
-     "label": "reproducible"
+      "id": "am_about_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אמירנט ולא פסיכומטרי",
+      "body_he": "מדצמבר 2026 אנגלית כבר לא חלק מהבחינה הפסיכומטרית. את רמת האנגלית לאקדמיה בודקים במבחן נפרד של מאל\"ו (NITE): אמירנט. זה מבחן ממוחשב ומסתגל, שאורך כ-50 דקות, עם שבעה עד שמונה פרקים. שלושת סוגי השאלות היום הם השלמת משפטים, ניסוח מחדש והבנת הנקרא. הציון בסולם 50–150, והוא שקול לפי מאל\"ו לציוני האנגלית הישנים (פסיכומטרי / אמיר / אמיר\"ם). כל מוסד קובע לבד מאיזה ציון יש פטור ואיך משבצים לרמה; ספי הפטור והשיבוץ לא מפורסמים ככלל אחיד של מאל\"ו (לא אומת כאן סף מספרי). מספר הפריטים בכל פרק וזמן מדויק לכל סוג שאלה גם הם לא אומתו. אפשר לגשת שוב אחרי המתנה של 35 יום, והציון תקף שבע שנים. ההרשמה נפרדת מהפסיכומטרי.",
+      "body_content": "AMIRNET: Sentence Completion, Restatement, Reading Comprehension. Scale 50–150. Official duration about 50 minutes. Item counts, per-section timing, and institutional cutoffs are unverified here.",
+      "can_do": "להבין מה אמירנט בודק ולמה הוא נפרד מהפסיכומטרי"
     },
     {
-     "id": "b",
-     "label": "contradictory",
-     "feedback": "סותרות לא מתאים: הניסויים הבאים נתנו אותן תוצאות."
+      "id": "am_about_types",
+      "type": "check",
+      "kind": "understanding",
+      "title": "שלושה סוגי שאלות",
+      "body_he": "איזה סוג שאלה לא מופיע היום באמירנט?",
+      "body_content": "AMIRNET question types today",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Listening to a recorded lecture"
+        },
+        {
+          "id": "b",
+          "label": "Sentence Completion",
+          "feedback": "השלמת משפטים היא אחד משלושת הסוגים של היום."
+        },
+        {
+          "id": "c",
+          "label": "Restatement",
+          "feedback": "ניסוח מחדש הוא אחד משלושת הסוגים של היום."
+        },
+        {
+          "id": "d",
+          "label": "Reading Comprehension",
+          "feedback": "הבנת הנקרא היא אחד משלושת הסוגים של היום."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. האזנה עוד לא במבחן. מאל\"ו הודיעו שהיא תתווסף בשלבים מ-2027.",
+      "feedback_try": "היום יש שלושה סוגים: השלמת משפטים, ניסוח מחדש והבנת הנקרא. האזנה תתווסף רק בהמשך.",
+      "can_do": "לזהות את סוגי השאלות במבחן",
+      "worked_method": "כתבו את שלושת הסוגים של היום.\nבדקו כל תשובה מול הרשימה.\nמה שלא ברשימה הוא התשובה.",
+      "hint": "שלושה סוגים מופיעים ברשימה של היום. אחד לא."
     },
     {
-     "id": "c",
-     "label": "speculative",
-     "feedback": "השערה בלבד לא מתאים לתוצאות שחזרו שוב."
+      "id": "am_about_rules",
+      "type": "check",
+      "kind": "understanding",
+      "title": "כללי ציון וניחוש",
+      "body_he": "מה נכון לפי כללי המבחן שאומתו?",
+      "body_content": "AMIRNET scoring rules",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A blank answer is scored as wrong, so a guess is better than leaving it empty."
+        },
+        {
+          "id": "b",
+          "label": "Every university uses the same exemption cutoff of 134.",
+          "feedback": "סף הפטור נקבע בכל מוסד בנפרד, ולא אומת כאן ככלל אחיד של מאל\"ו."
+        },
+        {
+          "id": "c",
+          "label": "You may go back to any earlier section after you finish it.",
+          "feedback": "אפשר לחזור רק בתוך אותו פרק, לא לפרקים קודמים."
+        },
+        {
+          "id": "d",
+          "label": "The test has no time limit.",
+          "feedback": "המבחן כולו אורך כ-50 דקות."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. תשובה חסרה נספרת כטעות, לכן עדיף לנחש מאשר להשאיר ריק.",
+      "feedback_try": "סף 134 הוא דוגמה מוסדית ולא כלל של מאל\"ו (לא אומת). אי אפשר לחזור לפרק קודם. יש מגבלת זמן.",
+      "can_do": "לדעת את כללי הניחוש והזמן",
+      "worked_method": "פסלו טענות על סף אחיד, על חזרה בין פרקים, ועל היעדר זמן.\nנשאר הכלל: תשובה חסרה = טעות.",
+      "hint": "מה קורה אם לא עונים על שאלה?"
+    },
+    {
+      "id": "am_vocab_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילים בהקשר, לא ברשימה",
+      "body_he": "באמירנט אוצר המילים נבדק בעיקר בתוך משפט או קטע, לא ברשימת הגדרות. כדאי לבנות מאגר של מילים אקדמיות שכיחות (analyze, evidence, significant, method, obtain, establish, contribute, affect) ולתרגל אותן במשפט. שימו לב לחלק הדיבר: אותו שורש יכול להיות שם עצם או פועל (analysis / analyze, effect / affect). כשנתקלים במילה לא מוכרת, חפשו רמז במשפט: ניגוד, דוגמה, או הסבר אחרי פסיק או נקודה-פסיק. זמן הלימוד המומלץ לשלב הזה הוא הערכה בלבד: כמה שעות של חזרה מחודדת, לא נתון רשמי.",
+      "body_content": "analyze, evidence, significant, method, obtain, establish, contribute, affect / effect.",
+      "can_do": "לזהות מילה אקדמית לפי הקשר במשפט"
+    },
+    {
+      "id": "am_vocab_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "ראיה ולא ניחוש",
+      "body_he": "איזו מילה מתאימה ביותר למשפט?",
+      "body_content": "The claim is weak because the authors provide almost no ______ to support it.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "evidence"
+        },
+        {
+          "id": "b",
+          "label": "decoration",
+          "feedback": "קישוט לא תומך בטענה."
+        },
+        {
+          "id": "c",
+          "label": "schedule",
+          "feedback": "לוח זמנים לא קשור לחיזוק טענה."
+        },
+        {
+          "id": "d",
+          "label": "audience",
+          "feedback": "קהל לא ממלא את החסר אחרי provide."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. evidence = ראיות. בלי ראיות הטענה חלשה.",
+      "feedback_try": "הטענה חלשה כי אין תמיכה. המילה שמסמנת תמיכה עובדתית היא evidence.",
+      "can_do": "לבחור מילה אקדמית לפי הקשר",
+      "worked_method": "שאלו: מה חסר כדי לתמוך בטענה?\nראיות.\nהתשובה: evidence.",
+      "hint": "מה תומך בטענה במחקר?"
+    },
+    {
+      "id": "am_vocab_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "השפעה ולא תוצאה",
+      "body_he": "איזו מילה מתאימה ביותר למשפט?",
+      "body_content": "Lack of sleep can ______ a student's ability to concentrate in the morning.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "affect"
+        },
+        {
+          "id": "b",
+          "label": "effect",
+          "feedback": "effect הוא בדרך כלל שם עצם. כאן דרוש פועל."
+        },
+        {
+          "id": "c",
+          "label": "accept",
+          "feedback": "לקבל לא מתאים ליכולת ריכוז."
+        },
+        {
+          "id": "d",
+          "label": "except",
+          "feedback": "מילת יוצא מן הכלל, לא פועל כאן."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. כאן דרוש פועל: affect = להשפיע. effect הוא בדרך כלל שם עצם.",
+      "feedback_try": "אחרי can בא פועל. Lack of sleep משפיע על היכולת. לכן affect, לא effect.",
+      "can_do": "להבחין בין affect ל-effect",
+      "worked_method": "בדקו את חלק הדיבר: אחרי can בא פועל.\neffect הוא שם עצם.\nהפועל הוא affect.",
+      "hint": "איזה חלק דיבר חסר במשפט?"
+    },
+    {
+      "id": "am_vocab_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לזהות גורמים",
+      "body_he": "איזו מילה מתאימה ביותר למשפט?",
+      "body_content": "The team tried to ______ the main factors behind the rise in prices.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "identify"
+        },
+        {
+          "id": "b",
+          "label": "ignore",
+          "feedback": "להתעלם סותר את tried to, שמסמן מאמץ להבין."
+        },
+        {
+          "id": "c",
+          "label": "invent",
+          "feedback": "להמציא גורמים זה לא מטרת צוות מחקר."
+        },
+        {
+          "id": "d",
+          "label": "delay",
+          "feedback": "לדחות לא מתאים לגורמים מאחורי עלייה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. identify = לזהות. הצוות ניסה לברר מה הגורמים.",
+      "feedback_try": "tried to + גורמים מאחורי תופעה = ניסיון לזהות אותם. התשובה identify.",
+      "can_do": "לבחור פועל אקדמי שמתאים למטרה",
+      "worked_method": "מה עושים ל-factors כדי להבין עליית מחירים?\nמזהים אותם.\nהתשובה: identify.",
+      "hint": "מה המטרה של הצוות במשפט?"
+    },
+    {
+      "id": "am_vocab_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סקירה מקיפה",
+      "body_he": "איזו מילה מתאימה ביותר למשפט?",
+      "body_content": "The chapter offers a ______ survey of recent work on memory, covering both laboratory and classroom studies.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "comprehensive"
+        },
+        {
+          "id": "b",
+          "label": "narrow",
+          "feedback": "צר סותר את covering both..."
+        },
+        {
+          "id": "c",
+          "label": "temporary",
+          "feedback": "זמני לא מתאר היקף סקירה."
+        },
+        {
+          "id": "d",
+          "label": "silent",
+          "feedback": "לא קשור לסקירת מחקרים."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. comprehensive = מקיף, וזה מתאים לכיסוי של שני סוגי מחקרים.",
+      "feedback_try": "covering both מסביר שהסקירה רחבה. המילה היא comprehensive.",
+      "can_do": "להשלים תואר לפי היקף",
+      "worked_method": "מצאו את ההסבר אחרי הפסיק: שני סוגי מחקרים.\nזה היקף רחב.\nהתשובה: comprehensive.",
+      "hint": "מה אומר החלק covering both...?"
+    },
+    {
+      "id": "am_vocab_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לתרום ולא למנוע",
+      "body_he": "איזו מילה מתאימה ביותר למשפט?",
+      "body_content": "Regular practice can ______ to better performance on timed reading tasks.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "contribute"
+        },
+        {
+          "id": "b",
+          "label": "prevent",
+          "feedback": "למנוע הצלחה סותר את better performance."
+        },
+        {
+          "id": "c",
+          "label": "refuse",
+          "feedback": "לסרב לא מתאים אחרי can ______ to."
+        },
+        {
+          "id": "d",
+          "label": "borrow",
+          "feedback": "לשאול לא מתאים לשיפור בביצוע."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. contribute to = לתרום ל. תרגול תורם לביצוע טוב יותר.",
+      "feedback_try": "המבנה can ______ to + שיפור דורש contribute. prevent היה הופך את הכיוון.",
+      "can_do": "לזהות צירוף אקדמי contribute to",
+      "worked_method": "שימו לב למילת היחס to אחרי החסר.\ncontribute to הוא צירוף קבוע.\nהתשובה: contribute.",
+      "hint": "איזה פועל מגיע עם to במשמעות של תרומה?"
+    },
+    {
+      "id": "am_vocab_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לבסס ממצא",
+      "body_he": "איזו מילה מתאימה ביותר למשפט?",
+      "body_content": "Further tests helped the lab ______ that the first result was not an accident.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "establish"
+        },
+        {
+          "id": "b",
+          "label": "abandon",
+          "feedback": "לנטוש את הממצא סותר את further tests."
+        },
+        {
+          "id": "c",
+          "label": "conceal",
+          "feedback": "להסתיר לא מתאים למעבדה שבודקת שוב."
+        },
+        {
+          "id": "d",
+          "label": "postpone",
+          "feedback": "לדחות לא מסביר שהתוצאה אינה מקרית."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. establish = לבסס, לקבוע. בדיקות נוספות ביססו את התוצאה.",
+      "feedback_try": "בדיקות נוספות נועדו להראות שהתוצאה יציבה. הפועל הוא establish.",
+      "can_do": "לבחור פועל שמבסס תוצאה",
+      "worked_method": "מה עושות בדיקות נוספות לתוצאה ראשונה?\nמבססות אותה.\nהתשובה: establish.",
+      "hint": "מה המטרה של further tests?"
+    },
+    {
+      "id": "am_vocab_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "שיטה ולא ניחוש",
+      "body_he": "איזו מילה מתאימה ביותר למשפט?",
+      "body_content": "The paper describes a new ______ for measuring attention in young children.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "method"
+        },
+        {
+          "id": "b",
+          "label": "melody",
+          "feedback": "לחן לא מודד קשב."
+        },
+        {
+          "id": "c",
+          "label": "furniture",
+          "feedback": "רהיטים לא מתאימים למדידה במאמר."
+        },
+        {
+          "id": "d",
+          "label": "holiday",
+          "feedback": "חג לא מתאר כלי מדידה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. method = שיטה. המאמר מתאר שיטה חדשה למדידה.",
+      "feedback_try": "for measuring מסמן כלי או שיטת מדידה. המילה האקדמית היא method.",
+      "can_do": "לבחור שם עצם אקדמי בהקשר מחקרי",
+      "worked_method": "החסר בא לפני for measuring.\nמה מתארים במאמר מדעי כדי למדוד?\nשיטה. התשובה: method.",
+      "hint": "מה מתאר מאמר כשהוא מסביר איך מודדים?"
+    },
+    {
+      "id": "am_sc1_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "קודם המשפט, אחר כך התשובות",
+      "body_he": "בהשלמת משפטים מופיע משפט עם חסר, וארבע אפשרויות. קראו קודם את כל המשפט ונחשו מילה משלכם, ורק אחר כך הסתכלו על התשובות. ברמה הבסיסית מחפשים התאמה פשוטה של משמעות: מילת סיבה ממשיכה כיוון, מילת ניגוד הופכת כיוון, ונקודה-פסיק או שני משפטים קרובים לעיתים מסבירים זה את זה. פסלו מילה שמתאימה רק לחלק מהמשפט. זמן ממוצע לשאלה במבחן לא אומת כאן; בתרגול עבדו בלי לחץ בהתחלה, ואחר כך קצבו את עצמכם.",
+      "body_content": "although = contrast · because / so = cause · ; = explanation",
+      "can_do": "למצוא רמז במשפט לפני שבוחרים מילה"
+    },
+    {
+      "id": "am_sc1_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תוצאות שחוזרות",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "The researchers' findings were ______; further experiments produced almost identical results.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "reproducible"
+        },
+        {
+          "id": "b",
+          "label": "contradictory",
+          "feedback": "סותרות לא מתאים: הניסויים הבאים נתנו אותן תוצאות."
+        },
+        {
+          "id": "c",
+          "label": "speculative",
+          "feedback": "השערה בלבד לא מתאים לתוצאות שחזרו."
+        },
+        {
+          "id": "d",
+          "label": "forgotten",
+          "feedback": "שכוחות לא מסבירות תוצאות זהות בניסוי הבא."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. reproducible = אפשר לחזור עליהן ולקבל אותו דבר.",
+      "feedback_try": "החלק אחרי ה-; מסביר: ניסויים נוספים נתנו כמעט אותן תוצאות. לכן reproducible.",
+      "can_do": "להשלים מילה לפי הסבר במשפט",
+      "worked_method": "מצאו את ההסבר אחרי ה-;.\nהוא אומר שהתוצאות חזרו.\nהתשובה: reproducible.",
+      "hint": "מה קרה בניסויים הנוספים?"
+    },
+    {
+      "id": "am_sc1_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מילת ניגוד",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "Although the bridge looked ______, engineers found serious cracks inside it.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "solid"
+        },
+        {
+          "id": "b",
+          "label": "damaged",
+          "feedback": "although מסמנת ניגוד. אם הגשר נראה פגוע, אין ניגוד לסדקים."
+        },
+        {
+          "id": "c",
+          "label": "fragile",
+          "feedback": "fragile בכיוון של הסדקים, ו-although דורשת כיוון הפוך."
+        },
+        {
+          "id": "d",
+          "label": "unfinished",
+          "feedback": "לא גמור לא מנוגד לסדקים בפנים."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. although מסמנת ניגוד: נראה יציב, אבל היו סדקים.",
+      "feedback_try": "although הופכת כיוון. בחלק השני יש סדקים, לכן בראשון הגשר נראה solid.",
+      "can_do": "להשתמש במילת ניגוד כדי לבחור מילה",
+      "worked_method": "סמנו את although = ניגוד.\nהחלק השני: סדקים.\nההפך: נראה יציב. התשובה: solid.",
+      "hint": "although מסמנת ניגוד בין שני חלקי המשפט."
+    },
+    {
+      "id": "am_sc1_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "דחייה זמנית",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "Due to technical problems, the conference was ______ until next month.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "postponed"
+        },
+        {
+          "id": "b",
+          "label": "canceled permanently",
+          "feedback": "until next month מראה שזו דחייה, לא ביטול סופי."
+        },
+        {
+          "id": "c",
+          "label": "expanded",
+          "feedback": "הרחבה לא נובעת מתקלות טכניות."
+        },
+        {
+          "id": "d",
+          "label": "completed",
+          "feedback": "הושלמה סותר את until next month."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. postponed = נדחה. until next month מציין דחייה זמנית.",
+      "feedback_try": "Due to מסביר סיבה, ו-until next month אומר שהאירוע יקרה מאוחר יותר. לכן postponed.",
+      "can_do": "להשלים לפי רמז של זמן",
+      "worked_method": "סמנו until next month.\nזה דחייה, לא ביטול.\nהתשובה: postponed.",
+      "hint": "מה אומר until next month?"
+    },
+    {
+      "id": "am_sc1_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "להגיש דוח",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "Students who join the program must ______ a short report at the end of the term.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "submit"
+        },
+        {
+          "id": "b",
+          "label": "receive",
+          "feedback": "לקבל דוח לא מתאים לחובת הסטודנטים."
+        },
+        {
+          "id": "c",
+          "label": "ignore",
+          "feedback": "להתעלם סותר את must."
+        },
+        {
+          "id": "d",
+          "label": "postpone forever",
+          "feedback": "לדחות לעד סותר את at the end of the term."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. submit = להגיש. זו דרישה בסוף הסמסטר.",
+      "feedback_try": "must + דוח בסוף התקופה = חובה להגיש. הפועל הוא submit.",
+      "can_do": "להשלים פועל שמתאים לחובה",
+      "worked_method": "מי חייב לעשות משהו לדוח?\nהסטודנטים.\nהם מגישים אותו. התשובה: submit.",
+      "hint": "מה עושים עם דוח בסוף קורס?"
+    },
+    {
+      "id": "am_sc1_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תור ארוך",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "The museum's new exhibit was so ______ that visitors waited in line for hours.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "popular"
+        },
+        {
+          "id": "b",
+          "label": "obscure",
+          "feedback": "אם התערוכה לא מוכרת, לא היו תורים."
+        },
+        {
+          "id": "c",
+          "label": "brief",
+          "feedback": "קצרה לא מסבירה המתנה של שעות."
+        },
+        {
+          "id": "d",
+          "label": "empty",
+          "feedback": "ריקה סותרת תורים ארוכים."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. so ... that מחבר סיבה לתוצאה: פופולרית, ולכן התורים.",
+      "feedback_try": "התוצאה אחרי that היא המתנה ארוכה. הסיבה שמתאימה: popular.",
+      "can_do": "להשלים לפי תוצאה במשפט",
+      "worked_method": "מצאו את התוצאה אחרי that.\nמה גורם לתורים? תערוכה מבוקשת.\nהתשובה: popular.",
+      "hint": "so ... that: מה גרם לתורים?"
+    },
+    {
+      "id": "am_sc1_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מילת סיבה",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "Because the instructions were so ______, almost every student completed the task without help.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "clear"
+        },
+        {
+          "id": "b",
+          "label": "vague",
+          "feedback": "אם ההוראות לא ברורות, היו צריכים עזרה."
+        },
+        {
+          "id": "c",
+          "label": "lengthy",
+          "feedback": "ארוכות לא מסבירות הצלחה בלי עזרה."
+        },
+        {
+          "id": "d",
+          "label": "hidden",
+          "feedback": "מוסתרות סותרות הצלחה עצמאית."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. because מחברת סיבה ותוצאה: הוראות ברורות, ולכן הצליחו לבד.",
+      "feedback_try": "התוצאה: כמעט כולם הצליחו בלי עזרה. הסיבה המתאימה: ההוראות היו clear.",
+      "can_do": "להשתמש במילת סיבה כדי לבחור מילה",
+      "worked_method": "מצאו את התוצאה: הצליחו בלי עזרה.\nמה גורם לזה? הוראות ברורות.\nהתשובה: clear.",
+      "hint": "because: החלק הראשון הוא הסיבה לחלק השני."
+    },
+    {
+      "id": "am_sc2_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "דקדוק ומשמעות יחד",
+      "body_he": "בשלב הזה המשפטים ארוכים יותר. בדקו גם משמעות וגם התאמה דקדוקית: יחיד או רבים, זמן הפועל, ומילת יחס קבועה (contribute to, succeed in, prevent from). מילה נרדפת שלא מתאימה למבנה היא מלכודת. קראו פעמיים: פעם למשמעות הכללית, ופעם לבדיקת התאמה מדויקת. מילות קישור כמו however, despite, due to, as a result הן רמזים חזקים.",
+      "body_content": "contribute to · succeed in · prevent from · however / despite = contrast",
+      "can_do": "לבדוק גם משמעות וגם התאמה דקדוקית"
+    },
+    {
+      "id": "am_sc2_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "למרות הכישלון",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "Although the first trial failed, the researchers ______ useful data on the new material.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "obtained"
+        },
+        {
+          "id": "b",
+          "label": "discarded",
+          "feedback": "לזרוק נתונים סותר את although, שמכין משהו חיובי אחרי כישלון."
+        },
+        {
+          "id": "c",
+          "label": "invented",
+          "feedback": "להמציא נתונים אינו מה שעושים אחרי ניסוי."
+        },
+        {
+          "id": "d",
+          "label": "avoided",
+          "feedback": "להימנע מנתונים לא מתאים."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. obtained = השיגו. למרות הכישלון, הושגו נתונים שימושיים.",
+      "feedback_try": "although מכין ניגוד לכישלון: בכל זאת הושג משהו. הפועל הוא obtained.",
+      "can_do": "להשלים לפי ניגוד במשפט",
+      "worked_method": "סמנו although.\nאחרי כישלון מגיע רווח בלתי צפוי.\nהתשובה: obtained.",
+      "hint": "מה אפשר עדיין להשיג אחרי ניסוי שנכשל?"
+    },
+    {
+      "id": "am_sc2_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לפגוע בריכוז",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "High levels of stress can ______ a person's ability to concentrate for long periods.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "impair"
+        },
+        {
+          "id": "b",
+          "label": "improve",
+          "feedback": "לשפר ריכוז סותר את High levels of stress."
+        },
+        {
+          "id": "c",
+          "label": "ignore",
+          "feedback": "הלחץ לא מתעלם מהיכולת; הוא פועל עליה."
+        },
+        {
+          "id": "d",
+          "label": "celebrate",
+          "feedback": "לא מתאים ליכולת ריכוז."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. impair = לפגוע. לחץ גבוה פוגע ביכולת להתרכז.",
+      "feedback_try": "לחץ גבוה + יכולת ריכוז = פגיעה. הפועל האקדמי הוא impair.",
+      "can_do": "לבחור פועל שמתאים לתוצאה שלילית",
+      "worked_method": "שאלו מה לחץ עושה ליכולת ריכוז.\nהוא מחליש אותה.\nהתשובה: impair.",
+      "hint": "מה הקשר בין לחץ לריכוז במשפט?"
+    },
+    {
+      "id": "am_sc2_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לסכם במילים שלהם",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "The lecturer asked the students to ______ the main points in their own words.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "summarize"
+        },
+        {
+          "id": "b",
+          "label": "memorize exactly",
+          "feedback": "in their own words סותר שינון מדויק."
+        },
+        {
+          "id": "c",
+          "label": "ignore",
+          "feedback": "להתעלם סותר את asked."
+        },
+        {
+          "id": "d",
+          "label": "translate into numbers",
+          "feedback": "לא מתאים ל-main points במילים."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. summarize = לסכם. in their own words מחזק את זה.",
+      "feedback_try": "in their own words = ניסוח עצמי של הרעיונות המרכזיים. הפועל הוא summarize.",
+      "can_do": "להשלים לפי צירוף במשפט",
+      "worked_method": "סמנו in their own words.\nזה סיכום, לא שינון.\nהתשובה: summarize.",
+      "hint": "מה דורש in their own words?"
+    },
+    {
+      "id": "am_sc2_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "קשר חזק בנתונים",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "The data ______ that there is a strong link between daily walking and lower blood pressure.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "suggest"
+        },
+        {
+          "id": "b",
+          "label": "deny",
+          "feedback": "להכחיש סותר strong link."
+        },
+        {
+          "id": "c",
+          "label": "hide",
+          "feedback": "להסתיר לא מתאים לנתונים שמוצגים."
+        },
+        {
+          "id": "d",
+          "label": "prevent",
+          "feedback": "למנוע לא מתאים למבנה that there is."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. suggest = מצביעים על. הנתונים מצביעים על קשר.",
+      "feedback_try": "The data ______ that... דורש פועל כמו suggest או show. מבין האפשרויות: suggest.",
+      "can_do": "להשלים פועל שמתאים לנתונים",
+      "worked_method": "בדקו מה הנתונים עושים למשפט that...\nהם מצביעים על קשר.\nהתשובה: suggest.",
+      "hint": "איזה פועל מתאים לפני that במשפט על נתונים?"
+    },
+    {
+      "id": "am_sc2_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לשקול הצעה",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "The committee will ______ the proposal only after a further discussion next week.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "consider"
+        },
+        {
+          "id": "b",
+          "label": "reject immediately",
+          "feedback": "immediately סותר only after a further discussion."
+        },
+        {
+          "id": "c",
+          "label": "ignore completely",
+          "feedback": "דיון נוסף לא מתאים להתעלמות."
+        },
+        {
+          "id": "d",
+          "label": "destroy",
+          "feedback": "לא מתאים לוועדה אקדמית שדנה בהצעה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. consider = לשקול. הדיון הנוסף מכין שקילה, לא דחייה מיידית.",
+      "feedback_try": "only after a further discussion אומר שההחלטה עוד לא סופית. הפועל הוא consider.",
+      "can_do": "להשלים לפי רמז של רצף",
+      "worked_method": "סמנו only after.\nעוד יהיה דיון, אז אין החלטה סופית עכשיו.\nהתשובה: consider.",
+      "hint": "מה קורה אחרי דיון נוסף?"
+    },
+    {
+      "id": "am_sc2_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "תזוזה של מדיניות",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "The new policy is expected to ______ significant changes in how grants are awarded.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "produce"
+        },
+        {
+          "id": "b",
+          "label": "prevent",
+          "feedback": "למנוע שינויים סותר expected to ______ significant changes."
+        },
+        {
+          "id": "c",
+          "label": "ignore",
+          "feedback": "מדיניות לא מתעלמת משינויים שהיא עצמה יוצרת."
+        },
+        {
+          "id": "d",
+          "label": "delay only the past",
+          "feedback": "לא מובן ולא מתאים לשינויים עתידיים."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. produce changes = לחולל שינויים. זה הצירוף שמתאים ל-expected to.",
+      "feedback_try": "expected to + changes: המדיניות צפויה לחולל שינויים. produce מתאים, prevent הופך כיוון.",
+      "can_do": "לבחור צירוף מדויק עם changes",
+      "worked_method": "שאלו מה מדיניות חדשה עושה לשינויים.\nהיא יוצרת אותם.\nהתשובה: produce.",
+      "hint": "איזה פועל מתאים עם changes?"
+    },
+    {
+      "id": "am_sc3_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "מילים קרובות ומלכודות",
+      "body_he": "כאן מופיעות מילים אקדמיות קרובות במשמעות (undermine / weaken, subsequent / later, feasible / practical). חפשו את הרמז המרכזי: תוצאה, סיבה, ניגוד או תנאי, ואז בדקו איזו אפשרות מתאימה לו במדויק. שללו קודם מילים שנשמעות \"חכמות\" אך לא מתאימות להקשר, ומילים דומות בכתב (affect/effect, imply/infer). אם שני מועמדים נראים טוב, בדקו מילת יחס וחלק דיבר. זמן ממוצע לשאלה במבחן לא אומת.",
+      "body_content": "undermine · subsequent · feasible · imply / infer · affect / effect",
+      "can_do": "לבחור בין מילים קרובות לפי רמז מדויק"
+    },
+    {
+      "id": "am_sc3_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לערער מסקנה",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "Subsequent analysis ______ the first conclusion that the treatment had no effect.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "undermined"
+        },
+        {
+          "id": "b",
+          "label": "confirmed without any further test",
+          "feedback": "without any further test סותר subsequent analysis."
+        },
+        {
+          "id": "c",
+          "label": "ignored",
+          "feedback": "ניתוח המשך לא מתעלם ממסקנה; הוא בוחן אותה."
+        },
+        {
+          "id": "d",
+          "label": "delayed permanently",
+          "feedback": "לא מתאים למסקנה שנבחנת מחדש."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. undermined = ערער. ניתוח מאוחר יותר ערער את המסקנה הראשונה.",
+      "feedback_try": "Subsequent analysis מול first conclusion מכין שינוי או ערעור. undermined מתאים.",
+      "can_do": "להשלים פועל של ערעור",
+      "worked_method": "סמנו Subsequent מול first.\nיש בדיקה מאוחרת של מסקנה מוקדמת.\nהתשובה: undermined.",
+      "hint": "מה ניתוח מאוחר יכול לעשות למסקנה ראשונה?"
+    },
+    {
+      "id": "am_sc3_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מעשי בתנאים אמיתיים",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "Few of the proposed solutions proved ______ under real-world conditions.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "feasible"
+        },
+        {
+          "id": "b",
+          "label": "decorative",
+          "feedback": "קישוטי לא קשור לתנאי אמת."
+        },
+        {
+          "id": "c",
+          "label": "imaginary",
+          "feedback": "דמיוני סותר proved under real-world conditions."
+        },
+        {
+          "id": "d",
+          "label": "silent",
+          "feedback": "לא מתאים לפתרונות."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. feasible = ישים, מעשי. מעט פתרונות עמדו במבחן המציאות.",
+      "feedback_try": "under real-world conditions בוחן ישימות. המילה היא feasible.",
+      "can_do": "להשלים תואר של ישימות",
+      "worked_method": "סמנו real-world conditions.\nהשאלה היא אם הפתרון ישים.\nהתשובה: feasible.",
+      "hint": "מה בודקים בתנאי אמת?"
+    },
+    {
+      "id": "am_sc3_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מגבלות שיטה",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "The comprehensive review ______ several methodological limitations in earlier studies.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "identified"
+        },
+        {
+          "id": "b",
+          "label": "concealed",
+          "feedback": "סקירה מקיפה לא מסתירה מגבלות; היא חושפת אותן."
+        },
+        {
+          "id": "c",
+          "label": "invented",
+          "feedback": "מגבלות מתודולוגיות מזוהות, לא מומצאות."
+        },
+        {
+          "id": "d",
+          "label": "celebrated",
+          "feedback": "לא מתאים למגבלות."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. identified = זיהתה. הסקירה מצאה מגבלות בשיטות של מחקרים קודמים.",
+      "feedback_try": "review + limitations: סקירה מציינת מגבלות. הפועל הוא identified.",
+      "can_do": "להשלים פועל בסקירת מחקר",
+      "worked_method": "מה סקירה עושה למגבלות במחקרים קודמים?\nמזהה אותן.\nהתשובה: identified.",
+      "hint": "מה תפקיד סקירה מקיפה?"
+    },
+    {
+      "id": "am_sc3_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לחקור השפעות",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "Scientists continue to ______ how warmer winters affect the migration of local birds.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "investigate"
+        },
+        {
+          "id": "b",
+          "label": "ignore",
+          "feedback": "continue to ignore סותר את רוח המשפט המחקרי."
+        },
+        {
+          "id": "c",
+          "label": "deny",
+          "feedback": "להכחיש את האופן שבו זה משפיע לא מתאים ל-how."
+        },
+        {
+          "id": "d",
+          "label": "postpone the past",
+          "feedback": "צירוף לא הגיוני."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. investigate = לחקור. הם ממשיכים לבדוק את ההשפעה.",
+      "feedback_try": "Scientists continue to + how... = המשך חקירה. הפועל הוא investigate.",
+      "can_do": "להשלים פועל מחקרי",
+      "worked_method": "מי ממשיך לעשות משהו, ועל מה?\nמדענים, על השפעת החורפים.\nהתשובה: investigate.",
+      "hint": "מה מדענים ממשיכים לעשות?"
+    },
+    {
+      "id": "am_sc3_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "להרחיב הבנה",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "The discovery of the new species has ______ our understanding of the forest's food web.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "expanded"
+        },
+        {
+          "id": "b",
+          "label": "reduced",
+          "feedback": "גילוי מין חדש לא מצמצם הבנה."
+        },
+        {
+          "id": "c",
+          "label": "erased",
+          "feedback": "לא מוחק הבנה."
+        },
+        {
+          "id": "d",
+          "label": "hidden",
+          "feedback": "גילוי חושף, לא מסתיר."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. expanded = הרחיב. גילוי חדש מרחיב את ההבנה.",
+      "feedback_try": "discovery of a new species + understanding = הרחבה. expanded מתאים.",
+      "can_do": "להשלים פועל לפי כיוון חיובי",
+      "worked_method": "מה גילוי חדש עושה להבנה?\nמרחיב אותה.\nהתשובה: expanded.",
+      "hint": "איזה כיוון מתאים לגילוי חדש?"
+    },
+    {
+      "id": "am_sc3_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "לבהיר קשר",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "The next set of studies aims to ______ the relationship between diet and sleep quality.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "clarify"
+        },
+        {
+          "id": "b",
+          "label": "hide",
+          "feedback": "מחקרים לא שואפים להסתיר קשר."
+        },
+        {
+          "id": "c",
+          "label": "ignore",
+          "feedback": "aims to ignore לא הגיוני כמטרת מחקר."
+        },
+        {
+          "id": "d",
+          "label": "complicate without cause",
+          "feedback": "לסבך בלי סיבה אינו מטרה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. clarify = להבהיר. המחקרים הבאים שואפים להבהיר את הקשר.",
+      "feedback_try": "aims to + relationship: המטרה היא להבהיר את הקשר. clarify מתאים.",
+      "can_do": "לבחור פועל שמתאים למטרת מחקר",
+      "worked_method": "מה מטרת מחקרי המשך לגבי relationship?\nלהבהיר אותו.\nהתשובה: clarify.",
+      "hint": "מה עושים לקשר שעדיין לא ברור לגמרי?"
+    },
+    {
+      "id": "am_rest1_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "אותה משמעות בדיוק",
+      "body_he": "בניסוח מחדש מופיע משפט מקורי וארבעה ניסוחים. בחרו את המשפט ששומר את כל המידע החשוב, בלי להוסיף ובלי להחסיר. בדקו שלושה דברים: מי עושה מה, מה הכיוון (חיובי או שלילי), ומילים של כמות או הגבלה כמו only, not, all, some, few. תשובה שנשמעת דומה אבל משנה כמות, זמן או כיוון היא מלכודת. ברמה הבסיסית השינויים פשוטים: פעיל וסביל, או מילה נרדפת. נסחו לעצמכם את הרעיון בעברית, ואז השוו.",
+      "body_content": "Same meaning: who, direction, only / not / all / some / few.",
+      "can_do": "לבדוק שתשובה שומרת את כל המשמעות"
+    },
+    {
+      "id": "am_rest1_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מעטים סיימו",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "Few students completed the assignment before the deadline.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Almost none of the students finished before the deadline."
+        },
+        {
+          "id": "b",
+          "label": "Most students finished on time.",
+          "feedback": "few זה מעטים, לא רוב."
+        },
+        {
+          "id": "c",
+          "label": "All students finished early.",
+          "feedback": "all הפוך מ-few."
+        },
+        {
+          "id": "d",
+          "label": "The deadline was canceled.",
+          "feedback": "מידע חדש, לא במקור."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. few = מעטים מאוד, כמעט אף אחד לא סיים לפני המועד.",
+      "feedback_try": "few הוא כמות קטנה מאוד. Almost none שומר את זה. Most ו-All הופכים את הכמות.",
+      "can_do": "לשמור כמות בניסוח מחדש",
+      "worked_method": "סמנו few.\nמעטים = כמעט אף אחד.\nהתשובה: Almost none of the students finished before the deadline.",
+      "hint": "מה המשמעות של few?"
+    },
+    {
+      "id": "am_rest1_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נדחה בגלל מחלה",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "The lecture was postponed because the professor was ill.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The lecture took place later due to the professor's illness."
+        },
+        {
+          "id": "b",
+          "label": "The professor canceled the lecture permanently.",
+          "feedback": "postponed זה דחייה, לא ביטול סופי."
+        },
+        {
+          "id": "c",
+          "label": "Students preferred a different lecturer.",
+          "feedback": "מידע שלא מופיע במקור."
+        },
+        {
+          "id": "d",
+          "label": "The lecture was shorter than planned.",
+          "feedback": "המקור לא מדבר על אורך."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. postponed = נדחה, והסיבה היא מחלת המרצה.",
+      "feedback_try": "שני חלקים: דחייה, וסיבה. רק המשפט על took place later שומר את שניהם.",
+      "can_do": "לשמור סיבה וזמן בניסוח מחדש",
+      "worked_method": "פרקו לשניים: נדחה; בגלל מחלה.\nפסלו ביטול סופי ומידע חדש.\nנשארה דחייה בגלל מחלה.",
+      "hint": "מה ההבדל בין postponed ל-canceled?"
+    },
+    {
+      "id": "am_rest1_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "לא כולם הסכימו",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "Not all of the participants agreed with the final decision.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Some participants disagreed with the decision."
+        },
+        {
+          "id": "b",
+          "label": "None of the participants agreed.",
+          "feedback": "not all זה לא כולם, לא אף אחד."
+        },
+        {
+          "id": "c",
+          "label": "Everyone agreed completely.",
+          "feedback": "הפוך מהמקור."
+        },
+        {
+          "id": "d",
+          "label": "Only one person disagreed.",
+          "feedback": "המקור לא קובע מספר מדויק."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. not all = לא כולם, כלומר חלק לא הסכימו.",
+      "feedback_try": "not all לא שווה none ולא שווה everyone. Some ... disagreed שומר את המשמעות.",
+      "can_do": "לשמור שלילה חלקית בניסוח מחדש",
+      "worked_method": "סמנו not all.\nזה אומר שחלק לא הסכימו.\nהתשובה: Some participants disagreed with the decision.",
+      "hint": "מה ההבדל בין not all ל-none?"
+    },
+    {
+      "id": "am_rest1_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "למרות האורך",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "Although the book is long, many students finished it in one week.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Despite its length, many students completed the book in a week."
+        },
+        {
+          "id": "b",
+          "label": "The book was short, so students finished quickly.",
+          "feedback": "המקור אומר שהספר ארוך."
+        },
+        {
+          "id": "c",
+          "label": "No student managed to finish the book.",
+          "feedback": "סותר many students finished."
+        },
+        {
+          "id": "d",
+          "label": "The book took most students a month to read.",
+          "feedback": "חודש לא מופיע במקור."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. although = despite: למרות האורך, רבים סיימו בתוך שבוע.",
+      "feedback_try": "יש ניגוד בין אורך לבין סיום מהיר של רבים. Despite its length שומר את הניגוד ואת הזמן.",
+      "can_do": "לשמור ניגוד בניסוח מחדש",
+      "worked_method": "שמרו שלושה דברים: הספר ארוך; רבים סיימו; בתוך שבוע.\nרק תשובה אחת שומרת את שלושתם.",
+      "hint": "מה although מוסיף למשפט?"
+    },
+    {
+      "id": "am_rest1_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "כמעט כולם תמכו",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "Nearly all of the survey respondents supported the new policy.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Almost everyone who answered the survey was in favor."
+        },
+        {
+          "id": "b",
+          "label": "Very few people supported the policy.",
+          "feedback": "הפוך מ-nearly all."
+        },
+        {
+          "id": "c",
+          "label": "Half of the respondents opposed it.",
+          "feedback": "מחצית לא מופיעה במקור."
+        },
+        {
+          "id": "d",
+          "label": "No one answered the survey.",
+          "feedback": "סותר את קיום המשיבים."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. nearly all = almost everyone, ו-supported = in favor.",
+      "feedback_try": "כמעט כל המשיבים תמכו. Almost everyone ... in favor שומר כמות וכיוון.",
+      "can_do": "לשמור כמות גבוהה בניסוח מחדש",
+      "worked_method": "סמנו nearly all ו-supported.\nכמעט כולם היו בעד.\nהתשובה: Almost everyone who answered the survey was in favor.",
+      "hint": "מה המשמעות של nearly all?"
+    },
+    {
+      "id": "am_rest1_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "עלויות ומורל",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "Although the new policy reduced costs, it also lowered employee satisfaction.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The policy cut expenses but damaged morale."
+        },
+        {
+          "id": "b",
+          "label": "Costs fell and satisfaction rose.",
+          "feedback": "במקור שביעות הרצון ירדה, לא עלתה."
+        },
+        {
+          "id": "c",
+          "label": "Satisfaction improved once costs were controlled.",
+          "feedback": "הכיוון של שביעות הרצון הפוך."
+        },
+        {
+          "id": "d",
+          "label": "The policy had no effect on workers.",
+          "feedback": "סותר lowered employee satisfaction."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. שני החלקים נשמרו: העלויות ירדו, ושביעות הרצון ירדה.",
+      "feedback_try": "יש שני חלקים הפוכים בכיוון הכלכלי והאנושי: חיסכון, ופגיעה במורל. רק cut expenses but damaged morale שומר את שניהם.",
+      "can_do": "לבחור ניסוח ששומר שני חלקים",
+      "worked_method": "פרקו לשניים: עלויות ירדו; שביעות רצון ירדה.\nבדקו כל תשובה מול שני החלקים.",
+      "hint": "מה קרה לשביעות הרצון במקור?"
+    },
+    {
+      "id": "am_rest2_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "משפטי זיקה וסדר סיבה",
+      "body_he": "המשפטים כוללים משפטי זיקה, תנאי ומילות קישור מורכבות. זהו קודם מה הנושא, ומה היחס בין החלקים: סיבה, תוצאה, ניגוד או תנאי. סמנו במקור מילות מפתח של כמות, זמן ושלילה, וודאו שהן מופיעות בניסוח הנכון. שללו תשובות שמוסיפות מידע, שהופכות סיבה לתוצאה, או שמשנות את התנאי (if) לעובדה שכבר התקיימה. recommended זה לא אותו דבר כמו required.",
+      "body_content": "cause vs effect · if = condition, not a fact · recommended ≠ required",
+      "can_do": "לשמור יחסים לוגיים בניסוח מחדש"
+    },
+    {
+      "id": "am_rest2_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "רק אחרי חזרה",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "The results were published only after the experiment had been repeated.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Publication occurred after the experiment was done again."
+        },
+        {
+          "id": "b",
+          "label": "The experiment was repeated after publication.",
+          "feedback": "הסדר הפוך."
+        },
+        {
+          "id": "c",
+          "label": "The results were never published.",
+          "feedback": "סותר published."
+        },
+        {
+          "id": "d",
+          "label": "The experiment failed and was not repeated.",
+          "feedback": "סותר had been repeated."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. only after = רק אחרי שהניסוי חזר, ואז פורסמו התוצאות.",
+      "feedback_try": "הסדר: קודם חזרה על הניסוי, אחר כך פרסום. Publication occurred after... שומר את הסדר.",
+      "can_do": "לשמור סדר זמנים בניסוח מחדש",
+      "worked_method": "סמנו only after.\nקודם חזרה, אחר כך פרסום.\nפסלו תשובות עם סדר הפוך.",
+      "hint": "מה קדם למה במקור?"
+    },
+    {
+      "id": "am_rest2_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "המלצה ולא חובה",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "The professor recommended that students review the material before the exam.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The professor suggested reviewing the material in advance."
+        },
+        {
+          "id": "b",
+          "label": "Students were required to review.",
+          "feedback": "recommended זה המלצה, לא חובה."
+        },
+        {
+          "id": "c",
+          "label": "Reviewing was unnecessary.",
+          "feedback": "סותר recommended."
+        },
+        {
+          "id": "d",
+          "label": "The exam covered only new material.",
+          "feedback": "מידע חדש."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. recommended = suggested, לא required.",
+      "feedback_try": "שמרו את החוזק של הפעולה: המלצה. suggested ... in advance שומר גם את הזמן before the exam.",
+      "can_do": "לא להחליף המלצה בחובה",
+      "worked_method": "סמנו recommended.\nזו המלצה, לא חובה.\nהתשובה עם suggested.",
+      "hint": "מה ההבדל בין recommended ל-required?"
+    },
+    {
+      "id": "am_rest2_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "קיצוץ תקציב",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "Due to budget cuts, several research projects were canceled.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Some projects stopped because of reduced funding."
+        },
+        {
+          "id": "b",
+          "label": "Extra funding allowed more projects.",
+          "feedback": "הפוך מהמקור."
+        },
+        {
+          "id": "c",
+          "label": "All projects continued as planned.",
+          "feedback": "סותר were canceled."
+        },
+        {
+          "id": "d",
+          "label": "The budget increased significantly.",
+          "feedback": "סותר budget cuts."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. due to budget cuts = בגלל קיצוץ, וכמה פרויקטים הופסקו.",
+      "feedback_try": "סיבה: קיצוץ. תוצאה: כמה פרויקטים בוטלו. Some projects stopped because of reduced funding שומר את שניהם.",
+      "can_do": "לשמור סיבה ותוצאה",
+      "worked_method": "שמרו סיבה ותוצאה.\nקיצוץ, ולכן חלק מהפרויקטים נעצרו.\nפסלו תשובות על תוספת תקציב.",
+      "hint": "מה גרם לביטול הפרויקטים?"
+    },
+    {
+      "id": "am_rest2_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תנאי למימון",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "The museum will open its new wing next year if funding is secured.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Opening next year depends on obtaining funding."
+        },
+        {
+          "id": "b",
+          "label": "The wing is already open.",
+          "feedback": "סותר will open next year."
+        },
+        {
+          "id": "c",
+          "label": "Funding has already been secured.",
+          "feedback": "if אומר שהמימון עדיין לא בטוח."
+        },
+        {
+          "id": "d",
+          "label": "The museum will close permanently.",
+          "feedback": "מידע הפוך."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. if funding is secured = הפתיחה תלויה בהשגת מימון.",
+      "feedback_try": "זה תנאי, לא עובדה שכבר התקיימה. depends on obtaining funding שומר את התנאי ואת העיתוי.",
+      "can_do": "לא להפוך תנאי לעובדה",
+      "worked_method": "סמנו if.\nזו תלות, לא עובדה.\nהתשובה: Opening next year depends on obtaining funding.",
+      "hint": "מה if עושה למשפט?"
+    },
+    {
+      "id": "am_rest2_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נוכחות וציון",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "Students who attended all classes performed better on the final exam.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Regular attendance was linked to higher exam performance."
+        },
+        {
+          "id": "b",
+          "label": "Attendance had no relation to exam scores.",
+          "feedback": "סותר performed better."
+        },
+        {
+          "id": "c",
+          "label": "Students who missed classes scored higher.",
+          "feedback": "הפוך מהמקור."
+        },
+        {
+          "id": "d",
+          "label": "The final exam was canceled.",
+          "feedback": "מידע חדש."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. מי שהגיע לכל השיעורים השיג תוצאה טובה יותר במבחן.",
+      "feedback_try": "יש קשר בין נוכחות מלאה לבין הישג גבוה יותר. linked to higher exam performance שומר את הקשר בלי להוסיף סיבתיות חזקה מדי, וזה עדיין נאמן למקור.",
+      "can_do": "לשמור קשר בין שני חלקים",
+      "worked_method": "שמרו את הקשר: נוכחות מלאה, וציונים גבוהים יותר.\nפסלו היעדר קשר או כיוון הפוך.",
+      "hint": "מי קיבל תוצאה טובה יותר?"
+    },
+    {
+      "id": "am_rest2_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "הסיבה עדיין לא ידועה",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "Researchers have not yet determined the exact cause of the phenomenon.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The precise cause remains unknown."
+        },
+        {
+          "id": "b",
+          "label": "The cause is already known.",
+          "feedback": "סותר have not yet determined."
+        },
+        {
+          "id": "c",
+          "label": "The phenomenon does not exist.",
+          "feedback": "המקור מניח שהתופעה קיימת."
+        },
+        {
+          "id": "d",
+          "label": "All researchers agree on the cause.",
+          "feedback": "סותר את העובדה שהסיבה לא נקבעה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. have not yet determined = עדיין לא נקבעה הסיבה המדויקת.",
+      "feedback_try": "not yet = עדיין לא. The precise cause remains unknown שומר את זה בלי להוסיף מידע.",
+      "can_do": "לשמור שלילה של ידיעה",
+      "worked_method": "סמנו not yet.\nהסיבה המדויקת עוד לא ידועה.\nהתשובה: The precise cause remains unknown.",
+      "hint": "מה אומר not yet determined?"
+    },
+    {
+      "id": "am_rest3_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "almost, only, not all",
+      "body_he": "ברמה הזו המלכודות דקות: almost / nearly, only, rarely, not all מול none. משפט שמכיל את אותן מילים בסדר אחר עלול לשנות את המשמעות. בדקו במיוחד כמות, טווח ושלילה. אם תשובה מוסיפה both / only / always שלא היו במקור, פסלו אותה. תרגלו שלילה שיטתית של שלוש התשובות לפני שאתם בוחרים.",
+      "body_content": "not all ≠ none · almost ≠ exactly · do not add only / always / both",
+      "can_do": "לזהות הבדל עדין בכמות או בשלילה"
+    },
+    {
+      "id": "am_rest3_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "גם וגם",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "The article argues that technology can both help and harm learning.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The article claims technology has positive and negative effects on learning."
+        },
+        {
+          "id": "b",
+          "label": "Technology only helps learning.",
+          "feedback": "only מוחק את harm."
+        },
+        {
+          "id": "c",
+          "label": "Technology has no impact.",
+          "feedback": "סותר help and harm."
+        },
+        {
+          "id": "d",
+          "label": "Learning improves only with technology.",
+          "feedback": "מוסיף only ומוחק את הנזק."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. both help and harm = גם יתרון וגם חיסרון.",
+      "feedback_try": "יש שני כיוונים. positive and negative effects שומר את שניהם. תשובות עם only מוחקות חלק.",
+      "can_do": "לא למחוק אחד משני חלקים",
+      "worked_method": "סמנו both ... and.\nיש שני צדדים.\nפסלו תשובות שמשאירות רק צד אחד.",
+      "hint": "מה both מוסיף למקור?"
+    },
+    {
+      "id": "am_rest3_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "חינם לנרשמים",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "The workshop was free for all registered students.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Registered students paid nothing to attend."
+        },
+        {
+          "id": "b",
+          "label": "Only some students could attend for free.",
+          "feedback": "all registered, לא only some."
+        },
+        {
+          "id": "c",
+          "label": "Registration was expensive.",
+          "feedback": "המקור לא אומר כמה עולה הרישום, רק שהסדנה חינם לנרשמים."
+        },
+        {
+          "id": "d",
+          "label": "The workshop was canceled.",
+          "feedback": "מידע חדש."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. free for all registered = הנרשמים לא שילמו על ההשתתפות.",
+      "feedback_try": "מי מקבל חינם? כל הסטודנטים שנרשמו. paid nothing to attend שומר את זה בלי להוסיף טענה על מחיר הרישום.",
+      "can_do": "לשמור מי מקבל את ההטבה",
+      "worked_method": "סמנו free ו-all registered.\nהנרשמים לא שילמו על הסדנה.\nהתשובה: Registered students paid nothing to attend.",
+      "hint": "למי הסדנה הייתה חינם?"
+    },
+    {
+      "id": "am_rest3_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מגמת התחממות",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "Climate data collected over decades show a clear warming trend.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Long-term data indicate rising temperatures."
+        },
+        {
+          "id": "b",
+          "label": "Temperatures have remained stable.",
+          "feedback": "סותר warming trend."
+        },
+        {
+          "id": "c",
+          "label": "Data are insufficient to show any trend.",
+          "feedback": "סותר show a clear ... trend."
+        },
+        {
+          "id": "d",
+          "label": "Cooling has been observed.",
+          "feedback": "הפוך מ-warming."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. over decades = long-term, ו-warming trend = rising temperatures.",
+      "feedback_try": "יש נתונים ארוכי טווח ומגמת עלייה. Long-term data indicate rising temperatures שומר את שניהם.",
+      "can_do": "לשמור מגמה בניסוח מחדש",
+      "worked_method": "שמרו טווח ומגמה.\nעשרות שנים, והתחממות.\nפסלו יציבות או התקררות.",
+      "hint": "מה מראים הנתונים לאורך זמן?"
+    },
+    {
+      "id": "am_rest3_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "עלייה הדרגתית",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "The data indicate a gradual increase rather than a sudden change.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The data show a slow rise instead of an abrupt one."
+        },
+        {
+          "id": "b",
+          "label": "There was a sudden dramatic shift.",
+          "feedback": "סותר rather than a sudden change."
+        },
+        {
+          "id": "c",
+          "label": "No change occurred.",
+          "feedback": "סותר gradual increase."
+        },
+        {
+          "id": "d",
+          "label": "The data are incomplete.",
+          "feedback": "מידע חדש."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. gradual = slow, rather than a sudden change = instead of an abrupt one.",
+      "feedback_try": "יש ניגוד בין עלייה איטית לבין שינוי פתאומי. slow rise instead of an abrupt one שומר את הניגוד.",
+      "can_do": "לשמור ניגוד בין הדרגתי לפתאומי",
+      "worked_method": "סמנו gradual ו-rather than sudden.\nעלייה איטית, לא קפיצה.\nהתשובה: The data show a slow rise instead of an abrupt one.",
+      "hint": "מה rather than שולל?"
+    },
+    {
+      "id": "am_rest3_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "נרשמו אבל לא הגיעו",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "Not every student who registered actually attended.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Some registered students did not attend."
+        },
+        {
+          "id": "b",
+          "label": "All registered students attended.",
+          "feedback": "הפוך מ-not every."
+        },
+        {
+          "id": "c",
+          "label": "Registration was closed.",
+          "feedback": "מידע חדש."
+        },
+        {
+          "id": "d",
+          "label": "Attendance was mandatory for all.",
+          "feedback": "לא נאמר במקור."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. not every ... attended = חלק מהנרשמים לא הגיעו.",
+      "feedback_try": "not every שווה some did not. זה לא אומר שאף אחד לא הגיע, וגם לא שכולם הגיעו.",
+      "can_do": "לשמור שלילה חלקית",
+      "worked_method": "סמנו not every.\nחלק מהנרשמים לא הגיעו.\nהתשובה: Some registered students did not attend.",
+      "hint": "מה not every אומר על הנוכחות?"
+    },
+    {
+      "id": "am_rest3_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "מעט פתרונות ישימים",
+      "body_he": "איזה משפט אומר את אותו הדבר?",
+      "body_content": "Few of the proposed solutions proved feasible under real-world conditions.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Only a small number of the proposed solutions were practical in actual conditions."
+        },
+        {
+          "id": "b",
+          "label": "Most solutions worked well in practice.",
+          "feedback": "הפוך מ-few."
+        },
+        {
+          "id": "c",
+          "label": "All solutions were feasible.",
+          "feedback": "סותר few."
+        },
+        {
+          "id": "d",
+          "label": "Feasibility was never tested.",
+          "feedback": "סותר proved ... under real-world conditions."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. few = מספר קטן, ו-feasible = practical in actual conditions.",
+      "feedback_try": "שמרו כמות קטנה וישימות בתנאי אמת. Only a small number ... practical in actual conditions שומר את שניהם.",
+      "can_do": "לשמור few בישימות",
+      "worked_method": "סמנו few ו-feasible.\nמעטים היו מעשיים במציאות.\nפסלו most ו-all.",
+      "hint": "כמה פתרונות עמדו במבחן המציאות?"
+    },
+    {
+      "id": "am_read1_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "שאלה תחילה, אחר כך הקטע",
+      "body_he": "קטעי האמירנט הם בדרך כלל קצרים ועוסקים בנושא אקדמי כללי. אורך מדויק ומספר שאלות לכל קטע לא אומתו כאן, וגם לא הזמן המדויק לפרק קריאה. בתרגול קראו קודם את השאלה, ואחר כך את הקטע, וחפשו את המשפט הרלוונטי. בשאלת רעיון מרכזי היזהרו מפרט נכון שהוא משני, וממשפט שמופיע אבל לא עונה על מה שנשאל. התשובה חייבת להישען על הכתוב.",
+      "body_content": "Question first, then the passage. Main idea vs a true but secondary detail.",
+      "can_do": "למצוא רעיון מרכזי ופרט מפורש"
+    },
+    {
+      "id": "am_read1_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "רעיון מרכזי: למידה משולבת",
+      "body_he": "מה הרעיון המרכזי של הקטע?",
+      "body_content": "Many universities now offer online courses alongside traditional classroom instruction. Research indicates that students who combine both formats often achieve similar or better results than those who study only in person. However, success in online components requires strong time-management skills. Students who regularly check the course platform and complete assignments on schedule tend to perform well. In contrast, those who postpone work until the last minute frequently struggle.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Combining online and classroom learning can work well when students manage their time."
+        },
+        {
+          "id": "b",
+          "label": "Online courses are always better than classroom courses.",
+          "feedback": "always לא נאמר, והקטע מדבר על שילוב ועל ניהול זמן."
+        },
+        {
+          "id": "c",
+          "label": "Most students fail online courses.",
+          "feedback": "לא נאמר."
+        },
+        {
+          "id": "d",
+          "label": "Universities should stop offering online courses.",
+          "feedback": "הפוך מהכיוון של הקטע."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. הקטע מציג שילוב יעיל, בתנאי שיש ניהול זמן.",
+      "feedback_try": "המשפטים הראשונים מציגים את השילוב, ו-However מוסיף את תנאי ניהול הזמן. זה הרעיון המרכזי.",
+      "can_do": "למצוא רעיון מרכזי בקטע",
+      "worked_method": "קראו את המשפט השני ואת However.\nיש תועלת לשילוב, אם מנהלים זמן.\nפסלו always וטענות קיצוניות.",
+      "hint": "מה מוסיף However לרעיון הכללי?"
+    },
+    {
+      "id": "am_read1_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "פרט: מי מצליח",
+      "body_he": "לפי הקטע, אילו סטודנטים נוטים להצליח בחלק המקוון?",
+      "body_content": "Many universities now offer online courses alongside traditional classroom instruction. Research indicates that students who combine both formats often achieve similar or better results than those who study only in person. However, success in online components requires strong time-management skills. Students who regularly check the course platform and complete assignments on schedule tend to perform well. In contrast, those who postpone work until the last minute frequently struggle.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Those who check the platform regularly and meet deadlines."
+        },
+        {
+          "id": "b",
+          "label": "Those who never check the platform.",
+          "feedback": "הפוך מהכתוב."
+        },
+        {
+          "id": "c",
+          "label": "Those who postpone assignments.",
+          "feedback": "הקטע אומר שהם מתקשים."
+        },
+        {
+          "id": "d",
+          "label": "Those who study only in person.",
+          "feedback": "השאלה על החלק המקוון."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. זה פרט מפורש: בדיקה סדירה ועמידה בלוחות זמנים.",
+      "feedback_try": "חפשו את המשפט על regularly check ו-on schedule. הוא עונה ישירות על השאלה.",
+      "can_do": "לאתר פרט מפורש בקטע",
+      "worked_method": "אל תסכמו מהזיכרון.\nחזרו למשפט על מי שמצליח.\nהתשובה שם במפורש.",
+      "hint": "איזה משפט מתאר את מי שמצליח?"
+    },
+    {
+      "id": "am_read1_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "פרט: מחיר נמוך יותר",
+      "body_he": "לפי הקטע, מה גרם למדינות להגדיל את ההשקעה באנרגיה מתחדשת?",
+      "body_content": "Renewable energy sources such as solar and wind power have become more affordable in recent years. As a result, many countries have increased their investment in these technologies. One challenge, however, is that solar and wind energy depend on weather conditions. To address this, researchers are developing better storage systems that can hold electricity for use when the sun is not shining or the wind is not blowing. These improvements are expected to support further growth in renewable energy.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "These sources have become more affordable."
+        },
+        {
+          "id": "b",
+          "label": "Storage systems are already perfect.",
+          "feedback": "הקטע אומר שיש אתגר, והאחסון עדיין בפיתוח."
+        },
+        {
+          "id": "c",
+          "label": "Weather is always reliable.",
+          "feedback": "הפוך: התלות במזג האוויר היא האתגר."
+        },
+        {
+          "id": "d",
+          "label": "Investment has decreased.",
+          "feedback": "סותר increased their investment."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. more affordable מוביל, as a result, להגדלת ההשקעה.",
+      "feedback_try": "As a result מחבר את המחיר הנמוך יותר להשקעה הגדולה יותר. זה פרט מפורש.",
+      "can_do": "לאתר סיבה מפורשת",
+      "worked_method": "סמנו As a result.\nמה בא לפניו? המחיר נעשה נגיש יותר.\nזו הסיבה להשקעה.",
+      "hint": "מה מחבר As a result בין שני משפטים?"
+    },
+    {
+      "id": "am_read1_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "פרט: אתגר מזג האוויר",
+      "body_he": "איזה אתגר הקטע מציין לגבי אנרגיית שמש ורוח?",
+      "body_content": "Renewable energy sources such as solar and wind power have become more affordable in recent years. As a result, many countries have increased their investment in these technologies. One challenge, however, is that solar and wind energy depend on weather conditions. To address this, researchers are developing better storage systems that can hold electricity for use when the sun is not shining or the wind is not blowing. These improvements are expected to support further growth in renewable energy.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "They depend on weather conditions."
+        },
+        {
+          "id": "b",
+          "label": "Countries have no interest in them.",
+          "feedback": "סותר את ההשקעה הגדלה."
+        },
+        {
+          "id": "c",
+          "label": "They produce too much electricity at all times.",
+          "feedback": "לא נאמר."
+        },
+        {
+          "id": "d",
+          "label": "They have become more expensive.",
+          "feedback": "סותר more affordable."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. One challenge, however... depend on weather conditions.",
+      "feedback_try": "However מסמן את האתגר: תלות במזג האוויר. זה משפט מפורש.",
+      "can_do": "לאתר אתגר מפורש בקטע",
+      "worked_method": "חפשו את המילה challenge.\nהמשפט שאחריה הוא התשובה.",
+      "hint": "איפה מופיעה המילה challenge?"
+    },
+    {
+      "id": "am_read1_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "פרט: שעות שינה",
+      "body_he": "לפי הקטע, מה נמצא לגבי סטודנטים שישנים שבע עד תשע שעות?",
+      "body_content": "Sleep researchers have long studied the relationship between sleep duration and academic performance. Recent studies suggest that students who sleep seven to nine hours per night generally perform better on exams than those who sleep less. In addition, consistent sleep schedules appear more beneficial than irregular ones, even when total hours are similar. Universities have begun to educate students about these findings, encouraging them to prioritize sleep during exam periods.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "They generally perform better on exams than those who sleep less."
+        },
+        {
+          "id": "b",
+          "label": "They usually perform worse on exams.",
+          "feedback": "הפוך מהכתוב."
+        },
+        {
+          "id": "c",
+          "label": "They have irregular schedules.",
+          "feedback": "הקטע לא אומר את זה על הקבוצה הזו."
+        },
+        {
+          "id": "d",
+          "label": "They ignore university advice.",
+          "feedback": "לא נאמר."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. זה ממצא מפורש במשפט השני של הקטע.",
+      "feedback_try": "חפשו seven to nine hours. המשפט הזה משווה אותם למי שישן פחות, והתוצאה טובה יותר.",
+      "can_do": "לאתר ממצא מפורש",
+      "worked_method": "אל תוסיפו מידע.\nחזרו למשפט עם seven to nine.\nהתשובה שם.",
+      "hint": "מה המשפט השני אומר על הציונים?"
+    },
+    {
+      "id": "am_read1_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "רעיון מרכזי: שינה",
+      "body_he": "מה מטרת הקטע בעיקר?",
+      "body_content": "Sleep researchers have long studied the relationship between sleep duration and academic performance. Recent studies suggest that students who sleep seven to nine hours per night generally perform better on exams than those who sleep less. In addition, consistent sleep schedules appear more beneficial than irregular ones, even when total hours are similar. Universities have begun to educate students about these findings, encouraging them to prioritize sleep during exam periods.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "To present findings about sleep and academic performance."
+        },
+        {
+          "id": "b",
+          "label": "To criticize university policies.",
+          "feedback": "אין ביקורת על מדיניות."
+        },
+        {
+          "id": "c",
+          "label": "To recommend specific study techniques.",
+          "feedback": "הקטע לא מלמד שיטות למידה, אלא שינה."
+        },
+        {
+          "id": "d",
+          "label": "To compare different universities.",
+          "feedback": "אין השוואה בין מוסדות."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. הקטע מציג ממצאים על שינה והישגים, ומוסיף שמוסדות מתחילים להעביר את המסר.",
+      "feedback_try": "רוב המשפטים הם ממצאי מחקר על שינה וציונים. המשפט האחרון רק מראה שימוש בממצאים, לא מחליף את המטרה.",
+      "can_do": "להבחין בין מטרה לפרט",
+      "worked_method": "שאלו במה רוב הקטע עוסק.\nשינה והישגים בבחינות.\nפסלו ביקורת, שיטות למידה והשוואת מוסדות.",
+      "hint": "על מה רוב המשפטים בקטע?"
+    },
+    {
+      "id": "am_read2_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "רק מה שהטקסט תומך בו",
+      "body_he": "יש שאלות על משמעות מילה בהקשר של הקטע, לא בהגדרת מילון כללית, ויש שאלות הסקה. הסקה מותרת רק אם היא נובעת ישירות מהכתוב. אל תסתמכו על ידע כללי שמחוץ לקטע. מילות קישור כמו however, therefore, for example, in contrast עוזרות לראות כיוון. אם תשובה הולכת מעבר למה שכתוב, פסלו אותה גם אם היא נשמעת סבירה בחיים.",
+      "body_content": "Context meaning ≠ dictionary meaning. Infer only what the text supports.",
+      "can_do": "להסיק מסקנה ולפרש מילה לפי הקטע"
+    },
+    {
+      "id": "am_read2_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "משמעות struggle",
+      "body_he": "המילה struggle במשפט האחרון של הקטע קרובה ביותר במשמעות ל:",
+      "body_content": "Many universities now offer online courses alongside traditional classroom instruction. Research indicates that students who combine both formats often achieve similar or better results than those who study only in person. However, success in online components requires strong time-management skills. Students who regularly check the course platform and complete assignments on schedule tend to perform well. In contrast, those who postpone work until the last minute frequently struggle.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "have difficulty"
+        },
+        {
+          "id": "b",
+          "label": "succeed easily",
+          "feedback": "זה ההפך, בניגוד ל-perform well במשפט הקודם."
+        },
+        {
+          "id": "c",
+          "label": "enjoy",
+          "feedback": "לא מתאים לניגוד In contrast."
+        },
+        {
+          "id": "d",
+          "label": "ignore the course",
+          "feedback": "לא נאמר שהם מתעלמים, אלא שקשה להם."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. struggle = להתקשות, בניגוד למי שמבצע היטב.",
+      "feedback_try": "In contrast מציב את struggle מול perform well. לכן זו קושי, לא הצלחה.",
+      "can_do": "לפרש מילה לפי ניגוד בקטע",
+      "worked_method": "סמנו In contrast.\nלפניו: מצליחים. אחריו: struggle.\nההפך מהצלחה הוא קושי.",
+      "hint": "למה In contrast מופיע לפני struggle?"
+    },
+    {
+      "id": "am_read2_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "הסקה על דחיינים",
+      "body_he": "מה אפשר להסיק על סטודנטים שדוחים את העבודה לרגע האחרון?",
+      "body_content": "Many universities now offer online courses alongside traditional classroom instruction. Research indicates that students who combine both formats often achieve similar or better results than those who study only in person. However, success in online components requires strong time-management skills. Students who regularly check the course platform and complete assignments on schedule tend to perform well. In contrast, those who postpone work until the last minute frequently struggle.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "They are likely to face challenges in the online part of the course."
+        },
+        {
+          "id": "b",
+          "label": "They always get higher grades.",
+          "feedback": "הפוך מהכתוב."
+        },
+        {
+          "id": "c",
+          "label": "They prefer traditional classes only.",
+          "feedback": "הקטע לא אומר מה הם מעדיפים."
+        },
+        {
+          "id": "d",
+          "label": "They never use the platform.",
+          "feedback": "לא נאמר never."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. frequently struggle מאפשר להסיק שצפויים להם קשיים, בלי להחמיר ל-always או never.",
+      "feedback_try": "ההסקה נשענת על המשפט האחרון. תשובות עם always או never חורגות מהכתוב, וגם העדפת כיתה רגילה לא מופיעה.",
+      "can_do": "להסיק בלי להחמיר את הכתוב",
+      "worked_method": "חזרו למשפט על postpone.\nמה נאמר? frequently struggle.\nבחרו ניסוח זהיר, בלי always.",
+      "hint": "איזו מילת כמות מופיעה עם struggle?"
+    },
+    {
+      "id": "am_read2_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "תפקיד as a result",
+      "body_he": "הביטוי as a result בקטע על אנרגיה מתחדשת מציג:",
+      "body_content": "Renewable energy sources such as solar and wind power have become more affordable in recent years. As a result, many countries have increased their investment in these technologies. One challenge, however, is that solar and wind energy depend on weather conditions. To address this, researchers are developing better storage systems that can hold electricity for use when the sun is not shining or the wind is not blowing. These improvements are expected to support further growth in renewable energy.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "a consequence"
+        },
+        {
+          "id": "b",
+          "label": "a cause",
+          "feedback": "הסיבה באה לפני הביטוי, לא אחריו."
+        },
+        {
+          "id": "c",
+          "label": "an unrelated idea",
+          "feedback": "יש קשר ברור."
+        },
+        {
+          "id": "d",
+          "label": "a contradiction",
+          "feedback": "contradiction היה however, לא as a result."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. as a result = כתוצאה מכך, כלומר תוצאה.",
+      "feedback_try": "לפני הביטוי: המחיר נעשה נגיש. אחריו: ההשקעה גדלה. זה קשר של תוצאה.",
+      "can_do": "לזהות תפקיד של מילת קישור",
+      "worked_method": "שאלו מה בא אחרי as a result.\nזו התוצאה.\nהתשובה: a consequence.",
+      "hint": "מה בדרך כלל בא אחרי as a result?"
+    },
+    {
+      "id": "am_read2_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "הסקה על אחסון",
+      "body_he": "מה אפשר להסיק מהמשפט האחרון בקטע על אנרגיה מתחדשת?",
+      "body_content": "Renewable energy sources such as solar and wind power have become more affordable in recent years. As a result, many countries have increased their investment in these technologies. One challenge, however, is that solar and wind energy depend on weather conditions. To address this, researchers are developing better storage systems that can hold electricity for use when the sun is not shining or the wind is not blowing. These improvements are expected to support further growth in renewable energy.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Improvements in storage may support continued expansion of renewables."
+        },
+        {
+          "id": "b",
+          "label": "Growth in renewable energy is unlikely.",
+          "feedback": "סותר expected to support further growth."
+        },
+        {
+          "id": "c",
+          "label": "Weather will no longer matter at all.",
+          "feedback": "הקטע לא מבטיח שהתלות תיעלם לגמרי."
+        },
+        {
+          "id": "d",
+          "label": "Investment will stop.",
+          "feedback": "סותר further growth."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. expected to support further growth תומך בהסקה זהירה על המשך התרחבות.",
+      "feedback_try": "ההסקה נשארת קרובה לכתוב: may support. תשובות מוחלטות כמו no longer matter at all חורגות.",
+      "can_do": "להסיק בזהירות מהמשפט האחרון",
+      "worked_method": "קראו את המשפט האחרון.\nexpected to support further growth.\nבחרו ניסוח זהיר עם may.",
+      "hint": "מה בדיוק נאמר על ההשפעה של האחסון?"
+    },
+    {
+      "id": "am_read2_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "הסקה על אוניברסיטאות",
+      "body_he": "מה אפשר להסיק מהמשפט האחרון בקטע על שינה?",
+      "body_content": "Sleep researchers have long studied the relationship between sleep duration and academic performance. Recent studies suggest that students who sleep seven to nine hours per night generally perform better on exams than those who sleep less. In addition, consistent sleep schedules appear more beneficial than irregular ones, even when total hours are similar. Universities have begun to educate students about these findings, encouraging them to prioritize sleep during exam periods.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Universities believe sleep advice may help students around exams."
+        },
+        {
+          "id": "b",
+          "label": "Students already sleep enough.",
+          "feedback": "אם כך, לא היה צורך לעודד אותם."
+        },
+        {
+          "id": "c",
+          "label": "The research is outdated.",
+          "feedback": "לא נאמר."
+        },
+        {
+          "id": "d",
+          "label": "Exams do not affect sleep.",
+          "feedback": "הקטע לא טוען את זה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. העובדה שהמוסדות מעודדים שינה בתקופת מבחנים מרמזת שהם רואים בזה תועלת.",
+      "feedback_try": "encouraging them to prioritize sleep during exam periods תומך בהסקה שהמוסדות מאמינים שיש בזה ערך. זו הסקה, לא ציטוט מילה במילה, אבל היא צמודה לכתוב.",
+      "can_do": "להסיק מטרה מפעולה בקטע",
+      "worked_method": "שאלו למה מוסדות מעודדים שינה.\nכי הם חושבים שזה יכול לעזור.\nפסלו טענות שלא מופיעות.",
+      "hint": "מה משתמע מכך שמוסדות מעודדים שינה?"
+    },
+    {
+      "id": "am_read2_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "לוח שינה קבוע",
+      "body_he": "מה הקטע אומר על לוח שינה קבוע?",
+      "body_content": "Sleep researchers have long studied the relationship between sleep duration and academic performance. Recent studies suggest that students who sleep seven to nine hours per night generally perform better on exams than those who sleep less. In addition, consistent sleep schedules appear more beneficial than irregular ones, even when total hours are similar. Universities have begun to educate students about these findings, encouraging them to prioritize sleep during exam periods.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It appears more helpful than an irregular schedule, even with similar total hours."
+        },
+        {
+          "id": "b",
+          "label": "It is less important than total hours.",
+          "feedback": "הפוך: גם כשהשעות דומות, הקביעות מועילה יותר."
+        },
+        {
+          "id": "c",
+          "label": "It has no effect.",
+          "feedback": "סותר more beneficial."
+        },
+        {
+          "id": "d",
+          "label": "It is impossible for students.",
+          "feedback": "לא נאמר."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. זה כמעט ניסוח מחדש של המשפט השלישי בקטע.",
+      "feedback_try": "even when total hours are similar הוא הרמז: הקביעות מוסיפה מעבר לסך השעות.",
+      "can_do": "לקרוא את כל המשפט, לא רק את תחילתו",
+      "worked_method": "חפשו consistent sleep schedules.\nקראו את כל המשפט, כולל even when.\nהתשובה שם.",
+      "hint": "מה even when מוסיף להשוואה?"
+    },
+    {
+      "id": "am_read3_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "איך החלקים קשורים",
+      "body_he": "יש שאלות על תפקיד משפט או פסקה, על הקשר בין חלקים, או על מטרת הכותב. קראו את המשפט הראשון והאחרון כדי לקבל מפה, ושימו לב למילות מעבר. קטע עשוי לפתוח בממצא, להציג אתגר, ואז פתרון מוצע. תשובה נכונה חלקית אבל לא מדויקת לגבי המבנה היא מלכודת. גם כאן: אל תבלבלו בין עובדה לבין המלצה.",
+      "body_content": "Opening finding, contrast or challenge, then a proposed response. Fact ≠ recommendation.",
+      "can_do": "לזהות מבנה ומטרה בקטע"
+    },
+    {
+      "id": "am_read3_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מטרת ההשאלה בספרייה",
+      "body_he": "מה המטרה של השאלת הערכות, לפי הקטע?",
+      "body_content": "Public libraries in several cities have started lending simple scientific kits, such as soil-testing tools and small weather sensors, for a period of two weeks. Staff members report that families often borrow a kit after attending a weekend workshop at the library. The goal is not to replace school laboratories, but to let children try a short investigation at home and then talk about the results in a follow-up session. Early surveys show that children who complete both the home task and the follow-up session remember the key idea longer than children who only watch a demonstration.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "To let children try a short investigation at home and discuss it later, not to replace school labs."
+        },
+        {
+          "id": "b",
+          "label": "To replace school laboratories completely.",
+          "feedback": "הקטע אומר במפורש שהמטרה אינה להחליף מעבדות בית ספר."
+        },
+        {
+          "id": "c",
+          "label": "To sell scientific tools to families.",
+          "feedback": "הכלים מושאלים, לא נמכרים."
+        },
+        {
+          "id": "d",
+          "label": "To cancel weekend workshops.",
+          "feedback": "הסדנאות הן נקודת הכניסה להשאלה, לא משהו שמבטלים."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. The goal is not to replace school laboratories, but to let children try a short investigation at home...",
+      "feedback_try": "משפט המטרה מנוסח במפורש: לא להחליף מעבדה, אלא ניסוי קצר בבית ושיחה אחריו.",
+      "can_do": "לאתר הצהרת מטרה",
+      "worked_method": "חפשו The goal.\nקראו את כל המשפט, כולל not to replace.\nזו התשובה.",
+      "hint": "איפה הקטע מצהיר על מטרה?"
+    },
+    {
+      "id": "am_read3_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "פרט תומך במטרה",
+      "body_he": "מה מראות הסקרים המוקדמים בקטע על הספרייה?",
+      "body_content": "Public libraries in several cities have started lending simple scientific kits, such as soil-testing tools and small weather sensors, for a period of two weeks. Staff members report that families often borrow a kit after attending a weekend workshop at the library. The goal is not to replace school laboratories, but to let children try a short investigation at home and then talk about the results in a follow-up session. Early surveys show that children who complete both the home task and the follow-up session remember the key idea longer than children who only watch a demonstration.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Children who do both the home task and the follow-up remember the key idea longer."
+        },
+        {
+          "id": "b",
+          "label": "Children who only watch a demonstration remember the most.",
+          "feedback": "הפוך מהכתוב."
+        },
+        {
+          "id": "c",
+          "label": "Families never borrow kits after workshops.",
+          "feedback": "סותר often borrow a kit after attending a weekend workshop."
+        },
+        {
+          "id": "d",
+          "label": "The kits are borrowed for a full school year.",
+          "feedback": "נאמר two weeks."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. זה הממצא בסוף הקטע, והוא תומך בערך של המסלול המלא.",
+      "feedback_try": "המשפט האחרון משווה בין מי שמשלים בית ומפגש לבין מי שרק צופה בהדגמה.",
+      "can_do": "לקשר ממצא למטרה של הקטע",
+      "worked_method": "קראו את המשפט האחרון.\nמי זוכר לאורך זמן יותר?\nמי שעושה גם בית וגם מפגש.",
+      "hint": "מה משווה המשפט האחרון?"
+    },
+    {
+      "id": "am_read3_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מבנה קטע הנמל",
+      "body_he": "איך הקטע על אזור הנמל מאורגן?",
+      "body_content": "A coastal research group mapped how pedestrians move through a renovated port area. They found that benches facing the water were used mainly in the late afternoon, while shaded paths farther inland attracted visitors at midday. Shop owners had expected most people to stay near the new cafes all day. The map suggests a simpler pattern: visitors follow comfort, not the location of food, when the weather is hot. The group recommends adding shade on the waterfront if the city wants more even use of the area throughout the day.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "It reports a study result, contrasts it with shop owners' expectation, and ends with a recommendation."
+        },
+        {
+          "id": "b",
+          "label": "It tells the history of the port from the nineteenth century.",
+          "feedback": "אין היסטוריה ארוכה."
+        },
+        {
+          "id": "c",
+          "label": "It lists cafe menus and prices.",
+          "feedback": "לא נאמר."
+        },
+        {
+          "id": "d",
+          "label": "It argues that food, not comfort, explains movement all day.",
+          "feedback": "הפוך מהמסקנה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. יש ממצא, ציפייה שהופרכה, והמלצה בסוף.",
+      "feedback_try": "התחלה: מיפוי תנועה. אמצע: ציפיית החנוונים מול הדפוס בפועל. סוף: המלצה להוסיף צל.",
+      "can_do": "לזהות סדר: ממצא, ניגוד, המלצה",
+      "worked_method": "סמנו ממצא, ציפייה, והמלצה.\nזה סדר הקטע.\nפסלו היסטוריה או תפריטים.",
+      "hint": "מה בא בסוף הקטע?"
+    },
+    {
+      "id": "am_read3_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "מסקנה מול ציפייה",
+      "body_he": "מה הכותבים מסיקים לגבי תנועת המבקרים בחום?",
+      "body_content": "A coastal research group mapped how pedestrians move through a renovated port area. They found that benches facing the water were used mainly in the late afternoon, while shaded paths farther inland attracted visitors at midday. Shop owners had expected most people to stay near the new cafes all day. The map suggests a simpler pattern: visitors follow comfort, not the location of food, when the weather is hot. The group recommends adding shade on the waterfront if the city wants more even use of the area throughout the day.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Visitors follow comfort, not the location of food."
+        },
+        {
+          "id": "b",
+          "label": "Most people stay near the new cafes all day, as shop owners expected.",
+          "feedback": "זו הציפייה שהממצא מערער."
+        },
+        {
+          "id": "c",
+          "label": "Benches facing the water are used mainly at midday.",
+          "feedback": "נאמר late afternoon, והצל בפנים מושך בצהריים."
+        },
+        {
+          "id": "d",
+          "label": "The port should remove all benches.",
+          "feedback": "לא נאמר."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. The map suggests a simpler pattern: visitors follow comfort, not the location of food, when the weather is hot.",
+      "feedback_try": "המשפט עם suggests הוא המסקנה, והוא מנוגד לציפיית בעלי החנויות.",
+      "can_do": "להבחין בין ציפייה למסקנה",
+      "worked_method": "חפשו suggests.\nשם המסקנה.\nאל תבלבלו אותה עם מה שבעלי החנויות ציפו.",
+      "hint": "מה בעלי החנויות ציפו, ומה בפועל?"
+    },
+    {
+      "id": "am_read3_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "המלצה בסוף",
+      "body_he": "מה הקבוצה ממליצה לעיר?",
+      "body_content": "A coastal research group mapped how pedestrians move through a renovated port area. They found that benches facing the water were used mainly in the late afternoon, while shaded paths farther inland attracted visitors at midday. Shop owners had expected most people to stay near the new cafes all day. The map suggests a simpler pattern: visitors follow comfort, not the location of food, when the weather is hot. The group recommends adding shade on the waterfront if the city wants more even use of the area throughout the day.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "To add shade on the waterfront if it wants more even use throughout the day."
+        },
+        {
+          "id": "b",
+          "label": "To close the cafes at midday.",
+          "feedback": "לא נאמר."
+        },
+        {
+          "id": "c",
+          "label": "To remove the inland paths.",
+          "feedback": "לא נאמר."
+        },
+        {
+          "id": "d",
+          "label": "To stop mapping pedestrian movement.",
+          "feedback": "הפוך: המיפוי הוא הבסיס להמלצה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. ההמלצה מפורשת במשפט האחרון: להוסיף צל בטיילת.",
+      "feedback_try": "recommends adding shade on the waterfront הוא משפט המלצה, לא תיאור מצב קיים.",
+      "can_do": "להבחין בין ממצא להמלצה",
+      "worked_method": "חפשו recommends.\nזו המלצה לעיר, עם תנאי: אם רוצים שימוש אחיד יותר במשך היום.",
+      "hint": "איזה פועל מסמן המלצה בסוף?"
+    },
+    {
+      "id": "am_mix1_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "אותם כלים, משפטים חדשים",
+      "body_he": "כאן מתרגלים יחד השלמת משפט וניסוח מחדש, בלי פריטים שכבר הופיעו. בחרו לפי הקשר דקדוקי וסמנטי, ושמרו על אותה טענה בניסוח מחדש. אין כאן דרישת קדם לדרך אחרת, אבל החזרה נשענת על הנושאים שכבר עברתם בדרך הזו.",
+      "body_content": "New items only. Same claim on restatement; grammar plus meaning on completion.",
+      "can_do": "לחבר השלמת משפט וניסוח מחדש",
+      "review_topic_ids": [
+        "t_sc_basic",
+        "t_sc_mid",
+        "t_sc_adv",
+        "t_rest_basic",
+        "t_rest_complex",
+        "t_rest_nuance"
+      ]
+    },
+    {
+      "id": "am_mix1_p1",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: despite",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "____ the cost, they decided to repair the building.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Despite"
+        },
+        {
+          "id": "b",
+          "label": "Because",
+          "feedback": "because מצריך משפט או that, ולא מתאים ל-the cost כניגוד."
+        },
+        {
+          "id": "c",
+          "label": "Although",
+          "feedback": "although מצריך משפט, לא צירוף שמני לבד."
+        },
+        {
+          "id": "d",
+          "label": "Therefore",
+          "feedback": "therefore לא פותח ניגוד לפני עלות."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. despite + צירוף שמני: despite the cost.",
+      "feedback_try": "אחרי הרווח בא the cost, צירוף שמני. despite מתאים, although לא.",
+      "can_do": "ליישם despite מול although",
+      "worked_method": "בדקו מה בא אחרי הרווח.\nצירוף שמני: despite.\nפסלו although בלי משפט.",
+      "hint": "despite או although לפני the cost?",
+      "review_topic_ids": [
+        "t_sc_basic",
+        "t_sc_mid",
+        "t_sc_adv",
+        "t_rest_basic",
+        "t_rest_complex",
+        "t_rest_nuance"
+      ]
+    },
+    {
+      "id": "am_mix1_p2",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: unless",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "The experiment will fail ____ the temperature is kept stable.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "unless"
+        },
+        {
+          "id": "b",
+          "label": "if",
+          "feedback": "if ישנה את הטענה: ייכשל אם השומרים על יציבות, וזה הפוך."
+        },
+        {
+          "id": "c",
+          "label": "because",
+          "feedback": "because נותן סיבה, לא תנאי שלילי."
+        },
+        {
+          "id": "d",
+          "label": "so",
+          "feedback": "so לא מתאים כאן."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. unless = אם לא: ייכשל אם לא ישמרו על טמפרטורה יציבה.",
+      "feedback_try": "unless שומר על תנאי שלילי. if לבדו הופך את הקשר.",
+      "can_do": "ליישם unless בתנאי שלילי",
+      "worked_method": "שאלו מתי הניסוי ייכשל.\nרק אם לא שומרים על יציבות.\nunless.",
+      "hint": "מה unless מוסיף ל-if?",
+      "review_topic_ids": [
+        "t_sc_basic",
+        "t_sc_mid",
+        "t_sc_adv",
+        "t_rest_basic",
+        "t_rest_complex",
+        "t_rest_nuance"
+      ]
+    },
+    {
+      "id": "am_mix1_p3",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: ניסוח hardly",
+      "body_he": "בחרו את המשפט הקרוב ביותר במשמעות למשפט הזה.",
+      "body_content": "The committee hardly discussed the proposal.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The committee barely discussed the proposal."
+        },
+        {
+          "id": "b",
+          "label": "The committee discussed the proposal at length.",
+          "feedback": "הפוך מ-hardly."
+        },
+        {
+          "id": "c",
+          "label": "The committee approved the proposal.",
+          "feedback": "לא נאמר."
+        },
+        {
+          "id": "d",
+          "label": "The committee rejected the proposal immediately.",
+          "feedback": "חורג מהכתוב."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. hardly ≈ barely, כמעט לא דנו.",
+      "feedback_try": "hardly מצמצם את היקף הדיון. at length הוא ההפך, ואישור או דחייה לא מופיעים.",
+      "can_do": "לשמור על אותה מידה בניסוח מחדש",
+      "worked_method": "תרגמו hardly: כמעט לא.\nחפשו מילה שקולה, כמו barely.\nפסלו הרחבה או פעולה אחרת.",
+      "hint": "למה barely מתאים ל-hardly?",
+      "review_topic_ids": [
+        "t_sc_basic",
+        "t_sc_mid",
+        "t_sc_adv",
+        "t_rest_basic",
+        "t_rest_complex",
+        "t_rest_nuance"
+      ]
+    },
+    {
+      "id": "am_mix1_p4",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: in contrast",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "Rural clinics have few specialists. ____, city hospitals have many.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "In contrast"
+        },
+        {
+          "id": "b",
+          "label": "Similarly",
+          "feedback": "אין דמיון, יש ניגוד."
+        },
+        {
+          "id": "c",
+          "label": "Therefore",
+          "feedback": "אין כאן קשר של תוצאה, רק השוואה מנוגדת."
+        },
+        {
+          "id": "d",
+          "label": "For example",
+          "feedback": "המשפט השני אינו דוגמה לראשון."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. few מול many הוא ניגוד: in contrast.",
+      "feedback_try": "המספרים הפוכים. similarly שגוי, therefore מוסיף סיבתיות שאין במשפטים.",
+      "can_do": "לבחור מילת ניגוד בחזרה",
+      "worked_method": "סמנו few ו-many.\nזה ניגוד.\nin contrast.",
+      "hint": "איזו מילת קישור מתאימה ל-few מול many?",
+      "review_topic_ids": [
+        "t_sc_basic",
+        "t_sc_mid",
+        "t_sc_adv",
+        "t_rest_basic",
+        "t_rest_complex",
+        "t_rest_nuance"
+      ]
+    },
+    {
+      "id": "am_mix1_p5",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: ניסוח prior to",
+      "body_he": "בחרו את המשפט הקרוב ביותר במשמעות למשפט הזה.",
+      "body_content": "The results were published prior to the conference.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The results were published before the conference."
+        },
+        {
+          "id": "b",
+          "label": "The results were published after the conference.",
+          "feedback": "prior to = before, לא after."
+        },
+        {
+          "id": "c",
+          "label": "The results were published during the conference.",
+          "feedback": "לא אותו זמן."
+        },
+        {
+          "id": "d",
+          "label": "The results were never published.",
+          "feedback": "סותר published."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. prior to = before.",
+      "feedback_try": "זה ניסוח מילה במילה כמעט: החלפת prior to ב-before בלי לשנות זמן.",
+      "can_do": "לנסח מחדש ביטוי זמן",
+      "worked_method": "תרגמו prior to.\nלפני.\nפסלו after ו-during.",
+      "hint": "מה פירוש prior to?",
+      "review_topic_ids": [
+        "t_sc_basic",
+        "t_sc_mid",
+        "t_sc_adv",
+        "t_rest_basic",
+        "t_rest_complex",
+        "t_rest_nuance"
+      ]
+    },
+    {
+      "id": "am_mix1_p6",
+      "type": "practice",
+      "kind": "review",
+      "title": "חזרה: would have",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "If the samples had been labeled, the error ____ avoided.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "would have been"
+        },
+        {
+          "id": "b",
+          "label": "will be",
+          "feedback": "זה לא מותנה בעבר."
+        },
+        {
+          "id": "c",
+          "label": "was",
+          "feedback": "חסר המבנה המותנה."
+        },
+        {
+          "id": "d",
+          "label": "has been",
+          "feedback": "לא מבנה של if + past perfect."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. if + past perfect → would have been.",
+      "feedback_try": "had been labeled קובע מותנה בעבר. will be ו-was לא מתאימים למבנה.",
+      "can_do": "ליישם מותנה בעבר בחזרה",
+      "worked_method": "סמנו had been.\nזה מותנה בעבר.\nwould have been.",
+      "hint": "איזה מבנה בא אחרי if + past perfect?",
+      "review_topic_ids": [
+        "t_sc_basic",
+        "t_sc_mid",
+        "t_sc_adv",
+        "t_rest_basic",
+        "t_rest_complex",
+        "t_rest_nuance"
+      ]
+    },
+    {
+      "id": "am_mix1_chk",
+      "type": "check",
+      "kind": "review",
+      "title": "חזרה: ניסוח no sooner",
+      "body_he": "בחרו את המשפט הקרוב ביותר במשמעות למשפט הזה.",
+      "body_content": "No sooner had the lecture ended than the questions began.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The questions began immediately after the lecture ended."
+        },
+        {
+          "id": "b",
+          "label": "The questions began long after the lecture ended.",
+          "feedback": "סותר immediately."
+        },
+        {
+          "id": "c",
+          "label": "The questions began before the lecture ended.",
+          "feedback": "הפוך."
+        },
+        {
+          "id": "d",
+          "label": "There were no questions after the lecture.",
+          "feedback": "סותר began."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. no sooner... than = מיד אחרי.",
+      "feedback_try": "המבנה הזה מציין רצף מיידי, לא עיכוב ולא היפוך סדר.",
+      "can_do": "לנסח מחדש מבנה רצף",
+      "worked_method": "תרגמו no sooner... than.\nמיד אחרי.\nפסלו long after ו-before.",
+      "hint": "מה no sooner... than אומר על סדר הזמנים?",
+      "review_topic_ids": [
+        "t_sc_basic",
+        "t_sc_mid",
+        "t_sc_adv",
+        "t_rest_basic",
+        "t_rest_complex",
+        "t_rest_nuance"
+      ]
+    },
+    {
+      "id": "am_mix2_learn",
+      "type": "learn",
+      "kind": "review",
+      "title": "זמן לקטע, בלי שעון רשמי מאומת",
+      "body_he": "תרגלו קטע מלא עם כמה שאלות ברצף. במבחן הרשמי יש מגבלת זמן לכל פרק, אבל חלוקת הדקות המדויקת לשאלות קריאה לא אומתה כאן, לכן אין כאן שעון רשמי. עבדו בקצב יציב: שאלה, חזרה למשפט הרלוונטי, בחירה, ומעבר הלאה. אל תישארו על פריט אחד יותר מדי.",
+      "body_content": "A passage with several questions in a row. Official per-question timing is unverified here.",
+      "can_do": "לענות על כמה שאלות מאותו קטע ברצף",
+      "review_topic_ids": [
+        "t_read_main",
+        "t_read_infer",
+        "t_read_struct"
+      ]
+    },
+    {
+      "id": "am_mix2_p1",
+      "type": "practice",
+      "kind": "review",
+      "title": "רעיון: ערכות מדע",
+      "body_he": "מה הרעיון המרכזי של הקטע?",
+      "body_content": "Public libraries in several cities have started lending simple scientific kits, such as soil-testing tools and small weather sensors, for a period of two weeks. Staff members report that families often borrow a kit after attending a weekend workshop at the library. The goal is not to replace school laboratories, but to let children try a short investigation at home and then talk about the results in a follow-up session. Early surveys show that children who complete both the home task and the follow-up session remember the key idea longer than children who only watch a demonstration.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Libraries lend science kits so children can investigate at home and discuss the results, not to replace school labs."
+        },
+        {
+          "id": "b",
+          "label": "School laboratories are closing in several cities.",
+          "feedback": "לא נאמר."
+        },
+        {
+          "id": "c",
+          "label": "Workshops have replaced home tasks.",
+          "feedback": "הקטע מחבר סדנה, משימה בבית, ומפגש המשך."
+        },
+        {
+          "id": "d",
+          "label": "Children remember demonstrations better than home tasks.",
+          "feedback": "הפוך מהסקר בסוף."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. המטרה והמבנה של התכנית הם הרעיון המרכזי.",
+      "feedback_try": "הקטע פותח בהשאלה, מבהיר שזו לא תחליף למעבדה, ומסיים בממצא שתומך במסלול המלא.",
+      "can_do": "למצוא רעיון מרכזי בחזרה על קריאה",
+      "worked_method": "חפשו The goal.\nזה לב הקטע.\nשלבו את ה-not to replace.",
+      "hint": "איזה משפט ממקד את מטרת התכנית?",
+      "review_topic_ids": [
+        "t_read_main",
+        "t_read_infer",
+        "t_read_struct"
+      ]
+    },
+    {
+      "id": "am_mix2_p2",
+      "type": "practice",
+      "kind": "review",
+      "title": "פרט: משך השאלה",
+      "body_he": "לכמה זמן מושאלות הערכות?",
+      "body_content": "Public libraries in several cities have started lending simple scientific kits, such as soil-testing tools and small weather sensors, for a period of two weeks. Staff members report that families often borrow a kit after attending a weekend workshop at the library. The goal is not to replace school laboratories, but to let children try a short investigation at home and then talk about the results in a follow-up session. Early surveys show that children who complete both the home task and the follow-up session remember the key idea longer than children who only watch a demonstration.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Two weeks"
+        },
+        {
+          "id": "b",
+          "label": "Two days",
+          "feedback": "נאמר two weeks."
+        },
+        {
+          "id": "c",
+          "label": "A full school year",
+          "feedback": "ארוך מדי ביחס לכתוב."
+        },
+        {
+          "id": "d",
+          "label": "The text does not say.",
+          "feedback": "נאמר במפורש two weeks."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. for a period of two weeks.",
+      "feedback_try": "פרט מספרי מפורש בפתיחה. אין צורך להסיק.",
+      "can_do": "לאתר פרט מספרי",
+      "worked_method": "חפשו מספר וזמן.\ntwo weeks.\nזו התשובה.",
+      "hint": "איפה מופיע משך ההשאלה?",
+      "review_topic_ids": [
+        "t_read_main",
+        "t_read_infer",
+        "t_read_struct"
+      ]
+    },
+    {
+      "id": "am_mix2_p3",
+      "type": "practice",
+      "kind": "review",
+      "title": "הסקה: למה סדנה",
+      "body_he": "מה אפשר להסיק על הסדנאות בסוף השבוע?",
+      "body_content": "Public libraries in several cities have started lending simple scientific kits, such as soil-testing tools and small weather sensors, for a period of two weeks. Staff members report that families often borrow a kit after attending a weekend workshop at the library. The goal is not to replace school laboratories, but to let children try a short investigation at home and then talk about the results in a follow-up session. Early surveys show that children who complete both the home task and the follow-up session remember the key idea longer than children who only watch a demonstration.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "They often lead families to borrow a kit afterward."
+        },
+        {
+          "id": "b",
+          "label": "They are required before any child may enter the library.",
+          "feedback": "חורג מהכתוב."
+        },
+        {
+          "id": "c",
+          "label": "They have replaced the follow-up sessions.",
+          "feedback": "המפגש המשך נשאר חלק מהתכנית."
+        },
+        {
+          "id": "d",
+          "label": "Staff members want to cancel them.",
+          "feedback": "לא נאמר."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. Staff members report that families often borrow a kit after attending a weekend workshop.",
+      "feedback_try": "often borrow... after attending הוא בסיס להסקה זהירה, לא לחובה או לביטול.",
+      "can_do": "להסיק בזהירות מ-often",
+      "worked_method": "קראו את המשפט על workshop.\noften + after.\nזה הקשר, בלי להחמיר ל-required.",
+      "hint": "מה קורה לעיתים קרובות אחרי הסדנה?",
+      "review_topic_ids": [
+        "t_read_main",
+        "t_read_infer",
+        "t_read_struct"
+      ]
+    },
+    {
+      "id": "am_mix2_p4",
+      "type": "practice",
+      "kind": "review",
+      "title": "רעיון: נמל",
+      "body_he": "מה הרעיון המרכזי של הקטע על אזור הנמל?",
+      "body_content": "A coastal research group mapped how pedestrians move through a renovated port area. They found that benches facing the water were used mainly in the late afternoon, while shaded paths farther inland attracted visitors at midday. Shop owners had expected most people to stay near the new cafes all day. The map suggests a simpler pattern: visitors follow comfort, not the location of food, when the weather is hot. The group recommends adding shade on the waterfront if the city wants more even use of the area throughout the day.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Visitor movement follows comfort in hot weather, unlike what shop owners expected, so shade on the waterfront may spread use more evenly."
+        },
+        {
+          "id": "b",
+          "label": "The cafes are empty all day.",
+          "feedback": "לא נאמר."
+        },
+        {
+          "id": "c",
+          "label": "Benches are never used.",
+          "feedback": "יש שימוש, בעיקר אחר הצהריים."
+        },
+        {
+          "id": "d",
+          "label": "The renovation failed and should be reversed.",
+          "feedback": "הקטע לא קורא לבטל את השיפוץ."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. זה מחבר ממצא, ניגוד לציפייה, והמלצה.",
+      "feedback_try": "הרעיון המרכזי אינו רק פרט על ספסלים, אלא הדפוס הכללי וההשלכה לעיר.",
+      "can_do": "לנסח רעיון מרכזי מקטע מובנה",
+      "worked_method": "חברו שלושה חלקים: ממצא, ציפייה, המלצה.\nזה הרעיון.\nאל תישארו רק אצל הספסלים.",
+      "hint": "מה מחבר את סוף הקטע לפתיחתו?",
+      "review_topic_ids": [
+        "t_read_main",
+        "t_read_infer",
+        "t_read_struct"
+      ]
+    },
+    {
+      "id": "am_mix2_chk",
+      "type": "check",
+      "kind": "review",
+      "title": "פרט: מתי ספסלים",
+      "body_he": "מתי בעיקר משתמשים בספסלים הפונים למים?",
+      "body_content": "A coastal research group mapped how pedestrians move through a renovated port area. They found that benches facing the water were used mainly in the late afternoon, while shaded paths farther inland attracted visitors at midday. Shop owners had expected most people to stay near the new cafes all day. The map suggests a simpler pattern: visitors follow comfort, not the location of food, when the weather is hot. The group recommends adding shade on the waterfront if the city wants more even use of the area throughout the day.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "In the late afternoon"
+        },
+        {
+          "id": "b",
+          "label": "At midday",
+          "feedback": "בצהריים מושכים השבילים המוצלים בפנים."
+        },
+        {
+          "id": "c",
+          "label": "Only at night",
+          "feedback": "לא נאמר."
+        },
+        {
+          "id": "d",
+          "label": "The text does not say.",
+          "feedback": "נאמר late afternoon."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. benches facing the water were used mainly in the late afternoon.",
+      "feedback_try": "זו הבחנה מפורשת מול shaded paths... at midday. קל להפוך ביניהם אם קוראים מהר.",
+      "can_do": "לא לערבב בין שני פרטי זמן",
+      "worked_method": "סמנו benches ו-shaded paths.\nלכל אחד זמן שונה.\nהשאלה על הספסלים: late afternoon.",
+      "hint": "מה הזמן שמצוין ליד benches facing the water?",
+      "review_topic_ids": [
+        "t_read_main",
+        "t_read_infer",
+        "t_read_struct"
+      ]
+    },
+    {
+      "id": "am_sim_learn",
+      "type": "learn",
+      "kind": "understanding",
+      "title": "פריטים מעורבים, בלי הבטחת ציון",
+      "body_he": "השלב הזה מחקה את הגיוון שבמבחן: אוצר מילים, השלמת משפט, ניסוח מחדש וקריאה בזה אחר זה. המבנה המדויק של הפרקים, מספר השאלות בכל פרק וחלוקת הזמן הרשמית לא אומתו כאן, וגם לא סף פטור של מוסד כלשהו. זו סימולציה לתרגול, לא חיזוי ציון. עבדו ברצף, בלי לחזור אחורה אחרי בחירה, כמו במבחן.",
+      "body_content": "Mixed items in exam-like sequence. Official section timing, item counts, and institutional cutoffs are unverified. This does not predict a score.",
+      "can_do": "לתרגל רצף מעורב לקראת המבחן"
+    },
+    {
+      "id": "am_sim_p1",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סימולציה: insufficient",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "The evidence was ____ to support such a strong conclusion.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "insufficient"
+        },
+        {
+          "id": "b",
+          "label": "abundant",
+          "feedback": "abundant = בשפע, והמשפט מצריך חסר."
+        },
+        {
+          "id": "c",
+          "label": "irrelevant only because it was long",
+          "feedback": "לא מתאים דקדוקית או לטענה."
+        },
+        {
+          "id": "d",
+          "label": "celebrated",
+          "feedback": "לא מתאים להקשר של ראיה ומסקנה."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. insufficient = לא מספיק לתמוך במסקנה חזקה.",
+      "feedback_try": "such a strong conclusion דורש מילה שמצמצמת את כוח הראיה. abundant הפוך.",
+      "can_do": "אוצר מילים בסימולציה",
+      "worked_method": "שאלו אם הראיה מספיקה.\nהכיוון: לא.\ninsufficient.",
+      "hint": "איזו מילה מתאימה לראיה חלשה מול מסקנה חזקה?"
+    },
+    {
+      "id": "am_sim_p2",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סימולציה: although",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "____ the method is simple, it produces reliable results.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Although"
+        },
+        {
+          "id": "b",
+          "label": "Because",
+          "feedback": "because מוחק את הניגוד בין פשטות לאמינות."
+        },
+        {
+          "id": "c",
+          "label": "Despite",
+          "feedback": "despite מצריך צירוף שמני, לא משפט."
+        },
+        {
+          "id": "d",
+          "label": "Therefore",
+          "feedback": "therefore לא פותח ניגוד כאן."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. although + משפט: הפשטות לא מונעת תוצאות אמינות.",
+      "feedback_try": "אחרי הרווח בא משפט שלם. although מתאים, despite לא.",
+      "can_do": "השלמת משפט בסימולציה",
+      "worked_method": "בדקו מה אחרי הרווח.\nמשפט: although.\nפסלו despite.",
+      "hint": "although או despite לפני the method is simple?"
+    },
+    {
+      "id": "am_sim_p3",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סימולציה: ניסוח postpone",
+      "body_he": "בחרו את המשפט הקרוב ביותר במשמעות למשפט הזה.",
+      "body_content": "The committee postponed a final decision until a detailed budget could be published.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The committee delayed its final decision until a detailed budget was available."
+        },
+        {
+          "id": "b",
+          "label": "The committee made a final decision before any budget was published.",
+          "feedback": "הפוך מ-postponed until."
+        },
+        {
+          "id": "c",
+          "label": "The committee rejected the project immediately.",
+          "feedback": "לא נאמר."
+        },
+        {
+          "id": "d",
+          "label": "The committee published the budget and then voted at once.",
+          "feedback": "סותר את הדחייה עד לפרסום התקציב."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. postponed... until ≈ delayed... until.",
+      "feedback_try": "נשמרים שני חלקים: הדחייה, והתנאי של תקציב מפורט. אישור או דחייה מיידית חורגים.",
+      "can_do": "ניסוח מחדש בסימולציה",
+      "worked_method": "שמרו על postponed ועל until.\nזו דחייה עד תנאי.\nפסלו החלטה מוקדמת.",
+      "hint": "מה נשמר כשמחליפים postpone ב-delay?"
+    },
+    {
+      "id": "am_sim_p4",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סימולציה: רעיון שביל",
+      "body_he": "מה הרעיון המרכזי של הקטע?",
+      "body_content": "City planners in a mid-sized town proposed turning a rarely used railway corridor into a tree-lined walking path. Supporters argued that the path would give residents a safe route away from busy streets and would encourage short trips on foot. Opponents claimed that the project would cost too much and that the land should be reserved for a future road. A follow-up survey found that most residents who lived within a ten-minute walk of the corridor supported the path, while support was weaker among people who usually commute by car from farther neighborhoods. The planning committee postponed a final decision until a detailed budget could be published.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "A proposal to turn a railway corridor into a walking path has mixed support and is waiting for a published budget."
+        },
+        {
+          "id": "b",
+          "label": "The town has already opened the walking path.",
+          "feedback": "ההחלטה נדחתה, התכנית עוד לא אושרה."
+        },
+        {
+          "id": "c",
+          "label": "Everyone in the town opposes the path.",
+          "feedback": "יש תומכים, בעיקר ליד המסדרון."
+        },
+        {
+          "id": "d",
+          "label": "The land has already been used for a new road.",
+          "feedback": "זו רק העמדה של המתנגדים, לא מצב קיים."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. הקטע מציג הצעה, נימוקים לשני הצדדים, ממצא מסקר, ודחיית החלטה.",
+      "feedback_try": "הרעיון המרכזי מחבר את כל החלקים, לא רק את עמדת התומכים או המתנגדים.",
+      "can_do": "רעיון מרכזי בסימולציה",
+      "worked_method": "סכמו ארבעה חלקים: הצעה, ויכוח, סקר, דחייה.\nזו התמונה המלאה.\nפסלו already opened.",
+      "hint": "האם התקבלה החלטה סופית בקטע?"
+    },
+    {
+      "id": "am_sim_p5",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סימולציה: פרט סקר",
+      "body_he": "לפי הסקר, היכן התמיכה בשביל הייתה חזקה יותר?",
+      "body_content": "City planners in a mid-sized town proposed turning a rarely used railway corridor into a tree-lined walking path. Supporters argued that the path would give residents a safe route away from busy streets and would encourage short trips on foot. Opponents claimed that the project would cost too much and that the land should be reserved for a future road. A follow-up survey found that most residents who lived within a ten-minute walk of the corridor supported the path, while support was weaker among people who usually commute by car from farther neighborhoods. The planning committee postponed a final decision until a detailed budget could be published.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Among residents who lived within a ten-minute walk of the corridor."
+        },
+        {
+          "id": "b",
+          "label": "Among people who usually commute by car from farther neighborhoods.",
+          "feedback": "שם התמיכה הייתה חלשה יותר."
+        },
+        {
+          "id": "c",
+          "label": "Only among shop owners.",
+          "feedback": "לא נאמר."
+        },
+        {
+          "id": "d",
+          "label": "The survey did not distinguish between groups.",
+          "feedback": "הקטע מבחין במפורש בין שתי קבוצות."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. most residents who lived within a ten-minute walk... supported the path.",
+      "feedback_try": "יש ניגוד מפורש בין מי שגר קרוב לבין נוסעי הרכב משכונות רחוקות יותר.",
+      "can_do": "פרט מפורש בסימולציה",
+      "worked_method": "חפשו follow-up survey.\nשתי קבוצות.\nהתמיכה חזקה יותר אצל הגרים במרחק הליכה.",
+      "hint": "אילו שתי קבוצות הסקר משווה?"
+    },
+    {
+      "id": "am_sim_p6",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סימולציה: הסקה",
+      "body_he": "מה אפשר להסיק מהמשפט האחרון?",
+      "body_content": "City planners in a mid-sized town proposed turning a rarely used railway corridor into a tree-lined walking path. Supporters argued that the path would give residents a safe route away from busy streets and would encourage short trips on foot. Opponents claimed that the project would cost too much and that the land should be reserved for a future road. A follow-up survey found that most residents who lived within a ten-minute walk of the corridor supported the path, while support was weaker among people who usually commute by car from farther neighborhoods. The planning committee postponed a final decision until a detailed budget could be published.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "The committee wanted more budget information before deciding."
+        },
+        {
+          "id": "b",
+          "label": "The committee had already approved the path.",
+          "feedback": "postponed a final decision סותר אישור."
+        },
+        {
+          "id": "c",
+          "label": "A detailed budget had already been published.",
+          "feedback": "until a detailed budget could be published אומר שטרם פורסם."
+        },
+        {
+          "id": "d",
+          "label": "The survey results were ignored.",
+          "feedback": "לא נאמר; נאמר רק שההחלטה נדחתה עד לתקציב."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. דחייה עד לפרסום תקציב מפורט משמעה שחסר מידע תקציבי להחלטה.",
+      "feedback_try": "זו הסקה צמודה ל-postponed... until. תשובות על אישור או על תקציב שכבר פורסם סותרות את הכתוב.",
+      "can_do": "הסקה זהירה בסימולציה",
+      "worked_method": "קראו postponed until.\nמה חסר? תקציב מפורט.\nזו ההסקה.",
+      "hint": "מה התנאי שעומד בפני ההחלטה הסופית?"
+    },
+    {
+      "id": "am_sim_p7",
+      "type": "practice",
+      "kind": "understanding",
+      "title": "סימולציה: ניסוח weaker support",
+      "body_he": "בחרו את המשפט הקרוב ביותר במשמעות למשפט הזה.",
+      "body_content": "Support was weaker among people who usually commute by car from farther neighborhoods.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "People who typically drive in from more distant neighborhoods were less likely to support the path."
+        },
+        {
+          "id": "b",
+          "label": "People who typically drive in from more distant neighborhoods were the strongest supporters.",
+          "feedback": "הפוך מ-weaker."
+        },
+        {
+          "id": "c",
+          "label": "No one from farther neighborhoods had an opinion.",
+          "feedback": "חורג מהכתוב."
+        },
+        {
+          "id": "d",
+          "label": "Car commuters refused to answer the survey.",
+          "feedback": "לא נאמר."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. weaker support ≈ less likely to support, עם אותה קבוצה.",
+      "feedback_try": "נשמרים הקבוצה והכיוון: תמיכה חלשה יותר, לא היעדר דעה ולא תמיכה חזקה.",
+      "can_do": "ניסוח מחדש בסימולציה",
+      "worked_method": "שמרו על weaker ועל אותה קבוצה.\nless likely to support.\nפסלו strongest.",
+      "hint": "איך מנסחים weaker support בלי להפוך את הכיוון?"
+    },
+    {
+      "id": "am_sim_chk",
+      "type": "check",
+      "kind": "understanding",
+      "title": "סימולציה: provided that",
+      "body_he": "בחרו את המילה שמשלימה את המשפט.",
+      "body_content": "The path can be built ____ the budget is approved.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "provided that"
+        },
+        {
+          "id": "b",
+          "label": "unless",
+          "feedback": "unless הופך את התנאי: ייננה אם התקציב לא יאושר."
+        },
+        {
+          "id": "c",
+          "label": "despite",
+          "feedback": "despite לא מתאים כאן דקדוקית או לוגית."
+        },
+        {
+          "id": "d",
+          "label": "in contrast",
+          "feedback": "אין כאן ניגוד בין שני משפטים עצמאיים."
+        }
+      ],
+      "correct": "a",
+      "feedback_ok": "נכון. provided that = בתנאי ש, והתקציב הוא תנאי חיובי לבנייה.",
+      "feedback_try": "unless הופך את התנאי. despite ו-in contrast לא מתאימים למבנה.",
+      "can_do": "השלמת תנאי בסימולציה",
+      "worked_method": "שאלו מתי אפשר לבנות.\nאם התקציב יאושר.\nprovided that, לא unless.",
+      "hint": "provided that או unless לפני the budget is approved?"
+    },
+    {
+      "id": "am_end_celebrate",
+      "type": "celebrate",
+      "kind": "understanding",
+      "title": "כל הכבוד",
+      "body_he": "סיימתם דרך תרגול מלא באמירנט: מבנה המבחן, אוצר מילים, השלמת משפט, ניסוח מחדש, הבנת הנקרא, חזרה וסימולציה מעורבת. אין כאן מבדק רמה ואין דרישת קדם. הציון הרשמי הוא על סולם 50 עד 150, ומשך המבחן הוא כ-50 דקות; ספי פטור של מוסדות, מספר השאלות המדויק בכל פרק וחלוקת הזמן הפנימית לא אומתו כאן. אפשר לחזור לשלבים חלשים ולתרגל שוב לפני מועד הבחינה.",
+      "body_content": "You finished a full AMIRNET practice road: test structure, vocabulary, sentence completion, restatement, reading, review, and a mixed simulation. There is no placement test here and no prerequisite. The official scale is 50 to 150, and the test lasts about 50 minutes. Institutional cutoffs, exact item counts, and internal timing are unverified here. Revisit weaker stages before your exam date.",
+      "can_do": "לחזור לשלבים חלשים ולהמשיך להתכונן לאמירנט"
     }
-   ],
-   "correct": "a",
-   "feedback_ok": "נכון. reproducible = אפשר לחזור עליהן ולקבל אותו דבר.",
-   "feedback_try": "החלק אחרי ה-; מסביר: ניסויים נוספים נתנו כמעט אותן תוצאות. לכן reproducible.",
-   "can_do": "להשלים מילה לפי הסבר במשפט",
-   "worked_method": "מצאו את ההסבר אחרי ה-;.\nהוא אומר שהתוצאות חזרו שוב.\nהמילה שמתאימה לתוצאות שחוזרות: reproducible.",
-   "hint": "מה קרה בניסויים הנוספים?"
-  },
-  {
-   "id": "am_comp_p2",
-   "type": "practice",
-   "kind": "understanding",
-   "title": "מילת ניגוד",
-   "body_he": "בחרו את המילה שמשלימה את המשפט.",
-   "body_content": "Although the bridge looked ______, engineers found serious cracks inside it.",
-   "choices": [
-    {
-     "id": "a",
-     "label": "solid"
-    },
-    {
-     "id": "b",
-     "label": "damaged",
-     "feedback": "although מסמנת ניגוד. אם הגשר נראה פגוע, אין ניגוד לסדקים."
-    },
-    {
-     "id": "c",
-     "label": "fragile",
-     "feedback": "fragile בכיוון של הסדקים, ו-although דורשת כיוון הפוך."
-    }
-   ],
-   "correct": "a",
-   "feedback_ok": "נכון. although מסמנת ניגוד: נראה יציב, אבל היו סדקים.",
-   "feedback_try": "although אומרת שהחלק הראשון הפוך לשני. בשני יש סדקים, לכן בראשון הגשר נראה solid.",
-   "can_do": "להשתמש במילת ניגוד כדי לבחור מילה",
-   "worked_method": "סמנו את מילת הקישור: although = ניגוד.\nהחלק השני: סדקים רציניים.\nההפך מזה: נראה יציב. התשובה: solid.",
-   "hint": "although מסמנת ניגוד בין שני חלקי המשפט."
-  },
-  {
-   "id": "am_comp_chk",
-   "type": "check",
-   "kind": "understanding",
-   "title": "מילת סיבה",
-   "body_he": "בחרו את המילה שמשלימה את המשפט.",
-   "body_content": "Because the instructions were so ______, almost every student completed the task without help.",
-   "choices": [
-    {
-     "id": "a",
-     "label": "clear"
-    },
-    {
-     "id": "b",
-     "label": "vague",
-     "feedback": "אם ההוראות לא ברורות, תלמידים היו צריכים עזרה."
-    },
-    {
-     "id": "c",
-     "label": "lengthy",
-     "feedback": "ארוכות לא מסבירות למה הצליחו בלי עזרה."
-    }
-   ],
-   "correct": "a",
-   "feedback_ok": "נכון. because מחברת סיבה ותוצאה: הוראות ברורות, ולכן הצליחו לבד.",
-   "feedback_try": "התוצאה: כמעט כולם הצליחו בלי עזרה. הסיבה שמתאימה: ההוראות היו clear.",
-   "can_do": "להשתמש במילת סיבה כדי לבחור מילה",
-   "worked_method": "מצאו את התוצאה: הצליחו בלי עזרה.\nשאלו: מה גורם לזה?\nהוראות ברורות. התשובה: clear.",
-   "hint": "because: החלק הראשון הוא הסיבה לחלק השני."
-  },
-  {
-   "id": "am_rest_learn",
-   "type": "learn",
-   "kind": "understanding",
-   "title": "אותה משמעות בדיוק",
-   "body_he": "בניסוח מחדש מחפשים משפט שאומר בדיוק את אותו הדבר. בודקים שלושה דברים: מי עושה מה, מה הכיוון (חיובי או שלילי), ומילים כמו only, not, all, some. תשובה שמוסיפה מידע או מחסירה חלק היא לא נכונה, גם אם היא נשמעת דומה.",
-   "body_content": "Same meaning: who, direction, only/not/all/some.",
-   "can_do": "לבדוק שתשובה שומרת את כל המשמעות"
-  },
-  {
-   "id": "am_rest_p1",
-   "type": "practice",
-   "kind": "understanding",
-   "title": "חיסכון ומורל",
-   "body_he": "איזה משפט אומר את אותו הדבר?",
-   "body_content": "Although the new policy reduced costs, it also lowered employee satisfaction.",
-   "choices": [
-    {
-     "id": "a",
-     "label": "The policy cut expenses but damaged morale."
-    },
-    {
-     "id": "b",
-     "label": "Costs fell and satisfaction rose.",
-     "feedback": "במקור שביעות הרצון ירדה, לא עלתה."
-    },
-    {
-     "id": "c",
-     "label": "Satisfaction improved once costs were controlled.",
-     "feedback": "הכיוון הפוך: במקור שביעות הרצון ירדה."
-    }
-   ],
-   "correct": "a",
-   "feedback_ok": "נכון. שני החלקים נשמרו: העלויות ירדו, ושביעות הרצון ירדה.",
-   "feedback_try": "במקור יש שני חלקים: עלויות ירדו, ושביעות רצון ירדה. רק The policy cut expenses but damaged morale שומרת את שניהם.",
-   "can_do": "לבחור ניסוח ששומר שני חלקים",
-   "worked_method": "פרקו את המקור לשני חלקים: עלויות ירדו; שביעות רצון ירדה.\nבדקו כל תשובה מול שני החלקים.\nרק אחת שומרת את שניהם: The policy cut expenses but damaged morale.",
-   "hint": "בדקו מה קרה לשביעות הרצון במקור."
-  },
-  {
-   "id": "am_rest_chk",
-   "type": "check",
-   "kind": "understanding",
-   "title": "רק חלק",
-   "body_he": "איזה משפט אומר את אותו הדבר?",
-   "body_content": "Only a few of the volunteers had any previous experience.",
-   "choices": [
-    {
-     "id": "a",
-     "label": "Most of the volunteers were new to this kind of work."
-    },
-    {
-     "id": "b",
-     "label": "None of the volunteers had experience.",
-     "feedback": "במקור היו כמה עם ניסיון, לא אף אחד."
-    },
-    {
-     "id": "c",
-     "label": "The volunteers were all experienced.",
-     "feedback": "only a few אומר שרובם בלי ניסיון."
-    }
-   ],
-   "correct": "a",
-   "feedback_ok": "נכון. only a few עם ניסיון = רובם חדשים.",
-   "feedback_try": "only a few = מעטים. אז רוב המתנדבים בלי ניסיון, וזה Most of the volunteers were new to this kind of work.",
-   "can_do": "לשמור כמות (only, all, none) בניסוח מחדש",
-   "worked_method": "סמנו את המילה only a few.\nמעטים עם ניסיון אומר שרובם בלי ניסיון.\nהתשובה: Most of the volunteers were new to this kind of work.",
-   "hint": "שימו לב ל-only a few: כמה זה?"
-  },
-  {
-   "id": "am_read_learn",
-   "type": "learn",
-   "kind": "understanding",
-   "title": "קטע קצר, שאלה אחת",
-   "body_he": "קראו קודם את השאלה, אחר כך את הקטע. בשאלת סיבה חפשו מה השתנה לפני התוצאה. התשובה חייבת להופיע בקטע או לנבוע ממנו ישירות.",
-   "body_content": "Question first, then the passage.",
-   "can_do": "לקרוא קטע מתוך השאלה"
-  },
-  {
-   "id": "am_read_p1",
-   "type": "practice",
-   "kind": "understanding",
-   "title": "האצות בעיר החוף",
-   "body_he": "מה מסביר הכי ישירות את הירידה באצות?",
-   "body_content": "A small coastal town began measuring water quality after residents reported unusual algae. Early tests showed elevated nutrient levels near the river mouth. Officials later discovered that a nearby farm had changed its fertilizer schedule. Within two seasons the algae decreased.",
-   "choices": [
-    {
-     "id": "a",
-     "label": "a change in farm practice"
-    },
-    {
-     "id": "b",
-     "label": "new measurement tools",
-     "feedback": "המדידות רק מצאו את הבעיה, לא פתרו אותה."
-    },
-    {
-     "id": "c",
-     "label": "colder weather",
-     "feedback": "מזג אוויר לא מוזכר בקטע."
-    }
-   ],
-   "correct": "a",
-   "feedback_ok": "נכון. החווה שינתה את הדישון, ואחרי שתי עונות האצות ירדו.",
-   "feedback_try": "בקטע, מה שהשתנה לפני הירידה הוא לוח הדישון של החווה. לכן a change in farm practice.",
-   "can_do": "למצוא סיבה בקטע קצר",
-   "worked_method": "חפשו בקטע מה השתנה.\nהדבר היחיד שהשתנה הוא הדישון בחווה.\nאחריו האצות ירדו. התשובה: a change in farm practice.",
-   "hint": "מה גילו הפקידים בסוף?"
-  },
-  {
-   "id": "am_read_chk",
-   "type": "check",
-   "kind": "understanding",
-   "title": "רעיון מרכזי",
-   "body_he": "מה הרעיון המרכזי של הקטע?",
-   "body_content": "Many people believe that multitasking saves time. However, studies of office workers suggest that switching between tasks often increases the total time needed and raises the number of errors. Focusing on one task at a time may therefore be more efficient.",
-   "choices": [
-    {
-     "id": "a",
-     "label": "Doing one task at a time may work better than multitasking."
-    },
-    {
-     "id": "b",
-     "label": "Office workers make more errors than other workers.",
-     "feedback": "הקטע לא משווה בין עובדי משרד לעובדים אחרים."
-    },
-    {
-     "id": "c",
-     "label": "Multitasking saves time for most people.",
-     "feedback": "זו האמונה שהקטע מערער, לא המסקנה שלו."
-    }
-   ],
-   "correct": "a",
-   "feedback_ok": "נכון. However מסמן את הטענה של הכותב, והמשפט האחרון מסכם אותה.",
-   "feedback_try": "אחרי However באה הטענה של הכותב, והמשפט האחרון מסכם: להתמקד במשימה אחת יעיל יותר.",
-   "can_do": "למצוא רעיון מרכזי בקטע",
-   "worked_method": "מצאו את However: אחריה בא מה שהכותב חושב.\nהמשפט האחרון מסכם את זה.\nהתשובה: Doing one task at a time may work better than multitasking.",
-   "hint": "מה בא אחרי However?"
-  },
-  {
-   "id": "am_mix_learn",
-   "type": "learn",
-   "kind": "understanding",
-   "title": "כמו במבחן",
-   "body_he": "במבחן אין הפסקות, וחוזרים אחורה רק בתוך אותו פרק. תשובה חסרה נספרת כטעות, לכן עדיף לנחש מאשר להשאיר ריק. המבחן מסתגל, וכאן לא משחזרים את זה. כאן מתרגלים ערבוב של שלושת הסוגים.",
-   "body_content": "No blanks: a missing answer counts as wrong.",
-   "can_do": "לדעת את כללי הזמן והניחוש"
-  },
-  {
-   "id": "am_mix_r1",
-   "type": "practice",
-   "kind": "review",
-   "title": "חזרה: השלמה",
-   "body_he": "בחרו את המילה שמשלימה את המשפט.",
-   "body_content": "The museum's new exhibit was so ______ that visitors waited in line for hours.",
-   "choices": [
-    {
-     "id": "a",
-     "label": "popular"
-    },
-    {
-     "id": "b",
-     "label": "obscure",
-     "feedback": "אם התערוכה לא מוכרת, לא היו תורים ארוכים."
-    },
-    {
-     "id": "c",
-     "label": "brief",
-     "feedback": "קצרה לא מסבירה למה חיכו שעות."
-    }
-   ],
-   "correct": "a",
-   "feedback_ok": "נכון. so ... that: פופולרית, ולכן התורים.",
-   "feedback_try": "so ... that מחבר סיבה לתוצאה. התוצאה היא תורים ארוכים, לכן popular.",
-   "can_do": "להשלים משפט בתרגול מעורב",
-   "worked_method": "מצאו את התוצאה אחרי that: חיכו שעות.\nמה גורם לזה? תערוכה מבוקשת.\nהתשובה: popular.",
-   "hint": "so ... that: מה גרם לתורים?",
-   "review_topic_ids": [
-    "t_complete"
-   ]
-  },
-  {
-   "id": "am_mix_r2",
-   "type": "check",
-   "kind": "review",
-   "title": "חזרה: ניסוח מחדש",
-   "body_he": "איזה משפט אומר את אותו הדבר?",
-   "body_content": "The report was not published until the errors had been corrected.",
-   "choices": [
-    {
-     "id": "a",
-     "label": "The report came out only after the errors were fixed."
-    },
-    {
-     "id": "b",
-     "label": "The report was published with several errors.",
-     "feedback": "במקור תיקנו את הטעויות לפני הפרסום."
-    },
-    {
-     "id": "c",
-     "label": "The errors were found after the report came out.",
-     "feedback": "הסדר הפוך: התיקון היה לפני הפרסום."
-    }
-   ],
-   "correct": "a",
-   "feedback_ok": "נכון. not ... until = רק אחרי.",
-   "feedback_try": "not ... until אומר שהפרסום בא רק אחרי התיקון. זה The report came out only after the errors were fixed.",
-   "can_do": "לשמור סדר זמנים בניסוח מחדש",
-   "worked_method": "סמנו not ... until: זה אומר רק אחרי.\nקודם תיקון, אחר כך פרסום.\nהתשובה: The report came out only after the errors were fixed.",
-   "hint": "not ... until: מה קרה קודם?",
-   "review_topic_ids": [
-    "t_restate"
-   ]
-  },
-  {
-   "id": "am_celebrate",
-   "type": "celebrate",
-   "kind": "understanding",
-   "title": "סיום דרך",
-   "body_he": "סיימתם את דרך הפתיחה לאמירנט. בדקו באתר של המוסד שלכם איזה ציון צריך לפטור או לשיבוץ.",
-   "body_content": "AMIRNET starter road done.",
-   "can_do": "לגשת לתרגול אמירנט עם שלושת סוגי השאלות"
-  }
- ]
+  ],
+  "prerequisite_path_ids": []
 }
